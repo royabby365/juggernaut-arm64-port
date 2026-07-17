@@ -134,7 +134,7 @@ public class assets : MonoBehaviour
 				player = character;
 				player_bones_transform_cache = (player.GetComponent<character_parameters>() as character_parameters).Bones.transform;
 				player_transform_cache = player.transform;
-				player_character_cache = player.GetComponent("character");
+				player_character_cache = player.GetComponent<character_parameters>();
 			}
 			else
 			{
@@ -142,7 +142,7 @@ public class assets : MonoBehaviour
 				enemy = character;
 				enemy_bones_transform_cache = (enemy.GetComponent<character_parameters>() as character_parameters).Bones.transform;
 				enemy_transform_cache = enemy.transform;
-				enemy_character_cache = enemy.GetComponent("character");
+				enemy_character_cache = enemy.GetComponent<character_parameters>();
 			}
 		}
 	}
