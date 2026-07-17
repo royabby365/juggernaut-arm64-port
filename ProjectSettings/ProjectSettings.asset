@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!129 &1
+PlayerSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 21
+  productGUID: 6f3a1c2e4b5d4a3c9b8e7f6d5c4b3a21
+  AndroidProfiler: 0
+  AndroidFilterTouchesWhenObscured: 0
+  AndroidEnableSustainedPerformanceMode: 0
+  defaultScreenOrientation: 1
+  targetDevice: 2
+  useOnDemandResources: 0
+  accelerometerFrequency: 60
+  companyName: MY.GAMES
+  productName: Juggernaut Revenge of Sovering
+  applicationIdentifier:
+    Android: ru.mail.games.juggernaut
+  buildNumber:
+    Android: 1
+  bundleVersion: 2.4.3
+  scriptingBackend:
+    Android: 1
+  il2cppCompilerConfiguration:
+    Android: 0
+  managedStrippingLevel:
+    Android: 1
+  targetArchitectures:
+    Android: 4
+  AndroidTargetArchitectures: 4
+  armv7: 0
+  arm64: 1
+  x86: 0
+  x86_64: 0
+  scriptingDefineSymbols: {}
+  useAPKExpansionFiles: 0
+  androidMinSdkVersion: 22
+  androidTargetSdkVersion: 31
+  androidPreferredInstallLocation: 0
+  androidSplashScreenScale: 0
+  androidSplashShow: 1
+  m_ScriptingBackend:
+    Android: 1
+  apiCompatibilityLevel: 2
+  apiCompatibilityLevelPerPlatform: {}
+  activeColorSpace: 1
+  m_RenderingPath: 1
+  m_MobileRenderingPath: 1

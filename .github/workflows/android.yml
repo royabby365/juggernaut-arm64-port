@@ -1,0 +1,43 @@
+name: Build Android (arm64) APK
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main, master ]
+
+jobs:
+  build:
+    name: Unity Android Build
+    runs-on: ubuntu-latest
+    # GameCI requires a Unity license. Set these secrets in repo Settings > Secrets:
+    #   UNITY_LICENSE          full license content (unity-editor.license file contents)
+    #   UNITY_EMAIL            your Unity account email
+    #   UNITY_PASSWORD         your Unity account password
+    # For a free Personal license, use game-ci/activation to generate UNITY_LICENSE once.
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Unity Build (Android, IL2CPP, arm64)
+        uses: game-ci/unity-builder@v4
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+        with:
+          targetPlatform: Android
+          buildMethod: UnityEditor.BuildPipeline.BuildPlayer
+          androidAppBundle: false
+          androidKeystoreName: user.keystore
+          androidKeystoreBase64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          androidKeystorePass: ${{ secrets.ANDROID_KEYSTORE_PASS }}
+          androidKeyaliasName: ${{ secrets.ANDROID_KEYALIAS_NAME }}
+          androidKeyaliasPass: ${{ secrets.ANDROID_KEYALIAS_PASS }}
+          versioning: Semantic
+          buildsPath: build
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: juggernaut-arm64-apk
+          path: build/*.apk
