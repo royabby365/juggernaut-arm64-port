@@ -26,8 +26,9 @@ jobs:
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
         with:
           targetPlatform: Android
+          unityVersion: 2021.3.45f1
           buildMethod: UnityEditor.BuildPipeline.BuildPlayer
-          androidAppBundle: false
+          androidExportType: androidPackage
           androidKeystoreName: user.keystore
           androidKeystoreBase64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
           androidKeystorePass: ${{ secrets.ANDROID_KEYSTORE_PASS }}
@@ -35,6 +36,7 @@ jobs:
           androidKeyaliasPass: ${{ secrets.ANDROID_KEYALIAS_PASS }}
           versioning: Semantic
           buildsPath: build
+          skipActivation: false
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
