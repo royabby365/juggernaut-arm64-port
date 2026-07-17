@@ -13,56 +13,41 @@ Android 16). Private repo — proprietary MY.GAMES title, personal/archival use 
   (`sharedassets0.assets`, `mainData`, `unity default resources`) — see caveats
 - `ProjectSettings/` — ARM64 (arm64-v8a) ONLY + IL2CPP + minSdk 22, pre-set
 - `Packages/manifest.json`, `Assets/Plugins/Android/AndroidManifest.xml`
-- `.github/workflows/android.yml` — GameCI build → signed arm64 APK artifact
 - `extract_assets.sh` — reassembles the asset containers (already run)
 - `ASSETS_SETUP.md` — the one remaining manual bridge (asset format)
+- `LOCAL_BUILD.md` — **START HERE**: full local build walkthrough
 
 ---
 
-## Turnkey build — 3 steps
+## Build it — local (recommended)
 
-### 1. Add GitHub Secrets (Settings → Secrets and variables → Actions → New repository secret)
-| Secret | Value |
-|---|---|
-| `UNITY_LICENSE` | Contents of your `Unity.lic` / `unity-editor.license` file |
-| `UNITY_EMAIL` | Your Unity account email |
-| `UNITY_PASSWORD` | Your Unity account password |
+GameCI's free-license activation is deprecated, so the CI route is blocked.
+Build locally instead — it's actually simpler. Full steps in **`LOCAL_BUILD.md`**:
 
-Generate `UNITY_LICENSE` once (free Personal license): run the
-[game-ci/activation](https://github.com/game-ci/activation) step, open the issued
-`Unity` PR on your fork, download `unity-editor.lic`, paste its contents as the secret.
-
-Optional — for a **signed** APK (needed to install outside Play Store):
-| Secret | Value |
-|---|---|
-| `ANDROID_KEYSTORE_BASE64` | `base64 -w0 my.keystore` |
-| `ANDROID_KEYSTORE_PASS` | keystore password |
-| `ANDROID_KEYALIAS_NAME` | alias name |
-| `ANDROID_KEYALIAS_PASS` | alias password |
-
-### 2. Run the workflow
-**Actions → "Build Android (arm64) APK" → Run workflow.**
-GameCI installs Unity 2021.3 + Android (SDK/NDK), builds IL2CPP/arm64, uploads the
-APK as artifact `juggernaut-arm64-apk`. Download → `adb install` on the Pixel.
-
-### 3. (Only if the build is an empty shell) Fix asset import
-The `Assets/GameData/` containers are Unity **4.x** format. Unity 2021 *may* import
-`sharedassets0.assets` directly; if it rejects it, bridge via UABE or re-save in
-4.x/5.x — full steps in `ASSETS_SETUP.md`. After bridging, commit & push; re-run
-the workflow.
+1. Install **Unity Hub** → add **Unity 2021.3.45f1** with **Android Build Support**
+   (includes SDK/NDK/JDK).
+2. Open this repo folder as a project.
+3. File → Build Settings → Android → set **Scripting Backend = IL2CPP**,
+   **Target Architectures = ARM64 only** (already pre-set in ProjectSettings) → Build.
+4. `adb install build/Juggernaut.apk` on the Pixel 10 Pro.
 
 ---
 
-## Local build (alternative to CI)
-Open this folder in **Unity 2021.3.45f1** (with Android Build Support).
-Build Settings → Android → IL2CPP → ARM64 only → Build.
+## Build it — CI (fallback, needs a real license file)
+
+`.github/workflows/android.yml` runs GameCI `unity-builder@v4`. It needs a
+**`UNITY_LICENSE`** secret containing a valid Unity `.ulf` license (exported from
+Unity Hub on a machine you control) **plus** `UNITY_EMAIL` / `UNITY_PASSWORD`.
+GameCI can no longer auto-activate free personal licenses, so the license file
+must be supplied manually. Optional `ANDROID_KEYSTORE_*` secrets sign the APK.
 
 ---
 
 ## Honest status / risks
-- ✅ Code fully ported & pre-fixed. ✅ Build config + CI ready. ✅ Assets extracted.
+- ✅ Code fully ported & pre-fixed. ✅ Build config ready. ✅ Assets extracted.
 - ⚠️ Unity 4.x→2021 **asset format** is the only real unknown — may need a manual
   bridge (UABE / re-save). Cannot be validated headless (no Unity Editor here).
+  See `ASSETS_SETUP.md`.
 - ⚠️ First compile may surface a few decompile-artifact issues (type-name casing,
-  any `WWW` usage). Normal — quick to clear in the Editor/CI log.
+  any `WWW` usage). Normal — quick to clear in the Editor log.
 - ⚠️ Proprietary title — do not redistribute.
