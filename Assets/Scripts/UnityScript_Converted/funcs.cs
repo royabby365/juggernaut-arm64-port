@@ -23,9 +23,9 @@ public class funcs : MonoBehaviour
 			}
 			Transform transform = (Transform)obj;
 			arr.push(transform);
-			UnityRuntimeServices.Update(enumerator, transform);
+			UnityRuntimeServices.Update(ref enumerator, transform);
 			PushAllChildInArray(transform.transform, arr);
-			UnityRuntimeServices.Update(enumerator, transform);
+			UnityRuntimeServices.Update(ref enumerator, transform);
 		}
 	}
 
@@ -50,7 +50,7 @@ public class funcs : MonoBehaviour
 				}
 				target2 = (Transform)obj;
 				target2 = FindChildByName(target2, childname);
-				UnityRuntimeServices.Update(enumerator, target2);
+				UnityRuntimeServices.Update(ref enumerator, target2);
 				if (!target2)
 				{
 					continue;
