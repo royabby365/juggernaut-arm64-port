@@ -17,7 +17,7 @@ public class TextureAnimator : MonoBehaviour
 	private void Start()
 	{
 		_size = new Vector2(1f / (float)_uvTieX, 1f / (float)_uvTieY);
-		_myRenderer = base.renderer;
+		_myRenderer = GetComponent<Renderer>();
 		if (_myRenderer == null)
 		{
 			base.enabled = false;

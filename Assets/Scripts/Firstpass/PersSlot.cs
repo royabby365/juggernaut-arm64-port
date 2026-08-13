@@ -20,13 +20,13 @@ public class PersSlot : SpriteButton
 	public override void SetSelected()
 	{
 		base.SetSelected();
-		selected.gameObject.active = true;
+		selected.gameObject.SetActive(true);
 	}
 
 	public override void SetUnselected()
 	{
 		base.SetUnselected();
-		selected.gameObject.active = false;
+		selected.gameObject.SetActive(false);
 	}
 
 	public void EnableLongPress(bool enable)

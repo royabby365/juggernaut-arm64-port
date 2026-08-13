@@ -21,7 +21,7 @@ public class MirrorReflection : MonoBehaviour
 
 	public void OnWillRenderObject()
 	{
-		if (!base.enabled || !base.renderer || !base.renderer.sharedMaterial || !base.renderer.enabled)
+		if (!base.enabled || !GetComponent<Renderer>() || !GetComponent<Renderer>().sharedMaterial || !GetComponent<Renderer>().enabled)
 		{
 			return;
 		}
@@ -60,7 +60,7 @@ public class MirrorReflection : MonoBehaviour
 		reflectionCamera.Render();
 		reflectionCamera.transform.position = position2;
 		GL.SetRevertBackfacing(revertBackFaces: false);
-		Material[] sharedMaterials = base.renderer.sharedMaterials;
+		Material[] sharedMaterials = GetComponent<Renderer>().sharedMaterials;
 		Material[] array = sharedMaterials;
 		foreach (Material material in array)
 		{

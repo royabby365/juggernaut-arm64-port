@@ -182,7 +182,7 @@ public class MagicProtection : MonoBehaviour
 		{
 			foot.SetState(Foot.State.Lose);
 		}
-		base.animation.Play();
+		GetComponent<Animation>().Play();
 		yield return new WaitForSeconds(_tick * (float)TicksFinal);
 		Messenger.Invoke(Globals.Msg_MagicGame_Finished, "strong", arg2: false);
 		SetGameInactive();

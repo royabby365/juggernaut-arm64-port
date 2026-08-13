@@ -297,9 +297,9 @@ public class Lockpicking : SpriteGui
 		PostMessage(ServerData.PhrasesE.LockpickingPrize, FontManager.ColorE.CompareGreen);
 		LockBg.GetComponent<Animation>().Play();
 		yield return new WaitForSeconds(2f);
-		LockBg.gameObject.active = false;
+		LockBg.gameObject.SetActive(false);
 		ChestBg.SetAlpha(0.7f);
-		ChestBg.gameObject.active = true;
+		ChestBg.gameObject.SetActive(true);
 		LockCell[] cells = Cells;
 		foreach (LockCell lockCell in cells)
 		{
@@ -447,8 +447,8 @@ public class Lockpicking : SpriteGui
 	{
 		Messages.Phrase_ = ServerData.PhrasesE.Custom;
 		Messages.Text_ = string.Empty;
-		MessageIco.gameObject.active = false;
-		MessagesBg.gameObject.active = false;
+		MessageIco.gameObject.SetActive(false);
+		MessagesBg.gameObject.SetActive(false);
 	}
 
 	private void PostMessage(string fmt, int value, FontManager.ColorE color)
@@ -456,8 +456,8 @@ public class Lockpicking : SpriteGui
 		Messages.Phrase_ = ServerData.PhrasesE.Custom;
 		Messages.Text_ = string.Format(fmt, value);
 		Messages.NamedColorE_ = color;
-		MessageIco.gameObject.active = false;
-		MessagesBg.gameObject.active = true;
+		MessageIco.gameObject.SetActive(false);
+		MessagesBg.gameObject.SetActive(true);
 	}
 
 	private void PostMessage(string message, FontManager.ColorE color)
@@ -465,16 +465,16 @@ public class Lockpicking : SpriteGui
 		Messages.Phrase_ = ServerData.PhrasesE.Custom;
 		Messages.Text_ = message;
 		Messages.NamedColorE_ = color;
-		MessageIco.gameObject.active = false;
-		MessagesBg.gameObject.active = true;
+		MessageIco.gameObject.SetActive(false);
+		MessagesBg.gameObject.SetActive(true);
 	}
 
 	private void PostMessage(ServerData.PhrasesE phrase, FontManager.ColorE color)
 	{
 		Messages.Phrase_ = phrase;
 		Messages.NamedColorE_ = color;
-		MessageIco.gameObject.active = false;
-		MessagesBg.gameObject.active = true;
+		MessageIco.gameObject.SetActive(false);
+		MessagesBg.gameObject.SetActive(true);
 	}
 
 	private void ShowAll()
@@ -484,8 +484,8 @@ public class Lockpicking : SpriteGui
 
 	private void DoMakeGame(Vector2[] coords)
 	{
-		LockBg.gameObject.active = true;
-		ChestBg.gameObject.active = false;
+		LockBg.gameObject.SetActive(true);
+		ChestBg.gameObject.SetActive(false);
 		_iconIdxs.ShuffleInPlace();
 		GoToHell();
 		int num = coords.Length / 2;

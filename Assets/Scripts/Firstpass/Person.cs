@@ -146,7 +146,7 @@ public class Person : MonoBehaviour
 
 	public bool IsDead => _health <= 0;
 
-	public bool IsDeadAndNoAnimation => IsDead && !base.animation.isPlaying;
+	public bool IsDeadAndNoAnimation => IsDead && !GetComponent<Animation>().isPlaying;
 
 	internal bool IsFemale
 	{
@@ -259,9 +259,9 @@ public class Person : MonoBehaviour
 		for (int i = 0; i < CommonIdleAnims.Length; i++)
 		{
 			string text = CommonIdleAnims[i];
-			if (base.animation[text] != null)
+			if (GetComponent<Animation>()[text] != null)
 			{
-				base.animation[text].wrapMode = WrapMode.Once;
+				GetComponent<Animation>()[text].wrapMode = WrapMode.Once;
 				_idleAnims.Add(CommonIdleAnims[i]);
 			}
 		}
@@ -321,14 +321,14 @@ public class Person : MonoBehaviour
 			_step.Update(dt);
 			if (_step.Done)
 			{
-				if (_step.IdleOnDone && !base.animation.IsPlaying("damage") && !base.animation.IsPlaying("damage_force") && !base.animation.IsPlaying("block") && !base.animation.IsPlaying("dodge"))
+				if (_step.IdleOnDone && !GetComponent<Animation>().IsPlaying("damage") && !GetComponent<Animation>().IsPlaying("damage_force") && !GetComponent<Animation>().IsPlaying("block") && !GetComponent<Animation>().IsPlaying("dodge"))
 				{
 					Idle();
 				}
 				_step = null;
 			}
 		}
-		if (IsDead && _callDeathEvent && !base.animation.isPlaying)
+		if (IsDead && _callDeathEvent && !GetComponent<Animation>().isPlaying)
 		{
 			_callDeathEvent = false;
 			Messenger<Person>.Invoke(Globals.MsgPersonDie, this);
@@ -360,7 +360,7 @@ public class Person : MonoBehaviour
 	{
 		foreach (string idleAnim in _idleAnims)
 		{
-			if (base.animation.IsPlaying(idleAnim))
+			if (GetComponent<Animation>().IsPlaying(idleAnim))
 			{
 				return idleAnim;
 			}
@@ -378,7 +378,7 @@ public class Person : MonoBehaviour
 			{
 				result = ((!flag) ? _idleAnims[UnityEngine.Random.Range(0, _idleAnims.Count)] : ((!_attackJustExecuted || _idleAnims.Count <= 1 || UnityEngine.Random.Range(0, 100) >= SingletonT<ServerData>.I.GameSettings.Idle2Prob) ? _idleAnims[0] : _idleAnims[UnityEngine.Random.Range(1, _idleAnims.Count)]));
 				_attackJustExecuted = false;
-				_idleTime = Time.time + base.animation[result].length;
+				_idleTime = Time.time + GetComponent<Animation>()[result].length;
 			}
 			else
 			{
@@ -396,7 +396,7 @@ public class Person : MonoBehaviour
 	{
 		foreach (string idleAnim in _idleAnims)
 		{
-			if (base.animation.IsPlaying(idleAnim))
+			if (GetComponent<Animation>().IsPlaying(idleAnim))
 			{
 				return true;
 			}
@@ -421,23 +421,23 @@ public class Person : MonoBehaviour
 		}
 		if (inLoop)
 		{
-			AnimationState animationState = base.animation[animName];
+			AnimationState animationState = GetComponent<Animation>()[animName];
 			if (animationState != null && animationState.wrapMode != WrapMode.Loop)
 			{
 				animationState.wrapMode = WrapMode.Loop;
 			}
 		}
-		if (!(base.animation[animName] != null))
+		if (!(GetComponent<Animation>()[animName] != null))
 		{
 			return;
 		}
 		if (crossFade)
 		{
-			base.animation.CrossFade(animName, 0.5f);
+			GetComponent<Animation>().CrossFade(animName, 0.5f);
 		}
 		else
 		{
-			base.animation.Play(animName);
+			GetComponent<Animation>().Play(animName);
 		}
 		if (Globals.MainMenu != null && HudMk1.Instance != null && (animName == "idle2" || animName == "idle3"))
 		{
@@ -964,21 +964,21 @@ public class Person : MonoBehaviour
 
 	internal float PlayAnimPart(string animName, float speed, int start, int end)
 	{
-		AnimationState animationState = base.animation[animName];
+		AnimationState animationState = GetComponent<Animation>()[animName];
 		if (animationState == null)
 		{
 			Utils.Log("PlayAnimPart can't find", animName);
 			return 0f;
 		}
 		string newName = "play_part_" + animName + "_" + start + "_" + end;
-		if (base.animation[newName] == null)
+		if (GetComponent<Animation>()[newName] == null)
 		{
-			base.animation.AddClip(animationState.clip, newName, start, end);
+			GetComponent<Animation>().AddClip(animationState.clip, newName, start, end);
 		}
-		AnimationState animationState2 = base.animation[newName];
+		AnimationState animationState2 = GetComponent<Animation>()[newName];
 		animationState2.speed = speed;
-		base.animation.wrapMode = WrapMode.Once;
-		base.animation.CrossFade(newName, 0.3f, PlayMode.StopAll);
+		GetComponent<Animation>().wrapMode = WrapMode.Once;
+		GetComponent<Animation>().CrossFade(newName, 0.3f, PlayMode.StopAll);
 		return (animationState2.length - 0.3f) / animationState2.speed;
 	}
 
@@ -989,7 +989,7 @@ public class Person : MonoBehaviour
 			WeaponTrail.SetActiveRecursivelyMk1(animName.StartsWith("attack"));
 		}
 		string text = animName;
-		if (animName.Length > 4 && base.animation[animName] == null)
+		if (animName.Length > 4 && GetComponent<Animation>()[animName] == null)
 		{
 			if (animName.StartsWith("magic"))
 			{
@@ -1008,17 +1008,17 @@ public class Person : MonoBehaviour
 				animName = "damage";
 			}
 		}
-		AnimationState animationState = base.animation[animName];
+		AnimationState animationState = GetComponent<Animation>()[animName];
 		Invs.Inv(animationState != null, "PlayAnim failed, cant find animation", text, animName);
-		base.animation.wrapMode = WrapMode.Once;
-		base.animation[animName].wrapMode = WrapMode.Once;
-		if (base.animation.IsPlaying(animName))
+		GetComponent<Animation>().wrapMode = WrapMode.Once;
+		GetComponent<Animation>()[animName].wrapMode = WrapMode.Once;
+		if (GetComponent<Animation>().IsPlaying(animName))
 		{
-			base.animation.Play(animName);
+			GetComponent<Animation>().Play(animName);
 		}
 		else
 		{
-			base.animation.CrossFade(animName, 0.3f, PlayMode.StopAll);
+			GetComponent<Animation>().CrossFade(animName, 0.3f, PlayMode.StopAll);
 		}
 		if (wait > 0f)
 		{
@@ -1111,7 +1111,7 @@ public class Person : MonoBehaviour
 		{
 			return stepSpeed;
 		}
-		AnimationState animationState = base.animation["step"];
+		AnimationState animationState = GetComponent<Animation>()["step"];
 		if (animationState != null)
 		{
 			return animationState.length / 1.15f;
@@ -1124,13 +1124,13 @@ public class Person : MonoBehaviour
 		string text = "step";
 		float stepSpeed2 = GetStepSpeed(stepSpeed);
 		float angle = ((rotateDir != -1) ? 30f : (-30f));
-		AnimationState animationState = base.animation[text];
+		AnimationState animationState = GetComponent<Animation>()[text];
 		if (animate == 1 && animationState != null)
 		{
 			animationState.speed = ((dir != 1) ? (-1f) : 1f);
 			animationState.time = 0f;
 			animationState.wrapMode = WrapMode.Loop;
-			base.animation.Play(text);
+			GetComponent<Animation>().Play(text);
 		}
 		_step = new StepData(base.transform, Globals.Battle.ArenaCenter.transform, angle, stepSpeed2, animate == 1);
 	}
@@ -1209,7 +1209,7 @@ public class Person : MonoBehaviour
 	protected string GetForwardAnimationName()
 	{
 		string result = "attack";
-		if (base.animation["attack_uppercot"] != null && UnityEngine.Random.Range(0, 100) < 50)
+		if (GetComponent<Animation>()["attack_uppercot"] != null && UnityEngine.Random.Range(0, 100) < 50)
 		{
 			result = "attack_uppercot";
 		}

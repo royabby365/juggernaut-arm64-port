@@ -15,35 +15,35 @@ public class RendererHandler : MonoBehaviour
 	internal void ShowOrHideMethod(bool show)
 	{
 		_hide = !show;
-		if ((!_culled || !show) && base.renderer != null)
+		if ((!_culled || !show) && GetComponent<Renderer>() != null)
 		{
-			base.renderer.enabled = show;
+			GetComponent<Renderer>().enabled = show;
 		}
 	}
 
 	protected void DoTurnOnRenderer()
 	{
 		_culled = false;
-		if (base.collider != null)
+		if (GetComponent<Collider>() != null)
 		{
-			base.collider.enabled = true;
+			GetComponent<Collider>().enabled = true;
 		}
-		if (!_hide && base.renderer != null)
+		if (!_hide && GetComponent<Renderer>() != null)
 		{
-			base.renderer.enabled = true;
+			GetComponent<Renderer>().enabled = true;
 		}
 	}
 
 	protected void DoTurnOffRenderer()
 	{
 		_culled = true;
-		if (base.renderer != null)
+		if (GetComponent<Renderer>() != null)
 		{
-			base.renderer.enabled = false;
+			GetComponent<Renderer>().enabled = false;
 		}
-		if (base.collider != null)
+		if (GetComponent<Collider>() != null)
 		{
-			base.collider.enabled = false;
+			GetComponent<Collider>().enabled = false;
 		}
 	}
 
@@ -51,10 +51,10 @@ public class RendererHandler : MonoBehaviour
 	{
 		_culled = false;
 		_hide = false;
-		base.renderer.enabled = true;
-		if (base.collider != null)
+		GetComponent<Renderer>().enabled = true;
+		if (GetComponent<Collider>() != null)
 		{
-			base.collider.enabled = true;
+			GetComponent<Collider>().enabled = true;
 		}
 	}
 

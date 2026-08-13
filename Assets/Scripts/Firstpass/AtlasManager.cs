@@ -106,7 +106,7 @@ public class AtlasManager : SingletonT<AtlasManager>
 			}
 			return null;
 		}
-		gameObject.active = false;
+		gameObject.SetActive(false);
 		Atlas component = gameObject.transform.GetComponent<Atlas>();
 		_loaded[atlasName] = component;
 		return _loaded[atlasName];

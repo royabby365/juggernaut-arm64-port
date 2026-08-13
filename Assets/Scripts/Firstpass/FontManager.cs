@@ -132,7 +132,7 @@ public class FontManager : MonoBehaviour
 			}
 			return null;
 		}
-		gameObject.active = false;
+		gameObject.SetActive(false);
 		BmFont component = gameObject.transform.GetComponent<BmFont>();
 		component.Init();
 		BmFont bmFont = component;

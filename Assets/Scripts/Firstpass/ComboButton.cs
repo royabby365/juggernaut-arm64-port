@@ -9,15 +9,15 @@ public class ComboButton : SpriteButton
 	public override void SetActive()
 	{
 		base.SetActive();
-		backlit.gameObject.active = true;
-		cooldown.gameObject.active = false;
+		backlit.gameObject.SetActive(true);
+		cooldown.gameObject.SetActive(false);
 	}
 
 	public override void SetInactive()
 	{
 		base.SetInactive();
-		backlit.gameObject.active = false;
-		cooldown.gameObject.active = true;
+		backlit.gameObject.SetActive(false);
+		cooldown.gameObject.SetActive(true);
 	}
 
 	private void Awake()

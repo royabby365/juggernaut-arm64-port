@@ -29,7 +29,6 @@ jobs:
           unityVersion: 2021.3.45f1
           buildMethod: BuildScript.BuildPlayer
           androidExportType: androidPackage
-          androidBuildType: Release
           buildsPath: build
           skipActivation: false
 

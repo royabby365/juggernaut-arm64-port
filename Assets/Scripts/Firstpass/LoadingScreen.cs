@@ -16,7 +16,7 @@ public class LoadingScreen : MonoBehaviour
 
 	private ActionD _action;
 
-	public bool IsVisible => base.camera != null && base.camera.enabled;
+	public bool IsVisible => GetComponent<Camera>() != null && GetComponent<Camera>().enabled;
 
 	public void ShowLoadingScreen(ActionD action)
 	{
@@ -25,13 +25,13 @@ public class LoadingScreen : MonoBehaviour
 			_action = action;
 			StartCoroutine("LoadScreenAnimated2");
 		}
-		else if (!base.camera.enabled)
+		else if (!GetComponent<Camera>().enabled)
 		{
 			Utils.Log("ShowLoadingScreen");
 			SpriteGui.DontReleaseButtons = true;
 			_action = action;
 			StartCoroutine("LoadScreenAnimated");
-			base.camera.enabled = true;
+			GetComponent<Camera>().enabled = true;
 		}
 		else
 		{
@@ -41,7 +41,7 @@ public class LoadingScreen : MonoBehaviour
 
 	public void RefreshLoadingScreen(ActionD action)
 	{
-		if (!base.camera.enabled)
+		if (!GetComponent<Camera>().enabled)
 		{
 			ShowLoadingScreen(action);
 			return;
@@ -62,12 +62,12 @@ public class LoadingScreen : MonoBehaviour
 
 	public void HideLoadingScreen()
 	{
-		if (base.camera.enabled)
+		if (GetComponent<Camera>().enabled)
 		{
 			Utils.Log("HideLoadingScreen");
 			Messenger.Invoke(Globals.MsgLoadingScreenHided);
 			StopAllCoroutines();
-			base.camera.enabled = false;
+			GetComponent<Camera>().enabled = false;
 			SpriteGui.DontReleaseButtons = false;
 			GenerateNewTip();
 		}

@@ -12,14 +12,14 @@ public class AttackButton : SpriteButton
 	{
 		base.SetActive();
 		normal.GetComponent<MeshRenderer>().enabled = true;
-		over.gameObject.active = false;
+		over.gameObject.SetActive(false);
 	}
 
 	public override void SetInactive()
 	{
 		base.SetInactive();
 		normal.GetComponent<MeshRenderer>().enabled = false;
-		over.gameObject.active = false;
+		over.gameObject.SetActive(false);
 	}
 
 	private void Awake()
@@ -32,7 +32,7 @@ public class AttackButton : SpriteButton
 		if (--_timer == 0)
 		{
 			normal.GetComponent<MeshRenderer>().enabled = true;
-			over.gameObject.active = false;
+			over.gameObject.SetActive(false);
 		}
 	}
 
@@ -40,7 +40,7 @@ public class AttackButton : SpriteButton
 	{
 		base.Clicked();
 		normal.GetComponent<MeshRenderer>().enabled = false;
-		over.gameObject.active = true;
+		over.gameObject.SetActive(true);
 		_timer = 30;
 	}
 }

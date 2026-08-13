@@ -110,14 +110,14 @@ public class AchievementButton : SpriteButton
 	public override void SetActive()
 	{
 		base.SetActive();
-		base.renderer.ShowOrHide(show: true);
+		GetComponent<Renderer>().ShowOrHide(show: true);
 		Count.ShowOrHideMethod(show: true);
 	}
 
 	public override void SetInactive()
 	{
 		base.SetInactive();
-		base.renderer.ShowOrHide(show: false);
+		GetComponent<Renderer>().ShowOrHide(show: false);
 		Count.ShowOrHideMethod(show: false);
 	}
 

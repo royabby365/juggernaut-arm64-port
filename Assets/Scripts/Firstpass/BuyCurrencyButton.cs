@@ -31,9 +31,9 @@ public class BuyCurrencyButton : SpriteButton
 			normal.GetComponent<MeshRenderer>().enabled = true;
 			normal1.GetComponent<MeshRenderer>().enabled = true;
 			normal2.GetComponent<MeshRenderer>().enabled = true;
-			over.gameObject.active = false;
-			over1.gameObject.active = false;
-			over2.gameObject.active = false;
+			over.gameObject.SetActive(false);
+			over1.gameObject.SetActive(false);
+			over2.gameObject.SetActive(false);
 		}
 	}
 
@@ -43,9 +43,9 @@ public class BuyCurrencyButton : SpriteButton
 		normal.GetComponent<MeshRenderer>().enabled = false;
 		normal1.GetComponent<MeshRenderer>().enabled = false;
 		normal2.GetComponent<MeshRenderer>().enabled = false;
-		over.gameObject.active = true;
-		over1.gameObject.active = true;
-		over2.gameObject.active = true;
+		over.gameObject.SetActive(true);
+		over1.gameObject.SetActive(true);
+		over2.gameObject.SetActive(true);
 		_framecount = 0;
 	}
 }

@@ -48,8 +48,8 @@ public class IntroScreen : SpriteGui
 		{
 			button.SetActive();
 		}
-		DaysPass30.gameObject.active = false;
-		DaysPass4.gameObject.active = false;
+		DaysPass30.gameObject.SetActive(false);
+		DaysPass4.gameObject.SetActive(false);
 		_gsFadeInOut = SingletonT<ServerData>.I.GameSettings.IntroFadeInOutTime;
 		_gsReadingTime = SingletonT<ServerData>.I.GameSettings.IntroReadingTime;
 		_gsDayPassTime = SingletonT<ServerData>.I.GameSettings.IntroDayPassTime;
@@ -160,7 +160,7 @@ public class IntroScreen : SpriteGui
 	{
 		float startTime = Time.time;
 		dayspass.SetAlpha(0f);
-		dayspass.gameObject.active = true;
+		dayspass.gameObject.SetActive(true);
 		yield return null;
 		while (Time.time < startTime + _gsFadeInOut)
 		{
@@ -180,7 +180,7 @@ public class IntroScreen : SpriteGui
 			yield return new WaitForEndOfFrame();
 		}
 		dayspass.SetAlpha(0f);
-		dayspass.gameObject.active = false;
+		dayspass.gameObject.SetActive(false);
 		yield return null;
 	}
 

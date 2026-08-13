@@ -26,23 +26,23 @@ public class ItemDigits : MonoBehaviour
 		int num3 = 0;
 		if (num == 0)
 		{
-			handred.gameObject.active = false;
+			handred.gameObject.SetActive(false);
 			num3 += digitWidth / 2;
 		}
 		else
 		{
-			handred.gameObject.active = true;
+			handred.gameObject.SetActive(true);
 			SetDigit(handred, num);
 			num3 += digitWidth;
 		}
 		if (num == 0 && num2 == 0)
 		{
-			ten.gameObject.active = false;
+			ten.gameObject.SetActive(false);
 			num3 += digitWidth / 2;
 		}
 		else
 		{
-			ten.gameObject.active = true;
+			ten.gameObject.SetActive(true);
 			ten.localPosition = new Vector3(num3, 0f, 0f);
 			num3 += digitWidth;
 			SetDigit(ten, num2);

@@ -406,8 +406,8 @@ public class LockpickingHud : MonoBehaviour
 
 	private void DoMakeGame(Vector2[] coords)
 	{
-		LockBg.gameObject.active = true;
-		ChestBg.gameObject.active = false;
+		LockBg.gameObject.SetActive(true);
+		ChestBg.gameObject.SetActive(false);
 		_iconIdxs.ShuffleInPlace();
 		GoToHell();
 		int num = coords.Length / 2;
@@ -620,7 +620,7 @@ public class LockpickingHud : MonoBehaviour
 		float animationTime = 0f;
 		ChestBg.localScale = default(Vector3);
 		ChestBg.SetAlpha(0.7f);
-		ChestBg.gameObject.active = true;
+		ChestBg.gameObject.SetActive(true);
 		while (animationTime < GetComponent<Animation>()clip.length)
 		{
 			Vector3 scale = Vector3.Lerp(Vector3.zero, Vector3.one, animationTime / GetComponent<Animation>()clip.length);
@@ -629,7 +629,7 @@ public class LockpickingHud : MonoBehaviour
 			yield return null;
 		}
 		ChestBg.localScale = Vector3.one;
-		LockBg.gameObject.active = false;
+		LockBg.gameObject.SetActive(false);
 		if (_chest != null && _chest.Bonus != null)
 		{
 			List<ServerData.Bonus.DropElement> loot = _chest.Bonus.GetRandomDrop();

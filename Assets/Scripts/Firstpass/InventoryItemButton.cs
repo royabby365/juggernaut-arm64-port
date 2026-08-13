@@ -14,13 +14,13 @@ public class InventoryItemButton : SpriteButton
 
 	public void SetNew()
 	{
-		newBadge.gameObject.active = true;
+		newBadge.gameObject.SetActive(true);
 		shopItem.New = true;
 	}
 
 	public void RemoveNew()
 	{
-		newBadge.gameObject.active = false;
+		newBadge.gameObject.SetActive(false);
 		shopItem.New = false;
 	}
 

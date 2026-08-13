@@ -46,7 +46,7 @@ public class BagItemButton : SpriteButton, IDraggable
 
 	public void RemoveNew()
 	{
-		newBadge.gameObject.active = false;
+		newBadge.gameObject.SetActive(false);
 		item.New = false;
 	}
 

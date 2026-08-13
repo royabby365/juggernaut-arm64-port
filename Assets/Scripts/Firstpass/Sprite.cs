@@ -137,9 +137,9 @@ public class Sprite : RendererHandler, IRendererHandler
 			return;
 		}
 		_atlas = atlasBySpriteName.Item1;
-		if (!(base.renderer == null))
+		if (!(GetComponent<Renderer>() == null))
 		{
-			base.renderer.material = _atlas.Material;
+			GetComponent<Renderer>().material = _atlas.Material;
 			if (_atlas.Material == null && ++_errorsCount < 5 && Globals.IsDebugBuild)
 			{
 				Debug.LogWarning("[FACKUP 2]");

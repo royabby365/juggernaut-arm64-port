@@ -77,8 +77,8 @@ public class ShopItem : MonoBehaviour
 		}
 		price.Text_ = item.SellPrice.ToString();
 		bool flag = item.SellCurrency == ServerData.MoneyType.TypeE.Gold;
-		gold.gameObject.active = flag;
-		diamond.gameObject.active = !flag;
+		gold.gameObject.SetActive(flag);
+		diamond.gameObject.SetActive(!flag);
 		itemName.Text_ = item.Name;
 	}
 

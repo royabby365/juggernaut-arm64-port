@@ -10,7 +10,7 @@ public class MapButtonOver : SpriteButton
 
 	private void Awake()
 	{
-		Over.gameObject.active = false;
+		Over.gameObject.SetActive(false);
 	}
 
 	public override void SetActive()
@@ -29,13 +29,13 @@ public class MapButtonOver : SpriteButton
 	{
 		base.Left();
 		Normal.GetComponent<MeshRenderer>().enabled = true;
-		Over.gameObject.active = false;
+		Over.gameObject.SetActive(false);
 	}
 
 	public override void Entered()
 	{
 		base.Entered();
 		Normal.GetComponent<MeshRenderer>().enabled = false;
-		Over.gameObject.active = true;
+		Over.gameObject.SetActive(true);
 	}
 }

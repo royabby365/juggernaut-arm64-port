@@ -15,31 +15,31 @@ public class SpellButton : SpriteButton
 	public override void SetActive()
 	{
 		base.SetActive();
-		pressed.gameObject.active = false;
-		ready.gameObject.active = true;
-		enable.gameObject.active = true;
-		disable.gameObject.active = false;
+		pressed.gameObject.SetActive(false);
+		ready.gameObject.SetActive(true);
+		enable.gameObject.SetActive(true);
+		disable.gameObject.SetActive(false);
 	}
 
 	public override void SetInactive()
 	{
 		base.SetInactive();
-		pressed.gameObject.active = false;
-		ready.gameObject.active = false;
-		enable.gameObject.active = false;
-		disable.gameObject.active = true;
+		pressed.gameObject.SetActive(false);
+		ready.gameObject.SetActive(false);
+		enable.gameObject.SetActive(false);
+		disable.gameObject.SetActive(true);
 	}
 
 	public override void SetSelected()
 	{
 		base.SetSelected();
-		pressed.gameObject.active = true;
+		pressed.gameObject.SetActive(true);
 	}
 
 	public override void SetUnselected()
 	{
 		base.SetUnselected();
-		pressed.gameObject.active = false;
+		pressed.gameObject.SetActive(false);
 	}
 
 	private void Awake()
@@ -52,7 +52,7 @@ public class SpellButton : SpriteButton
 		frame_count--;
 		if (frame_count == 0)
 		{
-			pressed.gameObject.active = false;
+			pressed.gameObject.SetActive(false);
 		}
 	}
 }

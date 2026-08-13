@@ -306,7 +306,7 @@ public class Match3StartScreenHud : MonoBehaviour
 			CreateRatingEntries(new SocialAspect.ScoresInfo[0]);
 			FrameAddFriends.SetActiveRecursivelyMk1(setActive: true);
 			SpriteText componentInChildren = FrameAddFriends.GetComponentInChildren<SpriteText>();
-			componentInChildren.gameObject.active = false;
+			componentInChildren.gameObject.SetActive(false);
 			if (!ButtonPositionsFixed)
 			{
 				Vector3 position = ButtonFullRating.transform.position;

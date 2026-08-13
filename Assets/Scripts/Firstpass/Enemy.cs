@@ -200,7 +200,7 @@ internal class Enemy : Person
 			{
 				Globals.Battle.ExecuteEnemyAttack(skipStep: false);
 			}
-			else if ((bool)base.animation && !base.animation.isPlaying)
+			else if ((bool)GetComponent<Animation>() && !GetComponent<Animation>().isPlaying)
 			{
 				Idle();
 			}
@@ -627,7 +627,7 @@ internal class Enemy : Person
 		StopAllCoroutines();
 		_dontAttack = false;
 		InAttack = false;
-		base.animation.Stop();
+		GetComponent<Animation>().Stop();
 		_waitStepsEndForEnemyAttack = false;
 		_attackBlockedByPlayer = false;
 		_waitStrongMagic = false;

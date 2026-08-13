@@ -63,9 +63,9 @@ public class StartMenu : SpriteGui
 		SpriteGui.DontReleaseButtons = false;
 		_subscriptions = new CompositeDisposable();
 		_megaBonus = Random.Range(1, 3) == 1;
-		muzhik.gameObject.active = !_megaBonus;
-		angelL.gameObject.active = _megaBonus;
-		angelR.gameObject.active = _megaBonus;
+		muzhik.gameObject.SetActive(!_megaBonus);
+		angelL.gameObject.SetActive(_megaBonus);
+		angelR.gameObject.SetActive(_megaBonus);
 	}
 
 	private void OnDisable()

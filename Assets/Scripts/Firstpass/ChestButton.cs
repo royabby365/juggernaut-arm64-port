@@ -34,15 +34,15 @@ public class ChestButton : SpriteButton
 	public override void SetActive()
 	{
 		base.SetActive();
-		openBox.gameObject.active = false;
-		closedBox.gameObject.active = true;
+		openBox.gameObject.SetActive(false);
+		closedBox.gameObject.SetActive(true);
 	}
 
 	public override void SetSelected()
 	{
 		base.SetSelected();
-		openBox.gameObject.active = true;
-		closedBox.gameObject.active = false;
+		openBox.gameObject.SetActive(true);
+		closedBox.gameObject.SetActive(false);
 		if (!_lootItem.IsItem)
 		{
 			_loot = (GameObject)Object.Instantiate(lootProto);

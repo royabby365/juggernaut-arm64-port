@@ -436,7 +436,7 @@ public class PersonArmor : MonoBehaviour
 		GameObject gameObject = ((slotId != ServerData.Slot.TypeE.Eyes) ? IsArmorPutOn(setName, slotId) : null);
 		if (gameObject != null)
 		{
-			gameObject.active = true;
+			gameObject.SetActive(true);
 			if (slotId == ServerData.Slot.TypeE.Helm)
 			{
 				Transform transform = base.transform.FindChildByName("head", includeInactive: true);

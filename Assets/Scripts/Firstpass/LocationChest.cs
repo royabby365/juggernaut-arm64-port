@@ -39,7 +39,7 @@ public class LocationChest : SpriteButton
 
 	private void Update()
 	{
-		if (Animate && base.renderer.isVisible)
+		if (Animate && GetComponent<Renderer>().isVisible)
 		{
 			_sprite.Tint_ = Color.Lerp(Color.gray, _animColor, _animCurve.Evaluate(Time.time));
 		}

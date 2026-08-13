@@ -366,7 +366,7 @@ public class HudMk1 : SpriteGui
 		MainMenuGameClubButtonMk1 componentInChildren = GetComponentInChildren<MainMenuGameClubButtonMk1>();
 		if (componentInChildren != null && !UnityApi.UseGameClub())
 		{
-			componentInChildren.gameObject.active = false;
+			componentInChildren.gameObject.SetActive(false);
 		}
 		MainMenuFbButtonMk1 componentInChildren2 = GetComponentInChildren<MainMenuFbButtonMk1>();
 		if (componentInChildren2 != null)

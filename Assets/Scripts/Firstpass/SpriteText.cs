@@ -465,9 +465,9 @@ public class SpriteText : RendererHandler, IRendererHandler
 		mesh.triangles = meshData.triangles;
 		mesh.colors = meshData.colors;
 		mesh.uv = meshData.uv;
-		if (!(base.renderer == null))
+		if (!(GetComponent<Renderer>() == null))
 		{
-			base.renderer.material = fontMaterial;
+			GetComponent<Renderer>().material = fontMaterial;
 			_bounds = component.mesh.bounds;
 			if (propagateChanges)
 			{

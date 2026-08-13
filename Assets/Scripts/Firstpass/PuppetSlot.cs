@@ -23,7 +23,7 @@ public class PuppetSlot : SpriteButton
 
 	public void TurnBgOff(bool off)
 	{
-		base.renderer.ShowOrHide(!off);
+		GetComponent<Renderer>().ShowOrHide(!off);
 	}
 
 	public override void SetSelected()

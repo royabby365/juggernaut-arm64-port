@@ -44,12 +44,12 @@ public class StatBar : MonoBehaviour
 
 	private void HideTriangle()
 	{
-		triangle.gameObject.active = false;
+		triangle.gameObject.SetActive(false);
 	}
 
 	private void UnhideTriangle(int scale)
 	{
-		triangle.gameObject.active = true;
+		triangle.gameObject.SetActive(true);
 		float x = fill.localPosition.x;
 		float x2 = x + 2f * Mathf.Sign(x) * (float)scale;
 		Vector3 localPosition = triangle.localPosition;

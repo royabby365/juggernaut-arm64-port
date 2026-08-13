@@ -38,19 +38,19 @@ public class InfoFrame : MonoBehaviour
 		this.will.Text_ = will.ToString();
 		if (fire)
 		{
-			this.fire.gameObject.active = true;
+			this.fire.gameObject.SetActive(true);
 		}
 		else
 		{
-			this.fire.gameObject.active = false;
+			this.fire.gameObject.SetActive(false);
 		}
 		if (lightning)
 		{
-			this.lightning.gameObject.active = true;
+			this.lightning.gameObject.SetActive(true);
 		}
 		else
 		{
-			this.lightning.gameObject.active = false;
+			this.lightning.gameObject.SetActive(false);
 		}
 	}
 

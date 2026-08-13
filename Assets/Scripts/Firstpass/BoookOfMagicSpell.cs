@@ -20,8 +20,8 @@ public class BoookOfMagicSpell : MonoBehaviour
 
 	public void SetSpell(ServerData.Spell current, ServerData.Spell next)
 	{
-		IconDisabled.gameObject.active = current == null;
-		Icon.gameObject.active = current != null;
+		IconDisabled.gameObject.SetActive(current == null);
+		Icon.gameObject.SetActive(current != null);
 		SpellName.Text_ = ((!(current == null)) ? current.Title : string.Empty);
 		if (next == null)
 		{
@@ -71,8 +71,8 @@ public class BoookOfMagicSpell : MonoBehaviour
 
 	private void SetMaxRemoveInterface()
 	{
-		Price.gameObject.active = false;
-		Price.transform.parent.gameObject.active = false;
+		Price.gameObject.SetActive(false);
+		Price.transform.parent.gameObject.SetActive(false);
 		BuyButton.GetComponent<SpriteButton>().SetInactive();
 		BuyButton.GetComponent<SpriteButton>().UnregisterMe();
 		ButtonLable.Phrase_ = ServerData.PhrasesE.ButtonMax;

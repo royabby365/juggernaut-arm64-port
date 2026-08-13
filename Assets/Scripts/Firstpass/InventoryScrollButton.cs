@@ -18,7 +18,7 @@ public class InventoryScrollButton : SpriteButton
 	{
 		base.SetInactive();
 		normal.GetComponent<MeshRenderer>().enabled = false;
-		over.gameObject.active = false;
+		over.gameObject.SetActive(false);
 	}
 
 	private void Awake()
@@ -30,13 +30,13 @@ public class InventoryScrollButton : SpriteButton
 	{
 		base.Left();
 		normal.GetComponent<MeshRenderer>().enabled = true;
-		over.gameObject.active = false;
+		over.gameObject.SetActive(false);
 	}
 
 	public override void Entered()
 	{
 		base.Entered();
 		normal.GetComponent<MeshRenderer>().enabled = false;
-		over.gameObject.active = true;
+		over.gameObject.SetActive(true);
 	}
 }

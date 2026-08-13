@@ -184,7 +184,7 @@ public class Bag : SpriteGui, IViewportFrame
 		ArmorData[] componentsInChildren = Pers.GetComponentsInChildren<ArmorData>(includeInactive: true);
 		foreach (ArmorData armorData in componentsInChildren)
 		{
-			armorData.gameObject.active = true;
+			armorData.gameObject.SetActive(true);
 			Utils.SetAllRenderersActive(armorData, value: true);
 		}
 		Transform transform = Pers.transform.FindChildByName("head", includeInactive: true);

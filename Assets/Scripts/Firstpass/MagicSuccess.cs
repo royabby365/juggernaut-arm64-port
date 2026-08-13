@@ -24,18 +24,18 @@ public class MagicSuccess : MonoBehaviour
 
 	private void Awake()
 	{
-		ice.gameObject.active = false;
-		dark.gameObject.active = false;
-		fire.gameObject.active = false;
-		lightning.gameObject.active = false;
+		ice.gameObject.SetActive(false);
+		dark.gameObject.SetActive(false);
+		fire.gameObject.SetActive(false);
+		lightning.gameObject.SetActive(false);
 	}
 
 	private void Start()
 	{
-		ice.gameObject.active = false;
-		dark.gameObject.active = false;
-		fire.gameObject.active = false;
-		lightning.gameObject.active = false;
+		ice.gameObject.SetActive(false);
+		dark.gameObject.SetActive(false);
+		fire.gameObject.SetActive(false);
+		lightning.gameObject.SetActive(false);
 	}
 
 	private void Update()
@@ -44,7 +44,7 @@ public class MagicSuccess : MonoBehaviour
 		{
 			if (Time.time >= _end)
 			{
-				_active.gameObject.active = false;
+				_active.gameObject.SetActive(false);
 				_active = null;
 				return;
 			}
@@ -84,7 +84,7 @@ public class MagicSuccess : MonoBehaviour
 	{
 		if (!(_active != null))
 		{
-			school.gameObject.active = true;
+			school.gameObject.SetActive(true);
 			_active = school;
 			_start = Time.time;
 			_end = _start + howLong;

@@ -69,13 +69,13 @@ public class SimpleButtonVarI : MonoBehaviour
 	public void SetActive()
 	{
 		_active = true;
-		backlit.gameObject.active = true;
+		backlit.gameObject.SetActive(true);
 		RecalcRect();
 	}
 
 	public void SetInactive()
 	{
 		_active = false;
-		backlit.gameObject.active = false;
+		backlit.gameObject.SetActive(false);
 	}
 }

@@ -30,7 +30,7 @@ public class ItemButton : SpriteButton
 	public override void SetActive()
 	{
 		base.SetActive();
-		icon.gameObject.active = true;
+		icon.gameObject.SetActive(true);
 		cooldown.localScale = new Vector3(1f, 0f, 1f);
 		base.transform.localPosition = Vector3.zero;
 		base.transform.parent.GetComponent<ItemsBar>().RearrangePotions();
@@ -45,13 +45,13 @@ public class ItemButton : SpriteButton
 	public override void Left()
 	{
 		base.Left();
-		pressed.gameObject.active = false;
+		pressed.gameObject.SetActive(false);
 	}
 
 	public override void Entered()
 	{
 		base.Entered();
-		pressed.gameObject.active = true;
+		pressed.gameObject.SetActive(true);
 	}
 
 	private void OnEnable()
@@ -76,7 +76,7 @@ public class ItemButton : SpriteButton
 	private void Awake()
 	{
 		Init();
-		pressed.gameObject.active = false;
+		pressed.gameObject.SetActive(false);
 	}
 
 	private void Start()

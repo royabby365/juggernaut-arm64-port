@@ -24,30 +24,30 @@ public class LevelDigits : MonoBehaviour
 		}
 		if (current > 99)
 		{
-			ten.gameObject.active = false;
-			one.gameObject.active = false;
+			ten.gameObject.SetActive(false);
+			one.gameObject.SetActive(false);
 			if (crown != null)
 			{
-				crown.gameObject.active = true;
+				crown.gameObject.SetActive(true);
 			}
 			return;
 		}
-		one.gameObject.active = true;
+		one.gameObject.SetActive(true);
 		if (crown != null)
 		{
-			crown.gameObject.active = false;
+			crown.gameObject.SetActive(false);
 		}
 		int num = current / 10;
 		int d = current % 10;
 		int num2 = digitWidth;
 		if (num == 0)
 		{
-			ten.gameObject.active = false;
+			ten.gameObject.SetActive(false);
 			num2 /= 2;
 		}
 		else
 		{
-			ten.gameObject.active = true;
+			ten.gameObject.SetActive(true);
 			SetDigit(ten, num);
 		}
 		one.localPosition = new Vector3(num2 - 1, 0f, 0f);

@@ -88,7 +88,7 @@ public class LocationMoney : SpriteButton
 
 	private void Update()
 	{
-		if (base.renderer.isVisible)
+		if (GetComponent<Renderer>().isVisible)
 		{
 			_sprite.Tint_ = Color.Lerp(Color.gray, _animColor, _animCurve.Evaluate(Time.time));
 		}

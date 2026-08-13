@@ -13,14 +13,14 @@ public class BookMarkButton : SpriteButton
 	public override void SetActive()
 	{
 		base.SetActive();
-		passiveLayer.gameObject.active = true;
+		passiveLayer.gameObject.SetActive(true);
 		activeLayer.GetComponent<MeshRenderer>().enabled = false;
 	}
 
 	public override void SetInactive()
 	{
 		base.SetInactive();
-		passiveLayer.gameObject.active = false;
+		passiveLayer.gameObject.SetActive(false);
 		activeLayer.GetComponent<MeshRenderer>().enabled = true;
 	}
 

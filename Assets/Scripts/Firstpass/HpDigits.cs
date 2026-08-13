@@ -31,20 +31,20 @@ public class HpDigits : MonoBehaviour
 		int d = current % 10;
 		if (num == 0)
 		{
-			handred.gameObject.active = false;
+			handred.gameObject.SetActive(false);
 		}
 		else
 		{
-			handred.gameObject.active = true;
+			handred.gameObject.SetActive(true);
 			SetDigit(handred, num);
 		}
 		if (num == 0 && num2 == 0)
 		{
-			ten.gameObject.active = false;
+			ten.gameObject.SetActive(false);
 		}
 		else
 		{
-			ten.gameObject.active = true;
+			ten.gameObject.SetActive(true);
 			SetDigit(ten, num2);
 		}
 		SetDigit(one, d);
@@ -54,23 +54,23 @@ public class HpDigits : MonoBehaviour
 		int d2 = max % 10;
 		if (num4 == 0)
 		{
-			maxhandred.gameObject.active = false;
+			maxhandred.gameObject.SetActive(false);
 		}
 		else
 		{
 			SetDigit(maxhandred, num4);
-			maxhandred.gameObject.active = true;
+			maxhandred.gameObject.SetActive(true);
 			maxhandred.localPosition = new Vector3(num3, 0f, 0f);
 			num3 += digitWidth;
 		}
 		if (num4 == 0 && num5 == 0)
 		{
-			maxten.gameObject.active = false;
+			maxten.gameObject.SetActive(false);
 		}
 		else
 		{
 			SetDigit(maxten, num5);
-			maxten.gameObject.active = true;
+			maxten.gameObject.SetActive(true);
 			maxten.localPosition = new Vector3(num3, 0f, 0f);
 			num3 += digitWidth;
 		}

@@ -134,7 +134,7 @@ internal class Player : Person
 	protected override void StartImpl()
 	{
 		base.StartImpl();
-		if (base.animation[Globals.VictoryAnimationName] == null)
+		if (GetComponent<Animation>()[Globals.VictoryAnimationName] == null)
 		{
 			PersonData component = GetComponent<PersonData>();
 			if (component != null)
@@ -154,7 +154,7 @@ internal class Player : Person
 				}
 				if (animationClip != null)
 				{
-					base.animation.AddClip(animationClip, Globals.VictoryAnimationName);
+					GetComponent<Animation>().AddClip(animationClip, Globals.VictoryAnimationName);
 				}
 			}
 		}
@@ -204,7 +204,7 @@ internal class Player : Person
 			return;
 		}
 		DoUpdate(deltaTime);
-		if ((bool)base.animation && !base.animation.isPlaying)
+		if ((bool)GetComponent<Animation>() && !GetComponent<Animation>().isPlaying)
 		{
 			Idle();
 		}
@@ -234,7 +234,7 @@ internal class Player : Person
 	internal void WaitForBattleWinAnimation(ActionD action)
 	{
 		Utils.Log("WaitForBattleWinAnimation", _victoryAnimationName);
-		if (!base.animation.IsPlaying(_victoryAnimationName))
+		if (!GetComponent<Animation>().IsPlaying(_victoryAnimationName))
 		{
 			StartCoroutine(WaitForBattleWinAnimation_(action));
 		}
@@ -246,7 +246,7 @@ internal class Player : Person
 
 	private IEnumerator WaitForBattleWinAnimation_(ActionD action)
 	{
-		while (!base.animation.IsPlaying(_victoryAnimationName))
+		while (!GetComponent<Animation>().IsPlaying(_victoryAnimationName))
 		{
 			yield return null;
 		}
@@ -379,7 +379,7 @@ internal class Player : Person
 	internal void PlayFatality(string scenario, ActionD onFinish)
 	{
 		InAttack = true;
-		base.animation.wrapMode = WrapMode.Once;
+		GetComponent<Animation>().wrapMode = WrapMode.Once;
 		_makeVictoryIdle = true;
 		PlayScenario(Globals.Battle, scenario, AttackE.None, ReactE.None, DamageTypeE.Natural, 0, onFinish);
 	}
@@ -412,7 +412,7 @@ internal class Player : Person
 		StopAllCoroutines();
 		_ignoreIdle = false;
 		InAttack = false;
-		base.animation.Stop();
+		GetComponent<Animation>().Stop();
 	}
 
 	protected override void ShowNaturalReact(AttackE attack, string reactScenario, DamageTypeE damageType, int hp, string hpText)

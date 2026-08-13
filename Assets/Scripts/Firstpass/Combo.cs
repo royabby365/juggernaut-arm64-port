@@ -39,12 +39,12 @@ public class Combo : MonoBehaviour
 			{
 				component.SetInactive();
 			}
-			transform.gameObject.active = false;
+			transform.gameObject.SetActive(false);
 		}
 		_currentDirection = direction;
 		_currentStatus = status;
 		Transform transform2 = _icons[GetKey(direction, status)];
-		transform2.gameObject.active = true;
+		transform2.gameObject.SetActive(true);
 		if (status == Combos.Big)
 		{
 			transform2.GetComponent<FightButton>().SetActive();
@@ -108,7 +108,7 @@ public class Combo : MonoBehaviour
 		};
 		foreach (KeyValuePair<string, Transform> icon in _icons)
 		{
-			icon.Value.gameObject.active = false;
+			icon.Value.gameObject.SetActive(false);
 		}
 	}
 
