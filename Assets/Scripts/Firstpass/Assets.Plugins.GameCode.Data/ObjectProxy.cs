@@ -1,6 +1,7 @@
 using ProtoBuf;
 
-namespace Assets.Plugins.GameCode.Data;
+namespace Assets.Plugins.GameCode.Data
+{
 
 [ProtoInclude(200, typeof(StringObjectProxy))]
 [ProtoContract]
@@ -39,4 +40,5 @@ public class ObjectProxy
 	{
 		return data.Get();
 	}
+}
 }

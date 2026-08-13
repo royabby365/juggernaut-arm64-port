@@ -5,7 +5,8 @@ using ICSharpCode.SharpZipLib.Checksums;
 using ICSharpCode.SharpZipLib.Zip.Compression;
 using ICSharpCode.SharpZipLib.Zip.Compression.Streams;
 
-namespace ICSharpCode.SharpZipLib.Zip;
+namespace ICSharpCode.SharpZipLib.Zip
+{
 
 public class ZipOutputStream : DeflaterOutputStream
 {
@@ -603,4 +604,5 @@ public class ZipOutputStream : DeflaterOutputStream
 		}
 		entries = null;
 	}
+}
 }

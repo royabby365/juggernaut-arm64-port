@@ -1,6 +1,7 @@
 using ProtoBuf;
 
-namespace Assets.Plugins.GameCode.Data;
+namespace Assets.Plugins.GameCode.Data
+{
 
 [ProtoContract]
 public class DropElementProxy
@@ -41,4 +42,5 @@ public class DropElementProxy
 		dropElementProxy.Bonus = data.Bonus;
 		return dropElementProxy;
 	}
+}
 }

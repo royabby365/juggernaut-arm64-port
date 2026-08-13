@@ -136,7 +136,7 @@ public class PuppetSlot : SpriteButton
 		currentStars += num2;
 		putOnItemFromSlot.item.CurrentStars = currentStars;
 		putOnItemFromSlot.SetUpgradeProgress(currentStars, maxStars);
-		StartCoroutine("SetCountCoro", Tuple.Create(currentStars, maxStars));
+		StartCoroutine("SetCountCoro", System.Tuple.Create(currentStars, maxStars));
 		Messenger<GameObject>.Invoke(Globals.MsgStarIncreased, StarSlot.Star.gameObject);
 		if (currentStars >= maxStars)
 		{
@@ -144,7 +144,7 @@ public class PuppetSlot : SpriteButton
 		}
 	}
 
-	private IEnumerator SetCountCoro(Tuple<int, int> minmax)
+	private IEnumerator SetCountCoro(System.Tuple<int, int> minmax)
 	{
 		yield return new WaitForSeconds(1.1f);
 		StarSlot.SetCount(minmax.Item1, minmax.Item2);

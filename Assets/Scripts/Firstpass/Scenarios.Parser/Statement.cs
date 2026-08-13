@@ -2,7 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Reflection;
 
-namespace Scenarios.Parser;
+namespace Scenarios.Parser
+{
 
 public abstract class Statement
 {
@@ -104,4 +105,5 @@ public abstract class Statement
 	{
 		return $"Statemant: {id}: {_args.ConcatAsStrings()}";
 	}
+}
 }

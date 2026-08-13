@@ -1,6 +1,7 @@
 using System;
 
-namespace Yarx;
+namespace Yarx
+{
 
 public static class Disposable
 {
@@ -30,4 +31,5 @@ public static class Disposable
 		}
 		return new AnonymousDisposable(dispose);
 	}
+}
 }

@@ -93,7 +93,7 @@ internal class MainMenu : MonoBehaviour
 
 	internal GuiRoot.GuiType _lastMapOrZachistkaOrFight = GuiRoot.GuiType.None;
 
-	internal List<Tuple<EventTypeE, int>> _openConditionProgressChanged = new List<Tuple<EventTypeE, int>>();
+	internal List<Yarx.Collections.Tuple<EventTypeE, int>> _openConditionProgressChanged = new List<Yarx.Collections.Tuple<EventTypeE, int>>();
 
 	private static bool SocialAuthProcessed = false;
 
@@ -249,7 +249,7 @@ internal class MainMenu : MonoBehaviour
 			_listeners.Add(Messenger<int>.AddListener(Globals.Msg_LocationOpenConditionProgressChanged, delegate(int locationId)
 			{
 				bool flag = false;
-				foreach (Tuple<EventTypeE, int> item in _openConditionProgressChanged)
+				foreach (Yarx.Collections.Tuple<EventTypeE, int> item in _openConditionProgressChanged)
 				{
 					if (item.Item1 == EventTypeE.ExtraChapter && item.Item2 == locationId)
 					{
@@ -267,7 +267,7 @@ internal class MainMenu : MonoBehaviour
 				if (!(reason != "ProgressChanged") && @event.Achievement != null && @event.Progress == @event.MaxProgress)
 				{
 					bool flag = false;
-					foreach (Tuple<EventTypeE, int> item2 in _openConditionProgressChanged)
+					foreach (Yarx.Collections.Tuple<EventTypeE, int> item2 in _openConditionProgressChanged)
 					{
 						if (item2.Item1 == EventTypeE.Achievment && item2.Item2 == @event.Achievement.Id)
 						{
@@ -889,8 +889,9 @@ internal class MainMenu : MonoBehaviour
 		AndroidJavaObject androidJavaObject = androidJavaClass.GetStatic<AndroidJavaObject>("currentActivity");
 		androidJavaObject.Call("registerOrLoginUserWithId", SystemInfo.deviceUniqueIdentifier);
 		SingletonT<Fxs>.I.ToString();
-		iPhoneGeneration generation = iPhoneSettings.generation;
-		if (generation == iPhoneGeneration.iPhone3G || generation == iPhoneGeneration.iPhone3GS || generation == iPhoneGeneration.iPhone4 || generation == iPhoneGeneration.iPhone4S)
+#if UNITY_IOS
+		iOS.DeviceGeneration generation = iOS.Device.generation;
+		if (generation == iOS.DeviceGeneration.iPhone3G || generation == iOS.DeviceGeneration.iPhone3GS || generation == iOS.DeviceGeneration.iPhone4 || generation == iOS.DeviceGeneration.iPhone4S)
 		{
 			Application.targetFrameRate = 30;
 		}
@@ -898,13 +899,14 @@ internal class MainMenu : MonoBehaviour
 		{
 			Application.targetFrameRate = Globals.DefaultFPS;
 		}
-		if (iPhoneSettings.generation == iPhoneGeneration.iPodTouch3Gen || iPhoneSettings.generation == iPhoneGeneration.iPodTouch4Gen || iPhoneSettings.generation == iPhoneGeneration.iPhone3GS || iPhoneSettings.generation == iPhoneGeneration.iPad1Gen)
+		if (iOS.Device.generation == iOS.DeviceGeneration.iPodTouch3Gen || iOS.Device.generation == iOS.DeviceGeneration.iPodTouch4Gen || iOS.Device.generation == iOS.DeviceGeneration.iPhone3GS || iOS.Device.generation == iOS.DeviceGeneration.iPad1Gen)
 		{
 			QualitySettings.masterTextureLimit = ((!Globals.DebugMinMapMax) ? 1 : 4);
 		}
-		if (iPhoneSettings.generation == iPhoneGeneration.iPad2Gen)
+		if (iOS.Device.generation == iOS.DeviceGeneration.iPad2Gen)
 		{
 		}
+#endif
 		ShowStartMenu();
 	}
 
@@ -1235,7 +1237,7 @@ internal class MainMenu : MonoBehaviour
 				}
 				else
 				{
-					_hud.ChangeGuiTo(new HudMk1.GuiDesc(GuiRoot.GuiType.ExtraChapterInfo, Tuple.Create(location, location.Logic.OpenCondition.Progress)));
+					_hud.ChangeGuiTo(new HudMk1.GuiDesc(GuiRoot.GuiType.ExtraChapterInfo, Yarx.Collections.Tuple.Create(location, location.Logic.OpenCondition.Progress)));
 				}
 			}
 			else
@@ -1271,7 +1273,7 @@ internal class MainMenu : MonoBehaviour
 	{
 		if (!(HudMk1.Instance == null))
 		{
-			HudMk1.Instance.ChangeGuiTo(GuiRoot.GuiType.Match3StartScreen, Tuple.Create(location.CaveName));
+			HudMk1.Instance.ChangeGuiTo(GuiRoot.GuiType.Match3StartScreen, Yarx.Collections.Tuple.Create(location.CaveName));
 		}
 	}
 
@@ -1484,7 +1486,7 @@ internal class MainMenu : MonoBehaviour
 		AreaData.MakeCurrent(location, zachistka: false);
 		Globals.GameScreen = Globals.GameScreenE.Location;
 		Utils.Log("**********GOTOLOCATION", location);
-		_hud.ChangeGuiTo(new HudMk1.GuiDesc(GuiRoot.GuiType.Location, Tuple.Create(location)));
+		_hud.ChangeGuiTo(new HudMk1.GuiDesc(GuiRoot.GuiType.Location, Yarx.Collections.Tuple.Create(location)));
 	}
 
 	private bool IsLocationButton(SpriteButton button, string prefix, ref ServerData.Location location)
@@ -1686,7 +1688,7 @@ internal class MainMenu : MonoBehaviour
 
 	private void SortOpenConditions()
 	{
-		_openConditionProgressChanged.Sort((Tuple<EventTypeE, int> x, Tuple<EventTypeE, int> y) => x.Item1.CompareTo(y.Item1));
+		_openConditionProgressChanged.Sort((Yarx.Collections.Tuple<EventTypeE, int> x, Yarx.Collections.Tuple<EventTypeE, int> y) => x.Item1.CompareTo(y.Item1));
 	}
 
 	internal void StartShowAfterFightScreens()
@@ -1701,7 +1703,7 @@ internal class MainMenu : MonoBehaviour
 		{
 			Debug.Log(string.Concat("++++++++++++++ADD type ", type, " value ", value));
 		}
-		_openConditionProgressChanged.Add(Tuple.Create(type, value));
+		_openConditionProgressChanged.Add(Yarx.Collections.Tuple.Create(type, value));
 	}
 
 	internal void OnMsgGuiExitAchievmentOrExtraChapter()
@@ -1723,7 +1725,7 @@ internal class MainMenu : MonoBehaviour
 			{
 				Utils.Log("*********** 3");
 				SortOpenConditions();
-				Tuple<EventTypeE, int> tuple = _openConditionProgressChanged[0];
+				Yarx.Collections.Tuple<EventTypeE, int> tuple = _openConditionProgressChanged[0];
 				_openConditionProgressChanged.RemoveAt(0);
 				switch (tuple.Item1)
 				{
@@ -1735,7 +1737,7 @@ internal class MainMenu : MonoBehaviour
 					ServerData.Location locationByServerId = SingletonT<ServerData>.I.GetLocationByServerId(tuple.Item2);
 					if (locationByServerId != null)
 					{
-						_hud.ChangeGuiTo(new HudMk1.GuiDesc(GuiRoot.GuiType.ExtraChapterInfo, Tuple.Create(locationByServerId, locationByServerId.Logic.OpenCondition.Progress - 1)));
+						_hud.ChangeGuiTo(new HudMk1.GuiDesc(GuiRoot.GuiType.ExtraChapterInfo, Yarx.Collections.Tuple.Create(locationByServerId, locationByServerId.Logic.OpenCondition.Progress - 1)));
 					}
 					break;
 				}
@@ -1807,7 +1809,7 @@ internal class MainMenu : MonoBehaviour
 		{
 			_lastShownAchievment = ((!fromFight) ? achievment : null);
 			_lastShownAchievmentScreen = HudMk1.Instance.CurrentGui;
-			_hud.ChangeGuiTo(new HudMk1.GuiDesc(GuiRoot.GuiType.Achievments, Tuple.Create(achievment)));
+			_hud.ChangeGuiTo(new HudMk1.GuiDesc(GuiRoot.GuiType.Achievments, Yarx.Collections.Tuple.Create(achievment)));
 		}
 	}
 
@@ -2010,7 +2012,7 @@ internal class MainMenu : MonoBehaviour
 		{
 			GoToLocationFromChestGame();
 		};
-		Tuple<ServerData.Chest, ActionD, ActionD> args = Tuple.Create(chest.Chest, item, item2);
+		Yarx.Collections.Tuple<ServerData.Chest, ActionD, ActionD> args = Yarx.Collections.Tuple.Create(chest.Chest, item, item2);
 		_hud.ChangeGuiTo(new HudMk1.GuiDesc(GuiRoot.GuiType.ChestMiniGame, args));
 	}
 

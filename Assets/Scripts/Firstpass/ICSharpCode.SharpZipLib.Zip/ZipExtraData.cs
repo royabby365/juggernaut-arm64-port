@@ -1,7 +1,8 @@
 using System;
 using System.IO;
 
-namespace ICSharpCode.SharpZipLib.Zip;
+namespace ICSharpCode.SharpZipLib.Zip
+{
 
 public sealed class ZipExtraData : IDisposable
 {
@@ -304,4 +305,5 @@ public sealed class ZipExtraData : IDisposable
 			_newEntry.Close();
 		}
 	}
+}
 }

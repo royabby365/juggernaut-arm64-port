@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
 
-namespace Gesture;
+namespace Gesture
+{
 
 public class StrokeInfo
 {
@@ -153,4 +154,5 @@ public class StrokeInfo
 			_ => throw new ArgumentOutOfRangeException("direction"), 
 		};
 	}
+}
 }

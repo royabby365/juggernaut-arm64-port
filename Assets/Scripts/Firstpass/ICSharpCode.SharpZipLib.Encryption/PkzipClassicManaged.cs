@@ -1,7 +1,8 @@
 using System;
 using System.Security.Cryptography;
 
-namespace ICSharpCode.SharpZipLib.Encryption;
+namespace ICSharpCode.SharpZipLib.Encryption
+{
 
 public sealed class PkzipClassicManaged : PkzipClassic
 {
@@ -78,4 +79,5 @@ public sealed class PkzipClassicManaged : PkzipClassic
 		key_ = rgbKey;
 		return new PkzipClassicDecryptCryptoTransform(Key);
 	}
+}
 }

@@ -1,6 +1,7 @@
 using System;
 
-namespace Yarx;
+namespace Yarx
+{
 
 public class Lazy<T>
 {
@@ -35,4 +36,5 @@ public class Lazy<T>
 	{
 		_getter = getter;
 	}
+}
 }

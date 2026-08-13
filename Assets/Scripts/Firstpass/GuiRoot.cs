@@ -222,14 +222,14 @@ public class GuiRoot : MonoBehaviour
 			int layer = GetLayer(what);
 			if (on && _state != State.On)
 			{
-				StartCoroutine("GoToNewPosition", Tuple.Create(layer, State.On));
+				StartCoroutine("GoToNewPosition", System.Tuple.Create(layer, State.On));
 				_state = State.On;
 				ActiveType = what;
 				return TransitionSec;
 			}
 			if (!on && _state != State.Off)
 			{
-				StartCoroutine("GoToNewPosition", Tuple.Create(layer, State.Off));
+				StartCoroutine("GoToNewPosition", System.Tuple.Create(layer, State.Off));
 				_state = State.Off;
 				ActiveType = GuiType.None;
 				return TransitionSec;
@@ -273,7 +273,7 @@ public class GuiRoot : MonoBehaviour
 			{
 				return 0f;
 			}
-			StartCoroutine("GoToNewPosition", Tuple.Create(num, State.Off));
+			StartCoroutine("GoToNewPosition", System.Tuple.Create(num, State.Off));
 			_state = State.Off;
 			ActiveType = GuiType.None;
 			return TransitionSec;
@@ -286,7 +286,7 @@ public class GuiRoot : MonoBehaviour
 			{
 				num++;
 			}
-			StartCoroutine("GoToNewPosition", Tuple.Create(num, State.On));
+			StartCoroutine("GoToNewPosition", System.Tuple.Create(num, State.On));
 			_state = State.On;
 			ActiveType = to;
 			return TransitionSec;
@@ -295,7 +295,7 @@ public class GuiRoot : MonoBehaviour
 		}
 	}
 
-	private IEnumerator GoToNewPosition(Tuple<int, State> layerState)
+	private IEnumerator GoToNewPosition(System.Tuple<int, State> layerState)
 	{
 		int layer = layerState.Item1;
 		State state = layerState.Item2;

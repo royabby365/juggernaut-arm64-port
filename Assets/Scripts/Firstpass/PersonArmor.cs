@@ -94,7 +94,7 @@ public class PersonArmor : MonoBehaviour
 					Color value = _hairsColors[0];
 					_hairsColors.TryGetValue(colorId, out value);
 					HairsColor = value;
-					Material[] materials = gameObject.renderer.materials;
+					Material[] materials = gameObject.GetComponent<Renderer>().materials;
 					foreach (Material material in materials)
 					{
 						material.color = HairsColor;
@@ -549,7 +549,7 @@ public class PersonArmor : MonoBehaviour
 			GameObject bodyByArmorType = component2.GetBodyByArmorType(component.ArmorType);
 			if (bodyByArmorType != null)
 			{
-				bodyByArmorType.renderer.materials = new Material[2] { replaceBodyMaterial, replaceBodyMaterial2 };
+				bodyByArmorType.GetComponent<Renderer>().materials = new Material[2] { replaceBodyMaterial, replaceBodyMaterial2 };
 			}
 		}
 		else if ((bool)replaceBodyMaterial)
@@ -557,7 +557,7 @@ public class PersonArmor : MonoBehaviour
 			GameObject bodyByArmorType2 = component2.GetBodyByArmorType(component.ArmorType);
 			if (bodyByArmorType2 != null)
 			{
-				bodyByArmorType2.renderer.material = replaceBodyMaterial;
+				bodyByArmorType2.GetComponent<Renderer>().material = replaceBodyMaterial;
 			}
 		}
 		GameObject gameObject = null;
@@ -625,33 +625,33 @@ public class PersonArmor : MonoBehaviour
 			if (component3.clip != null)
 			{
 				string newName = component3.clip.name;
-				if (gameObject.animation.GetClip(newName) == null)
+				if (gameObject.GetComponent<Animation>().GetClip(newName) == null)
 				{
-					gameObject.animation.AddClip(component3.clip, newName);
-					gameObject.animation.clip = component3.clip;
+					gameObject.GetComponent<Animation>().AddClip(component3.clip, newName);
+					gameObject.GetComponent<Animation>().clip = component3.clip;
 				}
-				gameObject.animation.Play(newName);
+				gameObject.GetComponent<Animation>().Play(newName);
 			}
 		}
 		GameObject bodyByArmorType4 = component2.GetBodyByArmorType(component.ArmorType);
-		if (component.AddSkinMaterial && bodyByArmorType4 != null && gameObject.renderer != null && bodyByArmorType4.renderer != null)
+		if (component.AddSkinMaterial && bodyByArmorType4 != null && gameObject.GetComponent<Renderer>() != null && bodyByArmorType4.GetComponent<Renderer>() != null)
 		{
-			if (gameObject.renderer.materials.Length > 1 && gameObject.renderer.materials[1] != null)
+			if (gameObject.GetComponent<Renderer>().materials.Length > 1 && gameObject.GetComponent<Renderer>().materials[1] != null)
 			{
-				Color color = gameObject.renderer.materials[1].color;
-				gameObject.renderer.materials = new Material[2]
+				Color color = gameObject.GetComponent<Renderer>().materials[1].color;
+				gameObject.GetComponent<Renderer>().materials = new Material[2]
 				{
-					gameObject.renderer.material,
-					bodyByArmorType4.renderer.material
+					gameObject.GetComponent<Renderer>().material,
+					bodyByArmorType4.GetComponent<Renderer>().material
 				};
-				gameObject.renderer.materials[1].color = color;
+				gameObject.GetComponent<Renderer>().materials[1].color = color;
 			}
 			else
 			{
-				gameObject.renderer.materials = new Material[2]
+				gameObject.GetComponent<Renderer>().materials = new Material[2]
 				{
-					gameObject.renderer.material,
-					bodyByArmorType4.renderer.material
+					gameObject.GetComponent<Renderer>().material,
+					bodyByArmorType4.GetComponent<Renderer>().material
 				};
 			}
 		}
@@ -787,7 +787,7 @@ public class PersonArmor : MonoBehaviour
 		Transform transform = base.transform.root.FindChildByName("hairs", includeInactive: true);
 		if (transform != null)
 		{
-			Material[] materials = transform.renderer.materials;
+			Material[] materials = transform.GetComponent<Renderer>().materials;
 			foreach (Material material in materials)
 			{
 				material.color = HairsColor;

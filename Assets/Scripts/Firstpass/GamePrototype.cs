@@ -76,7 +76,7 @@ public class GamePrototype : MonoBehaviour
 
 	private float _timeToDown = 1f;
 
-	private readonly Dictionary<int, Tuple<string, Color>> _cells = new Dictionary<int, Tuple<string, Color>>();
+	private readonly Dictionary<int, System.Tuple<string, Color>> _cells = new Dictionary<int, System.Tuple<string, Color>>();
 
 	private States _state;
 
@@ -234,8 +234,8 @@ public class GamePrototype : MonoBehaviour
 	{
 		i = Mathf.Min(i, 100);
 		i = Mathf.Max(0, i);
-		IOrderedEnumerable<KeyValuePair<int, Tuple<string, Color>>> orderedEnumerable = _cells.OrderBy((KeyValuePair<int, Tuple<string, Color>> kv) => kv.Key);
-		foreach (KeyValuePair<int, Tuple<string, Color>> item2 in orderedEnumerable)
+		IOrderedEnumerable<KeyValuePair<int, System.Tuple<string, Color>>> orderedEnumerable = _cells.OrderBy((KeyValuePair<int, System.Tuple<string, Color>> kv) => kv.Key);
+		foreach (KeyValuePair<int, System.Tuple<string, Color>> item2 in orderedEnumerable)
 		{
 			if (i > item2.Key)
 			{
@@ -310,7 +310,7 @@ public class GamePrototype : MonoBehaviour
 					item2 = SuperFailColor;
 					break;
 				}
-				_cells[result2] = Tuple.Create(item, item2);
+				_cells[result2] = System.Tuple.Create(item, item2);
 				RefreshCells();
 			}
 		}
@@ -320,17 +320,17 @@ public class GamePrototype : MonoBehaviour
 	{
 		if (_cells.Count == 0)
 		{
-			_cells[100] = Tuple.Create("attack_normal", Color.green);
+			_cells[100] = System.Tuple.Create("attack_normal", Color.green);
 		}
-		IOrderedEnumerable<KeyValuePair<int, Tuple<string, Color>>> orderedEnumerable = _cells.OrderBy((KeyValuePair<int, Tuple<string, Color>> kv) => kv.Key);
-		KeyValuePair<int, Tuple<string, Color>>[] array = orderedEnumerable.Select(delegate(KeyValuePair<int, Tuple<string, Color>> kv)
+		IOrderedEnumerable<KeyValuePair<int, System.Tuple<string, Color>>> orderedEnumerable = _cells.OrderBy((KeyValuePair<int, System.Tuple<string, Color>> kv) => kv.Key);
+		KeyValuePair<int, System.Tuple<string, Color>>[] array = orderedEnumerable.Select(delegate(KeyValuePair<int, System.Tuple<string, Color>> kv)
 		{
 			Debug.Log("key: {0} attack:{1} color:{2}".Fmt(kv.Key, kv.Value.Item1, kv.Value.Item2));
 			return kv;
 		}).ToArray();
 		RemoveOldCells();
 		int num = 0;
-		foreach (KeyValuePair<int, Tuple<string, Color>> item in orderedEnumerable)
+		foreach (KeyValuePair<int, System.Tuple<string, Color>> item in orderedEnumerable)
 		{
 			GameObject gameObject = (GameObject)UnityEngine.Object.Instantiate(CellPrefab);
 			gameObject.transform.parent = IndicatorRoot;

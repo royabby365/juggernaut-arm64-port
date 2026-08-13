@@ -1,4 +1,5 @@
-namespace Scenarios.Parser;
+namespace Scenarios.Parser
+{
 
 public class ArgFloat : Arg
 {
@@ -11,4 +12,5 @@ public class ArgFloat : Arg
 	{
 		return $"{base.Val}:Float";
 	}
+}
 }

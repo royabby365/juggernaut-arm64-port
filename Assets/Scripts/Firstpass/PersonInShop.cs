@@ -43,18 +43,18 @@ internal class PersonInShop : MonoBehaviour
 		string text = "idle";
 		if (component != null)
 		{
-			if (_person.animation[Globals.ShopIdleAnimationName] == null)
+			if (_person.GetComponent<Animation>()[Globals.ShopIdleAnimationName] == null)
 			{
 				AnimationClip[] array = Utils.MakeArray((AnimationClip _) => _ != null, component.HammerInShopIdles);
 				if (array.Length > 0)
 				{
 					AnimationClip clip = array[Random.Range(0, array.Length - 1)];
 					text = Globals.ShopIdleAnimationName;
-					if (_person.animation[text] != null)
+					if (_person.GetComponent<Animation>()[text] != null)
 					{
-						_person.animation.RemoveClip(text);
+						_person.GetComponent<Animation>().RemoveClip(text);
 					}
-					_person.animation.AddClip(clip, text);
+					_person.GetComponent<Animation>().AddClip(clip, text);
 				}
 			}
 			else
@@ -62,11 +62,11 @@ internal class PersonInShop : MonoBehaviour
 				text = Globals.ShopIdleAnimationName;
 			}
 		}
-		if (_person != null && _person.animation[text] != null)
+		if (_person != null && _person.GetComponent<Animation>()[text] != null)
 		{
-			_person.animation[text].wrapMode = WrapMode.Loop;
-			_person.animation.Play(text);
-			_person.animation.cullingType = AnimationCullingType.BasedOnRenderers;
+			_person.GetComponent<Animation>()[text].wrapMode = WrapMode.Loop;
+			_person.GetComponent<Animation>().Play(text);
+			_person.GetComponent<Animation>().cullingType = AnimationCullingType.BasedOnRenderers;
 		}
 	}
 

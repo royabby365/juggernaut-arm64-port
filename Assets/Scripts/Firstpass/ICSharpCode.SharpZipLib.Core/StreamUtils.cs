@@ -1,7 +1,8 @@
 using System;
 using System.IO;
 
-namespace ICSharpCode.SharpZipLib.Core;
+namespace ICSharpCode.SharpZipLib.Core
+{
 
 public sealed class StreamUtils
 {
@@ -147,4 +148,5 @@ public sealed class StreamUtils
 			progressHandler(sender, e);
 		}
 	}
+}
 }

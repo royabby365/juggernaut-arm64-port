@@ -1,7 +1,8 @@
 using System;
 using System.Collections.Generic;
 
-namespace LitJson;
+namespace LitJson
+{
 
 internal struct ObjectMetadata
 {
@@ -50,4 +51,5 @@ internal struct ObjectMetadata
 			properties = value;
 		}
 	}
+}
 }

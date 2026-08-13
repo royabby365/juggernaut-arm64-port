@@ -1,6 +1,7 @@
 using System;
 
-namespace ICSharpCode.SharpZipLib.Checksums;
+namespace ICSharpCode.SharpZipLib.Checksums
+{
 
 public sealed class Adler32 : IChecksum
 {
@@ -80,4 +81,5 @@ public sealed class Adler32 : IChecksum
 		}
 		checksum = (num2 << 16) | num;
 	}
+}
 }

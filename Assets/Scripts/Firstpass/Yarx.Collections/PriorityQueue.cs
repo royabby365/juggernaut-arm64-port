@@ -1,7 +1,8 @@
 using System;
 using System.Collections.Generic;
 
-namespace Yarx.Collections;
+namespace Yarx.Collections
+{
 
 [Serializable]
 public class PriorityQueue<T> where T : IComparable<T>
@@ -91,4 +92,5 @@ public class PriorityQueue<T> where T : IComparable<T>
 			k = num3;
 		}
 	}
+}
 }

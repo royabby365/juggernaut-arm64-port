@@ -1,4 +1,5 @@
-namespace LitJson;
+namespace LitJson
+{
 
 public enum JsonType
 {
@@ -10,4 +11,5 @@ public enum JsonType
 	Long,
 	Double,
 	Boolean
+}
 }

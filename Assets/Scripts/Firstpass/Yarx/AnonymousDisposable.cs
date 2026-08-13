@@ -1,6 +1,7 @@
 using System;
 
-namespace Yarx;
+namespace Yarx
+{
 
 internal sealed class AnonymousDisposable : IDisposable
 {
@@ -21,4 +22,5 @@ internal sealed class AnonymousDisposable : IDisposable
 			_dispose();
 		}
 	}
+}
 }

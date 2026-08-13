@@ -1,7 +1,8 @@
 using System.Collections;
 using System.Text;
 
-namespace Yarx.Collections;
+namespace Yarx.Collections
+{
 
 public interface ITuple
 {
@@ -10,4 +11,5 @@ public interface ITuple
 	int GetHashCode(IEqualityComparer comparer);
 
 	string ToString(StringBuilder sb);
+}
 }

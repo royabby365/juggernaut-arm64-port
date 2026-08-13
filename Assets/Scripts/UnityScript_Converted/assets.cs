@@ -75,8 +75,8 @@ public class assets : MonoBehaviour
 		transparent = transparent_texture;
 		black_ac = black_ac_texture;
 		berserk_blood = blood_material;
-		downloader = gameObject.AddComponent("assets_downloader");
-		loader = gameObject.AddComponent("assets_loader");
+		downloader = gameObject.AddComponent(System.Type.GetType("assets_downloader, Assembly-CSharp"));
+		loader = gameObject.AddComponent(System.Type.GetType("assets_loader, Assembly-CSharp"));
 	}
 
 	public static Color ColorById(int color_id)

@@ -2,7 +2,8 @@ using System.Collections.Generic;
 using ProtoBuf;
 using Yarx.Collections;
 
-namespace Assets.Plugins.GameCode.Data;
+namespace Assets.Plugins.GameCode.Data
+{
 
 [ProtoContract]
 public class StorylineDialogProxy
@@ -46,4 +47,5 @@ public class StorylineDialogProxy
 		storylineDialogProxy.Dialogs = data.Dialogs;
 		return storylineDialogProxy;
 	}
+}
 }

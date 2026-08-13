@@ -223,7 +223,7 @@ public class LockpickingHud : MonoBehaviour
 		_timerFormat = SingletonT<ServerData>.I.GetPhrase(ServerData.PhrasesE.LockpickingSecBeforeGame);
 		Animation component = LockBg.GetComponent<Animation>();
 		component.Stop();
-		LockBg.gameObject.SampleAnimation(component.clip, 0f);
+		component.clip.SampleAnimation(LockBg.gameObject, 0f);
 		RightMask.localPosition = new Vector3(3000f, RightMask.localPosition.y, RightMask.localPosition.z);
 		ButtonContinue.SetActiveRecursivelyMk1(setActive: false);
 		StopAllCoroutines();
@@ -616,14 +616,14 @@ public class LockpickingHud : MonoBehaviour
 		yield return new WaitForSeconds(1f);
 		GoToHell();
 		Animation animation = LockBg.GetComponent<Animation>();
-		GetComponent<Animation>()Play();
+		GetComponent<Animation>().Play();
 		float animationTime = 0f;
 		ChestBg.localScale = default(Vector3);
 		ChestBg.SetAlpha(0.7f);
 		ChestBg.gameObject.SetActive(true);
-		while (animationTime < GetComponent<Animation>()clip.length)
+		while (animationTime < GetComponent<Animation>().clip.length)
 		{
-			Vector3 scale = Vector3.Lerp(Vector3.zero, Vector3.one, animationTime / GetComponent<Animation>()clip.length);
+			Vector3 scale = Vector3.Lerp(Vector3.zero, Vector3.one, animationTime / GetComponent<Animation>().clip.length);
 			animationTime += Time.deltaTime;
 			ChestBg.localScale = scale;
 			yield return null;

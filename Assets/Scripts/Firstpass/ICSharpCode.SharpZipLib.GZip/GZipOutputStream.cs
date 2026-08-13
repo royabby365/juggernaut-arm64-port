@@ -4,7 +4,8 @@ using ICSharpCode.SharpZipLib.Checksums;
 using ICSharpCode.SharpZipLib.Zip.Compression;
 using ICSharpCode.SharpZipLib.Zip.Compression.Streams;
 
-namespace ICSharpCode.SharpZipLib.GZip;
+namespace ICSharpCode.SharpZipLib.GZip
+{
 
 public class GZipOutputStream : DeflaterOutputStream
 {
@@ -119,4 +120,5 @@ public class GZipOutputStream : DeflaterOutputStream
 			baseOutputStream_.Write(array, 0, array.Length);
 		}
 	}
+}
 }

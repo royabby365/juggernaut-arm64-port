@@ -1,3 +1,5 @@
-namespace ICSharpCode.SharpZipLib.Zip;
+namespace ICSharpCode.SharpZipLib.Zip
+{
 
 public delegate void ZipTestResultHandler(TestStatus status, string message);
+}

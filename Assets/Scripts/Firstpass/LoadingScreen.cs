@@ -134,7 +134,7 @@ public class LoadingScreen : MonoBehaviour
 		string screenName = $"jugger_iPad_Load_screens_{n:00}";
 		string screenPath = "load_screen/fragments/" + screenName;
 		Texture2D tex = Util.Resource<Texture2D>(screenPath);
-		background.renderer.material.mainTexture = tex;
+		background.GetComponent<Renderer>().material.mainTexture = tex;
 		yield return null;
 		if (_action != null)
 		{

@@ -20,12 +20,12 @@ public class ScreenshotManager : MonoBehaviour
 	private IEnumerator TakeScreenshotImpl(ResourcesManager.AssetBundleData ab)
 	{
 		yield return new WaitForEndOfFrame();
-		Texture2D frame = (Texture2D)ab.Bundle.Load(TextureName);
+		Texture2D frame = (Texture2D)ab.Bundle.LoadAsset(TextureName);
 		float croppedHeight = ((Screen.height <= 700) ? ((float)Screen.height) : ((float)Screen.height * 0.9f));
 		float croppedWidth = croppedHeight * 4f / 3f;
 		Rect rect = new Rect(((float)Screen.width - croppedWidth) / 2f, ((float)Screen.height - croppedHeight) / 2f, croppedWidth, croppedHeight);
 		Debug.Log(string.Concat("Taking screenshot of screen at ", rect, ", frame size (", frame.width, ", ", frame.height, ")"));
-		Texture2D screenShot = new Texture2D((int)rect.width, (int)rect.height, TextureFormat.ARGB32, mipmap: false);
+		Texture2D screenShot = new Texture2D((int)rect.width, (int)rect.height, TextureFormat.ARGB32, mipChain: false);
 		screenShot.ReadPixels(rect, 0, 0);
 		TextureScale.Bilinear(screenShot, frame.width, frame.height);
 		ComposePicture(frame, screenShot);

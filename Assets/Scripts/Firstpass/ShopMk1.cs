@@ -460,7 +460,7 @@ public class ShopMk1 : MonoBehaviour
 			return true;
 		}
 		int level = SingletonT<ServerData>.I.PlayerParams.Level;
-		Tuple<ServerData.MoneyType.TypeE, int, string> itemBuyPrice = shopGood.GetItemBuyPrice();
+		System.Tuple<ServerData.MoneyType.TypeE, int, string> itemBuyPrice = shopGood.GetItemBuyPrice();
 		if (itemBuyPrice.Item1 == ServerData.MoneyType.TypeE.Diamond)
 		{
 			return false;

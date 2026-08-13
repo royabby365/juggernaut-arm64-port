@@ -29,7 +29,7 @@ public class sfx_showhide : MonoBehaviour
 				switch (_state)
 				{
 				default:
-					_0024self__002471.emitter = (ParticleEmitter)_0024self__002471.GetComponent<ParticleEmitter>();
+					_0024self__002471.emitter = (ParticleSystem)_0024self__002471.GetComponent<ParticleSystem>();
 					result = (Yield(2, new WaitForSeconds(0.05f)) ? 1 : 0);
 					break;
 				case 2:
@@ -100,54 +100,75 @@ public class sfx_showhide : MonoBehaviour
 				default:
 					if ((bool)_0024self__002480.emitter)
 					{
-						_0024default_minEmission_002474 = _0024self__002480.emitter.minEmission;
-						_0024default_maxEmission_002475 = _0024self__002480.emitter.maxEmission;
-						_0024self__002480.emitter.minEmission = 0f;
-						_0024self__002480.emitter.maxEmission = 0f;
-						_0024self__002480.emitter.enabled = true;
+						_0024default_minEmission_002474 = _0024self__002480.emitter.emission.rateOverTimeMultiplier;
+						_0024default_maxEmission_002475 = _0024self__002480.emitter.emission.rateOverTimeMultiplier;
+						{
+							var em = _0024self__002480.emitter.emission;
+							em.rateOverTimeMultiplier = 0f;
+						}
+						{
+							var em = _0024self__002480.emitter.emission;
+							em.rateOverTimeMultiplier = 0f;
+						}
+						{
+							var em = _0024self__002480.emitter.emission;
+							em.enabled = true;
+						}
 						goto case 2;
 					}
-					if ((bool)_0024self__002480.GetComponent<MeshRenderer>() && typeof(MeshRenderer) != null && (bool)_0024self__002480.renderer.material)
+					if ((bool)_0024self__002480.GetComponent<MeshRenderer>() && typeof(MeshRenderer) != null && (bool)_0024self__002480.GetComponent<Renderer>().material)
 					{
-						_0024colortype_002476 = _0024self__002480.GetColorType(_0024self__002480.renderer.material);
+						_0024colortype_002476 = _0024self__002480.GetColorType(_0024self__002480.GetComponent<Renderer>().material);
 						if (!string.IsNullOrEmpty(_0024colortype_002476))
 						{
-							_0024default_alpha_002477 = _0024self__002480.renderer.material.GetColor(_0024colortype_002476).a;
-							_0024mat_color_002478 = _0024self__002480.renderer.material.GetColor(_0024colortype_002476);
+							_0024default_alpha_002477 = _0024self__002480.GetComponent<Renderer>().material.GetColor(_0024colortype_002476).a;
+							_0024mat_color_002478 = _0024self__002480.GetComponent<Renderer>().material.GetColor(_0024colortype_002476);
 							_0024mat_color_002478.a = 0f;
-							_0024self__002480.renderer.material.SetColor(_0024colortype_002476, _0024mat_color_002478);
-							_0024self__002480.renderer.enabled = true;
+							_0024self__002480.GetComponent<Renderer>().material.SetColor(_0024colortype_002476, _0024mat_color_002478);
+							_0024self__002480.GetComponent<Renderer>().enabled = true;
 							goto case 3;
 						}
 					}
 					goto IL_030d;
 				case 2:
-					if (_0024self__002480.emitter.maxEmission < _0024default_maxEmission_002475)
+					if (_0024self__002480.emitter.emission.rateOverTimeMultiplier < _0024default_maxEmission_002475)
 					{
-						if (!(_0024self__002480.emitter.minEmission >= _0024default_minEmission_002474))
+						if (!(_0024self__002480.emitter.emission.rateOverTimeMultiplier >= _0024default_minEmission_002474))
 						{
-							_0024self__002480.emitter.minEmission = _0024self__002480.emitter.minEmission + 1f * Time.deltaTime * _0024self__002480.dtime;
+							{
+								var em = _0024self__002480.emitter.emission;
+								em.rateOverTimeMultiplier = _0024self__002480.emitter.emission.rateOverTimeMultiplier + 1f * Time.deltaTime * _0024self__002480.dtime;
+							}
 						}
-						_0024self__002480.emitter.maxEmission = _0024self__002480.emitter.maxEmission + 15f * Time.deltaTime * _0024self__002480.dtime;
+						{
+							var em = _0024self__002480.emitter.emission;
+							em.rateOverTimeMultiplier = _0024self__002480.emitter.emission.rateOverTimeMultiplier + 15f * Time.deltaTime * _0024self__002480.dtime;
+						}
 						result = (YieldDefault(2) ? 1 : 0);
 						break;
 					}
-					_0024self__002480.emitter.maxEmission = _0024default_maxEmission_002475;
-					_0024self__002480.emitter.minEmission = _0024default_minEmission_002474;
+					{
+						var em = _0024self__002480.emitter.emission;
+						em.rateOverTimeMultiplier = _0024default_maxEmission_002475;
+					}
+					{
+						var em = _0024self__002480.emitter.emission;
+						em.rateOverTimeMultiplier = _0024default_minEmission_002474;
+					}
 					goto IL_030d;
 				case 3:
-					if (_0024self__002480.renderer.material.GetColor(_0024colortype_002476).a < _0024default_alpha_002477)
+					if (_0024self__002480.GetComponent<Renderer>().material.GetColor(_0024colortype_002476).a < _0024default_alpha_002477)
 					{
 						_0024mat_color_002478.a += _0024self__002480.show_speed / 100f * Time.deltaTime * _0024self__002480.dtime;
-						_0024self__002480.renderer.material.SetColor(_0024colortype_002476, _0024mat_color_002478);
+						_0024self__002480.GetComponent<Renderer>().material.SetColor(_0024colortype_002476, _0024mat_color_002478);
 						result = (YieldDefault(3) ? 1 : 0);
 						break;
 					}
 					goto IL_030d;
 				case 4:
-					if (_0024self__002480.light.intensity < _0024default_intensity_002479)
+					if (_0024self__002480.GetComponent<Light>().intensity < _0024default_intensity_002479)
 					{
-						_0024self__002480.light.intensity = _0024self__002480.light.intensity + _0024self__002480.show_speed / 20f * Time.deltaTime * _0024self__002480.dtime;
+						_0024self__002480.GetComponent<Light>().intensity = _0024self__002480.GetComponent<Light>().intensity + _0024self__002480.show_speed / 20f * Time.deltaTime * _0024self__002480.dtime;
 						result = (YieldDefault(4) ? 1 : 0);
 						break;
 					}
@@ -160,9 +181,9 @@ public class sfx_showhide : MonoBehaviour
 					IL_030d:
 					if ((bool)_0024self__002480.GetComponent<Light>() && typeof(Light) != null)
 					{
-						_0024default_intensity_002479 = _0024self__002480.light.intensity;
-						_0024self__002480.light.intensity = 0f;
-						_0024self__002480.light.enabled = true;
+						_0024default_intensity_002479 = _0024self__002480.GetComponent<Light>().intensity;
+						_0024self__002480.GetComponent<Light>().intensity = 0f;
+						_0024self__002480.GetComponent<Light>().enabled = true;
 						goto case 4;
 					}
 					goto IL_03dd;
@@ -214,15 +235,18 @@ public class sfx_showhide : MonoBehaviour
 				default:
 					if ((bool)_0024self__002485.emitter)
 					{
-						_0024self__002485.particleEmitter.emit = false;
+						{
+							var em = _0024self__002485.emitter.emission;
+							em.enabled = false;
+						}
 						goto case 2;
 					}
-					if ((bool)_0024self__002485.GetComponent<MeshRenderer>() && typeof(MeshRenderer) != null && (bool)_0024self__002485.renderer.material)
+					if ((bool)_0024self__002485.GetComponent<MeshRenderer>() && typeof(MeshRenderer) != null && (bool)_0024self__002485.GetComponent<Renderer>().material)
 					{
-						_0024colortype_002483 = _0024self__002485.GetColorType(_0024self__002485.renderer.material);
+						_0024colortype_002483 = _0024self__002485.GetColorType(_0024self__002485.GetComponent<Renderer>().material);
 						if (!string.IsNullOrEmpty(_0024colortype_002483))
 						{
-							_0024mat_color_002484 = _0024self__002485.renderer.material.GetColor(_0024colortype_002483);
+							_0024mat_color_002484 = _0024self__002485.GetComponent<Renderer>().material.GetColor(_0024colortype_002483);
 							goto case 3;
 						}
 					}
@@ -235,18 +259,18 @@ public class sfx_showhide : MonoBehaviour
 					}
 					goto IL_019a;
 				case 3:
-					if (_0024self__002485.renderer.material.GetColor(_0024colortype_002483).a > 0f)
+					if (_0024self__002485.GetComponent<Renderer>().material.GetColor(_0024colortype_002483).a > 0f)
 					{
 						_0024mat_color_002484.a -= _0024self__002485.hide_speed / 100f * Time.deltaTime * _0024self__002485.dtime;
-						_0024self__002485.renderer.material.SetColor(_0024colortype_002483, _0024mat_color_002484);
+						_0024self__002485.GetComponent<Renderer>().material.SetColor(_0024colortype_002483, _0024mat_color_002484);
 						result = (YieldDefault(3) ? 1 : 0);
 						break;
 					}
 					goto IL_019a;
 				case 4:
-					if (_0024self__002485.light.intensity > 0f)
+					if (_0024self__002485.GetComponent<Light>().intensity > 0f)
 					{
-						_0024self__002485.light.intensity = _0024self__002485.light.intensity - _0024self__002485.hide_speed / 20f * Time.deltaTime * _0024self__002485.dtime;
+						_0024self__002485.GetComponent<Light>().intensity = _0024self__002485.GetComponent<Light>().intensity - _0024self__002485.hide_speed / 20f * Time.deltaTime * _0024self__002485.dtime;
 						result = (YieldDefault(4) ? 1 : 0);
 						break;
 					}
@@ -290,7 +314,7 @@ public class sfx_showhide : MonoBehaviour
 
 	public float autodestroy_time;
 
-	private ParticleEmitter emitter;
+	private ParticleSystem emitter;
 
 	private float dtime;
 
@@ -304,17 +328,17 @@ public class sfx_showhide : MonoBehaviour
 
 	public virtual void Awake()
 	{
-		if ((bool)(ParticleEmitter)GetComponent<ParticleEmitter>())
+		if ((bool)(ParticleSystem)GetComponent<ParticleSystem>())
 		{
-			((ParticleEmitter)GetComponent<ParticleEmitter>()).enabled = false;
+			{ var em = ((ParticleSystem)GetComponent<ParticleSystem>()).emission; em.enabled = false; }
 		}
 		if ((bool)GetComponent<MeshRenderer>())
 		{
-			GetComponent<Renderer>()enabled = false;
+			GetComponent<Renderer>().enabled = false;
 		}
 		if ((bool)GetComponent<Light>())
 		{
-			GetComponent<Light>()enabled = false;
+			GetComponent<Light>().enabled = false;
 		}
 	}
 

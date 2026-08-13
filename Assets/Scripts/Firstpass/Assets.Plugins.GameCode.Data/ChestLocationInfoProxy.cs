@@ -1,6 +1,7 @@
 using ProtoBuf;
 
-namespace Assets.Plugins.GameCode.Data;
+namespace Assets.Plugins.GameCode.Data
+{
 
 [ProtoContract]
 public class ChestLocationInfoProxy
@@ -26,4 +27,5 @@ public class ChestLocationInfoProxy
 		chestLocationInfo.Prob = data.Prob;
 		return chestLocationInfo;
 	}
+}
 }

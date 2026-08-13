@@ -2,7 +2,8 @@ using System;
 using System.Globalization;
 using System.Text;
 
-namespace GregoryAdam.Base.ExtensionMethods;
+namespace GregoryAdam.Base.ExtensionMethods
+{
 
 public static class HexConversion
 {
@@ -49,4 +50,5 @@ public static class HexConversion
 	{
 		return s.FromHex().FromUTF8();
 	}
+}
 }

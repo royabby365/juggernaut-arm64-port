@@ -494,7 +494,7 @@ internal class ResourcesManager : SingletonT<ResourcesManager>
 		{
 			onLoad(null);
 		}
-		else if (personArmor.animation.GetClipCount() == 0)
+		else if (personArmor.GetComponent<Animation>().GetClipCount() == 0)
 		{
 			string text = "none";
 			if (personArmor.Weapon != null)
@@ -520,7 +520,7 @@ internal class ResourcesManager : SingletonT<ResourcesManager>
 			GetAssetBundleAsync(go, path, delegate(string abPath, AssetBundleData ab, float __)
 			{
 				AnimationsData component2 = ((GameObject)ab.Bundle.mainAsset).GetComponent<AnimationsData>();
-				Animation animation = personArmor.gameObject.animation;
+				Animation animation = personArmor.gameObject.GetComponent<Animation>();
 				AnimationClip[] animationClips = component2.AnimationClips;
 				foreach (AnimationClip animationClip in animationClips)
 				{
@@ -528,18 +528,18 @@ internal class ResourcesManager : SingletonT<ResourcesManager>
 					{
 						if (animation[animationClip.name] != null)
 						{
-							GetComponent<Animation>()RemoveClip(animationClip.name);
+							animation.RemoveClip(animationClip.name);
 						}
-						GetComponent<Animation>()AddClip(animationClip, animationClip.name);
+						animation.AddClip(animationClip, animationClip.name);
 					}
 				}
 				if (component2.AnimationInBag != null)
 				{
-					GetComponent<Animation>()AddClip(component2.AnimationInBag, "idle_bag");
+					animation.AddClip(component2.AnimationInBag, "idle_bag");
 				}
 				if (component2.AnimationInBag2 != null)
 				{
-					GetComponent<Animation>()AddClip(component2.AnimationInBag2, "idle_bag2");
+					animation.AddClip(component2.AnimationInBag2, "idle_bag2");
 				}
 				RemoveAssetBundle(ab, abPath);
 				onLoad(abPath);

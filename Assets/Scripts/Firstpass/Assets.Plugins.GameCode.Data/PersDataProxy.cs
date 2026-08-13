@@ -2,7 +2,8 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using ProtoBuf;
 
-namespace Assets.Plugins.GameCode.Data;
+namespace Assets.Plugins.GameCode.Data
+{
 
 [ProtoContract]
 public class PersDataProxy
@@ -95,4 +96,5 @@ public class PersDataProxy
 		persDataProxy.Skills = data.Skills;
 		return persDataProxy;
 	}
+}
 }

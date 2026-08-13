@@ -3,7 +3,8 @@ using System.IO;
 using System.Text;
 using ICSharpCode.SharpZipLib.Core;
 
-namespace ICSharpCode.SharpZipLib.Zip;
+namespace ICSharpCode.SharpZipLib.Zip
+{
 
 public class ZipNameTransform : INameTransform
 {
@@ -135,4 +136,5 @@ public class ZipNameTransform : INameTransform
 	{
 		return name != null && name.IndexOfAny(InvalidEntryChars) < 0 && name.IndexOf('/') != 0;
 	}
+}
 }

@@ -3,7 +3,8 @@ using System.IO;
 using System.Text;
 using ICSharpCode.SharpZipLib.Core;
 
-namespace ICSharpCode.SharpZipLib.Zip;
+namespace ICSharpCode.SharpZipLib.Zip
+{
 
 public class WindowsNameTransform : INameTransform
 {
@@ -169,4 +170,5 @@ public class WindowsNameTransform : INameTransform
 		}
 		return name;
 	}
+}
 }

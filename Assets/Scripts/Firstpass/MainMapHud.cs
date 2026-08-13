@@ -429,9 +429,9 @@ public class MainMapHud : MonoBehaviour
 		gameObject.transform.localPosition = coord.ToVector3(-100f);
 		MapButton componentInChildren = gameObject.GetComponentInChildren<MapButton>();
 		componentInChildren.name = $"{sid}/{id}";
-		if (componentInChildren.animation != null)
+		if (componentInChildren.GetComponent<Animation>() != null)
 		{
-			componentInChildren.animation["Take 001"].time = componentInChildren.animation.clip.length * Random.value;
+			componentInChildren.GetComponent<Animation>()["Take 001"].time = componentInChildren.GetComponent<Animation>().clip.length * Random.value;
 		}
 		else if (componentInChildren.CustomAnimation != null)
 		{

@@ -65,7 +65,7 @@ public class ShopBuyButtonMk1 : SpriteButton
 
 	private void SetPrice(ServerData.ShopGood shopGood)
 	{
-		Tuple<ServerData.MoneyType.TypeE, int, string> itemBuyPrice = shopGood.GetItemBuyPrice();
+		System.Tuple<ServerData.MoneyType.TypeE, int, string> itemBuyPrice = shopGood.GetItemBuyPrice();
 		_priceText = itemBuyPrice.Item3 + itemBuyPrice.Item2;
 	}
 

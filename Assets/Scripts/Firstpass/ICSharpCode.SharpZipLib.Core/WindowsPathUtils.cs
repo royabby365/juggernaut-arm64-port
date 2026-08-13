@@ -1,4 +1,5 @@
-namespace ICSharpCode.SharpZipLib.Core;
+namespace ICSharpCode.SharpZipLib.Core
+{
 
 public abstract class WindowsPathUtils
 {
@@ -40,4 +41,5 @@ public abstract class WindowsPathUtils
 		}
 		return text;
 	}
+}
 }

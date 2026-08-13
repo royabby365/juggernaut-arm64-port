@@ -1,6 +1,7 @@
 using System;
 
-namespace ICSharpCode.SharpZipLib.Zip;
+namespace ICSharpCode.SharpZipLib.Zip
+{
 
 public class KeysRequiredEventArgs : EventArgs
 {
@@ -32,4 +33,5 @@ public class KeysRequiredEventArgs : EventArgs
 		fileName = name;
 		key = keyValue;
 	}
+}
 }

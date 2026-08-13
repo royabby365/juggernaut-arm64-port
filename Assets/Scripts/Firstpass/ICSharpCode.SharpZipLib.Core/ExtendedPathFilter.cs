@@ -1,7 +1,8 @@
 using System;
 using System.IO;
 
-namespace ICSharpCode.SharpZipLib.Core;
+namespace ICSharpCode.SharpZipLib.Core
+{
 
 public class ExtendedPathFilter : PathFilter
 {
@@ -110,4 +111,5 @@ public class ExtendedPathFilter : PathFilter
 		}
 		return flag;
 	}
+}
 }

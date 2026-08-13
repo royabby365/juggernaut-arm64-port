@@ -1,6 +1,7 @@
 using System;
 
-namespace ICSharpCode.SharpZipLib.Zip;
+namespace ICSharpCode.SharpZipLib.Zip
+{
 
 [Flags]
 public enum GeneralBitFlags
@@ -20,4 +21,5 @@ public enum GeneralBitFlags
 	HeaderMasked = 0x2000,
 	ReservedPkware14 = 0x4000,
 	ReservedPkware15 = 0x8000
+}
 }

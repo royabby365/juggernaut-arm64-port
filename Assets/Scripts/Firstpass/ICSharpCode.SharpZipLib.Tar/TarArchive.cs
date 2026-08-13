@@ -3,7 +3,8 @@ using System.IO;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-namespace ICSharpCode.SharpZipLib.Tar;
+namespace ICSharpCode.SharpZipLib.Tar
+{
 
 public class TarArchive : IDisposable
 {
@@ -609,4 +610,5 @@ public class TarArchive : IDisposable
 		}
 		return false;
 	}
+}
 }

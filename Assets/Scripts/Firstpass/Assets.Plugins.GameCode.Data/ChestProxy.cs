@@ -1,6 +1,7 @@
 using ProtoBuf;
 
-namespace Assets.Plugins.GameCode.Data;
+namespace Assets.Plugins.GameCode.Data
+{
 
 [ProtoContract]
 public class ChestProxy
@@ -56,4 +57,5 @@ public class ChestProxy
 		chestProxy.ElfModel = data.ElfModel;
 		return chestProxy;
 	}
+}
 }

@@ -37,8 +37,8 @@ public class sfx_react : MonoBehaviour
 					{
 						_0024child_002488 = _0024self__002489.transform.Find("text");
 					}
-					_0024child_002488.animation.Play();
-					_0024child_002488.renderer.enabled = false;
+					_0024child_002488.GetComponent<Animation>().Play();
+					_0024child_002488.GetComponent<Renderer>().enabled = false;
 					result = (Yield(2, new WaitForSeconds(0.1f)) ? 1 : 0);
 					break;
 				case 2:
@@ -58,7 +58,7 @@ public class sfx_react : MonoBehaviour
 						_0024self__002489.old_parent_transform = _0024self__002489.transform.parent.transform;
 					}
 					_0024self__002489.transform.parent = null;
-					_0024child_002488.renderer.enabled = true;
+					_0024child_002488.GetComponent<Renderer>().enabled = true;
 					_0024self__002489.start_time = Time.time;
 					if (_0024self__002489.enableAutodestroy)
 					{

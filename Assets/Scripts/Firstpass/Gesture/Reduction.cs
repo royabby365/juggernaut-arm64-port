@@ -2,7 +2,8 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-namespace Gesture;
+namespace Gesture
+{
 
 public static class Reduction
 {
@@ -57,4 +58,5 @@ public static class Reduction
 		float num2 = Mathf.Sqrt(Mathf.Pow(p1.x - p2.x, 2f) + Mathf.Pow(p1.y - p2.y, 2f));
 		return 2f * num / num2;
 	}
+}
 }

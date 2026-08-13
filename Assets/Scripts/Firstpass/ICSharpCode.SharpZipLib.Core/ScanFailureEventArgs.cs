@@ -1,6 +1,7 @@
 using System;
 
-namespace ICSharpCode.SharpZipLib.Core;
+namespace ICSharpCode.SharpZipLib.Core
+{
 
 public class ScanFailureEventArgs : EventArgs
 {
@@ -32,4 +33,5 @@ public class ScanFailureEventArgs : EventArgs
 		exception_ = e;
 		continueRunning_ = true;
 	}
+}
 }

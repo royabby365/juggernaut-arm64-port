@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 
-namespace Assets.Plugins.GameCode.Data;
+namespace Assets.Plugins.GameCode.Data
+{
 
 public static class Helpers
 {
@@ -115,4 +116,5 @@ public static class Helpers
 		}
 		return array;
 	}
+}
 }

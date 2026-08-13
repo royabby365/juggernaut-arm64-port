@@ -1,4 +1,5 @@
-namespace Scenarios.Parser;
+namespace Scenarios.Parser
+{
 
 public class ArgInt : Arg
 {
@@ -11,4 +12,5 @@ public class ArgInt : Arg
 	{
 		return $"{base.Val}:Int";
 	}
+}
 }

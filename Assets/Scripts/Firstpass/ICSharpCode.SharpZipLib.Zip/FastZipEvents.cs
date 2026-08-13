@@ -1,7 +1,8 @@
 using System;
 using ICSharpCode.SharpZipLib.Core;
 
-namespace ICSharpCode.SharpZipLib.Zip;
+namespace ICSharpCode.SharpZipLib.Zip
+{
 
 public class FastZipEvents
 {
@@ -95,4 +96,5 @@ public class FastZipEvents
 		}
 		return result;
 	}
+}
 }

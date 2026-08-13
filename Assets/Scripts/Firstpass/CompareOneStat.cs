@@ -30,7 +30,7 @@ public class CompareOneStat : MonoBehaviour
 		ShowCompare(show: false);
 	}
 
-	public void SetCompare(Tuple<string, int> stat, int delta, bool oppositeState)
+	public void SetCompare(System.Tuple<string, int> stat, int delta, bool oppositeState)
 	{
 		ShowCompare(show: true);
 		if (oppositeState)

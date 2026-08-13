@@ -3,7 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 
-namespace LitJson;
+namespace LitJson
+{
 
 public class JsonData : IList, ICollection, IEnumerable, IJsonWrapper, IEquatable<JsonData>
 {
@@ -640,4 +641,5 @@ public class JsonData : IList, ICollection, IEnumerable, IJsonWrapper, IEquatabl
 		}
 		return data.inst_string;
 	}
+}
 }

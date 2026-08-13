@@ -2,7 +2,8 @@ using System;
 using System.IO;
 using System.Security.Cryptography;
 
-namespace ICSharpCode.SharpZipLib.Encryption;
+namespace ICSharpCode.SharpZipLib.Encryption
+{
 
 internal class ZipAESStream : CryptoStream
 {
@@ -94,4 +95,5 @@ internal class ZipAESStream : CryptoStream
 	{
 		throw new NotImplementedException();
 	}
+}
 }

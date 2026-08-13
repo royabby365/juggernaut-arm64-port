@@ -1,4 +1,5 @@
-namespace LitJson;
+namespace LitJson
+{
 
 internal class FsmContext
 {
@@ -9,4 +10,5 @@ internal class FsmContext
 	public Lexer L;
 
 	public int StateStack;
+}
 }

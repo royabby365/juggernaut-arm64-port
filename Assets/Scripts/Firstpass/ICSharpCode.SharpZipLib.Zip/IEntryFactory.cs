@@ -1,6 +1,7 @@
 using ICSharpCode.SharpZipLib.Core;
 
-namespace ICSharpCode.SharpZipLib.Zip;
+namespace ICSharpCode.SharpZipLib.Zip
+{
 
 public interface IEntryFactory
 {
@@ -13,4 +14,5 @@ public interface IEntryFactory
 	ZipEntry MakeDirectoryEntry(string directoryName);
 
 	ZipEntry MakeDirectoryEntry(string directoryName, bool useFileSystem);
+}
 }

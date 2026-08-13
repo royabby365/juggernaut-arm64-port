@@ -51,7 +51,7 @@ public class AchievementScroll : MonoBehaviour
 
 	private SpriteButton _addFriends;
 
-	private List<Tuple<AchievementEntry, bool, GameEvents.Event>> _entries = new List<Tuple<AchievementEntry, bool, GameEvents.Event>>();
+	private List<System.Tuple<AchievementEntry, bool, GameEvents.Event>> _entries = new List<System.Tuple<AchievementEntry, bool, GameEvents.Event>>();
 
 	private int _sliderIndicatorMin;
 
@@ -136,7 +136,7 @@ public class AchievementScroll : MonoBehaviour
 				gameObject.transform.parent = ScrollRoot;
 				gameObject.transform.localPosition = Vector3.zero;
 				AchievementEntry component = gameObject.GetComponent<AchievementEntry>();
-				_entries.Add(Tuple.Create(component, item2: true, obj));
+				_entries.Add(System.Tuple.Create(component, item2: true, obj));
 				component.name = component.name + "_" + i;
 			}
 		}
@@ -494,7 +494,7 @@ public class AchievementScroll : MonoBehaviour
 		DestroyRatingEntries();
 		for (int k = 0; k < _entries.Count; k++)
 		{
-			Tuple<AchievementEntry, bool, GameEvents.Event> tuple = _entries[k];
+			System.Tuple<AchievementEntry, bool, GameEvents.Event> tuple = _entries[k];
 			bool item = true;
 			switch (i)
 			{
@@ -508,7 +508,7 @@ public class AchievementScroll : MonoBehaviour
 				item = tuple.Item3.MaxProgress > 1;
 				break;
 			}
-			_entries[k] = Tuple.Create(tuple.Item1, item, tuple.Item3);
+			_entries[k] = System.Tuple.Create(tuple.Item1, item, tuple.Item3);
 		}
 		RearrangeEntries();
 	}
@@ -521,7 +521,7 @@ public class AchievementScroll : MonoBehaviour
 		Vector3 localPosition = ScrollRoot.localPosition;
 		ScrollRoot.localPosition = new Vector3(localPosition.x, _minScrollLoc, localPosition.z);
 		int num3 = 0;
-		foreach (Tuple<AchievementEntry, bool, GameEvents.Event> entry in _entries)
+		foreach (System.Tuple<AchievementEntry, bool, GameEvents.Event> entry in _entries)
 		{
 			AchievementEntry item = entry.Item1;
 			item.SetEvent(entry.Item3);
@@ -577,7 +577,7 @@ public class AchievementScroll : MonoBehaviour
 		}
 		int num = 0;
 		int num2 = 0;
-		foreach (Tuple<AchievementEntry, bool, GameEvents.Event> entry in _entries)
+		foreach (System.Tuple<AchievementEntry, bool, GameEvents.Event> entry in _entries)
 		{
 			if (entry.Item3 != null && entry.Item3.Achievement != null)
 			{

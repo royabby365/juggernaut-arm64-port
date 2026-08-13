@@ -9,9 +9,9 @@ using Yarx.Collections;
 
 public static class Extensions
 {
-	private static readonly Tuple<string, int> _emptyDescription = Tuple.Create(string.Empty, -1);
+	private static readonly System.Tuple<string, int> _emptyDescription = System.Tuple.Create(string.Empty, -1);
 
-	private static readonly Tuple<string, bool, string, bool> EmptyDigits = Tuple.Create(string.Empty, item2: false, string.Empty, item4: false);
+	private static readonly System.Tuple<string, bool, string, bool> EmptyDigits = System.Tuple.Create(string.Empty, item2: false, string.Empty, item4: false);
 
 	public static void ForEach<T>(this IEnumerable<T> ie, Action<T> action)
 	{
@@ -42,7 +42,7 @@ public static class Extensions
 			RendererHandler component = @this.GetComponent<RendererHandler>();
 			if (component == null)
 			{
-				@this.renderer.enabled = show;
+				@this.GetComponent<Renderer>().enabled = show;
 			}
 			else
 			{
@@ -570,7 +570,7 @@ public static class Extensions
 		return elixirType == ServerData.Item.ElixirTypeE.Critical || elixirType == ServerData.Item.ElixirTypeE.Heal || elixirType == ServerData.Item.ElixirTypeE.Poison;
 	}
 
-	public static Tuple<string, int> GetItemDescription(this ServerData.Item item)
+	public static System.Tuple<string, int> GetItemDescription(this ServerData.Item item)
 	{
 		if (item.ElixirType == ServerData.Item.ElixirTypeE.None)
 		{
@@ -582,7 +582,7 @@ public static class Extensions
 					ServerData.SkillInfo skillInfo = item.Skills[i];
 					if (skillInfo != null && skillInfo.Skill != null)
 					{
-						return Tuple.Create($"{skillInfo.GetSkillIcon()} {skillInfo.Skill.Title} ", skillInfo.Current);
+						return System.Tuple.Create($"{skillInfo.GetSkillIcon()} {skillInfo.Skill.Title} ", skillInfo.Current);
 					}
 				}
 			}
@@ -591,16 +591,16 @@ public static class Extensions
 		return _emptyDescription;
 	}
 
-	public static Tuple<ServerData.Skill.TypeE, string, int> GetItemBonus(this ServerData.Item item)
+	public static System.Tuple<ServerData.Skill.TypeE, string, int> GetItemBonus(this ServerData.Item item)
 	{
 		ServerData.SkillInfo itemSkillInfo = item.GetItemSkillInfo();
-		return (itemSkillInfo != null) ? Tuple.Create(itemSkillInfo.Skill.Type, itemSkillInfo.Skill.Title, itemSkillInfo.Current) : null;
+		return (itemSkillInfo != null) ? System.Tuple.Create(itemSkillInfo.Skill.Type, itemSkillInfo.Skill.Title, itemSkillInfo.Current) : null;
 	}
 
-	private static Tuple<string, int> GetItemSkillDigits(this ServerData.Item item)
+	private static System.Tuple<string, int> GetItemSkillDigits(this ServerData.Item item)
 	{
 		ServerData.SkillInfo itemSkillInfo = item.GetItemSkillInfo();
-		return (itemSkillInfo != null) ? Tuple.Create(itemSkillInfo.GetSkillIcon(), itemSkillInfo.Current) : null;
+		return (itemSkillInfo != null) ? System.Tuple.Create(itemSkillInfo.GetSkillIcon(), itemSkillInfo.Current) : null;
 	}
 
 	public static bool IsItemSet(this ServerData.Item it)
@@ -632,7 +632,7 @@ public static class Extensions
 		return it1.Id == it2.Id && it1.GetItemSkillInfo().Current == it2.GetItemSkillInfo().Current;
 	}
 
-	public static Tuple<string, int> GetItemMaxDescription(this ServerData.Item item)
+	public static System.Tuple<string, int> GetItemMaxDescription(this ServerData.Item item)
 	{
 		if (item.ElixirType == ServerData.Item.ElixirTypeE.None)
 		{
@@ -644,7 +644,7 @@ public static class Extensions
 					ServerData.SkillInfo skillInfo = item.Skills[i];
 					if (skillInfo != null && skillInfo.Skill != null)
 					{
-						return Tuple.Create($"{skillInfo.GetSkillIcon()} {skillInfo.Skill.Title} ", skillInfo.Max);
+						return System.Tuple.Create($"{skillInfo.GetSkillIcon()} {skillInfo.Skill.Title} ", skillInfo.Max);
 					}
 				}
 			}
@@ -700,7 +700,7 @@ public static class Extensions
 		return null;
 	}
 
-	public static Tuple<ServerData.MoneyType.TypeE, int, string> GetItemBuyPrice(this ServerData.ShopGood shopGood)
+	public static System.Tuple<ServerData.MoneyType.TypeE, int, string> GetItemBuyPrice(this ServerData.ShopGood shopGood)
 	{
 		ServerData.MoneyType.TypeE typeE = ServerData.MoneyType.TypeE.Gold;
 		int num = 0;
@@ -713,7 +713,7 @@ public static class Extensions
 		{
 			num = CalculateDiscount(num, shopGood.Discount);
 		}
-		return Tuple.Create(typeE, num, GetValueCharIcon(typeE));
+		return System.Tuple.Create(typeE, num, GetValueCharIcon(typeE));
 	}
 
 	private static int CalculateDiscount(int amount, int percent)
@@ -722,7 +722,7 @@ public static class Extensions
 		return ((1f - (float)num / 100f) * (float)amount).RoundToInt();
 	}
 
-	public static Tuple<ServerData.MoneyType.TypeE, int, string> GetPrice(this Dictionary<ServerData.MoneyType, int> prices)
+	public static System.Tuple<ServerData.MoneyType.TypeE, int, string> GetPrice(this Dictionary<ServerData.MoneyType, int> prices)
 	{
 		ServerData.MoneyType.TypeE typeE = ServerData.MoneyType.TypeE.Gold;
 		int item = 0;
@@ -731,7 +731,7 @@ public static class Extensions
 			typeE = price.Key.Type;
 			item = price.Value;
 		}
-		return Tuple.Create(typeE, item, GetValueCharIcon(typeE));
+		return System.Tuple.Create(typeE, item, GetValueCharIcon(typeE));
 	}
 
 	public static bool IsCountable(this ServerData.Item item)
@@ -756,10 +756,10 @@ public static class Extensions
 		};
 	}
 
-	public static Tuple<ServerData.MoneyType.TypeE, int, string> GetItemSellPrice(this ServerData.Item item)
+	public static System.Tuple<ServerData.MoneyType.TypeE, int, string> GetItemSellPrice(this ServerData.Item item)
 	{
 		Pair<ServerData.MoneyType, int> sellPrice = SingletonT<ServerData>.I.GetSellPrice(item);
-		return Tuple.Create(sellPrice.Key.Type, sellPrice.Value, GetValueCharIcon(sellPrice.Key.Type));
+		return System.Tuple.Create(sellPrice.Key.Type, sellPrice.Value, GetValueCharIcon(sellPrice.Key.Type));
 	}
 
 	public static int GetPlayerFundsCount(this ServerData.MoneyType.TypeE type)
@@ -823,7 +823,7 @@ public static class Extensions
 		}
 	}
 
-	public static Tuple<int, int> GetPlayerSkill(this ServerData.Skill.TypeE skillType)
+	public static System.Tuple<int, int> GetPlayerSkill(this ServerData.Skill.TypeE skillType)
 	{
 		int num = 0;
 		switch (skillType)
@@ -868,7 +868,7 @@ public static class Extensions
 				}
 			}
 		});
-		return Tuple.Create(num, bagBonus);
+		return System.Tuple.Create(num, bagBonus);
 	}
 
 	public static int GetPlayerSkillPoints()
@@ -979,8 +979,8 @@ public static class Extensions
 		{
 			return false;
 		}
-		Tuple<string, int> itemDescription = puppetItem.GetItemDescription();
-		Tuple<string, int> itemDescription2 = shopGood.Item.GetItemDescription();
+		System.Tuple<string, int> itemDescription = puppetItem.GetItemDescription();
+		System.Tuple<string, int> itemDescription2 = shopGood.Item.GetItemDescription();
 		return puppetItem.Id == shopGood.Item.Id && itemDescription2.Item2 <= itemDescription.Item2;
 	}
 
@@ -998,8 +998,8 @@ public static class Extensions
 		{
 			return false;
 		}
-		Tuple<string, int> itemDescription = puppetItem.GetItemDescription();
-		Tuple<string, int> itemDescription2 = shopGood.Item.GetItemDescription();
+		System.Tuple<string, int> itemDescription = puppetItem.GetItemDescription();
+		System.Tuple<string, int> itemDescription2 = shopGood.Item.GetItemDescription();
 		if (Globals.IsDebugBuild)
 		{
 			Debug.Log("=== inbag:{0} inshop:{1} HAS:{2}===".Fmt(itemDescription, itemDescription2, itemDescription2.Item2 <= itemDescription.Item2));
@@ -1007,22 +1007,22 @@ public static class Extensions
 		return itemDescription.Item1 == itemDescription2.Item1 && itemDescription2.Item2 <= itemDescription.Item2;
 	}
 
-	public static Tuple<string, bool, string, bool> GetChangeStatsDigits(ServerData.Item newItem, ServerData.Item oldItem)
+	public static System.Tuple<string, bool, string, bool> GetChangeStatsDigits(ServerData.Item newItem, ServerData.Item oldItem)
 	{
 		Func<bool, string> func = (bool b) => (!b) ? "-" : "+";
-		Tuple<string, int> itemSkillDigits = newItem.GetItemSkillDigits();
-		Tuple<string, int> itemSkillDigits2 = oldItem.GetItemSkillDigits();
+		System.Tuple<string, int> itemSkillDigits = newItem.GetItemSkillDigits();
+		System.Tuple<string, int> itemSkillDigits2 = oldItem.GetItemSkillDigits();
 		if (itemSkillDigits == null && itemSkillDigits2 == null)
 		{
 			return EmptyDigits;
 		}
 		if (itemSkillDigits == null)
 		{
-			return Tuple.Create(itemSkillDigits2.Item1 + func(arg1: false) + itemSkillDigits2.Item2, item2: false, string.Empty, item4: false);
+			return System.Tuple.Create(itemSkillDigits2.Item1 + func(arg: false) + itemSkillDigits2.Item2, item2: false, string.Empty, item4: false);
 		}
 		if (itemSkillDigits2 == null)
 		{
-			return Tuple.Create(itemSkillDigits.Item1 + func(arg1: true) + itemSkillDigits.Item2, item2: true, string.Empty, item4: false);
+			return System.Tuple.Create(itemSkillDigits.Item1 + func(arg: true) + itemSkillDigits.Item2, item2: true, string.Empty, item4: false);
 		}
 		if (itemSkillDigits.Item1 == itemSkillDigits2.Item1)
 		{
@@ -1032,8 +1032,8 @@ public static class Extensions
 				return EmptyDigits;
 			}
 			bool flag = num > 0;
-			return Tuple.Create(itemSkillDigits2.Item1 + func(flag) + Math.Abs(num), flag, string.Empty, item4: false);
+			return System.Tuple.Create(itemSkillDigits2.Item1 + func(flag) + Math.Abs(num), flag, string.Empty, item4: false);
 		}
-		return Tuple.Create(itemSkillDigits2.Item1 + func(arg1: false) + itemSkillDigits2.Item2, item2: false, itemSkillDigits.Item1 + func(arg1: true) + itemSkillDigits.Item2, item4: true);
+		return System.Tuple.Create(itemSkillDigits2.Item1 + func(arg: false) + itemSkillDigits2.Item2, item2: false, itemSkillDigits.Item1 + func(arg: true) + itemSkillDigits.Item2, item4: true);
 	}
 }

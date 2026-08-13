@@ -74,19 +74,19 @@ internal class Fxs : SingletonT<Fxs>
 		{
 			UnityEngine.Object.Destroy(obj);
 		}
-		ParticleRenderer[] componentsInChildren2 = fx.GetComponentsInChildren<ParticleRenderer>();
-		foreach (ParticleRenderer particleRenderer in componentsInChildren2)
+		ParticleSystemRenderer[] componentsInChildren2 = fx.GetComponentsInChildren<ParticleSystemRenderer>();
+		foreach (ParticleSystemRenderer particleRenderer in componentsInChildren2)
 		{
-			particleRenderer.uvAnimationXTile = 1;
-			particleRenderer.uvAnimationYTile = 1;
+			// uvAnimationXTile removed in modern ParticleSystemRenderer
+			// uvAnimationYTile removed in modern ParticleSystemRenderer
 		}
-		ParticleEmitter[] componentsInChildren3 = fx.GetComponentsInChildren<ParticleEmitter>();
-		foreach (ParticleEmitter particleEmitter in componentsInChildren3)
+		ParticleSystem[] componentsInChildren3 = fx.GetComponentsInChildren<ParticleSystem>();
+		foreach (ParticleSystem particleEmitter in componentsInChildren3)
 		{
-			if (particleEmitter.maxEmission > 20f)
+			if (particleEmitter.emission.rateOverTimeMultiplier > 20f)
 			{
-				float maxEmission = particleEmitter.maxEmission;
-				particleEmitter.maxEmission = (int)((double)maxEmission * 0.25);
+				float maxEmission = particleEmitter.emission.rateOverTimeMultiplier;
+				{ var em = particleEmitter.emission; em.rateOverTimeMultiplier = (int)((double)maxEmission * 0.25); }
 			}
 		}
 		if (!Globals.DebugFxOptimizerOn || !(FxOptimizer.I != null) || CurrentFxTag.Length <= 0)
@@ -94,14 +94,13 @@ internal class Fxs : SingletonT<Fxs>
 			return;
 		}
 		Texture[] textures = FxOptimizer.I.Textures;
-		ParticleRenderer[] componentsInChildren4 = fx.GetComponentsInChildren<ParticleRenderer>();
-		foreach (ParticleRenderer particleRenderer2 in componentsInChildren4)
+		ParticleSystemRenderer[] componentsInChildren4 = fx.GetComponentsInChildren<ParticleSystemRenderer>();
+		foreach (ParticleSystemRenderer particleRenderer2 in componentsInChildren4)
 		{
 			if (textures.IndexOf(particleRenderer2.material.mainTexture) >= 0)
 			{
-				particleRenderer2.particleEmitter.emit = false;
 				particleRenderer2.enabled = false;
-				particleRenderer2.particleEmitter.enabled = false;
+				{ var ps = particleRenderer2.GetComponent<ParticleSystem>(); if (ps != null) { var em = ps.emission; em.enabled = false; } }
 				particleRenderer2.gameObject.SetActiveRecursivelyMk1(setActive: false);
 				Fxses.Add(particleRenderer2.gameObject);
 			}

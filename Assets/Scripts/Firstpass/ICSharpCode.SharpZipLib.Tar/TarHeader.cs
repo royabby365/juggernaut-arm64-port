@@ -1,7 +1,8 @@
 using System;
 using System.Text;
 
-namespace ICSharpCode.SharpZipLib.Tar;
+namespace ICSharpCode.SharpZipLib.Tar
+{
 
 public class TarHeader : ICloneable
 {
@@ -688,4 +689,5 @@ public class TarHeader : ICloneable
 		}
 		return result;
 	}
+}
 }

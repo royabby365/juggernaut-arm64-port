@@ -1,7 +1,8 @@
 using System.ComponentModel;
 using ProtoBuf;
 
-namespace Assets.Plugins.GameCode.Data;
+namespace Assets.Plugins.GameCode.Data
+{
 
 [ProtoContract]
 public class BotInfoProxy
@@ -73,4 +74,5 @@ public class BotInfoProxy
 		botInfoProxy.SkinColor = data.skinColor;
 		return botInfoProxy;
 	}
+}
 }

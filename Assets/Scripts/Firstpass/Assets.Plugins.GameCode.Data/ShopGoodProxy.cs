@@ -1,7 +1,8 @@
 using System.Collections.Generic;
 using ProtoBuf;
 
-namespace Assets.Plugins.GameCode.Data;
+namespace Assets.Plugins.GameCode.Data
+{
 
 [ProtoContract]
 public class ShopGoodProxy
@@ -57,4 +58,5 @@ public class ShopGoodProxy
 		shopGoodProxy.Price = data.Price;
 		return shopGoodProxy;
 	}
+}
 }

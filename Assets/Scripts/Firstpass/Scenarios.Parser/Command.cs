@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 
-namespace Scenarios.Parser;
+namespace Scenarios.Parser
+{
 
 public class Command : Statement
 {
@@ -8,4 +9,5 @@ public class Command : Statement
 		: base(id, new List<Arg>(args))
 	{
 	}
+}
 }

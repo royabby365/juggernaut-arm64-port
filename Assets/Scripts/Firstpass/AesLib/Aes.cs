@@ -1,6 +1,7 @@
 using System;
 
-namespace AesLib;
+namespace AesLib
+{
 
 public class Aes
 {
@@ -513,4 +514,5 @@ public class Aes
 		}
 		return text;
 	}
+}
 }

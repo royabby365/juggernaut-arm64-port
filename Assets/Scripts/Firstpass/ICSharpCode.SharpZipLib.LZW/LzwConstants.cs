@@ -1,4 +1,5 @@
-namespace ICSharpCode.SharpZipLib.LZW;
+namespace ICSharpCode.SharpZipLib.LZW
+{
 
 public sealed class LzwConstants
 {
@@ -21,4 +22,5 @@ public sealed class LzwConstants
 	private LzwConstants()
 	{
 	}
+}
 }

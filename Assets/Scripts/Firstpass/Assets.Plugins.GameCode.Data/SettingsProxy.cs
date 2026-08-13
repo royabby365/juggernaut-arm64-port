@@ -1,7 +1,8 @@
 using System.ComponentModel;
 using ProtoBuf;
 
-namespace Assets.Plugins.GameCode.Data;
+namespace Assets.Plugins.GameCode.Data
+{
 
 [ProtoContract]
 public class SettingsProxy
@@ -543,4 +544,5 @@ public class SettingsProxy
 		settingsProxy.LocationMobLevelMax = data.LocationMobLevelMax;
 		return settingsProxy;
 	}
+}
 }

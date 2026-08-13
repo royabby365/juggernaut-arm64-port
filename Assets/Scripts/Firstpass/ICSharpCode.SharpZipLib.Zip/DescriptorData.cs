@@ -1,4 +1,5 @@
-namespace ICSharpCode.SharpZipLib.Zip;
+namespace ICSharpCode.SharpZipLib.Zip
+{
 
 public class DescriptorData
 {
@@ -43,4 +44,5 @@ public class DescriptorData
 			crc = value & 0xFFFFFFFFu;
 		}
 	}
+}
 }

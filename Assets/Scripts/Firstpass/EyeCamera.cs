@@ -12,9 +12,9 @@ internal class EyeCamera : MonoBehaviour
 		Renderer[] componentsInChildren = base.transform.root.gameObject.GetComponentsInChildren<Renderer>();
 		foreach (Renderer renderer in componentsInChildren)
 		{
-			if (GetComponent<Renderer>()materials != null)
+			if (GetComponent<Renderer>().materials != null)
 			{
-				Material[] materials = GetComponent<Renderer>()materials;
+				Material[] materials = GetComponent<Renderer>().materials;
 				foreach (Material material in materials)
 				{
 					material.renderQueue = 4000;

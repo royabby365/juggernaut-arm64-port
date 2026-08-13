@@ -48,7 +48,7 @@ public class ChapterBonusHud : MonoBehaviour
 		string text = "resources/chapter_screens/" + textureName;
 		SingletonT<ResourcesManager>.I.GetAssetBundleAsync(Globals.MainMenu, ResourcesManager.GetAssetBundlePath(text), delegate(string _, ResourcesManager.AssetBundleData ab, float time)
 		{
-			BackgroundRenderer.material.mainTexture = (Texture)ab.Bundle.Load(textureName);
+			BackgroundRenderer.material.mainTexture = (Texture)ab.Bundle.LoadAsset(textureName);
 			if (AreaData.Current.Location.Bonus.Drop != null && AreaData.Current.Location.Bonus.Drop.Count > 0)
 			{
 				_drop = (GameObject)Object.Instantiate(LootProto);

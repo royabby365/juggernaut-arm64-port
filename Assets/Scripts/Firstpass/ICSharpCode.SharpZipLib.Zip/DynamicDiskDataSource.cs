@@ -1,6 +1,7 @@
 using System.IO;
 
-namespace ICSharpCode.SharpZipLib.Zip;
+namespace ICSharpCode.SharpZipLib.Zip
+{
 
 public class DynamicDiskDataSource : IDynamicDataSource
 {
@@ -13,4 +14,5 @@ public class DynamicDiskDataSource : IDynamicDataSource
 		}
 		return result;
 	}
+}
 }

@@ -1,6 +1,7 @@
 using System.IO;
 
-namespace ICSharpCode.SharpZipLib.Core;
+namespace ICSharpCode.SharpZipLib.Core
+{
 
 public class PathFilter : IScanFilter
 {
@@ -21,4 +22,5 @@ public class PathFilter : IScanFilter
 		}
 		return result;
 	}
+}
 }

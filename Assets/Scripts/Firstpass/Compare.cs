@@ -32,7 +32,7 @@ public class Compare : MonoBehaviour
 
 	private BagItemButton _toRemove;
 
-	private readonly Queue<Tuple<string, bool, string, bool>> _itemsChanged = new Queue<Tuple<string, bool, string, bool>>();
+	private readonly Queue<System.Tuple<string, bool, string, bool>> _itemsChanged = new Queue<System.Tuple<string, bool, string, bool>>();
 
 	private ServerData.ShopGood _shopGood;
 
@@ -60,10 +60,10 @@ public class Compare : MonoBehaviour
 		_subscriptions.Add(Messenger<ServerData.Item>.AddListener(Globals.MsgPlayerCompareItem, OnCompareItem));
 		_subscriptions.Add(Messenger<BagItemButton>.AddListener(Globals.MsgPlayerRemoveItem, OnRemoveItem));
 		_subscriptions.Add(Messenger<ServerData.ShopGood>.AddListener(Globals.MsgPlayerCompareShopGood, OnCompareShopGood));
-		_subscriptions.Add(Messenger<Tuple<string, bool, string, bool>>.AddListener(Globals.MsgPlayerItemsChanged, OnPlayerItemsChanged));
+		_subscriptions.Add(Messenger<System.Tuple<string, bool, string, bool>>.AddListener(Globals.MsgPlayerItemsChanged, OnPlayerItemsChanged));
 	}
 
-	private void OnPlayerItemsChanged(Tuple<string, bool, string, bool> tuple)
+	private void OnPlayerItemsChanged(System.Tuple<string, bool, string, bool> tuple)
 	{
 		_itemsChanged.Enqueue(tuple);
 	}
@@ -81,7 +81,7 @@ public class Compare : MonoBehaviour
 		{
 			if (_toRemove == null)
 			{
-				Tuple<string, bool, string, bool> changeStatsDigits = Extensions.GetChangeStatsDigits(_newItem, _oldItem);
+				System.Tuple<string, bool, string, bool> changeStatsDigits = Extensions.GetChangeStatsDigits(_newItem, _oldItem);
 				Messenger.Invoke(Globals.MsgPlayerItemsChanged, changeStatsDigits);
 			}
 			PutOnOffNewItem();
@@ -111,7 +111,7 @@ public class Compare : MonoBehaviour
 	private void SellNewItem()
 	{
 		ServerData.Item itemToSell = ((!(_toRemove == null)) ? _oldItem : _newItem);
-		Tuple<ServerData.MoneyType.TypeE, int, string> itemSellPrice = itemToSell.GetItemSellPrice();
+		System.Tuple<ServerData.MoneyType.TypeE, int, string> itemSellPrice = itemToSell.GetItemSellPrice();
 		Messenger<ServerData.PhrasesE, ServerData.PhrasesE, string, Action>.Invoke(Globals.MsgPopup2ButtonYesHandlerCustomMessage, ServerData.PhrasesE.ButtonSell, ServerData.PhrasesE.ButtonCancel, string.Format(SingletonT<ServerData>.I.GetPhrase(ServerData.PhrasesE.CompareSellItem), itemSellPrice.Item2 + itemSellPrice.Item3), delegate
 		{
 			ServerData.Item item = itemToSell;
@@ -203,7 +203,7 @@ public class Compare : MonoBehaviour
 		_itemsChangeDt += Time.deltaTime;
 		if (_itemsChanged.Count > 0 && _itemsChangeDt > 2f)
 		{
-			Tuple<string, bool, string, bool> tuple = _itemsChanged.Dequeue();
+			System.Tuple<string, bool, string, bool> tuple = _itemsChanged.Dequeue();
 			SingletonT<SoundManager>.I.PlayGlobalSound("click_change_armor");
 			Globals.Player.ShowStatsChanging(tuple.Item1, tuple.Item2, tuple.Item3, tuple.Item4);
 		}

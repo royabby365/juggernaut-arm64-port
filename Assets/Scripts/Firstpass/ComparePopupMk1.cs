@@ -24,9 +24,9 @@ public class ComparePopupMk1 : MonoBehaviour
 
 	private Vector3 _countableScale = new Vector3(0.8f, 0.8f, 1f);
 
-	private Tuple<ServerData.Item, int> _itemWithCount;
+	private System.Tuple<ServerData.Item, int> _itemWithCount;
 
-	public Tuple<ServerData.Item, int> ItemWithCount
+	public System.Tuple<ServerData.Item, int> ItemWithCount
 	{
 		get
 		{
@@ -71,9 +71,9 @@ public class ComparePopupMk1 : MonoBehaviour
 		_subscriptions.Dispose();
 	}
 
-	private Tuple<ServerData.Item, int> GetItemWithCount(ServerData.Bonus.DropElement dropElement)
+	private System.Tuple<ServerData.Item, int> GetItemWithCount(ServerData.Bonus.DropElement dropElement)
 	{
-		return Tuple.Create(dropElement.Item, dropElement.Count);
+		return System.Tuple.Create(dropElement.Item, dropElement.Count);
 	}
 
 	public void SetDropElement(ServerData.Bonus.DropElement dropElement)
@@ -81,7 +81,7 @@ public class ComparePopupMk1 : MonoBehaviour
 		ItemWithCount = GetItemWithCount(dropElement);
 	}
 
-	private void SetItemLook(Tuple<ServerData.Item, int> itemWithCount)
+	private void SetItemLook(System.Tuple<ServerData.Item, int> itemWithCount)
 	{
 		ServerData.Item item = itemWithCount.Item1;
 		FontManager.ColorE colorE = item.DecodeColor();
@@ -131,7 +131,7 @@ public class ComparePopupMk1 : MonoBehaviour
 		{
 			Compare2.SetCompareEmpty();
 			int current = itemSkillInfo.Current;
-			Tuple<string, int> itemDescription = item.GetItemDescription();
+			System.Tuple<string, int> itemDescription = item.GetItemDescription();
 			Compare1.SetCompare(itemDescription, current, oppositeState: false);
 			return;
 		}
@@ -140,15 +140,15 @@ public class ComparePopupMk1 : MonoBehaviour
 		{
 			Compare2.SetCompareEmpty();
 			int delta = itemSkillInfo.Current - itemSkillInfo2.Current;
-			Tuple<string, int> itemDescription2 = item.GetItemDescription();
+			System.Tuple<string, int> itemDescription2 = item.GetItemDescription();
 			Compare1.SetCompare(itemDescription2, delta, oppositeState: false);
 		}
 		else
 		{
 			int current2 = itemSkillInfo.Current;
 			int current3 = itemSkillInfo2.Current;
-			Tuple<string, int> itemDescription3 = item.GetItemDescription();
-			Tuple<string, int> itemDescription4 = opposite.GetItemDescription();
+			System.Tuple<string, int> itemDescription3 = item.GetItemDescription();
+			System.Tuple<string, int> itemDescription4 = opposite.GetItemDescription();
 			Compare1.SetCompare(itemDescription3, current2, oppositeState: false);
 			Compare2.SetCompare(itemDescription4, current3, oppositeState: true);
 		}

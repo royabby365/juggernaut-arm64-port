@@ -2,7 +2,8 @@ using System;
 using System.IO;
 using GregoryAdam.Base.ExtensionMethods;
 
-namespace GregoryAdam.Base.Security.Hashing;
+namespace GregoryAdam.Base.Security.Hashing
+{
 
 public sealed class MD5
 {
@@ -297,4 +298,5 @@ public sealed class MD5
 		output[outputIndex++] = (byte)((input >> 16) & 0xFF);
 		output[outputIndex++] = (byte)((input >> 24) & 0xFF);
 	}
+}
 }

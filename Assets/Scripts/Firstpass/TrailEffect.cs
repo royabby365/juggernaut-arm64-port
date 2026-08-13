@@ -37,7 +37,7 @@ internal class TrailEffect
 		if (_enabled)
 		{
 			GameObject gameObject = (GameObject)UnityEngine.Object.Instantiate(_fxPrototype(), wp, Quaternion.identity);
-			_fxTrail = gameObject.renderer as TrailRenderer;
+			_fxTrail = gameObject.GetComponent<Renderer>() as TrailRenderer;
 		}
 	}
 

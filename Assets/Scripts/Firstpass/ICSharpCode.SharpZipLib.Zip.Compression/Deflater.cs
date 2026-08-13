@@ -1,6 +1,7 @@
 using System;
 
-namespace ICSharpCode.SharpZipLib.Zip.Compression;
+namespace ICSharpCode.SharpZipLib.Zip.Compression
+{
 
 public class Deflater
 {
@@ -259,4 +260,5 @@ public class Deflater
 		state = 1;
 		engine.SetDictionary(dictionary, index, count);
 	}
+}
 }

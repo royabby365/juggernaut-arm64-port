@@ -35,7 +35,7 @@ public class Storyline : MonoBehaviour
 		}
 		else
 		{
-			Tuple<int, int, int> currentKey = GetCurrentKey();
+			Yarx.Collections.Tuple<int, int, int> currentKey = GetCurrentKey();
 			if (!_currentDialogs.LocationBot.Equals(currentKey))
 			{
 				_currentDialogs = GetCurrentDialog();
@@ -89,7 +89,7 @@ public class Storyline : MonoBehaviour
 
 	private ServerData.StorylineDialog GetCurrentDialog()
 	{
-		Tuple<int, int, int> currentKey = GetCurrentKey();
+		Yarx.Collections.Tuple<int, int, int> currentKey = GetCurrentKey();
 		ServerData.StorylineDialog value = null;
 		if (currentKey != null)
 		{
@@ -98,7 +98,7 @@ public class Storyline : MonoBehaviour
 		return value;
 	}
 
-	private Tuple<int, int, int> GetCurrentKey()
+	private Yarx.Collections.Tuple<int, int, int> GetCurrentKey()
 	{
 		int locationProgress = SingletonT<ServerData>.I.GetLocationProgress(AreaData.Current.Location);
 		AreaData.MobData mobData = null;
@@ -110,6 +110,6 @@ public class Storyline : MonoBehaviour
 		{
 			return null;
 		}
-		return Tuple.Create(AreaData.Current.Location.Id, mobData.ServerInfo.Id, mobData.Level);
+		return Yarx.Collections.Tuple.Create(AreaData.Current.Location.Id, mobData.ServerInfo.Id, mobData.Level);
 	}
 }

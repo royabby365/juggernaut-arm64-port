@@ -33,33 +33,33 @@ public class ManaBar : MonoBehaviour
 		{
 			float y2 = y * mana / num;
 			full0.localScale = new Vector3(1f, y2, 1f);
-			full0.renderer.material.mainTextureScale = new Vector2(1f, y2);
+			full0.GetComponent<Renderer>().material.mainTextureScale = new Vector2(1f, y2);
 			full1.localScale = new Vector3(1f, 0f, 1f);
-			full1.renderer.material.mainTextureScale = new Vector2(1f, 0f);
+			full1.GetComponent<Renderer>().material.mainTextureScale = new Vector2(1f, 0f);
 			full2.localScale = new Vector3(1f, 0f, 1f);
-			full2.renderer.material.mainTextureScale = new Vector2(1f, 0f);
+			full2.GetComponent<Renderer>().material.mainTextureScale = new Vector2(1f, 0f);
 		}
 		else if (mana <= 2f * num)
 		{
 			full0.localScale = new Vector3(1f, y, 1f);
-			full0.renderer.material.mainTextureScale = new Vector2(1f, y);
+			full0.GetComponent<Renderer>().material.mainTextureScale = new Vector2(1f, y);
 			mana -= num;
 			float y3 = y * mana / num;
 			full1.localScale = new Vector3(1f, y3, 1f);
-			full1.renderer.material.mainTextureScale = new Vector2(1f, y3);
+			full1.GetComponent<Renderer>().material.mainTextureScale = new Vector2(1f, y3);
 			full2.localScale = new Vector3(1f, 0f, 1f);
-			full2.renderer.material.mainTextureScale = new Vector2(1f, 0f);
+			full2.GetComponent<Renderer>().material.mainTextureScale = new Vector2(1f, 0f);
 		}
 		else
 		{
 			full0.localScale = new Vector3(1f, y, 1f);
-			full0.renderer.material.mainTextureScale = new Vector2(1f, y);
+			full0.GetComponent<Renderer>().material.mainTextureScale = new Vector2(1f, y);
 			full1.localScale = new Vector3(1f, y, 1f);
-			full1.renderer.material.mainTextureScale = new Vector2(1f, y);
+			full1.GetComponent<Renderer>().material.mainTextureScale = new Vector2(1f, y);
 			mana -= 2f * num;
 			float y4 = y * mana / num;
 			full2.localScale = new Vector3(1f, y4, 1f);
-			full2.renderer.material.mainTextureScale = new Vector2(1f, y4);
+			full2.GetComponent<Renderer>().material.mainTextureScale = new Vector2(1f, y4);
 		}
 	}
 

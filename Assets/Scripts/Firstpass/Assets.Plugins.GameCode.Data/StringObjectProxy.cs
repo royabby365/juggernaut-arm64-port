@@ -1,6 +1,7 @@
 using ProtoBuf;
 
-namespace Assets.Plugins.GameCode.Data;
+namespace Assets.Plugins.GameCode.Data
+{
 
 [ProtoContract]
 public class StringObjectProxy : ObjectProxy
@@ -12,4 +13,5 @@ public class StringObjectProxy : ObjectProxy
 	{
 		return Payload;
 	}
+}
 }

@@ -1,7 +1,8 @@
 using System;
 using ICSharpCode.SharpZipLib.Checksums;
 
-namespace ICSharpCode.SharpZipLib.Zip.Compression;
+namespace ICSharpCode.SharpZipLib.Zip.Compression
+{
 
 public class DeflaterEngine : DeflaterConstants
 {
@@ -498,4 +499,5 @@ public class DeflaterEngine : DeflaterConstants
 		}
 		return true;
 	}
+}
 }

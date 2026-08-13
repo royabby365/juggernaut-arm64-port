@@ -358,7 +358,7 @@ public class Lockpicking : SpriteGui
 				lootItem.transform.SetLayerRecursively(lootLeftTop);
 				lootItem.transform.localPosition = index * lootIconPlace;
 				itemButton.shopItem = dropElement.Item;
-				itemButton.renderer.material.mainTexture = SingletonT<ResourcesManager>.I.LoadItemIcon(dropElement.Item);
+				itemButton.GetComponent<Renderer>().material.mainTexture = SingletonT<ResourcesManager>.I.LoadItemIcon(dropElement.Item);
 				itemButton.RemoveNew();
 				itemButton.Init();
 				itemButton.SetActive();

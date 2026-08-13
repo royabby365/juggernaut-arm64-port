@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 
-namespace Scenarios.Parser;
+namespace Scenarios.Parser
+{
 
 public class Condition : Statement
 {
@@ -11,4 +12,5 @@ public class Condition : Statement
 	{
 		statements = new List<Statement>(stmts);
 	}
+}
 }

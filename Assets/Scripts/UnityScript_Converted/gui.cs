@@ -40,15 +40,15 @@ public class gui : MonoBehaviour
 
 	public virtual void Start()
 	{
-		console = gameObject.AddComponent("gui_console");
+		console = gameObject.AddComponent(System.Type.GetType("gui_console, Assembly-CSharp"));
 		if (PlayerPrefs.HasKey("controlpanel"))
 		{
-			controlpanel = gameObject.AddComponent("gui_controlpanel");
+			controlpanel = gameObject.AddComponent(System.Type.GetType("gui_controlpanel, Assembly-CSharp"));
 		}
-		cursor = gameObject.AddComponent("gui_cursor");
-		dialogs = gameObject.AddComponent("gui_dialogs");
-		icons = gameObject.AddComponent("gui_icons");
-		tooltip = gameObject.AddComponent("gui_tooltip");
+		cursor = gameObject.AddComponent(System.Type.GetType("gui_cursor, Assembly-CSharp"));
+		dialogs = gameObject.AddComponent(System.Type.GetType("gui_dialogs, Assembly-CSharp"));
+		icons = gameObject.AddComponent(System.Type.GetType("gui_icons, Assembly-CSharp"));
+		tooltip = gameObject.AddComponent(System.Type.GetType("gui_tooltip, Assembly-CSharp"));
 		cursor_link = (Texture)Resources.Load("cursor_hand");
 	}
 
@@ -82,7 +82,7 @@ public class gui : MonoBehaviour
 			{
 				if (!RuntimeServices.ToBool(controlpanel))
 				{
-					controlpanel = gameObject.AddComponent("gui_controlpanel");
+					controlpanel = gameObject.AddComponent(System.Type.GetType("gui_controlpanel, Assembly-CSharp"));
 				}
 				PlayerPrefs.SetString("controlpanel", "1");
 			}

@@ -51,7 +51,7 @@ public class ShowFPS : MonoBehaviour
 		if (!(timeleft > 0f))
 		{
 			fps = accum / (float)frames;
-			guiText.text = fps.ToString("f2");
+			// GUIText removed in Unity 2021; FPS tracked via GetFPS()/HasFPS()
 			timeleft = updateInterval;
 			accum = 0f;
 			frames = 0;

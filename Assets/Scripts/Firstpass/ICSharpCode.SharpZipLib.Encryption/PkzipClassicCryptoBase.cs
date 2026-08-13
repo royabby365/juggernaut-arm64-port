@@ -1,7 +1,8 @@
 using System;
 using ICSharpCode.SharpZipLib.Checksums;
 
-namespace ICSharpCode.SharpZipLib.Encryption;
+namespace ICSharpCode.SharpZipLib.Encryption
+{
 
 internal class PkzipClassicCryptoBase
 {
@@ -43,4 +44,5 @@ internal class PkzipClassicCryptoBase
 		keys[1] = 0u;
 		keys[2] = 0u;
 	}
+}
 }

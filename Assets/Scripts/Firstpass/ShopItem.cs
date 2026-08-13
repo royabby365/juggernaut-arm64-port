@@ -38,7 +38,7 @@ public class ShopItem : MonoBehaviour
 		{
 			return;
 		}
-		Renderer renderer = myIcon.renderer;
+		Renderer renderer = myIcon.GetComponent<Renderer>();
 		Texture2D texture2D = Util.Resource<Texture2D>(debugIconId);
 		if (texture2D == null)
 		{
@@ -48,7 +48,7 @@ public class ShopItem : MonoBehaviour
 			}
 			else
 			{
-				GetComponent<Renderer>()material.mainTexture = texture2D;
+				GetComponent<Renderer>().material.mainTexture = texture2D;
 			}
 		}
 	}

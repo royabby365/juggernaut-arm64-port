@@ -2,7 +2,8 @@ using System;
 using System.IO;
 using ICSharpCode.SharpZipLib.Core;
 
-namespace ICSharpCode.SharpZipLib.Zip;
+namespace ICSharpCode.SharpZipLib.Zip
+{
 
 public class ZipEntryFactory : IEntryFactory
 {
@@ -244,4 +245,5 @@ public class ZipEntryFactory : IEntryFactory
 		zipEntry.ExternalFileAttributes = num;
 		return zipEntry;
 	}
+}
 }

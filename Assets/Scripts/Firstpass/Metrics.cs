@@ -110,7 +110,7 @@ internal class Metrics
 	{
 	}
 
-	private static IEnumerator AddMetricsCoro(Stack<Tuple<int, int, int, int>> metrics)
+	private static IEnumerator AddMetricsCoro(Stack<System.Tuple<int, int, int, int>> metrics)
 	{
 		float period = 0.5f;
 		float currentTime = period;
@@ -119,7 +119,7 @@ internal class Metrics
 			if (currentTime >= period)
 			{
 				currentTime = 0f;
-				Tuple<int, int, int, int> metric = metrics.Pop();
+				System.Tuple<int, int, int, int> metric = metrics.Pop();
 				UnityApi.AddMetric(metric.Item1, metric.Item2, metric.Item3, metric.Item4);
 			}
 			currentTime += Time.deltaTime;

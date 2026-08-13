@@ -487,10 +487,10 @@ public class Person : MonoBehaviour
 			else
 			{
 				bool flag2 = false;
-				ParticleEmitter[] componentsInChildren = gameObject.GetComponentsInChildren<ParticleEmitter>();
-				foreach (ParticleEmitter particleEmitter in componentsInChildren)
+				ParticleSystem[] componentsInChildren = gameObject.GetComponentsInChildren<ParticleSystem>();
+				foreach (ParticleSystem particleEmitter in componentsInChildren)
 				{
-					particleEmitter.emit = false;
+					{ var em = particleEmitter.emission; em.enabled = false; }
 					if (particleEmitter.particleCount > 0)
 					{
 						flag2 = true;

@@ -1,7 +1,8 @@
 using System;
 using System.IO;
 
-namespace ICSharpCode.SharpZipLib.Zip;
+namespace ICSharpCode.SharpZipLib.Zip
+{
 
 public class ExtendedUnixData : ITaggedData
 {
@@ -136,4 +137,5 @@ public class ExtendedUnixData : ITaggedData
 	{
 		return value >= new DateTime(1901, 12, 13, 20, 45, 52) || value <= new DateTime(2038, 1, 19, 3, 14, 7);
 	}
+}
 }

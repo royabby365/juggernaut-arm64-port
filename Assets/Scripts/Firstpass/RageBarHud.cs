@@ -33,7 +33,7 @@ public class RageBarHud : MonoBehaviour
 
 	private Color RageBallsFull = Color.gray;
 
-	private Tuple<bool, bool, bool> _sbuttonsState;
+	private System.Tuple<bool, bool, bool> _sbuttonsState;
 
 	private GuiRoot.GuiType _currentGuiState = GuiRoot.GuiType.None;
 

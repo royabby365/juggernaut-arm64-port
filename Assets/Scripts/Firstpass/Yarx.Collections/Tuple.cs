@@ -3,7 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Yarx.Collections;
+namespace Yarx.Collections
+{
 
 public static class Tuple
 {
@@ -417,4 +418,5 @@ public class Tuple<T1, T2, T3, T4> : IComparable, ITuple, IStructuralComparable,
 		stringBuilder.Append("(");
 		return ((ITuple)this).ToString(stringBuilder);
 	}
+}
 }

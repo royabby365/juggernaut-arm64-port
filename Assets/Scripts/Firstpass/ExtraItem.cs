@@ -88,7 +88,7 @@ public class ExtraItem : MonoBehaviour
 		{
 			Compare2.SetCompareEmpty();
 			int current = itemSkillInfo.Current;
-			Tuple<string, int> itemDescription = item.GetItemDescription();
+			System.Tuple<string, int> itemDescription = item.GetItemDescription();
 			Compare1.SetCompare(itemDescription, current, oppositeState: false);
 			return;
 		}
@@ -97,15 +97,15 @@ public class ExtraItem : MonoBehaviour
 		{
 			Compare2.SetCompareEmpty();
 			int delta = itemSkillInfo.Current - itemSkillInfo2.Current;
-			Tuple<string, int> itemDescription2 = item.GetItemDescription();
+			System.Tuple<string, int> itemDescription2 = item.GetItemDescription();
 			Compare1.SetCompare(itemDescription2, delta, oppositeState: false);
 		}
 		else
 		{
 			int current2 = itemSkillInfo.Current;
 			int current3 = itemSkillInfo2.Current;
-			Tuple<string, int> itemDescription3 = item.GetItemDescription();
-			Tuple<string, int> itemDescription4 = opposite.GetItemDescription();
+			System.Tuple<string, int> itemDescription3 = item.GetItemDescription();
+			System.Tuple<string, int> itemDescription4 = opposite.GetItemDescription();
 			Compare1.SetCompare(itemDescription3, current2, oppositeState: false);
 			Compare2.SetCompare(itemDescription4, current3, oppositeState: true);
 		}

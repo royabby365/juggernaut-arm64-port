@@ -189,7 +189,7 @@ public static class Utils
 
 	public static IEnumerator LoadAssetBundleAsync<T>(AssetBundle assetBundle, string name, ActionD<string, T> onSuccess) where T : UnityEngine.Object
 	{
-		AssetBundleRequest request = assetBundle.LoadAsync(name, typeof(T));
+		AssetBundleRequest request = assetBundle.LoadAssetAsync(name, typeof(T));
 		yield return request;
 		onSuccess(name, (T)request.asset);
 	}
@@ -408,12 +408,12 @@ public static class Utils
 		};
 		foreach (string text in array)
 		{
-			if (go.animation[text] != null)
+			if (go.GetComponent<Animation>()[text] != null)
 			{
-				go.animation.Play(text);
+				go.GetComponent<Animation>().Play(text);
 			}
 		}
-		go.animation.Stop();
+		go.GetComponent<Animation>().Stop();
 	}
 
 	public static void Dispose(ref IDisposable d)
@@ -565,7 +565,7 @@ public static class Utils
 
 	internal static Vector3 WP(Vector2 point)
 	{
-		Camera mainCamera = Camera.mainCamera;
+		Camera mainCamera = Camera.main;
 		return mainCamera.ScreenPointToRay(point).GetPoint(mainCamera.nearClipPlane * 10f);
 	}
 
@@ -579,7 +579,7 @@ public static class Utils
 		Renderer[] componentsInChildren = component.GetComponentsInChildren<Renderer>(includeInactive: true);
 		foreach (Renderer renderer in componentsInChildren)
 		{
-			GetComponent<Renderer>()enabled = value;
+			renderer.enabled = value;
 		}
 	}
 
@@ -588,7 +588,7 @@ public static class Utils
 		Renderer[] componentsInChildren = component.GetComponentsInChildren<Renderer>(includeInactive: true);
 		foreach (Renderer renderer in componentsInChildren)
 		{
-			GetComponent<Renderer>()enabled = value;
+			renderer.enabled = value;
 		}
 	}
 
@@ -1251,7 +1251,7 @@ public static class Utils
 			return text;
 		}
 		StringBuilder stringBuilder = new StringBuilder(50 * objs.Length);
-		List<Tuple<int, string>> list = new List<Tuple<int, string>>();
+		List<System.Tuple<int, string>> list = new List<System.Tuple<int, string>>();
 		foreach (UnityEngine.Object obj in objs)
 		{
 			int num2 = ((!accumSize) ? (-1) : GetObjectSize(obj));
@@ -1268,7 +1268,7 @@ public static class Utils
 			}
 			else
 			{
-				list.Add(new Tuple<int, string>(num2, empty));
+				list.Add(new System.Tuple<int, string>(num2, empty));
 			}
 		}
 		if (!withNames || !accumSize)
@@ -1278,8 +1278,8 @@ public static class Utils
 		else
 		{
 			stringBuilder.Insert(0, text + " " + num + " \n");
-			list.Sort((Tuple<int, string> x, Tuple<int, string> y) => x.Item1.CompareTo(y.Item1));
-			foreach (Tuple<int, string> item in list)
+			list.Sort((System.Tuple<int, string> x, System.Tuple<int, string> y) => x.Item1.CompareTo(y.Item1));
+			foreach (System.Tuple<int, string> item in list)
 			{
 				stringBuilder.AppendLine(item.Item2);
 			}

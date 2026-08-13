@@ -18,7 +18,7 @@ public class sfx_lightingbolt : MonoBehaviour
 
 	private float oneOverZigs;
 
-	private Particle[] particles;
+	private ParticleSystem.Particle[] particles;
 
 	public sfx_lightingbolt()
 	{

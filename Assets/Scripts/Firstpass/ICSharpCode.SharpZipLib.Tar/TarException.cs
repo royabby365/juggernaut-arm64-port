@@ -1,7 +1,8 @@
 using System;
 using System.Runtime.Serialization;
 
-namespace ICSharpCode.SharpZipLib.Tar;
+namespace ICSharpCode.SharpZipLib.Tar
+{
 
 [Serializable]
 public class TarException : SharpZipBaseException
@@ -24,4 +25,5 @@ public class TarException : SharpZipBaseException
 		: base(message, exception)
 	{
 	}
+}
 }

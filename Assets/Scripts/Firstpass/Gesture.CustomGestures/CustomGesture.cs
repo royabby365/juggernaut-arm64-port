@@ -1,4 +1,5 @@
-namespace Gesture.CustomGestures;
+namespace Gesture.CustomGestures
+{
 
 public abstract class CustomGesture
 {
@@ -44,4 +45,5 @@ public abstract class CustomGesture
 	{
 		return (UpDirection(dir1) && DownDirection(dir2)) || (DownDirection(dir1) && UpDirection(dir2));
 	}
+}
 }

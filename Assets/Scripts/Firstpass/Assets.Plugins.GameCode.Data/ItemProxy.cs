@@ -2,7 +2,8 @@ using System;
 using System.Collections.Generic;
 using ProtoBuf;
 
-namespace Assets.Plugins.GameCode.Data;
+namespace Assets.Plugins.GameCode.Data
+{
 
 [ProtoContract]
 public class ItemProxy
@@ -100,8 +101,7 @@ public class ItemProxy
 	[ProtoMember(32)]
 	public int MaxStars;
 
-	[ProtoMember(33, IsRequired = false)]
-	public int CurrentStars;
+	[ProtoMember(33)]public int CurrentStars;
 
 	[ProtoMember(9)]
 	public Dictionary<ServerData.MoneyType, int> SellPrice { get; set; }
@@ -191,4 +191,5 @@ public class ItemProxy
 		itemProxy.SellPrice = data.SellPrice;
 		return itemProxy;
 	}
+}
 }

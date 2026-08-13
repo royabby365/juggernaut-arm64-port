@@ -2,7 +2,8 @@ using System;
 using System.IO;
 using System.Security.Cryptography;
 
-namespace ICSharpCode.SharpZipLib.Zip.Compression.Streams;
+namespace ICSharpCode.SharpZipLib.Zip.Compression.Streams
+{
 
 public class InflaterInputBuffer
 {
@@ -209,4 +210,5 @@ public class InflaterInputBuffer
 	{
 		return (uint)ReadLeInt() | ((long)ReadLeInt() << 32);
 	}
+}
 }

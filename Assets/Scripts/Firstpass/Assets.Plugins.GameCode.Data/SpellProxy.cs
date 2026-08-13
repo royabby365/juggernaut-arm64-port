@@ -1,7 +1,8 @@
 using System.Collections.Generic;
 using ProtoBuf;
 
-namespace Assets.Plugins.GameCode.Data;
+namespace Assets.Plugins.GameCode.Data
+{
 
 [ProtoContract]
 public class SpellProxy
@@ -90,4 +91,5 @@ public class SpellProxy
 		spellProxy.Price = data.Price;
 		return spellProxy;
 	}
+}
 }

@@ -1,6 +1,7 @@
 using System;
 
-namespace ICSharpCode.SharpZipLib.Core;
+namespace ICSharpCode.SharpZipLib.Core
+{
 
 public class ProgressEventArgs : EventArgs
 {
@@ -48,4 +49,5 @@ public class ProgressEventArgs : EventArgs
 		processed_ = processed;
 		target_ = target;
 	}
+}
 }

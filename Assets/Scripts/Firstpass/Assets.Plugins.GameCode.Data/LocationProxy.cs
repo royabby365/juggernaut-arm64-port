@@ -2,7 +2,8 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using ProtoBuf;
 
-namespace Assets.Plugins.GameCode.Data;
+namespace Assets.Plugins.GameCode.Data
+{
 
 [ProtoContract]
 public class LocationProxy
@@ -207,4 +208,5 @@ public class LocationProxy
 		locationProxy.CaveLocationCoord = data.CaveLocationCoord;
 		return locationProxy;
 	}
+}
 }

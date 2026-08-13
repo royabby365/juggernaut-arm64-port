@@ -1,6 +1,7 @@
 using System.Collections;
 
-namespace LitJson;
+namespace LitJson
+{
 
 public interface IJsonWrapper : IList, ICollection, IEnumerable
 {
@@ -45,4 +46,5 @@ public interface IJsonWrapper : IList, ICollection, IEnumerable
 	string ToJson();
 
 	void ToJson(JsonWriter writer);
+}
 }

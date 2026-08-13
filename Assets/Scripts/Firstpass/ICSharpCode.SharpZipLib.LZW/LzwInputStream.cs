@@ -1,7 +1,8 @@
 using System;
 using System.IO;
 
-namespace ICSharpCode.SharpZipLib.LZW;
+namespace ICSharpCode.SharpZipLib.LZW
+{
 
 public class LzwInputStream : Stream
 {
@@ -367,4 +368,5 @@ public class LzwInputStream : Stream
 			}
 		}
 	}
+}
 }

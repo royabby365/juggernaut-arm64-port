@@ -33,10 +33,10 @@ public class flash : MonoBehaviour
 
 	public virtual void Start()
 	{
-		controls = gameObject.AddComponent("flash_controls");
-		icons = gameObject.AddComponent("flash_icons");
-		messages = gameObject.AddComponent("flash_messages");
-		commands = gameObject.AddComponent("flash_commands");
+		controls = gameObject.AddComponent(System.Type.GetType("flash_controls, Assembly-CSharp"));
+		icons = gameObject.AddComponent(System.Type.GetType("flash_icons, Assembly-CSharp"));
+		messages = gameObject.AddComponent(System.Type.GetType("flash_messages, Assembly-CSharp"));
+		commands = gameObject.AddComponent(System.Type.GetType("flash_commands, Assembly-CSharp"));
 	}
 
 	public virtual void Update()
@@ -66,7 +66,7 @@ public class flash : MonoBehaviour
 	public virtual void QuitGame()
 	{
 		GameObject gameObject = new GameObject("core");
-		gameObject.AddComponent("flash_quit");
+		gameObject.AddComponent(System.Type.GetType("flash_quit, Assembly-CSharp"));
 	}
 
 	public virtual bool IsPrintable(string msg)

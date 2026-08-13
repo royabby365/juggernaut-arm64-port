@@ -1,6 +1,7 @@
 using System;
 
-namespace ICSharpCode.SharpZipLib.Core;
+namespace ICSharpCode.SharpZipLib.Core
+{
 
 public class ScanEventArgs : EventArgs
 {
@@ -26,4 +27,5 @@ public class ScanEventArgs : EventArgs
 	{
 		name_ = name;
 	}
+}
 }

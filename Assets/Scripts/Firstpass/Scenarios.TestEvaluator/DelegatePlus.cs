@@ -1,6 +1,7 @@
 using System;
 
-namespace Scenarios.TestEvaluator;
+namespace Scenarios.TestEvaluator
+{
 
 public struct DelegatePlus
 {
@@ -27,4 +28,5 @@ public struct DelegatePlus
 		action = dlg;
 		this.defaults = defaults;
 	}
+}
 }

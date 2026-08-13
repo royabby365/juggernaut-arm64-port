@@ -1,7 +1,8 @@
 using System;
 using System.IO;
 
-namespace ICSharpCode.SharpZipLib.Tar;
+namespace ICSharpCode.SharpZipLib.Tar
+{
 
 public class TarBuffer
 {
@@ -334,4 +335,5 @@ public class TarBuffer
 			inputStream = null;
 		}
 	}
+}
 }

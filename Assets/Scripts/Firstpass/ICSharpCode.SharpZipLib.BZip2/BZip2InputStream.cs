@@ -2,7 +2,8 @@ using System;
 using System.IO;
 using ICSharpCode.SharpZipLib.Checksums;
 
-namespace ICSharpCode.SharpZipLib.BZip2;
+namespace ICSharpCode.SharpZipLib.BZip2
+{
 
 public class BZip2InputStream : Stream
 {
@@ -832,4 +833,5 @@ public class BZip2InputStream : Stream
 			baseArray[num4] = (limit[num4 - 1] + 1 << 1) - baseArray[num4];
 		}
 	}
+}
 }

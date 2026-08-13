@@ -2,7 +2,8 @@ using System;
 using System.IO;
 using ICSharpCode.SharpZipLib.Checksums;
 
-namespace ICSharpCode.SharpZipLib.BZip2;
+namespace ICSharpCode.SharpZipLib.BZip2
+{
 
 public class BZip2OutputStream : Stream
 {
@@ -1585,4 +1586,5 @@ public class BZip2OutputStream : Stream
 		}
 		return b;
 	}
+}
 }

@@ -1,4 +1,5 @@
-namespace ICSharpCode.SharpZipLib.Core;
+namespace ICSharpCode.SharpZipLib.Core
+{
 
 public class DirectoryEventArgs : ScanEventArgs
 {
@@ -11,4 +12,5 @@ public class DirectoryEventArgs : ScanEventArgs
 	{
 		hasMatchingFiles_ = hasMatchingFiles;
 	}
+}
 }

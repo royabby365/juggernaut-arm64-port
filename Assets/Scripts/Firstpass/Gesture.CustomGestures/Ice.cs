@@ -1,4 +1,5 @@
-namespace Gesture.CustomGestures;
+namespace Gesture.CustomGestures
+{
 
 public class Ice : CustomGesture
 {
@@ -17,4 +18,5 @@ public class Ice : CustomGesture
 		Direction dir2 = stats.Directions[stats.Directions.Count - 1];
 		return base.IsMatch(stats) && stats.Proximity < 0.3f && !CustomGesture.IsVerticalAndOpposite(dir, dir2);
 	}
+}
 }

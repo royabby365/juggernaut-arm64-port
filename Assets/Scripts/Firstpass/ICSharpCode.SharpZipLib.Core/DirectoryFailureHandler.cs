@@ -1,3 +1,5 @@
-namespace ICSharpCode.SharpZipLib.Core;
+namespace ICSharpCode.SharpZipLib.Core
+{
 
 public delegate void DirectoryFailureHandler(object sender, ScanFailureEventArgs e);
+}

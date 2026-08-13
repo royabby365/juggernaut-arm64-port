@@ -1,6 +1,7 @@
 using System;
 
-namespace Yarx;
+namespace Yarx
+{
 
 public class MutableDisposable : IDisposable
 {
@@ -57,4 +58,5 @@ public class MutableDisposable : IDisposable
 			}
 		}
 	}
+}
 }

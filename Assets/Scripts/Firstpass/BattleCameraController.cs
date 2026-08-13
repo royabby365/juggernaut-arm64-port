@@ -104,7 +104,7 @@ public class BattleCameraController : MonoBehaviour
 	private void Start()
 	{
 		SetCamera();
-		_startCameraFov = _camera.camera.fieldOfView;
+		_startCameraFov = _camera.GetComponent<Camera>().fieldOfView;
 		_cameraFov = _startCameraFov;
 		Speed = SingletonT<ServerData>.I.GameSettings.czInterpolationSpeed;
 		_prevInterpolationSpeed = Speed;
@@ -192,11 +192,11 @@ public class BattleCameraController : MonoBehaviour
 				_camera.LookAt(_cameraTarget);
 				_cameraPrevTarget = _cameraTarget;
 				_isDontInterpolateThisFrame = false;
-				_camera.camera.fieldOfView = _cameraFov;
+				_camera.GetComponent<Camera>().fieldOfView = _cameraFov;
 			}
 			else
 			{
-				_camera.camera.fieldOfView = Mathf.Lerp(_camera.camera.fieldOfView, _cameraFov, RealDeltaTime() * Speed);
+				_camera.GetComponent<Camera>().fieldOfView = Mathf.Lerp(_camera.GetComponent<Camera>().fieldOfView, _cameraFov, RealDeltaTime() * Speed);
 				_camera.position = Vector3.Lerp(_camera.position, _cameraPos, RealDeltaTime() * Speed);
 				Vector3 vector = Vector3.Lerp(_cameraPrevTarget, _cameraTarget, RealDeltaTime() * Speed);
 				_camera.LookAt(vector);
@@ -388,8 +388,8 @@ public class BattleCameraController : MonoBehaviour
 		if (!(_player == null))
 		{
 			Vector3 vector = ((!(_playerBones == null)) ? _playerBones.position : _player.transform.position);
-			Ray ray = _camera.camera.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2, 0f));
-			float y = Vector3.Angle(_camera.camera.ScreenPointToRay(new Vector3(BagScreenSpaceLeftOffset.DivideBy2DScale(), Screen.height / 2, 0f)).direction, ray.direction);
+			Ray ray = _camera.GetComponent<Camera>().ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2, 0f));
+			float y = Vector3.Angle(_camera.GetComponent<Camera>().ScreenPointToRay(new Vector3(BagScreenSpaceLeftOffset.DivideBy2DScale(), Screen.height / 2, 0f)).direction, ray.direction);
 			Vector3 vector2 = vector - _cameraPos;
 			Quaternion quaternion = Quaternion.Euler(0f, y, 0f);
 			_cameraTarget = quaternion * vector2 + _cameraPos;
@@ -495,7 +495,7 @@ public class BattleCameraController : MonoBehaviour
 		ttime = moveTime;
 		while (ttime > 0f)
 		{
-			_camera.camera.fieldOfView = Mathf.Lerp(_camera.camera.fieldOfView, _cameraFov, RealDeltaTime() * Speed);
+			_camera.GetComponent<Camera>().fieldOfView = Mathf.Lerp(_camera.GetComponent<Camera>().fieldOfView, _cameraFov, RealDeltaTime() * Speed);
 			float dist = Vector3.Distance(_camera.position, targetpos);
 			if ((double)dist < 0.1)
 			{

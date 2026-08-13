@@ -1358,7 +1358,7 @@ public static class Globals
 		Renderer[] componentsInChildren = go.GetComponentsInChildren<Renderer>();
 		foreach (Renderer renderer in componentsInChildren)
 		{
-			Material[] materials = GetComponent<Renderer>()materials;
+			Material[] materials = renderer.materials;
 			foreach (Material material in materials)
 			{
 				material.color = color;

@@ -1,4 +1,5 @@
-namespace Scenarios.TestEvaluator;
+namespace Scenarios.TestEvaluator
+{
 
 internal static class EvaluatorExt
 {
@@ -91,4 +92,5 @@ internal static class EvaluatorExt
 	{
 		ev.AddCommand(name, action, args);
 	}
+}
 }

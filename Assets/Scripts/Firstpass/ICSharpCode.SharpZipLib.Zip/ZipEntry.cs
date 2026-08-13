@@ -1,7 +1,8 @@
 using System;
 using System.IO;
 
-namespace ICSharpCode.SharpZipLib.Zip;
+namespace ICSharpCode.SharpZipLib.Zip
+{
 
 public class ZipEntry : ICloneable
 {
@@ -658,4 +659,5 @@ public class ZipEntry : ICloneable
 		}
 		return name;
 	}
+}
 }

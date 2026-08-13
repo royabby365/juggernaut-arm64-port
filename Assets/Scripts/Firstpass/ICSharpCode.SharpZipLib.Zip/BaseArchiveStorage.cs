@@ -1,6 +1,7 @@
 using System.IO;
 
-namespace ICSharpCode.SharpZipLib.Zip;
+namespace ICSharpCode.SharpZipLib.Zip
+{
 
 public abstract class BaseArchiveStorage : IArchiveStorage
 {
@@ -22,4 +23,5 @@ public abstract class BaseArchiveStorage : IArchiveStorage
 	public abstract Stream OpenForDirectUpdate(Stream stream);
 
 	public abstract void Dispose();
+}
 }

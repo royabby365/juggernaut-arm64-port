@@ -1,7 +1,8 @@
 using System;
 using System.IO;
 
-namespace ICSharpCode.SharpZipLib.Core;
+namespace ICSharpCode.SharpZipLib.Core
+{
 
 [Obsolete("Use ExtendedPathFilter instead")]
 public class NameAndSizeFilter : PathFilter
@@ -60,4 +61,5 @@ public class NameAndSizeFilter : PathFilter
 		}
 		return flag;
 	}
+}
 }

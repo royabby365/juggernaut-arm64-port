@@ -1,4 +1,5 @@
-namespace ICSharpCode.SharpZipLib.Zip;
+namespace ICSharpCode.SharpZipLib.Zip
+{
 
 internal class EntryPatchData
 {
@@ -29,4 +30,5 @@ internal class EntryPatchData
 			crcPatchOffset_ = value;
 		}
 	}
+}
 }

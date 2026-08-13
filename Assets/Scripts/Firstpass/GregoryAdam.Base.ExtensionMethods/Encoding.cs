@@ -1,6 +1,7 @@
 using System.Text;
 
-namespace GregoryAdam.Base.ExtensionMethods;
+namespace GregoryAdam.Base.ExtensionMethods
+{
 
 public static class Encoding
 {
@@ -38,4 +39,5 @@ public static class Encoding
 	{
 		return System.Text.Encoding.UTF8.GetString(b, index, count);
 	}
+}
 }

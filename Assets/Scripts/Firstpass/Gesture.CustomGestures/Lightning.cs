@@ -1,4 +1,5 @@
-namespace Gesture.CustomGestures;
+namespace Gesture.CustomGestures
+{
 
 public class Lightning : CustomGesture
 {
@@ -15,4 +16,5 @@ public class Lightning : CustomGesture
 		}
 		return base.IsMatch(stats) && stats.Proximity > 0.6f && CustomGesture.DownDirection(stats.Directions[0]);
 	}
+}
 }

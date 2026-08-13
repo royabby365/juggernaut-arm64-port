@@ -1,5 +1,7 @@
-namespace Assets.Plugins.Common;
+namespace Assets.Plugins.Common
+{
 
 internal class MyComManager
 {
+}
 }

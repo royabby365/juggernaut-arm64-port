@@ -1,6 +1,7 @@
 using System;
 
-namespace AesLib;
+namespace AesLib
+{
 
 public class Utility
 {
@@ -22,4 +23,5 @@ public class Utility
 		}
 		return array;
 	}
+}
 }

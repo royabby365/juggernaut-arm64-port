@@ -3,7 +3,8 @@ using System.Collections;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace ICSharpCode.SharpZipLib.Core;
+namespace ICSharpCode.SharpZipLib.Core
+{
 
 public class NameFilter : IScanFilter
 {
@@ -173,4 +174,5 @@ public class NameFilter : IScanFilter
 			}
 		}
 	}
+}
 }

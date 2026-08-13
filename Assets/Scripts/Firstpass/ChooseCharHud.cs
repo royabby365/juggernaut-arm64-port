@@ -283,12 +283,12 @@ public class ChooseCharHud : MonoBehaviour
 			Renderer[] componentsInChildren = person.GO.GetComponentsInChildren<Renderer>();
 			if (num == _selectedPersonIndex)
 			{
-				_persons[num].GO.animation["idle2"].wrapMode = WrapMode.Loop;
-				_persons[num].GO.animation.Play("idle2");
+				_persons[num].GO.GetComponent<Animation>()["idle2"].wrapMode = WrapMode.Loop;
+				_persons[num].GO.GetComponent<Animation>().Play("idle2");
 				Renderer[] array = componentsInChildren;
 				foreach (Renderer renderer in array)
 				{
-					GetComponent<Renderer>()material.color = color2;
+					GetComponent<Renderer>().material.color = color2;
 				}
 				PresentPersStats(_persons[_selectedPersonIndex].PersData.Id);
 				if (!_isFirstTime)
@@ -298,8 +298,8 @@ public class ChooseCharHud : MonoBehaviour
 			}
 			else
 			{
-				_persons[num].GO.animation["idle"].wrapMode = WrapMode.Loop;
-				_persons[num].GO.animation.Play("idle");
+				_persons[num].GO.GetComponent<Animation>()["idle"].wrapMode = WrapMode.Loop;
+				_persons[num].GO.GetComponent<Animation>().Play("idle");
 				Renderer[] array2 = componentsInChildren;
 				foreach (Renderer renderer2 in array2)
 				{
@@ -662,10 +662,10 @@ public class ChooseCharHud : MonoBehaviour
 		{
 			if (weaponIdleData.Type == weaponAnimationType)
 			{
-				person.animation.AddClip(weaponIdleData.IdleAnimation, "idle");
-				person.animation.AddClip(weaponIdleData.WinAnimation, "idle2");
-				person.animation.wrapMode = WrapMode.Loop;
-				person.animation.playAutomatically = true;
+				person.GetComponent<Animation>().AddClip(weaponIdleData.IdleAnimation, "idle");
+				person.GetComponent<Animation>().AddClip(weaponIdleData.WinAnimation, "idle2");
+				person.GetComponent<Animation>().wrapMode = WrapMode.Loop;
+				person.GetComponent<Animation>().playAutomatically = true;
 				break;
 			}
 		}
@@ -702,8 +702,8 @@ public class ChooseCharHud : MonoBehaviour
 			{
 				PresentPersStats(_persons[_selectedPersonIndex].PersData.Id);
 			}
-			_persons[i].GO.animation[text].wrapMode = WrapMode.Loop;
-			_persons[i].GO.animation.Play(text);
+			_persons[i].GO.GetComponent<Animation>()[text].wrapMode = WrapMode.Loop;
+			_persons[i].GO.GetComponent<Animation>().Play(text);
 		}
 		SingletonT<ServerData>.I.PlayerServerPersData = _persons[2].PersData;
 	}

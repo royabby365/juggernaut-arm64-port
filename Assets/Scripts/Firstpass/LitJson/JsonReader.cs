@@ -2,7 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace LitJson;
+namespace LitJson
+{
 
 public class JsonReader
 {
@@ -349,4 +350,5 @@ public class JsonReader
 		}
 		return false;
 	}
+}
 }

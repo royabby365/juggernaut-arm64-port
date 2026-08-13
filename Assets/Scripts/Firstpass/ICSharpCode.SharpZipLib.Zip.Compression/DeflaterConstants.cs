@@ -1,6 +1,7 @@
 using System;
 
-namespace ICSharpCode.SharpZipLib.Zip.Compression;
+namespace ICSharpCode.SharpZipLib.Zip.Compression
+{
 
 public class DeflaterConstants
 {
@@ -57,4 +58,5 @@ public class DeflaterConstants
 	public static int[] MAX_CHAIN = new int[10] { 0, 4, 8, 32, 16, 32, 128, 256, 1024, 4096 };
 
 	public static int[] COMPR_FUNC = new int[10] { 0, 1, 1, 1, 1, 2, 2, 2, 2, 2 };
+}
 }

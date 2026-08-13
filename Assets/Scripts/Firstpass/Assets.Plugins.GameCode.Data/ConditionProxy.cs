@@ -2,7 +2,8 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using ProtoBuf;
 
-namespace Assets.Plugins.GameCode.Data;
+namespace Assets.Plugins.GameCode.Data
+{
 
 [ProtoContract]
 public class ConditionProxy
@@ -57,4 +58,5 @@ public class ConditionProxy
 		conditionProxy.Params = data.Params.ToProxy();
 		return conditionProxy;
 	}
+}
 }

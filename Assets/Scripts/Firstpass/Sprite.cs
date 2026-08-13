@@ -127,7 +127,7 @@ public class Sprite : RendererHandler, IRendererHandler
 		{
 			return;
 		}
-		Tuple<Atlas, int> atlasBySpriteName = SingletonT<AtlasManager>.I.GetAtlasBySpriteName(SpriteName_);
+		System.Tuple<Atlas, int> atlasBySpriteName = SingletonT<AtlasManager>.I.GetAtlasBySpriteName(SpriteName_);
 		if (atlasBySpriteName == null)
 		{
 			if (++_errorsCount < 5 && Globals.IsDebugBuild)
@@ -210,13 +210,13 @@ public class Sprite : RendererHandler, IRendererHandler
 		RemakeMesh();
 		Mesh mesh = GetComponent<MeshFilter>().mesh;
 		Vector3[] vertices = mesh.vertices;
-		if (base.transform.renderer != null)
+		if (base.transform.GetComponent<Renderer>() != null)
 		{
 			base.transform.ShowOrHide(show: true);
 		}
 		if (fraction.Eqv(0f))
 		{
-			if (base.transform.renderer != null)
+			if (base.transform.GetComponent<Renderer>() != null)
 			{
 				base.transform.ShowOrHide(show: false);
 			}

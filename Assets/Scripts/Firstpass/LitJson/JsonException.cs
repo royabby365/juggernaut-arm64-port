@@ -1,6 +1,7 @@
 using System;
 
-namespace LitJson;
+namespace LitJson
+{
 
 public class JsonException : ApplicationException
 {
@@ -37,4 +38,5 @@ public class JsonException : ApplicationException
 		: base(message, inner_exception)
 	{
 	}
+}
 }

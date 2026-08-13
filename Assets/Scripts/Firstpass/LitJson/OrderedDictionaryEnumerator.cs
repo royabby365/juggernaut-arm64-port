@@ -1,7 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace LitJson;
+namespace LitJson
+{
 
 internal class OrderedDictionaryEnumerator : IEnumerator, IDictionaryEnumerator
 {
@@ -36,4 +37,5 @@ internal class OrderedDictionaryEnumerator : IEnumerator, IDictionaryEnumerator
 	{
 		list_enumerator.Reset();
 	}
+}
 }

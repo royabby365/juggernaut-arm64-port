@@ -203,10 +203,10 @@ public class PersonData : MonoBehaviour
 	{
 		if (obj != null)
 		{
-			Renderer renderer = obj.renderer;
+			Renderer renderer = obj.GetComponent<Renderer>();
 			if (renderer != null)
 			{
-				return GetComponent<Renderer>()material;
+				return GetComponent<Renderer>().material;
 			}
 		}
 		return null;

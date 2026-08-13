@@ -1,4 +1,5 @@
-namespace ICSharpCode.SharpZipLib.Zip;
+namespace ICSharpCode.SharpZipLib.Zip
+{
 
 public enum EncryptionAlgorithm
 {
@@ -16,4 +17,5 @@ public enum EncryptionAlgorithm
 	Twofish = 26401,
 	RC4 = 26625,
 	Unknown = 65535
+}
 }

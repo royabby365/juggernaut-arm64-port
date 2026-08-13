@@ -285,7 +285,7 @@ public class MagicBookSchool : MonoBehaviour
 		UsageProgressText.Text_ = _skillUsageFormat.Fmt(current, max);
 		int num2 = (num * 77f).RoundToInt();
 		UsageProgressGauge.localScale = new Vector3(num2, 1f, 1f);
-		UsageProgressGauge.renderer.material.mainTextureScale = new Vector2(num2, 1f);
+		UsageProgressGauge.GetComponent<Renderer>().material.mainTextureScale = new Vector2(num2, 1f);
 	}
 
 	private void SetGaugeActive(bool setActive)

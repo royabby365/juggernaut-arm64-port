@@ -1,4 +1,5 @@
-namespace LitJson;
+namespace LitJson
+{
 
 public enum JsonToken
 {
@@ -14,4 +15,5 @@ public enum JsonToken
 	String,
 	Boolean,
 	Null
+}
 }

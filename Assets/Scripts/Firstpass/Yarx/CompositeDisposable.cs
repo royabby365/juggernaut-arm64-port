@@ -1,7 +1,8 @@
 using System;
 using System.Collections.Generic;
 
-namespace Yarx;
+namespace Yarx
+{
 
 public class CompositeDisposable : IDisposable
 {
@@ -124,4 +125,5 @@ public class CompositeDisposable : IDisposable
 			return _disposables.Remove(item);
 		}
 	}
+}
 }

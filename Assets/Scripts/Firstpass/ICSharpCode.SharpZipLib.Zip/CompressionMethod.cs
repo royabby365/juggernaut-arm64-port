@@ -1,4 +1,5 @@
-namespace ICSharpCode.SharpZipLib.Zip;
+namespace ICSharpCode.SharpZipLib.Zip
+{
 
 public enum CompressionMethod
 {
@@ -7,4 +8,5 @@ public enum CompressionMethod
 	Deflate64 = 9,
 	BZip2 = 11,
 	WinZipAES = 99
+}
 }

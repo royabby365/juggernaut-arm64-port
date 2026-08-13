@@ -237,7 +237,7 @@ public class SpriteGui : MonoBehaviour
 			return false;
 		}
 		RaycastHit hitInfo;
-		return GetComponent<Collider>()Raycast(_camera2d.ScreenPointToRay(screenPos), out hitInfo, _colliderDistance);
+		return GetComponent<Collider>().Raycast(_camera2d.ScreenPointToRay(screenPos), out hitInfo, _colliderDistance);
 	}
 
 	protected virtual void ProcessRayCast()

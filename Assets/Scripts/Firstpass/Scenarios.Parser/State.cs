@@ -1,4 +1,5 @@
-namespace Scenarios.Parser;
+namespace Scenarios.Parser
+{
 
 public enum State
 {
@@ -6,4 +7,5 @@ public enum State
 	VarBegin,
 	Var,
 	Scenario
+}
 }

@@ -44,7 +44,7 @@ internal class SoundManager : SingletonT<SoundManager>
 		new Data()
 	};
 
-	private AudioClip _proxy = new AudioClip();
+	private AudioClip _proxy = AudioClip.Create("_proxy", 1, 1, 44100, false);
 
 	private int _lastBattleMusic = -1;
 
@@ -486,7 +486,7 @@ internal class SoundManager : SingletonT<SoundManager>
 	private void CacheAllSounds(MonoBehaviour caller, string personName, ResourcesManager.AssetBundleData data)
 	{
 		data.Clips = new Dictionary<string, AudioClip>();
-		UnityEngine.Object[] array = data.Bundle.LoadAll(typeof(AudioClip));
+		UnityEngine.Object[] array = data.Bundle.LoadAllAssets(typeof(AudioClip));
 		for (int i = 0; i < array.Length; i++)
 		{
 			AudioClip audioClip = (AudioClip)array[i];

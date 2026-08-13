@@ -6,17 +6,17 @@ public class idle_anim : MonoBehaviour
 {
 	public virtual void Start()
 	{
-		if ((bool)animation)
+		if ((bool)GetComponent<Animation>())
 		{
-			GetComponent<Animation>()wrapMode = WrapMode.Loop;
+			GetComponent<Animation>().wrapMode = WrapMode.Loop;
 		}
 	}
 
 	public virtual void Update()
 	{
-		if ((bool)animation && !GetComponent<Animation>()isPlaying)
+		if ((bool)GetComponent<Animation>() && !GetComponent<Animation>().isPlaying)
 		{
-			GetComponent<Animation>()Play("idle");
+			GetComponent<Animation>().Play("idle");
 		}
 	}
 

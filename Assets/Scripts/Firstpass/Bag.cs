@@ -222,9 +222,9 @@ public class Bag : SpriteGui, IViewportFrame
 		{
 			_touchscreen.Update();
 		}
-		if (Camera.mainCamera != null && Pers != null && _cameraRotation.Eqv(0f))
+		if (Camera.main != null && Pers != null && _cameraRotation.Eqv(0f))
 		{
-			Transform transform = Camera.mainCamera.transform;
+			Transform transform = Camera.main.transform;
 			if (transform != null)
 			{
 				_cameraRotation = 0f;
@@ -715,7 +715,7 @@ public class Bag : SpriteGui, IViewportFrame
 				inventoryItemButton.name = "shop_good_" + SpriteGui.UniqueId;
 				inventoryItemButton.transform.parent = ItemsNode.transform;
 				inventoryItemButton.shopItem = serverItem;
-				inventoryItemButton.renderer.material.mainTexture = SingletonT<ResourcesManager>.I.LoadItemIcon(serverItem);
+				inventoryItemButton.GetComponent<Renderer>().material.mainTexture = SingletonT<ResourcesManager>.I.LoadItemIcon(serverItem);
 				if (serverItem.New)
 				{
 					inventoryItemButton.SetNew();
@@ -747,14 +747,14 @@ public class Bag : SpriteGui, IViewportFrame
 		string newName = "idle";
 		if (component != null)
 		{
-			if (pers.animation[Globals.ShopIdleAnimationName] == null)
+			if (pers.GetComponent<Animation>()[Globals.ShopIdleAnimationName] == null)
 			{
 				AnimationClip[] array = Utils.MakeArray((AnimationClip _) => _ != null, component.HammerInShopIdles);
 				if (array.Length > 0)
 				{
 					AnimationClip clip = array[UnityEngine.Random.Range(0, array.Length - 1)];
 					newName = Globals.ShopIdleAnimationName;
-					pers.animation.AddClip(clip, newName);
+					pers.GetComponent<Animation>().AddClip(clip, newName);
 				}
 			}
 			else
@@ -762,9 +762,9 @@ public class Bag : SpriteGui, IViewportFrame
 				newName = Globals.ShopIdleAnimationName;
 			}
 		}
-		pers.animation[newName].wrapMode = WrapMode.Loop;
-		pers.animation.Play(newName);
-		pers.animation.cullingType = AnimationCullingType.BasedOnRenderers;
+		pers.GetComponent<Animation>()[newName].wrapMode = WrapMode.Loop;
+		pers.GetComponent<Animation>().Play(newName);
+		pers.GetComponent<Animation>().cullingType = AnimationCullingType.BasedOnRenderers;
 	}
 
 	public Rect GetInventoryFrame()

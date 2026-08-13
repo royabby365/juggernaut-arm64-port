@@ -2,7 +2,8 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace Scenarios.Parser;
+namespace Scenarios.Parser
+{
 
 public class ScenariosScanner : IScanner
 {
@@ -201,4 +202,5 @@ public class ScenariosScanner : IScanner
 			ErrorReporter.InScanner("illegal char: '{0}'", c);
 		}
 	}
+}
 }

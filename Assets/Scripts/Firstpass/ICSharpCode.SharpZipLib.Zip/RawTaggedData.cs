@@ -1,6 +1,7 @@
 using System;
 
-namespace ICSharpCode.SharpZipLib.Zip;
+namespace ICSharpCode.SharpZipLib.Zip
+{
 
 public class RawTaggedData : ITaggedData
 {
@@ -51,4 +52,5 @@ public class RawTaggedData : ITaggedData
 	{
 		return _data;
 	}
+}
 }

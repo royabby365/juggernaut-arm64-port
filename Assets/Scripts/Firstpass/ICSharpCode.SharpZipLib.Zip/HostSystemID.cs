@@ -1,4 +1,5 @@
-namespace ICSharpCode.SharpZipLib.Zip;
+namespace ICSharpCode.SharpZipLib.Zip
+{
 
 public enum HostSystemID
 {
@@ -23,4 +24,5 @@ public enum HostSystemID
 	OS400 = 18,
 	OSX = 19,
 	WinZipAES = 99
+}
 }

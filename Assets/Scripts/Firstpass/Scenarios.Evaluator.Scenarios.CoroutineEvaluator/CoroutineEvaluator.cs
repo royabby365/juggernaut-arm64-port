@@ -2,7 +2,8 @@ using System;
 using System.Collections.Generic;
 using Scenarios.Parser;
 
-namespace Scenarios.Evaluator.Scenarios.CoroutineEvaluator;
+namespace Scenarios.Evaluator.Scenarios.CoroutineEvaluator
+{
 
 public class CoroutineEvaluator : IGlobals
 {
@@ -189,4 +190,5 @@ public class CoroutineEvaluator : IGlobals
 			ErrorReporter.Warning("WARNING: there is no command '{0}')", command.id);
 		}
 	}
+}
 }

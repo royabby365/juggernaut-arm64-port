@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 
-namespace Scenarios.Parser;
+namespace Scenarios.Parser
+{
 
 public class ScenariosParser
 {
@@ -219,4 +220,5 @@ public class ScenariosParser
 			ErrorReporter.InParser("'{0}' expected, got {1}", what, ts.Current);
 		}
 	}
+}
 }

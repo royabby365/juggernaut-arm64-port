@@ -3,7 +3,8 @@ using System.Collections;
 using System.Globalization;
 using System.Text;
 
-namespace Procurios.Public;
+namespace Procurios.Public
+{
 
 public class JSON
 {
@@ -478,4 +479,5 @@ public class JSON
 		double result;
 		return o != null && double.TryParse(o.ToString(), out result);
 	}
+}
 }

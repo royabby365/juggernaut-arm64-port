@@ -2,7 +2,8 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using ProtoBuf;
 
-namespace Assets.Plugins.GameCode.Data;
+namespace Assets.Plugins.GameCode.Data
+{
 
 [ProtoContract]
 public class AchievementProxy
@@ -59,4 +60,5 @@ public class AchievementProxy
 		achievementProxy.Condition = data.Condition.ToProxy();
 		return achievementProxy;
 	}
+}
 }

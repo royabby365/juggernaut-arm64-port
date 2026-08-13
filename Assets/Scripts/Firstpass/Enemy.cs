@@ -292,7 +292,7 @@ internal class Enemy : Person
 		Renderer[] cachedRenderes = _cachedRenderes;
 		foreach (Renderer renderer in cachedRenderes)
 		{
-			bounds.Encapsulate(GetComponent<Renderer>()bounds);
+			bounds.Encapsulate(GetComponent<Renderer>().bounds);
 		}
 		_shadow.transform.localScale = new Vector3(bounds.size.x, bounds.size.z, 1f);
 	}

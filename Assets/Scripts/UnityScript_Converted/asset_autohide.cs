@@ -10,7 +10,7 @@ public class asset_autohide : MonoBehaviour
 
 	private bool visibility_bounds_visible;
 
-	private ParticleEmitter pe;
+	private ParticleSystem pe;
 
 	private float visibility_bounds_disabled_time;
 
@@ -39,7 +39,7 @@ public class asset_autohide : MonoBehaviour
 		if (flag != visibility_bounds_visible)
 		{
 			visibility_bounds_visible = flag;
-			pe.enabled = flag;
+			{ var em = pe.emission; em.enabled = flag; }
 			if (flag)
 			{
 				visibility_bounds_disabled_time = 0f;
@@ -57,12 +57,12 @@ public class asset_autohide : MonoBehaviour
 		visibility_bounds_offset = new Vector3(0f, 4f, 0f);
 		visibility_bounds_visible = false;
 		visibility_bounds_disabled_time = 0f;
-		if ((bool)renderer)
+		if ((bool)GetComponent<Renderer>())
 		{
-			pe = (ParticleEmitter)renderer.gameObject.GetComponent<ParticleEmitter>();
+			pe = (ParticleSystem)GetComponent<Renderer>().gameObject.GetComponent<ParticleSystem>();
 			if ((bool)pe && visibility_bounds_enabled)
 			{
-				pe.enabled = false;
+				{ var em = pe.emission; em.enabled = false; }
 			}
 		}
 	}

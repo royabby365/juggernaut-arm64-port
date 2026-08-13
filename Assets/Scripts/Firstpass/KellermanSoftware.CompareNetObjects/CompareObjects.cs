@@ -4,7 +4,8 @@ using System.Collections.Generic;
 using System.Reflection;
 using System.Text;
 
-namespace KellermanSoftware.CompareNetObjects;
+namespace KellermanSoftware.CompareNetObjects
+{
 
 public class CompareObjects
 {
@@ -650,4 +651,5 @@ public class CompareObjects
 	{
 		return AddBreadCrumb(existing, name, extra, (index < 0) ? null : index.ToString());
 	}
+}
 }

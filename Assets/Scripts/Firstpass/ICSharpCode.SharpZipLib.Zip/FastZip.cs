@@ -3,7 +3,8 @@ using System.Collections;
 using System.IO;
 using ICSharpCode.SharpZipLib.Core;
 
-namespace ICSharpCode.SharpZipLib.Zip;
+namespace ICSharpCode.SharpZipLib.Zip
+{
 
 public class FastZip
 {
@@ -434,4 +435,5 @@ public class FastZip
 	{
 		return name != null && name.Length > 0 && name.IndexOfAny(Path.GetInvalidPathChars()) < 0;
 	}
+}
 }

@@ -6,7 +6,7 @@ public class AtlasManager : SingletonT<AtlasManager>
 {
 	private readonly Dictionary<string, Atlas> _loaded = new Dictionary<string, Atlas>();
 
-	private readonly Dictionary<string, Tuple<Atlas, int>> _spriteAtlas = new Dictionary<string, Tuple<Atlas, int>>();
+	private readonly Dictionary<string, System.Tuple<Atlas, int>> _spriteAtlas = new Dictionary<string, System.Tuple<Atlas, int>>();
 
 	private readonly string[] _atlasNamesCommon = new string[10] { "a_assorted", "a_assorted_big", "a_assorted_big_2", "a_assorted_big_3", "a_assorted_big_4", "a_gui_alpha", "a_gui_alpha_2", "a_gui_alpha_3", "a_magic_book_bg", "a_advertising" };
 
@@ -14,7 +14,7 @@ public class AtlasManager : SingletonT<AtlasManager>
 
 	private readonly string[] _atlasNamesSets = new string[1] { "a_icons_set_" };
 
-	public Tuple<Atlas, int> GetAtlasBySpriteName(string spriteName)
+	public System.Tuple<Atlas, int> GetAtlasBySpriteName(string spriteName)
 	{
 		if (_spriteAtlas.ContainsKey(spriteName))
 		{
@@ -68,7 +68,7 @@ public class AtlasManager : SingletonT<AtlasManager>
 			}
 			else
 			{
-				_spriteAtlas[text] = Tuple.Create(atlas, i);
+				_spriteAtlas[text] = System.Tuple.Create(atlas, i);
 			}
 		}
 	}

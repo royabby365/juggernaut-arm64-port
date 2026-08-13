@@ -590,7 +590,7 @@ public class Battle : MonoBehaviour
 
 	private IEnumerator SetPrefatalityMode()
 	{
-		while ((Globals.Enemy != null && Globals.Enemy.animation.isPlaying) || Pause)
+		while ((Globals.Enemy != null && Globals.Enemy.GetComponent<Animation>().isPlaying) || Pause)
 		{
 			yield return null;
 		}
@@ -606,10 +606,10 @@ public class Battle : MonoBehaviour
 			{
 				SingletonT<SoundManager>.I.PlayGlobalSound("click_resurrection_use");
 				Globals.Player._ignoreIdle = false;
-				AnimationState deathAnim = Globals.Enemy.animation["death"];
+				AnimationState deathAnim = Globals.Enemy.GetComponent<Animation>()["death"];
 				deathAnim.speed = -1f;
 				deathAnim.time = deathAnim.length;
-				Globals.Enemy.animation.Play("death");
+				Globals.Enemy.GetComponent<Animation>().Play("death");
 				SingletonT<TimeEventsManager>.I.StartOneShotTimeEvent(deathAnim.length, delegate
 				{
 					deathAnim.speed = 1f;
@@ -1089,7 +1089,7 @@ public class Battle : MonoBehaviour
 			Renderer[] componentsInChildren = FullSector.GetComponentsInChildren<Renderer>(includeInactive: true);
 			foreach (Renderer renderer in componentsInChildren)
 			{
-				GetComponent<Renderer>()enabled = value;
+				GetComponent<Renderer>().enabled = value;
 			}
 		}
 	}
@@ -1113,7 +1113,7 @@ public class Battle : MonoBehaviour
 		{
 			return;
 		}
-		playerGameObject.animation.Rewind();
+		playerGameObject.GetComponent<Animation>().Rewind();
 		Player player = Utils.DestroyComponentThenAddNew<Player>(playerGameObject);
 		player.ModelName = prototypeId;
 		Globals.Player = player;
@@ -1295,13 +1295,13 @@ public class Battle : MonoBehaviour
 				Renderer[] componentsInChildren = personArmor.GetComponentsInChildren<Renderer>();
 				foreach (Renderer renderer in componentsInChildren)
 				{
-					if (GetComponent<Renderer>()materials.Length > 1)
+					if (GetComponent<Renderer>().materials.Length > 1)
 					{
-						GetComponent<Renderer>()materials[1].color = color;
+						GetComponent<Renderer>().materials[1].color = color;
 					}
 					else
 					{
-						GetComponent<Renderer>()materials[0].color = color;
+						GetComponent<Renderer>().materials[0].color = color;
 					}
 				}
 			}
@@ -1328,7 +1328,7 @@ public class Battle : MonoBehaviour
 		{
 			yield break;
 		}
-		while ((Globals.IsPaused || Globals.Player.animation.isPlaying || Pause) && (Globals.IsPaused || Pause || !Globals.Player.IsIdleAnimationPlaying()))
+		while ((Globals.IsPaused || Globals.Player.GetComponent<Animation>().isPlaying || Pause) && (Globals.IsPaused || Pause || !Globals.Player.IsIdleAnimationPlaying()))
 		{
 			yield return null;
 		}
@@ -2252,7 +2252,7 @@ public class Battle : MonoBehaviour
 			_bubbles = new Bubbles();
 			player.gameObject.SetActiveRecursivelyMk1(setActive: true);
 			player.GetComponent<PersonArmor>().HideBodyParts();
-			player.gameObject.animation.cullingType = AnimationCullingType.BasedOnRenderers;
+			player.gameObject.GetComponent<Animation>().cullingType = AnimationCullingType.BasedOnRenderers;
 			player.SetupOnScene(this);
 			if (SelectGui != null)
 			{
@@ -2397,7 +2397,7 @@ public class Battle : MonoBehaviour
 		{
 			Globals.PlayerGameObject.SetActiveRecursivelyMk1(setActive: true);
 			Globals.PlayerGameObject.GetComponent<PersonArmor>().HideBodyParts();
-			Globals.PlayerGameObject.animation.cullingType = AnimationCullingType.BasedOnRenderers;
+			Globals.PlayerGameObject.GetComponent<Animation>().cullingType = AnimationCullingType.BasedOnRenderers;
 			Globals.PlayerGameObject.GetComponent<Player>().SetupOnScene(this);
 			Globals.PlayerGameObject.GetComponent<Player>().PlayAnim("idle", inLoop: false);
 			Globals.Player.Restart();

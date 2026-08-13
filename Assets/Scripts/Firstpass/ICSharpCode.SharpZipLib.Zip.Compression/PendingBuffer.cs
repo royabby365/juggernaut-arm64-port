@@ -1,6 +1,7 @@
 using System;
 
-namespace ICSharpCode.SharpZipLib.Zip.Compression;
+namespace ICSharpCode.SharpZipLib.Zip.Compression
+{
 
 public class PendingBuffer
 {
@@ -122,4 +123,5 @@ public class PendingBuffer
 		end = 0;
 		return array;
 	}
+}
 }

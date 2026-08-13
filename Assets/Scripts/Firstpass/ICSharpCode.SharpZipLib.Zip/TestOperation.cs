@@ -1,4 +1,5 @@
-namespace ICSharpCode.SharpZipLib.Zip;
+namespace ICSharpCode.SharpZipLib.Zip
+{
 
 public enum TestOperation
 {
@@ -8,4 +9,5 @@ public enum TestOperation
 	EntryComplete,
 	MiscellaneousTests,
 	Complete
+}
 }

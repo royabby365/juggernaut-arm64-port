@@ -1,4 +1,5 @@
-namespace ICSharpCode.SharpZipLib.Checksums;
+namespace ICSharpCode.SharpZipLib.Checksums
+{
 
 public interface IChecksum
 {
@@ -11,4 +12,5 @@ public interface IChecksum
 	void Update(byte[] buffer);
 
 	void Update(byte[] buffer, int offset, int count);
+}
 }

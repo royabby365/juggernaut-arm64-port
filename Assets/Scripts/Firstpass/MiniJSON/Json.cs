@@ -4,7 +4,8 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace MiniJSON;
+namespace MiniJSON
+{
 
 public class Json
 {
@@ -442,4 +443,5 @@ public class Json
 		Serializer serializer = new Serializer(obj);
 		return serializer.Serialize();
 	}
+}
 }

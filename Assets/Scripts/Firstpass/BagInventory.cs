@@ -443,7 +443,7 @@ public class BagInventory : MonoBehaviour
 			itemButton.item.PutOn = false;
 			if (showStatChanging)
 			{
-				Tuple<string, bool, string, bool> changeStatsDigits = Extensions.GetChangeStatsDigits(null, itemButton.item);
+				System.Tuple<string, bool, string, bool> changeStatsDigits = Extensions.GetChangeStatsDigits(null, itemButton.item);
 				Messenger.Invoke(Globals.MsgPlayerItemsChanged, changeStatsDigits);
 			}
 			itemButton.item.RemoveArmor();

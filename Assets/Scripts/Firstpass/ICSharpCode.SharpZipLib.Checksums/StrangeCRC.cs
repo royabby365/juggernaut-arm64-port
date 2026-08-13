@@ -1,6 +1,7 @@
 using System;
 
-namespace ICSharpCode.SharpZipLib.Checksums;
+namespace ICSharpCode.SharpZipLib.Checksums
+{
 
 public class StrangeCRC : IChecksum
 {
@@ -90,4 +91,5 @@ public class StrangeCRC : IChecksum
 			Update(buffer[offset++]);
 		}
 	}
+}
 }

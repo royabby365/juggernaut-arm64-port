@@ -126,7 +126,7 @@ public class Match3StartScreenHud : MonoBehaviour
 			ServerData.Mine mine = SingletonT<ServerData>.I.Mines[num];
 			if (!mine.IsBuyed)
 			{
-				Tuple<ServerData.MoneyType.TypeE, int, string> price = mine.OpenPrice.GetPrice();
+				System.Tuple<ServerData.MoneyType.TypeE, int, string> price = mine.OpenPrice.GetPrice();
 				if (price.Item1.GetPlayerFundsCount() < price.Item2)
 				{
 					if (price.Item1 == ServerData.MoneyType.TypeE.Key)
@@ -142,7 +142,7 @@ public class Match3StartScreenHud : MonoBehaviour
 				price.Item1.ChangePlayerFundsCount(-price.Item2);
 				Globals.MainMenu.SaveGame();
 			}
-			HudMk1.Instance.ChangeGuiTo(new HudMk1.GuiDesc(GuiRoot.GuiType.Match3, Tuple.Create(mine)));
+			HudMk1.Instance.ChangeGuiTo(new HudMk1.GuiDesc(GuiRoot.GuiType.Match3, Yarx.Collections.Tuple.Create(mine)));
 		}
 		else if (obj.name == "match3_button_full_rating")
 		{

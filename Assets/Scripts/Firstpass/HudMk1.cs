@@ -379,14 +379,14 @@ public class HudMk1 : SpriteGui
 	private void Initialize_Match3StartScreen(ITuple args, ActionD onInit)
 	{
 		Match3StartScreenHud componentInChildren = GetComponentInChildren<Match3StartScreenHud>();
-		componentInChildren.Init(((Tuple<string>)args).Item1);
+		componentInChildren.Init(((System.Tuple<string>)args).Item1);
 		onInit();
 	}
 
 	private void Initialize_Match3Minigame(ITuple args, ActionD onInit)
 	{
 		Match3Hud componentInChildren = GetComponentInChildren<Match3Hud>();
-		componentInChildren.Init(((Tuple<ServerData.Mine>)args).Item1);
+		componentInChildren.Init(((System.Tuple<ServerData.Mine>)args).Item1);
 		onInit();
 	}
 
@@ -420,7 +420,7 @@ public class HudMk1 : SpriteGui
 		{
 			componentInChildren2.gameObject.SetActiveRecursivelyMk1(setActive: false);
 		}
-		componentInChildren.Init(((Tuple<GameEvents.Event>)args).Item1);
+		componentInChildren.Init(((System.Tuple<GameEvents.Event>)args).Item1);
 		onInit();
 	}
 
@@ -432,15 +432,15 @@ public class HudMk1 : SpriteGui
 		{
 			componentInChildren2.gameObject.SetActiveRecursivelyMk1(setActive: false);
 		}
-		componentInChildren.Init(GameObject.FindWithTag("_viewport_01").camera);
+		componentInChildren.Init(GameObject.FindWithTag("_viewport_01").GetComponent<Camera>());
 		onInit();
 	}
 
 	private void Initialize_ExtraChapterInfo(ITuple args, ActionD onInit)
 	{
 		ExtraChapterHud componentInChildren = GetComponentInChildren<ExtraChapterHud>();
-		ServerData.Location item = ((Tuple<ServerData.Location, int>)args).Item1;
-		int item2 = ((Tuple<ServerData.Location, int>)args).Item2;
+		ServerData.Location item = ((System.Tuple<ServerData.Location, int>)args).Item1;
+		int item2 = ((System.Tuple<ServerData.Location, int>)args).Item2;
 		componentInChildren.IconsRoot = GameObject.FindWithTag("extra_chapter_progress_icons").transform;
 		componentInChildren.OpenButton = GameObject.FindWithTag("extra_chapter_progress_button");
 		componentInChildren.TextOpenButton = componentInChildren.OpenButton.GetComponentInChildren<SpriteText>();
@@ -480,7 +480,7 @@ public class HudMk1 : SpriteGui
 		ServerData.Location location = null;
 		if (args != null)
 		{
-			location = ((Tuple<ServerData.Location>)args).Item1;
+			location = ((System.Tuple<ServerData.Location>)args).Item1;
 		}
 		if (location == null)
 		{
@@ -510,7 +510,7 @@ public class HudMk1 : SpriteGui
 
 	private void Initialize_ChestMiniGame(ITuple args, ActionD onInit)
 	{
-		Tuple<ServerData.Chest, ActionD, ActionD> tuple = (Tuple<ServerData.Chest, ActionD, ActionD>)args;
+		System.Tuple<ServerData.Chest, ActionD, ActionD> tuple = (System.Tuple<ServerData.Chest, ActionD, ActionD>)args;
 		ServerData.Chest item = tuple.Item1;
 		ActionD item2 = tuple.Item2;
 		ActionD item3 = tuple.Item3;

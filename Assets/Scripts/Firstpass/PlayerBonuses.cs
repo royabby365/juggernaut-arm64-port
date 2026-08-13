@@ -11,7 +11,7 @@ public class PlayerBonuses : MonoBehaviour
 
 	public BagBonus[] Bonuses;
 
-	private static readonly Tuple<ServerData.Skill.TypeE, string, int> EmptyBonus = Tuple.Create(ServerData.Skill.TypeE.Unknown, string.Empty, 0);
+	private static readonly System.Tuple<ServerData.Skill.TypeE, string, int> EmptyBonus = System.Tuple.Create(ServerData.Skill.TypeE.Unknown, string.Empty, 0);
 
 	private static readonly Vector3 CenterPosition = new Vector3(112f, -42f, 0f);
 
@@ -36,10 +36,10 @@ public class PlayerBonuses : MonoBehaviour
 
 	private void MySkillChanged()
 	{
-		Tuple<ServerData.Skill.TypeE, string, int>[] array = SingletonT<ServerData>.I.GetAllPutOn().Where(Extensions.ItemSkillIsBonus).Select(delegate(ServerData.Item item)
+		System.Tuple<ServerData.Skill.TypeE, string, int>[] array = SingletonT<ServerData>.I.GetAllPutOn().Where(Extensions.ItemSkillIsBonus).Select(delegate(ServerData.Item item)
 		{
 			ServerData.SkillInfo itemSkillInfo = item.GetItemSkillInfo();
-			return Tuple.Create(itemSkillInfo.Skill.Type, itemSkillInfo.Skill.Title, itemSkillInfo.Current);
+			return System.Tuple.Create(itemSkillInfo.Skill.Type, itemSkillInfo.Skill.Title, itemSkillInfo.Current);
 		})
 			.ToArray();
 		BonusLabel.ShowOrHide(array.Length > 0);
@@ -49,7 +49,7 @@ public class PlayerBonuses : MonoBehaviour
 		}
 		if (array.Length >= 2 && array[0].Item1 == array[1].Item1)
 		{
-			array = new Tuple<ServerData.Skill.TypeE, string, int>[1] { Tuple.Create(array[0].Item1, array[0].Item2, array[0].Item3 + array[1].Item3) };
+			array = new System.Tuple<ServerData.Skill.TypeE, string, int>[1] { System.Tuple.Create(array[0].Item1, array[0].Item2, array[0].Item3 + array[1].Item3) };
 		}
 		for (int num = 0; num < Bonuses.Length; num++)
 		{

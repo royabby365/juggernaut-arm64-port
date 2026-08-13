@@ -1,4 +1,5 @@
-namespace LitJson;
+namespace LitJson
+{
 
 internal enum Condition
 {
@@ -7,4 +8,5 @@ internal enum Condition
 	NotAProperty,
 	Property,
 	Value
+}
 }

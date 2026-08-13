@@ -1,4 +1,5 @@
-namespace Scenarios.Parser;
+namespace Scenarios.Parser
+{
 
 public struct Token
 {
@@ -90,4 +91,5 @@ public struct Token
 			_ => $"{Kind} at {Pos}", 
 		};
 	}
+}
 }

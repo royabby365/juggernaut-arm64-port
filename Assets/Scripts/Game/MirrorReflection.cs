@@ -148,11 +148,11 @@ public class MirrorReflection : MonoBehaviour
 		if (!reflectionCamera)
 		{
 			GameObject gameObject = new GameObject("Mirror Refl Camera id" + GetInstanceID() + " for " + currentCamera.GetInstanceID(), typeof(Camera), typeof(Skybox));
-			reflectionCamera = gameObject.camera;
+			reflectionCamera = gameObject.GetComponent<Camera>();
 			reflectionCamera.enabled = false;
 			reflectionCamera.transform.position = base.transform.position;
 			reflectionCamera.transform.rotation = base.transform.rotation;
-			reflectionCamera.gameObject.AddComponent("FlareLayer");
+			reflectionCamera.gameObject.AddComponent<FlareLayer>();
 			gameObject.hideFlags = HideFlags.HideAndDontSave;
 			m_ReflectionCameras[currentCamera] = reflectionCamera;
 		}

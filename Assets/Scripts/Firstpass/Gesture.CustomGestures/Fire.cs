@@ -1,4 +1,5 @@
-namespace Gesture.CustomGestures;
+namespace Gesture.CustomGestures
+{
 
 public class Fire : CustomGesture
 {
@@ -15,4 +16,5 @@ public class Fire : CustomGesture
 		}
 		return base.IsMatch(stats) && stats.Proximity < 0.4f && stats.Directions.Count >= 4;
 	}
+}
 }

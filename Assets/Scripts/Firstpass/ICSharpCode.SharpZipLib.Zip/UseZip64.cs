@@ -1,8 +1,10 @@
-namespace ICSharpCode.SharpZipLib.Zip;
+namespace ICSharpCode.SharpZipLib.Zip
+{
 
 public enum UseZip64
 {
 	Off,
 	On,
 	Dynamic
+}
 }

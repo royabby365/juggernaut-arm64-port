@@ -1,7 +1,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Gesture;
+namespace Gesture
+{
 
 public class Statistics
 {
@@ -50,4 +51,5 @@ public class Statistics
 	{
 		return $"Proximity: {Proximity} Extent:{Extent} Info:{_info}";
 	}
+}
 }

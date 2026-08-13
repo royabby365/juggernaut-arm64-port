@@ -1,4 +1,5 @@
-namespace ICSharpCode.SharpZipLib.Zip;
+namespace ICSharpCode.SharpZipLib.Zip
+{
 
 public class TestStatus
 {
@@ -53,4 +54,5 @@ public class TestStatus
 	{
 		bytesTested_ = value;
 	}
+}
 }

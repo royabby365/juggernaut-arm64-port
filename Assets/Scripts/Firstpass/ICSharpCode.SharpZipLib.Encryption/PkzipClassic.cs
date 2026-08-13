@@ -2,7 +2,8 @@ using System;
 using System.Security.Cryptography;
 using ICSharpCode.SharpZipLib.Checksums;
 
-namespace ICSharpCode.SharpZipLib.Encryption;
+namespace ICSharpCode.SharpZipLib.Encryption
+{
 
 public abstract class PkzipClassic : SymmetricAlgorithm
 {
@@ -40,4 +41,5 @@ public abstract class PkzipClassic : SymmetricAlgorithm
 			(byte)((array[2] >> 24) & 0xFF)
 		};
 	}
+}
 }

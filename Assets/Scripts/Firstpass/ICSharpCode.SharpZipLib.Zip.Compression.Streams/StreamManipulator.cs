@@ -1,6 +1,7 @@
 using System;
 
-namespace ICSharpCode.SharpZipLib.Zip.Compression.Streams;
+namespace ICSharpCode.SharpZipLib.Zip.Compression.Streams
+{
 
 public class StreamManipulator
 {
@@ -132,4 +133,5 @@ public class StreamManipulator
 		windowStart_ = offset;
 		windowEnd_ = num;
 	}
+}
 }

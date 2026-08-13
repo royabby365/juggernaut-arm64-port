@@ -2,7 +2,8 @@ using System;
 using System.IO;
 using ICSharpCode.SharpZipLib.Core;
 
-namespace ICSharpCode.SharpZipLib.BZip2;
+namespace ICSharpCode.SharpZipLib.BZip2
+{
 
 public static class BZip2
 {
@@ -47,4 +48,5 @@ public static class BZip2
 			}
 		}
 	}
+}
 }

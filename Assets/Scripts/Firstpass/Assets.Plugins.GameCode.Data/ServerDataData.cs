@@ -4,7 +4,8 @@ using System.Linq;
 using ProtoBuf;
 using Yarx.Collections;
 
-namespace Assets.Plugins.GameCode.Data;
+namespace Assets.Plugins.GameCode.Data
+{
 
 [ProtoContract]
 public class ServerDataData
@@ -172,7 +173,7 @@ public class ServerDataData
 		}
 		foreach (StorylineDialogProxy storylineDialogsDatum in StorylineDialogsData)
 		{
-			data._storylineDialogs.Add(Tuple.Create(storylineDialogsDatum.LocationBot01, storylineDialogsDatum.LocationBot02, storylineDialogsDatum.LocationBot03), storylineDialogsDatum);
+			data._storylineDialogs.Add(Yarx.Collections.Tuple.Create(storylineDialogsDatum.LocationBot01, storylineDialogsDatum.LocationBot02, storylineDialogsDatum.LocationBot03), storylineDialogsDatum);
 		}
 		foreach (ServerData.Fatality fatalitiesDatum in FatalitiesData)
 		{
@@ -224,4 +225,5 @@ public class ServerDataData
 			data._subtitles.Add(subtitlesDatum.Id, subtitlesDatum);
 		}
 	}
+}
 }

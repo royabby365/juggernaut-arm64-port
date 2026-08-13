@@ -28,7 +28,7 @@ public class ScreenshotCapturer : MonoBehaviour
 		Messenger.Invoke(Globals.MsgScreenshotAlertShowing, arg1: true);
 		yield return new WaitForEndOfFrame();
 		string path = Application.persistentDataPath + "/SavedScreen.png";
-		Application.CaptureScreenshot(path);
+		ScreenCapture.CaptureScreenshot(path);
 		yield return new WaitForSeconds(2f);
 		UnityApi.PostScreenshot();
 		ButtonScreenshot.transform.localScale = Vector3.one;

@@ -22,7 +22,7 @@ public class MinesLine : MonoBehaviour
 			ButtonLabel.Text_ = SingletonT<ServerData>.I.GetPhrase(ServerData.PhrasesE.Match3ButtonStart);
 			return;
 		}
-		Tuple<ServerData.MoneyType.TypeE, int, string> price = mine.OpenPrice.GetPrice();
+		System.Tuple<ServerData.MoneyType.TypeE, int, string> price = mine.OpenPrice.GetPrice();
 		ButtonLabel.Text_ = "{0} {1} {2}".Fmt(SingletonT<ServerData>.I.GetPhrase(ServerData.PhrasesE.Match3ButtonStart), price.Item2, price.Item3);
 	}
 

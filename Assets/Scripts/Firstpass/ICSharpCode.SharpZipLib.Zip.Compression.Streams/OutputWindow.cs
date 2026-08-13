@@ -1,6 +1,7 @@
 using System;
 
-namespace ICSharpCode.SharpZipLib.Zip.Compression.Streams;
+namespace ICSharpCode.SharpZipLib.Zip.Compression.Streams
+{
 
 public class OutputWindow
 {
@@ -146,4 +147,5 @@ public class OutputWindow
 	{
 		windowFilled = (windowEnd = 0);
 	}
+}
 }

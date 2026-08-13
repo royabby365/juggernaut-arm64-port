@@ -1,7 +1,8 @@
 using System;
 using System.IO;
 
-namespace ICSharpCode.SharpZipLib.Tar;
+namespace ICSharpCode.SharpZipLib.Tar
+{
 
 public class TarEntry : ICloneable
 {
@@ -284,4 +285,5 @@ public class TarEntry : ICloneable
 		header.DevMajor = 0;
 		header.DevMinor = 0;
 	}
+}
 }

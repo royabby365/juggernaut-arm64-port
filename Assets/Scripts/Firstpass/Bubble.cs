@@ -100,7 +100,7 @@ public class Bubble : MonoBehaviour
 
 	private void Start()
 	{
-		Camera mainCamera = Camera.mainCamera;
+		Camera mainCamera = Camera.main;
 		Vector3 vector = mainCamera.WorldToScreenPoint(base.transform.position);
 		vector.z = _farPlane;
 		_startPos = mainCamera.transform.InverseTransformPoint(base.transform.position);
@@ -139,7 +139,7 @@ public class Bubble : MonoBehaviour
 	private Vector3 GetVector(int index)
 	{
 		Vector2 vector = _matrix[index];
-		return new Vector3(vector.x, Camera.mainCamera.pixelHeight - vector.y, _farPlane);
+		return new Vector3(vector.x, Camera.main.pixelHeight - vector.y, _farPlane);
 	}
 
 	private void Bubble_TurnStateChanged(Battle.StateE obj)

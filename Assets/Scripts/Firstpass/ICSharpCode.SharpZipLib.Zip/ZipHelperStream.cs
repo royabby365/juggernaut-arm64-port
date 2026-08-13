@@ -1,7 +1,8 @@
 using System;
 using System.IO;
 
-namespace ICSharpCode.SharpZipLib.Zip;
+namespace ICSharpCode.SharpZipLib.Zip
+{
 
 internal class ZipHelperStream : Stream
 {
@@ -380,4 +381,5 @@ internal class ZipHelperStream : Stream
 			data.Size = ReadLEInt();
 		}
 	}
+}
 }

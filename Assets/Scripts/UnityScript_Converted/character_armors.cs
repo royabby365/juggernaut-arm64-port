@@ -69,7 +69,7 @@ public class character_armors : MonoBehaviour
 					obj2 = RuntimeServices.Coerce(obj2, typeof(Material));
 				}
 				array[1] = (Material)obj2;
-				bodyByArmorType.renderer.materials = array;
+				bodyByArmorType.GetComponent<Renderer>().materials = array;
 			}
 		}
 		else if ((bool)replaceBodyMaterial)
@@ -77,7 +77,7 @@ public class character_armors : MonoBehaviour
 			GameObject bodyByArmorType = character_parameters2.GetBodyByArmorType(armor_parameters2.ArmorType);
 			if ((bool)bodyByArmorType)
 			{
-				bodyByArmorType.renderer.material = replaceBodyMaterial;
+				bodyByArmorType.GetComponent<Renderer>().material = replaceBodyMaterial;
 			}
 		}
 		if ((bool)replaceBodyMaterial && !armor_parameters2.Armor)
@@ -112,19 +112,19 @@ public class character_armors : MonoBehaviour
 		if ((bool)animation)
 		{
 			gameObject.AddComponent(typeof(Animation));
-			gameObject.animation.AddClip(GetComponent<Animation>()clip, GetComponent<Animation>()clip.name);
-			gameObject.animation.clip = GetComponent<Animation>()clip;
-			gameObject.animation.Play(GetComponent<Animation>()clip.name);
+			gameObject.GetComponent<Animation>().AddClip(GetComponent<Animation>().clip, GetComponent<Animation>().clip.name);
+			gameObject.GetComponent<Animation>().clip = GetComponent<Animation>().clip;
+			gameObject.GetComponent<Animation>().Play(GetComponent<Animation>().clip.name);
 		}
 		GameObject bodyByArmorType2 = character_parameters2.GetBodyByArmorType(armor_parameters2.ArmorType);
 		if (armor_parameters2.AddSkinMaterial && (bool)bodyByArmorType2)
 		{
 			Material[] sharedMaterials = new Material[2]
 			{
-				gameObject.renderer.material,
-				bodyByArmorType2.renderer.material
+				gameObject.GetComponent<Renderer>().material,
+				bodyByArmorType2.GetComponent<Renderer>().material
 			};
-			gameObject.renderer.sharedMaterials = sharedMaterials;
+			gameObject.GetComponent<Renderer>().sharedMaterials = sharedMaterials;
 		}
 		AnimationTypes weaponAnimationType = armor_parameters2.WeaponAnimationType;
 		if (armor_parameters2.ArmorTranslate != Vector3.zero)
@@ -165,7 +165,7 @@ public class character_armors : MonoBehaviour
 			GameObject bodyByArmorType = character_parameters2.GetBodyByArmorType(ArmorType);
 			if ((bool)bodyByArmorType)
 			{
-				bodyByArmorType.renderer.enabled = false;
+				bodyByArmorType.GetComponent<Renderer>().enabled = false;
 				result = bodyByArmorType;
 			}
 			else

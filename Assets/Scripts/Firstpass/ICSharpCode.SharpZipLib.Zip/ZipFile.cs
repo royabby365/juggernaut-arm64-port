@@ -11,7 +11,8 @@ using ICSharpCode.SharpZipLib.Encryption;
 using ICSharpCode.SharpZipLib.Zip.Compression;
 using ICSharpCode.SharpZipLib.Zip.Compression.Streams;
 
-namespace ICSharpCode.SharpZipLib.Zip;
+namespace ICSharpCode.SharpZipLib.Zip
+{
 
 public class ZipFile : IDisposable, IEnumerable
 {
@@ -2534,4 +2535,5 @@ public class ZipFile : IDisposable, IEnumerable
 		array[11] = (byte)(crcValue >> 24);
 		stream.Write(array, 0, array.Length);
 	}
+}
 }

@@ -1,8 +1,10 @@
 using System.Collections;
 
-namespace Yarx;
+namespace Yarx
+{
 
 public interface IStructuralComparable
 {
 	int CompareTo(object other, IComparer comparer);
+}
 }

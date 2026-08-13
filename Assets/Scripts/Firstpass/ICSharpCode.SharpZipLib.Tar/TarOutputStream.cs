@@ -1,7 +1,8 @@
 using System;
 using System.IO;
 
-namespace ICSharpCode.SharpZipLib.Tar;
+namespace ICSharpCode.SharpZipLib.Tar
+{
 
 public class TarOutputStream : Stream
 {
@@ -244,4 +245,5 @@ public class TarOutputStream : Stream
 		Array.Clear(blockBuffer, 0, blockBuffer.Length);
 		buffer.WriteBlock(blockBuffer);
 	}
+}
 }

@@ -1,7 +1,8 @@
 using ProtoBuf;
 using UnityEngine;
 
-namespace Assets.Plugins.GameCode.Data;
+namespace Assets.Plugins.GameCode.Data
+{
 
 [ProtoContract]
 public class RectProxy
@@ -22,4 +23,5 @@ public class RectProxy
 	{
 		return new Rect(data.X, data.Y, data.W, data.H);
 	}
+}
 }

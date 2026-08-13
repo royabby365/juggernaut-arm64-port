@@ -1,7 +1,8 @@
 using System;
 using System.Security.Cryptography;
 
-namespace ICSharpCode.SharpZipLib.Encryption;
+namespace ICSharpCode.SharpZipLib.Encryption
+{
 
 internal class PkzipClassicEncryptCryptoTransform : PkzipClassicCryptoBase, IDisposable, ICryptoTransform
 {
@@ -40,4 +41,5 @@ internal class PkzipClassicEncryptCryptoTransform : PkzipClassicCryptoBase, IDis
 	{
 		Reset();
 	}
+}
 }

@@ -2,7 +2,8 @@ using System;
 using System.Text;
 using System.Threading;
 
-namespace ICSharpCode.SharpZipLib.Zip;
+namespace ICSharpCode.SharpZipLib.Zip
+{
 
 public sealed class ZipConstants
 {
@@ -174,4 +175,5 @@ public sealed class ZipConstants
 		}
 		return ConvertToArray(str);
 	}
+}
 }

@@ -1,6 +1,7 @@
 using System;
 
-namespace ICSharpCode.SharpZipLib.Zip.Compression;
+namespace ICSharpCode.SharpZipLib.Zip.Compression
+{
 
 public class DeflaterHuffman
 {
@@ -653,4 +654,5 @@ public class DeflaterHuffman
 		}
 		return num + distance;
 	}
+}
 }

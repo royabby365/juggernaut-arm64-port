@@ -39,7 +39,7 @@ public class BagBonus : MonoBehaviour
 
 	private AltButton _alt;
 
-	public void SetBonus(Tuple<ServerData.Skill.TypeE, string, int> bonus)
+	public void SetBonus(System.Tuple<ServerData.Skill.TypeE, string, int> bonus)
 	{
 		SkillType = bonus.Item1;
 		bool flag = bonus.Item1 == ServerData.Skill.TypeE.Unknown;

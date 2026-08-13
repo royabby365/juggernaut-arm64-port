@@ -1,6 +1,7 @@
 using System;
 
-namespace LitJson;
+namespace LitJson
+{
 
 internal struct ArrayMetadata
 {
@@ -49,4 +50,5 @@ internal struct ArrayMetadata
 			is_list = value;
 		}
 	}
+}
 }

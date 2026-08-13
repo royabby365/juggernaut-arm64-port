@@ -2,7 +2,8 @@ using System;
 using System.IO;
 using System.Text;
 
-namespace LitJson;
+namespace LitJson
+{
 
 internal class Lexer
 {
@@ -767,4 +768,5 @@ internal class Lexer
 	{
 		input_buffer = input_char;
 	}
+}
 }

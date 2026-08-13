@@ -1,3 +1,5 @@
-namespace LitJson;
+namespace LitJson
+{
 
 public delegate IJsonWrapper WrapperFactory();
+}

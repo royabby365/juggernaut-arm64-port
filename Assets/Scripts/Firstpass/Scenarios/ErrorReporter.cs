@@ -1,6 +1,7 @@
 using UnityEngine;
 
-namespace Scenarios;
+namespace Scenarios
+{
 
 public static class ErrorReporter
 {
@@ -39,4 +40,5 @@ public static class ErrorReporter
 	public static void Info(object o)
 	{
 	}
+}
 }

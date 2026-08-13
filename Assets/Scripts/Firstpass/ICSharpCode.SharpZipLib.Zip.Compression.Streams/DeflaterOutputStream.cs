@@ -3,7 +3,8 @@ using System.IO;
 using System.Security.Cryptography;
 using ICSharpCode.SharpZipLib.Encryption;
 
-namespace ICSharpCode.SharpZipLib.Zip.Compression.Streams;
+namespace ICSharpCode.SharpZipLib.Zip.Compression.Streams
+{
 
 public class DeflaterOutputStream : Stream
 {
@@ -270,4 +271,5 @@ public class DeflaterOutputStream : Stream
 		deflater_.SetInput(buffer, offset, count);
 		Deflate();
 	}
+}
 }

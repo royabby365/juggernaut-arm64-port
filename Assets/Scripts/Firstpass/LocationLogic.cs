@@ -31,8 +31,7 @@ public class LocationLogic
 		[ProtoMember(4)]
 		public bool WasFound;
 
-		[ProtoMember(5, IsRequired = false)]
-		public ElfStateE ElfState;
+		[ProtoMember(5)]public ElfStateE ElfState;
 
 		public DateTime StartDate;
 

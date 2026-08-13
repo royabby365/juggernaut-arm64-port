@@ -59,171 +59,171 @@ public class TutorialFullScreenInfo : MonoBehaviour
 
 	private readonly Color _liteBg = new Color32(128, 128, 128, 64);
 
-	private readonly Dictionary<ServerData.PhrasesE, Tuple<Gender, Quadrant>> _phrases = new Dictionary<ServerData.PhrasesE, Tuple<Gender, Quadrant>>
+	private readonly Dictionary<ServerData.PhrasesE, Yarx.Collections.Tuple<Gender, Quadrant>> _phrases = new Dictionary<ServerData.PhrasesE, Yarx.Collections.Tuple<Gender, Quadrant>>
 	{
 		{
 			ServerData.PhrasesE.Tut1_1,
-			Tuple.Create(Gender.Man, Quadrant.Rtop)
+			Yarx.Collections.Tuple.Create(Gender.Man, Quadrant.Rtop)
 		},
 		{
 			ServerData.PhrasesE.Tut1_2,
-			Tuple.Create(Gender.Man, Quadrant.Rtop)
+			Yarx.Collections.Tuple.Create(Gender.Man, Quadrant.Rtop)
 		},
 		{
 			ServerData.PhrasesE.Tut2_1,
-			Tuple.Create(Gender.Man, Quadrant.Rtop)
+			Yarx.Collections.Tuple.Create(Gender.Man, Quadrant.Rtop)
 		},
 		{
 			ServerData.PhrasesE.Tut2_2,
-			Tuple.Create(Gender.Man, Quadrant.Rtop)
+			Yarx.Collections.Tuple.Create(Gender.Man, Quadrant.Rtop)
 		},
 		{
 			ServerData.PhrasesE.Tut4_1,
-			Tuple.Create(Gender.Man, Quadrant.Ltop)
+			Yarx.Collections.Tuple.Create(Gender.Man, Quadrant.Ltop)
 		},
 		{
 			ServerData.PhrasesE.Tut4_1_1,
-			Tuple.Create(Gender.Man, Quadrant.Rtop)
+			Yarx.Collections.Tuple.Create(Gender.Man, Quadrant.Rtop)
 		},
 		{
 			ServerData.PhrasesE.Tut4_2,
-			Tuple.Create(Gender.Man, Quadrant.Lbottom)
+			Yarx.Collections.Tuple.Create(Gender.Man, Quadrant.Lbottom)
 		},
 		{
 			ServerData.PhrasesE.Tut4_2_2,
-			Tuple.Create(Gender.Man, Quadrant.Rtop)
+			Yarx.Collections.Tuple.Create(Gender.Man, Quadrant.Rtop)
 		},
 		{
 			ServerData.PhrasesE.Tut6_1,
-			Tuple.Create(Gender.Man, Quadrant.Rtop)
+			Yarx.Collections.Tuple.Create(Gender.Man, Quadrant.Rtop)
 		},
 		{
 			ServerData.PhrasesE.Tut6_1_2,
-			Tuple.Create(Gender.Man, Quadrant.Rtop)
+			Yarx.Collections.Tuple.Create(Gender.Man, Quadrant.Rtop)
 		},
 		{
 			ServerData.PhrasesE.TutBattleTurn,
-			Tuple.Create(Gender.Man, Quadrant.Rtop)
+			Yarx.Collections.Tuple.Create(Gender.Man, Quadrant.Rtop)
 		},
 		{
 			ServerData.PhrasesE.TutEndChests,
-			Tuple.Create(Gender.Woman, Quadrant.Rtop)
+			Yarx.Collections.Tuple.Create(Gender.Woman, Quadrant.Rtop)
 		},
 		{
 			ServerData.PhrasesE.TutEye,
-			Tuple.Create(Gender.Man, Quadrant.Lbottom)
+			Yarx.Collections.Tuple.Create(Gender.Man, Quadrant.Lbottom)
 		},
 		{
 			ServerData.PhrasesE.TutEye_2,
-			Tuple.Create(Gender.Man, Quadrant.Rtop)
+			Yarx.Collections.Tuple.Create(Gender.Man, Quadrant.Rtop)
 		},
 		{
 			ServerData.PhrasesE.TutImmBattle,
-			Tuple.Create(Gender.Man, Quadrant.Lbottom)
+			Yarx.Collections.Tuple.Create(Gender.Man, Quadrant.Lbottom)
 		},
 		{
 			ServerData.PhrasesE.TutImmZ,
-			Tuple.Create(Gender.Man, Quadrant.Lbottom)
+			Yarx.Collections.Tuple.Create(Gender.Man, Quadrant.Lbottom)
 		},
 		{
 			ServerData.PhrasesE.TutResurrection,
-			Tuple.Create(Gender.Man, Quadrant.Rtop)
+			Yarx.Collections.Tuple.Create(Gender.Man, Quadrant.Rtop)
 		},
 		{
 			ServerData.PhrasesE.TutSearchTreasure,
-			Tuple.Create(Gender.Woman, Quadrant.Lbottom)
+			Yarx.Collections.Tuple.Create(Gender.Woman, Quadrant.Lbottom)
 		},
 		{
 			ServerData.PhrasesE.TutShop,
-			Tuple.Create(Gender.Woman, Quadrant.Lbottom)
+			Yarx.Collections.Tuple.Create(Gender.Woman, Quadrant.Lbottom)
 		},
 		{
 			ServerData.PhrasesE.TutStrongMagic,
-			Tuple.Create(Gender.Man, Quadrant.Rtop)
+			Yarx.Collections.Tuple.Create(Gender.Man, Quadrant.Rtop)
 		},
 		{
 			ServerData.PhrasesE.TutFirstMoneyPile,
-			Tuple.Create(Gender.Woman, Quadrant.Lbottom)
+			Yarx.Collections.Tuple.Create(Gender.Woman, Quadrant.Lbottom)
 		},
 		{
 			ServerData.PhrasesE.TutPlayerDefeat,
-			Tuple.Create(Gender.Woman, Quadrant.Ltop)
+			Yarx.Collections.Tuple.Create(Gender.Woman, Quadrant.Ltop)
 		},
 		{
 			ServerData.PhrasesE.TutLocationScarab,
-			Tuple.Create(Gender.Woman, Quadrant.Rtop)
+			Yarx.Collections.Tuple.Create(Gender.Woman, Quadrant.Rtop)
 		},
 		{
 			ServerData.PhrasesE.TutBagRage,
-			Tuple.Create(Gender.Woman, Quadrant.Lbottom)
+			Yarx.Collections.Tuple.Create(Gender.Woman, Quadrant.Lbottom)
 		},
 		{
 			ServerData.PhrasesE.TutBagMana,
-			Tuple.Create(Gender.Woman, Quadrant.Lbottom)
+			Yarx.Collections.Tuple.Create(Gender.Woman, Quadrant.Lbottom)
 		},
 		{
 			ServerData.PhrasesE.TutBagExp,
-			Tuple.Create(Gender.Woman, Quadrant.Lbottom)
+			Yarx.Collections.Tuple.Create(Gender.Woman, Quadrant.Lbottom)
 		},
 		{
 			ServerData.PhrasesE.TutBagMoney,
-			Tuple.Create(Gender.Woman, Quadrant.Lbottom)
+			Yarx.Collections.Tuple.Create(Gender.Woman, Quadrant.Lbottom)
 		},
 		{
 			ServerData.PhrasesE.TutBagMagic,
-			Tuple.Create(Gender.Woman, Quadrant.Lbottom)
+			Yarx.Collections.Tuple.Create(Gender.Woman, Quadrant.Lbottom)
 		},
 		{
 			ServerData.PhrasesE.TutShopFilter2,
-			Tuple.Create(Gender.Woman, Quadrant.Lbottom)
+			Yarx.Collections.Tuple.Create(Gender.Woman, Quadrant.Lbottom)
 		},
 		{
 			ServerData.PhrasesE.TutShopFilter3,
-			Tuple.Create(Gender.Woman, Quadrant.Lbottom)
+			Yarx.Collections.Tuple.Create(Gender.Woman, Quadrant.Lbottom)
 		},
 		{
 			ServerData.PhrasesE.TutShopFilter4,
-			Tuple.Create(Gender.Woman, Quadrant.Lbottom)
+			Yarx.Collections.Tuple.Create(Gender.Woman, Quadrant.Lbottom)
 		},
 		{
 			ServerData.PhrasesE.TutShopFilter5,
-			Tuple.Create(Gender.Woman, Quadrant.Lbottom)
+			Yarx.Collections.Tuple.Create(Gender.Woman, Quadrant.Lbottom)
 		},
 		{
 			ServerData.PhrasesE.TutGotLevel,
-			Tuple.Create(Gender.Woman, Quadrant.Rtop)
+			Yarx.Collections.Tuple.Create(Gender.Woman, Quadrant.Rtop)
 		},
 		{
 			ServerData.PhrasesE.TutFirstMobAttack,
-			Tuple.Create(Gender.Woman, Quadrant.Rtop)
+			Yarx.Collections.Tuple.Create(Gender.Woman, Quadrant.Rtop)
 		},
 		{
 			ServerData.PhrasesE.TutFirstMagicBook,
-			Tuple.Create(Gender.Woman, Quadrant.Rtop)
+			Yarx.Collections.Tuple.Create(Gender.Woman, Quadrant.Rtop)
 		},
 		{
 			ServerData.PhrasesE.TutMagicBookButton,
-			Tuple.Create(Gender.Woman, Quadrant.Rtop)
+			Yarx.Collections.Tuple.Create(Gender.Woman, Quadrant.Rtop)
 		},
 		{
 			ServerData.PhrasesE.TutSliceAttack1,
-			Tuple.Create(Gender.Man, Quadrant.Rtop)
+			Yarx.Collections.Tuple.Create(Gender.Man, Quadrant.Rtop)
 		},
 		{
 			ServerData.PhrasesE.TutAchievmentButton,
-			Tuple.Create(Gender.Man, Quadrant.Ltop)
+			Yarx.Collections.Tuple.Create(Gender.Man, Quadrant.Ltop)
 		},
 		{
 			ServerData.PhrasesE.TutEpicItemPuton,
-			Tuple.Create(Gender.Woman, Quadrant.Ltop)
+			Yarx.Collections.Tuple.Create(Gender.Woman, Quadrant.Ltop)
 		},
 		{
 			ServerData.PhrasesE.TutFallingStarPhrase1,
-			Tuple.Create(Gender.Man, Quadrant.Ltop)
+			Yarx.Collections.Tuple.Create(Gender.Man, Quadrant.Ltop)
 		},
 		{
 			ServerData.PhrasesE.Match3Tutorial,
-			Tuple.Create(Gender.Woman, Quadrant.Ltop)
+			Yarx.Collections.Tuple.Create(Gender.Woman, Quadrant.Ltop)
 		}
 	};
 
@@ -379,7 +379,7 @@ public class TutorialFullScreenInfo : MonoBehaviour
 		{
 			if (_phrases.ContainsKey(phrase1))
 			{
-				Tuple<Gender, Quadrant> tuple = _phrases[phrase1];
+				Yarx.Collections.Tuple<Gender, Quadrant> tuple = _phrases[phrase1];
 				ShowMessage(tuple, phrase1);
 			}
 			else if (Globals.IsDebugBuild)
@@ -394,7 +394,7 @@ public class TutorialFullScreenInfo : MonoBehaviour
 		Dialogs.Enqueue(item);
 	}
 
-	private void ShowMessage(Tuple<Gender, Quadrant> tuple, ServerData.PhrasesE phrase)
+	private void ShowMessage(Yarx.Collections.Tuple<Gender, Quadrant> tuple, ServerData.PhrasesE phrase)
 	{
 		HudMk1.Instance.AddOrRemoveGui(add: true, GuiRoot.GuiType.TutorialFullScreenInfo);
 		IsShowDialog = true;

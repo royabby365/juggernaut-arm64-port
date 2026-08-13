@@ -1,4 +1,5 @@
-namespace Scenarios.Parser;
+namespace Scenarios.Parser
+{
 
 public struct Lineinfo
 {
@@ -13,4 +14,5 @@ public struct Lineinfo
 	{
 		return $"line: {Line + 1}";
 	}
+}
 }

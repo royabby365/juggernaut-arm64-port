@@ -62,7 +62,7 @@ public class BagItemButton : SpriteButton, IDraggable
 		UpgradeProgress.transform.localScale = new Vector3(1f, 0f, 1f);
 	}
 
-	private IEnumerator UpgradeProgressCoro(Tuple<float, float> fromTo)
+	private IEnumerator UpgradeProgressCoro(System.Tuple<float, float> fromTo)
 	{
 		yield return new WaitForSeconds(1.1f);
 		UpgradeProgress.transform.localScale = new Vector3(1f, fromTo.Item2, 1f);
@@ -132,7 +132,7 @@ public class BagItemButton : SpriteButton, IDraggable
 		SingletonT<ServerData>.I.RemoveFromBag(item);
 		Refresh();
 		BagInventory.Instance.RearrangeBag();
-		Tuple<string, bool, string, bool> changeStatsDigits = Extensions.GetChangeStatsDigits(this.item, item);
+		System.Tuple<string, bool, string, bool> changeStatsDigits = Extensions.GetChangeStatsDigits(this.item, item);
 		Messenger.Invoke(Globals.MsgItemUpgrade);
 		Messenger.Invoke(Globals.MsgPlayerItemsChanged, changeStatsDigits);
 	}

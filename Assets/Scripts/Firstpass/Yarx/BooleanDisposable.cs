@@ -1,6 +1,7 @@
 using System;
 
-namespace Yarx;
+namespace Yarx
+{
 
 public class BooleanDisposable : IDisposable
 {
@@ -10,4 +11,5 @@ public class BooleanDisposable : IDisposable
 	{
 		IsDisposed = true;
 	}
+}
 }

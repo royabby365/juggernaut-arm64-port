@@ -2,7 +2,8 @@ using System;
 using System.IO;
 using System.Text;
 
-namespace ICSharpCode.SharpZipLib.Tar;
+namespace ICSharpCode.SharpZipLib.Tar
+{
 
 public class TarInputStream : Stream
 {
@@ -361,4 +362,5 @@ public class TarInputStream : Stream
 		}
 		readBuffer = null;
 	}
+}
 }

@@ -1,4 +1,5 @@
-namespace ICSharpCode.SharpZipLib.Zip;
+namespace ICSharpCode.SharpZipLib.Zip
+{
 
 public interface ITaggedData
 {
@@ -7,4 +8,5 @@ public interface ITaggedData
 	void SetData(byte[] data, int offset, int count);
 
 	byte[] GetData();
+}
 }

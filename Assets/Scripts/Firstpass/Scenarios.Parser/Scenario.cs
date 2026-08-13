@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 
-namespace Scenarios.Parser;
+namespace Scenarios.Parser
+{
 
 public class Scenario
 {
@@ -18,4 +19,5 @@ public class Scenario
 	{
 		return $"Scenario[name:{Id}, statements:{Statements.Count}]";
 	}
+}
 }

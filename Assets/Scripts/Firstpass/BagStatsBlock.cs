@@ -118,7 +118,7 @@ public class BagStatsBlock : MonoBehaviour
 		BagStat[] stats = Stats;
 		foreach (BagStat bagStat in stats)
 		{
-			Tuple<int, int> playerSkill = bagStat.SkillType.GetPlayerSkill();
+			System.Tuple<int, int> playerSkill = bagStat.SkillType.GetPlayerSkill();
 			bagStat.SkillCount.Text_ = (playerSkill.Item1 + playerSkill.Item2).ToString();
 		}
 	}

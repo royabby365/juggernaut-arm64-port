@@ -1,4 +1,5 @@
-namespace ICSharpCode.SharpZipLib.Zip.Compression;
+namespace ICSharpCode.SharpZipLib.Zip.Compression
+{
 
 public class DeflaterPending : PendingBuffer
 {
@@ -6,4 +7,5 @@ public class DeflaterPending : PendingBuffer
 		: base(65536)
 	{
 	}
+}
 }

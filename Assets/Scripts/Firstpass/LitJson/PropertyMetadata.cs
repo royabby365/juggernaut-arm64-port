@@ -1,7 +1,8 @@
 using System;
 using System.Reflection;
 
-namespace LitJson;
+namespace LitJson
+{
 
 internal struct PropertyMetadata
 {
@@ -10,4 +11,5 @@ internal struct PropertyMetadata
 	public bool IsField;
 
 	public Type Type;
+}
 }

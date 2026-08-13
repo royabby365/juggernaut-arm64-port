@@ -60,10 +60,10 @@ public class MainMapProgressBar : MonoBehaviour
 			progress = 0f;
 		}
 		float x = empty.localScale.x;
-		empty.renderer.material.mainTextureScale = new Vector2(x, 1f);
+		empty.GetComponent<Renderer>().material.mainTextureScale = new Vector2(x, 1f);
 		float num = x * progress / 1f;
 		full.localScale = new Vector3(num, 1f, 1f);
-		full.renderer.material.mainTextureScale = new Vector2(num, 1f);
+		full.GetComponent<Renderer>().material.mainTextureScale = new Vector2(num, 1f);
 		Thumb.localPosition = new Vector3(full.localPosition.x + full.parent.localPosition.x + num * 4f, Thumb.localPosition.y, Thumb.localPosition.z);
 		SoveringIcon.localPosition = new Vector3(empty.localPosition.x + empty.parent.localPosition.x + x * 4f, SoveringIcon.localPosition.y, SoveringIcon.localPosition.z);
 	}

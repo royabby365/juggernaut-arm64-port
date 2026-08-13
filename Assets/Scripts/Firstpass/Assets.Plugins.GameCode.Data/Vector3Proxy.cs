@@ -1,7 +1,8 @@
 using ProtoBuf;
 using UnityEngine;
 
-namespace Assets.Plugins.GameCode.Data;
+namespace Assets.Plugins.GameCode.Data
+{
 
 [ProtoContract]
 public class Vector3Proxy
@@ -19,4 +20,5 @@ public class Vector3Proxy
 	{
 		return new Vector3(data.X, data.Y, data.Z);
 	}
+}
 }

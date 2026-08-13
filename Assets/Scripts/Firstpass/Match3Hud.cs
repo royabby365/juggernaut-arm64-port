@@ -82,7 +82,7 @@ public class Match3Hud : MonoBehaviour
 
 	private int _mainTimerMax;
 
-	private Tuple<ServerData.MoneyType.TypeE, int, string> _keysCost;
+	private System.Tuple<ServerData.MoneyType.TypeE, int, string> _keysCost;
 
 	private float _tickTimer;
 
@@ -104,15 +104,15 @@ public class Match3Hud : MonoBehaviour
 
 	private bool _isBlockedByTimer;
 
-	private List<Tuple<int, int, float>> _points = new List<Tuple<int, int, float>>
+	private List<System.Tuple<int, int, float>> _points = new List<System.Tuple<int, int, float>>
 	{
-		new Tuple<int, int, float>(4, 1, 1f),
-		new Tuple<int, int, float>(5, 2, 1.2f),
-		new Tuple<int, int, float>(6, 4, 1.5f),
-		new Tuple<int, int, float>(7, 7, 1.7f),
-		new Tuple<int, int, float>(8, 11, 1.9f),
-		new Tuple<int, int, float>(9, 16, 2.1f),
-		new Tuple<int, int, float>(10, 25, 2.3f)
+		new System.Tuple<int, int, float>(4, 1, 1f),
+		new System.Tuple<int, int, float>(5, 2, 1.2f),
+		new System.Tuple<int, int, float>(6, 4, 1.5f),
+		new System.Tuple<int, int, float>(7, 7, 1.7f),
+		new System.Tuple<int, int, float>(8, 11, 1.9f),
+		new System.Tuple<int, int, float>(9, 16, 2.1f),
+		new System.Tuple<int, int, float>(10, 25, 2.3f)
 	};
 
 	private Transform _closeButton;
@@ -591,7 +591,7 @@ public class Match3Hud : MonoBehaviour
 					{
 						GameObject gameObject = (GameObject)Object.Instantiate(BlockDestroyingFxPrefabs[Random.Range(0, BlockDestroyingFxPrefabs.Length)]);
 						Transform transform = gameObject.transform.FindChildByName("fx_details_01");
-						ParticleRenderer component = transform.GetComponent<ParticleRenderer>();
+						ParticleSystemRenderer component = transform.GetComponent<ParticleSystemRenderer>();
 						Color32 color = new Color32(17, 78, 122, byte.MaxValue);
 						switch (item.Type)
 						{
@@ -870,7 +870,7 @@ public class Match3Hud : MonoBehaviour
 			_removingTimer = 0.2f;
 			int num = 0;
 			float scale = 1f;
-			foreach (Tuple<int, int, float> point in _points)
+			foreach (System.Tuple<int, int, float> point in _points)
 			{
 				if (_currentBlockChain.Count >= point.Item1)
 				{

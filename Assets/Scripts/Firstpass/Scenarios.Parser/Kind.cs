@@ -1,4 +1,5 @@
-namespace Scenarios.Parser;
+namespace Scenarios.Parser
+{
 
 public enum Kind
 {
@@ -19,4 +20,5 @@ public enum Kind
 	Int,
 	Float,
 	Id
+}
 }

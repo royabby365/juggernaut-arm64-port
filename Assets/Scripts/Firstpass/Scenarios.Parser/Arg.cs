@@ -1,4 +1,5 @@
-namespace Scenarios.Parser;
+namespace Scenarios.Parser
+{
 
 public abstract class Arg
 {
@@ -10,4 +11,5 @@ public abstract class Arg
 	{
 		_val = o;
 	}
+}
 }

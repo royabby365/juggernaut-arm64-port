@@ -1,7 +1,8 @@
 using System.ComponentModel;
 using ProtoBuf;
 
-namespace Assets.Plugins.GameCode.Data;
+namespace Assets.Plugins.GameCode.Data
+{
 
 [ProtoContract]
 public class BotLevelProxy
@@ -106,4 +107,5 @@ public class BotLevelProxy
 		botLevelProxy.ZoneSize = data.ZoneSize;
 		return botLevelProxy;
 	}
+}
 }

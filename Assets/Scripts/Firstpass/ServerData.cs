@@ -1007,14 +1007,11 @@ public class ServerData : SingletonT<ServerData>
 		[ProtoMember(1)]
 		public int Id;
 
-		[ProtoMember(2, IsRequired = false)]
-		public int Level;
+		[ProtoMember(2)]public int Level;
 
-		[ProtoMember(3, IsRequired = false)]
-		public int PeopleKilledForLevelUp;
+		[ProtoMember(3)]public int PeopleKilledForLevelUp;
 
-		[ProtoMember(4, IsRequired = false)]
-		public int MaxLevel;
+		[ProtoMember(4)]public int MaxLevel;
 
 		internal string Model;
 
@@ -1253,8 +1250,7 @@ public class ServerData : SingletonT<ServerData>
 
 		internal int _maxStars;
 
-		[ProtoMember(31, IsRequired = false)]
-		public int CurrentStars;
+		[ProtoMember(31)]public int CurrentStars;
 
 		private Item c;
 
@@ -2035,41 +2031,30 @@ public class ServerData : SingletonT<ServerData>
 
 		private int _fatalitiesSpheresCount;
 
-		[ProtoMember(12, IsRequired = false)]
-		public int _rageSpheresCount;
+		[ProtoMember(12)]public int _rageSpheresCount;
 
-		[ProtoMember(13, IsRequired = false)]
-		public int _mana;
+		[ProtoMember(13)]public int _mana;
 
-		[ProtoMember(14, IsRequired = false)]
-		public Dictionary<Skill.TypeE, int> SpellsUsedCount = new Dictionary<Skill.TypeE, int>();
+		[ProtoMember(14)]public Dictionary<Skill.TypeE, int> SpellsUsedCount = new Dictionary<Skill.TypeE, int>();
 
 		[ProtoMember(15)]
 		public int ScarabCount;
 
-		[ProtoMember(16, IsRequired = false)]
-		public int StarsCount;
+		[ProtoMember(16)]public int StarsCount;
 
-		[ProtoMember(17, IsRequired = false)]
-		public int BonusStarsForOldSave;
+		[ProtoMember(17)]public int BonusStarsForOldSave;
 
-		[ProtoMember(18, IsRequired = false)]
-		public int Match3Record;
+		[ProtoMember(18)]public int Match3Record;
 
-		[ProtoMember(19, IsRequired = false)]
-		public int Match3GoldMined;
+		[ProtoMember(19)]public int Match3GoldMined;
 
-		[ProtoMember(20, IsRequired = false)]
-		public int Match3CrystallMined;
+		[ProtoMember(20)]public int Match3CrystallMined;
 
-		[ProtoMember(21, IsRequired = false)]
-		public int Match3SkullMined;
+		[ProtoMember(21)]public int Match3SkullMined;
 
-		[ProtoMember(22, IsRequired = false)]
-		public int Match3StarMined;
+		[ProtoMember(22)]public int Match3StarMined;
 
-		[ProtoMember(23, IsRequired = false)]
-		public int Match3ScarabMined;
+		[ProtoMember(23)]public int Match3ScarabMined;
 
 		public int Experience => _experience;
 
@@ -2808,7 +2793,7 @@ public class ServerData : SingletonT<ServerData>
 
 		internal string Title;
 
-		internal Tuple<int, int, int> LocationBot;
+		internal Yarx.Collections.Tuple<int, int, int> LocationBot;
 
 		internal List<DialogPhrase> Dialogs = new List<DialogPhrase>();
 	}
@@ -3162,7 +3147,7 @@ public class ServerData : SingletonT<ServerData>
 
 	public Settings GameSettings;
 
-	internal Dictionary<Tuple<int, int, int>, StorylineDialog> _storylineDialogs = new Dictionary<Tuple<int, int, int>, StorylineDialog>();
+	internal Dictionary<Yarx.Collections.Tuple<int, int, int>, StorylineDialog> _storylineDialogs = new Dictionary<Yarx.Collections.Tuple<int, int, int>, StorylineDialog>();
 
 	internal Dictionary<int, Npc> _npcs = new Dictionary<int, Npc>();
 
@@ -4452,7 +4437,7 @@ public class ServerData : SingletonT<ServerData>
 			}
 			if (RecommendedOnly(shopGood))
 			{
-				Tuple<MoneyType.TypeE, int, string> itemBuyPrice = shopGood.GetItemBuyPrice();
+				System.Tuple<MoneyType.TypeE, int, string> itemBuyPrice = shopGood.GetItemBuyPrice();
 				return 2000000 + ((itemBuyPrice.Item1 != MoneyType.TypeE.Diamond) ? (0 + itemBuyPrice.Item2) : 1000);
 			}
 			if (shopGood.Item.ElixirType == Item.ElixirTypeE.Key || shopGood.Item.ElixirType == Item.ElixirTypeE.Skull || shopGood.Item.ElixirType == Item.ElixirTypeE.Scarab || shopGood.Item.ElixirType == Item.ElixirTypeE.Star)
@@ -5643,7 +5628,7 @@ public class ServerData : SingletonT<ServerData>
 				int.TryParse(array[0], out var result);
 				int.TryParse(array[1], out var result2);
 				int.TryParse(array[2], out var result3);
-				storylineDialog.LocationBot = Tuple.Create(result, result2, result3);
+				storylineDialog.LocationBot = Yarx.Collections.Tuple.Create(result, result2, result3);
 				ParseDialogPhrases(value2, storylineDialog.Dialogs);
 			}
 			catch (Exception ex)

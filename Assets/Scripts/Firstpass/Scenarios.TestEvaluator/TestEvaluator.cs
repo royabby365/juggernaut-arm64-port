@@ -2,7 +2,8 @@ using System;
 using System.Collections.Generic;
 using Scenarios.Parser;
 
-namespace Scenarios.TestEvaluator;
+namespace Scenarios.TestEvaluator
+{
 
 public class TestEvaluator : IGlobals
 {
@@ -377,4 +378,5 @@ public class TestEvaluator : IGlobals
 	{
 		SingletonT<TimeEventsManager>.I.StopAllWithName(name);
 	}
+}
 }

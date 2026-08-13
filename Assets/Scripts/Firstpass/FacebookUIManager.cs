@@ -65,7 +65,7 @@ public class FacebookUIManager : MonoBehaviour
 		}
 		if (GUI.Button(new Rect(left, num += num4, num2, num3), "Post Image"))
 		{
-			Texture2D texture2D = new Texture2D(Screen.width, Screen.height, TextureFormat.RGB24, mipmap: false);
+			Texture2D texture2D = new Texture2D(Screen.width, Screen.height, TextureFormat.RGB24, mipChain: false);
 			texture2D.ReadPixels(new Rect(0f, 0f, Screen.width, Screen.height), 0, 0, recalculateMipMaps: false);
 			JPGEncoder jPGEncoder = new JPGEncoder(texture2D, 75f);
 			jPGEncoder.doEncoding();

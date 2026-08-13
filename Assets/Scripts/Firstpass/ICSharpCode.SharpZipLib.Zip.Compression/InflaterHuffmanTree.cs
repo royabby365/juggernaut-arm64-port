@@ -1,7 +1,8 @@
 using System;
 using ICSharpCode.SharpZipLib.Zip.Compression.Streams;
 
-namespace ICSharpCode.SharpZipLib.Zip.Compression;
+namespace ICSharpCode.SharpZipLib.Zip.Compression
+{
 
 public class InflaterHuffmanTree
 {
@@ -165,4 +166,5 @@ public class InflaterHuffmanTree
 		}
 		return -1;
 	}
+}
 }

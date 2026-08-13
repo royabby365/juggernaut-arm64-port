@@ -27,7 +27,7 @@ public class ProgressBar : MonoBehaviour
 		float x = empty.localScale.x;
 		float x2 = x * fraction;
 		full.localScale = new Vector3(x2, 1f, 1f);
-		full.renderer.material.mainTextureScale = new Vector2(x2, 1f);
+		full.GetComponent<Renderer>().material.mainTextureScale = new Vector2(x2, 1f);
 	}
 
 	public void Hide()

@@ -1,7 +1,8 @@
 using System;
 using System.IO;
 
-namespace ICSharpCode.SharpZipLib.Zip.Compression.Streams;
+namespace ICSharpCode.SharpZipLib.Zip.Compression.Streams
+{
 
 public class InflaterInputStream : Stream
 {
@@ -198,4 +199,5 @@ public class InflaterInputStream : Stream
 		}
 		return count - num;
 	}
+}
 }

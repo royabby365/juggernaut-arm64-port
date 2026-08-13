@@ -50,8 +50,8 @@ public class Camera2D : MonoBehaviour
 
 	public static void GetScreenSize(Camera camera, out float width, out float height)
 	{
-		width = GetComponent<Camera>()pixelWidth;
-		height = GetComponent<Camera>()pixelHeight;
+		width = camera.pixelWidth;
+		height = camera.pixelHeight;
 		AdjustScreenSize(ref width, ref height);
 	}
 
@@ -79,7 +79,7 @@ public class Camera2D : MonoBehaviour
 
 	private void Awake()
 	{
-		Camera = base.gameObject.camera;
+		Camera = base.gameObject.GetComponent<Camera>();
 		UpdateScaleParams();
 	}
 
@@ -93,9 +93,6 @@ public class Camera2D : MonoBehaviour
 			case RuntimePlatform.WindowsPlayer:
 				forceHalfPixelShift = true;
 				break;
-			case RuntimePlatform.WindowsWebPlayer:
-				forceHalfPixelShift = true;
-				break;
 			case RuntimePlatform.WindowsEditor:
 				forceHalfPixelShift = true;
 				break;
@@ -103,8 +100,6 @@ public class Camera2D : MonoBehaviour
 				throw new ArgumentOutOfRangeException();
 			case RuntimePlatform.OSXEditor:
 			case RuntimePlatform.OSXPlayer:
-			case RuntimePlatform.OSXWebPlayer:
-			case RuntimePlatform.OSXDashboardPlayer:
 			case RuntimePlatform.IPhonePlayer:
 			case RuntimePlatform.PS3:
 			case RuntimePlatform.XBOX360:

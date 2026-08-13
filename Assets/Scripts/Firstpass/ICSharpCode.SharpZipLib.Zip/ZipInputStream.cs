@@ -5,7 +5,8 @@ using ICSharpCode.SharpZipLib.Encryption;
 using ICSharpCode.SharpZipLib.Zip.Compression;
 using ICSharpCode.SharpZipLib.Zip.Compression.Streams;
 
-namespace ICSharpCode.SharpZipLib.Zip;
+namespace ICSharpCode.SharpZipLib.Zip
+{
 
 public class ZipInputStream : InflaterInputStream
 {
@@ -417,4 +418,5 @@ public class ZipInputStream : InflaterInputStream
 		entry = null;
 		base.Close();
 	}
+}
 }

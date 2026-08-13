@@ -159,7 +159,7 @@ public class TwitterPlugin
 		string name = "resources/twitter_achiev/" + twitterIconAssetName;
 		SingletonT<ResourcesManager>.I.GetAssetBundleAsync(Globals.MainMenu, ResourcesManager.GetAssetBundlePath(name), delegate(string _, ResourcesManager.AssetBundleData ab, float time)
 		{
-			TextAsset textAsset = ab.Bundle.Load(twitterIconAssetName) as TextAsset;
+			TextAsset textAsset = ab.Bundle.LoadAsset(twitterIconAssetName) as TextAsset;
 			if (null == textAsset)
 			{
 				Debug.Log("Twitter: posting without image");

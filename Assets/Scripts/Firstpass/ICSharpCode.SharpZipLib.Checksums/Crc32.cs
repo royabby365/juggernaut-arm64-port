@@ -1,6 +1,7 @@
 using System;
 
-namespace ICSharpCode.SharpZipLib.Checksums;
+namespace ICSharpCode.SharpZipLib.Checksums
+{
 
 public sealed class Crc32 : IChecksum
 {
@@ -97,4 +98,5 @@ public sealed class Crc32 : IChecksum
 		}
 		crc ^= uint.MaxValue;
 	}
+}
 }

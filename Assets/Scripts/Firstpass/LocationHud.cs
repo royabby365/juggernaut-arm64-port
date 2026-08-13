@@ -171,7 +171,7 @@ public class LocationHud : MonoBehaviour
 				Debug.LogError("Location quad is missing");
 			}
 		}
-		MeshRenderer meshRenderer = (MeshRenderer)LocationQuad.renderer;
+		MeshRenderer meshRenderer = (MeshRenderer)LocationQuad.GetComponent<Renderer>();
 		_quadMaterial = meshRenderer.material;
 		_cursors = new GameObject[2];
 		GameObject gameObject = (GameObject)UnityEngine.Object.Instantiate(ScarabCursorPrefab);
@@ -662,7 +662,7 @@ public class LocationHud : MonoBehaviour
 		string text = "resources/locations/" + textureName;
 		SingletonT<ResourcesManager>.I.GetAssetBundleAsync(Globals.MainMenu, ResourcesManager.GetAssetBundlePath(text), delegate(string _, ResourcesManager.AssetBundleData ab, float time)
 		{
-			SetLocationTexture((Texture2D)ab.Bundle.Load(textureName));
+			SetLocationTexture((Texture2D)ab.Bundle.LoadAsset(textureName));
 			SingletonT<ResourcesManager>.I.RemoveAssetBundleNoActions(ab);
 			onLoad();
 		}, delegate(string _, string errorMessage)
@@ -770,7 +770,7 @@ public class LocationHud : MonoBehaviour
 		}
 		if (obj == _animatedCaveButton)
 		{
-			HudMk1.Instance.ChangeGuiTo(GuiRoot.GuiType.Match3StartScreen, Tuple.Create(_location.CaveName));
+			HudMk1.Instance.ChangeGuiTo(GuiRoot.GuiType.Match3StartScreen, Yarx.Collections.Tuple.Create(_location.CaveName));
 		}
 		LocationMoney locationMoney = obj as LocationMoney;
 		if (locationMoney != null)
@@ -1076,7 +1076,7 @@ public class LocationHud : MonoBehaviour
 		GameObject gameObject = (GameObject)UnityEngine.Object.Instantiate(TakemoneyAnim);
 		gameObject.transform.position = new Vector3(100 * UniqueId, 0f, 0f);
 		Camera componentInChildren = gameObject.GetComponentInChildren<Camera>();
-		Vector3 vector = HudMk1.Instance.camera.WorldToScreenPoint(button.transform.position);
+		Vector3 vector = HudMk1.Instance.GetComponent<Camera>().WorldToScreenPoint(button.transform.position);
 		float num = 100f / (float)Camera2D.ScreenHeight;
 		float num2 = num * componentInChildren.aspect;
 		componentInChildren.rect = new Rect(vector.x / (float)Screen.width - num2 / 2f, vector.y / (float)Screen.height - num / 2f, num2, num);
@@ -1084,9 +1084,9 @@ public class LocationHud : MonoBehaviour
 		Camera[] allCameras = Camera.allCameras;
 		foreach (Camera camera in allCameras)
 		{
-			if (GetComponent<Camera>()depth > num3)
+			if (GetComponent<Camera>().depth > num3)
 			{
-				num3 = GetComponent<Camera>()depth;
+				num3 = GetComponent<Camera>().depth;
 			}
 		}
 		componentInChildren.depth = num3 + 1f;
@@ -1490,9 +1490,9 @@ public class LocationHud : MonoBehaviour
 		if (componentInChildren != null)
 		{
 			componentInChildren.name = _chestId + UniqueId;
-			if (componentInChildren.animation != null)
+			if (componentInChildren.GetComponent<Animation>() != null)
 			{
-				componentInChildren.animation["Take 001"].time = componentInChildren.animation.clip.length * UnityEngine.Random.value;
+				componentInChildren.GetComponent<Animation>()["Take 001"].time = componentInChildren.GetComponent<Animation>().clip.length * UnityEngine.Random.value;
 			}
 			else if (componentInChildren.CustomAnimation != null)
 			{
@@ -1585,9 +1585,9 @@ public class LocationHud : MonoBehaviour
 				gameObject3.transform.localPosition = new Vector3(0f, 0f, -50f);
 				MapButton componentInChildren = gameObject3.GetComponentInChildren<MapButton>();
 				componentInChildren.name = _moneyId + UniqueId;
-				if (componentInChildren.animation != null)
+				if (componentInChildren.GetComponent<Animation>() != null)
 				{
-					componentInChildren.animation["Take 001"].time = componentInChildren.animation.clip.length * UnityEngine.Random.value;
+					componentInChildren.GetComponent<Animation>()["Take 001"].time = componentInChildren.GetComponent<Animation>().clip.length * UnityEngine.Random.value;
 				}
 				else if (componentInChildren.CustomAnimation != null)
 				{
@@ -1666,11 +1666,11 @@ public class LocationHud : MonoBehaviour
 
 	private void HideTrail()
 	{
-		ParticleEmitter[] componentsInChildren = ScarabTrail.GetComponentsInChildren<ParticleEmitter>();
-		ParticleEmitter[] array = componentsInChildren;
-		foreach (ParticleEmitter particleEmitter in array)
+		ParticleSystem[] componentsInChildren = ScarabTrail.GetComponentsInChildren<ParticleSystem>();
+		ParticleSystem[] array = componentsInChildren;
+		foreach (ParticleSystem particleEmitter in array)
 		{
-			particleEmitter.ClearParticles();
+			particleEmitter.Clear();
 		}
 		ScarabTrail.SetActiveRecursivelyMk1(setActive: false);
 		_scarabSearchEffect.SetActiveRecursivelyMk1(setActive: false);

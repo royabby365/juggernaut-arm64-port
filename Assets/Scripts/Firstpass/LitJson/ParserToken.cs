@@ -1,4 +1,5 @@
-namespace LitJson;
+namespace LitJson
+{
 
 internal enum ParserToken
 {
@@ -21,4 +22,5 @@ internal enum ParserToken
 	String,
 	End,
 	Epsilon
+}
 }

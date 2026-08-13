@@ -1,4 +1,5 @@
-namespace ICSharpCode.SharpZipLib.GZip;
+namespace ICSharpCode.SharpZipLib.GZip
+{
 
 public sealed class GZipConstants
 {
@@ -17,4 +18,5 @@ public sealed class GZipConstants
 	private GZipConstants()
 	{
 	}
+}
 }

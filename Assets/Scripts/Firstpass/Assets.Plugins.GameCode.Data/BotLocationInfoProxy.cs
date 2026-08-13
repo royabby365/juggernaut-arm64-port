@@ -1,6 +1,7 @@
 using ProtoBuf;
 
-namespace Assets.Plugins.GameCode.Data;
+namespace Assets.Plugins.GameCode.Data
+{
 
 [ProtoContract]
 public class BotLocationInfoProxy
@@ -31,4 +32,5 @@ public class BotLocationInfoProxy
 		botLocationInfoProxy.IsBoss = data.IsBoss;
 		return botLocationInfoProxy;
 	}
+}
 }

@@ -43,15 +43,15 @@ public class FightTimer : MonoBehaviour
 			progress = 0f;
 		}
 		float x = empty.localScale.x;
-		if (empty.renderer != null)
+		if (empty.GetComponent<Renderer>() != null)
 		{
-			empty.renderer.material.mainTextureScale = new Vector2(x, 1f);
+			empty.GetComponent<Renderer>().material.mainTextureScale = new Vector2(x, 1f);
 		}
 		float x2 = x * progress / 1f;
 		full.localScale = new Vector3(x2, 1f, 1f);
-		if (full.renderer != null)
+		if (full.GetComponent<Renderer>() != null)
 		{
-			full.renderer.material.mainTextureScale = new Vector2(x2, 1f);
+			full.GetComponent<Renderer>().material.mainTextureScale = new Vector2(x2, 1f);
 		}
 	}
 }

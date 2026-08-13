@@ -1,7 +1,8 @@
 using System.Collections.Generic;
 using ProtoBuf;
 
-namespace Assets.Plugins.GameCode.Data;
+namespace Assets.Plugins.GameCode.Data
+{
 
 [ProtoContract]
 public class BonusProxy
@@ -50,4 +51,5 @@ public class BonusProxy
 		bonusProxy.Drop = data.Drop.ToProxy();
 		return bonusProxy;
 	}
+}
 }

@@ -1,6 +1,7 @@
 using System;
 
-namespace Scenarios.Evaluator.Scenarios.CoroutineEvaluator;
+namespace Scenarios.Evaluator.Scenarios.CoroutineEvaluator
+{
 
 public struct DelegatePlus
 {
@@ -20,4 +21,5 @@ public struct DelegatePlus
 		action = dlg;
 		this.defaults = defaults;
 	}
+}
 }

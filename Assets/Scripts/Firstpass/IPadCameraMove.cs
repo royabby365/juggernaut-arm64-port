@@ -18,7 +18,7 @@ internal class IPadCameraMove
 		battle.CameraMoveModeEnabled += delegate(bool _)
 		{
 			_enabled = _;
-			_camera = Camera.mainCamera;
+			_camera = Camera.main;
 			_rotatePoint = Utils.Midpoint(Globals.Player.transform.position, Globals.Enemy.transform.position);
 			_touchscreen = Globals.CreateTouchscreen();
 			if (_)

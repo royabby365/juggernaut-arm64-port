@@ -16,7 +16,7 @@ public class Billboard : MonoBehaviour
 	private void Update()
 	{
 		Vector3 eulerAngles = base.transform.eulerAngles;
-		Camera mainCamera = Camera.mainCamera;
+		Camera mainCamera = Camera.main;
 		if (mainCamera != null)
 		{
 			base.transform.LookAt(mainCamera.transform);

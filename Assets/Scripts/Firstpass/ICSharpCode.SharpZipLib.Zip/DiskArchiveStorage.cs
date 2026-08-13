@@ -1,7 +1,8 @@
 using System;
 using System.IO;
 
-namespace ICSharpCode.SharpZipLib.Zip;
+namespace ICSharpCode.SharpZipLib.Zip
+{
 
 public class DiskArchiveStorage : BaseArchiveStorage
 {
@@ -139,4 +140,5 @@ public class DiskArchiveStorage : BaseArchiveStorage
 		}
 		return text;
 	}
+}
 }

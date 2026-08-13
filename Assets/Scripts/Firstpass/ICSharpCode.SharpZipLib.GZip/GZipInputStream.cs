@@ -3,7 +3,8 @@ using ICSharpCode.SharpZipLib.Checksums;
 using ICSharpCode.SharpZipLib.Zip.Compression;
 using ICSharpCode.SharpZipLib.Zip.Compression.Streams;
 
-namespace ICSharpCode.SharpZipLib.GZip;
+namespace ICSharpCode.SharpZipLib.GZip
+{
 
 public class GZipInputStream : InflaterInputStream
 {
@@ -215,4 +216,5 @@ public class GZipInputStream : InflaterInputStream
 		}
 		readGZIPHeader = false;
 	}
+}
 }

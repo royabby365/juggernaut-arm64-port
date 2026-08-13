@@ -1,7 +1,8 @@
 using System;
 using System.Runtime.Serialization;
 
-namespace ICSharpCode.SharpZipLib.BZip2;
+namespace ICSharpCode.SharpZipLib.BZip2
+{
 
 [Serializable]
 public class BZip2Exception : SharpZipBaseException
@@ -24,4 +25,5 @@ public class BZip2Exception : SharpZipBaseException
 		: base(message, exception)
 	{
 	}
+}
 }

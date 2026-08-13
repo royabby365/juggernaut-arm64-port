@@ -2,7 +2,8 @@ using System.Collections.Generic;
 using Gesture.CustomGestures;
 using UnityEngine;
 
-namespace Gesture;
+namespace Gesture
+{
 
 public class Recognizer
 {
@@ -27,4 +28,5 @@ public class Recognizer
 		}
 		return list;
 	}
+}
 }

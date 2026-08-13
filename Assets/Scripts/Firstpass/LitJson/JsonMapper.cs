@@ -5,7 +5,8 @@ using System.Globalization;
 using System.IO;
 using System.Reflection;
 
-namespace LitJson;
+namespace LitJson
+{
 
 public class JsonMapper
 {
@@ -711,4 +712,5 @@ public class JsonMapper
 	{
 		custom_importers_table.Clear();
 	}
+}
 }

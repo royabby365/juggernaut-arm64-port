@@ -181,8 +181,8 @@ public class character_parameters : MonoBehaviour
 		object result;
 		if ((bool)obj)
 		{
-			Renderer renderer = obj.renderer;
-			result = ((!renderer) ? null : GetComponent<Renderer>()material);
+			Renderer renderer = obj.GetComponent<Renderer>();
+			result = ((!renderer) ? null : GetComponent<Renderer>().material);
 		}
 		else
 		{

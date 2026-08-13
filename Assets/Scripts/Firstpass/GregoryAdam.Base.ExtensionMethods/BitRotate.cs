@@ -1,4 +1,5 @@
-namespace GregoryAdam.Base.ExtensionMethods;
+namespace GregoryAdam.Base.ExtensionMethods
+{
 
 public static class BitRotate
 {
@@ -45,4 +46,5 @@ public static class BitRotate
 	{
 		return (long)((ulong)x).RotateLeft(nBits);
 	}
+}
 }

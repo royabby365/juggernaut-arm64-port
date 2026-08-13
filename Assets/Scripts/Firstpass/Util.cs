@@ -351,7 +351,7 @@ public static class Util
 
 	public static void ChangeLocalizedOneTexture(this Component entity, string assetPath, string fromLoc, string toLoc)
 	{
-		string name = entity.renderer.material.mainTexture.name;
+		string name = entity.GetComponent<Renderer>().material.mainTexture.name;
 		if (!name.Contains("_" + fromLoc))
 		{
 			return;
@@ -368,7 +368,7 @@ public static class Util
 		}
 		else
 		{
-			entity.renderer.material.mainTexture = texture2D;
+			entity.GetComponent<Renderer>().material.mainTexture = texture2D;
 		}
 	}
 

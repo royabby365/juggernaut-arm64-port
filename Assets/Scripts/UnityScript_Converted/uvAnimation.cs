@@ -25,8 +25,8 @@ public class uvAnimation : MonoBehaviour
 		int num2 = num % uvAnimationTileX;
 		int num3 = num / uvAnimationTileX;
 		Vector2 offset = new Vector2((float)num2 * scale.x, 1f - scale.y - (float)num3 * scale.y);
-		GetComponent<Renderer>()material.SetTextureOffset("_OffsetTex", offset);
-		GetComponent<Renderer>()material.SetTextureScale("_OffsetTex", scale);
+		GetComponent<Renderer>().material.SetTextureOffset("_OffsetTex", offset);
+		GetComponent<Renderer>().material.SetTextureScale("_OffsetTex", scale);
 	}
 
 	public virtual void Main()

@@ -1,7 +1,8 @@
 using System.IO;
 using ICSharpCode.SharpZipLib.Core;
 
-namespace ICSharpCode.SharpZipLib.Zip;
+namespace ICSharpCode.SharpZipLib.Zip
+{
 
 public class MemoryArchiveStorage : BaseArchiveStorage
 {
@@ -72,4 +73,5 @@ public class MemoryArchiveStorage : BaseArchiveStorage
 			temporaryStream_.Close();
 		}
 	}
+}
 }

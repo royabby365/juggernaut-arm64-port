@@ -265,7 +265,7 @@ public class Puppet : MonoBehaviour
 			PuppetSlot[] puppetSlots = PuppetSlots;
 			foreach (PuppetSlot puppetSlot in puppetSlots)
 			{
-				Vector3 vector = HudMk1.Instance.camera.WorldToScreenPoint(puppetSlot.transform.position);
+				Vector3 vector = HudMk1.Instance.GetComponent<Camera>().WorldToScreenPoint(puppetSlot.transform.position);
 				if (_clickRect.xMin > vector.x)
 				{
 					_clickRect.xMin = vector.x;
@@ -329,8 +329,7 @@ public class Puppet : MonoBehaviour
 		int counter = 0;
 		for (int px = 0; px < rpixels.Length; px++)
 		{
-			ref Color reference = ref rpixels[px];
-			reference = source.GetPixelBilinear(incX * ((float)px % (float)result.width), incY * Mathf.Floor(px / result.width));
+			rpixels[px] = source.GetPixelBilinear(incX * ((float)px % (float)result.width), incY * Mathf.Floor(px / result.width));
 			counter++;
 			if (counter >= quant)
 			{
@@ -350,7 +349,7 @@ public class Puppet : MonoBehaviour
 		}
 		yield return new WaitForEndOfFrame();
 		string path = Application.persistentDataPath + "/SavedScreen.png";
-		Application.CaptureScreenshot(path);
+		ScreenCapture.CaptureScreenshot(path);
 		yield return new WaitForSeconds(2f);
 		UnityApi.PostScreenshot();
 		if (screenshotButton != null)

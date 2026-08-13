@@ -2,7 +2,8 @@ using System.IO;
 using System.Text;
 using ICSharpCode.SharpZipLib.GZip;
 
-namespace Compression;
+namespace Compression
+{
 
 public class Utility
 {
@@ -35,4 +36,5 @@ public class Utility
 		gZipInputStream.Close();
 		return stringBuilder.ToString();
 	}
+}
 }

@@ -1,7 +1,8 @@
 using System;
 using System.Runtime.Serialization;
 
-namespace ICSharpCode.SharpZipLib.Tar;
+namespace ICSharpCode.SharpZipLib.Tar
+{
 
 [Serializable]
 public class InvalidHeaderException : TarException
@@ -24,4 +25,5 @@ public class InvalidHeaderException : TarException
 		: base(message, exception)
 	{
 	}
+}
 }

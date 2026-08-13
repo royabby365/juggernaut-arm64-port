@@ -8,9 +8,13 @@
     "com.unity.modules.uielements": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.assetbundle": "1.0.0",
+    "com.unity.modules.unitywebrequest": "1.0.0",
     "com.unity.modules.particlesystem": "1.0.0",
     "com.unity.modules.xr": "1.0.0",
     "com.unity.modules.subsystems": "1.0.0",
-    "com.unity.modules.vr": "1.0.0"
+    "com.unity.modules.vr": "1.0.0",
+    "com.unity.modules.unitywebrequestwww": "1.0.0",
+    "com.unity.modules.screencapture": "1.0.0",
+    "com.unity.modules.imageconversion": "1.0.0"
   }
 }

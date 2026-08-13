@@ -1,4 +1,5 @@
-namespace Gesture;
+namespace Gesture
+{
 
 public enum Direction
 {
@@ -10,4 +11,5 @@ public enum Direction
 	SW,
 	W,
 	NW
+}
 }

@@ -1,7 +1,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Gesture;
+namespace Gesture
+{
 
 public class BoundsXY
 {
@@ -55,4 +56,5 @@ public class BoundsXY
 		}
 		return this;
 	}
+}
 }

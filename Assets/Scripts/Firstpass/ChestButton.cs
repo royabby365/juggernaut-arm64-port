@@ -74,7 +74,7 @@ public class ChestButton : SpriteButton
 			_loot.transform.SetLayerRecursively(openBox);
 			_loot.transform.localPosition = lootIconPlace;
 			component2.shopItem = _lootItem.Item;
-			component2.renderer.material.mainTexture = SingletonT<ResourcesManager>.I.LoadItemIcon(_lootItem.Item);
+			component2.GetComponent<Renderer>().material.mainTexture = SingletonT<ResourcesManager>.I.LoadItemIcon(_lootItem.Item);
 			component2.RemoveNew();
 			component2.Init();
 			component2.SetActive();

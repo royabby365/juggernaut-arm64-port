@@ -1,6 +1,7 @@
 using System.IO;
 
-namespace ICSharpCode.SharpZipLib.Zip;
+namespace ICSharpCode.SharpZipLib.Zip
+{
 
 public class StaticDiskDataSource : IStaticDataSource
 {
@@ -15,4 +16,5 @@ public class StaticDiskDataSource : IStaticDataSource
 	{
 		return File.Open(fileName_, FileMode.Open, FileAccess.Read, FileShare.Read);
 	}
+}
 }

@@ -31,7 +31,7 @@ public class TexturePacker : MonoBehaviour
 		Texture2D[] array = new Texture2D[componentsInChildren.Length];
 		for (int num = 0; num < componentsInChildren.Length; num++)
 		{
-			Texture2D texture2D = componentsInChildren[num].gameObject.renderer.material.mainTexture as Texture2D;
+			Texture2D texture2D = componentsInChildren[num].gameObject.GetComponent<Renderer>().material.mainTexture as Texture2D;
 			if (texture2D == null && Globals.IsDebugBuild)
 			{
 				UnityEngine.Debug.LogError(componentsInChildren[num].gameObject.name + " has no texture ...");
@@ -54,7 +54,7 @@ public class TexturePacker : MonoBehaviour
 		stopwatch.Start();
 		for (int num2 = 0; num2 < componentsInChildren.Length; num2++)
 		{
-			componentsInChildren[num2].gameObject.renderer.material = material;
+			componentsInChildren[num2].gameObject.GetComponent<Renderer>().material = material;
 			Vector2[] uv = ((MeshFilter)componentsInChildren[num2]).mesh.uv;
 			Vector2[] array3 = new Vector2[uv.Length];
 			for (int num3 = 0; num3 < uv.Length; num3++)

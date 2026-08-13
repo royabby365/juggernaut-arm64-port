@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 
-namespace Scenarios.Parser;
+namespace Scenarios.Parser
+{
 
 public class Script
 {
@@ -20,4 +21,5 @@ public class Script
 			ErrorReporter.Info(scenario.ToString());
 		}
 	}
+}
 }
