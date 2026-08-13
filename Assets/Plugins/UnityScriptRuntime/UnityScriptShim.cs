@@ -38,8 +38,6 @@ namespace UnityScript.Lang
 
         public int get_length() => _items.Count;
 
-        public int length => _items.Count;
-
         public object this[int index]
         {
             get => _items[index];
