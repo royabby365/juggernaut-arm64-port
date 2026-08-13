@@ -24,9 +24,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Free runner docker disk (unity image is ~15GB)
+        run: docker system prune -af --volumes
+
       - name: Create activation file on the runner
         run: |
           set -euo pipefail
+          docker pull unityci/editor:ubuntu-2021.3.45f1-android-3
           docker run --rm -v "$PWD":/work \
             unityci/editor:ubuntu-2021.3.45f1-android-3 \
             bash -lc 'cd /work && unity-editor -batchmode -nographics \

@@ -18,6 +18,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Free disk cache (unity image is ~15GB)
+        run: docker system prune -af --volumes
+
       - name: Unity Build (Android, IL2CPP, arm64)
         uses: game-ci/unity-builder@v4
         env:
