@@ -13,7 +13,12 @@ jobs:
     #   UNITY_LICENSE          full license content (unity-editor.license file contents)
     #   UNITY_EMAIL            your Unity account email
     #   UNITY_PASSWORD         your Unity account password
-    # For a free Personal license, use game-ci/activation to generate UNITY_LICENSE once.
+    # License: free Personal account. Unity killed manual (.alf) activation for
+    # Personal licenses (Aug 2023) — get the .ulf via Unity Hub instead:
+    #   Hub > Preferences > Licenses > Add > Get a free personal license
+    #   then copy the contents of Unity_lic.ulf into the UNITY_LICENSE secret.
+    # GameCI v4 REQUIRES UNITY_LICENSE (or UNITY_SERIAL for Pro/Plus);
+    # UNITY_EMAIL + UNITY_PASSWORD alone is not enough.
     steps:
       - name: Checkout
         uses: actions/checkout@v4
