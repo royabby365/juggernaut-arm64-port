@@ -36,6 +36,8 @@ namespace UnityScript.Lang
             return a == null ? new object[0] : a._items.ToArray();
         }
 
+        public int get_length() => _items.Count;
+
         public int length => _items.Count;
 
         public object this[int index]
@@ -56,11 +58,6 @@ namespace UnityScript.Lang
             {
                 _items.RemoveAt(0);
             }
-        }
-
-        public int get_length()
-        {
-            return _items.Count;
         }
     }
 
