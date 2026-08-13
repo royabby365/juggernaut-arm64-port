@@ -68,6 +68,43 @@ namespace Boo.Lang
         }
     }
 
+    /// <summary>Boo's Hash type - a string-keyed dictionary with dynamic values.</summary>
+    /// UnityScript/Boo uses Hash as Dictionary<string, object> with some syntactic sugar.
+    [Serializable]
+    public class Hash : Dictionary<string, object>, IEnumerable
+    {
+        public Hash() : base() { }
+
+        public Hash(IDictionary<string, object> dictionary) : base(dictionary) { }
+
+        public Hash(params object[] args) : base()
+        {
+            if (args.Length % 2 != 0)
+            {
+                throw new ArgumentException("Hash initializer requires an even number of arguments (key, value pairs).");
+            }
+            for (int i = 0; i < args.Length; i += 2)
+            {
+                string key = args[i] as string;
+                if (key == null)
+                {
+                    throw new ArgumentException("Hash keys must be strings.");
+                }
+                this[key] = args[i + 1];
+            }
+        }
+
+        // Allow indexer access with object key (for dynamic dispatch)
+        new public object this[string key]
+        {
+            get => base.TryGetValue(key, out var value) ? value : null;
+            set => base[key] = value;
+        }
+
+        // Boo.Lang.Runtime.RuntimeServices.GetEnumerator support
+        public new IEnumerator GetEnumerator() => base.GetEnumerator();
+    }
+
     namespace Runtime
     {
         /// <summary>Boo's dynamic runtime helpers, minimal compatible surface.</summary>
