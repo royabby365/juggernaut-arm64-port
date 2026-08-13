@@ -74,7 +74,7 @@ namespace UnityScript.Lang
             }
             if (value is Array)
             {
-                return ((Array)value).length;
+                return ((Array)value).get_length();
             }
             if (value is ICollection)
             {
