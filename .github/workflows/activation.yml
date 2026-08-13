@@ -1,0 +1,38 @@
+name: Unity activation file
+
+# One-shot manual run. Produces Unity_v2021.3.45f1.alf as an artifact.
+# The .alf is created ON the runner so its machine fingerprint matches the
+# runner that later executes android.yml -> that .ulf is accepted.
+#
+# How to use:
+#   1. Run this workflow (Actions tab > "Run workflow").
+#   2. Download the UnityActivation.alf artifact.
+#   3. Open https://license.unity3d.com/manual and sign in with the
+#      UNITY_EMAIL / UNITY_PASSWORD credentials.
+#   4. Upload the .alf file, download the returned .ulf file, then install it:
+#      gh secret set UNITY_LICENSE -R royabby365/juggernaut-arm64-port < Unity_v2021.3.45f1.ulf
+#   5. Re-run the Build Android workflow; the license gate passes, the
+#      APK is produced.
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build-alf:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create activation file on the runner
+        run: |
+          set -euo pipefail
+          docker run --rm -v "$PWD":/work \
+            unityci/editor:ubuntu-2021.3.45f1-android-3 \
+            bash -lc 'cd /work && unity-editor -batchmode -nographics \
+            -createManualActivationFile -quit -logFile /dev/stdout'
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: UnityActivation
+          path: ./*.alf
