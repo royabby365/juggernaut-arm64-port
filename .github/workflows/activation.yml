@@ -24,8 +24,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Free runner docker disk (unity image is ~15GB)
-        run: docker system prune -af --volumes
+      - name: Free runner docker disk (unity image is ~15GB inflated)
+        run: |
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/hostedtoolcache /opt/ghc /usr/local/.ghcup
+          docker system prune -af --volumes
+          df -h / | tail -1
 
       - name: Create activation file on the runner
         run: |
