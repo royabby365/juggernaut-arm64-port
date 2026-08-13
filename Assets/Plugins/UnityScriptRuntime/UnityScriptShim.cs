@@ -36,7 +36,7 @@ namespace UnityScript.Lang
             return a == null ? new object[0] : a._items.ToArray();
         }
 
-        public int get_length() => _items.Count;
+        public int length => _items.Count;
 
         public object this[int index]
         {
@@ -57,6 +57,13 @@ namespace UnityScript.Lang
                 _items.RemoveAt(0);
             }
         }
+
+        /// <summary>Adds an item to the end (UnityScript push()).</summary>
+        public int push(object item)
+        {
+            _items.Add(item);
+            return _items.Count;
+        }
     }
 
     /// <summary>Length helpers for strings / arrays / collections.</summary>
@@ -74,7 +81,7 @@ namespace UnityScript.Lang
             }
             if (value is Array)
             {
-                return ((Array)value).get_length();
+                return ((Array)value).length;
             }
             if (value is ICollection)
             {
