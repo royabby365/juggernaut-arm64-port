@@ -12,6 +12,7 @@ using UnityEditor;
 using UnityEditor.Build.Reporting;
 using UnityEditor.SceneManagement;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public static class BuildScript
@@ -48,16 +49,20 @@ public static class BuildScript
             camGo.AddComponent<AudioListener>();
 
             var splashGo = new GameObject("BootSplashText");
-            splashGo.transform.position = new Vector3(0f, 0f, 5f);
-            var text = splashGo.AddComponent<TextMesh>();
+            var canvas = splashGo.AddComponent<Canvas>();
+            canvas.renderMode = RenderMode.ScreenSpaceOverlay;
+            // Add the text as a child of the Canvas so it renders through the
+            // uGUI pipeline (no dynamic-font-atlas / GUI/Text Shader issues).
+            var textGo = new GameObject("BootText");
+            textGo.transform.SetParent(splashGo.transform, false);
+            var text = textGo.AddComponent<Text>();
             text.text = "Juggernaut\narm64 port build\n(boot scene - game content TBD)";
             text.fontSize = 48;
-            text.characterSize = 0.08f;
-            // CRITICAL: a TextMesh with font == null serializes no font reference,
-            // and at runtime every glyph becomes an untextured quad -> the text
-            // renders as solid white blocks. Assign a real font explicitly:
-            //  1. builtin Arial (2021.x) / LegacyRuntime (2022+), then
-            //  2. the bundled DejaVu copy at Assets/Fonts/BootFont.ttf as fallback.
+            text.alignment = TextAnchor.MiddleCenter;
+            text.color = Color.white;
+            text.horizontalOverflow = HorizontalWrapMode.Wrap;
+            text.verticalOverflow = VerticalWrapMode.Truncate;
+            // Assign a font — fallback chain ensures glyphs render (not blocks).
             var font = Resources.GetBuiltinResource<Font>("Arial.ttf");
             if (font == null) font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
             if (font == null) font = AssetDatabase.LoadAssetAtPath<Font>("Assets/Fonts/BootFont.ttf");
@@ -67,10 +72,11 @@ public static class BuildScript
             }
             else
             {
-                Debug.LogWarning("[BuildScript] No font available for boot splash text; glyphs may render as blocks");
+                Debug.LogWarning("[BuildScript] No font available for boot splash text; if missing, glyphs will be blocks");
             }
-            var mr = splashGo.GetComponent<MeshRenderer>();
-            if (mr != null) mr.sharedMaterial = new Material(Shader.Find("GUI/Text Shader"));
+            // UI Text on Canvas needs no MeshRenderer/Shader.Find —
+            // Text generates its own vertex geometry and uses the font's own
+            // internal material, avoiding the dynamic-atlas-less-gui-block problem.
 
             EditorSceneManager.SaveScene(scene, sceneDir + "/BootSplash.unity");
             EditorBuildSettings.scenes = new[] { new EditorBuildSettingsScene(sceneDir + "/BootSplash.unity", true) };
