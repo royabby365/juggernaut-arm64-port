@@ -70,7 +70,7 @@ jobs:
               fi
               echo "[container] === build ==="
               # Run build with minimal args - let BuildScript handle everything
-              unity-editor -batchmode -nographics -logFile /dev/stdout -quit \
+              unity-editor -batchmode -logFile /dev/stdout -quit \
                 -projectPath /github/workspace \
                 -executeMethod BuildScript.BuildPlayer
               BUILD_RC=$?
