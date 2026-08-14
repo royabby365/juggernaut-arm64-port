@@ -1,0 +1,1275 @@
+{
+	"locations": {
+		"1": {
+			"id": 52,
+			"title": "Capitolo 1 - Inizio della sfida",
+			"bots": {
+				"1": {
+					"botId": "46",
+					"level": 1,
+					"isBoss": false,
+					"minVersion": "1.0"
+				},
+				"2": {
+					"botId": "47",
+					"level": 2,
+					"isBoss": false,
+					"minVersion": "1.0"
+				},
+				"3": {
+					"botId": "122",
+					"level": 3,
+					"isBoss": false,
+					"minVersion": "1.0"
+				},
+				"4": {
+					"botId": "125",
+					"level": 5,
+					"isBoss": true,
+					"minVersion": "1.0"
+				}
+			},
+			"mapId": 1,
+			"3dMap": 2,
+			"periodRespawn": 600,
+			"probRespawn": 15,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "260;585",
+			"coordIconM": "260;585",
+			"coordIconMobs": "310;585",
+			"coordIconChest": "285;635",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 50,
+			"openAfter": null,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 594,
+					"prob": 100
+				}
+			},
+			"bonus": 659,
+			"iconPers": "glava1_NPC",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": true,
+			"minVersion": "1.0",
+			"maxVersion": null,
+			"isCave": false,
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"2": {
+			"id": 236,
+			"title": "Capitolo 2 - Palude inospitale",
+			"bots": {
+				"1": {
+					"botId": "237",
+					"level": 5,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "50",
+					"level": 6,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "51",
+					"level": 7,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "239",
+					"level": 8,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "240",
+					"level": 9,
+					"isBoss": false
+				},
+				"6": {
+					"botId": "241",
+					"level": 10,
+					"isBoss": false
+				},
+				"7": {
+					"botId": "49",
+					"level": 10,
+					"isBoss": true
+				}
+			},
+			"mapId": 2,
+			"3dMap": 4,
+			"periodRespawn": 600,
+			"probRespawn": 20,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "520;460",
+			"coordIconM": "520;460",
+			"coordIconMobs": "570;460",
+			"coordIconChest": "545;510",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 50,
+			"openAfter": 52,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 594,
+					"prob": 100
+				}
+			},
+			"bonus": 660,
+			"iconPers": "glava2_NPC",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": false,
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"3": {
+			"id": 275,
+			"title": "Capitolo aggiuntivo - Vecchia miniera",
+			"bots": {
+				"1": {
+					"botId": "395",
+					"level": 12,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "396",
+					"level": 13,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "397",
+					"level": 14,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "398",
+					"level": 14,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "399",
+					"level": 14,
+					"isBoss": true
+				}
+			},
+			"mapId": 3,
+			"3dMap": 2,
+			"periodRespawn": 600,
+			"probRespawn": 20,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "500;200",
+			"coordIconM": "500;200",
+			"coordIconMobs": "550;200",
+			"coordIconChest": "525;250",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 60,
+			"openAfter": 236,
+			"openAfterAlt": null,
+			"miniBoss": true,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 593,
+					"prob": 100
+				}
+			},
+			"bonus": 599,
+			"iconPers": "Dopglava_razboy",
+			"description": "Dovrei puntarti un coltello alla gola e rovistare tra la tua attrezzatura da eroe! Credo che troverei un paio di cose molto interessanti... Sto scherzando, se ti toccassi, potrei finire io stesso nella tomba. Credo comunque di esserti in debito. Se non fosse stato per te, quei demoni mi avrebbero fatto nuovo nuovo. I miei compagni di una volta! È una storia complicata. E tu non sei qui per caso, ho un sesto senso per queste cose. Vendicati di chiunque abbia trasformato i miei ragazzi in morti viventi! Erano pazzerelli prima, ma non è giusto trattarli in questo modo. Non è il modo di fare dei briganti. Ti darò questo piccolo ciondolo, col quale, oltre alla tua forza, potrai rompere qualunque teschio.",
+			"openPrice": {
+				"2": 10
+			},
+			"openCond": 732,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": true,
+			"caveName": "VECCHIA MINIERA",
+			"caveGCoord": "420;230",
+			"caveLCoord": "131;-390",
+			"caveD": "easy"
+		},
+		"4": {
+			"id": 276,
+			"title": "Capitolo 3 - Un sentiero pericoloso attraverso le caverne",
+			"bots": {
+				"1": {
+					"botId": "362",
+					"level": 11,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "369",
+					"level": 12,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "370",
+					"level": 12,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "372",
+					"level": 13,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "124",
+					"level": 13,
+					"isBoss": false
+				},
+				"6": {
+					"botId": "123",
+					"level": 14,
+					"isBoss": false
+				},
+				"7": {
+					"botId": "374",
+					"level": 15,
+					"isBoss": false
+				},
+				"8": {
+					"botId": "493",
+					"level": 15,
+					"isBoss": true
+				}
+			},
+			"mapId": 4,
+			"3dMap": 5,
+			"periodRespawn": 600,
+			"probRespawn": 20,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "600;860",
+			"coordIconM": "600;860",
+			"coordIconMobs": "650;860",
+			"coordIconChest": "625;910",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 60,
+			"openAfter": 236,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 593,
+					"prob": 100
+				}
+			},
+			"bonus": 661,
+			"iconPers": "glava3_NPC",
+			"description": "Chi va là? Un umano? Un altro miserabile umano? Tribù maledetta, non c'è alcun modo di liberarsi di voi! Non siete mai soddisfatti, non riuscite mai a fermarvi... Distruggete tutto ciò che toccate! Guardate in che cosa avete trasformato le nostre caverne! Un tempo regnava la tranquillità e la pace qui, ma adesso! Vi schiaccerò per questo come una povera Cracra! \nHmmm... sembra che tu sia diverso dagli altri... Vuoi fare tutto giusto? Forse ti lascerò vivere. La tua morte non cambierà niente! Anzi, ti aiuterò: prendi questo artefatto, ti sarà utile nella battaglia contro il male che ti porterà a est.",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": false,
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"5": {
+			"id": 277,
+			"title": "Capitolo 4 - Sotto le mure di Branendal",
+			"bots": {
+				"1": {
+					"botId": "400",
+					"level": 16,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "401",
+					"level": 17,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "402",
+					"level": 17,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "403",
+					"level": 18,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "404",
+					"level": 19,
+					"isBoss": false
+				},
+				"6": {
+					"botId": "405",
+					"level": 19,
+					"isBoss": false
+				},
+				"7": {
+					"botId": "468",
+					"level": 20,
+					"isBoss": false
+				},
+				"8": {
+					"botId": "469",
+					"level": 20,
+					"isBoss": true
+				}
+			},
+			"mapId": 5,
+			"3dMap": 7,
+			"periodRespawn": 600,
+			"probRespawn": 30,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "915;425",
+			"coordIconM": "915;425",
+			"coordIconMobs": "965;425",
+			"coordIconChest": "940;475",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 70,
+			"openAfter": 276,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 593,
+					"prob": 100
+				}
+			},
+			"bonus": 662,
+			"iconPers": "glava4_NPC",
+			"description": "Felice di vederti, guerriero! Che il tuo nome possa essere onorato per sempre per aver liberato la nostra Branendal dai posseduti! Sono l'Inquisitore anziano, uno dei pochi ancora vivi. La maggior parte è morta nella battaglia contro il grande demone. Lontano nell'est, nelle terre dei morti oltre la sabbia del deserto, si è liberato. I migliori guerrieri lo hanno ostacolato sul suo cammino e sono stati tremendamente uccisi. Il demone ha preso possesso delle loro anime e sono ritornati a Branendal uccidendo tutti coloro che intralciavano la loro strada. Tu sei stato capace di sconfiggere questi posseduti, per cui significa che sei più forte di noi e hai una possibilità contro Sovering. Prendi questi elisir da combattimento, ti aiuteranno nella battaglia contro il demone.",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": false,
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"6": {
+			"id": 278,
+			"title": "Capitolo 5 - A metà strada dal traguardo",
+			"bots": {
+				"1": {
+					"botId": "408",
+					"level": 21,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "413",
+					"level": 22,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "409",
+					"level": 22,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "407",
+					"level": 23,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "410",
+					"level": 24,
+					"isBoss": false
+				},
+				"6": {
+					"botId": "411",
+					"level": 25,
+					"isBoss": false
+				},
+				"7": {
+					"botId": "412",
+					"level": 25,
+					"isBoss": true
+				}
+			},
+			"mapId": 6,
+			"3dMap": 11,
+			"periodRespawn": 600,
+			"probRespawn": 30,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "900;700",
+			"coordIconM": "900;700",
+			"coordIconMobs": "950;700",
+			"coordIconChest": "925;750",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 80,
+			"openAfter": 277,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 584,
+					"prob": 100
+				}
+			},
+			"bonus": 663,
+			"iconPers": "glava5_NPC",
+			"description": "Sono l'eterno Cristallo Ragionit. Per migliaia di anni sono rimasto a guardare la vostra stupidità e questa è la prima volta che ringrazio un umano. Grazie per il tuo aiuto, creatura dalla breve vita! Un'antica magia ha schiavizzato i miei figli che tu chiami Cristallidi. I miei figli ubbidienti hanno smesso di ascoltarmi. Qualche forza sconosciuta li ha soggiogati completamente e sta cercando di gettare un velo sulla mia forte e libera mente. Devi essere forte come il ferro per resistere. Vedo che il tuo spirito è forte, ma non abbastanza per vincere. Prendi questi artefatti. Che possano rafforzare il tuo volere e perfezionare le tue abilità magiche.",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": false,
+			"caveName": "MINIERA CRISTALLINA",
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"7": {
+			"id": 279,
+			"title": "Capitolo aggiuntivo - Nell'ombra della Quercia demoniaca",
+			"bots": {
+				"1": {
+					"botId": "414",
+					"level": 29,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "415",
+					"level": 30,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "416",
+					"level": 31,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "417",
+					"level": 32,
+					"isBoss": true
+				}
+			},
+			"mapId": 7,
+			"3dMap": 11,
+			"periodRespawn": 600,
+			"probRespawn": 30,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "850;890",
+			"coordIconM": "850;890",
+			"coordIconMobs": "900;890",
+			"coordIconChest": "875;940",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 90,
+			"openAfter": 278,
+			"openAfterAlt": null,
+			"miniBoss": true,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 606,
+					"prob": 100
+				}
+			},
+			"bonus": 610,
+			"iconPers": "Dopglava_dub",
+			"description": "Ho sentito parlare di te a Branendal. È una gioia immensa per noi che tu sia riuscito a liberare la città. Adesso posso occuparmi dei feriti qui, motivo per il quale ho rischiato la mia vita venendo a questa quercia. Un infuso con le sue ghiande rimetterebbe in sesto i morti. \nSe non fosse stato per te, nessun infuso mi avrebbe salvato. Per uccidere tutte quelle bestie da solo! Mi sbalordisce il tuo coraggio! L'unica cosa migliore del coraggio è il coraggio armato! L'Inquisitore anziano mi ha ordinato di darti qualcosa quando ha saputo che stavo andando alla quercia. È un'arma leggendaria di uno dei nostri governatori. Per molti anni ha preso polvere nella nostra tesoreria, ma adesso ha di nuovo un degno proprietario, prendila!",
+			"openPrice": {
+				"2": 40
+			},
+			"openCond": 736,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": false,
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"8": {
+			"id": 280,
+			"title": "Capitolo 6 - In ginocchio nella sabbia",
+			"bots": {
+				"1": {
+					"botId": "418",
+					"level": 26,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "425",
+					"level": 26,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "420",
+					"level": 27,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "422",
+					"level": 28,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "426",
+					"level": 29,
+					"isBoss": false
+				},
+				"6": {
+					"botId": "473",
+					"level": 30,
+					"isBoss": false
+				},
+				"7": {
+					"botId": "419",
+					"level": 30,
+					"isBoss": true
+				}
+			},
+			"mapId": 8,
+			"3dMap": 6,
+			"periodRespawn": 600,
+			"probRespawn": 30,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "1300;800",
+			"coordIconM": "1300;800",
+			"coordIconMobs": "1350;800",
+			"coordIconChest": "1325;850",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 90,
+			"openAfter": 278,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 584,
+					"prob": 100
+				}
+			},
+			"bonus": 664,
+			"iconPers": "glava6_NPC",
+			"description": "Grazie, grande spada! Puoi essere davvero paragonata agli dei! Si racconteranno leggende su di te, i nostri figli e i figli dei nostri figli canteranno canzoni sul tuo coraggio! Il tuo arrivo è stato previsto dai nostri veggenti: un eroe verrà dall'occidente in un alone di gloria. Il suo cammino lo porterà verso oriente, per le terre degli Zverg fino a giungere nelle terre dei morti. Il destino del mondo dipende dalla sua spada e il suo avversario sarà un antico male, risvegliato da alcune maschere. Dovremmo aiutare il grande eroe, hanno detto i veggenti. Per questo accetta questi elisir magici.",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": false,
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"9": {
+			"id": 281,
+			"title": "Capitolo aggiuntivo - Sorgente rinvigorente",
+			"bots": {
+				"1": {
+					"botId": "423",
+					"level": 42,
+					"isBoss": true
+				}
+			},
+			"mapId": 9,
+			"3dMap": 6,
+			"periodRespawn": 0,
+			"probRespawn": 0,
+			"respawnMax": 0,
+			"killsCount": 0,
+			"killPeriod": 0,
+			"coordIconZ": "1100;950",
+			"coordIconM": "1100;950",
+			"coordIconMobs": "1150;950",
+			"coordIconChest": "1125;1000",
+			"populationPeriod": 0,
+			"populationPointsUp": 0,
+			"populationMax": 0,
+			"moneyPeriod": 0,
+			"moneyPerPerson": 0,
+			"moneyMax": 0,
+			"openAfter": 280,
+			"openAfterAlt": null,
+			"miniBoss": true,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 606,
+					"prob": 100
+				}
+			},
+			"bonus": 608,
+			"iconPers": "Dopglava_oazis",
+			"description": "Ti giuro, minaccia dei demoni. La tua spada ha aperto di nuovo la strada alla sola sorgente in questo deserto! Lo spirito della sabbia, Sheregori, ha sorvegliato quest'oasi per molto tempo. Per qualche ragione si è arrabbiato con noi e ha iniziato a uccidere chiunque si avvicinasse all'acqua. So che stavi andando verso est e non dovevi combattere contro Sheregori, ma hai deciso di salvarci e noi non dovremo più morire di una morte orrenda, la sete!\nIn segno della nostra gratitudine ti chiediamo di accettare quest'antica armatura. Da bambino un sogno premonitore mi ha rivelato dov'era, coperta di sabbia. Molto tempo fa, quando questo deserto era un giardino in fiore, un altro grande guerriero, un semidio in forza, aveva combattuto con questa armatura contro i Divoratori a difesa della razza umana, proprio come te. Nello stesso sogno premonitore mi aveva detto di salvare l'armatura fin quando non sarebbe arrivato un eroe che avrebbe restituito l'acqua al deserto. Questo giorno è arrivato e io ti consegno l'armatura.",
+			"openPrice": {
+				"2": 40
+			},
+			"openCond": 737,
+			"elfs": false
+		},
+		"10": {
+			"id": 282,
+			"title": "Capitolo 7 - Villaggio degli Zverg",
+			"bots": {
+				"1": {
+					"botId": "414",
+					"level": 31,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "476",
+					"level": 32,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "477",
+					"level": 33,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "478",
+					"level": 34,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "481",
+					"level": 35,
+					"isBoss": false
+				},
+				"6": {
+					"botId": "480",
+					"level": 35,
+					"isBoss": false
+				},
+				"7": {
+					"botId": "482",
+					"level": 35,
+					"isBoss": true
+				}
+			},
+			"mapId": 10,
+			"3dMap": 8,
+			"periodRespawn": 600,
+			"probRespawn": 30,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "1370;500",
+			"coordIconM": "1370;500",
+			"coordIconMobs": "1430;500",
+			"coordIconChest": "1395;550",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 100,
+			"openAfter": 280,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 584,
+					"prob": 100
+				}
+			},
+			"bonus": 665,
+			"iconPers": "glava7_NPC",
+			"description": "Piccolo miserabile umano! Stai calpestando un terreno sacro, le terre dei nostri antenati! Nessun umano è mai venuto qui. Strappa il tuo cuore, mangia il tuo cuore! Non posso ora, ora non è il momento migliore. Il villaggio è nei guai. Ci uccidiamo e mangiamo a vicenda! Sciamano non fa che fare, i nostri spiriti non accettano i sacrifici. Non sappiamo che cosa fare. Male, molto male! Sciamano dice che tu sai cosa fare. Sciamano detto non uccidere te, non mangiare te. Sciamano detto dare a lui questi amuleti e andare. Prendi! Vai!",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": false,
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"11": {
+			"id": 283,
+			"title": "Capitolo aggiuntivo - Cappella segreta",
+			"bots": {
+				"1": {
+					"botId": "625",
+					"level": 47,
+					"isBoss": true
+				}
+			},
+			"mapId": 11,
+			"3dMap": 11,
+			"periodRespawn": 0,
+			"probRespawn": 0,
+			"respawnMax": 0,
+			"killsCount": 0,
+			"killPeriod": 0,
+			"coordIconZ": "1770;510",
+			"coordIconM": "1770;510",
+			"coordIconMobs": "1845;510",
+			"coordIconChest": "",
+			"populationPeriod": 0,
+			"populationPointsUp": 0,
+			"populationMax": 0,
+			"moneyPeriod": 0,
+			"moneyPerPerson": 0,
+			"moneyMax": 0,
+			"openAfter": 282,
+			"openAfterAlt": null,
+			"miniBoss": true,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 595,
+					"prob": 100
+				}
+			},
+			"bonus": 609,
+			"iconPers": "Dopglava_zveromat",
+			"description": "Conosco il tuo destino, umano, verso le grinfie della morte. La tua strada è stata prestabilita quando è nato il mondo. Una strada guidata dalle ombre dell'oblio verso una battaglia contro i più antichi demoni. Una strada sulla quale guadagnerai sempre più forza. Avrai bisogno di tutta la forza del mondo per riportare la vittoria! Ecco perché sei qui adesso, in questa cappella. Gli Zverg, grandi guerrieri creati per difendere l'accesso alla cappella, sono venuti prima di te. Hai sconfitto la matriarca che ha ucciso coloro che hanno osato entrare qui. Io, il Libro del Destino, che custodisco accuratamente i miei segreti dai profani, condivido la mia saggezza con te. Tutto questo per assicurarmi che tu abbia la reliquia principale di questo posto. Prendi questa armatura e continua a realizzare la profezia.",
+			"openPrice": {
+				"2": 50
+			},
+			"openCond": 738,
+			"elfs": false
+		},
+		"12": {
+			"id": 284,
+			"title": "Capitolo 8 - Avanzata nella giungla",
+			"bots": {
+				"1": {
+					"botId": "483",
+					"level": 36,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "484",
+					"level": 36,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "485",
+					"level": 37,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "486",
+					"level": 38,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "487",
+					"level": 38,
+					"isBoss": false
+				},
+				"6": {
+					"botId": "488",
+					"level": 39,
+					"isBoss": false
+				},
+				"7": {
+					"botId": "490",
+					"level": 40,
+					"isBoss": false
+				},
+				"8": {
+					"botId": "489",
+					"level": 40,
+					"isBoss": true
+				}
+			},
+			"mapId": 12,
+			"3dMap": 10,
+			"periodRespawn": 600,
+			"probRespawn": 30,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "1170;400",
+			"coordIconM": "1170;400",
+			"coordIconMobs": "1220;400",
+			"coordIconChest": "1195;450",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 100,
+			"openAfter": 282,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 606,
+					"prob": 100
+				}
+			},
+			"bonus": 666,
+			"iconPers": "glava8_NPC",
+			"description": "Sono Anias-ann, la regina delle Amazzoni, o per essere più precisi, la regina precedente... Quando nelle terre dei morti è scoppiato un grande fuoco e un urlo ha scosso tutto il mondo, molte Amazzoni hanno perso la testa. Hanno iniziato ad attaccare le loro sorelle e i nostri animali sono diventati rabbiosi. Il nostro tempio è stato distrutto, e anche la nostra casa. Quindi ora sono una monarca senza regno... Ma chi sei tu, straniero? Le mie Amazzoni ti hanno visto arrivare dalle terre degli Zverg senza che ti toccassero. Non sei un mortale comune, questo è poco ma sicuro! È orribile persino pensare a dove stai andando. Al di là di questa giungla ci sono solo le terre dei morti e la strada non è accessibile ai viventi. Chino la testa al tuo coraggio e in segno di rispetto ti do queste munizioni.",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": false,
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"13": {
+			"id": 285,
+			"title": "Capitolo 9 - Quasi arrivati",
+			"bots": {
+				"1": {
+					"botId": "498",
+					"level": 41,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "497",
+					"level": 42,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "375",
+					"level": 43,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "496",
+					"level": 44,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "495",
+					"level": 45,
+					"isBoss": false
+				},
+				"6": {
+					"botId": "494",
+					"level": 45,
+					"isBoss": true
+				}
+			},
+			"mapId": 13,
+			"3dMap": 3,
+			"periodRespawn": 600,
+			"probRespawn": 30,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "1470;200",
+			"coordIconM": "1470;200",
+			"coordIconMobs": "1520;200",
+			"coordIconChest": "1495;250",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 100,
+			"openAfter": 284,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 606,
+					"prob": 100
+				}
+			},
+			"bonus": 667,
+			"iconPers": "glava9_NPC",
+			"description": "Dopo aver combattuto contro l'ultimo cadavere, ti guardi intorno. Una forca relativamente nuova attira la tua attenzione, su di essa oscilla dal giogo più vicino un corpo. Controlli nelle sue tasche e trovi un mucchio di grimaldelli. Sembra quasi vivo, il cadavere non disdegnava di approfittare delle ricchezze altrui.",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": false,
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"14": {
+			"id": 286,
+			"title": "Capitolo 10 - La vendetta di Sovering",
+			"bots": {
+				"1": {
+					"botId": "492",
+					"level": 55,
+					"isBoss": true
+				}
+			},
+			"mapId": 14,
+			"3dMap": 3,
+			"periodRespawn": 0,
+			"probRespawn": 0,
+			"respawnMax": 0,
+			"killsCount": 0,
+			"killPeriod": 0,
+			"coordIconZ": "1700;230",
+			"coordIconM": "1700;230",
+			"coordIconMobs": "1760;230",
+			"coordIconChest": "",
+			"populationPeriod": 0,
+			"populationPointsUp": 0,
+			"populationMax": 0,
+			"moneyPeriod": 0,
+			"moneyPerPerson": 0,
+			"moneyMax": 0,
+			"openAfter": 285,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 595,
+					"prob": 100
+				}
+			},
+			"bonus": 612,
+			"iconPers": "glava10_NPC",
+			"description": "Salve a te, Scorpione che hai sconfitto l'invincibile Sovering! Sono Lea Laitan, imperatrice dell'isola di Radway che hai salvato. Ricorderemo per sempre te e la tua grande impresa! Tuttavia, anche se Sovering è morto, la storia non è finita. Non si è potuto risvegliare da solo e non sappiamo ancora chi l'abbia fatto. Faremo tutto il possibile per trovarli, vivi o morti, ma temo che non ci riusciremo senza il tuo aiuto. Il destino ti ha reso parte di questo grande gioco e spero non rifiuterai una richiesta della tua imperatrice. Soprattutto visto che sono coinvolte creature la cui forza è notevolmente maggiore di quella di un umano. Solo un eroe dalle capacità simili a quelle di un dio potrebbe sconfiggerli. Contiamo davvero sul tuo aiuto. Per rafforzare la tua determinazione, ti consegno questo guanto.",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": false
+		},
+		"15": {
+			"id": 287,
+			"title": "Capitolo aggiuntivo - La tragedia di Silvion",
+			"bots": {
+				"1": {
+					"botId": "394",
+					"level": 37,
+					"isBoss": true
+				}
+			},
+			"mapId": 15,
+			"3dMap": 4,
+			"periodRespawn": 0,
+			"probRespawn": 0,
+			"respawnMax": 0,
+			"killsCount": 0,
+			"killPeriod": 0,
+			"coordIconZ": "720;260",
+			"coordIconM": "720;260",
+			"coordIconMobs": "780;260",
+			"coordIconChest": "",
+			"populationPeriod": 0,
+			"populationPointsUp": 0,
+			"populationMax": 0,
+			"moneyPeriod": 0,
+			"moneyPerPerson": 0,
+			"moneyMax": 0,
+			"openAfter": 236,
+			"openAfterAlt": null,
+			"miniBoss": true,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 595,
+					"prob": 100
+				}
+			},
+			"bonus": 607,
+			"iconPers": "NPC_Silvion_branendal",
+			"description": "Chi ha sconfitto il mio sauro? Un mortale? Che il cielo si abbatta su di me, non posso credere che sia stato un mortale... Se imprese come questa sono adesso di dominio dei mortali, significa che il mondo è cambiato. Hai un grande futuro davanti a te. Assomigli agli dei, non c'è nient'altro da dire! Mi spiace solo per il mio povero sauro... Mi ha servito per così tanti anni, mi ha difeso mentre aiutavo le Torre nera. Chi avrebbe pensato che mi avrebbe attaccato come un cane selvatico. Per avermi salvato ti prego di prendere questo elmo come ricompensa. Quando ero giovane lo indossavo io e ci ho tormentato gli dei. Che possa esserti utile!",
+			"openPrice": {
+				"2": 30
+			},
+			"openCond": 739,
+			"elfs": false
+		},
+		"16": {
+			"id": 1181,
+			"title": "Capitolo aggiuntivo. Cimitero abbandonato",
+			"bots": {
+				"1": {
+					"botId": "498",
+					"level": 19,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "373",
+					"level": 20,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "497",
+					"level": 21,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "1189",
+					"level": 22,
+					"isBoss": true
+				}
+			},
+			"mapId": 16,
+			"3dMap": 3,
+			"periodRespawn": 600,
+			"probRespawn": 20,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "370;960",
+			"coordIconM": "370;960",
+			"coordIconMobs": "420;960",
+			"coordIconChest": "395;1010",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 70,
+			"openAfter": 276,
+			"openAfterAlt": null,
+			"miniBoss": true,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 593,
+					"prob": 100
+				}
+			},
+			"bonus": 1230,
+			"iconPers": "",
+			"openPrice": {
+				"2": 10
+			},
+			"openCond": 763,
+			"elfs": true,
+			"minVersion": "1.2",
+			"maxVersion": null,
+			"isCave": false,
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"17": {
+			"id": 1182,
+			"title": "Capitolo aggiuntivo. Una prova ardua",
+			"bots": {
+				"1": {
+					"botId": "1188",
+					"level": 31,
+					"isBoss": true,
+					"minVersion": "1.2"
+				},
+				"2": {
+					"botId": "1188",
+					"level": 34,
+					"isBoss": true,
+					"minVersion": "1.2"
+				},
+				"3": {
+					"botId": "1188",
+					"level": 38,
+					"isBoss": true,
+					"minVersion": "1.2"
+				},
+				"4": {
+					"botId": "1190",
+					"level": 41,
+					"isBoss": true,
+					"minVersion": "1.2"
+				},
+				"5": {
+					"botId": "1190",
+					"level": 46,
+					"isBoss": true,
+					"minVersion": "1.2"
+				},
+				"6": {
+					"botId": "1190",
+					"level": 49,
+					"isBoss": true,
+					"minVersion": "1.2"
+				},
+				"7": {
+					"botId": "1191",
+					"level": 53,
+					"isBoss": true,
+					"minVersion": "1.2"
+				}
+			},
+			"mapId": 17,
+			"3dMap": 8,
+			"periodRespawn": 0,
+			"probRespawn": 0,
+			"respawnMax": 0,
+			"killsCount": 0,
+			"killPeriod": 0,
+			"coordIconZ": "1500;710",
+			"coordIconM": "1500;710",
+			"coordIconMobs": "1550;710",
+			"coordIconChest": "1525;760",
+			"populationPeriod": 0,
+			"populationPointsUp": 0,
+			"populationMax": 0,
+			"moneyPeriod": 0,
+			"moneyPerPerson": 0,
+			"moneyMax": 0,
+			"openAfter": 280,
+			"openAfterAlt": null,
+			"miniBoss": true,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 606,
+					"prob": 100
+				}
+			},
+			"bonus": 1199,
+			"iconPers": "",
+			"openPrice": {
+				"2": 30
+			},
+			"openCond": 1192,
+			"elfs": true,
+			"minVersion": "1.2",
+			"maxVersion": null
+		},
+		"998": {
+			"id": 1862,
+			"title": "Capitolo aggiuntivo - Covo dei Toper",
+			"bots": {
+				"1": {
+					"botId": "1863",
+					"level": 13,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "1864",
+					"level": 14,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "1865",
+					"level": 16,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "1866",
+					"level": 17,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "1867",
+					"level": 18,
+					"isBoss": true
+				}
+			},
+			"mapId": 998,
+			"3dMap": 4,
+			"periodRespawn": 600,
+			"probRespawn": 20,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "650;570",
+			"coordIconM": "650;570",
+			"coordIconMobs": "700;570",
+			"coordIconChest": "675;620",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 60,
+			"openAfter": 236,
+			"openAfterAlt": null,
+			"miniBoss": true,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 593,
+					"prob": 100
+				}
+			},
+			"bonus": 1918,
+			"iconPers": "",
+			"openPrice": {
+				"2": 15
+			},
+			"openCond": 1922,
+			"elfs": true,
+			"minVersion": "2.1",
+			"maxVersion": null,
+			"isCave": false,
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		}
+	}
+}

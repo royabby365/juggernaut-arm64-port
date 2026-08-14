@@ -1,0 +1,264 @@
+{
+	"persArtikuls": {
+		"33": {
+			"id": 33,
+			"title": "Torus",
+			"description": "Eski bir kiralık katil olan Torus, idama mahkum \nedilmişti. Fakat kaçmayı başardı ve Akreplerin yanına \nsığındı. Son derece zalim ve şiddet tutkunu. Silah olarak \ntercihi mızraktır. Dövüşte çok atik olup zafere \nulaşmak için en iğrenç yollara başvurmaktan çekinmez.",
+			"class": "2",
+			"sex": "1",
+			"level": 1,
+			"clothingOptions": "",
+			"money": {
+				"1": 150,
+				"3": 10
+			},
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 100,
+					"maxValue": 100
+				},
+				"2": {
+					"typeId": "STR",
+					"minValue": 110,
+					"maxValue": 110
+				},
+				"3": {
+					"typeId": "RAG",
+					"minValue": 50,
+					"maxValue": 50
+				},
+				"4": {
+					"typeId": "SOR",
+					"minValue": 70,
+					"maxValue": 70
+				}
+			},
+			"totalWeight": 0,
+			"selectSet": "14",
+			"selectWeapon": "14",
+			"selectHair": "",
+			"startSpell": 227,
+			"feature": "Güçlü büyü",
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"427": {
+			"id": 427,
+			"title": "Lankert",
+			"description": "İmparator Krein'in eski özel koruması olup her daim kasvetli ve çok şüphecidir. Sahip olduğu yüksek güç ve çift elli kılıç, onu harika bir dövüşçü yapar. Ağır zırhları yorulmadan giyebildiğinden dövüşte adeta yenilmezdir.",
+			"class": "3",
+			"sex": "1",
+			"level": 1,
+			"clothingOptions": "",
+			"money": {
+				"1": 150,
+				"3": 10
+			},
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 100,
+					"maxValue": 100
+				},
+				"2": {
+					"typeId": "STR",
+					"minValue": 130,
+					"maxValue": 130
+				},
+				"3": {
+					"typeId": "RAG",
+					"minValue": 70,
+					"maxValue": 70
+				},
+				"4": {
+					"typeId": "SOR",
+					"minValue": 10,
+					"maxValue": 10
+				}
+			},
+			"totalWeight": 0,
+			"selectSet": "13",
+			"selectWeapon": "13",
+			"selectHair": "",
+			"startSpell": 233,
+			"feature": "Yüksek darbe gücü",
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"428": {
+			"id": 428,
+			"title": "Rogvor",
+			"description": "Yok Edici unvanını almaya layık görülen 12 efsanevi savaşçıdan\nbiri. Bunu, tek eliyle koca bir Mutant ordusunu durdurup püskürttüğü için\nhak etti. Cesareti ve azmi ile dövüşte kolaylıkla\nçıldırma noktasına gelir. Bu, öfkesi\nile birleştiğinde acı ya da yorgunluk hissetmez.",
+			"class": "1",
+			"sex": "1",
+			"level": 1,
+			"clothingOptions": "",
+			"money": {
+				"1": 150,
+				"3": 10
+			},
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 100,
+					"maxValue": 100
+				},
+				"2": {
+					"typeId": "STR",
+					"minValue": 110,
+					"maxValue": 110
+				},
+				"3": {
+					"typeId": "RAG",
+					"minValue": 90,
+					"maxValue": 90
+				},
+				"4": {
+					"typeId": "SOR",
+					"minValue": 30,
+					"maxValue": 30
+				}
+			},
+			"totalWeight": 0,
+			"selectSet": "21",
+			"selectWeapon": "21",
+			"selectHair": "",
+			"startSpell": 53,
+			"feature": "Kritik vuruşlar",
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"429": {
+			"id": 429,
+			"title": "Ursula",
+			"description": "Elinden dev çekicini bırakmayan, endamlı\nbir bayan. Bu çekiçle Haradan'da kanlı\ndövüşlere katılmış, birçok zırh ve kelle parçalamıştır. Dövüşe\nbaşladığında kendini kaybeden Ursula, daha ilk hamlesinden sonra\nadeta katliamcı, dişi bir\nşeytana dönüşür.",
+			"class": "1",
+			"sex": "2",
+			"level": 1,
+			"clothingOptions": "",
+			"money": {
+				"1": 150,
+				"3": 10
+			},
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 100,
+					"maxValue": 100
+				},
+				"2": {
+					"typeId": "STR",
+					"minValue": 110,
+					"maxValue": 110
+				},
+				"3": {
+					"typeId": "RAG",
+					"minValue": 130,
+					"maxValue": 130
+				},
+				"4": {
+					"typeId": "SOR",
+					"minValue": 20,
+					"maxValue": 20
+				}
+			},
+			"totalWeight": 0,
+			"selectSet": "12",
+			"selectWeapon": "9",
+			"selectHair": "2;9",
+			"startSpell": 230,
+			"feature": "Kritik vuruşlar",
+			"minVersion": "1.0",
+			"maxVersion": null,
+			"bonus": null
+		},
+		"430": {
+			"id": 430,
+			"title": "Kira",
+			"description": "Ailesini kaybeden Kira, çocukluğunu bir sirkte geçirerek inanılmaz\nbir esneklik ve çeviklik kazanmıştır. Dövüşte aldığı\ndarbelere adeta duyarsız olup kendisini çok\niyi gizler. Kira, Akreplere katılmadan\nönce yetenekleri sayesinde Çelik Lejyon\niçin uzun zaman casusluk yaptı.",
+			"class": "2",
+			"sex": "2",
+			"level": 1,
+			"clothingOptions": "",
+			"money": {
+				"1": 150,
+				"3": 10
+			},
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 120,
+					"maxValue": 120
+				},
+				"2": {
+					"typeId": "STR",
+					"minValue": 110,
+					"maxValue": 110
+				},
+				"3": {
+					"typeId": "RAG",
+					"minValue": 50,
+					"maxValue": 50
+				},
+				"4": {
+					"typeId": "SOR",
+					"minValue": 15,
+					"maxValue": 15
+				}
+			},
+			"totalWeight": 0,
+			"selectSet": "20",
+			"selectWeapon": "20",
+			"selectHair": "2;1",
+			"startSpell": 53,
+			"feature": "Yüksek hayat",
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1861": {
+			"id": 1861,
+			"title": "Haykat",
+			"description": "Asil bir aileden gelen Haykat, servetini ölümcül savaşlarda kaybetmiştir. Yoksulluktan ve mahrumiyetten çok çektikten sonra bir daha fakir hale düşmemeye yemin etmiştir. En belirgin özelliği, dövüşten cebi dolu ayrılmasıdır.",
+			"class": "3",
+			"sex": "2",
+			"level": 1,
+			"clothingOptions": "",
+			"money": {
+				"1": 300,
+				"3": 15
+			},
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 100,
+					"maxValue": 100
+				},
+				"2": {
+					"typeId": "STR",
+					"minValue": 100,
+					"maxValue": 100
+				},
+				"3": {
+					"typeId": "RAG",
+					"minValue": 70,
+					"maxValue": 70
+				},
+				"4": {
+					"typeId": "SOR",
+					"minValue": 30,
+					"maxValue": 30
+				}
+			},
+			"totalWeight": 0,
+			"selectSet": "10",
+			"selectWeapon": "10",
+			"selectHair": "3;9",
+			"startSpell": 230,
+			"feature": "Daha çok para bulur",
+			"minVersion": "2.1",
+			"maxVersion": null,
+			"bonus": 301
+		}
+	}
+}

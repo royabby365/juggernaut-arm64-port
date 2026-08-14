@@ -1,0 +1,5451 @@
+{
+	"items": {
+		"146": {
+			"id": 146,
+			"title": "頑丈なヘルメット",
+			"titleBlue": "頑丈なヘルメット",
+			"titleGreen": "頑丈なフード",
+			"set": 1,
+			"class": "1",
+			"slot": 1,
+			"color": "gray",
+			"price": {
+				"1": 150
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "RAG",
+					"minValue": 16,
+					"maxValue": 22
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "9#001",
+			"3dModelG": "8#001",
+			"3dModelB": "7#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "avatar_m.jpg",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"148": {
+			"id": 148,
+			"title": "頑丈な肩アーマー",
+			"titleBlue": "頑丈な肩アーマー",
+			"titleGreen": "頑丈な肩アーマー",
+			"set": 1,
+			"class": "1",
+			"slot": 2,
+			"color": "gray",
+			"price": {
+				"1": 100
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 12,
+					"maxValue": 17
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "9#001",
+			"3dModelG": "8#001",
+			"3dModelB": "7#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"149": {
+			"id": 149,
+			"title": "頑丈なブーツ",
+			"titleBlue": "頑丈なブーツ",
+			"titleGreen": "頑丈なブーツ",
+			"set": 1,
+			"class": "1",
+			"slot": 3,
+			"color": "gray",
+			"price": {
+				"1": 130
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 15,
+					"maxValue": 21
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "9#001",
+			"3dModelG": "8#001",
+			"3dModelB": "7#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"150": {
+			"id": 150,
+			"title": "頑丈なベルト",
+			"titleBlue": "頑丈なベルト",
+			"titleGreen": "頑丈なベルト",
+			"set": 1,
+			"class": "1",
+			"slot": 4,
+			"color": "gray",
+			"price": {
+				"1": 10
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 10,
+					"maxValue": 15
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "9#001",
+			"3dModelG": "8#001",
+			"3dModelB": "7#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"155": {
+			"id": 155,
+			"title": "頑丈なブレイサー",
+			"titleBlue": "頑丈なブレイサー",
+			"titleGreen": "頑丈なブレイサー",
+			"set": 1,
+			"class": "1",
+			"slot": 5,
+			"color": "gray",
+			"price": {
+				"1": 10
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "RAG",
+					"minValue": 10,
+					"maxValue": 14
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "9#001",
+			"3dModelG": "8#001",
+			"3dModelB": "7#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"156": {
+			"id": 156,
+			"title": "頑丈なガントレット",
+			"titleBlue": "頑丈なガントレット",
+			"titleGreen": "頑丈なガントレット",
+			"set": 1,
+			"class": "1",
+			"slot": 6,
+			"color": "gray",
+			"price": {
+				"1": 200
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 13,
+					"maxValue": 19
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "9#001",
+			"3dModelG": "8#001",
+			"3dModelB": "7#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"157": {
+			"id": 157,
+			"title": "頑丈な腿アーマー",
+			"titleBlue": "頑丈な腿アーマー",
+			"titleGreen": "頑丈な腿アーマー",
+			"set": 1,
+			"class": "1",
+			"slot": 7,
+			"color": "gray",
+			"price": {
+				"1": 300
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 14,
+					"maxValue": 20
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "9#001",
+			"3dModelG": "8#001",
+			"3dModelB": "7#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"158": {
+			"id": 158,
+			"title": "頑丈な胴アーマー",
+			"titleBlue": "頑丈な胴アーマー",
+			"titleGreen": "頑丈な胴アーマー",
+			"set": 1,
+			"class": "1",
+			"slot": 8,
+			"color": "gray",
+			"price": {
+				"1": 10
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 11,
+					"maxValue": 15
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "9#001",
+			"3dModelG": "8#001",
+			"3dModelB": "7#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"159": {
+			"id": 159,
+			"title": "レアなヘルメット",
+			"titleBlue": "レアなヘルメット",
+			"titleGreen": "レアなフード",
+			"set": 2,
+			"class": "1",
+			"slot": 1,
+			"color": "green",
+			"price": {
+				"1": 4500
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "RAG",
+					"minValue": 29,
+					"maxValue": 51
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "12#001",
+			"3dModelG": "20#001",
+			"3dModelB": "10#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "avatar_s.jpg",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"161": {
+			"id": 161,
+			"title": "レアな肩アーマー",
+			"titleBlue": "レアな肩アーマー",
+			"titleGreen": "レアな肩アーマー",
+			"set": 2,
+			"class": "1",
+			"slot": 2,
+			"color": "green",
+			"price": {
+				"1": 1300
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 23,
+					"maxValue": 40
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "12#001",
+			"3dModelG": "20#001",
+			"3dModelB": "10#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"162": {
+			"id": 162,
+			"title": "レアなブーツ",
+			"titleBlue": "レアなブーツ",
+			"titleGreen": "レアなブーツ",
+			"set": 2,
+			"class": "1",
+			"slot": 3,
+			"color": "green",
+			"price": {
+				"1": 3450
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 28,
+					"maxValue": 49
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "12#001",
+			"3dModelG": "20#001",
+			"3dModelB": "10#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"163": {
+			"id": 163,
+			"title": "レアなベルト",
+			"titleBlue": "レアなベルト",
+			"titleGreen": "レアなベルト",
+			"set": 2,
+			"class": "1",
+			"slot": 4,
+			"color": "green",
+			"price": {
+				"1": 600
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 19,
+					"maxValue": 33
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "12#001",
+			"3dModelG": "20#001",
+			"3dModelB": "10#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"164": {
+			"id": 164,
+			"title": "レアなブレイサー",
+			"titleBlue": "レアなブレイサー",
+			"titleGreen": "レアなブレイサー",
+			"set": 2,
+			"class": "1",
+			"slot": 5,
+			"color": "green",
+			"price": {
+				"1": 400
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "RAG",
+					"minValue": 17,
+					"maxValue": 30
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "12#001",
+			"3dModelG": "20#001",
+			"3dModelB": "10#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"165": {
+			"id": 165,
+			"title": "レアなガントレット",
+			"titleBlue": "レアなガントレット",
+			"titleGreen": "レアなガントレット",
+			"set": 2,
+			"class": "1",
+			"slot": 6,
+			"color": "green",
+			"price": {
+				"1": 1800
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 24,
+					"maxValue": 42
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "12#001",
+			"3dModelG": "20#001",
+			"3dModelB": "10#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"166": {
+			"id": 166,
+			"title": "レアな腿アーマー",
+			"titleBlue": "レアな腿アーマー",
+			"titleGreen": "レアな腿アーマー",
+			"set": 2,
+			"class": "1",
+			"slot": 7,
+			"color": "green",
+			"price": {
+				"1": 2550
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 26,
+					"maxValue": 45
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "12#001",
+			"3dModelG": "20#001",
+			"3dModelB": "10#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"167": {
+			"id": 167,
+			"title": "レアな胴アーマー",
+			"titleBlue": "レアな胴アーマー",
+			"titleGreen": "レアな胴アーマー",
+			"set": 2,
+			"class": "1",
+			"slot": 8,
+			"color": "green",
+			"price": {
+				"1": 900
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 20,
+					"maxValue": 35
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "12#001",
+			"3dModelG": "20#001",
+			"3dModelB": "10#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"170": {
+			"id": 170,
+			"title": "英雄のヘルメット",
+			"titleBlue": "英雄のヘルメット",
+			"titleGreen": "英雄のフード",
+			"set": 3,
+			"class": "1",
+			"slot": 1,
+			"color": "blue",
+			"price": {
+				"1": 36300
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "RAG",
+					"minValue": 100,
+					"maxValue": 140
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "15#001",
+			"3dModelG": "11#001",
+			"3dModelB": "19#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "avatar_d.jpg",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 145,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"184": {
+			"id": 184,
+			"title": "英雄の肩アーマー",
+			"titleBlue": "英雄の肩アーマー",
+			"titleGreen": "英雄の肩アーマー",
+			"set": 3,
+			"class": "1",
+			"slot": 2,
+			"color": "blue",
+			"price": {
+				"1": 10500
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 78,
+					"maxValue": 109
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "15#001",
+			"3dModelG": "11#001",
+			"3dModelB": "19#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 130,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"185": {
+			"id": 185,
+			"title": "英雄のブーツ",
+			"titleBlue": "英雄のブーツ",
+			"titleGreen": "英雄のブーツ",
+			"set": 3,
+			"class": "1",
+			"slot": 3,
+			"color": "blue",
+			"price": {
+				"1": 27000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 94,
+					"maxValue": 131
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "15#001",
+			"3dModelG": "11#001",
+			"3dModelB": "19#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 210,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"186": {
+			"id": 186,
+			"title": "英雄のベルト",
+			"titleBlue": "英雄のベルト",
+			"titleGreen": "英雄のベルト",
+			"set": 3,
+			"class": "1",
+			"slot": 4,
+			"color": "blue",
+			"price": {
+				"1": 6000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 65,
+					"maxValue": 91
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "15#001",
+			"3dModelG": "11#001",
+			"3dModelB": "19#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 150,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"187": {
+			"id": 187,
+			"title": "英雄のブレイサー",
+			"titleBlue": "英雄のブレイサー",
+			"titleGreen": "英雄のブレイサー",
+			"set": 3,
+			"class": "1",
+			"slot": 5,
+			"color": "blue",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "RAG",
+					"minValue": 61,
+					"maxValue": 86
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "15#001",
+			"3dModelG": "11#001",
+			"3dModelB": "19#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 100,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"188": {
+			"id": 188,
+			"title": "英雄のガントレット",
+			"titleBlue": "英雄のガントレット",
+			"titleGreen": "英雄のガントレット",
+			"set": 3,
+			"class": "1",
+			"slot": 6,
+			"color": "blue",
+			"price": {
+				"1": 14400
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 83,
+					"maxValue": 116
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "15#001",
+			"3dModelG": "11#001",
+			"3dModelB": "19#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 175,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"189": {
+			"id": 189,
+			"title": "英雄の腿アーマー",
+			"titleBlue": "英雄の腿アーマー",
+			"titleGreen": "英雄の腿アーマー",
+			"set": 3,
+			"class": "1",
+			"slot": 7,
+			"color": "blue",
+			"price": {
+				"1": 19800
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 88,
+					"maxValue": 124
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "15#001",
+			"3dModelG": "11#001",
+			"3dModelB": "19#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 190,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"190": {
+			"id": 190,
+			"title": "英雄の胴アーマー",
+			"titleBlue": "英雄の胴アーマー",
+			"titleGreen": "英雄の胴アーマー",
+			"set": 3,
+			"class": "1",
+			"slot": 8,
+			"color": "blue",
+			"price": {
+				"1": 7800
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 69,
+					"maxValue": 97
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "15#001",
+			"3dModelG": "11#001",
+			"3dModelB": "19#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 140,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"199": {
+			"id": 199,
+			"title": "伝説のヘルメット",
+			"titleBlue": "伝説のヘルメット",
+			"titleGreen": "伝説のフード",
+			"description": "英雄のヘルメットを伝説ステータスポイントと組み合わせることによって獲得。",
+			"set": 4,
+			"class": "1",
+			"slot": 1,
+			"color": "purple",
+			"price": {
+				"1": 10000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "RAG",
+					"minValue": 189,
+					"maxValue": 189
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "21#001",
+			"3dModelG": "14#001",
+			"3dModelB": "13#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "avatar_t.jpg",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"200": {
+			"id": 200,
+			"title": "伝説の肩アーマー",
+			"titleBlue": "伝説の肩アーマー",
+			"titleGreen": "伝説の肩アーマー",
+			"description": "英雄の肩アーマーを伝説ステータスポイントと組み合わせることによって獲得。",
+			"set": 4,
+			"class": "1",
+			"slot": 2,
+			"color": "purple",
+			"price": {
+				"1": 10000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 147,
+					"maxValue": 147
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "21#001",
+			"3dModelG": "14#001",
+			"3dModelB": "13#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"201": {
+			"id": 201,
+			"title": "伝説のブーツ",
+			"titleBlue": "伝説のブーツ",
+			"titleGreen": "伝説のブーツ",
+			"description": "英雄のブーツを伝説ステータスポイントと組み合わせることによって獲得。",
+			"set": 4,
+			"class": "1",
+			"slot": 3,
+			"color": "purple",
+			"price": {
+				"1": 10000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 170,
+					"maxValue": 170
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "21#001",
+			"3dModelG": "14#001",
+			"3dModelB": "13#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"202": {
+			"id": 202,
+			"title": "伝説のベルト",
+			"titleBlue": "伝説のベルト",
+			"titleGreen": "伝説のベルト",
+			"description": "英雄のベルトを伝説ステータスポイントと組み合わせることによって獲得。",
+			"set": 4,
+			"class": "1",
+			"slot": 4,
+			"color": "purple",
+			"price": {
+				"1": 10000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 118,
+					"maxValue": 118
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "21#001",
+			"3dModelG": "14#001",
+			"3dModelB": "13#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"203": {
+			"id": 203,
+			"title": "伝説のブレイサー",
+			"titleBlue": "伝説のブレイサー",
+			"titleGreen": "伝説のブレイサー",
+			"description": "英雄のブレイサーを伝説ステータスポイントと組み合わせることによって獲得。",
+			"set": 4,
+			"class": "1",
+			"slot": 5,
+			"color": "purple",
+			"price": {
+				"1": 10000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "RAG",
+					"minValue": 116,
+					"maxValue": 116
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "21#001",
+			"3dModelG": "14#001",
+			"3dModelB": "13#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"204": {
+			"id": 204,
+			"title": "伝説のガントレット",
+			"titleBlue": "伝説のガントレット",
+			"titleGreen": "伝説のガントレット",
+			"description": "英雄のガントレットを伝説ステータスポイントと組み合わせることによって獲得。",
+			"set": 4,
+			"class": "1",
+			"slot": 6,
+			"color": "purple",
+			"price": {
+				"1": 10000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 157,
+					"maxValue": 157
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "21#001",
+			"3dModelG": "14#001",
+			"3dModelB": "13#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"205": {
+			"id": 205,
+			"title": "伝説の腿アーマー",
+			"titleBlue": "伝説の腿アーマー",
+			"titleGreen": "伝説の腿アーマー",
+			"description": "英雄の腿アーマーを伝説ステータスポイントと組み合わせることによって獲得。",
+			"set": 4,
+			"class": "1",
+			"slot": 7,
+			"color": "purple",
+			"price": {
+				"1": 10000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 161,
+					"maxValue": 161
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "21#001",
+			"3dModelG": "14#001",
+			"3dModelB": "13#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"206": {
+			"id": 206,
+			"title": "伝説の胴アーマー",
+			"titleBlue": "伝説の胴アーマー",
+			"titleGreen": "伝説の胴アーマー",
+			"description": "英雄の胴アーマーを伝説ステータスポイントと組み合わせることによって獲得。",
+			"set": 4,
+			"class": "1",
+			"slot": 8,
+			"color": "purple",
+			"price": {
+				"1": 10000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 126,
+					"maxValue": 126
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "21#001",
+			"3dModelG": "14#001",
+			"3dModelB": "13#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"216": {
+			"id": 216,
+			"title": "バーサーカーのハンマー",
+			"titleBlue": "テンプル騎士団員の剣",
+			"titleGreen": "アサシンのやり",
+			"description": "追加チャプター「シルビオンの悲劇」の完了報酬。",
+			"set": 3,
+			"class": "1",
+			"slot": 9,
+			"color": "blue",
+			"price": {
+				"1": 7000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 80,
+					"maxValue": 80
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "12#001",
+			"3dModelG": "14#014",
+			"3dModelB": "19#019",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": 623,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"217": {
+			"id": 217,
+			"title": "伝説のハンマー",
+			"titleBlue": "伝説の剣",
+			"titleGreen": "伝説のやり",
+			"description": "追加チャプター「秘密の聖地」の完了報酬。",
+			"set": 4,
+			"class": "1",
+			"slot": 9,
+			"color": "purple",
+			"price": {
+				"1": 10000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 19000,
+					"maxValue": 19000
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "21#002",
+			"3dModelG": "20#020",
+			"3dModelB": "13#013",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": 624,
+			"maxStars": 100,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"269": {
+			"id": 269,
+			"title": "不老不死の薬",
+			"description": "戦闘で50ライフを回復する",
+			"set": null,
+			"class": "",
+			"slot": 15,
+			"color": null,
+			"price": {
+				"1": 450
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#001",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "1",
+			"rashodkaPoints": 50,
+			"rashodkaNextTurns": 7,
+			"rashodkaEffectTurns": 0,
+			"flags": 3,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"270": {
+			"id": 270,
+			"title": "勇気の弾薬",
+			"description": "次の行動が重要になる。",
+			"set": null,
+			"class": "",
+			"slot": 16,
+			"color": null,
+			"price": {
+				"1": 150
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#001",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "2",
+			"rashodkaPoints": 70,
+			"rashodkaNextTurns": 3,
+			"rashodkaEffectTurns": 0,
+			"flags": 3,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"271": {
+			"id": 271,
+			"title": "中毒にする",
+			"description": "5回の動きで敵から100ライフを奪う。",
+			"set": null,
+			"class": "",
+			"slot": 17,
+			"color": null,
+			"price": {
+				"1": 600
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#001",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "3",
+			"rashodkaPoints": 20,
+			"rashodkaNextTurns": 9,
+			"rashodkaEffectTurns": 5,
+			"flags": 3,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"295": {
+			"id": 295,
+			"title": "科学者の時計",
+			"set": null,
+			"class": "",
+			"slot": 11,
+			"color": "green",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "BE",
+					"minValue": 21,
+					"maxValue": 30
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#003",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"296": {
+			"id": 296,
+			"title": "威嚇のマスク",
+			"description": "各戦いを始める時、最大のフューリー値を獲得できる。",
+			"set": null,
+			"class": "",
+			"slot": 11,
+			"color": "purple",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "FullRage",
+					"minValue": 10,
+					"maxValue": 10
+				}
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#005",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"298": {
+			"id": 298,
+			"title": "勝者の魅力",
+			"set": null,
+			"class": "",
+			"slot": 11,
+			"color": "blue",
+			"price": {
+				"1": 3000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "BR",
+					"minValue": 2,
+					"maxValue": 2
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#007",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"299": {
+			"id": 299,
+			"title": "観察者の望遠鏡",
+			"set": null,
+			"class": "",
+			"slot": 11,
+			"color": "blue",
+			"price": {
+				"1": 3000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "BE",
+					"minValue": 31,
+					"maxValue": 45
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#008",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"300": {
+			"id": 300,
+			"title": "商人の財布",
+			"set": null,
+			"class": "",
+			"slot": 11,
+			"color": "blue",
+			"price": {
+				"1": 3000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "BMn",
+					"minValue": 50,
+					"maxValue": 100
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#009",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"301": {
+			"id": 301,
+			"title": "守銭奴のそろばん",
+			"set": null,
+			"class": "",
+			"slot": 11,
+			"color": "green",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "BMn",
+					"minValue": 30,
+					"maxValue": 40
+				}
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#002",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"302": {
+			"id": 302,
+			"title": "未使用",
+			"set": null,
+			"class": "",
+			"slot": 11,
+			"color": null,
+			"price": {
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#011",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"303": {
+			"id": 303,
+			"title": "四つ葉",
+			"set": null,
+			"class": "",
+			"slot": 11,
+			"color": "gray",
+			"price": {
+				"1": 200
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "BMn",
+					"minValue": 20,
+					"maxValue": 30
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#012",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"304": {
+			"id": 304,
+			"title": "永遠なるものの聖杯",
+			"description": "トロフィーアイテム。ダークエルフを倒すことで獲得できる。",
+			"set": null,
+			"class": "",
+			"slot": 10,
+			"color": "blue",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 40,
+					"maxValue": 40
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#013",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"306": {
+			"id": 306,
+			"title": "魔術師の鏡",
+			"set": null,
+			"class": "",
+			"slot": 11,
+			"color": "blue",
+			"price": {
+				"1": 3000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "BM",
+					"minValue": 3,
+					"maxValue": 4
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#014",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"307": {
+			"id": 307,
+			"title": "幸運の蹄鉄",
+			"set": null,
+			"class": "",
+			"slot": 11,
+			"color": "green",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "BR",
+					"minValue": 1,
+					"maxValue": 1
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#010",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"308": {
+			"id": 308,
+			"title": "未使用",
+			"set": null,
+			"class": "",
+			"slot": 11,
+			"color": null,
+			"price": {
+				"1": 100
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#017",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"309": {
+			"id": 309,
+			"title": "魔術師のビーズ",
+			"set": null,
+			"class": "",
+			"slot": 11,
+			"color": "green",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "BM",
+					"minValue": 2,
+					"maxValue": 2
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#018",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"310": {
+			"id": 310,
+			"title": "未使用",
+			"set": null,
+			"class": "",
+			"slot": 11,
+			"color": null,
+			"price": {
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#019",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"311": {
+			"id": 311,
+			"title": "魔法の英雄リング",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "blue",
+			"price": {
+				"1": 3000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 45,
+					"maxValue": 55
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#001",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 40,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"312": {
+			"id": 312,
+			"title": "未使用",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "purple",
+			"price": {
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#002",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"313": {
+			"id": 313,
+			"title": "勇気の英雄リング",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "blue",
+			"price": {
+				"1": 3000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "RAG",
+					"minValue": 45,
+					"maxValue": 55
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#003",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 30,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"314": {
+			"id": 314,
+			"title": "未使用",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "blue",
+			"price": {
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#004",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"315": {
+			"id": 315,
+			"title": "未使用",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "blue",
+			"price": {
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#005",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"316": {
+			"id": 316,
+			"title": "強さのリング",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "gray",
+			"price": {
+				"1": 200
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 5,
+					"maxValue": 15
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#006",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"317": {
+			"id": 317,
+			"title": "偉大な生命のリング",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "purple",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 70,
+					"maxValue": 70
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#007",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"318": {
+			"id": 318,
+			"title": "希少な勇気のリング",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "green",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "RAG",
+					"minValue": 20,
+					"maxValue": 35
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#008",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"319": {
+			"id": 319,
+			"title": "全能性の魅力",
+			"description": "各戦闘を始める時、最大のマナを獲得できる。",
+			"set": null,
+			"class": "",
+			"slot": 11,
+			"color": "purple",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "FullMana",
+					"minValue": 10,
+					"maxValue": 10
+				}
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#051",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"320": {
+			"id": 320,
+			"title": "パワーの英雄リング",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "blue",
+			"price": {
+				"1": 3000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 45,
+					"maxValue": 55
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#009",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 50,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"321": {
+			"id": 321,
+			"title": "未使用",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "blue",
+			"price": {
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#010",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"322": {
+			"id": 322,
+			"title": "未使用",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "blue",
+			"price": {
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#011",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"323": {
+			"id": 323,
+			"title": "偉大な勇気のリング",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "purple",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "RAG",
+					"minValue": 80,
+					"maxValue": 80
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#012",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"324": {
+			"id": 324,
+			"title": "未使用",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "blue",
+			"price": {
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#013",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"325": {
+			"id": 325,
+			"title": "偉大な魔法のリング",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "purple",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 75,
+					"maxValue": 75
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#014",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"326": {
+			"id": 326,
+			"title": "希少な魔法のリング",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "green",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 20,
+					"maxValue": 35
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#015",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"327": {
+			"id": 327,
+			"title": "未使用",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "blue",
+			"price": {
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#016",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"328": {
+			"id": 328,
+			"title": "生命のリング",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "gray",
+			"price": {
+				"1": 200
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 5,
+					"maxValue": 15
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#017",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"329": {
+			"id": 329,
+			"title": "勇気のリング",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "gray",
+			"price": {
+				"1": 200
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "RAG",
+					"minValue": 5,
+					"maxValue": 15
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#018",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"330": {
+			"id": 330,
+			"title": "希少な強さのリング",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "green",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 20,
+					"maxValue": 35
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#019",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"331": {
+			"id": 331,
+			"title": "偉大な強さのリング",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "purple",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 70,
+					"maxValue": 70
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#020",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"332": {
+			"id": 332,
+			"title": "未使用",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "blue",
+			"price": {
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#021",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"333": {
+			"id": 333,
+			"title": "希少な生命のリング",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "green",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 20,
+					"maxValue": 35
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#022",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"334": {
+			"id": 334,
+			"title": "生命の英雄リング",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "blue",
+			"price": {
+				"1": 3000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 45,
+					"maxValue": 55
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#023",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 50,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"335": {
+			"id": 335,
+			"title": "未使用",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "green",
+			"price": {
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#024",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"336": {
+			"id": 336,
+			"title": "勇気の英雄イヤリング",
+			"set": null,
+			"class": "",
+			"slot": 13,
+			"color": "blue",
+			"price": {
+				"1": 3000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "RAG",
+					"minValue": 45,
+					"maxValue": 55
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#001",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 30,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"337": {
+			"id": 337,
+			"title": "生命の英雄イヤリング",
+			"set": null,
+			"class": "",
+			"slot": 13,
+			"color": "blue",
+			"price": {
+				"1": 3000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 45,
+					"maxValue": 55
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#002",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 50,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"338": {
+			"id": 338,
+			"title": "勇気のイヤリング",
+			"set": null,
+			"class": "",
+			"slot": 13,
+			"color": "gray",
+			"price": {
+				"1": 200
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "RAG",
+					"minValue": 5,
+					"maxValue": 15
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#003",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"339": {
+			"id": 339,
+			"title": "偉大な強さのイヤリング",
+			"set": null,
+			"class": "",
+			"slot": 13,
+			"color": "purple",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 70,
+					"maxValue": 70
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#004",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"340": {
+			"id": 340,
+			"title": "希少な勇気のイヤリング",
+			"set": null,
+			"class": "",
+			"slot": 13,
+			"color": "green",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "RAG",
+					"minValue": 20,
+					"maxValue": 35
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#005",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"341": {
+			"id": 341,
+			"title": "未使用",
+			"set": null,
+			"class": "",
+			"slot": 13,
+			"color": "blue",
+			"price": {
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#006",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"342": {
+			"id": 342,
+			"title": "偉大な勇気のイヤリング",
+			"set": null,
+			"class": "",
+			"slot": 13,
+			"color": "purple",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "RAG",
+					"minValue": 80,
+					"maxValue": 80
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#007",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"343": {
+			"id": 343,
+			"title": "強さのイヤリング",
+			"set": null,
+			"class": "",
+			"slot": 13,
+			"color": "gray",
+			"price": {
+				"1": 200
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 5,
+					"maxValue": 15
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#008",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"344": {
+			"id": 344,
+			"title": "パワーの英雄イヤリング",
+			"set": null,
+			"class": "",
+			"slot": 13,
+			"color": "blue",
+			"price": {
+				"1": 3000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 45,
+					"maxValue": 55
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#009",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 50,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"345": {
+			"id": 345,
+			"title": "偉大な勇気のイヤリング",
+			"set": null,
+			"class": "",
+			"slot": 13,
+			"color": "purple",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 70,
+					"maxValue": 70
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#010",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"346": {
+			"id": 346,
+			"title": "魔法の英雄イヤリング",
+			"set": null,
+			"class": "",
+			"slot": 13,
+			"color": "blue",
+			"price": {
+				"1": 3000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 45,
+					"maxValue": 55
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#011",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 40,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"347": {
+			"id": 347,
+			"title": "希少な魔法のイヤリング",
+			"set": null,
+			"class": "",
+			"slot": 13,
+			"color": "green",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 20,
+					"maxValue": 35
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#012",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"348": {
+			"id": 348,
+			"title": "偉大な魔法のイヤリング",
+			"set": null,
+			"class": "",
+			"slot": 13,
+			"color": "purple",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 75,
+					"maxValue": 75
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#013",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"349": {
+			"id": 349,
+			"title": "生命のイヤリング",
+			"set": null,
+			"class": "",
+			"slot": 13,
+			"color": "gray",
+			"price": {
+				"1": 200
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 5,
+					"maxValue": 15
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#014",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"350": {
+			"id": 350,
+			"title": "希少な強さのイヤリング",
+			"set": null,
+			"class": "",
+			"slot": 13,
+			"color": "green",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 20,
+					"maxValue": 35
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#015",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"351": {
+			"id": 351,
+			"title": "未使用",
+			"set": null,
+			"class": "",
+			"slot": 13,
+			"color": "blue",
+			"price": {
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#016",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"352": {
+			"id": 352,
+			"title": "希少な生命のイヤリング",
+			"set": null,
+			"class": "",
+			"slot": 13,
+			"color": "green",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 20,
+					"maxValue": 35
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#017",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"353": {
+			"id": 353,
+			"title": "未使用",
+			"set": null,
+			"class": "",
+			"slot": 13,
+			"color": "blue",
+			"price": {
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#018",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"354": {
+			"id": 354,
+			"title": "魔法のイヤリング",
+			"set": null,
+			"class": "",
+			"slot": 13,
+			"color": "gray",
+			"price": {
+				"1": 200
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 5,
+					"maxValue": 15
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#019",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"431": {
+			"id": 431,
+			"title": "マラウダーのハンマー",
+			"titleBlue": "ドラゴンキラーの剣",
+			"titleGreen": "スカウトのやり",
+			"description": "追加チャプター「悪魔のようなオークの樹の影で」の完了報酬。",
+			"set": 2,
+			"class": "1",
+			"slot": 9,
+			"color": "green",
+			"price": {
+				"1": 3000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 50,
+					"maxValue": 50
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "15#003",
+			"3dModelG": "11#011",
+			"3dModelB": "10#010",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": 622,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"432": {
+			"id": 432,
+			"title": "絶対的な氷の魔除け",
+			"set": null,
+			"class": "",
+			"slot": 14,
+			"color": "purple",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "ICE",
+					"minValue": 15,
+					"maxValue": 15
+				}
+			},
+			"giveSkillsCount": 2,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#002",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"433": {
+			"id": 433,
+			"title": "絶対的な稲妻の魔除け",
+			"set": null,
+			"class": "",
+			"slot": 14,
+			"color": "purple",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "LIGHT",
+					"minValue": 15,
+					"maxValue": 15
+				}
+			},
+			"giveSkillsCount": 2,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#003",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "#003",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"434": {
+			"id": 434,
+			"title": "絶対的な炎の魔除け",
+			"set": null,
+			"class": "",
+			"slot": 14,
+			"color": "purple",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "FIRE",
+					"minValue": 15,
+					"maxValue": 15
+				}
+			},
+			"giveSkillsCount": 2,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#004",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "#004",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"435": {
+			"id": 435,
+			"title": "絶対的な暗黒の魔除け",
+			"set": null,
+			"class": "",
+			"slot": 14,
+			"color": "purple",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "DARK",
+					"minValue": 15,
+					"maxValue": 15
+				}
+			},
+			"giveSkillsCount": 2,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#005",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "#005",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"436": {
+			"id": 436,
+			"title": "氷の魔除け",
+			"set": null,
+			"class": "",
+			"slot": 14,
+			"color": "gray",
+			"price": {
+				"1": 100
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "ICE",
+					"minValue": 1,
+					"maxValue": 2
+				}
+			},
+			"giveSkillsCount": 2,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#006",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"437": {
+			"id": 437,
+			"title": "稲妻の魔除け ",
+			"set": null,
+			"class": "",
+			"slot": 14,
+			"color": "gray",
+			"price": {
+				"1": 100
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "LIGHT",
+					"minValue": 1,
+					"maxValue": 2
+				}
+			},
+			"giveSkillsCount": 2,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#007",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"438": {
+			"id": 438,
+			"title": "炎の魔除け ",
+			"set": null,
+			"class": "",
+			"slot": 14,
+			"color": "gray",
+			"price": {
+				"1": 100
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "FIRE",
+					"minValue": 1,
+					"maxValue": 2
+				}
+			},
+			"giveSkillsCount": 2,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#008",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"439": {
+			"id": 439,
+			"title": "暗黒の魔除け",
+			"set": null,
+			"class": "",
+			"slot": 14,
+			"color": "gray",
+			"price": {
+				"1": 100
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "DARK",
+					"minValue": 1,
+					"maxValue": 2
+				}
+			},
+			"giveSkillsCount": 2,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#009",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"440": {
+			"id": 440,
+			"title": "卓越した氷の魔除け",
+			"set": null,
+			"class": "",
+			"slot": 14,
+			"color": "blue",
+			"price": {
+				"1": 3000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "ICE",
+					"minValue": 10,
+					"maxValue": 10
+				}
+			},
+			"giveSkillsCount": 2,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#010",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "#010",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"441": {
+			"id": 441,
+			"title": "卓越した稲妻の魔除け",
+			"set": null,
+			"class": "",
+			"slot": 14,
+			"color": "blue",
+			"price": {
+				"1": 3000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "LIGHT",
+					"minValue": 10,
+					"maxValue": 10
+				}
+			},
+			"giveSkillsCount": 2,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#011",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "#011",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"442": {
+			"id": 442,
+			"title": "卓越した炎の魔除け",
+			"set": null,
+			"class": "",
+			"slot": 14,
+			"color": "blue",
+			"price": {
+				"1": 3000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "FIRE",
+					"minValue": 10,
+					"maxValue": 10
+				}
+			},
+			"giveSkillsCount": 2,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#012",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "#012",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"443": {
+			"id": 443,
+			"title": "卓越した暗黒の魔除け",
+			"set": null,
+			"class": "",
+			"slot": 14,
+			"color": "blue",
+			"price": {
+				"1": 3000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "DARK",
+					"minValue": 10,
+					"maxValue": 10
+				}
+			},
+			"giveSkillsCount": 2,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#013",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "#013",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"444": {
+			"id": 444,
+			"title": "卓越した氷の魔除け",
+			"set": null,
+			"class": "",
+			"slot": 14,
+			"color": "green",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "ICE",
+					"minValue": 2,
+					"maxValue": 5
+				}
+			},
+			"giveSkillsCount": 2,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#014",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "#014",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"445": {
+			"id": 445,
+			"title": "強力な稲妻の魔除け",
+			"set": null,
+			"class": "",
+			"slot": 14,
+			"color": "green",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "LIGHT",
+					"minValue": 2,
+					"maxValue": 5
+				}
+			},
+			"giveSkillsCount": 2,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#015",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "#015",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"446": {
+			"id": 446,
+			"title": "強力な炎の魔除け",
+			"set": null,
+			"class": "",
+			"slot": 14,
+			"color": "green",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "FIRE",
+					"minValue": 2,
+					"maxValue": 5
+				}
+			},
+			"giveSkillsCount": 2,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#016",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "#016",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"447": {
+			"id": 447,
+			"title": "強力な暗黒の魔除け",
+			"set": null,
+			"class": "",
+			"slot": 14,
+			"color": "green",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "DARK",
+					"minValue": 2,
+					"maxValue": 5
+				}
+			},
+			"giveSkillsCount": 2,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#017",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"626": {
+			"id": 626,
+			"title": "ピックロック",
+			"description": "宝箱をこじ開けるのに使用する。",
+			"set": null,
+			"class": "",
+			"slot": 16,
+			"color": null,
+			"price": {
+				"1": 2
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#002",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "4",
+			"rashodkaPoints": 1,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 3,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"650": {
+			"id": 650,
+			"title": "フューリーテストボーナス",
+			"set": 1,
+			"class": "1",
+			"slot": 1,
+			"color": "gray",
+			"price": {
+				"1": 25
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "BE",
+					"minValue": 100,
+					"maxValue": 100
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "9#001",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "avatar_m.jpg",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"714": {
+			"id": 714,
+			"title": "マジックスカル",
+			"description": "新しいマジカルテクニックを勉強するために使用される。",
+			"set": null,
+			"class": "",
+			"slot": 16,
+			"color": "gray",
+			"price": {
+				"1": 10
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#004",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "5",
+			"rashodkaPoints": 1,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 3,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"822": {
+			"id": 822,
+			"title": "スカラブ",
+			"description": "宝物を検索するために使用する。",
+			"set": null,
+			"class": "",
+			"slot": 16,
+			"color": "gray",
+			"price": {
+				"1": 10
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#005",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "6",
+			"rashodkaPoints": 1,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 3,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"835": {
+			"id": 835,
+			"title": "ゴールド",
+			"description": "ゴールド。店でアイテムを買う時に必要。",
+			"set": null,
+			"class": "",
+			"slot": 16,
+			"color": "gray",
+			"price": {
+				"1": 10
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#006",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "7",
+			"rashodkaPoints": 1,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 1,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"836": {
+			"id": 836,
+			"title": "クリスタル",
+			"description": "クリスタル。店でスペシャルアイテムを買う時に必要。",
+			"set": null,
+			"class": "",
+			"slot": 16,
+			"color": "gray",
+			"price": {
+				"1": 10
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#007",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "8",
+			"rashodkaPoints": 1,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 1,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1022": {
+			"id": 1022,
+			"title": "デストロイヤーのハンマー",
+			"titleBlue": "パラディンの剣",
+			"titleGreen": "パニッシャーのやり",
+			"description": "追加チャプター「秘密の聖地」の完了報酬。",
+			"set": 4,
+			"class": "1",
+			"slot": 9,
+			"color": "purple",
+			"price": {
+				"1": 15000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 110,
+					"maxValue": 110
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "21#002",
+			"3dModelG": "20#020",
+			"3dModelB": "13#013",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": 624,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1031": {
+			"id": 1031,
+			"title": "鬼神学者の論文",
+			"description": "ソブリングに勝利したことで獲得したトロフィーアイテム。",
+			"set": null,
+			"class": "",
+			"slot": 10,
+			"color": "purple",
+			"price": {
+				"1": 7000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 70,
+					"maxValue": 70
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#096",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1072": {
+			"id": 1072,
+			"title": "サイクロプティカスアイ",
+			"description": "トロフィーアイテム。サイクロプティカスを倒すことで獲得できる。",
+			"set": null,
+			"class": "",
+			"slot": 10,
+			"color": "gray",
+			"price": {
+				"1": 200
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 10,
+					"maxValue": 10
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#004",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1073": {
+			"id": 1073,
+			"title": "メンケルの毒キノコ",
+			"description": "トロフィーアイテム。メンケルを倒すことで獲得できる。",
+			"set": null,
+			"class": "",
+			"slot": 10,
+			"color": "gray",
+			"price": {
+				"1": 200
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 15,
+					"maxValue": 15
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#051",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1074": {
+			"id": 1074,
+			"title": "カンニバルの毒牙",
+			"description": "トロフィーアイテム。カンニバルを倒すことで獲得できる。",
+			"set": null,
+			"class": "",
+			"slot": 10,
+			"color": "gray",
+			"price": {
+				"1": 200
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 20,
+					"maxValue": 20
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#016",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1075": {
+			"id": 1075,
+			"title": "殺し屋の短剣",
+			"description": "トロフィーアイテム。殺し屋を倒すことで獲得できる。",
+			"set": null,
+			"class": "",
+			"slot": 10,
+			"color": "green",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 22,
+					"maxValue": 22
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#052",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1076": {
+			"id": 1076,
+			"title": "ブラネンダルバナー",
+			"description": "トロフィーアイテム。ホーンドコーレンを倒すことで獲得できる。",
+			"set": null,
+			"class": "",
+			"slot": 10,
+			"color": "green",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 25,
+					"maxValue": 25
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#006",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1077": {
+			"id": 1077,
+			"title": "クリスタロンのかけら",
+			"description": "トロフィーアイテム。クリスタロンを倒すことで獲得できる。",
+			"set": null,
+			"class": "",
+			"slot": 10,
+			"color": "green",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 30,
+					"maxValue": 30
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#055",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1078": {
+			"id": 1078,
+			"title": "陽気なサボテン",
+			"description": "トロフィーアイテム。ウィップワームを倒すことで獲得できる。",
+			"set": null,
+			"class": "",
+			"slot": 10,
+			"color": "blue",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 35,
+					"maxValue": 35
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#056",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1079": {
+			"id": 1079,
+			"title": "クロックのひづめ",
+			"description": "トロフィーアイテム。デーモンクロックを倒すことで獲得できる。",
+			"set": null,
+			"class": "",
+			"slot": 10,
+			"color": "blue",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 40,
+					"maxValue": 40
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#053",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1080": {
+			"id": 1080,
+			"title": "シャーマンのアポトロピオン",
+			"description": "トロフィーアイテム。ズバーグシャーマンを倒すことで獲得できる。",
+			"set": null,
+			"class": "",
+			"slot": 10,
+			"color": "blue",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 45,
+					"maxValue": 45
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#015",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1081": {
+			"id": 1081,
+			"title": "トロピカルシェル",
+			"description": "トロフィーアイテム。ビーチクラブニッドを倒すことで獲得できる。",
+			"set": null,
+			"class": "",
+			"slot": 10,
+			"color": "purple",
+			"price": {
+				"1": 7000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 50,
+					"maxValue": 50
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#050",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1082": {
+			"id": 1082,
+			"title": "隕石",
+			"description": "トロフィーアイテム。シェルハーゴラを倒すことで獲得できる。",
+			"set": null,
+			"class": "",
+			"slot": 10,
+			"color": "purple",
+			"price": {
+				"1": 7000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 52,
+					"maxValue": 52
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#001",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1083": {
+			"id": 1083,
+			"title": "サラマンダースケール",
+			"description": "トロフィーアイテム。レイクサラマンダーを倒すことで獲得できる。",
+			"set": null,
+			"class": "",
+			"slot": 10,
+			"color": "purple",
+			"price": {
+				"1": 7000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 47,
+					"maxValue": 47
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#054",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1084": {
+			"id": 1084,
+			"title": "呪われた心",
+			"description": "トロフィーアイテム。カースドヒーローを倒すことで獲得できる。",
+			"set": null,
+			"class": "",
+			"slot": 10,
+			"color": "purple",
+			"price": {
+				"1": 7000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 55,
+					"maxValue": 55
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#058",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1085": {
+			"id": 1085,
+			"title": "メイトリアークテール",
+			"description": "トロフィーアイテム。女家長を倒すことで獲得できる。",
+			"set": null,
+			"class": "",
+			"slot": 10,
+			"color": "purple",
+			"price": {
+				"1": 7000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 60,
+					"maxValue": 60
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#057",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1177": {
+			"id": 1177,
+			"title": "英雄セット",
+			"titleBlue": "英雄セット",
+			"titleGreen": "英雄セット",
+			"description": "セットを買うことで、@120の倹約。",
+			"set": null,
+			"class": "",
+			"slot": 21,
+			"color": "blue",
+			"price": {
+				"2": 1
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#001",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.2",
+			"maxVersion": null
+		},
+		"1178": {
+			"id": 1178,
+			"title": "伝説ステータスポイント",
+			"description": "伝説のアーマーの作製が必要。",
+			"set": null,
+			"class": "",
+			"slot": 16,
+			"color": "gray",
+			"price": {
+				"1": 10
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#057",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "9",
+			"rashodkaPoints": 1,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 3,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.2",
+			"maxVersion": null
+		},
+		"1197": {
+			"id": 1197,
+			"title": "ウナの魔除け",
+			"description": "ウナのテストの完了報酬。対ソブリング戦での最強武器。",
+			"set": null,
+			"class": "",
+			"slot": 14,
+			"color": "purple",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "FIRE",
+					"minValue": 12,
+					"maxValue": 12
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#050",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "#050",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.2",
+			"maxVersion": null
+		},
+		"1214": {
+			"id": 1214,
+			"title": "英雄ハーフセット",
+			"titleBlue": "英雄ハーフセット",
+			"titleGreen": "英雄ハーフセット",
+			"description": "ハーフセットを買うことで、@50の倹約。",
+			"set": null,
+			"class": "",
+			"slot": 22,
+			"color": "blue",
+			"price": {
+				"2": 1
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#001",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.2",
+			"maxVersion": null
+		},
+		"1215": {
+			"id": 1215,
+			"title": "錬金術師セット",
+			"titleBlue": "錬金術師セット",
+			"titleGreen": "錬金術師セット",
+			"description": "セットを買うことで、@50の倹約。",
+			"set": null,
+			"class": "",
+			"slot": 23,
+			"color": "blue",
+			"price": {
+				"2": 1
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#001",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.2",
+			"maxVersion": null
+		},
+		"1852": {
+			"id": 1852,
+			"title": "ソルジャーのハンマー",
+			"titleBlue": "ガードの剣",
+			"titleGreen": "盗賊のやり",
+			"description": "追加チャプター「荒れ果てた墓地」の完了報酬。",
+			"set": 2,
+			"class": "1",
+			"slot": 9,
+			"color": "gray",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 20,
+					"maxValue": 20
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "27#027",
+			"3dModelG": "26#026",
+			"3dModelB": "25#025",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": 1211,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		}
+	}
+}

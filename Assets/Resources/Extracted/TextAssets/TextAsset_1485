@@ -1,0 +1,24 @@
+{
+	"sets": {
+		"1": {
+			"id": 147,
+			"title": "Maraudeur",
+			"setId": 1
+		},
+		"2": {
+			"id": 160,
+			"title": "Tueur",
+			"setId": 2
+		},
+		"3": {
+			"id": 168,
+			"title": "Destructeur",
+			"setId": 3
+		},
+		"4": {
+			"id": 169,
+			"title": "Tyran",
+			"setId": 4
+		}
+	}
+}

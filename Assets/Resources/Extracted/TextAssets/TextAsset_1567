@@ -1,0 +1,1291 @@
+{
+	"locations": {
+		"1": {
+			"id": 52,
+			"title": "Глава 1. Бросая вызов",
+			"bots": {
+				"1": {
+					"botId": "46",
+					"level": 1,
+					"isBoss": false,
+					"minVersion": "1.0"
+				},
+				"2": {
+					"botId": "47",
+					"level": 2,
+					"isBoss": false,
+					"minVersion": "1.0"
+				},
+				"3": {
+					"botId": "122",
+					"level": 3,
+					"isBoss": false,
+					"minVersion": "1.0"
+				},
+				"4": {
+					"botId": "125",
+					"level": 5,
+					"isBoss": true,
+					"minVersion": "1.0"
+				}
+			},
+			"mapId": 1,
+			"3dMap": 2,
+			"periodRespawn": 600,
+			"probRespawn": 15,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "260;585",
+			"coordIconM": "260;585",
+			"coordIconMobs": "310;585",
+			"coordIconChest": "285;635",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 50,
+			"openAfter": null,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 594,
+					"prob": 100
+				}
+			},
+			"bonus": 659,
+			"iconPers": "glava1_NPC",
+			"description": "",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": true,
+			"minVersion": "1.0",
+			"maxVersion": null,
+			"isCave": false,
+			"caveName": "",
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"2": {
+			"id": 236,
+			"title": "Глава 2. Негостеприимное болото",
+			"bots": {
+				"1": {
+					"botId": "237",
+					"level": 5,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "50",
+					"level": 6,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "51",
+					"level": 7,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "239",
+					"level": 8,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "240",
+					"level": 9,
+					"isBoss": false
+				},
+				"6": {
+					"botId": "241",
+					"level": 10,
+					"isBoss": false
+				},
+				"7": {
+					"botId": "49",
+					"level": 10,
+					"isBoss": true
+				}
+			},
+			"mapId": 2,
+			"3dMap": 4,
+			"periodRespawn": 600,
+			"probRespawn": 20,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "520;460",
+			"coordIconM": "520;460",
+			"coordIconMobs": "570;460",
+			"coordIconChest": "545;510",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 50,
+			"openAfter": 52,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 594,
+					"prob": 100
+				}
+			},
+			"bonus": 660,
+			"iconPers": "glava2_NPC",
+			"description": "",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": false,
+			"caveName": "",
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"3": {
+			"id": 275,
+			"title": "Дополнительная глава. Старая шахта",
+			"bots": {
+				"1": {
+					"botId": "395",
+					"level": 12,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "396",
+					"level": 13,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "397",
+					"level": 14,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "398",
+					"level": 14,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "399",
+					"level": 14,
+					"isBoss": true
+				}
+			},
+			"mapId": 3,
+			"3dMap": 2,
+			"periodRespawn": 600,
+			"probRespawn": 20,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "500;200",
+			"coordIconM": "500;200",
+			"coordIconMobs": "550;200",
+			"coordIconChest": "525;250",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 60,
+			"openAfter": 236,
+			"openAfterAlt": null,
+			"miniBoss": true,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 593,
+					"prob": 100
+				}
+			},
+			"bonus": 599,
+			"iconPers": "Dopglava_razboy",
+			"description": "",
+			"openPrice": {
+				"2": 10
+			},
+			"openCond": 732,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": true,
+			"caveName": "СТАРАЯ ШАХТА",
+			"caveGCoord": "420;230",
+			"caveLCoord": "131;-390",
+			"caveD": "easy"
+		},
+		"4": {
+			"id": 276,
+			"title": "Глава 3. Опасный путь через пещеры",
+			"bots": {
+				"1": {
+					"botId": "362",
+					"level": 11,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "369",
+					"level": 12,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "370",
+					"level": 12,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "372",
+					"level": 13,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "124",
+					"level": 13,
+					"isBoss": false
+				},
+				"6": {
+					"botId": "123",
+					"level": 14,
+					"isBoss": false
+				},
+				"7": {
+					"botId": "374",
+					"level": 15,
+					"isBoss": false
+				},
+				"8": {
+					"botId": "493",
+					"level": 15,
+					"isBoss": true
+				}
+			},
+			"mapId": 4,
+			"3dMap": 5,
+			"periodRespawn": 600,
+			"probRespawn": 20,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "600;860",
+			"coordIconM": "600;860",
+			"coordIconMobs": "650;860",
+			"coordIconChest": "625;910",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 60,
+			"openAfter": 236,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 593,
+					"prob": 100
+				}
+			},
+			"bonus": 661,
+			"iconPers": "glava3_NPC",
+			"description": "",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": false,
+			"caveName": "",
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"5": {
+			"id": 277,
+			"title": "Глава 4. Под стенами Бранендаля",
+			"bots": {
+				"1": {
+					"botId": "400",
+					"level": 16,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "401",
+					"level": 17,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "402",
+					"level": 17,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "403",
+					"level": 18,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "404",
+					"level": 19,
+					"isBoss": false
+				},
+				"6": {
+					"botId": "405",
+					"level": 19,
+					"isBoss": false
+				},
+				"7": {
+					"botId": "468",
+					"level": 20,
+					"isBoss": false
+				},
+				"8": {
+					"botId": "469",
+					"level": 20,
+					"isBoss": true
+				}
+			},
+			"mapId": 5,
+			"3dMap": 7,
+			"periodRespawn": 600,
+			"probRespawn": 30,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "915;425",
+			"coordIconM": "915;425",
+			"coordIconMobs": "965;425",
+			"coordIconChest": "940;475",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 70,
+			"openAfter": 276,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 593,
+					"prob": 100
+				}
+			},
+			"bonus": 662,
+			"iconPers": "glava4_NPC",
+			"description": "",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": false,
+			"caveName": "",
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"6": {
+			"id": 278,
+			"title": "Глава 5. На полпути к цели",
+			"bots": {
+				"1": {
+					"botId": "408",
+					"level": 21,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "413",
+					"level": 22,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "409",
+					"level": 22,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "407",
+					"level": 23,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "410",
+					"level": 24,
+					"isBoss": false
+				},
+				"6": {
+					"botId": "411",
+					"level": 25,
+					"isBoss": false
+				},
+				"7": {
+					"botId": "412",
+					"level": 25,
+					"isBoss": true
+				}
+			},
+			"mapId": 6,
+			"3dMap": 11,
+			"periodRespawn": 600,
+			"probRespawn": 30,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "900;700",
+			"coordIconM": "900;700",
+			"coordIconMobs": "950;700",
+			"coordIconChest": "925;750",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 80,
+			"openAfter": 277,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 584,
+					"prob": 100
+				}
+			},
+			"bonus": 663,
+			"iconPers": "glava5_NPC",
+			"description": "",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": false,
+			"caveName": "",
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"7": {
+			"id": 279,
+			"title": "Дополнительная глава. В тени демонического дуба",
+			"bots": {
+				"1": {
+					"botId": "414",
+					"level": 29,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "415",
+					"level": 30,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "416",
+					"level": 31,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "417",
+					"level": 32,
+					"isBoss": true
+				}
+			},
+			"mapId": 7,
+			"3dMap": 11,
+			"periodRespawn": 600,
+			"probRespawn": 30,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "850;890",
+			"coordIconM": "850;890",
+			"coordIconMobs": "900;890",
+			"coordIconChest": "875;940",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 90,
+			"openAfter": 278,
+			"openAfterAlt": null,
+			"miniBoss": true,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 606,
+					"prob": 100
+				}
+			},
+			"bonus": 610,
+			"iconPers": "Dopglava_dub",
+			"description": "",
+			"openPrice": {
+				"2": 40
+			},
+			"openCond": 736,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": false,
+			"caveName": "",
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"8": {
+			"id": 280,
+			"title": "Глава 6. По колено в песке",
+			"bots": {
+				"1": {
+					"botId": "418",
+					"level": 26,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "425",
+					"level": 26,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "420",
+					"level": 27,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "422",
+					"level": 28,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "426",
+					"level": 29,
+					"isBoss": false
+				},
+				"6": {
+					"botId": "473",
+					"level": 30,
+					"isBoss": false
+				},
+				"7": {
+					"botId": "419",
+					"level": 30,
+					"isBoss": true
+				}
+			},
+			"mapId": 8,
+			"3dMap": 6,
+			"periodRespawn": 600,
+			"probRespawn": 30,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "1300;800",
+			"coordIconM": "1300;800",
+			"coordIconMobs": "1350;800",
+			"coordIconChest": "1325;850",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 90,
+			"openAfter": 278,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 584,
+					"prob": 100
+				}
+			},
+			"bonus": 664,
+			"iconPers": "glava6_NPC",
+			"description": "",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": false,
+			"caveName": "",
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"9": {
+			"id": 281,
+			"title": "Дополнительная глава. Живительный источник",
+			"bots": {
+				"1": {
+					"botId": "423",
+					"level": 42,
+					"isBoss": true
+				}
+			},
+			"mapId": 9,
+			"3dMap": 6,
+			"periodRespawn": 0,
+			"probRespawn": 0,
+			"respawnMax": 0,
+			"killsCount": 0,
+			"killPeriod": 0,
+			"coordIconZ": "1100;950",
+			"coordIconM": "1100;950",
+			"coordIconMobs": "1150;950",
+			"coordIconChest": "1125;1000",
+			"populationPeriod": 0,
+			"populationPointsUp": 0,
+			"populationMax": 0,
+			"moneyPeriod": 0,
+			"moneyPerPerson": 0,
+			"moneyMax": 0,
+			"openAfter": 280,
+			"openAfterAlt": null,
+			"miniBoss": true,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 606,
+					"prob": 100
+				}
+			},
+			"bonus": 608,
+			"iconPers": "Dopglava_oazis",
+			"description": "",
+			"openPrice": {
+				"2": 40
+			},
+			"openCond": 737,
+			"elfs": false
+		},
+		"10": {
+			"id": 282,
+			"title": "Глава 7. Деревня Звергов",
+			"bots": {
+				"1": {
+					"botId": "414",
+					"level": 31,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "476",
+					"level": 32,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "477",
+					"level": 33,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "478",
+					"level": 34,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "481",
+					"level": 35,
+					"isBoss": false
+				},
+				"6": {
+					"botId": "480",
+					"level": 35,
+					"isBoss": false
+				},
+				"7": {
+					"botId": "482",
+					"level": 35,
+					"isBoss": true
+				}
+			},
+			"mapId": 10,
+			"3dMap": 8,
+			"periodRespawn": 600,
+			"probRespawn": 30,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "1370;500",
+			"coordIconM": "1370;500",
+			"coordIconMobs": "1430;500",
+			"coordIconChest": "1395;550",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 100,
+			"openAfter": 280,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 584,
+					"prob": 100
+				}
+			},
+			"bonus": 665,
+			"iconPers": "glava7_NPC",
+			"description": "",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": false,
+			"caveName": "",
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"11": {
+			"id": 283,
+			"title": "Дополнительная глава. Тайное святилище",
+			"bots": {
+				"1": {
+					"botId": "625",
+					"level": 47,
+					"isBoss": true
+				}
+			},
+			"mapId": 11,
+			"3dMap": 11,
+			"periodRespawn": 0,
+			"probRespawn": 0,
+			"respawnMax": 0,
+			"killsCount": 0,
+			"killPeriod": 0,
+			"coordIconZ": "1770;510",
+			"coordIconM": "1770;510",
+			"coordIconMobs": "1845;510",
+			"coordIconChest": "",
+			"populationPeriod": 0,
+			"populationPointsUp": 0,
+			"populationMax": 0,
+			"moneyPeriod": 0,
+			"moneyPerPerson": 0,
+			"moneyMax": 0,
+			"openAfter": 282,
+			"openAfterAlt": null,
+			"miniBoss": true,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 595,
+					"prob": 100
+				}
+			},
+			"bonus": 609,
+			"iconPers": "Dopglava_zveromat",
+			"description": "",
+			"openPrice": {
+				"2": 50
+			},
+			"openCond": 738,
+			"elfs": false
+		},
+		"12": {
+			"id": 284,
+			"title": "Глава 8. Прорыв через джунгли",
+			"bots": {
+				"1": {
+					"botId": "483",
+					"level": 36,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "484",
+					"level": 36,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "485",
+					"level": 37,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "486",
+					"level": 38,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "487",
+					"level": 38,
+					"isBoss": false
+				},
+				"6": {
+					"botId": "488",
+					"level": 39,
+					"isBoss": false
+				},
+				"7": {
+					"botId": "490",
+					"level": 40,
+					"isBoss": false
+				},
+				"8": {
+					"botId": "489",
+					"level": 40,
+					"isBoss": true
+				}
+			},
+			"mapId": 12,
+			"3dMap": 10,
+			"periodRespawn": 600,
+			"probRespawn": 30,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "1170;400",
+			"coordIconM": "1170;400",
+			"coordIconMobs": "1220;400",
+			"coordIconChest": "1195;450",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 100,
+			"openAfter": 282,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 606,
+					"prob": 100
+				}
+			},
+			"bonus": 666,
+			"iconPers": "glava8_NPC",
+			"description": "",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": false,
+			"caveName": "",
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"13": {
+			"id": 285,
+			"title": "Глава 9. В шаге от цели",
+			"bots": {
+				"1": {
+					"botId": "498",
+					"level": 41,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "497",
+					"level": 42,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "375",
+					"level": 43,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "496",
+					"level": 44,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "495",
+					"level": 45,
+					"isBoss": false
+				},
+				"6": {
+					"botId": "494",
+					"level": 45,
+					"isBoss": true
+				}
+			},
+			"mapId": 13,
+			"3dMap": 3,
+			"periodRespawn": 600,
+			"probRespawn": 30,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "1470;200",
+			"coordIconM": "1470;200",
+			"coordIconMobs": "1520;200",
+			"coordIconChest": "1495;250",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 100,
+			"openAfter": 284,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 606,
+					"prob": 100
+				}
+			},
+			"bonus": 667,
+			"iconPers": "glava9_NPC",
+			"description": "",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": false,
+			"caveName": "",
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"14": {
+			"id": 286,
+			"title": "Глава 10. Месть Соверинга",
+			"bots": {
+				"1": {
+					"botId": "492",
+					"level": 55,
+					"isBoss": true
+				}
+			},
+			"mapId": 14,
+			"3dMap": 3,
+			"periodRespawn": 0,
+			"probRespawn": 0,
+			"respawnMax": 0,
+			"killsCount": 0,
+			"killPeriod": 0,
+			"coordIconZ": "1700;230",
+			"coordIconM": "1700;230",
+			"coordIconMobs": "1760;230",
+			"coordIconChest": "",
+			"populationPeriod": 0,
+			"populationPointsUp": 0,
+			"populationMax": 0,
+			"moneyPeriod": 0,
+			"moneyPerPerson": 0,
+			"moneyMax": 0,
+			"openAfter": 285,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 595,
+					"prob": 100
+				}
+			},
+			"bonus": 612,
+			"iconPers": "glava10_NPC",
+			"description": "",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": false
+		},
+		"15": {
+			"id": 287,
+			"title": "Дополнительная глава. Трагедия Сильвиона",
+			"bots": {
+				"1": {
+					"botId": "394",
+					"level": 37,
+					"isBoss": true
+				}
+			},
+			"mapId": 15,
+			"3dMap": 4,
+			"periodRespawn": 0,
+			"probRespawn": 0,
+			"respawnMax": 0,
+			"killsCount": 0,
+			"killPeriod": 0,
+			"coordIconZ": "720;260",
+			"coordIconM": "720;260",
+			"coordIconMobs": "780;260",
+			"coordIconChest": "",
+			"populationPeriod": 0,
+			"populationPointsUp": 0,
+			"populationMax": 0,
+			"moneyPeriod": 0,
+			"moneyPerPerson": 0,
+			"moneyMax": 0,
+			"openAfter": 236,
+			"openAfterAlt": null,
+			"miniBoss": true,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 595,
+					"prob": 100
+				}
+			},
+			"bonus": 607,
+			"iconPers": "NPC_Silvion_branendal",
+			"description": "",
+			"openPrice": {
+				"2": 30
+			},
+			"openCond": 739,
+			"elfs": false
+		},
+		"16": {
+			"id": 1181,
+			"title": "Дополнительная глава. Заброшенное кладбище",
+			"bots": {
+				"1": {
+					"botId": "498",
+					"level": 19,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "373",
+					"level": 20,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "497",
+					"level": 21,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "1189",
+					"level": 22,
+					"isBoss": true
+				}
+			},
+			"mapId": 16,
+			"3dMap": 3,
+			"periodRespawn": 600,
+			"probRespawn": 20,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "370;960",
+			"coordIconM": "370;960",
+			"coordIconMobs": "420;960",
+			"coordIconChest": "395;1010",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 70,
+			"openAfter": 276,
+			"openAfterAlt": null,
+			"miniBoss": true,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 593,
+					"prob": 100
+				}
+			},
+			"bonus": 1230,
+			"iconPers": "",
+			"description": "",
+			"openPrice": {
+				"2": 10
+			},
+			"openCond": 763,
+			"elfs": true,
+			"minVersion": "1.2",
+			"maxVersion": null,
+			"isCave": false,
+			"caveName": "",
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"17": {
+			"id": 1182,
+			"title": "Дополнительная глава. Недетское испытание",
+			"bots": {
+				"1": {
+					"botId": "1188",
+					"level": 31,
+					"isBoss": true,
+					"minVersion": "1.2"
+				},
+				"2": {
+					"botId": "1188",
+					"level": 34,
+					"isBoss": true,
+					"minVersion": "1.2"
+				},
+				"3": {
+					"botId": "1188",
+					"level": 38,
+					"isBoss": true,
+					"minVersion": "1.2"
+				},
+				"4": {
+					"botId": "1190",
+					"level": 41,
+					"isBoss": true,
+					"minVersion": "1.2"
+				},
+				"5": {
+					"botId": "1190",
+					"level": 46,
+					"isBoss": true,
+					"minVersion": "1.2"
+				},
+				"6": {
+					"botId": "1190",
+					"level": 49,
+					"isBoss": true,
+					"minVersion": "1.2"
+				},
+				"7": {
+					"botId": "1191",
+					"level": 53,
+					"isBoss": true,
+					"minVersion": "1.2"
+				}
+			},
+			"mapId": 17,
+			"3dMap": 8,
+			"periodRespawn": 0,
+			"probRespawn": 0,
+			"respawnMax": 0,
+			"killsCount": 0,
+			"killPeriod": 0,
+			"coordIconZ": "1500;710",
+			"coordIconM": "1500;710",
+			"coordIconMobs": "1550;710",
+			"coordIconChest": "1525;760",
+			"populationPeriod": 0,
+			"populationPointsUp": 0,
+			"populationMax": 0,
+			"moneyPeriod": 0,
+			"moneyPerPerson": 0,
+			"moneyMax": 0,
+			"openAfter": 280,
+			"openAfterAlt": null,
+			"miniBoss": true,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 606,
+					"prob": 100
+				}
+			},
+			"bonus": 1199,
+			"iconPers": "",
+			"description": "",
+			"openPrice": {
+				"2": 30
+			},
+			"openCond": 1192,
+			"elfs": true,
+			"minVersion": "1.2",
+			"maxVersion": null
+		},
+		"998": {
+			"id": 1862,
+			"title": "Дополнительная глава. Нора Топров",
+			"bots": {
+				"1": {
+					"botId": "1863",
+					"level": 13,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "1864",
+					"level": 14,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "1865",
+					"level": 16,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "1866",
+					"level": 17,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "1867",
+					"level": 18,
+					"isBoss": true
+				}
+			},
+			"mapId": 998,
+			"3dMap": 4,
+			"periodRespawn": 600,
+			"probRespawn": 20,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "650;570",
+			"coordIconM": "650;570",
+			"coordIconMobs": "700;570",
+			"coordIconChest": "675;620",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 60,
+			"openAfter": 236,
+			"openAfterAlt": null,
+			"miniBoss": true,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 593,
+					"prob": 100
+				}
+			},
+			"bonus": 1918,
+			"iconPers": "",
+			"description": "",
+			"openPrice": {
+				"2": 15
+			},
+			"openCond": 1922,
+			"elfs": true,
+			"minVersion": "2.1",
+			"maxVersion": null,
+			"isCave": false,
+			"caveName": "",
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		}
+	}
+}

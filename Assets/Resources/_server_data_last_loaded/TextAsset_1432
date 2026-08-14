@@ -1,0 +1,1489 @@
+{
+	"bots": {
+		"46": {
+			"id": 46,
+			"title": "Grizl",
+			"description": "Orman",
+			"3dModel": "11",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_11.jpg",
+			"magic": "1",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"47": {
+			"id": 47,
+			"title": "Bataklık Katili",
+			"description": "Orman",
+			"3dModel": "16",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_16.jpg",
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"48": {
+			"id": 48,
+			"title": "Rogaç",
+			"description": "Orman",
+			"3dModel": "44",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_44.jpg",
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"49": {
+			"id": 49,
+			"title": "Çamur Canavarı",
+			"description": "Orman",
+			"3dModel": "34",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_34.jpg",
+			"magic": "",
+			"scale": 1.3,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"50": {
+			"id": 50,
+			"title": "Harpina",
+			"description": "Bataklık",
+			"3dModel": "52",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_52.jpg",
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"51": {
+			"id": 51,
+			"title": "Bataklık Katili",
+			"3dModel": "18",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_18.jpg",
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"122": {
+			"id": 122,
+			"title": "Rikar",
+			"description": "Orman",
+			"3dModel": "62",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_62.jpg",
+			"magic": "",
+			"scale": 0,
+			"closedActions": ""
+		},
+		"123": {
+			"id": 123,
+			"title": "Saklanan Çamur Canavarı",
+			"3dModel": "33",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_33.jpg",
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"124": {
+			"id": 124,
+			"title": "Kırkayak",
+			"3dModel": "68",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_68.jpg",
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"125": {
+			"id": 125,
+			"title": "Zıpırlar",
+			"3dModel": "65",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_65.jpg",
+			"magic": "4",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"237": {
+			"id": 237,
+			"title": "Örümcek",
+			"3dModel": "77_1",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_77_1.jpg",
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"238": {
+			"id": 238,
+			"title": "Bataklık Ateşi",
+			"3dModel": "31",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_31.jpg",
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"239": {
+			"id": 239,
+			"title": "Casus Rogaç",
+			"3dModel": "44_2",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_44_2.jpg",
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"240": {
+			"id": 240,
+			"title": "Halkalı Kırkayak",
+			"3dModel": "68_2",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_68_2.jpg",
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"241": {
+			"id": 241,
+			"title": "Bulanık Su Harpinası",
+			"3dModel": "52_2",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_52_2.jpg",
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"242": {
+			"id": 242,
+			"title": "Çamur Canavarı",
+			"3dModel": "32",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_32.jpg",
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"359": {
+			"id": 359,
+			"title": "Şeytani Kıvılcım",
+			"3dModel": "28",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_28.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"362": {
+			"id": 362,
+			"title": "Kan Emici Örümcek",
+			"3dModel": "77_3",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_77_3.jpg",
+			"immunity": {
+				"1": "3"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"369": {
+			"id": 369,
+			"title": "Cani Bataklık Katili",
+			"3dModel": "18_2",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_18_2.jpg",
+			"immunity": {
+				"1": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"370": {
+			"id": 370,
+			"title": "Asker Rogaç",
+			"3dModel": "44_5",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_44_5.jpg",
+			"immunity": {
+				"1": "2"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"371": {
+			"id": 371,
+			"title": "Harpinada",
+			"3dModel": "52_3",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_52_3.jpg",
+			"immunity": {
+				"1": "2",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"372": {
+			"id": 372,
+			"title": "Parazit Karaç",
+			"3dModel": "56_3",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_56_3.jpg",
+			"immunity": {
+				"1": "1"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"373": {
+			"id": 373,
+			"title": "Kararsız Skelt",
+			"3dModel": "48",
+			"3dCamera": "",
+			"3dArmor": "weapon=49",
+			"3dPicture": "01_48.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "2"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"374": {
+			"id": 374,
+			"title": "Keskin Kanatlı Seraptor",
+			"3dModel": "58_2",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_58_2.jpg",
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"375": {
+			"id": 375,
+			"title": "Ceset Yiyen",
+			"3dModel": "41",
+			"3dCamera": "",
+			"3dArmor": "weapon=41",
+			"3dPicture": "01_41.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "2",
+				"3": "3"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"394": {
+			"id": 394,
+			"title": "Göl Kertenkelesi",
+			"3dModel": "61",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_61_4.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "3",
+				"3": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"395": {
+			"id": 395,
+			"title": "Ölüm Avcısı",
+			"3dModel": "1",
+			"3dCamera": "",
+			"3dArmor": "belt=1;pelvis=1;boots=1;helm=1",
+			"3dPicture": "r_1.png",
+			"magic": "",
+			"scale": 0,
+			"closedActions": ""
+		},
+		"396": {
+			"id": 396,
+			"title": "Hırsız",
+			"3dModel": "2",
+			"3dCamera": "",
+			"3dArmor": "set=3;weapon=1;hairs=1;hairs_color=1",
+			"3dPicture": "r_2.jpg",
+			"immunity": {
+				"1": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 5
+		},
+		"397": {
+			"id": 397,
+			"title": "Yankesici",
+			"3dModel": "1",
+			"3dCamera": "",
+			"3dArmor": "set=3;weapon=2",
+			"3dPicture": "r_3.png",
+			"immunity": {
+				"1": "2"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"398": {
+			"id": 398,
+			"title": "Haydut",
+			"3dModel": "2",
+			"3dCamera": "",
+			"3dArmor": "set=1_1;hairs=3;hairs_color=2",
+			"3dPicture": "r_4.png",
+			"immunity": {
+				"1": "1",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"399": {
+			"id": 399,
+			"title": "Başkeser",
+			"3dModel": "1",
+			"3dCamera": "",
+			"3dArmor": "weapon=5_2;helm=5;hand_l=1;hand_r=1;torso=5;shoulderstrap=8;belt=4;pelvis=3;boots=1",
+			"3dPicture": "r_5.jpg",
+			"immunity": {
+				"1": "2",
+				"2": "3"
+			},
+			"magic": "",
+			"scale": 1.2,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"400": {
+			"id": 400,
+			"title": "Çılgın Amazon",
+			"3dModel": "60_1",
+			"3dCamera": "",
+			"3dArmor": "weapon=60_1;hand_l=60_1",
+			"3dPicture": "cg_1.jpg",
+			"immunity": {
+				"1": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"401": {
+			"id": 401,
+			"title": "Çılgın Muhafız",
+			"3dModel": "2",
+			"3dCamera": "",
+			"3dArmor": "set=9;weapon=9_4;hairs=1;hairs_color=1",
+			"3dPicture": "cg_2.png",
+			"immunity": {
+				"1": "2"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"402": {
+			"id": 402,
+			"title": "Çılgın Casus",
+			"3dModel": "1",
+			"3dCamera": "",
+			"3dArmor": "set=8;weapon=8_4",
+			"3dPicture": "cg_3.png",
+			"immunity": {
+				"1": "1"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"403": {
+			"id": 403,
+			"title": "Çılgın Kadın",
+			"3dModel": "2",
+			"3dCamera": "",
+			"3dArmor": "set=4;weapon=7_4;hairs=1;hairs_color=1",
+			"3dPicture": "cg_4.png",
+			"immunity": {
+				"1": "3"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"404": {
+			"id": 404,
+			"title": "Çılgın Savaşçı",
+			"3dModel": "2",
+			"3dCamera": "",
+			"3dArmor": "set=8;weapon=8_4",
+			"3dPicture": "cg_5.png",
+			"immunity": {
+				"1": "1"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"405": {
+			"id": 405,
+			"title": "Çılgın Gazi",
+			"3dModel": "1",
+			"3dCamera": "",
+			"3dArmor": "set=9;weapon=9_4",
+			"3dPicture": "cg_6.png",
+			"immunity": {
+				"1": "2"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"406": {
+			"id": 406,
+			"title": "Çılgın Prenses",
+			"3dModel": "2",
+			"3dCamera": "",
+			"3dArmor": "set=17",
+			"3dPicture": "cg_7.png",
+			"immunity": {
+				"1": "1",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"407": {
+			"id": 407,
+			"title": "Yeniden Doğmuş Kristalit",
+			"3dModel": "46",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_46.jpg",
+			"immunity": {
+				"1": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"408": {
+			"id": 408,
+			"title": "Tan Rengi Rikar",
+			"3dModel": "62_3",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_62_3.jpg",
+			"immunity": {
+				"1": "3"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"409": {
+			"id": 409,
+			"title": "Mağara Ogru",
+			"3dModel": "15",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_15.jpg",
+			"immunity": {
+				"1": "3",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"410": {
+			"id": 410,
+			"title": "Genç Kristalit",
+			"3dModel": "46",
+			"3dCamera": "",
+			"3dArmor": "helm=3",
+			"3dPicture": "01_46_2.jpg",
+			"immunity": {
+				"1": "3"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"411": {
+			"id": 411,
+			"title": "Yaşlı Kristalit",
+			"3dModel": "46",
+			"3dCamera": "",
+			"3dArmor": "helm=3;hand_l=3;hand_r=3",
+			"3dPicture": "01_46_3.jpg",
+			"immunity": {
+				"1": "3",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"412": {
+			"id": 412,
+			"title": "Uyandırılmış Kristalon",
+			"3dModel": "47",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_47.jpg",
+			"immunity": {
+				"1": "2",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 1.3,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"413": {
+			"id": 413,
+			"title": "Tepeli Seraptor",
+			"3dModel": "58",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_58.jpg",
+			"immunity": {
+				"1": "1"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"414": {
+			"id": 414,
+			"title": "Dev Domuz",
+			"3dModel": "71",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_71.jpg",
+			"immunity": {
+				"1": "2",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "attack_forward;attack_left",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"415": {
+			"id": 415,
+			"title": "Kuduz Domuz",
+			"3dModel": "10",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_10.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "2"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "attack_forward;attack_left",
+			"eyes": 0
+		},
+		"416": {
+			"id": 416,
+			"title": "Şeytani Domuz",
+			"3dModel": "20",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_20.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "2"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "attack_forward;attack_left",
+			"eyes": 0
+		},
+		"417": {
+			"id": 417,
+			"title": "Şeytan Domuz",
+			"3dModel": "21",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_21.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "2",
+				"3": "4"
+			},
+			"magic": "",
+			"scale": 1.3,
+			"closedActions": "attack_forward;attack_left",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"418": {
+			"id": 418,
+			"title": "Giplapos",
+			"3dModel": "53",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_53.jpg",
+			"immunity": {
+				"1": "2",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"419": {
+			"id": 419,
+			"title": "Avcı Çrevus",
+			"3dModel": "51",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_51.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "3"
+			},
+			"magic": "",
+			"scale": 1.2,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"420": {
+			"id": 420,
+			"title": "Yetişkin Giplapos",
+			"3dModel": "53",
+			"3dCamera": "",
+			"3dArmor": "helm=3",
+			"3dPicture": "01_53_3.jpg",
+			"immunity": {
+				"1": "2",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 1.2,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"422": {
+			"id": 422,
+			"title": "Kum Kırkayağı",
+			"3dModel": "68",
+			"3dCamera": "",
+			"3dArmor": "helm=3",
+			"3dPicture": "01_68_3.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "2"
+			},
+			"magic": "",
+			"scale": 1.2,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"423": {
+			"id": 423,
+			"title": "Şergora",
+			"3dModel": "63",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_63.jpg",
+			"immunity": {
+				"1": "2",
+				"2": "3",
+				"3": "4"
+			},
+			"magic": "",
+			"scale": 1.2,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"425": {
+			"id": 425,
+			"title": "Harmancı",
+			"3dModel": "55",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_55.jpg",
+			"immunity": {
+				"1": "2",
+				"2": "3"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"426": {
+			"id": 426,
+			"title": "Lider Harmancı",
+			"3dModel": "55",
+			"3dCamera": "",
+			"3dArmor": "helm=3",
+			"3dPicture": "01_55_3.jpg",
+			"immunity": {
+				"1": "2",
+				"2": "3"
+			},
+			"magic": "",
+			"scale": 1.2,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"468": {
+			"id": 468,
+			"title": "Çılgın Cellat",
+			"3dModel": "1",
+			"3dCamera": "",
+			"3dArmor": "set=17",
+			"3dPicture": "cg_8.png",
+			"immunity": {
+				"1": "2",
+				"2": "3"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"469": {
+			"id": 469,
+			"title": "Boynuzlu Koren",
+			"3dModel": "1",
+			"3dCamera": "",
+			"3dArmor": "weapon=10;set=16",
+			"3dPicture": "cg_9.png",
+			"immunity": {
+				"1": "3"
+			},
+			"magic": "",
+			"scale": 1.3,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"470": {
+			"id": 470,
+			"title": "Yok Edici Ogr",
+			"3dModel": "15",
+			"3dCamera": "",
+			"3dArmor": "helm=1",
+			"3dPicture": "01_15.jpg",
+			"immunity": {
+				"1": "3",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"473": {
+			"id": 473,
+			"title": "Ogr Beyi",
+			"3dModel": "15",
+			"3dCamera": "",
+			"3dArmor": "helm=2",
+			"3dPicture": "01_15_2.jpg",
+			"immunity": {
+				"1": "3",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 1.1,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"475": {
+			"id": 475,
+			"title": "Çrevus",
+			"3dModel": "51",
+			"3dCamera": "",
+			"3dArmor": "helm=3",
+			"3dPicture": "01_51_3.jpg",
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"476": {
+			"id": 476,
+			"title": "Kabadayı Mutant",
+			"3dModel": "70_1",
+			"3dCamera": "",
+			"3dArmor": "weapon=70_1",
+			"3dPicture": "01_70_1.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "2",
+				"3": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"477": {
+			"id": 477,
+			"title": "Savaşçı Mutant",
+			"3dModel": "70_2",
+			"3dCamera": "",
+			"3dArmor": "weapon=70_2",
+			"3dPicture": "01_70_2.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "2",
+				"3": "4"
+			},
+			"magic": "",
+			"scale": 1.1,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"478": {
+			"id": 478,
+			"title": "Casus Mutant",
+			"3dModel": "71_2",
+			"3dCamera": "",
+			"3dArmor": "torso=1;hand_l=1",
+			"3dPicture": "01_71_2.jpg",
+			"immunity": {
+				"1": "3",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"480": {
+			"id": 480,
+			"title": "Komutan Mutant",
+			"3dModel": "70_3",
+			"3dCamera": "",
+			"3dArmor": "weapon=70_3",
+			"3dPicture": "01_70_3.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "2",
+				"3": "4"
+			},
+			"magic": "",
+			"scale": 1.2,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"481": {
+			"id": 481,
+			"title": "Saldırgan Mutant",
+			"3dModel": "71_3",
+			"3dCamera": "",
+			"3dArmor": "torso=2;hand_l=1;pelvis=1",
+			"3dPicture": "01_71_3.jpg",
+			"immunity": {
+				"1": "3",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"482": {
+			"id": 482,
+			"title": "Şaman Mutant",
+			"3dModel": "70_4",
+			"3dCamera": "",
+			"3dArmor": "weapon=70_4",
+			"3dPicture": "01_70_4.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "2",
+				"3": "3"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"483": {
+			"id": 483,
+			"title": "Gaddar Grizl",
+			"3dModel": "12",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_12.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "2"
+			},
+			"magic": "1",
+			"scale": 1.3,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"484": {
+			"id": 484,
+			"title": "Avcı Örümcek",
+			"3dModel": "77_2",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_77_3.jpg",
+			"immunity": {
+				"1": "3",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"485": {
+			"id": 485,
+			"title": "Zehirli Bataklık Katili",
+			"3dModel": "17",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_17.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"486": {
+			"id": 486,
+			"title": "Zümrüt Rogaç",
+			"3dModel": "44",
+			"3dCamera": "",
+			"3dArmor": "helm=4",
+			"3dPicture": "01_44_4.jpg",
+			"immunity": {
+				"1": "2",
+				"2": "3",
+				"3": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"487": {
+			"id": 487,
+			"title": "Kılıç Dişli Panter",
+			"3dModel": "62_4",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_62_4.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "3"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"488": {
+			"id": 488,
+			"title": "Ölüm Avcısı Zıpır",
+			"3dModel": "65_2",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_65_2.jpg",
+			"immunity": {
+				"1": "2",
+				"2": "4"
+			},
+			"magic": "4",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"489": {
+			"id": 489,
+			"title": "Kumsal Krabnidi",
+			"3dModel": "57",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_56_7.jpg",
+			"immunity": {
+				"1": "3",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 1.3,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"490": {
+			"id": 490,
+			"title": "Çılgın Barbar",
+			"3dModel": "60_4",
+			"3dCamera": "",
+			"3dArmor": "weapon=60_4",
+			"3dPicture": "01_60_4.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "3"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"491": {
+			"id": 491,
+			"title": "Lanetli Ruh",
+			"3dModel": "29",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_29.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"492": {
+			"id": 492,
+			"title": "Sovernig",
+			"3dModel": "45",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_45.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "3",
+				"3": "4"
+			},
+			"magic": "",
+			"scale": 1.2,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"493": {
+			"id": 493,
+			"title": "Yamyam Ruh",
+			"3dModel": "43",
+			"3dCamera": "",
+			"3dArmor": "weapon=43",
+			"3dPicture": "01_43.jpg",
+			"magic": "",
+			"scale": 1.3,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"494": {
+			"id": 494,
+			"title": "Lanetli Kahraman",
+			"3dModel": "50",
+			"3dCamera": "",
+			"3dArmor": "weapon=50",
+			"3dPicture": "01_49.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "2",
+				"3": "4"
+			},
+			"magic": "",
+			"scale": 1.3,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"495": {
+			"id": 495,
+			"title": "Şampiyon İskelet",
+			"3dModel": "49",
+			"3dCamera": "",
+			"3dArmor": "weapon=49",
+			"3dPicture": "01_50.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "2"
+			},
+			"magic": "",
+			"scale": 1.1,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"496": {
+			"id": 496,
+			"title": "Leşçi Seraptor",
+			"3dModel": "58_3",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_58_3.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "3",
+				"3": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"497": {
+			"id": 497,
+			"title": "Gulyabani",
+			"3dModel": "37",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_37.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "3"
+			},
+			"magic": "",
+			"scale": 1.2,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"498": {
+			"id": 498,
+			"title": "Dirilmiş Ceset",
+			"3dModel": "35",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_35.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "3"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"625": {
+			"id": 625,
+			"title": "Reis Ana",
+			"3dModel": "82",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_82.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "2",
+				"3": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"820": {
+			"id": 820,
+			"title": "Kara Elf",
+			"3dModel": "90_1",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_90_1.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "2",
+				"3": "3",
+				"4": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"1188": {
+			"id": 1188,
+			"title": "Şeytani Una",
+			"3dModel": "64_1",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_64.jpg",
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": "1.2",
+			"maxVersion": null
+		},
+		"1189": {
+			"id": 1189,
+			"title": "Ölümi Rikar",
+			"3dModel": "72_2",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_72_2.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 1.2,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": "1.2",
+			"maxVersion": null
+		},
+		"1190": {
+			"id": 1190,
+			"title": "Zebani Una",
+			"3dModel": "64_2",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_64.jpg",
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": "1.2",
+			"maxVersion": null
+		},
+		"1191": {
+			"id": 1191,
+			"title": "Ezeli Şeytan Una",
+			"3dModel": "64_3",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_64.jpg",
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": "1.2",
+			"maxVersion": null
+		},
+		"1863": {
+			"id": 1863,
+			"title": "Bataklık Kraliçesi",
+			"3dModel": "2",
+			"3dCamera": "",
+			"3dArmor": "pelvis=2_1;boots=2_1;torso=2_1;hairs=8;hairs_color=10",
+			"3dPicture": "topr2",
+			"immunity": {
+				"1": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null,
+			"skinColor": "green"
+		},
+		"1864": {
+			"id": 1864,
+			"title": "Avcı Topr",
+			"3dModel": "1",
+			"3dCamera": "",
+			"3dArmor": "torso=2_1;pelvis=2_1;boots=2_1",
+			"3dPicture": "topr1",
+			"immunity": {
+				"1": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null,
+			"skinColor": "green"
+		},
+		"1865": {
+			"id": 1865,
+			"title": "Kemikkıran Topr",
+			"3dModel": "1",
+			"3dCamera": "",
+			"3dArmor": "set=2_1;weapon=8_5",
+			"3dPicture": "topr1",
+			"immunity": {
+				"1": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null,
+			"skinColor": "green"
+		},
+		"1866": {
+			"id": 1866,
+			"title": "Bataklık Prensesi",
+			"3dModel": "2",
+			"3dCamera": "",
+			"3dArmor": "set=2_1;hairs=8;hairs_color=10;weapon=11",
+			"3dPicture": "topr2",
+			"immunity": {
+				"1": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null,
+			"skinColor": "green"
+		},
+		"1867": {
+			"id": 1867,
+			"title": "Bataklık Efendisi",
+			"3dModel": "1",
+			"3dCamera": "",
+			"3dArmor": "set=2_1;weapon=24_1",
+			"3dPicture": "topr1",
+			"immunity": {
+				"1": "3",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 1.2,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null,
+			"skinColor": "green"
+		}
+	}
+}

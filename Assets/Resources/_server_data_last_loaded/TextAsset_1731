@@ -1,0 +1,24 @@
+{
+	"sets": {
+		"1": {
+			"id": 147,
+			"title": "Plünderer",
+			"setId": 1
+		},
+		"2": {
+			"id": 160,
+			"title": "Rabauke",
+			"setId": 2
+		},
+		"3": {
+			"id": 168,
+			"title": "Zerstörer",
+			"setId": 3
+		},
+		"4": {
+			"id": 169,
+			"title": "Tyrann",
+			"setId": 4
+		}
+	}
+}

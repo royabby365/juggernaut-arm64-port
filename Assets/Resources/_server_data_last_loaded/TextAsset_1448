@@ -1,0 +1,122 @@
+{
+	"skillArtikuls": {
+		"BE": {
+			"id": 648,
+			"title": "Expérience",
+			"code": "BE",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 0
+		},
+		"BM": {
+			"id": 647,
+			"title": "Sorts",
+			"code": "BM",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 0
+		},
+		"BMn": {
+			"id": 652,
+			"title": "Monnaie",
+			"code": "BMn",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 0
+		},
+		"BR": {
+			"id": 646,
+			"title": "Provoquer",
+			"code": "BR",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 0
+		},
+		"DARK": {
+			"id": 505,
+			"title": "Ténèbres",
+			"code": "DARK",
+			"weight": 1,
+			"skillPoints": 0,
+			"flags": 0
+		},
+		"FIRE": {
+			"id": 503,
+			"title": "Feu",
+			"code": "FIRE",
+			"weight": 1,
+			"skillPoints": 0,
+			"flags": 0
+		},
+		"FullMana": {
+			"id": 1059,
+			"title": "Mana",
+			"description": "Mana maximal au début du combat",
+			"code": "FullMana",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 0
+		},
+		"FullRage": {
+			"id": 1060,
+			"title": "Furie",
+			"description": "Fureur maximale au début du combat",
+			"code": "FullRage",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 0
+		},
+		"ICE": {
+			"id": 504,
+			"title": "Glace",
+			"code": "ICE",
+			"weight": 1,
+			"skillPoints": 0,
+			"flags": 0
+		},
+		"LIGHT": {
+			"id": 506,
+			"title": "Foudre",
+			"code": "LIGHT",
+			"weight": 1,
+			"skillPoints": 0,
+			"flags": 0
+		},
+		"RAG": {
+			"id": 56,
+			"title": "Vaillance",
+			"description": "Détermine les chances de porter un coup plus puissant.",
+			"code": "RAG",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 7
+		},
+		"SOR": {
+			"id": 57,
+			"title": "Magie",
+			"description": "Réduit les dommages subis lors d'attaques physiques.",
+			"code": "SOR",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 7
+		},
+		"STR": {
+			"id": 35,
+			"title": "Pouvoir",
+			"description": "Détermine les dommages au combat<br>10. 10 unités de puissance augmentent les dommages moyens d'un point.",
+			"code": "STR",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 7
+		},
+		"VIT": {
+			"id": 55,
+			"title": "Vie",
+			"description": "Détermine ton niveau de vie au combat.",
+			"code": "VIT",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 7
+		}
+	}
+}

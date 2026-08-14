@@ -1,0 +1,1467 @@
+{
+	"phrases": {
+		"AchievDataHeader": {
+			"id": 937,
+			"code": "AchievDataHeader",
+			"text": "Beau combat, guerrier ! ^^ N'oublie pas ces achèvements :"
+		},
+		"AchievHeader": {
+			"id": 936,
+			"code": "AchievHeader",
+			"text": "Tu as réalisé :"
+		},
+		"AchievSocialLabel": {
+			"id": 938,
+			"code": "AchievSocialLabel",
+			"text": "Partager avec ses amis :"
+		},
+		"AchievementsAll": {
+			"id": 943,
+			"code": "AchievementsAll",
+			"text": "Tous"
+		},
+		"AchievementsLocked": {
+			"id": 944,
+			"code": "AchievementsLocked",
+			"text": "Fermé"
+		},
+		"AchievementsProgress": {
+			"id": 942,
+			"code": "AchievementsProgress",
+			"text": "Évolution générale des accomplissements"
+		},
+		"AchievementsRating": {
+			"id": 946,
+			"code": "AchievementsRating",
+			"text": "Classement"
+		},
+		"AchievementsUnlocked": {
+			"id": 945,
+			"code": "AchievementsUnlocked",
+			"text": "Ouvert"
+		},
+		"AchivsAll": {
+			"id": 918,
+			"code": "AchivsAll",
+			"text": "Tous"
+		},
+		"AchivsDone": {
+			"id": 919,
+			"code": "AchivsDone",
+			"text": "Obtenu"
+		},
+		"AchivsRating": {
+			"id": 921,
+			"code": "AchivsRating",
+			"text": "Classement"
+		},
+		"AchivsTotalProgress": {
+			"id": 917,
+			"code": "AchivsTotalProgress",
+			"text": "ÉVOLUTION GÉNÉRALE DES ACCOMPLISSEMENTS"
+		},
+		"AchivsUndone": {
+			"id": 920,
+			"code": "AchivsUndone",
+			"text": "Non ramassé"
+		},
+		"AddFriendsMessage": {
+			"id": 1108,
+			"code": "AddFriendsMessage",
+			"text": "Invite tes amis au Centre du jeu pour comparer vos points."
+		},
+		"AlertNoInternet": {
+			"id": 1115,
+			"code": "AlertNoInternet",
+			"text": "Cette option n'est pas disponible car tu n'es actuellement pas connecté à Internet."
+		},
+		"AvailableForMining": {
+			"id": 1951,
+			"code": "AvailableForMining",
+			"text": "Disponible pour_^^ dans les mines :"
+		},
+		"BagBag": {
+			"id": 247,
+			"code": "BagBag",
+			"text": "Sac à dos"
+		},
+		"BagDark": {
+			"id": 259,
+			"code": "BagDark",
+			"text": "Ténèbres +{0} %"
+		},
+		"BagElixirs": {
+			"id": 254,
+			"code": "BagElixirs",
+			"text": "Élixirs de combat"
+		},
+		"BagEquipment": {
+			"id": 246,
+			"code": "BagEquipment",
+			"text": "Équipement"
+		},
+		"BagFire": {
+			"id": 257,
+			"code": "BagFire",
+			"text": "Feu +{0} %"
+		},
+		"BagIce": {
+			"id": 256,
+			"code": "BagIce",
+			"text": "Glace +{0} %"
+		},
+		"BagLighting": {
+			"id": 258,
+			"code": "BagLighting",
+			"text": "Foudre +{0}%"
+		},
+		"BagParams": {
+			"id": 248,
+			"code": "BagParams",
+			"text": "Attributs"
+		},
+		"BagPoints": {
+			"id": 255,
+			"code": "BagPoints",
+			"text": "Points libres pour la distribution : {0}"
+		},
+		"BagResources": {
+			"id": 253,
+			"code": "BagResources",
+			"text": "Ressources"
+		},
+		"BagSwitchItems": {
+			"id": 842,
+			"code": "BagSwitchItems",
+			"text": "Sac à dos"
+		},
+		"BagSwitchParameters": {
+			"id": 841,
+			"code": "BagSwitchParameters",
+			"text": "Paramètres"
+		},
+		"Bank": {
+			"id": 809,
+			"code": "Bank",
+			"text": "BANQUE"
+		},
+		"BankBonus": {
+			"id": 807,
+			"code": "BankBonus",
+			"text": "bonus"
+		},
+		"BankBuyDoneFail": {
+			"id": 993,
+			"code": "BankBuyDoneFail",
+			"text": "L'achat a échoué"
+		},
+		"BankBuyDoneSuccessfull": {
+			"id": 992,
+			"code": "BankBuyDoneSuccessfull",
+			"text": "L'achat a été effectué"
+		},
+		"BankBuyError": {
+			"id": 959,
+			"code": "BankBuyError",
+			"text": "Une erreur s'est produite lors de l'achat. Réessaie plus tard."
+		},
+		"BankCost": {
+			"id": 808,
+			"code": "BankCost",
+			"text": "prix"
+		},
+		"BankCount": {
+			"id": 806,
+			"code": "BankCount",
+			"text": "quantité"
+		},
+		"BankTimeout": {
+			"id": 994,
+			"code": "BankTimeout",
+			"text": "Ton achat est en cours. Merci de patienter."
+		},
+		"BankWaitMessage": {
+			"id": 991,
+			"code": "BankWaitMessage",
+			"text": "Requête en cours de traitement..."
+		},
+		"BattleAttack": {
+			"id": 264,
+			"code": "BattleAttack",
+			"text": "Attaquer"
+		},
+		"BattleLostStartOver": {
+			"id": 913,
+			"code": "BattleLostStartOver",
+			"text": "Recommencer"
+		},
+		"BattleResultEtalon": {
+			"id": 1137,
+			"code": "BattleResultEtalon",
+			"text": "Dont critiques :"
+		},
+		"BattleResultRating": {
+			"id": 1138,
+			"code": "BattleResultRating",
+			"text": "Classement au combat :"
+		},
+		"BattleResultRatingName0": {
+			"id": 1139,
+			"code": "BattleResultRatingName0",
+			"text": "Jeu d'enfant"
+		},
+		"BattleResultRatingName1": {
+			"id": 1140,
+			"code": "BattleResultRatingName1",
+			"text": "Combat violent"
+		},
+		"BattleResultRatingName2": {
+			"id": 1141,
+			"code": "BattleResultRatingName2",
+			"text": "Massacre"
+		},
+		"BattleResultRatingName3": {
+			"id": 1142,
+			"code": "BattleResultRatingName3",
+			"text": "Massacre sauvage"
+		},
+		"BattleResultRatingName4": {
+			"id": 1143,
+			"code": "BattleResultRatingName4",
+			"text": "Fou furieux en liberté !"
+		},
+		"BattleResultReal": {
+			"id": 1136,
+			"code": "BattleResultReal",
+			"text": "Résultats du combat :"
+		},
+		"BattleResultTurnsCount": {
+			"id": 1144,
+			"code": "BattleResultTurnsCount",
+			"text": "{0} coups"
+		},
+		"Bonuses": {
+			"id": 840,
+			"code": "Bonuses",
+			"text": "Bonus :"
+		},
+		"ButtonAddFriends": {
+			"id": 1107,
+			"code": "ButtonAddFriends",
+			"text": "Ajouter des amis"
+		},
+		"ButtonBuy": {
+			"id": 459,
+			"code": "ButtonBuy",
+			"text": "Acheter"
+		},
+		"ButtonBuyAndPuton": {
+			"id": 460,
+			"code": "ButtonBuyAndPuton",
+			"text": "Acheter et saisir"
+		},
+		"ButtonCancel": {
+			"id": 458,
+			"code": "ButtonCancel",
+			"text": "Annuler"
+		},
+		"ButtonClose": {
+			"id": 729,
+			"code": "ButtonClose",
+			"text": "Fermer"
+		},
+		"ButtonContinue": {
+			"id": 464,
+			"code": "ButtonContinue",
+			"text": "Continuer"
+		},
+		"ButtonFight": {
+			"id": 462,
+			"code": "ButtonFight",
+			"text": "Attaquer"
+		},
+		"ButtonFullRating": {
+			"id": 1106,
+			"code": "ButtonFullRating",
+			"text": "Classement complet"
+		},
+		"ButtonGoToBag": {
+			"id": 511,
+			"code": "ButtonGoToBag",
+			"text": "Vers le sac à dos"
+		},
+		"ButtonGoToShop": {
+			"id": 764,
+			"code": "ButtonGoToShop",
+			"text": "Vers l'échoppe"
+		},
+		"ButtonImprove": {
+			"id": 474,
+			"code": "ButtonImprove",
+			"text": "Améliorer"
+		},
+		"ButtonMax": {
+			"id": 514,
+			"code": "ButtonMax",
+			"text": "Maximum"
+		},
+		"ButtonNo": {
+			"id": 466,
+			"code": "ButtonNo",
+			"text": "Non"
+		},
+		"ButtonOk": {
+			"id": 457,
+			"code": "ButtonOk",
+			"text": "Appliquer"
+		},
+		"ButtonPutoff": {
+			"id": 1193,
+			"code": "ButtonPutoff",
+			"text": "Ignorer"
+		},
+		"ButtonPuton": {
+			"id": 501,
+			"code": "ButtonPuton",
+			"text": "Équiper"
+		},
+		"ButtonSell": {
+			"id": 461,
+			"code": "ButtonSell",
+			"text": "Vendre"
+		},
+		"ButtonYes": {
+			"id": 465,
+			"code": "ButtonYes",
+			"text": "Oui"
+		},
+		"BuyFor": {
+			"id": 1952,
+			"code": "BuyFor",
+			"text": "Améliore pour"
+		},
+		"CastGestureHelp": {
+			"id": 450,
+			"code": "CastGestureHelp",
+			"text": "Pour lancer un sort, représente le symbole de l'école de magie correspondante."
+		},
+		"ChooseCharBeginGame": {
+			"id": 839,
+			"code": "ChooseCharBeginGame",
+			"text": "Jouer"
+		},
+		"ChooseCharFeature": {
+			"id": 939,
+			"code": "ChooseCharFeature",
+			"text": "Caractéristiques :"
+		},
+		"ChooseCharPreferences": {
+			"id": 838,
+			"code": "ChooseCharPreferences",
+			"text": "Magie :"
+		},
+		"ChoosePrize": {
+			"id": 509,
+			"code": "ChoosePrize",
+			"text": "Choisis ta récompense :"
+		},
+		"ChoosePrizeExecution": {
+			"id": 950,
+			"code": "ChoosePrizeExecution",
+			"text": "Sélectionne une récompense additionnelle pour l'exécution :"
+		},
+		"CompareChosen": {
+			"id": 471,
+			"code": "CompareChosen",
+			"text": "Sélectionné"
+		},
+		"ComparePuton": {
+			"id": 472,
+			"code": "ComparePuton",
+			"text": "Saisi"
+		},
+		"CompareSellItem": {
+			"id": 949,
+			"code": "CompareSellItem",
+			"text": "Es-tu sûr de vouloir vendre cet article {0} ?"
+		},
+		"ConditionBlocks": {
+			"id": 743,
+			"code": "ConditionBlocks",
+			"text": "Bloque un coup {1} fois au combat et gagne"
+		},
+		"ConditionCritsInRow": {
+			"id": 746,
+			"code": "ConditionCritsInRow",
+			"text": "Délivre {1} coups critiques d'affilée et gagne le combat"
+		},
+		"ConditionFatalities": {
+			"id": 745,
+			"code": "ConditionFatalities",
+			"text": "Procède à {0} exécutions"
+		},
+		"ConditionKills": {
+			"id": 747,
+			"code": "ConditionKills",
+			"text": "Achève ton ennemi quand ils ont {1} points de vie ou moins"
+		},
+		"ConditionMagicCast": {
+			"id": 1927,
+			"code": "ConditionMagicCast",
+			"text": "Utilise la magie {1} fois ou plus pendant un combat"
+		},
+		"ConditionNoMisses": {
+			"id": 742,
+			"code": "ConditionNoMisses",
+			"text": "Gagne le combat de façon à ce que toutes les attaques atteignent leur cible ^^ (l'ennemi ne bloquera pas et n'esquivera pas les coups)"
+		},
+		"ConditionWinWithHP": {
+			"id": 744,
+			"code": "ConditionWinWithHP",
+			"text": "Gagne un combat avec un niveau de vie > {1} %"
+		},
+		"DarkElfName": {
+			"id": 1067,
+			"code": "DarkElfName",
+			"text": "Elfe des ténèbres"
+		},
+		"DealOfTheDay": {
+			"id": 1962,
+			"code": "DealOfTheDay",
+			"text": "AFFAIRE DU ^^ JOUR"
+		},
+		"DefeatGoodsHeader": {
+			"id": 988,
+			"code": "DefeatGoodsHeader",
+			"text": "Pour gagner, n'oublie pas d'améliorer ton armement :"
+		},
+		"ElfPhrase1": {
+			"id": 1064,
+			"code": "ElfPhrase1",
+			"text": "Misérable humain ! Tu es tombé sur une cache des elfes des ténèbres. Je veille sur ces trésors et ne laissera personne y toucher. Va t'en ou je te taille en pièces !"
+		},
+		"ElfPhrase2": {
+			"id": 1071,
+			"code": "ElfPhrase2",
+			"text": "Si tu crois que je vais te permettre d'ouvrir une autre cache, tu te trompes littéralement ! Un coup d'épée et tu es mort ! Va au diable !"
+		},
+		"EpicItemInfo": {
+			"id": 1267,
+			"code": "EpicItemInfo",
+			"text": "Cette armure peut être améliorée et transformée en article légendaire. Pour ce faire, utilise les points du statut \" légendaire\" reçus à chaque combat pour ton classement."
+		},
+		"ExCongratText1": {
+			"id": 793,
+			"code": "ExCongratText1",
+			"text": "Tu as ouvert un chapitre additionnel."
+		},
+		"ExCongratText2": {
+			"id": 794,
+			"code": "ExCongratText2",
+			"text": "Utilise la carte pour y aller."
+		},
+		"ExLootLabel": {
+			"id": 728,
+			"code": "ExLootLabel",
+			"text": "Récompense de fin de chapitre"
+		},
+		"ExOpenButton": {
+			"id": 727,
+			"code": "ExOpenButton",
+			"text": "Ouvert pour : {0}"
+		},
+		"ExOpenConditionLabel": {
+			"id": 726,
+			"code": "ExOpenConditionLabel",
+			"text": "Pour ouvrir un chapitre, réalise un exploit :"
+		},
+		"ExecutionHelp": {
+			"id": 448,
+			"code": "ExecutionHelp",
+			"text": "Pour procéder à l'exécution, fais glisser ton doigt sur l'écran et taille l'adversaire en pièces."
+		},
+		"ExecutionLabel": {
+			"id": 508,
+			"code": "ExecutionLabel",
+			"text": "Exécution"
+		},
+		"FightResultsAddAnger": {
+			"id": 454,
+			"code": "FightResultsAddAnger",
+			"text": "{0} coup"
+		},
+		"FightResultsAddExp": {
+			"id": 455,
+			"code": "FightResultsAddExp",
+			"text": "+{0} points d'expérience"
+		},
+		"FightResultsBlock": {
+			"id": 657,
+			"code": "FightResultsBlock",
+			"text": "Bloquer"
+		},
+		"FightResultsDamage": {
+			"id": 510,
+			"code": "FightResultsDamage",
+			"text": "Dommages"
+		},
+		"FightResultsDodge": {
+			"id": 658,
+			"code": "FightResultsDodge",
+			"text": "Éviter"
+		},
+		"FightResultsFatality": {
+			"id": 701,
+			"code": "FightResultsFatality",
+			"text": "Exécution"
+		},
+		"FightResultsImmunity": {
+			"id": 676,
+			"code": "FightResultsImmunity",
+			"text": "Immunité"
+		},
+		"FightResultsLabel": {
+			"id": 507,
+			"code": "FightResultsLabel",
+			"text": "Résultats du combat"
+		},
+		"FightResultsTurns": {
+			"id": 453,
+			"code": "FightResultsTurns",
+			"text": "{0} tour"
+		},
+		"FightResultsTurnsLabel": {
+			"id": 512,
+			"code": "FightResultsTurnsLabel",
+			"text": "Temps de combat"
+		},
+		"FinalText": {
+			"id": 1020,
+			"code": "FinalText",
+			"text": "Nous sommes vaincus et abattus. Tu as détruit un démon. Nous avions placé tous nos espoirs en sa résurrection, qui nous a coûté moult efforts. Cette stupide philanthropie t'a conduit à faire obstacle à un projet dont la grandeur a dépassé les limites de ton petit esprit. Seules des connaissances, auxquelles tu n'as pas accès, t'aideraient à réaliser ton erreur. Cependant, nous avons aussi une part de responsabilité. Nous n'aurions jamais pensé rencontrer un mortel capable de résister aux démons les plus puissants. Nous ne referons pas la même erreur. Rien n'empêchera plus le processus de renaissance. ^^ Grâce à toi, nous avons renoué avec les joies de la surprise. Pour te remercier, nous allons te révéler notre nom : nous sommes les Masques. Souviens-toi de nous, car nous, nous nous souviendrons de toi."
+		},
+		"GotLevel": {
+			"id": 451,
+			"code": "GotLevel",
+			"text": "Niveau {0} atteint !"
+		},
+		"GotSkillPoints": {
+			"id": 452,
+			"code": "GotSkillPoints",
+			"text": "Points de compétence disponibles - {0}"
+		},
+		"InBattleBerserk": {
+			"id": 615,
+			"code": "InBattleBerserk",
+			"text": "Ton énergie vitale augmente de 50 % pour le reste du combat"
+		},
+		"InBattleChapter": {
+			"id": 620,
+			"code": "InBattleChapter",
+			"text": "Chapitre"
+		},
+		"InBattleFightWith": {
+			"id": 619,
+			"code": "InBattleFightWith",
+			"text": "Combat avec"
+		},
+		"InBattleNextBlock": {
+			"id": 613,
+			"code": "InBattleNextBlock",
+			"text": "Tu vas bloquer le prochain coup de ton adversaire"
+		},
+		"InBattleNextCrit": {
+			"id": 614,
+			"code": "InBattleNextCrit",
+			"text": "Ton prochain coup sera critique et provoquera un drop de mana plus important"
+		},
+		"InsufficientFunds": {
+			"id": 771,
+			"code": "InsufficientFunds",
+			"text": "Tu n'as pas assez d'argent. ^^ Tu peux recharger ton compte à la banque."
+		},
+		"Intro01Text": {
+			"id": 553,
+			"code": "Intro01Text"
+		},
+		"Intro02Center": {
+			"id": 554,
+			"code": "Intro02Center"
+		},
+		"Intro03Text": {
+			"id": 557,
+			"code": "Intro03Text"
+		},
+		"Intro04Center": {
+			"id": 558,
+			"code": "Intro04Center"
+		},
+		"Intro05Text": {
+			"id": 561,
+			"code": "Intro05Text"
+		},
+		"IntroPlace01": {
+			"id": 551,
+			"code": "IntroPlace01"
+		},
+		"IntroPlace03": {
+			"id": 555,
+			"code": "IntroPlace03"
+		},
+		"IntroPlace05": {
+			"id": 559,
+			"code": "IntroPlace05"
+		},
+		"IntroTitle01": {
+			"id": 552,
+			"code": "IntroTitle01"
+		},
+		"IntroTitle03": {
+			"id": 556,
+			"code": "IntroTitle03"
+		},
+		"IntroTitle05": {
+			"id": 560,
+			"code": "IntroTitle05"
+		},
+		"IntroductionText": {
+			"id": 456,
+			"code": "IntroductionText",
+			"text": "\n"
+		},
+		"ItemQuantity": {
+			"id": 941,
+			"code": "ItemQuantity",
+			"text": "unités"
+		},
+		"LabelImmunity": {
+			"id": 499,
+			"code": "LabelImmunity",
+			"text": "Immunité"
+		},
+		"LabelPersMagicPreferenses": {
+			"id": 500,
+			"code": "LabelPersMagicPreferenses",
+			"text": "Préférence"
+		},
+		"LocationChestCountLabel": {
+			"id": 940,
+			"code": "LocationChestCountLabel",
+			"text": "Trésors enfouis"
+		},
+		"LocationPopulationAtacked": {
+			"id": 810,
+			"code": "LocationPopulationAtacked",
+			"text": "Les habitants ont été attaqués !"
+		},
+		"LocationPopulationMax": {
+			"id": 846,
+			"code": "LocationPopulationMax",
+			"text": "La population locale te prépare un présent."
+		},
+		"LocationPopulationPeace": {
+			"id": 811,
+			"code": "LocationPopulationPeace",
+			"text": "La population locale augmente. Les habitants te paient un tribut."
+		},
+		"LockpickingButtonShowCells": {
+			"id": 935,
+			"code": "LockpickingButtonShowCells",
+			"text": "Jette un coup d'œil."
+		},
+		"LockpickingDifficultyHigh": {
+			"id": 592,
+			"code": "LockpickingDifficultyHigh",
+			"text": "Forçage de serrure - difficile"
+		},
+		"LockpickingDifficultyLow": {
+			"id": 590,
+			"code": "LockpickingDifficultyLow",
+			"text": "Forçage de serrure - facile"
+		},
+		"LockpickingDifficultyMedium": {
+			"id": 591,
+			"code": "LockpickingDifficultyMedium",
+			"text": "Forçage de serrure - moyen"
+		},
+		"LockpickingFindAMatch": {
+			"id": 586,
+			"code": "LockpickingFindAMatch",
+			"text": "Trouve l'élément identique à celui sélectionné."
+		},
+		"LockpickingHelpBottom": {
+			"id": 583,
+			"code": "LockpickingHelpBottom",
+			"text": "Tu peux jeter un œil au dispositif de fermeture pendant {0} secondes. Requiert : {1} passe-partout."
+		},
+		"LockpickingHelpTop": {
+			"id": 582,
+			"code": "LockpickingHelpTop",
+			"text": "Pour forcer le coffre, ouvre les éléments du cadenas paire après paire en utilisant un passe-partout.^^^ \nUne tentative manquée casse le passe-partout."
+		},
+		"LockpickingMatchFound": {
+			"id": 588,
+			"code": "LockpickingMatchFound",
+			"text": "Félicitations ! ^^ Tu as trouvé une paire."
+		},
+		"LockpickingNoMoreLockpicks": {
+			"id": 589,
+			"code": "LockpickingNoMoreLockpicks",
+			"text": "Tu n'as plus de passe-partout ^^ Tu ne peux plus continuer à forcer les coffres."
+		},
+		"LockpickingPrize": {
+			"id": 596,
+			"code": "LockpickingPrize",
+			"text": "Tu ouvres le coffre et tu y trouves :"
+		},
+		"LockpickingSecBeforeGame": {
+			"id": 598,
+			"code": "LockpickingSecBeforeGame",
+			"text": "Début du jeu dans - {0} sec."
+		},
+		"LockpickingWrongMatch": {
+			"id": 587,
+			"code": "LockpickingWrongMatch",
+			"text": "Tu t'es trompé. ^^ Le passe-partout s'est cassé net."
+		},
+		"MBookNeedMoreSkill": {
+			"id": 719,
+			"code": "MBookNeedMoreSkill",
+			"text": "Ton niveau de compétence ne suffit pas pour améliorer le sort. ^^ Tu peux augmenter ta compétence en utilisant ce sort au combat."
+		},
+		"MBookNeedMoreSkulls": {
+			"id": 718,
+			"code": "MBookNeedMoreSkulls",
+			"text": "Tu n'as pas assez de crânes magiques pour améliorer le sort. ^^ Ils se trouvent dans les coffres, peuvent être acquis au combat ou achetés à l'échoppe."
+		},
+		"MBookPower": {
+			"id": 715,
+			"code": "MBookPower",
+			"text": "Puissance {0}"
+		},
+		"MBookSkill": {
+			"id": 716,
+			"code": "MBookSkill",
+			"text": "Compétence {0}/{1}"
+		},
+		"MagicBookHelp": {
+			"id": 479,
+			"code": "MagicBookHelp",
+			"text": "Les crânes enchantés te permette d'améliorer les manœuvres magiques que tu connais et d'en apprendre de nouvelles."
+		},
+		"MagicDark": {
+			"id": 713,
+			"code": "MagicDark",
+			"text": "ténèbres"
+		},
+		"MagicFire": {
+			"id": 711,
+			"code": "MagicFire",
+			"text": "feu"
+		},
+		"MagicIce": {
+			"id": 710,
+			"code": "MagicIce",
+			"text": "glace"
+		},
+		"MagicLighting": {
+			"id": 712,
+			"code": "MagicLighting",
+			"text": "foudre"
+		},
+		"MagicProtectionHelp": {
+			"id": 449,
+			"code": "MagicProtectionHelp",
+			"text": "Mémorise et reproduis la séquence de pas pour esquiver une attaque magique."
+		},
+		"MainMenuLoadGame": {
+			"id": 1054,
+			"code": "MainMenuLoadGame",
+			"text": "Charger le jeu"
+		},
+		"MainMenuNewGame": {
+			"id": 1056,
+			"code": "MainMenuNewGame",
+			"text": "Nouvelle partie"
+		},
+		"MainMenuNewGameAlert": {
+			"id": 1058,
+			"code": "MainMenuNewGameAlert",
+			"text": "Si tu commences une nouvelle partie, tu perds tes progrès réalisés. ^^^ Es-tu sûr de vouloir débuter une nouvelle partie ?"
+		},
+		"MainMenuSave": {
+			"id": 1055,
+			"code": "MainMenuSave",
+			"text": "Sauvegarder"
+		},
+		"Match3BlockerText": {
+			"id": 1919,
+			"code": "Match3BlockerText",
+			"text": "Tu as fini le jeu. Tu peux recommencer."
+		},
+		"Match3ButtonStart": {
+			"id": 1920,
+			"code": "Match3ButtonStart",
+			"text": "Descendre à la mine"
+		},
+		"Match3ButtonUseKeys": {
+			"id": 1917,
+			"code": "Match3ButtonUseKeys",
+			"text": "Remplir"
+		},
+		"Match3DifficultyEasy": {
+			"id": 1924,
+			"code": "Match3DifficultyEasy",
+			"text": "Facile"
+		},
+		"Match3DifficultyNormal": {
+			"id": 1923,
+			"code": "Match3DifficultyNormal",
+			"text": "Difficile"
+		},
+		"Match3HelpBottom": {
+			"id": 1916,
+			"code": "Match3HelpBottom",
+			"text": "Tu peux sinon continuer à remplir l'échelle de temps de {0} passe-partout."
+		},
+		"Match3LootHeader": {
+			"id": 1921,
+			"code": "Match3LootHeader",
+			"text": "Disponible :"
+		},
+		"Match3Mined": {
+			"id": 1925,
+			"code": "Match3Mined",
+			"text": "Obtenu dans les mines"
+		},
+		"Match3Mines": {
+			"id": 1950,
+			"code": "Match3Mines",
+			"text": "Mines"
+		},
+		"Match3Rating": {
+			"id": 1926,
+			"code": "Match3Rating",
+			"text": "Classement des mineurs"
+		},
+		"Match3Title": {
+			"id": 1915,
+			"code": "Match3Title",
+			"text": "RASSEMBLÉS ."
+		},
+		"Match3Tutorial": {
+			"id": 1929,
+			"code": "Match3Tutorial",
+			"text": "Tu es arrivé dans l'une des mines. Tu peux y produire des ressources en détruisant des lignes de blocs identiques pour faire tomber les prix. Chaque jeu est limité en temps. Tu peux profiter du temps maximal à tout moment avec des passe-partout."
+		},
+		"MentorManName": {
+			"id": 1065,
+			"code": "MentorManName",
+			"text": "Instructeur Vellos Jul"
+		},
+		"MentorWomanName": {
+			"id": 1066,
+			"code": "MentorWomanName",
+			"text": "Instructeur Isa"
+		},
+		"MessageNoItems": {
+			"id": 502,
+			"code": "MessageNoItems",
+			"text": "Tu n'as pas d'objet du type sélectionné."
+		},
+		"MsgGetRatingError": {
+			"id": 1104,
+			"code": "MsgGetRatingError",
+			"text": "Le classement n'est pas disponible, car il n'est pas possible de se connecter au Centre du jeu. Ta connexion Internet a peut-être été coupée."
+		},
+		"MsgRatingTimeout": {
+			"id": 1105,
+			"code": "MsgRatingTimeout",
+			"text": "La connexion au Centre du jeu a expiré. Vérifie ta connexion Internet."
+		},
+		"NeedMoreStars": {
+			"id": 1196,
+			"code": "NeedMoreStars",
+			"text": "Les points du statut \" légendaire \" sont nécessaires pour améliorer des objets du héros. Tu en reçois en fonction de ton classement et peux en acheter à l'échoppe."
+		},
+		"NewExecutionLabel": {
+			"id": 762,
+			"code": "NewExecutionLabel",
+			"text": "Nouvelle exécution :"
+		},
+		"NoEpicItems": {
+			"id": 1194,
+			"code": "NoEpicItems",
+			"text": "Tu peux utiliser ces points pour donner le statut de légende à tes objets de héros. Tu ne portes toutefois pas des articles de héros pour le moment. Ceux-si peuvent être achetés à l'échoppe."
+		},
+		"OpsFaqPage": {
+			"id": 1273,
+			"code": "OpsFaqPage",
+			"text": "Ouvre une page du manuel du débutant"
+		},
+		"OpsMusicVolume": {
+			"id": 721,
+			"code": "OpsMusicVolume",
+			"text": "Volume de la musique"
+		},
+		"OpsRestartButton": {
+			"id": 723,
+			"code": "OpsRestartButton",
+			"text": "Menu"
+		},
+		"OpsRestartLabel": {
+			"id": 722,
+			"code": "OpsRestartLabel",
+			"text": "Retour au menu principal"
+		},
+		"OpsSoundsVolume": {
+			"id": 720,
+			"code": "OpsSoundsVolume",
+			"text": "Volume des effets sonores"
+		},
+		"OpsTeaserButton": {
+			"id": 725,
+			"code": "OpsTeaserButton",
+			"text": "Ouvrir"
+		},
+		"OpsTeaserLabel": {
+			"id": 724,
+			"code": "OpsTeaserLabel",
+			"text": "Site web du jeu"
+		},
+		"OpsTutorialToggle": {
+			"id": 912,
+			"code": "OpsTutorialToggle",
+			"text": "Des indices"
+		},
+		"PauseButtonExit": {
+			"id": 911,
+			"code": "PauseButtonExit",
+			"text": "Quitter le combat"
+		},
+		"PauseButtonRestart": {
+			"id": 910,
+			"code": "PauseButtonRestart",
+			"text": "Recommencer"
+		},
+		"PauseButtonResume": {
+			"id": 909,
+			"code": "PauseButtonResume",
+			"text": "Retour au combat"
+		},
+		"PersClassAssassin": {
+			"id": 118,
+			"code": "PersClassAssassin",
+			"text": "Assassin"
+		},
+		"PersClassDefender": {
+			"id": 120,
+			"code": "PersClassDefender",
+			"text": "Défenseur"
+		},
+		"PersClassDestroyer": {
+			"id": 119,
+			"code": "PersClassDestroyer",
+			"text": "Destructeur"
+		},
+		"PlayerAnger": {
+			"id": 245,
+			"code": "PlayerAnger",
+			"text": "Colère {0} %"
+		},
+		"PlayerExperience": {
+			"id": 244,
+			"code": "PlayerExperience",
+			"text": "Expérience {0} %"
+		},
+		"PlayerHealth": {
+			"id": 250,
+			"code": "PlayerHealth",
+			"text": "Vie"
+		},
+		"PlayerMagic": {
+			"id": 251,
+			"code": "PlayerMagic",
+			"text": "Magie"
+		},
+		"PlayerRage": {
+			"id": 249,
+			"code": "PlayerRage",
+			"text": "Vaillance"
+		},
+		"PlayerStrength": {
+			"id": 252,
+			"code": "PlayerStrength",
+			"text": "Pouvoir"
+		},
+		"PostScreenshotToFacebook": {
+			"id": 1167,
+			"code": "PostScreenshotToFacebook",
+			"text": "Dans quelques instants, la capture d'écran sera publiée sur Facebook."
+		},
+		"RatingSocialMessageFacebook": {
+			"id": 1133,
+			"code": "RatingSocialMessageFacebook",
+			"text": "J'ai {0} points dans le jeu \" Juggernaut : La revanche de Sovering \". Les sous-fifres du démon tremblent de peur ! Quel est ton score ?"
+		},
+		"RatingSocialMessageFacebook341Error": {
+			"id": 1135,
+			"code": "RatingSocialMessageFacebook341Error",
+			"text": "La limite de publications sur Facebook a été atteinte. Réessaie plus tard."
+		},
+		"RatingSocialMessageFacebookNotPosted": {
+			"id": 1134,
+			"code": "RatingSocialMessageFacebookNotPosted",
+			"text": "L'envoi du message a échoué."
+		},
+		"RatingSocialMessageTwitter": {
+			"id": 1132,
+			"code": "RatingSocialMessageTwitter",
+			"text": "J'ai {0} points dans le jeu \" Juggernaut : La revanche de Sovering \". Combien en as-tu ?"
+		},
+		"ScarabDig": {
+			"id": 833,
+			"code": "ScarabDig",
+			"text": "Creuser"
+		},
+		"ScarabFind": {
+			"id": 832,
+			"code": "ScarabFind",
+			"text": "Chercher un trésor"
+		},
+		"ScarabInsufficient": {
+			"id": 845,
+			"code": "ScarabInsufficient",
+			"text": "Tu ne peux pas chercher de trésor car tu n'as pas de scarabée. Il t'est possible d'en acheter dans la section \" Divers  de l'échoppe\""
+		},
+		"Shop": {
+			"id": 260,
+			"code": "Shop",
+			"text": "Échoppe"
+		},
+		"ShopAlreadyPurchased": {
+			"id": 792,
+			"code": "ShopAlreadyPurchased",
+			"text": "acquis"
+		},
+		"ShopAlreadyPuton": {
+			"id": 830,
+			"code": "ShopAlreadyPuton",
+			"text": "saisi"
+		},
+		"ShopBuy": {
+			"id": 261,
+			"code": "ShopBuy",
+			"text": "Acheter"
+		},
+		"ShopDivision01": {
+			"id": 765,
+			"code": "ShopDivision01",
+			"text": "Recommandé"
+		},
+		"ShopDivision02": {
+			"id": 766,
+			"code": "ShopDivision02",
+			"text": "Armure"
+		},
+		"ShopDivision03": {
+			"id": 767,
+			"code": "ShopDivision03",
+			"text": "Divers"
+		},
+		"ShopDivision04": {
+			"id": 768,
+			"code": "ShopDivision04",
+			"text": "Prémium"
+		},
+		"ShopDivision05": {
+			"id": 790,
+			"code": "ShopDivision05",
+			"text": "Reliques"
+		},
+		"ShopItemsCount": {
+			"id": 355,
+			"code": "ShopItemsCount",
+			"text": "Quantité"
+		},
+		"ShopItemsUnlocked": {
+			"id": 741,
+			"code": "ShopItemsUnlocked",
+			"text": "Tu peux acheter de nouveaux articles :"
+		},
+		"ShopLevelTooLow": {
+			"id": 791,
+			"code": "ShopLevelTooLow",
+			"text": "Niveau {0} "
+		},
+		"ShopResetButton": {
+			"id": 262,
+			"code": "ShopResetButton",
+			"text": "Réinitialiser"
+		},
+		"ShopResetTime": {
+			"id": 263,
+			"code": "ShopResetTime",
+			"text": "Updating range in"
+		},
+		"ShowTutorial": {
+			"id": 826,
+			"code": "ShowTutorial",
+			"text": "Des indices ?"
+		},
+		"SkillComboDesc": {
+			"id": 971,
+			"code": "SkillComboDesc",
+			"text": "Quand tu as la faculté de faire des combos, tu peux délivrer des coups extrêmement puissants. L'ennemi ne peut ni les esquiver, ni les bloquer."
+		},
+		"SkillComboName": {
+			"id": 970,
+			"code": "SkillComboName",
+			"text": "Combo"
+		},
+		"SkillHeader": {
+			"id": 967,
+			"code": "SkillHeader",
+			"text": "Tu as une nouvelle faculté :"
+		},
+		"SkillMagicDesc": {
+			"id": 973,
+			"code": "SkillMagicDesc",
+			"text": "À présent, tu peux collecter du mana et utiliser des techniques de magie. Ton héros connaît déjà un sort. Tu peux apprendre d'autres sorts du Livre de magie."
+		},
+		"SkillMagicName": {
+			"id": 972,
+			"code": "SkillMagicName",
+			"text": "Sorcellerie"
+		},
+		"SkillRageDesc": {
+			"id": 975,
+			"code": "SkillRageDesc",
+			"text": "Cette capacité te permet de contrôler ta fureur et de la convertir en des techniques de combat spéciales. En utilisant ta fureur, tu peux bloquer les coups de l'adversaire, détruire son mana et le transformer en squelette."
+		},
+		"SkillRageName": {
+			"id": 974,
+			"code": "SkillRageName",
+			"text": "Furie"
+		},
+		"SocialAchivMessage": {
+			"id": 952,
+			"code": "SocialAchivMessage",
+			"text": "J'ai réussi le test \" {0} \""
+		},
+		"SocialAchivMessageFacebook": {
+			"id": 1131,
+			"code": "SocialAchivMessageFacebook",
+			"text": "J'ai réussi l'épreuve \" {0} \" et je me suis approché du repaire du démon ! Peux-tu d'abord éliminer Sovering ?"
+		},
+		"SocialAchivMessageFacebook1": {
+			"id": 968,
+			"code": "SocialAchivMessageFacebook1",
+			"text": "Juggernaut : La revanche de Sovering"
+		},
+		"SocialAchivMessageFacebook2": {
+			"id": 969,
+			"code": "SocialAchivMessageFacebook2"
+		},
+		"SocialAchivMessageTwitter": {
+			"id": 1130,
+			"code": "SocialAchivMessageTwitter",
+			"text": "J'ai réussi le test \" {0} \""
+		},
+		"SovHeader": {
+			"id": 730,
+			"code": "SovHeader",
+			"text": "Sovering, Démon du tourment"
+		},
+		"SovText": {
+			"id": 731,
+			"code": "SovText",
+			"text": "Terrible démon ayant terrorisé les résidents d'Haradan à une époque, et\ndont l'élimination a coûté d'innombrables vies. Aujourd'hui, Sovering s'est réveillé sous les\\traits de quelqu' un d'autre et reprend des forces\nTa mission est de stopper la profusion du mal avant qu'il\nne transforme les terres de Radway et de Dorheim en royaumes des ténèbres."
+		},
+		"StarUpgradeHelp": {
+			"id": 1195,
+			"code": "StarUpgradeHelp",
+			"text": "Indique l'article de héros auxquels tu souhaites donner le statut de légende."
+		},
+		"Tut1_1": {
+			"id": 812,
+			"code": "Tut1_1",
+			"text": "Pour attaquer un monstre, sélectionne une direction en tapant sur l'une des zones vertes sous le monstre. ^^ \nLa zone rouge indique la direction du regard du monstre. Le monstre bloquera ou esquivera une attaque dans cette direction."
+		},
+		"Tut1_2": {
+			"id": 824,
+			"code": "Tut1_2",
+			"text": "Tape sur la zone verte pour attaquer le monstre"
+		},
+		"Tut2_1": {
+			"id": 814,
+			"code": "Tut2_1",
+			"text": "Le bouton des combos est sur la droite. En délivrant des coups dans les directions données, tu peux délivrer un super coup."
+		},
+		"Tut2_2": {
+			"id": 825,
+			"code": "Tut2_2",
+			"text": "Attends que l'ennemi regarde dans une autre que celle de ton attaque et appuie sur le bouton des combos"
+		},
+		"Tut4_1": {
+			"id": 815,
+			"code": "Tut4_1",
+			"text": "Durant le combat, tu as la possibilité de collecter des caillots bleus de mana émis par l'ennemi. Ils te permettent ensuite de lancer des sorts."
+		},
+		"Tut4_1_1": {
+			"id": 827,
+			"code": "Tut4_1_1",
+			"text": "Tape sur le caillot bleu pour gagner du mana"
+		},
+		"Tut4_2": {
+			"id": 816,
+			"code": "Tut4_2",
+			"text": "L'écran présente un panneau de magie. Tu peux jeter un sort lorsque tu as emmagasiné suffisamment de mana bleu."
+		},
+		"Tut4_2_2": {
+			"id": 828,
+			"code": "Tut4_2_2",
+			"text": "Tape sur le bouton magique"
+		},
+		"Tut6_1": {
+			"id": 817,
+			"code": "Tut6_1",
+			"text": "Lors d'attaques ennemies, il est possible que des caillots rouges de fureur apparaissent près de toi. Collecte-les, ils activent certaines facultés."
+		},
+		"Tut6_1_2": {
+			"id": 829,
+			"code": "Tut6_1_2",
+			"text": "Tape sur les caillots rouges pour emmagasiner de la fureur"
+		},
+		"TutAchievmentButton": {
+			"id": 1033,
+			"code": "TutAchievmentButton",
+			"text": "Tu as gagné l'un des accomplissements du jeu. Tu peux voir tous tes accomplissements et te comparer aux autres joueurs en tapant ici."
+		},
+		"TutBagExp": {
+			"id": 927,
+			"code": "TutBagExp",
+			"text": "Tu as reçu un objet donnant un bonus \" Expérience \". Ce bonus détermine l'expérience supplémentaire que tu reçois après une victoire."
+		},
+		"TutBagMagic": {
+			"id": 929,
+			"code": "TutBagMagic",
+			"text": "Tu as reçu un objet donnant un bonus à l'un des types de magie. Celui-ci détermine le % d'augmentation de la force destructrice des sorts avec ce type de magie."
+		},
+		"TutBagMana": {
+			"id": 926,
+			"code": "TutBagMana",
+			"text": "Tu as reçu un objet donnant un bonus \" Mana\". Ce bonus détermine le nombre de caillots de mana supplémentaires que tu peux recevoir. Si le bonus est de 2, tu as de grandes chances de recevoir d'un à deux caillots de fureur supplémentaires."
+		},
+		"TutBagMoney": {
+			"id": 928,
+			"code": "TutBagMoney",
+			"text": "Tu as reçu un objet donnant un bonus \" Monnaie\". Ce bonus détermine la quantité d'or supplémentaire que tu reçois après une victoire."
+		},
+		"TutBagRage": {
+			"id": 925,
+			"code": "TutBagRage",
+			"text": "Tu as reçu un objet donnant un bonus \" Colère \". Ce bonus détermine le nombre de caillots de fureur supplémentaires que tu peux recevoir. Si le bonus est de 1, tu as de grandes chances de recevoir un caillot de fureur supplémentaire."
+		},
+		"TutBattleTurn": {
+			"id": 915,
+			"code": "TutBattleTurn",
+			"text": "Le combat se joue tour à tour. Tu délivres un coup, puis l'ennemi riposte. Tu disposes de quelques secondes entre chaque coup. En haut de l'écran, une bande rouge indique le temps restant."
+		},
+		"TutEndChests": {
+			"id": 916,
+			"code": "TutEndChests",
+			"text": "Tu as déterré tous les trésors enfouis ici. Tu peux en trouver d'autres dans les autres territoires libérés."
+		},
+		"TutEpicItemPuton": {
+			"id": 1201,
+			"code": "TutEpicItemPuton",
+			"text": "Tu as reçu un article du héros pouvant recevoir le statut \" légendaire \". Pour cela, appliques-y le nombre requis de points du statut \" légendaire \"."
+		},
+		"TutEye": {
+			"id": 818,
+			"code": "TutEye",
+			"text": "La fureur que tu as emmagasinée attire l'Œil du chaos, qui s'en nourrit. Plus tu emmagasines de fureur, plus il apparaît souvent. Tu devrais détruire l'Œil du chaos avant qu'il ne dévore toute ta fureur."
+		},
+		"TutEye_2": {
+			"id": 823,
+			"code": "TutEye_2",
+			"text": "Pour détruire l'Œil du chaos, tape dessus jusqu'à ce qu'il explose."
+		},
+		"TutFallingStarPhrase1": {
+			"id": 1244,
+			"code": "TutFallingStarPhrase1",
+			"text": "Pendant un combat, il t'arrivera de voir une étoile filante. Essaie de l'attraper et tu recevras des points du statut \" légendaire \" en bonus."
+		},
+		"TutFallingStarPhrase2": {
+			"id": 1245,
+			"code": "TutFallingStarPhrase2",
+			"text": "Tape sur l'étoile pour recevoir ton bonus à la fin du combat."
+		},
+		"TutFirstMagicBook": {
+			"id": 948,
+			"code": "TutFirstMagicBook",
+			"text": "Ce livre de magie te permet d'apprendre de nouveaux sorts et d'améliorer ceux que tu connais. Pour cela, tu as aussi besoin de crânes magiques et d'un certain niveau de compétence en magie, qui peut être augmenté en utilisant de la magie au combat."
+		},
+		"TutFirstMobAttack": {
+			"id": 947,
+			"code": "TutFirstMobAttack",
+			"text": "Ce territoire a été attaqué par un monstre agressif. Élimine-le au plus vite, ou il va tuer la population locale !"
+		},
+		"TutFirstMoneyPile": {
+			"id": 922,
+			"code": "TutFirstMoneyPile",
+			"text": "Dans les territoires libérés, les habitants collecteront de l'or pour toi. Plus il y aura d'habitants, plus tu auras d'argent. La population augmentera d'elle-même au fil du temps. Retournes-y régulièrement pour prendre l'or collecté pour toi."
+		},
+		"TutGotLevel": {
+			"id": 934,
+			"code": "TutGotLevel",
+			"text": "Tu es passé au niveau supérieur et as désormais accès à trois nouveaux articles. Va à l'échoppe et achète une ceinture, des brassards et une cuirasse. Ces articles te seront bien utiles contre le boss."
+		},
+		"TutImmBattle": {
+			"id": 907,
+			"code": "TutImmBattle",
+			"text": "Tu as utilisé une magie contre laquelle l'adversaire est immunisé. Utilise un autre sort. L'immunité à la magie de l'ennemi est indiquée près de son nom avant le combat."
+		},
+		"TutImmZ": {
+			"id": 908,
+			"code": "TutImmZ",
+			"text": "Tu as rencontré un ennemi qui est immunisé contre un certain type de magie. Ceci est indiqué par un symbole magique à droite du nom du monstre. Pendant le combat, essaie d'utiliser un autre type de magie. Si tu n'a pas appris d'autre magie, consulte ton Livre magique."
+		},
+		"TutLocationScarab": {
+			"id": 924,
+			"code": "TutLocationScarab",
+			"text": "Après la libération du territoire des monstres, tu peux chercher des coffres enfouis. Ceux-ci renferment des amulettes magiques, des bagues, des bijoux et d'autres articles utiles. Tape sur l'écran pour chercher des trésors."
+		},
+		"TutMagicBookButton": {
+			"id": 990,
+			"code": "TutMagicBookButton",
+			"text": "En recevant la compétence \" Sorcellerie \", tu obtiens un accès au Livre de magie."
+		},
+		"TutPlayerDefeat": {
+			"id": 923,
+			"code": "TutPlayerDefeat",
+			"text": "Quand tu perds un combat, il t'est facile de retenter ta chance. Si tu n'arrives pas à vaincre l'ennemi, finis le combat et va à l'échoppe. Tu peux y acheter une armure et des munitions pour ton personnage."
+		},
+		"TutResurrection": {
+			"id": 834,
+			"code": "TutResurrection",
+			"text": "Les combos vous permettent d'obtenir l'âme de votre ennemi, qui est contenue dans un article spécial, l'ankh. Après une victoire, l'ankh est automatiquement utilisé pour ressusciter l'ennemi et lui faire subir une \\exécution sanglante\n"
+		},
+		"TutSearchTreasure": {
+			"id": 837,
+			"code": "TutSearchTreasure",
+			"text": "Tu peux chercher des trésors avec des scarabées. Pour cela, place le scarabée à un endroit et observe son rayonnement. Plus il est proche d'un trésor, plus il brille. Lorsqu'il est au-dessus du trésor, il bat des ailes. Tu dois alors creuser à cet endroit."
+		},
+		"TutShop": {
+			"id": 914,
+			"code": "TutShop",
+			"text": "Tu peux dépenser l'or accumulé à l'échoppe. Dans la section principale - \" Recommandé \" -, tu trouveras l'armure disponible à ton niveau, qui est plus efficace que celle que tu portes. Tu peux aussi y acheter des munitions qui te permettent de gagner les combats les plus rudes."
+		},
+		"TutShopFilter2": {
+			"id": 930,
+			"code": "TutShopFilter2",
+			"text": "Cette section contient toutes les armures disponibles du jeu"
+		},
+		"TutShopFilter3": {
+			"id": 931,
+			"code": "TutShopFilter3",
+			"text": "Dans cette section, tu trouveras toujours les scarabées requis pour trouver les coffres, les crânes magiques requis pour améliorer tes sorts, et des passe-partout qui t'aideront à ouvrir les coffres."
+		},
+		"TutShopFilter4": {
+			"id": 932,
+			"code": "TutShopFilter4",
+			"text": "Dans la section \" Prémium \", tu peux trouver des kits à prix réduit et des objets spéciaux."
+		},
+		"TutShopFilter5": {
+			"id": 933,
+			"code": "TutShopFilter5",
+			"text": "Dans \" Reliques \", tu trouves des articles qui ne peuvent pas être achetés et pouvant seulement être reçus pour des services ou autres."
+		},
+		"TutSliceAttack1": {
+			"id": 995,
+			"code": "TutSliceAttack1",
+			"text": "Tu peux attaquer un ennemi en en tapant sur la zone concernée et en faisant glisser ton doigt dans la direction voulue."
+		},
+		"TutSliceAttack2": {
+			"id": 996,
+			"code": "TutSliceAttack2",
+			"text": "Fais glisser ton doigt de gauche à droite pour attaquer sur la gauche."
+		},
+		"TutSliceAttack3": {
+			"id": 997,
+			"code": "TutSliceAttack3",
+			"text": "Pour consolider ta position, frappe l'ennemi où il faut."
+		},
+		"TutStrongMagic": {
+			"id": 819,
+			"code": "TutStrongMagic",
+			"text": "Pour esquiver les attaques magiques, reproduis la séquence de pas qui s'affiche."
+		},
+		"WeakMagicMessage": {
+			"id": 585,
+			"code": "WeakMagicMessage",
+			"text": "Collecte tout le mana noir du monstre pour esquiver son attaque magique."
+		},
+		"supportXCodeAlertClose": {
+			"id": 985,
+			"code": "supportXCodeAlertClose",
+			"text": "Fermer"
+		},
+		"supportXCodeClose": {
+			"id": 980,
+			"code": "supportXCodeClose",
+			"text": "Fermer"
+		},
+		"supportXCodeEMail": {
+			"id": 977,
+			"code": "supportXCodeEMail",
+			"text": "E-mail"
+		},
+		"supportXCodeEnterDesc": {
+			"id": 984,
+			"code": "supportXCodeEnterDesc",
+			"text": "Décris le problème"
+		},
+		"supportXCodeEnterEmail": {
+			"id": 982,
+			"code": "supportXCodeEnterEmail",
+			"text": "Entre ton adresse e-mail"
+		},
+		"supportXCodeEnterSubject": {
+			"id": 983,
+			"code": "supportXCodeEnterSubject",
+			"text": "Entre un objet"
+		},
+		"supportXCodeError": {
+			"id": 981,
+			"code": "supportXCodeError",
+			"text": "Erreur"
+		},
+		"supportXCodeInvEmail": {
+			"id": 986,
+			"code": "supportXCodeInvEmail",
+			"text": "L'adresse e-mail n'est pas correcte. Merci de la contrôler et de réessayer."
+		},
+		"supportXCodePosted": {
+			"id": 987,
+			"code": "supportXCodePosted",
+			"text": "Ton message a été reçu"
+		},
+		"supportXCodeSend": {
+			"id": 979,
+			"code": "supportXCodeSend",
+			"text": "Envoyer"
+		},
+		"supportXCodeText": {
+			"id": 976,
+			"code": "supportXCodeText",
+			"text": "Si tu rencontres un problème que tu ne peux résoudre, ou si tu as trouvé une erreur, contact notre service de support."
+		},
+		"supportXCodeTheme": {
+			"id": 978,
+			"code": "supportXCodeTheme",
+			"text": "Objet"
+		}
+	}
+}

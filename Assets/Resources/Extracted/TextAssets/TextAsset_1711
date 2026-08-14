@@ -1,0 +1,264 @@
+{
+	"persArtikuls": {
+		"33": {
+			"id": 33,
+			"title": "トルス",
+			"description": "以前殺し屋だったトルスは、首吊りの刑を宣告されたが逃げ出すことに成功し、スコーピオンのところに身を寄せいてる。極端に残酷で、暴力を大いに楽しむ。\n武器はやりを好み、戦闘では迅速かつ敏捷な彼は、\n勝利のためなら最も卑劣な方法をもいとわない。",
+			"class": "2",
+			"sex": "1",
+			"level": 1,
+			"clothingOptions": "",
+			"money": {
+				"1": 150,
+				"3": 10
+			},
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 100,
+					"maxValue": 100
+				},
+				"2": {
+					"typeId": "STR",
+					"minValue": 110,
+					"maxValue": 110
+				},
+				"3": {
+					"typeId": "RAG",
+					"minValue": 50,
+					"maxValue": 50
+				},
+				"4": {
+					"typeId": "SOR",
+					"minValue": 70,
+					"maxValue": 70
+				}
+			},
+			"totalWeight": 0,
+			"selectSet": "14",
+			"selectWeapon": "14",
+			"selectHair": "",
+			"startSpell": 227,
+			"feature": "パワフルマジック",
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"427": {
+			"id": 427,
+			"title": "ランガード",
+			"description": "クレーン皇帝の前護衛は常に陰鬱で、極めて疑い深い。双手剣を操る優秀な闘士であり、疲れることなくヘビーアーマーを着用することができる。戦闘では事実上無敵。",
+			"class": "3",
+			"sex": "1",
+			"level": 1,
+			"clothingOptions": "",
+			"money": {
+				"1": 150,
+				"3": 10
+			},
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 100,
+					"maxValue": 100
+				},
+				"2": {
+					"typeId": "STR",
+					"minValue": 130,
+					"maxValue": 130
+				},
+				"3": {
+					"typeId": "RAG",
+					"minValue": 70,
+					"maxValue": 70
+				},
+				"4": {
+					"typeId": "SOR",
+					"minValue": 10,
+					"maxValue": 10
+				}
+			},
+			"totalWeight": 0,
+			"selectSet": "13",
+			"selectWeapon": "13",
+			"selectHair": "",
+			"startSpell": 233,
+			"feature": "主要打撃力",
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"428": {
+			"id": 428,
+			"title": "ログバー",
+			"description": "デストロイヤーの称号を持つ伝説の戦士12人の1人。独力でズバーグ軍を食い止め打ち負かした功績が称えられた。勇敢で決然としている彼は、安易に戦闘で熱狂状態へと入り込み、怒りによってさらに火がつくが、苦痛も疲労も経験することはない。",
+			"class": "1",
+			"sex": "1",
+			"level": 1,
+			"clothingOptions": "",
+			"money": {
+				"1": 150,
+				"3": 10
+			},
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 100,
+					"maxValue": 100
+				},
+				"2": {
+					"typeId": "STR",
+					"minValue": 110,
+					"maxValue": 110
+				},
+				"3": {
+					"typeId": "RAG",
+					"minValue": 90,
+					"maxValue": 90
+				},
+				"4": {
+					"typeId": "SOR",
+					"minValue": 30,
+					"maxValue": 30
+				}
+			},
+			"totalWeight": 0,
+			"selectSet": "21",
+			"selectWeapon": "21",
+			"selectHair": "",
+			"startSpell": 53,
+			"feature": "決定的打撃",
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"429": {
+			"id": 429,
+			"title": "ウルズラ",
+			"description": "巨大なハンマーを決して放さない威厳のある女の子。彼女はそれを片時も放さず、\n最も凶暴なハラダンの戦いでアーマーや\nスカルを砕き割り生き残った。激しい戦闘の際はいつも\n冷静さを失ってしまうウルズラは、最初の\n攻撃の後に\n女性の姿をした大虐殺にのめりこむ悪魔と豹変する。",
+			"class": "1",
+			"sex": "2",
+			"level": 1,
+			"clothingOptions": "",
+			"money": {
+				"1": 150,
+				"3": 10
+			},
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 100,
+					"maxValue": 100
+				},
+				"2": {
+					"typeId": "STR",
+					"minValue": 110,
+					"maxValue": 110
+				},
+				"3": {
+					"typeId": "RAG",
+					"minValue": 130,
+					"maxValue": 130
+				},
+				"4": {
+					"typeId": "SOR",
+					"minValue": 20,
+					"maxValue": 20
+				}
+			},
+			"totalWeight": 0,
+			"selectSet": "12",
+			"selectWeapon": "9",
+			"selectHair": "2;9",
+			"startSpell": 230,
+			"feature": "決定的打撃",
+			"minVersion": "1.0",
+			"maxVersion": null,
+			"bonus": null
+		},
+		"430": {
+			"id": 430,
+			"title": "キラ",
+			"description": "幼い頃に両親を失った彼女は、幼少期をサーカス\n団で過ごした。このときに、驚くべき柔軟性と\n敏捷さを培った。戦闘\nではいかなる打撃にもほぼ耐えることができ、ヘビのように静かに身を隠す。キラの\n能力に感謝すべく、彼女はスコーピオン軍に入るまで、\nスチール軍でもっとも優秀なスカウトの一人だった。",
+			"class": "2",
+			"sex": "2",
+			"level": 1,
+			"clothingOptions": "",
+			"money": {
+				"1": 150,
+				"3": 10
+			},
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 120,
+					"maxValue": 120
+				},
+				"2": {
+					"typeId": "STR",
+					"minValue": 110,
+					"maxValue": 110
+				},
+				"3": {
+					"typeId": "RAG",
+					"minValue": 50,
+					"maxValue": 50
+				},
+				"4": {
+					"typeId": "SOR",
+					"minValue": 15,
+					"maxValue": 15
+				}
+			},
+			"totalWeight": 0,
+			"selectSet": "20",
+			"selectWeapon": "20",
+			"selectHair": "2;1",
+			"startSpell": 53,
+			"feature": "あふるる生命",
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1861": {
+			"id": 1861,
+			"title": "ヘカテ",
+			"description": "高潔な一族の子孫ヘカテは、多くの血を流した共倒れの戦いで財産をすべて失った。剥奪と貧困にあえいだ後、二度と空腹を味わうものかと強く誓った彼女は、戦闘で豊かな戦利品を得る能力を持ち、その物語は伝説となっている。",
+			"class": "3",
+			"sex": "2",
+			"level": 1,
+			"clothingOptions": "",
+			"money": {
+				"1": 300,
+				"3": 15
+			},
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 100,
+					"maxValue": 100
+				},
+				"2": {
+					"typeId": "STR",
+					"minValue": 100,
+					"maxValue": 100
+				},
+				"3": {
+					"typeId": "RAG",
+					"minValue": 70,
+					"maxValue": 70
+				},
+				"4": {
+					"typeId": "SOR",
+					"minValue": 30,
+					"maxValue": 30
+				}
+			},
+			"totalWeight": 0,
+			"selectSet": "10",
+			"selectWeapon": "10",
+			"selectHair": "3;9",
+			"startSpell": 230,
+			"feature": "マネーをさらに探す",
+			"minVersion": "2.1",
+			"maxVersion": null,
+			"bonus": 301
+		}
+	}
+}

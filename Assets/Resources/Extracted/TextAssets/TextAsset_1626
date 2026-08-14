@@ -1,0 +1,5450 @@
+{
+	"items": {
+		"146": {
+			"id": 146,
+			"title": "Solider Helm",
+			"titleBlue": "Solider Helm",
+			"titleGreen": "Solide Kapuze",
+			"set": 1,
+			"class": "1",
+			"slot": 1,
+			"color": "gray",
+			"price": {
+				"1": 150
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "RAG",
+					"minValue": 16,
+					"maxValue": 22
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "9#001",
+			"3dModelG": "8#001",
+			"3dModelB": "7#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "avatar_m.jpg",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"148": {
+			"id": 148,
+			"title": "Solide Schulterstücke",
+			"titleBlue": "Solide Schulterstücke",
+			"titleGreen": "Solide Schulterstücke",
+			"set": 1,
+			"class": "1",
+			"slot": 2,
+			"color": "gray",
+			"price": {
+				"1": 100
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 12,
+					"maxValue": 17
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "9#001",
+			"3dModelG": "8#001",
+			"3dModelB": "7#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"149": {
+			"id": 149,
+			"title": "Solide Stiefel",
+			"titleBlue": "Solide Stiefel",
+			"titleGreen": "Solide Stiefel",
+			"set": 1,
+			"class": "1",
+			"slot": 3,
+			"color": "gray",
+			"price": {
+				"1": 130
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 15,
+					"maxValue": 21
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "9#001",
+			"3dModelG": "8#001",
+			"3dModelB": "7#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"150": {
+			"id": 150,
+			"title": "Solider Gürtel",
+			"titleBlue": "Solider Gürtel",
+			"titleGreen": "Solider Gürtel",
+			"set": 1,
+			"class": "1",
+			"slot": 4,
+			"color": "gray",
+			"price": {
+				"1": 10
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 10,
+					"maxValue": 15
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "9#001",
+			"3dModelG": "8#001",
+			"3dModelB": "7#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"155": {
+			"id": 155,
+			"title": "Solide Armschiene",
+			"titleBlue": "Solide Armschiene",
+			"titleGreen": "Solide Armschiene",
+			"set": 1,
+			"class": "1",
+			"slot": 5,
+			"color": "gray",
+			"price": {
+				"1": 10
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "RAG",
+					"minValue": 10,
+					"maxValue": 14
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "9#001",
+			"3dModelG": "8#001",
+			"3dModelB": "7#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"156": {
+			"id": 156,
+			"title": "Solider Handschuh",
+			"titleBlue": "Solider Handschuh",
+			"titleGreen": "Solider Handschuh",
+			"set": 1,
+			"class": "1",
+			"slot": 6,
+			"color": "gray",
+			"price": {
+				"1": 200
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 13,
+					"maxValue": 19
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "9#001",
+			"3dModelG": "8#001",
+			"3dModelB": "7#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"157": {
+			"id": 157,
+			"title": "Solide Beinschützer",
+			"titleBlue": "Solide Beinschützer",
+			"titleGreen": "Solide Beinschützer",
+			"set": 1,
+			"class": "1",
+			"slot": 7,
+			"color": "gray",
+			"price": {
+				"1": 300
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 14,
+					"maxValue": 20
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "9#001",
+			"3dModelG": "8#001",
+			"3dModelB": "7#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"158": {
+			"id": 158,
+			"title": "Solider Brustpanzer",
+			"titleBlue": "Solider Brustpanzer",
+			"titleGreen": "Solider Brustpanzer",
+			"set": 1,
+			"class": "1",
+			"slot": 8,
+			"color": "gray",
+			"price": {
+				"1": 10
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 11,
+					"maxValue": 15
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "9#001",
+			"3dModelG": "8#001",
+			"3dModelB": "7#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"159": {
+			"id": 159,
+			"title": "Seltener Helm",
+			"titleBlue": "Seltener Helm",
+			"titleGreen": "Seltene Kapuze",
+			"set": 2,
+			"class": "1",
+			"slot": 1,
+			"color": "green",
+			"price": {
+				"1": 4500
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "RAG",
+					"minValue": 29,
+					"maxValue": 51
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "12#001",
+			"3dModelG": "20#001",
+			"3dModelB": "10#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "avatar_s.jpg",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"161": {
+			"id": 161,
+			"title": "Seltene Schulterstücke",
+			"titleBlue": "Seltene Schulterstücke",
+			"titleGreen": "Seltene Schulterstücke",
+			"set": 2,
+			"class": "1",
+			"slot": 2,
+			"color": "green",
+			"price": {
+				"1": 1300
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 23,
+					"maxValue": 40
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "12#001",
+			"3dModelG": "20#001",
+			"3dModelB": "10#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"162": {
+			"id": 162,
+			"title": "Seltene Stiefel",
+			"titleBlue": "Seltene Stiefel",
+			"titleGreen": "Seltene Stiefel",
+			"set": 2,
+			"class": "1",
+			"slot": 3,
+			"color": "green",
+			"price": {
+				"1": 3450
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 28,
+					"maxValue": 49
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "12#001",
+			"3dModelG": "20#001",
+			"3dModelB": "10#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"163": {
+			"id": 163,
+			"title": "Seltener Gürtel",
+			"titleBlue": "Seltener Gürtel",
+			"titleGreen": "Seltener Gürtel",
+			"set": 2,
+			"class": "1",
+			"slot": 4,
+			"color": "green",
+			"price": {
+				"1": 600
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 19,
+					"maxValue": 33
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "12#001",
+			"3dModelG": "20#001",
+			"3dModelB": "10#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"164": {
+			"id": 164,
+			"title": "Seltene Armschiene",
+			"titleBlue": "Seltene Armschiene",
+			"titleGreen": "Seltene Armschiene",
+			"set": 2,
+			"class": "1",
+			"slot": 5,
+			"color": "green",
+			"price": {
+				"1": 400
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "RAG",
+					"minValue": 17,
+					"maxValue": 30
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "12#001",
+			"3dModelG": "20#001",
+			"3dModelB": "10#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"165": {
+			"id": 165,
+			"title": "Seltener Handschuh",
+			"titleBlue": "Seltener Handschuh",
+			"titleGreen": "Seltener Handschuh",
+			"set": 2,
+			"class": "1",
+			"slot": 6,
+			"color": "green",
+			"price": {
+				"1": 1800
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 24,
+					"maxValue": 42
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "12#001",
+			"3dModelG": "20#001",
+			"3dModelB": "10#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"166": {
+			"id": 166,
+			"title": "Seltene Beinschützer",
+			"titleBlue": "Seltene Beinschützer",
+			"titleGreen": "Seltene Beinschützer",
+			"set": 2,
+			"class": "1",
+			"slot": 7,
+			"color": "green",
+			"price": {
+				"1": 2550
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 26,
+					"maxValue": 45
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "12#001",
+			"3dModelG": "20#001",
+			"3dModelB": "10#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"167": {
+			"id": 167,
+			"title": "Seltener Brustpanzer",
+			"titleBlue": "Seltener Brustpanzer",
+			"titleGreen": "Seltener Brustpanzer",
+			"set": 2,
+			"class": "1",
+			"slot": 8,
+			"color": "green",
+			"price": {
+				"1": 900
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 20,
+					"maxValue": 35
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "12#001",
+			"3dModelG": "20#001",
+			"3dModelB": "10#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"170": {
+			"id": 170,
+			"title": "Epischer Helm",
+			"titleBlue": "Epischer Helm",
+			"titleGreen": "Epischer Helm",
+			"set": 3,
+			"class": "1",
+			"slot": 1,
+			"color": "blue",
+			"price": {
+				"1": 36300
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "RAG",
+					"minValue": 100,
+					"maxValue": 140
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "15#001",
+			"3dModelG": "11#001",
+			"3dModelB": "19#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "avatar_d.jpg",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 145,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"184": {
+			"id": 184,
+			"title": "Epische Schulterstücke",
+			"titleBlue": "Epische Schulterstücke",
+			"titleGreen": "Epische Schulterstücke",
+			"set": 3,
+			"class": "1",
+			"slot": 2,
+			"color": "blue",
+			"price": {
+				"1": 10500
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 78,
+					"maxValue": 109
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "15#001",
+			"3dModelG": "11#001",
+			"3dModelB": "19#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 130,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"185": {
+			"id": 185,
+			"title": "Epische Stiefel",
+			"titleBlue": "Epische Stiefel",
+			"titleGreen": "Epische Stiefel",
+			"set": 3,
+			"class": "1",
+			"slot": 3,
+			"color": "blue",
+			"price": {
+				"1": 27000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 94,
+					"maxValue": 131
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "15#001",
+			"3dModelG": "11#001",
+			"3dModelB": "19#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 210,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"186": {
+			"id": 186,
+			"title": "Epischer Gürtel",
+			"titleBlue": "Epischer Gürtel",
+			"titleGreen": "Epischer Gürtel",
+			"set": 3,
+			"class": "1",
+			"slot": 4,
+			"color": "blue",
+			"price": {
+				"1": 6000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 65,
+					"maxValue": 91
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "15#001",
+			"3dModelG": "11#001",
+			"3dModelB": "19#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 150,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"187": {
+			"id": 187,
+			"title": "Epische Armschiene",
+			"titleBlue": "Epische Armschiene",
+			"titleGreen": "Epische Armschiene",
+			"set": 3,
+			"class": "1",
+			"slot": 5,
+			"color": "blue",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "RAG",
+					"minValue": 61,
+					"maxValue": 86
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "15#001",
+			"3dModelG": "11#001",
+			"3dModelB": "19#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 100,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"188": {
+			"id": 188,
+			"title": "Epischer Handschuh",
+			"titleBlue": "Epischer Handschuh",
+			"titleGreen": "Epischer Handschuh",
+			"set": 3,
+			"class": "1",
+			"slot": 6,
+			"color": "blue",
+			"price": {
+				"1": 14400
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 83,
+					"maxValue": 116
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "15#001",
+			"3dModelG": "11#001",
+			"3dModelB": "19#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 175,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"189": {
+			"id": 189,
+			"title": "Epische Beinschützer",
+			"titleBlue": "Epische Beinschützer",
+			"titleGreen": "Epische Beinschützer",
+			"set": 3,
+			"class": "1",
+			"slot": 7,
+			"color": "blue",
+			"price": {
+				"1": 19800
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 88,
+					"maxValue": 124
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "15#001",
+			"3dModelG": "11#001",
+			"3dModelB": "19#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 190,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"190": {
+			"id": 190,
+			"title": "Epischer Brustpanzer",
+			"titleBlue": "Epischer Brustpanzer",
+			"titleGreen": "Epischer Brustpanzer",
+			"set": 3,
+			"class": "1",
+			"slot": 8,
+			"color": "blue",
+			"price": {
+				"1": 7800
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 69,
+					"maxValue": 97
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "15#001",
+			"3dModelG": "11#001",
+			"3dModelB": "19#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 140,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"199": {
+			"id": 199,
+			"title": "Legendärer Helm",
+			"titleBlue": "Legendärer Helm",
+			"titleGreen": "Legendärer Helm",
+			"description": "Erhält man beim Zusammenfügen eines epischen Helms mit Legendepunkten.",
+			"set": 4,
+			"class": "1",
+			"slot": 1,
+			"color": "purple",
+			"price": {
+				"1": 10000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "RAG",
+					"minValue": 189,
+					"maxValue": 189
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "21#001",
+			"3dModelG": "14#001",
+			"3dModelB": "13#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "avatar_t.jpg",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"200": {
+			"id": 200,
+			"title": "Legendäre Schulterstücke",
+			"titleBlue": "Legendäre Schulterstücke",
+			"titleGreen": "Legendäre Schulterstücke",
+			"description": "Erhält man beim Zusammenfügen epischer Schulterstücke mit Legendepunkten.",
+			"set": 4,
+			"class": "1",
+			"slot": 2,
+			"color": "purple",
+			"price": {
+				"1": 10000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 147,
+					"maxValue": 147
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "21#001",
+			"3dModelG": "14#001",
+			"3dModelB": "13#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"201": {
+			"id": 201,
+			"title": "Legendäre Stiefel",
+			"titleBlue": "Legendäre Stiefel",
+			"titleGreen": "Legendäre Stiefel",
+			"description": "Erhält man beim Zusammenfügen epischer Stiefel mit Legendepunkten.",
+			"set": 4,
+			"class": "1",
+			"slot": 3,
+			"color": "purple",
+			"price": {
+				"1": 10000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 170,
+					"maxValue": 170
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "21#001",
+			"3dModelG": "14#001",
+			"3dModelB": "13#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"202": {
+			"id": 202,
+			"title": "Legendärer Gürtel",
+			"titleBlue": "Legendärer Gürtel",
+			"titleGreen": "Legendärer Gürtel",
+			"description": "Erhält man beim Zusammenfügen eines epischen Gürtels mit Legendepunkten.",
+			"set": 4,
+			"class": "1",
+			"slot": 4,
+			"color": "purple",
+			"price": {
+				"1": 10000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 118,
+					"maxValue": 118
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "21#001",
+			"3dModelG": "14#001",
+			"3dModelB": "13#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"203": {
+			"id": 203,
+			"title": "Legendäre Armschiene",
+			"titleBlue": "Legendäre Armschiene",
+			"titleGreen": "Legendäre Armschiene",
+			"description": "Erhält man beim Zusammenfügen eines epischen Armschutzes mit Legendepunkten.",
+			"set": 4,
+			"class": "1",
+			"slot": 5,
+			"color": "purple",
+			"price": {
+				"1": 10000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "RAG",
+					"minValue": 116,
+					"maxValue": 116
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "21#001",
+			"3dModelG": "14#001",
+			"3dModelB": "13#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"204": {
+			"id": 204,
+			"title": "Legendärer Handschuh",
+			"titleBlue": "Legendärer Handschuh",
+			"titleGreen": "Legendärer Handschuh",
+			"description": "Erhält man beim Zusammenfügen eines epischen Handschuhs mit Legendepunkten.",
+			"set": 4,
+			"class": "1",
+			"slot": 6,
+			"color": "purple",
+			"price": {
+				"1": 10000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 157,
+					"maxValue": 157
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "21#001",
+			"3dModelG": "14#001",
+			"3dModelB": "13#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"205": {
+			"id": 205,
+			"title": "Legendäre Beinschützer",
+			"titleBlue": "Legendäre Beinschützer",
+			"titleGreen": "Legendäre Beinschützer",
+			"description": "Erhält man beim Zusammenfügen epischer Beinkleider mit Legendepunkten.",
+			"set": 4,
+			"class": "1",
+			"slot": 7,
+			"color": "purple",
+			"price": {
+				"1": 10000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 161,
+					"maxValue": 161
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "21#001",
+			"3dModelG": "14#001",
+			"3dModelB": "13#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"206": {
+			"id": 206,
+			"title": "Legendärer Brustpanzer",
+			"titleBlue": "Legendärer Brustpanzer",
+			"titleGreen": "Legendärer Brustpanzer",
+			"description": "Erhält man beim Zusammenfügen eines epischen Brustpanzers mit Legendepunkten.",
+			"set": 4,
+			"class": "1",
+			"slot": 8,
+			"color": "purple",
+			"price": {
+				"1": 10000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 126,
+					"maxValue": 126
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "21#001",
+			"3dModelG": "14#001",
+			"3dModelB": "13#001",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"216": {
+			"id": 216,
+			"title": "Berserker-Hammer",
+			"titleBlue": "Templer-Schwert",
+			"titleGreen": "Assassin-Spieß",
+			"description": "Wird beim Abschluss des zusätzlicher Herausforderung \"Silvions Tragödie\" verliehen.",
+			"set": 3,
+			"class": "1",
+			"slot": 9,
+			"color": "blue",
+			"price": {
+				"1": 7000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 80,
+					"maxValue": 80
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "12#001",
+			"3dModelG": "14#014",
+			"3dModelB": "19#019",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": 623,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"217": {
+			"id": 217,
+			"title": "Admin Puch",
+			"titleBlue": "Admin Puch",
+			"titleGreen": "Admin Puch",
+			"set": 4,
+			"class": "1",
+			"slot": 9,
+			"color": "purple",
+			"price": {
+				"1": 10000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 19000,
+					"maxValue": 19000
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "21#002",
+			"3dModelG": "20#020",
+			"3dModelB": "13#013",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": 624,
+			"maxStars": 100,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"269": {
+			"id": 269,
+			"title": "Munition des Lebens",
+			"description": "Stellt im Kampf 50% Leben wieder her.",
+			"set": null,
+			"class": "",
+			"slot": 15,
+			"color": null,
+			"price": {
+				"1": 450
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#001",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "1",
+			"rashodkaPoints": 50,
+			"rashodkaNextTurns": 7,
+			"rashodkaEffectTurns": 0,
+			"flags": 3,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"270": {
+			"id": 270,
+			"title": "Kühnheits-Munition",
+			"description": "Macht den nächsten Schlag kritisch.",
+			"set": null,
+			"class": "",
+			"slot": 16,
+			"color": null,
+			"price": {
+				"1": 150
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#001",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "2",
+			"rashodkaPoints": 70,
+			"rashodkaNextTurns": 3,
+			"rashodkaEffectTurns": 0,
+			"flags": 3,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"271": {
+			"id": 271,
+			"title": "Munition der Vergiftung",
+			"description": "Entzieht dem Gegner 100 Leben für 5 Züge.",
+			"set": null,
+			"class": "",
+			"slot": 17,
+			"color": null,
+			"price": {
+				"1": 600
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#001",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "3",
+			"rashodkaPoints": 20,
+			"rashodkaNextTurns": 9,
+			"rashodkaEffectTurns": 5,
+			"flags": 3,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"295": {
+			"id": 295,
+			"title": "Uhr des Gelehrten",
+			"set": null,
+			"class": "",
+			"slot": 11,
+			"color": "green",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "BE",
+					"minValue": 21,
+					"maxValue": 30
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#003",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"296": {
+			"id": 296,
+			"title": "Maske des Schreckens",
+			"description": "Verleiht dir maximale Wut bei jedem Kampfstart. ",
+			"set": null,
+			"class": "",
+			"slot": 11,
+			"color": "purple",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "FullRage",
+					"minValue": 10,
+					"maxValue": 10
+				}
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#005",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"298": {
+			"id": 298,
+			"title": "Sieger-Talisman",
+			"set": null,
+			"class": "",
+			"slot": 11,
+			"color": "blue",
+			"price": {
+				"1": 3000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "BR",
+					"minValue": 2,
+					"maxValue": 2
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#007",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"299": {
+			"id": 299,
+			"title": "Beobachter-Teleskop",
+			"set": null,
+			"class": "",
+			"slot": 11,
+			"color": "blue",
+			"price": {
+				"1": 3000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "BE",
+					"minValue": 31,
+					"maxValue": 45
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#008",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"300": {
+			"id": 300,
+			"title": "Geldbörse des Händlers",
+			"set": null,
+			"class": "",
+			"slot": 11,
+			"color": "blue",
+			"price": {
+				"1": 3000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "BMn",
+					"minValue": 50,
+					"maxValue": 100
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#009",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"301": {
+			"id": 301,
+			"title": "Rechenbrett des Geizkragens",
+			"set": null,
+			"class": "",
+			"slot": 11,
+			"color": "green",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "BMn",
+					"minValue": 30,
+					"maxValue": 40
+				}
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#002",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"302": {
+			"id": 302,
+			"title": "NICHT VERWENDET",
+			"set": null,
+			"class": "",
+			"slot": 11,
+			"color": null,
+			"price": {
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#011",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"303": {
+			"id": 303,
+			"title": "Vierblätter",
+			"set": null,
+			"class": "",
+			"slot": 11,
+			"color": "gray",
+			"price": {
+				"1": 200
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "BMn",
+					"minValue": 20,
+					"maxValue": 30
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#012",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"304": {
+			"id": 304,
+			"title": "Graal der Unsterblichen",
+			"description": "Trophäe. Bekommt man für den Sieg über eine Dunkle Elfe.",
+			"set": null,
+			"class": "",
+			"slot": 10,
+			"color": "blue",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 40,
+					"maxValue": 40
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#013",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"306": {
+			"id": 306,
+			"title": "Magier-Spiegel",
+			"set": null,
+			"class": "",
+			"slot": 11,
+			"color": "blue",
+			"price": {
+				"1": 3000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "BM",
+					"minValue": 3,
+					"maxValue": 4
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#014",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"307": {
+			"id": 307,
+			"title": "Glücks-Hufeisen",
+			"set": null,
+			"class": "",
+			"slot": 11,
+			"color": "green",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "BR",
+					"minValue": 1,
+					"maxValue": 1
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#010",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"308": {
+			"id": 308,
+			"title": "NICHT VERWENDET",
+			"set": null,
+			"class": "",
+			"slot": 11,
+			"color": null,
+			"price": {
+				"1": 100
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#017",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"309": {
+			"id": 309,
+			"title": "Magier-Rosenkranz",
+			"set": null,
+			"class": "",
+			"slot": 11,
+			"color": "green",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "BM",
+					"minValue": 2,
+					"maxValue": 2
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#018",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"310": {
+			"id": 310,
+			"title": "NICHT VERWENDET",
+			"set": null,
+			"class": "",
+			"slot": 11,
+			"color": null,
+			"price": {
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#019",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"311": {
+			"id": 311,
+			"title": "Ausgesuchter Ring der Magie",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "blue",
+			"price": {
+				"1": 3000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 45,
+					"maxValue": 55
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#001",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 40,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"312": {
+			"id": 312,
+			"title": "NICHT VERWENDET",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "purple",
+			"price": {
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#002",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"313": {
+			"id": 313,
+			"title": "Ausgesuchter Ring des Muts",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "blue",
+			"price": {
+				"1": 3000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "RAG",
+					"minValue": 45,
+					"maxValue": 55
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#003",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 30,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"314": {
+			"id": 314,
+			"title": "NICHT VERWENDET",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "blue",
+			"price": {
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#004",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"315": {
+			"id": 315,
+			"title": "NICHT VERWENDET",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "blue",
+			"price": {
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#005",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"316": {
+			"id": 316,
+			"title": "Einfacher Kraftring",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "gray",
+			"price": {
+				"1": 200
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 5,
+					"maxValue": 15
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#006",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"317": {
+			"id": 317,
+			"title": "Machtvoller Lebensring",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "purple",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 70,
+					"maxValue": 70
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#007",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"318": {
+			"id": 318,
+			"title": "Kostbarer Mut-Ring",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "green",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "RAG",
+					"minValue": 20,
+					"maxValue": 35
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#008",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"319": {
+			"id": 319,
+			"title": "Talisman der Allmacht",
+			"description": "Verleiht dir maximales Mana bei jedem Kampfstart.",
+			"set": null,
+			"class": "",
+			"slot": 11,
+			"color": "purple",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "FullMana",
+					"minValue": 10,
+					"maxValue": 10
+				}
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#051",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"320": {
+			"id": 320,
+			"title": "Ausgesuchter Ring der Kraft",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "blue",
+			"price": {
+				"1": 3000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 45,
+					"maxValue": 55
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#009",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 50,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"321": {
+			"id": 321,
+			"title": "NICHT VERWENDET",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "blue",
+			"price": {
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#010",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"322": {
+			"id": 322,
+			"title": "NICHT VERWENDET",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "blue",
+			"price": {
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#011",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"323": {
+			"id": 323,
+			"title": "Machtvoller Mut-Ring",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "purple",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "RAG",
+					"minValue": 80,
+					"maxValue": 80
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#012",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"324": {
+			"id": 324,
+			"title": "NICHT VERWENDET",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "blue",
+			"price": {
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#013",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"325": {
+			"id": 325,
+			"title": "Machtvoller Magie-Ring",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "purple",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 75,
+					"maxValue": 75
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#014",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"326": {
+			"id": 326,
+			"title": "Kostbarer Magie-Ring",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "green",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 20,
+					"maxValue": 35
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#015",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"327": {
+			"id": 327,
+			"title": "NICHT VERWENDET",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "blue",
+			"price": {
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#016",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"328": {
+			"id": 328,
+			"title": "Einfacher Lebensring",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "gray",
+			"price": {
+				"1": 200
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 5,
+					"maxValue": 15
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#017",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"329": {
+			"id": 329,
+			"title": "Einfacher Mut-Ring",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "gray",
+			"price": {
+				"1": 200
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "RAG",
+					"minValue": 5,
+					"maxValue": 15
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#018",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"330": {
+			"id": 330,
+			"title": "Kostbarer Kraftring",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "green",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 20,
+					"maxValue": 35
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#019",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"331": {
+			"id": 331,
+			"title": "Machtvoller Kraftring",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "purple",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 70,
+					"maxValue": 70
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#020",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"332": {
+			"id": 332,
+			"title": "NICHT VERWENDET",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "blue",
+			"price": {
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#021",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"333": {
+			"id": 333,
+			"title": "Kostbarer Lebensring",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "green",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 20,
+					"maxValue": 35
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#022",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"334": {
+			"id": 334,
+			"title": "Ausgesuchter Ring des Lebens",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "blue",
+			"price": {
+				"1": 3000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 45,
+					"maxValue": 55
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#023",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 50,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"335": {
+			"id": 335,
+			"title": "NICHT VERWENDET",
+			"set": null,
+			"class": "",
+			"slot": 12,
+			"color": "green",
+			"price": {
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#024",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"336": {
+			"id": 336,
+			"title": "Ausgesuchter Ohrring der Muts",
+			"set": null,
+			"class": "",
+			"slot": 13,
+			"color": "blue",
+			"price": {
+				"1": 3000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "RAG",
+					"minValue": 45,
+					"maxValue": 55
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#001",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 30,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"337": {
+			"id": 337,
+			"title": "Ausgesuchter Ohrring des Lebens",
+			"set": null,
+			"class": "",
+			"slot": 13,
+			"color": "blue",
+			"price": {
+				"1": 3000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 45,
+					"maxValue": 55
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#002",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 50,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"338": {
+			"id": 338,
+			"title": "Einfacher Mut-Ohrring",
+			"set": null,
+			"class": "",
+			"slot": 13,
+			"color": "gray",
+			"price": {
+				"1": 200
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "RAG",
+					"minValue": 5,
+					"maxValue": 15
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#003",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"339": {
+			"id": 339,
+			"title": "Machtvoller Karftohrring",
+			"set": null,
+			"class": "",
+			"slot": 13,
+			"color": "purple",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 70,
+					"maxValue": 70
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#004",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"340": {
+			"id": 340,
+			"title": "Kostbarer Mut-Ohrring",
+			"set": null,
+			"class": "",
+			"slot": 13,
+			"color": "green",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "RAG",
+					"minValue": 20,
+					"maxValue": 35
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#005",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"341": {
+			"id": 341,
+			"title": "NICHT VERWENDET",
+			"set": null,
+			"class": "",
+			"slot": 13,
+			"color": "blue",
+			"price": {
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#006",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"342": {
+			"id": 342,
+			"title": "Mächtiger Mut-Ohrring",
+			"set": null,
+			"class": "",
+			"slot": 13,
+			"color": "purple",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "RAG",
+					"minValue": 80,
+					"maxValue": 80
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#007",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"343": {
+			"id": 343,
+			"title": "Einfacher Kraftohrring",
+			"set": null,
+			"class": "",
+			"slot": 13,
+			"color": "gray",
+			"price": {
+				"1": 200
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 5,
+					"maxValue": 15
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#008",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"344": {
+			"id": 344,
+			"title": "Ausgesuchter Ohrring der Kraft",
+			"set": null,
+			"class": "",
+			"slot": 13,
+			"color": "blue",
+			"price": {
+				"1": 3000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 45,
+					"maxValue": 55
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#009",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 50,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"345": {
+			"id": 345,
+			"title": "Machtvoller Lebensohrring",
+			"set": null,
+			"class": "",
+			"slot": 13,
+			"color": "purple",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 70,
+					"maxValue": 70
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#010",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"346": {
+			"id": 346,
+			"title": "Ausgesuchter Ohrring der Magie",
+			"set": null,
+			"class": "",
+			"slot": 13,
+			"color": "blue",
+			"price": {
+				"1": 3000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 45,
+					"maxValue": 55
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#011",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 40,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"347": {
+			"id": 347,
+			"title": "Kostbarer Magie-Ohrring",
+			"set": null,
+			"class": "",
+			"slot": 13,
+			"color": "green",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 20,
+					"maxValue": 35
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#012",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"348": {
+			"id": 348,
+			"title": "Machtvoller Magie-Ohrring",
+			"set": null,
+			"class": "",
+			"slot": 13,
+			"color": "purple",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 75,
+					"maxValue": 75
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#013",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"349": {
+			"id": 349,
+			"title": "Einfacher Lebens-Ohrring",
+			"set": null,
+			"class": "",
+			"slot": 13,
+			"color": "gray",
+			"price": {
+				"1": 200
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 5,
+					"maxValue": 15
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#014",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"350": {
+			"id": 350,
+			"title": "Kostbarer Kraftohrring",
+			"set": null,
+			"class": "",
+			"slot": 13,
+			"color": "green",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 20,
+					"maxValue": 35
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#015",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"351": {
+			"id": 351,
+			"title": "NICHT VERWENDET",
+			"set": null,
+			"class": "",
+			"slot": 13,
+			"color": "blue",
+			"price": {
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#016",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"352": {
+			"id": 352,
+			"title": "Kostbarer Lebens-Ohrring",
+			"set": null,
+			"class": "",
+			"slot": 13,
+			"color": "green",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 20,
+					"maxValue": 35
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#017",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"353": {
+			"id": 353,
+			"title": "NICHT VERWENDET",
+			"set": null,
+			"class": "",
+			"slot": 13,
+			"color": "blue",
+			"price": {
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#018",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"354": {
+			"id": 354,
+			"title": "Einfacher Magie-Ohrring",
+			"set": null,
+			"class": "",
+			"slot": 13,
+			"color": "gray",
+			"price": {
+				"1": 200
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 5,
+					"maxValue": 15
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#019",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"431": {
+			"id": 431,
+			"title": "Plünderer-Hammer",
+			"titleBlue": "Drachentöter-Schwert",
+			"titleGreen": "Späher-Spieß",
+			"description": "Wird beim Abschluss des zusätzlicher Herausforderung \"Im Schatten des Dämoneneiche\" verliehen.",
+			"set": 2,
+			"class": "1",
+			"slot": 9,
+			"color": "green",
+			"price": {
+				"1": 3000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 50,
+					"maxValue": 50
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "15#003",
+			"3dModelG": "11#011",
+			"3dModelB": "10#010",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": 622,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"432": {
+			"id": 432,
+			"title": "Absolutes Eisamulett",
+			"set": null,
+			"class": "",
+			"slot": 14,
+			"color": "purple",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "ICE",
+					"minValue": 15,
+					"maxValue": 15
+				}
+			},
+			"giveSkillsCount": 2,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#002",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"433": {
+			"id": 433,
+			"title": "Absolutes Blitzamulett",
+			"set": null,
+			"class": "",
+			"slot": 14,
+			"color": "purple",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "LIGHT",
+					"minValue": 15,
+					"maxValue": 15
+				}
+			},
+			"giveSkillsCount": 2,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#003",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "#003",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"434": {
+			"id": 434,
+			"title": "Absolutes Feueramulett",
+			"set": null,
+			"class": "",
+			"slot": 14,
+			"color": "purple",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "FIRE",
+					"minValue": 15,
+					"maxValue": 15
+				}
+			},
+			"giveSkillsCount": 2,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#004",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "#004",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"435": {
+			"id": 435,
+			"title": "Absolutes Düsternisamulett",
+			"set": null,
+			"class": "",
+			"slot": 14,
+			"color": "purple",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "DARK",
+					"minValue": 15,
+					"maxValue": 15
+				}
+			},
+			"giveSkillsCount": 2,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#005",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "#005",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"436": {
+			"id": 436,
+			"title": "Eisamulett",
+			"set": null,
+			"class": "",
+			"slot": 14,
+			"color": "gray",
+			"price": {
+				"1": 100
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "ICE",
+					"minValue": 1,
+					"maxValue": 2
+				}
+			},
+			"giveSkillsCount": 2,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#006",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"437": {
+			"id": 437,
+			"title": "Blitzamulett",
+			"set": null,
+			"class": "",
+			"slot": 14,
+			"color": "gray",
+			"price": {
+				"1": 100
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "LIGHT",
+					"minValue": 1,
+					"maxValue": 2
+				}
+			},
+			"giveSkillsCount": 2,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#007",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"438": {
+			"id": 438,
+			"title": "Feueramulett",
+			"set": null,
+			"class": "",
+			"slot": 14,
+			"color": "gray",
+			"price": {
+				"1": 100
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "FIRE",
+					"minValue": 1,
+					"maxValue": 2
+				}
+			},
+			"giveSkillsCount": 2,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#008",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"439": {
+			"id": 439,
+			"title": "Düsternisamulett",
+			"set": null,
+			"class": "",
+			"slot": 14,
+			"color": "gray",
+			"price": {
+				"1": 100
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "DARK",
+					"minValue": 1,
+					"maxValue": 2
+				}
+			},
+			"giveSkillsCount": 2,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#009",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"440": {
+			"id": 440,
+			"title": "Meisterliches Eisamulett",
+			"set": null,
+			"class": "",
+			"slot": 14,
+			"color": "blue",
+			"price": {
+				"1": 3000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "ICE",
+					"minValue": 10,
+					"maxValue": 10
+				}
+			},
+			"giveSkillsCount": 2,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#010",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "#010",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"441": {
+			"id": 441,
+			"title": "Meisterliches Blitzamulett",
+			"set": null,
+			"class": "",
+			"slot": 14,
+			"color": "blue",
+			"price": {
+				"1": 3000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "LIGHT",
+					"minValue": 10,
+					"maxValue": 10
+				}
+			},
+			"giveSkillsCount": 2,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#011",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "#011",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"442": {
+			"id": 442,
+			"title": "Meisterliches Feueramulett",
+			"set": null,
+			"class": "",
+			"slot": 14,
+			"color": "blue",
+			"price": {
+				"1": 3000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "FIRE",
+					"minValue": 10,
+					"maxValue": 10
+				}
+			},
+			"giveSkillsCount": 2,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#012",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "#012",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"443": {
+			"id": 443,
+			"title": "Meisterliches Düsternisamulett",
+			"set": null,
+			"class": "",
+			"slot": 14,
+			"color": "blue",
+			"price": {
+				"1": 3000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "DARK",
+					"minValue": 10,
+					"maxValue": 10
+				}
+			},
+			"giveSkillsCount": 2,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#013",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "#013",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"444": {
+			"id": 444,
+			"title": "Starkes Eisamulett",
+			"set": null,
+			"class": "",
+			"slot": 14,
+			"color": "green",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "ICE",
+					"minValue": 2,
+					"maxValue": 5
+				}
+			},
+			"giveSkillsCount": 2,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#014",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "#014",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"445": {
+			"id": 445,
+			"title": "Starkes Blitzamulett",
+			"set": null,
+			"class": "",
+			"slot": 14,
+			"color": "green",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "LIGHT",
+					"minValue": 2,
+					"maxValue": 5
+				}
+			},
+			"giveSkillsCount": 2,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#015",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "#015",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"446": {
+			"id": 446,
+			"title": "Starkes Feueramulett",
+			"set": null,
+			"class": "",
+			"slot": 14,
+			"color": "green",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "FIRE",
+					"minValue": 2,
+					"maxValue": 5
+				}
+			},
+			"giveSkillsCount": 2,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#016",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "#016",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"447": {
+			"id": 447,
+			"title": "Starkes Düsternisamulett",
+			"set": null,
+			"class": "",
+			"slot": 14,
+			"color": "green",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "DARK",
+					"minValue": 2,
+					"maxValue": 5
+				}
+			},
+			"giveSkillsCount": 2,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#017",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 0,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"626": {
+			"id": 626,
+			"title": "Dietriche",
+			"description": "Werden zum Aufbrechen von Truhen verwendet.",
+			"set": null,
+			"class": "",
+			"slot": 16,
+			"color": null,
+			"price": {
+				"1": 2
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#002",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "4",
+			"rashodkaPoints": 1,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 3,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"650": {
+			"id": 650,
+			"title": "Test Wutbonus",
+			"set": 1,
+			"class": "1",
+			"slot": 1,
+			"color": "gray",
+			"price": {
+				"1": 25
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "BE",
+					"minValue": 100,
+					"maxValue": 100
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "9#001",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "avatar_m.jpg",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"714": {
+			"id": 714,
+			"title": "Magische Schädel",
+			"description": "Wird zum Erlernen neuer magischer Tricks verwendet.",
+			"set": null,
+			"class": "",
+			"slot": 16,
+			"color": "gray",
+			"price": {
+				"1": 10
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#004",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "5",
+			"rashodkaPoints": 1,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 3,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"822": {
+			"id": 822,
+			"title": "Skarabäus",
+			"description": "Werden für die Schatzsuche verwendet.",
+			"set": null,
+			"class": "",
+			"slot": 16,
+			"color": "gray",
+			"price": {
+				"1": 10
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#005",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "6",
+			"rashodkaPoints": 1,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 3,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"835": {
+			"id": 835,
+			"title": "Gold",
+			"description": "Gold. Wird für Einkäufe im Geschäft gebraucht.",
+			"set": null,
+			"class": "",
+			"slot": 16,
+			"color": "gray",
+			"price": {
+				"1": 10
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#006",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "7",
+			"rashodkaPoints": 1,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 1,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"836": {
+			"id": 836,
+			"title": "Kristall",
+			"description": "Kristalle. Werden für den Kauf besonderer Gegenstände im Geschäft gebraucht.",
+			"set": null,
+			"class": "",
+			"slot": 16,
+			"color": "gray",
+			"price": {
+				"1": 10
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#007",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "8",
+			"rashodkaPoints": 1,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 1,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1022": {
+			"id": 1022,
+			"title": "Zerstörer-Hammer",
+			"titleBlue": "Paladin-Schwert",
+			"titleGreen": "Söldner-Spieß",
+			"description": "Wird beim Abschluss des zusätzlicher Herausforderung \"Geheimer Tempel\" verliehen.",
+			"set": 4,
+			"class": "1",
+			"slot": 9,
+			"color": "purple",
+			"price": {
+				"1": 15000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 110,
+					"maxValue": 110
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "21#002",
+			"3dModelG": "20#020",
+			"3dModelB": "13#013",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": 624,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1031": {
+			"id": 1031,
+			"title": "Traktat des Dämonologen",
+			"description": "Trophäe, die man für den Sieg über Sovering bekommt.",
+			"set": null,
+			"class": "",
+			"slot": 10,
+			"color": "purple",
+			"price": {
+				"1": 7000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 70,
+					"maxValue": 70
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#096",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1072": {
+			"id": 1072,
+			"title": "Auge des Zykloptiken",
+			"description": "Trophäe. Bekommt man für den Sieg über Zykloptiken.",
+			"set": null,
+			"class": "",
+			"slot": 10,
+			"color": "gray",
+			"price": {
+				"1": 200
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 10,
+					"maxValue": 10
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#004",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1073": {
+			"id": 1073,
+			"title": "Übelekel-Fliegenpilz",
+			"description": "Trophäe. Bekommt man bei einem Sieg über den Übelekel.",
+			"set": null,
+			"class": "",
+			"slot": 10,
+			"color": "gray",
+			"price": {
+				"1": 200
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 15,
+					"maxValue": 15
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#051",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1074": {
+			"id": 1074,
+			"title": "Kannibalen-Zahn",
+			"description": "Trophäe. Bekommt man bei einem Sieg über den Kannibalen.",
+			"set": null,
+			"class": "",
+			"slot": 10,
+			"color": "gray",
+			"price": {
+				"1": 200
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 20,
+					"maxValue": 20
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#016",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1075": {
+			"id": 1075,
+			"title": "Halsabschneider-Dolch",
+			"description": "Trophäe. Bekommt man bei einem Sieg über den Halsabschneider.",
+			"set": null,
+			"class": "",
+			"slot": 10,
+			"color": "green",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 22,
+					"maxValue": 22
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#052",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1076": {
+			"id": 1076,
+			"title": "Fahne von Branental",
+			"description": "Trophäe. Bekommt man für den Sieg über Einhörniger Koren.",
+			"set": null,
+			"class": "",
+			"slot": 10,
+			"color": "green",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 25,
+					"maxValue": 25
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#006",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1077": {
+			"id": 1077,
+			"title": "Fragment des Kristalloiden",
+			"description": "Trophäe. Bekommt man bei einem Sieg über den Kristalloid.",
+			"set": null,
+			"class": "",
+			"slot": 10,
+			"color": "green",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 30,
+					"maxValue": 30
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#055",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1078": {
+			"id": 1078,
+			"title": "Lustiger Kaktus",
+			"description": "Trophäe. Bekommt man bei einem Sieg über den Leiber.",
+			"set": null,
+			"class": "",
+			"slot": 10,
+			"color": "blue",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 35,
+					"maxValue": 35
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#056",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1079": {
+			"id": 1079,
+			"title": "Hufe des Chroks",
+			"description": "Trophäe. Bekommt man bei einem Sieg über den Chrok-Dämon.",
+			"set": null,
+			"class": "",
+			"slot": 10,
+			"color": "blue",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 40,
+					"maxValue": 40
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#053",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1080": {
+			"id": 1080,
+			"title": "Talisman des Schamanen",
+			"description": "Trophäe. Bekommt man für den Sieg über einen Wäldler-Schamanen.",
+			"set": null,
+			"class": "",
+			"slot": 10,
+			"color": "blue",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 45,
+					"maxValue": 45
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#015",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1081": {
+			"id": 1081,
+			"title": "Tropische Muschel",
+			"description": "Trophäe. Bekommt man für den Sieg über einen Strand-Krabbid.",
+			"set": null,
+			"class": "",
+			"slot": 10,
+			"color": "purple",
+			"price": {
+				"1": 7000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 50,
+					"maxValue": 50
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#050",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1082": {
+			"id": 1082,
+			"title": "Meteorit",
+			"description": "Trophäe. Bekommt man bei einem Sieg über Schergergori.",
+			"set": null,
+			"class": "",
+			"slot": 10,
+			"color": "purple",
+			"price": {
+				"1": 7000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 52,
+					"maxValue": 52
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#001",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1083": {
+			"id": 1083,
+			"title": "Salamanderschuppe",
+			"description": "Trophäe. Bekommt man für den Sieg über einen See-Salamander.",
+			"set": null,
+			"class": "",
+			"slot": 10,
+			"color": "purple",
+			"price": {
+				"1": 7000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 47,
+					"maxValue": 47
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#054",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1084": {
+			"id": 1084,
+			"title": "Verfluchtes Herz",
+			"description": "Trophäe. Bekommt man für den Sieg über einen Verfluchten Helden.",
+			"set": null,
+			"class": "",
+			"slot": 10,
+			"color": "purple",
+			"price": {
+				"1": 7000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 55,
+					"maxValue": 55
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#058",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1085": {
+			"id": 1085,
+			"title": "Schwanz der Tiermutter",
+			"description": "Trophäe. Bekommt man bei einem Sieg über die Tiermutter.",
+			"set": null,
+			"class": "",
+			"slot": 10,
+			"color": "purple",
+			"price": {
+				"1": 7000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "SOR",
+					"minValue": 60,
+					"maxValue": 60
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#057",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1177": {
+			"id": 1177,
+			"title": "Episches Set",
+			"titleBlue": "Episches Set",
+			"titleGreen": "Episches Set",
+			"description": "Der Kauf eines Sets spart 120 Kristalle",
+			"set": null,
+			"class": "",
+			"slot": 21,
+			"color": "blue",
+			"price": {
+				"2": 1
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#001",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.2",
+			"maxVersion": null
+		},
+		"1178": {
+			"id": 1178,
+			"title": "Legendepunkte",
+			"description": "Werden für die Herstellung legendärer Rüstungen verwendet.",
+			"set": null,
+			"class": "",
+			"slot": 16,
+			"color": "gray",
+			"price": {
+				"1": 10
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#057",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "9",
+			"rashodkaPoints": 1,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 3,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.2",
+			"maxVersion": null
+		},
+		"1197": {
+			"id": 1197,
+			"title": "Una-Amulett",
+			"description": "Belohnung für Unas Training. Beste Waffe gegen Sovering.",
+			"set": null,
+			"class": "",
+			"slot": 14,
+			"color": "purple",
+			"price": {
+				"1": 5000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "FIRE",
+					"minValue": 12,
+					"maxValue": 12
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#050",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "#050",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.2",
+			"maxVersion": null
+		},
+		"1214": {
+			"id": 1214,
+			"title": "Episches Halbset",
+			"titleBlue": "Episches Halbset",
+			"titleGreen": "Episches Halbset",
+			"description": "Der Kauf eines Halbsets spart 50 Kristalle.",
+			"set": null,
+			"class": "",
+			"slot": 22,
+			"color": "blue",
+			"price": {
+				"2": 1
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#001",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.2",
+			"maxVersion": null
+		},
+		"1215": {
+			"id": 1215,
+			"title": "Set des Alchemisten",
+			"titleBlue": "Set des Alchemisten",
+			"titleGreen": "Set des Alchemisten",
+			"description": "Der Kauf eines Sets spart 50 Kristalle.",
+			"set": null,
+			"class": "",
+			"slot": 23,
+			"color": "blue",
+			"price": {
+				"2": 1
+			},
+			"sex": "",
+			"skills": {
+			},
+			"giveSkillsCount": 0,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "#001",
+			"3dModelG": "",
+			"3dModelB": "",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": null,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.2",
+			"maxVersion": null
+		},
+		"1852": {
+			"id": 1852,
+			"title": "Soldatenhammer",
+			"titleBlue": "Wächter-Schwert",
+			"titleGreen": "Räuber-Spieß",
+			"description": "Wird beim Abschluss der Zusatzaufgabe \"Verlassener Friedhof\" verliehen.",
+			"set": 2,
+			"class": "1",
+			"slot": 9,
+			"color": "gray",
+			"price": {
+				"1": 1000
+			},
+			"sex": "",
+			"skills": {
+				"1": {
+					"typeId": "STR",
+					"minValue": 20,
+					"maxValue": 20
+				}
+			},
+			"giveSkillsCount": 1,
+			"totalWeight": 0,
+			"totalWeightMax": 0,
+			"3dModel": "27#027",
+			"3dModelG": "26#026",
+			"3dModelB": "25#025",
+			"lifeTime": 0,
+			"deathTime": 0,
+			"openPrice": {
+			},
+			"pictureInBattle": "",
+			"rashodkaEffect": "",
+			"rashodkaPoints": 0,
+			"rashodkaNextTurns": 0,
+			"rashodkaEffectTurns": 0,
+			"flags": 2,
+			"fatality": 1211,
+			"maxStars": 0,
+			"currentStars": 0,
+			"minVersion": "1.0",
+			"maxVersion": null
+		}
+	}
+}

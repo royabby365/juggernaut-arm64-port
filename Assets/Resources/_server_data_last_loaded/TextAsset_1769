@@ -1,0 +1,124 @@
+{
+	"loadingTips": {
+		"677": {
+			"id": 677,
+			"description": "Retourne sur les territoires conquis pour recevoir ta récompense et ouvrir les coffres"
+		},
+		"678": {
+			"id": 678,
+			"description": "Défends les territoires conquis pour maintenir le niveau de population."
+		},
+		"679": {
+			"id": 679,
+			"description": "Mène à bien des missions spéciales pour accéder aux chapitres additionnels"
+		},
+		"681": {
+			"id": 681,
+			"description": "Chaque essai infructueux d'ouverture d'un coffre épuise un passe-partout."
+		},
+		"682": {
+			"id": 682,
+			"description": "Plus le mécanisme d'ouverture du coffre est compliqué, plus le contenu est précieux."
+		},
+		"683": {
+			"id": 683,
+			"description": "L'indicateur rouge te permet de déterminer la direction du regard du monstre. Je vais sans problème esquiver ou bloquer une attaque venant de cette direction."
+		},
+		"684": {
+			"id": 684,
+			"description": "Un coup critique te rapporte dans tous les cas 2 unités de mana."
+		},
+		"686": {
+			"id": 686,
+			"description": "Plus ta fureur est grande, plus l'Œil du chaos te rend visite souvent"
+		},
+		"687": {
+			"id": 687,
+			"description": "Utilise la sphère de fureur et la prochaine attaque de monstre sera bloquée."
+		},
+		"688": {
+			"id": 688,
+			"description": "Utilise quatre sphères de fureur et ta prochaine attaque sera critique et provoquera un drop de mana plus intéressant."
+		},
+		"689": {
+			"id": 689,
+			"description": "Utilise 10 sphères de fureur pour obtenir du renfort jusqu'à la fin du combat"
+		},
+		"690": {
+			"id": 690,
+			"description": "Les bosses et certains monstres ont un angle de vision accru et peuvent modifier la direction de leur regard."
+		},
+		"691": {
+			"id": 691,
+			"description": "Utilise des crânes enchantés pour augmenter le pouvoir de tes sortilèges"
+		},
+		"692": {
+			"id": 692,
+			"description": "Certains monstres sont immunisés contre des types de magie donnés."
+		},
+		"693": {
+			"id": 693,
+			"description": "Une exécution permet d'ouvrir un coffre additionnel contenant une récompense"
+		},
+		"694": {
+			"id": 694,
+			"description": "Pour procéder à une exécution, obtiens une rune de résurrection en tuant un montre avec des combos."
+		},
+		"695": {
+			"id": 695,
+			"description": "L'indicateur \" Puissance \" détermine la puissance de l'attaque"
+		},
+		"696": {
+			"id": 696,
+			"description": "L'indicateur \" Courage \" détermine tes chances d'infliger un coup critique et arrête les attaques critiques de l'ennemi."
+		},
+		"697": {
+			"id": 697,
+			"description": "L'indicateur \" Magie \" détermine la force d'une attaque magique et la quantité initiale de mana au combat."
+		},
+		"699": {
+			"id": 699,
+			"description": "Dans les coffres enterrés, tu peux trouver des bijoux, des bagues, des objets, des amulettes magiques et des crânes."
+		},
+		"702": {
+			"id": 702,
+			"description": "Chaque amulette influence efficacement un type de magie seulement."
+		},
+		"703": {
+			"id": 703,
+			"description": "Collecte des objets d'expérience pour obtenir un bonus après chaque combat"
+		},
+		"704": {
+			"id": 704,
+			"description": "Collecte de la fureur pour obtenir des sphères de fureur additionnelles au combat"
+		},
+		"705": {
+			"id": 705,
+			"description": "Collecte du mana pour obtenir des sphères de mana additionnelles au combat"
+		},
+		"706": {
+			"id": 706,
+			"description": "Collecte de la monnaie pour obtenir un bonus après chaque combat"
+		},
+		"707": {
+			"id": 707,
+			"description": "Chaque arme a ses propres techniques d'exécution. Une arme du héros, par exemple, découpe l'ennemi en morceaux grâce à des chaînes géantes."
+		},
+		"1246": {
+			"id": 1246,
+			"description": "En combinant un article du héros à des points du statut \" légendaire\", tu recevras un article légendaire."
+		},
+		"1247": {
+			"id": 1247,
+			"description": "Plus tu infliges de coups critiques, meilleure est la qualification de ton combat et plus tu reçois de points du statut \" légendaire \"."
+		},
+		"1248": {
+			"id": 1248,
+			"description": "Pour un classement optimal au combat, arme-toi de vaillance et utilise activement la magie, des combos et ta deuxième capacité de fureur."
+		},
+		"1249": {
+			"id": 1249,
+			"description": "Pour que ton combat obtienne la meilleure qualification, 70 % des coups doivent être critiques."
+		}
+	}
+}

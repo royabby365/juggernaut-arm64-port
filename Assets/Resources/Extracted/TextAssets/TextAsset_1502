@@ -1,0 +1,1492 @@
+{
+	"dialogs": {
+		"1147": {
+			"id": 1147,
+			"bot": "52_125_5",
+			"dialogs": {
+				"1": {
+					"npc": "1270",
+					"maleText": "Zıpırlar: Ne güzel, ne güzel! Canlı, nefes alan biri! Bacağından ısıracağım seni! Suratına tüküreceğim! Kulağını koparacağım! Ne güzel, ne güzel! Haydi, gel buraya!",
+					"location": "right"
+				},
+				"2": {
+					"location": ""
+				},
+				"3": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1155": {
+			"id": 1155,
+			"bot": "236_239_8",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Geleceğini biliyordum. Annem, arkadaşlarım olacağından bahsetmişti... Adım Una. Komşu köydenim... Oraya bir daha gitmeyeceğim. Seninle geleceğim.",
+					"femaleText": "Geleceğini biliyordum. Annem, arkadaşlarım olacağından bahsetmişti... Adım Una. Komşu köydenim... Oraya bir daha gitmeyeceğim. Seninle geleceğim.",
+					"location": "left"
+				},
+				"2": {
+					"location": ""
+				},
+				"3": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1156": {
+			"id": 1156,
+			"bot": "236_240_9",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Köyde neler olduğunu söylemesem daha iyi. İzin almadan kaçtım, ormanda böğürtlen toplamak için. Döndüğümde insanlar kötüleşmişti. Çok kötülerdi...",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1152",
+					"maleText": "Bambaşka bir şey olmuşlardı. İnsanmış gibi davranıyorlardı ama peri masallarındaki kurtlar gibiydiler. Çok bağırdım ama sesimi duyan olmadı.",
+					"location": "left"
+				},
+				"3": {
+					"npc": "1152",
+					"maleText": "Köyün insanları çok değişmişti... Bana saldırdılar. Canımı zor kurtardım.",
+					"location": "left"
+				},
+				"4": {
+					"npc": "1152",
+					"maleText": "Bunlar aklıma geldikçe oyuncak ayıcığıma sarılıp hıçkırarak ağlıyorum... Beni incitmeyeceksin değil mi? Sana rastladığım için mutluyum. Annem de bunun iyi olduğunu söylüyor.",
+					"location": "left"
+				},
+				"5": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1157": {
+			"id": 1157,
+			"bot": "236_241_10",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Annemin nerede olduğunu mu merak ediyorsun? Burada. Benimle konuşuyor. Diyeceğin varsa iletebilirim.",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1152",
+					"maleText": "Bana neden öyle bakıyorsun? İnsanların bana öyle bakması hoşuma gitmiyor... Çok kötü şeyler olabilir!",
+					"location": "left"
+				},
+				"3": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1158": {
+			"id": 1158,
+			"bot": "236_49_10",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Dur, duyuyor musun? Bataklık adamı ağlıyor... Annem onu bana gösterdi. Bir zamanlar herkes gibiymiş ama sonra bataklıkta boğularak değişmiş. Çok kötü olmuş, bizi öldürmek istiyor...",
+					"location": "left"
+				},
+				"2": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1159": {
+			"id": 1159,
+			"bot": "275_398_14",
+			"dialogs": {
+				"1": {
+					"npc": "1271",
+					"maleText": "Her şeyini ver! Tekrar söyletme! Verirsen canın yanmaz. Tereddüt edersen iki yerine dört ayak üzerinde gidersin buradan. Ama eğer reddedersen öteki tarafı boylarsın!",
+					"location": "right"
+				},
+				"2": {
+					"location": ""
+				},
+				"3": {
+					"location": ""
+				},
+				"4": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1317": {
+			"id": 1317,
+			"bot": "276_369_12",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Seninle konuşmayı seviyorum. Yürüyüş yapmak gibi. Ben sadece sıradan bir çocuğum.",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1152",
+					"maleText": "Annem seni korkuttuğumu söylüyor. Küçücük bir kızdan korkuyor musun?",
+					"femaleText": "Annem seni korkuttuğumu söylüyor. Küçücük bir kızdan korkuyor musun?",
+					"location": "left"
+				},
+				"3": {
+					"location": ""
+				},
+				"4": {
+					"location": ""
+				},
+				"5": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1320": {
+			"id": 1320,
+			"bot": "276_124_13",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Garip dövüşüyorsun. Kılıcını dans eder gibi sallıyorsun! Annemin dövüş hakkında bildiklerimizi sana öğretmeme izin vermemesi ne yazık...",
+					"location": "left"
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1325": {
+			"id": 1325,
+			"bot": "276_493_15",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Bizi takip ediyor. Ayak seslerini duyuyor musun? Ben duyabiliyorum. Varlığını hissediyorum. İyi değil. Acı çekiyor.",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1152",
+					"maleText": "Açlıktan kıvranıyor. İnsanları yiyordu. Ama çoktandır kimseye rastlamadı. Sadece örümcekler ve yarasalar. Bizi de yiyecek... Mutlaka!",
+					"location": "left"
+				},
+				"3": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1328": {
+			"id": 1328,
+			"bot": "1181_498_19",
+			"dialogs": {
+				"1": {
+					"npc": "1185",
+					"maleText": "Canlı et... Sıcak... Aşağıda ne zamandır sıcak ete hasretim... Tam zamanında geldin ölümlü... Etin beni doyuracak...",
+					"location": "right"
+				},
+				"2": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1378": {
+			"id": 1378,
+			"bot": "275_399_14",
+			"dialogs": {
+				"1": {
+					"npc": "1272",
+					"maleText": "Diğerlerini hallettin diye beni de halledebileceğini mi sandın? Ne kadar insan harcadığımdan haberin var mı? Yeryüzünde hepsini gömecek mezarlık bulamadım!",
+					"femaleText": "Diğerlerini hallettin diye beni de halledebileceğini mi sandın? Ne kadar insan harcadığımdan haberin var mı? Yeryüzünde hepsini gömecek mezarlık bulamadım!",
+					"location": "right"
+				},
+				"2": {
+					"npc": "1272",
+					"maleText": "Seni lime lime edeceğim! Kafatasından kadeh, dişlerinden kolye, kemiklerinden de flüt yapacağım!",
+					"location": "right"
+				},
+				"3": {
+					"location": ""
+				},
+				"4": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1383": {
+			"id": 1383,
+			"bot": "277_400_16",
+			"dialogs": {
+				"1": {
+					"npc": "1187",
+					"maleText": "Sovernig önünde diz çök, seni küçük pislik!",
+					"femaleText": "Sovernig önünde diz çök, seni küçük pislik!",
+					"location": "right"
+				},
+				"2": {
+					"npc": "1187",
+					"maleText": "Efendi seni benim gözlerimden görüyor ve diz çökmeni emrediyor! Direnirsen bana iki kat güç verecek ve seni doğrayacağım!",
+					"location": "right"
+				},
+				"3": {
+					"location": ""
+				},
+				"4": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1388": {
+			"id": 1388,
+			"bot": "277_401_17",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Hemen silahına sarılma! Sana teşekkür etmek için döndüm, saldırmak için değil! Beni dövüşte yenerek içimdeki Sovernig şeytanını kovdun!",
+					"femaleText": "Hemen silahına sarılma! Sana teşekkür etmek için döndüm, saldırmak için değil! Beni dövüşte yenerek içimdeki Sovernig şeytanını kovdun!",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1186",
+					"maleText": "Adım Ariyana. Sana hayatımı borçluyum! Amazon kabilesi kanunlarına göre ömrünün sonuna kadar sana hizmet edeceğim. Yaralarımın iyileşmesi için bana biraz zaman ver, sonra en sadık dostun olayım!",
+					"location": "left"
+				},
+				"3": {
+					"location": ""
+				},
+				"4": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1391": {
+			"id": 1391,
+			"bot": "277_402_17",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Yanına aldığın bu kız hoşuma gitmiyor. Amazon. Sav gitsin. Lütfen. Duyuyor musun? Sav başından onu, def et, kurtul ondan!",
+					"femaleText": "Yanına aldığın bu kız hoşuma gitmiyor. Amazon. Sav gitsin. Lütfen. Duyuyor musun? Sav başından onu, def et, kurtul ondan!",
+					"location": "left"
+				},
+				"2": {
+					"location": ""
+				},
+				"3": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1398": {
+			"id": 1398,
+			"bot": "277_403_18",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Bağışla beni kurtarıcım, bunu söylemek istemedim. Ama artık dilimi tutamıyorum. Bu... Bu bizimle gelen kız... Branendalya'dakiler onu adı ağza alınınca dehşete kapılıyorlar. Ruhunu şeytan ele geçirmiş!",
+					"femaleText": "Bağışla beni kurtarıcım, bunu söylemek istemedim. Ama artık dilimi tutamıyorum. Bu... Bu bizimle gelen kız... Branendalya'dakiler onu adı ağza alınınca dehşete kapılıyorlar. Ruhunu şeytan ele geçirmiş!",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1186",
+					"maleText": "Sana köyünden kaçtığını mı söyledi? Sakın inanma! O kız insanları kendisi öldürdü. Şimdi de bizi pençeleri arasına almak istiyor!",
+					"location": "left"
+				},
+				"3": {
+					"npc": "1152",
+					"maleText": "Neden öyle diyor ki? Sence de ters bir şey mi söyledim? Çok yanlış, ben hep iyi davrandım. Gerçekten!",
+					"location": "left"
+				},
+				"4": {
+					"location": ""
+				},
+				"5": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1407": {
+			"id": 1407,
+			"bot": "277_404_19",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Una kötü, Una yalancı. insanlar, köyüm... Yalan söyledim. Aslında kaçmadım...",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1152",
+					"maleText": "Ama önce onlar saldırdı! İsteyerek olmadı, gerçekten! Sadece çok korkmuştum... Ve bir şeyler oldu.",
+					"location": "left"
+				},
+				"3": {
+					"npc": "1152",
+					"maleText": "Sonra hepsi yanarak öldü. Hepsi öldü. Ailem, komşularımız, bütün köy... Kötülük yaptım. Ama annem bunun olması gerektiğini söylüyor.",
+					"location": "left"
+				},
+				"4": {
+					"npc": "1152",
+					"maleText": "Yoksa beni öldüreceklerdi... Hepsi Sovernig yüzünden kötüleşti. Beni kovaladılar. Ağlamak istiyorum. Ne olur kovma beni...",
+					"location": "left"
+				},
+				"5": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1414": {
+			"id": 1414,
+			"bot": "277_405_19",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Bütün gündür ağlıyorum... Köyde yaptıklarımdan ötürü beni affedeceksin değil mi? Ne olur seninle gelmeme izin ver...",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1152",
+					"maleText": "Senden başka arkadaşım yok. Sadece ayıcığım ve bana bakan annem var...",
+					"femaleText": "Senden başka arkadaşım yok. Sadece ayıcığım ve bana bakan annem var...",
+					"location": "left"
+				},
+				"3": {
+					"npc": "1186",
+					"maleText": "Bu kıza acıyorum. Belki de düşündüğüm kadar kötü değildir... İzin ver kalsın kahraman. Hatta belki sana tehlikeli yolculuğunda yardım bile edebilir.",
+					"femaleText": "Bu kıza acıyorum. Belki de düşündüğüm kadar kötü değildir... İzin ver kalsın leydi. Hatta belki sana tehlikeli yolculuğunda yardım bile edebilir.",
+					"location": "left"
+				},
+				"4": {
+					"location": ""
+				},
+				"5": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1425": {
+			"id": 1425,
+			"bot": "277_469_20",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Bekle! İleri gitmekten başka seçeneğin olmadığını biliyorum ama senin için endişeleniyorum koruyucum! Seni kaybetmek tam bir kabus olur...",
+					"femaleText": "Bekle! İleri gitmekten başka seçeneğin olmadığını biliyorum ama senin için endişeleniyorum koruyucum! Seni kaybetmek tam bir kabus olur...",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1186",
+					"maleText": "Neden mi bu kadar endişeliyim? İnan bana haksız yere değil. Boynuzlu Koren geliyor. O, Sovernig'ten haberimiz bile yokken yapılan turnuvaların tartışmasız galibi idi...",
+					"location": "left"
+				},
+				"3": {
+					"npc": "1186",
+					"maleText": "Boynuzlu Koren o kadar kuvvetlidir ki, kılıcı bir tüy sallıyormuş gibi kullanır!",
+					"location": "left"
+				},
+				"4": {
+					"npc": "1186",
+					"maleText": "Bu kılıç, bir biniciyi atıyla beraber ikiye ayırabilir! Kendi gözlerimle gördüm!",
+					"location": "left"
+				},
+				"5": {
+					"npc": "1186",
+					"maleText": "Koren insan iken herkesi tek vuruşta öldürebiliyordu. Artık Sovernig ve onun şeytani güçlerinin kontrolü altında. Senden tek isteğim dikkatli olman. Benim için, Radvaya için...",
+					"femaleText": "Koren insan iken herkesi tek vuruşta öldürebiliyordu. Artık Sovernig ve onun şeytani güçlerinin kontrolü altında. Senden tek isteğim dikkatli olman. Benim için, Radvaya için...",
+					"location": "left"
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1430": {
+			"id": 1430,
+			"bot": "278_413_22",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Korkunç bir rüya gördüm. Uyanıp sabaha kadar titredim.",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1152",
+					"maleText": "Rüyamda zaman kadar eski, dağlar kadar heybetli yaratıklar gördüm... Silahlar onlara karşı etkisizdi... Annem sadece rüya olduğunu söylüyor.",
+					"location": "left"
+				},
+				"3": {
+					"location": ""
+				},
+				"4": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1435": {
+			"id": 1435,
+			"bot": "278_409_22",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Artık güçlerini hissediyorum... İnsanlar onların yanında ne kadar sıska...",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1152",
+					"maleText": "Oradalar, tam önümüzde... Kristal yaratıklar... Ruhtan yoksun... Uyandırıldıkları için çok sinirliler... Çok ama çok sinirli... Korkmuyor musun? Korkmalısın!",
+					"location": "left"
+				},
+				"3": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1444": {
+			"id": 1444,
+			"bot": "278_407_23",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "İçimden bir ses belanın yaklaştığını söylüyor! Senin için endişeleniyorum kahramanım.",
+					"femaleText": "İçimden bir ses belanın yaklaştığını söylüyor! Senin için endişeleniyorum koruyucum.",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1186",
+					"maleText": "İleride daha önce hiç görmediğim bir canavar gördüm. Ama bunlarla ilgili bazı efsaneler hatırlıyorum. Bunlar Kristalitler. Yüzyıllar önce yaşadıkları sonra da uykuya daldıkları söylenir...",
+					"location": "left"
+				},
+				"3": {
+					"npc": "1186",
+					"maleText": "Lütfen dikkatli ol. Sonuçta sen, zavallı Radvaya'yı kurtarabilecek tek kişisin!",
+					"location": "left"
+				},
+				"4": {
+					"location": ""
+				},
+				"5": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1452": {
+			"id": 1452,
+			"bot": "278_411_25",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Harika dövüşüyorsun yardımcım! Biliyor musun, dünyanın başına ne kadar çok felaket geldiğini düşünüyorum ne zamandır. Önce Sovernig iblisi, şimdi de şu taştan devler...",
+					"femaleText": "Harika dövüşüyorsun yardımcım! Biliyor musun, dünyanın başına ne kadar çok felaket geldiğini düşünüyorum ne zamandır. Önce Sovernig iblisi, şimdi de şu taştan devler...",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1186",
+					"maleText": "Tesadüf olamaz... Bütün bunların arkasında biri var... Şeytani bir el hem iblisi hem de devleri uyandırdı... Hem usta bir kara büyücü hem de elementalist olan biri...",
+					"location": "left"
+				},
+				"3": {
+					"location": ""
+				},
+				"4": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1457": {
+			"id": 1457,
+			"bot": "278_412_25",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Yer sallanıyor... Deprem mi bu?",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1186",
+					"maleText": "Deprem falan değil... Ayak sesleri! Çok büyük birinin ayak sesleri... Gittikçe yaklaşıyor. Bakmaya bile korkuyorum... Allah'ım!",
+					"location": "left"
+				},
+				"3": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1465": {
+			"id": 1465,
+			"bot": "279_414_29",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Buralarda çok vahşi ve tehlikeli hayvanlar olduğunu duydum. Ama Branendalya barlarında daha kötü hayvanlarla uğraştım!",
+					"location": "left"
+				},
+				"2": {
+					"location": ""
+				},
+				"3": {
+					"location": ""
+				},
+				"4": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1474": {
+			"id": 1474,
+			"bot": "279_415_30",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "İyi bir dövüş kahramanım. Şuraya bak, bir tane daha. Böylesini görmemiştim...",
+					"femaleText": "İyi bir dövüş koruyucum. Şuraya bak, bir tane daha. Böylesini görmemiştim...",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1152",
+					"maleText": "Hepsi şu meşenin palamutları yüzünden. Şeytani bir meşe bu. Kökleri cehenneme kadar uzanır... Domuzlar da bundan düşen palamutları yiyorlar...",
+					"location": "left"
+				},
+				"3": {
+					"npc": "1152",
+					"maleText": "O yüzden onlar da çok kötüler... Çok kötü! Bir yere saklanalım!",
+					"location": "left"
+				},
+				"4": {
+					"location": ""
+				},
+				"5": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1481": {
+			"id": 1481,
+			"bot": "279_417_32",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Domuzları öldürüp ve içlerindeki iblisi kovuyorsun... Güzel ama ruhlar hala burada.... Görüyorum. Tam arkamızdalar. Ve onları rahatsız ettiğimiz için çok kızgınlar.",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1152",
+					"maleText": "Ruhlar hareket ediyorlar... Hepsi... Hepsi bir domuzun içine girdiler! Annem burası çok tehlikeli bir hale gelecek diyor. Kaç!",
+					"location": "left"
+				},
+				"3": {
+					"location": ""
+				},
+				"4": {
+					"location": ""
+				},
+				"5": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1490": {
+			"id": 1490,
+			"bot": "280_418_26",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Çöle geldik cesur savaşçım. Burası o kadar sıcak ki, insanın kat kat soyunası geliyor!",
+					"femaleText": "Çöle geldik cesur savaşçım. Burası o kadar sıcak ki, insanın kat kat soyunası geliyor!",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1152",
+					"maleText": "Çok uzakları görebiliyorum... Lavların aktığı, boynuzlu canavarların kükrediği toprakları... Ama oraları bile bu berbat çöl kadar sıcak değil!",
+					"location": "left"
+				},
+				"3": {
+					"npc": "1186",
+					"maleText": "Çölde su falan yok ve yerin metrelerce altı bile kupkuru... Sonuç olarak buradaki bitkiler suya değil buradan geçen yolculara bağımlı... Ufukta yamyam bir filiz görünüyor!",
+					"location": "left"
+				},
+				"4": {
+					"location": ""
+				},
+				"5": {
+					"location": ""
+				},
+				"6": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1497": {
+			"id": 1497,
+			"bot": "280_425_26",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Gözlerimi saatlerdir buradan alamıyorum... Çığlıkları çölde yankılanan kum köpekbalıkları hakkındaki hikayeleri hatırlıyorum... Kumun için denizde yüzen balıklardan farksızlar...",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1186",
+					"maleText": "Böyle bir yaratık bize saldırsa ne kötü olur... Karşına dikilir ve... O da ne? Sanırım bir şey görüyorum!",
+					"location": "left"
+				},
+				"3": {
+					"location": ""
+				},
+				"4": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1506": {
+			"id": 1506,
+			"bot": "280_422_28",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Korkuyorum. Hayır, canavardan değil... Kendimden korkuyorum. Bir şeyler olabilir. Annem telaşlı. Köyde de böyle olmuştu. Herkes ölmüştü. Böyle devam edemem.",
+					"location": "left"
+				},
+				"2": {
+					"location": ""
+				},
+				"3": {
+					"location": ""
+				},
+				"4": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1515": {
+			"id": 1515,
+			"bot": "280_426_29",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Kahramanım, sanırım kızcağıza kötü davrandım... Una'ya. Yaşına göre çok bilgin ve çok temiz bir kalbi var. Ondan çok iyi bir Amazon olur!",
+					"femaleText": "Koruyucum, sanırım kızcağıza kötü davrandım... Una'ya. Yaşına göre çok bilgin ve çok temiz bir kalbi var. Ondan çok iyi bir Amazon olur!",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1186",
+					"maleText": "Ama içinde bazı gölgeler var... Sovernig'e yaklaştıkça Una daha çok değişiyor. Daha kötü bir hale geliyor...",
+					"femaleText": "Ama içinde bazı gölgeler var... Sovernig'e yaklaştıkça Una daha çok değişiyor. Daha kötü bir hale geliyor...",
+					"location": "left"
+				},
+				"3": {
+					"location": ""
+				},
+				"4": {
+					"location": ""
+				},
+				"5": {
+					"location": ""
+				},
+				"6": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1528": {
+			"id": 1528,
+			"bot": "280_419_30",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Koruyucum, başaracaksın. Sana güvenim tam!",
+					"femaleText": "Koruyucum, başaracaksın. Sana güvenim tam!",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1186",
+					"maleText": "Ne? Her zaman bir tehlike yaklaşıyor mu diyorum? Üzgünüm ama seni bir şekilde cesaretlendirmem lazım!",
+					"location": "left"
+				},
+				"3": {
+					"npc": "1186",
+					"maleText": "Haklısın, önümüzde önemli bir düşman var... Kumların uzakta oluşturduğu şu hortuma bak. Altında dev ve sinsi bir düşman yatıyor! O kadar kocaman ki, az evvel bir kaşık suda boğduğun Ogr'u bile öylece yutabilir!",
+					"femaleText": "Haklısın, önümüzde önemli bir düşman var... Kumların uzakta oluşturduğu şu hortuma bak. Altında dev ve sinsi bir düşman yatıyor! O kadar kocaman ki, az evvel bir kaşık suda boğduğun Ogr'u bile öylece yutabilir!",
+					"location": "left"
+				},
+				"4": {
+					"location": ""
+				},
+				"5": {
+					"location": ""
+				},
+				"6": {
+					"location": ""
+				},
+				"7": {
+					"location": ""
+				},
+				"8": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1535": {
+			"id": 1535,
+			"bot": "1182_1188_31",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Seni tekrar gördüğüm için çok mutluyum! Çok yalnızdım burada. Hep kötü şeylerin olacağını düşündüm. Ama sana yardım edebileceğimi de düşündüm... Annem tavsiye etti.",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1152",
+					"maleText": "İblislerin en çetini ile dövüşeceksin. Sovernig ile. Belki de önce beni devirebilirsen ona karşı dövüşmek için daha hazırlıklı olursun.",
+					"femaleText": "İblislerin en çetini ile dövüşeceksin. Sovernig ile. Belki de önce beni devirebilirsen ona karşı dövüşmek için daha hazırlıklı olursun.",
+					"location": "left"
+				},
+				"3": {
+					"npc": "1153",
+					"maleText": "Üzerimde antrenman yapmak ister misin? İyiyimdir, köyde yaşarken öğrendim... Ama canın yanarsa kızmak yok. Başlayalım mı? Hazır mısın?",
+					"location": "right"
+				},
+				"4": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1540": {
+			"id": 1540,
+			"bot": "1182_1188_34",
+			"dialogs": {
+				"1": {
+					"npc": "1153",
+					"maleText": "Ne yani, bir çocuğu bile yenemedin mi? Oysa ben sadece ısınıyordum! Bir daha?",
+					"femaleText": "Ne yani, bir çocuğu bile yenemedin mi? Oysa ben sadece ısınıyordum! Bir daha?",
+					"location": "right"
+				},
+				"2": {
+					"location": ""
+				},
+				"3": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1547": {
+			"id": 1547,
+			"bot": "1182_1188_38",
+			"dialogs": {
+				"1": {
+					"npc": "1153",
+					"maleText": "Annem gücünün arttığını söylüyor. Ama benimki de artıyor. Bir el daha?",
+					"location": "right"
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1556": {
+			"id": 1556,
+			"bot": "1182_1190_41",
+			"dialogs": {
+				"1": {
+					"npc": "1153",
+					"maleText": "Güçlüsün ama annem benim daha güçlü olduğumu söylüyor. Bir dana deneyelim mi?",
+					"femaleText": "Güçlüsün ama annem benim daha güçlü olduğumu söylüyor. Bir dana deneyelim mi?",
+					"location": "right"
+				},
+				"2": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1567": {
+			"id": 1567,
+			"bot": "1182_1190_46",
+			"dialogs": {
+				"1": {
+					"npc": "1153",
+					"maleText": "Öyle sağlam vuruyorsun ki, annem benim için endişeleniyor. Ama durmak yok. Yakında neler yapabileceğimi göreceksin.",
+					"location": "right"
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1572": {
+			"id": 1572,
+			"bot": "1182_1190_49",
+			"dialogs": {
+				"1": {
+					"npc": "1153",
+					"maleText": "Annem bu dünyayı kurtaracak tek kişi olduğunu söylüyor. Ama senin gibi birinin de antrenmana ihtiyacı var. İstersen devam edelim. Sana yeni bir numara göstereyim.",
+					"femaleText": "Annem bu dünyayı kurtaracak tek kişi olduğunu söylüyor. Ama senin gibi birinin de antrenmana ihtiyacı var. İstersen devam edelim. Sana yeni bir numara göstereyim.",
+					"location": "right"
+				},
+				"2": {
+					"npc": "1153",
+					"maleText": "Sık sık konuştuğum annemin hayatta olup olmadığını mı soruyorsun? Değil. Ama ölülerin arasında da değil.",
+					"location": "right"
+				},
+				"3": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1579": {
+			"id": 1579,
+			"bot": "1182_1191_53",
+			"dialogs": {
+				"1": {
+					"npc": "1153",
+					"maleText": "Sovernig'i yenmeni istiyorum. Tüm kalbimle istiyorum! Eğer beni bir daha yenersen sana uğurlu ayıcığımı vereceğim!",
+					"femaleText": "Sovernig'i yenmeni istiyorum. Tüm kalbimle istiyorum! Eğer beni bir daha yenersen sana uğurlu ayıcığımı vereceğim!",
+					"location": "right"
+				},
+				"2": {
+					"npc": "1153",
+					"maleText": "Bana öyle bakıp durma. Gerçekten yardım edecek. Elinden gelenleri bilmiyorsun. Onu bana annem verdi.",
+					"location": "right"
+				},
+				"3": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1582": {
+			"id": 1582,
+			"bot": "281_423_42",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Ormandaki insanlar bile Sovernig adını duyunca ürperirler! Onu sıradan bir savaşçının yenmesi mümkün değil ama sana güveniyorum!",
+					"location": "left"
+				},
+				"2": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1587": {
+			"id": 1587,
+			"bot": "282_414_31",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Bu orman kötü. Annem endişeleniyor. Daha ileri gidemem ama sen git. Ben burada bekleyeceğim. Kötü bir şey yapmayacağım, söz!",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1152",
+					"maleText": "Beni özleyecek misin? Ben seni özleyeceğim. Benimle oynamak için geri gelecek misin? Sana ölüm kalım oyununu öğretirim.",
+					"location": "left"
+				},
+				"3": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1594": {
+			"id": 1594,
+			"bot": "282_476_32",
+			"dialogs": {
+				"1": {
+					"npc": "1268",
+					"maleText": "Aptal insan! Ne yapıyorsun burada? Burada Mutantlar yaşar. Mutant toprağı! Git!",
+					"location": "right"
+				},
+				"2": {
+					"npc": "1268",
+					"maleText": "Gitmiyor musun? Toprağımızı kirletirsen. Ölürsün! Seni öldürüp yerim!",
+					"location": "right"
+				},
+				"3": {
+					"npc": "1186",
+					"maleText": "Lanet olası Mutantlar! Bir kere kardeşlerimden birini kaçırmaya kalktılar. Ellerinden zar zor kurtardık. İnsana çok benziyorlar ama tam bir canavarlar. Sıradan insanlardan çok daha kötüler ve ayrıca çok çirkinler!",
+					"femaleText": "Lanet olası Mutantlar! Bir kere kardeşlerimden birini kaçırmaya kalktılar. Ellerinden zar zor kurtardık. Hiç yıkanmıyorlar... Sıradan insanlardan bile kötüler. Bir kadının neler yapabileceğini göster şunlara kardeşim!",
+					"location": "left"
+				},
+				"4": {
+					"location": ""
+				},
+				"5": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1606": {
+			"id": 1606,
+			"bot": "282_477_33",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Una'nın neden kalmaya karar verdiğini anlıyorum... İlerledikçe Sovernig'in karanlığı güçleniyor. İblis, kızın içinde kontrol ettiği gücü uyandırarak sana yöneltmiş olmalı.",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1186",
+					"maleText": "Una anlayarak kenarda kaldı. Bize zarar vermemek için. İçimden bir ses, bu kızla tekrar buluşacağını söylüyor kahramanım.",
+					"femaleText": "Una anlayarak kenarda kaldı. Bize zarar vermemek için. İçimden bir ses, bu kızla tekrar buluşacağını söylüyor leydim.",
+					"location": "left"
+				},
+				"3": {
+					"location": ""
+				},
+				"4": {
+					"location": ""
+				},
+				"5": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1619": {
+			"id": 1619,
+			"bot": "282_478_34",
+			"dialogs": {
+				"1": {
+					"npc": "1154",
+					"maleText": "Planın nedir ölümlü? Sovernig'i yenmek için? Cüretin senin sonun olacak. Ölümün çok eziyetli olacak! Çok geç olmadan vazgeç!",
+					"femaleText": "Planın nedir ölümlü? Sovernig'i yenmek için? Cüretin senin sonun olacak. Ölümün çok eziyetli olacak! Çok geç olmadan vazgeç!",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1154",
+					"maleText": "Sersem, silahın işe yaramaz. Seni böcek gibi ezebilecek bir güce meydan okuyorsun. Kararlı mısın? Sen kaybedersin...",
+					"femaleText": "Sersem şey, silahın işe yaramaz. Seni böcek gibi ezebilecek bir güce meydan okuyorsun. Hala kararlı mısın? Sen kaybedersin...",
+					"location": "left"
+				},
+				"3": {
+					"location": ""
+				},
+				"4": {
+					"location": ""
+				},
+				"5": {
+					"location": ""
+				},
+				"6": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1702": {
+			"id": 1702,
+			"bot": "282_482_35",
+			"dialogs": {
+				"1": {
+					"npc": "1269",
+					"maleText": "Topraklarımıza Mutantları öldürmeye geldin. Ruhlar kızgın! Seni affetmeyecekler! Ruhlar gücüme güç kattılar. Ve seni kurban edeceğim!",
+					"location": "right"
+				},
+				"2": {
+					"npc": "1186",
+					"maleText": "Sıradan Mutantlardan daha kötüsü onların şamanlarıdır. Her gün sunaklarına bir kurban getirdikleri söylenir. Karşılığında da kötü ruhlardan adı bile duyulmamış güçler alırlar.",
+					"location": "left"
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1705": {
+			"id": 1705,
+			"bot": "283_625_47",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Bu topraklarda, bu gizli yerde Resi Ana yaşar. Mutantların anası. Biz Amazonlar kadınlara saygı duyarız ama bu çok aşağılık bir yaratık!",
+					"location": "left"
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1708": {
+			"id": 1708,
+			"bot": "284_483_36",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Bu güzel ormanlar benim memleketim! Dünyanın hiçbir yerinde çiçekler bu kadar güzel kokmaz, kuşlar bu kadar güzel şakımaz. Meyvelerin en lezzetlisi buradadır!",
+					"femaleText": "Bu güzel ormanlar benim memleketim! Dünyanın başka yerinde bu kadar güzel çiçekler ve şakıyan kuşlar bulamazsın.",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1186",
+					"maleText": "Buradaki her şey biz Amazonlara aitti. Zevk ve iş yaptırmak için adam esir alırdık.",
+					"femaleText": "Buradaki her şey biz Amazonlara aitti. Zevk ve iş yaptırmak için adam esir alırdık. Sence de harika bir yaşam değil mi leydim?",
+					"location": "left"
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1713": {
+			"id": 1713,
+			"bot": "284_484_36",
+			"dialogs": {
+				"1": {
+					"npc": "1154",
+					"maleText": "Dediklerimi yok saydın. Saymamalıydın. Bu topraklar, senin gibilerin kemikleri ile dolu. Seninkiler de mi aralarına katılsın?",
+					"femaleText": "Dediklerimi yok saydın. Saymamalıydın. Bu topraklar, senin gibilerin kemikleri ile dolu. Seninkiler de mi aralarına katılsın?",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1154",
+					"maleText": "Öyle ileri gittin ki, ölümün çok vahşi olacak. Çektiğin işkenceler, öbür dünyanın iblislerini bile ürpertecek!",
+					"femaleText": "Öyle ileri gittin ki, ölümün çok vahşi olacak. Çektiğin işkenceler, öbür dünyanın iblislerini bile ürpertecek!",
+					"location": "left"
+				},
+				"3": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1720": {
+			"id": 1720,
+			"bot": "284_485_37",
+			"dialogs": {
+				"1": {
+					"npc": "1154",
+					"maleText": "Hala yaşıyor musun sen? Bu kararlılığın fazla sürmeyecek! Bak, senin iyiliğin için söylüyorum. Geri dön.",
+					"femaleText": "Hala yaşıyor musun sen? Bu kararlılığın fazla sürmeyecek! Bak, senin iyiliğin için söylüyorum. Geri dön.",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1154",
+					"maleText": "Pes et. Pes et ki güneşin doğuşunu bir kez görebilesin. Ya da istersen devam et ve sonsuz karanlığa gömül. İyi düşün!",
+					"femaleText": "Pes et. Pes et ki güneşin doğuşunu bir kez görebilesin. Ya da istersen devam et ve sonsuz karanlığa gömül. İyi düşün!",
+					"location": "left"
+				},
+				"3": {
+					"npc": "1154",
+					"maleText": "Kim miyim? Emin ol, bilmek istemezsin... Mucize eseri sağ kalırsan zaten benimle yeniden karşılaşacaksın. Benimle ve kardeşlerimle...",
+					"location": "left"
+				},
+				"4": {
+					"location": ""
+				},
+				"5": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1731": {
+			"id": 1731,
+			"bot": "284_486_38",
+			"dialogs": {
+				"1": {
+					"npc": "1145",
+					"maleText": "Canlı bir insan mı? Lanetli topraklarda mı? Karnın delik deşik değil. Delirmişe benzer bir halin de yok...",
+					"femaleText": "Canlı bir insan mı? Lanetli topraklarda mı? Karnın delik deşik değil. Delirmişe benzer bir halin de yok...",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1146",
+					"maleText": "Evet, şüphesiz bir adam. Buralarda rastlayacağımız tek ölümlünün, yüzünü gizleyen olduğunu sanıyorduk. Yoluna çıktı mı yabancı?",
+					"femaleText": "Evet, şüphesiz bir canlı. Buralarda rastlayacağımız tek ölümlünün, yüzünü gizleyen olduğunu sanıyorduk. Yoluna çıktı mı yabancı?",
+					"location": "left"
+				},
+				"3": {
+					"npc": "1145",
+					"maleText": "Mutlaka rastlamışsındır yolcu! Bizden kaçabileceğini sanıyor! Çok yakında ilmeği boynuna geçireceğim onun. Burada olanların hepsinin hesabını verecek!",
+					"femaleText": "Mutlaka rastlamışsındır yolcu! Bizden kaçabileceğini sanıyor! Çok yakında ilmeği boynuna geçireceğim onun. Burada olanların hepsinin hesabını verecek!",
+					"location": "left"
+				},
+				"4": {
+					"npc": "1146",
+					"maleText": "Yoldaşım sinirle çok konuştu ama acele etmemiz lazım. Daha fazla vaktini almayacağız. Hayatını seviyorsan yoluna devam et.",
+					"location": "left"
+				},
+				"5": {
+					"location": ""
+				},
+				"6": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1738": {
+			"id": 1738,
+			"bot": "284_488_39",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Zıpırlar... Nefret ediyorum onlardan! Amazonların lanet yemiş düşmanları. Kendimizi bildik bileli bu aşağılık yaratıklarla savaşıyoruz.",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1186",
+					"maleText": "Pusu kurarlar, grup halinde saldırırlar, üzerine yapışık olmayan her şeyi çalarlar. Devamlı küfrederler. Onlara hak ettikleri gibi davranacağından eminim kahramanım!",
+					"femaleText": "Pusu kurarlar, grup halinde saldırırlar, üzerine yapışık olmayan her şeyi çalarlar. Devamlı küfrederler. Onlara hak ettikleri şekilde davran kurtarıcım!",
+					"location": "left"
+				},
+				"3": {
+					"npc": "1270",
+					"maleText": "İşte yeni bir av! Önce ben vuracağım! Yok, ben ben. Birlikte yapalım! Ölmeye hazır ol insan!",
+					"location": "right"
+				},
+				"4": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1745": {
+			"id": 1745,
+			"bot": "284_490_40",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Neredeyse bütün kardeşim delirdi. Aynen benim seninle buluşmadan önce olduğum gibi kurtarıcım. Asil savaşçılar kana susamış canavarlara dönüştü. Kabilemiz için ne kötü bir son!",
+					"femaleText": "Neredeyse bütün kardeşim delirerek kana susamış canavarlara dönüştü. Aynen benim seninle buluşmadan önce olduğum gibi kurtarıcım. Kabilemiz için ne kötü bir son!",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1186",
+					"maleText": "Bu, onlardan biri. Ah zavallı! Dövüş onunla. Belki de benim gibi iyileşir. Olmadı acısı diner. Ama dikkat et. Amazonlar çok kurnaz ve güçlüdür. Ve bunun içinde bir şeytan saklı!",
+					"femaleText": "Bu, onlardan biri. Ah zavallı! Dövüş onunla. Belki de benim gibi iyileşir. Olmadı acısı diner.",
+					"location": "left"
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1748": {
+			"id": 1748,
+			"bot": "284_489_40",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "İleride dev pençeli bir canavar var! Bir insanı ortadan ikiye bölebilir! Bunun icabına senden başkası bakamaz kahramanım!",
+					"femaleText": "İleride dev pençeli bir canavar var! Bir insanı ortadan ikiye bölebilir! Bunun icabına senden başkası bakamaz koruyucum!",
+					"location": "left"
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1753": {
+			"id": 1753,
+			"bot": "285_498_41",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Burası beni korkutuyor... Bu toprakların üzerine sinmiş bir lanet var! Eski, yaşlı bir iblis buraların söz sahibi. Çok büyük bir iblis...",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1185",
+					"maleText": "Hep bugünü bekledim... Boğazım kurudu. Kanını içmek istiyorum... Susuzluğumu giderek için...",
+					"location": "right"
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1762": {
+			"id": 1762,
+			"bot": "285_497_42",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Bak, bir tane daha... Dirilmiş cesetlerden çok korkarım! O aşağılık şey bana pis parmaklarından biriyle dokunsa bile tiksintiden ölebilirim...",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1186",
+					"maleText": "İyi ki buradasın yardımcım... Beni savunup dünyayı kurtaracaksın. Eminim!",
+					"location": "left"
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1769": {
+			"id": 1769,
+			"bot": "285_375_43",
+			"dialogs": {
+				"1": {
+					"npc": "1145",
+					"maleText": "Hala yaşıyor musun? Akbabalar leşini hala parçalamadığı için şanslı olmalısın! Belki de gerçekten iyi dövüşüyorsun...",
+					"femaleText": "Hala yaşıyor musun? Akbabalar leşini hala parçalamadığı için şanslı olmalısın! Belki de gerçekten iyi dövüşüyorsun...",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1146",
+					"maleText": "İçinde daha fazla güç seziyorum savaşçı. Gün gelecek, işimize yarayacaksın. Ama şimdi acele etmeliyiz. Av henüz bitmedi.",
+					"femaleText": "İçinde daha fazla güç seziyorum savaşçı. Gün gelecek, işimize yarayacaksın. Ama şimdi acele etmeliyiz. Av henüz bitmedi.",
+					"location": "left"
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1772": {
+			"id": 1772,
+			"bot": "285_495_45",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Skeltler çürük cesetler kadar iğrenç gözükmüyorlar ama daha tehlikeliler. Lanet Sovernig, büyük ihtimalle onlara hayat üfleyip onları üzerimize salacak...",
+					"location": "left"
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1777": {
+			"id": 1777,
+			"bot": "285_494_45",
+			"dialogs": {
+				"1": {
+					"npc": "1184",
+					"maleText": "Elinde kılıçla nereye gidiyorsun insan? Burası benim efendim Sovernig'in mülkü. Tüm ölümlüler onun karşısında diz çökmeli ve boyun eğmeli.",
+					"location": "right"
+				},
+				"2": {
+					"npc": "1184",
+					"maleText": "Ama seni bu bile kurtaramaz pislik yaratık! Efendimin huzurunu bozmana izin vermeyeceğim! Seni tek bir darbede mahvederdi ama bu zevki ben yaşayacağım!",
+					"location": "right"
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1782": {
+			"id": 1782,
+			"bot": "286_492_55",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Kalbim duracak! Sovernig ile dövüşmen gerek! Kazanırsan bütün dünya bir lanetten kurtulacak. Kaybedersen hepimiz yok olacağız! Allah yardımcın olsun!",
+					"location": "left"
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1856": {
+			"id": 1856,
+			"bot": "1181_373_20",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Burası tekin değil. Uzaklaşalım.",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1152",
+					"maleText": "Duyuyor musun? Kemik tıkırtısı gibi. Yaklaşıyor...",
+					"location": "left"
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1858": {
+			"id": 1858,
+			"bot": "1181_1189_22",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Garip kokuyor. Nehirde boğulmuş kedi gibi...",
+					"location": "left"
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1872": {
+			"id": 1872,
+			"bot": "1862_1863_13",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Annem bizi burada görmek istemediklerini söylüyor. Bataklık halkı bizden hoşlanmıyor.",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1868",
+					"maleText": "Bataklığımızda birisi mi? Burada senin işine yarayacak bir şey yok! Bataklık ruhları, kurbanımı bekleyin!",
+					"location": "right"
+				}
+			},
+			"minVersion": "2.1",
+			"maxVersion": null
+		},
+		"1876": {
+			"id": 1876,
+			"bot": "1862_1864_14",
+			"dialogs": {
+				"1": {
+					"npc": "1869",
+					"maleText": "Neden geldin buraya? Önceden bataklık kimsenin umrunda değildi. Buradaki tek söz sahibi, burada yaşayan Toprlar idi.",
+					"location": "right"
+				},
+				"2": {
+					"npc": "1869",
+					"maleText": "Burada ölümü tadacaksın! Balçık kefenin, kurbağalar arkandan yas tutanlar ve küçük bir tepe ise ebedi istirahatgahın olacak!",
+					"location": "right"
+				},
+				"3": {
+					"npc": "1869",
+					"maleText": "Doğru olanı yapmak istemiyor musun? Savaşçılarım seni mezeye çevirsin de gör!",
+					"location": "right"
+				}
+			},
+			"minVersion": "2.1",
+			"maxVersion": null
+		},
+		"1880": {
+			"id": 1880,
+			"bot": "1862_1865_16",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Büyüklerim, eğer yaramazlık yaparsam bir Topr'a dönüşeceğimi söylerlerdi. Sence onlar da çocukken yaramazlar mıydı?",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1869",
+					"maleText": "Ne cesaretle krallığımda cirit atıp savaşçılarımı öldürürsün? Onlar benim evlatlarım! Buna pişman olacaksın!",
+					"location": "right"
+				},
+				"3": {
+					"npc": "1869",
+					"maleText": "Hayatta kalmanın tek yolu, sonsuza dek benim hizmetçim olmak! Bu, bir insan için en iyisi! Hayır mı? Geber o zaman!",
+					"location": "right"
+				}
+			},
+			"minVersion": "2.1",
+			"maxVersion": null
+		},
+		"1883": {
+			"id": 1883,
+			"bot": "1862_1866_17",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Çok sinsiler. Yakında biri var. Orada bir bataklık kadını saklanıyor. Kendisini kimsenin göremediğini düşünüyor. Ama benim annem herkesi görür.",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1868",
+					"maleText": "Bataklığımız insan kemikleri ile dolu! Ama emin ol seninkiler için de yer var!",
+					"location": "right"
+				}
+			},
+			"minVersion": "2.1",
+			"maxVersion": null
+		},
+		"1886": {
+			"id": 1886,
+			"bot": "1862_1867_17",
+			"dialogs": {
+				"1": {
+					"npc": "1869",
+					"maleText": "Bataklık sazlıkları, askerlerimin kanı ile bulandı! Güçlü bir rakipsin insan ama biz daha güçlüyüz!",
+					"location": "right"
+				},
+				"2": {
+					"npc": "1869",
+					"maleText": "Bataklık seni yutacak. Ruhlar mezarının üzerinde dans edecek. Ve biz Toprlar, tüm dünyaya hükmedeceğiz!",
+					"location": "right"
+				}
+			},
+			"minVersion": "2.1",
+			"maxVersion": null
+		},
+		"1888": {
+			"id": 1888,
+			"bot": "275_395_12",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Köyde o maden hakkında kötü şeyler anlattılar. İçinde haydutlar varmış. Ya gerçekten orada, karanlığın içinde iseler? Korkmuyor musun?",
+					"location": "left"
+				}
+			},
+			"minVersion": "2.1",
+			"maxVersion": null
+		}
+	}
+}

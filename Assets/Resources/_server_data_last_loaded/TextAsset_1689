@@ -1,0 +1,122 @@
+{
+	"skillArtikuls": {
+		"BE": {
+			"id": 648,
+			"title": "경험치",
+			"code": "BE",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 0
+		},
+		"BM": {
+			"id": 647,
+			"title": "주문",
+			"code": "BM",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 0
+		},
+		"BMn": {
+			"id": 652,
+			"title": "돈",
+			"code": "BMn",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 0
+		},
+		"BR": {
+			"id": 646,
+			"title": "분노",
+			"code": "BR",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 0
+		},
+		"DARK": {
+			"id": 505,
+			"title": "어둠",
+			"code": "DARK",
+			"weight": 1,
+			"skillPoints": 0,
+			"flags": 0
+		},
+		"FIRE": {
+			"id": 503,
+			"title": "불",
+			"code": "FIRE",
+			"weight": 1,
+			"skillPoints": 0,
+			"flags": 0
+		},
+		"FullMana": {
+			"id": 1059,
+			"title": "마나",
+			"description": "전투　시작　시　마나　최대",
+			"code": "FullMana",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 0
+		},
+		"FullRage": {
+			"id": 1060,
+			"title": "분노",
+			"description": "전투　시작　시　분노　최대",
+			"code": "FullRage",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 0
+		},
+		"ICE": {
+			"id": 504,
+			"title": "얼음",
+			"code": "ICE",
+			"weight": 1,
+			"skillPoints": 0,
+			"flags": 0
+		},
+		"LIGHT": {
+			"id": 506,
+			"title": "번개",
+			"code": "LIGHT",
+			"weight": 1,
+			"skillPoints": 0,
+			"flags": 0
+		},
+		"RAG": {
+			"id": 56,
+			"title": "용기",
+			"description": "공격　시　향상된　대미지를　입힐　확률을　제어합니다．",
+			"code": "RAG",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 7
+		},
+		"SOR": {
+			"id": 57,
+			"title": "마법",
+			"description": "물리　공격으로　받는　대미지가　감소합니다．",
+			"code": "SOR",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 7
+		},
+		"STR": {
+			"id": 35,
+			"title": "힘",
+			"description": "전투에서　입히는　대미지를　１０으로　제한합니다．＜ｂｒ＞ 힘　１０은　평균　대미지를　１　높입니다．",
+			"code": "STR",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 7
+		},
+		"VIT": {
+			"id": 55,
+			"title": "생명력",
+			"description": "전투에서　자신의　생명력과　관계가　있습니다．",
+			"code": "VIT",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 7
+		}
+	}
+}

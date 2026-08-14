@@ -1,0 +1,249 @@
+{
+	"hints": {
+		"achivmentprogressbar": {
+			"id": 1129,
+			"code": "achivmentprogressbar",
+			"title": "アチーブメントバー",
+			"description": "このゲームの達成進行状況を確認できる。レーティングタブで友人の記録と比較することも可能。"
+		},
+		"bonusarhifury": {
+			"id": 1069,
+			"code": "bonusarhifury",
+			"title": "アーチフューリー",
+			"description": "各戦闘を始める時、最大のフューリー値を獲得できる。"
+		},
+		"bonusarhimagia": {
+			"id": 1068,
+			"code": "bonusarhimagia",
+			"title": "大魔術師ボーナス",
+			"description": "各戦闘を始める時、最大のマナを獲得できる。"
+		},
+		"bonusdark": {
+			"id": 389,
+			"code": "bonusdark",
+			"title": "暗黒の力",
+			"description": "このボーナスによって、暗黒の呪文の破壊力アップ率が決定される。"
+		},
+		"bonusexp": {
+			"id": 392,
+			"code": "bonusexp",
+			"title": "経験値ボーナス",
+			"description": "このボーナスが、戦いに勝って受け取る追加経験値のアップ率をコントロールする。"
+		},
+		"bonusfire": {
+			"id": 387,
+			"code": "bonusfire",
+			"title": "炎の力",
+			"description": "このボーナスによって、炎の呪文の破壊力アップ率が決定される。"
+		},
+		"bonusice": {
+			"id": 388,
+			"code": "bonusice",
+			"title": "氷の力",
+			"description": "このボーナスによって、氷の呪文の破壊力アップ率が決定される。"
+		},
+		"bonuslightning": {
+			"id": 390,
+			"code": "bonuslightning",
+			"title": "稲妻の力",
+			"description": "このボーナスによって、稲妻の呪文の破壊力アップ率が決定される。"
+		},
+		"bonusmana": {
+			"id": 961,
+			"code": "bonusmana",
+			"title": "マナボーナス",
+			"description": "このボーナスによって、さらにいくつのマナのかたまりを獲得できるかが決定される。このボーナスが2と等しい場合 - さらにマナのかたまりを1つまたは2つ受け取れる確率が高い。"
+		},
+		"bonusmoney": {
+			"id": 960,
+			"code": "bonusmoney",
+			"title": "マネーボーナス",
+			"description": "このボーナスによって、戦闘で勝利したあとさらにいくつのゴールドを獲得できるかが決定される。"
+		},
+		"bonusrage": {
+			"id": 962,
+			"code": "bonusrage",
+			"title": "フューリーボーナス",
+			"description": "このボーナスによって、戦闘中にさらにいくつのフューリーのかたまりを獲得できるかが決定される。このボーナスが2と等しい場合 - さらにマナのかたまりを1つまたは2つ受け取れる確率が高い。"
+		},
+		"cristals": {
+			"id": 377,
+			"code": "cristals",
+			"title": "クリスタル",
+			"description": "クリスタル。店でスペシャルアイテムを買う必要がある。戦闘時および追加チャプターのボーナスとして獲得可能、または銀行で購入も可能。"
+		},
+		"damagepotion": {
+			"id": 382,
+			"code": "damagepotion",
+			"title": "毒弾",
+			"description": "この弾薬を使うことで、戦闘時に敵をゆっくり毒殺することができる。宝箱の中で見つけるか、または店内の「おすすめ」セクションで購入することも可能。"
+		},
+		"expa": {
+			"id": 391,
+			"code": "expa",
+			"title": "経験値",
+			"description": "これが経験値だ。どんどんレベルアップする必要がある。経験値は戦闘に勝利することでアップする。さらに経験値ボーナスを含む特別な道具を見つけた場合もアップする。"
+		},
+		"healpotion": {
+			"id": 380,
+			"code": "healpotion",
+			"title": "治療薬",
+			"description": "この弾薬は戦闘時に生命を回復させる。宝箱の中で見つけるか、または店内の「おすすめ」セクションで購入することも可能。"
+		},
+		"image_alert": {
+			"id": 1116,
+			"code": "image_alert",
+			"title": "注意",
+			"description": "注意！"
+		},
+		"image_completed_text": {
+			"id": 1117,
+			"code": "image_completed_text",
+			"title": "完了",
+			"description": "完了！"
+		},
+		"image_congrats": {
+			"id": 1118,
+			"code": "image_congrats",
+			"title": "おめでとう",
+			"description": "おめでとう！"
+		},
+		"image_fight_button": {
+			"id": 1120,
+			"code": "image_fight_button",
+			"title": "攻撃",
+			"description": "攻撃！"
+		},
+		"image_fight_dodge": {
+			"id": 1121,
+			"code": "image_fight_dodge",
+			"title": "よける",
+			"description": "よける"
+		},
+		"image_fight_execution": {
+			"id": 1122,
+			"code": "image_fight_execution",
+			"title": "処刑",
+			"description": "処刑"
+		},
+		"image_fight_immunity": {
+			"id": 1123,
+			"code": "image_fight_immunity",
+			"title": "免疫力",
+			"description": "免疫力"
+		},
+		"image_fights_block": {
+			"id": 1119,
+			"code": "image_fights_block",
+			"title": "ブロック",
+			"description": "ブロック"
+		},
+		"image_game_logo": {
+			"id": 1124,
+			"code": "image_game_logo",
+			"title": "ジャガーノート",
+			"description": "ジャガーノート"
+		},
+		"image_main_map_banner": {
+			"id": 1125,
+			"code": "image_main_map_banner",
+			"title": "ラドウェイ島",
+			"description": "ラドウェイ島"
+		},
+		"image_news": {
+			"id": 1274,
+			"code": "image_news",
+			"title": "ニュース"
+		},
+		"image_support_banner_text": {
+			"id": 1126,
+			"code": "image_support_banner_text",
+			"title": "サポート",
+			"description": "ヘルプが必要な方は\n技術サポートまでご連絡ください！"
+		},
+		"image_you_lose": {
+			"id": 1127,
+			"code": "image_you_lose",
+			"title": "敗北",
+			"description": "敗北！"
+		},
+		"image_you_win": {
+			"id": 1128,
+			"code": "image_you_win",
+			"title": "勝利",
+			"description": "勝利！"
+		},
+		"legendarypoints": {
+			"id": 1202,
+			"code": "legendarypoints",
+			"title": "戦闘で獲得した伝説ステータスポイント",
+			"description": "戦闘のあと、レーティングに基づいた伝説ステータスポイントを獲得できる。これらが英雄アイテムのアップグレードに必要となる。これは一覧表ウィンドウから行える。"
+		},
+		"map": {
+			"id": 998,
+			"code": "map",
+			"title": "メインマップ",
+			"description": "ここでゲームの進行状況を確認できる。チャプターを新たに完了するたびにアップする。"
+		},
+		"money": {
+			"id": 376,
+			"code": "money",
+			"title": "マネー",
+			"description": "ゴールド。これを使えば、店で新しいアーマーや弾薬を買うことができる。戦闘時や解放地域にて獲得することができる。銀行で購入も可能だ。"
+		},
+		"powerpotion": {
+			"id": 381,
+			"code": "powerpotion",
+			"title": "ブースター",
+			"description": "この弾薬を使うことで、敵に対する次の身体攻撃を強化することができる。宝箱の中で見つけるか、または店内の「おすすめ」セクションで購入することも可能。"
+		},
+		"scarab": {
+			"id": 963,
+			"code": "scarab",
+			"title": "スカラブ",
+			"description": "解放地域にある隠された宝箱を探すには、スカラブが必要だ。戦闘または特定のチャプターを完了させる報酬として獲得できる。店での購入も可能。"
+		},
+		"sculls": {
+			"id": 378,
+			"code": "sculls",
+			"title": "スカル",
+			"description": "マジックスカル。魔術書に書かれた呪文を勉強し、上達させる必要がある。店で購入可能、または宝箱をこじ開けることで戦闘時に獲得できるかもしれない。"
+		},
+		"socialbutton": {
+			"id": 1114,
+			"code": "socialbutton",
+			"title": "ソーシャルボタン",
+			"description": "ゲームを40分間行うごとに、達成記録を公表することができる。"
+		},
+		"statfury": {
+			"id": 384,
+			"code": "statfury",
+			"title": "勇気",
+			"description": "勇気によって決定的な打撃率がアップし、マナスフィアを相手から確実に叩き落とすことができる増加ダメージをもたらす。また勇気によって、敵の決定打撃から保護される。"
+		},
+		"stathp": {
+			"id": 383,
+			"code": "stathp",
+			"title": "体力",
+			"description": "このパラメータは、戦闘時の生存可能率を示している。 "
+		},
+		"statmagic": {
+			"id": 386,
+			"code": "statmagic",
+			"title": "魔法",
+			"description": "このパラメータは、魔法によるダメージのパワーを示している。それが高いほど、呪文の力が強くなる。"
+		},
+		"statstrength": {
+			"id": 385,
+			"code": "statstrength",
+			"title": "パワー",
+			"description": "パワーによって、戦闘時に与えるダメージが決定される。それが高いほど、打撃力が強くなる。またパワーは、魔法によるダメージにわずかな影響を及ぼす。"
+		},
+		"vzlom": {
+			"id": 379,
+			"code": "vzlom",
+			"title": "ピックロック",
+			"description": "ピックロック。宝箱を開けるのに使用する。戦闘中に獲得可能、または店で購入可能。"
+		}
+	}
+}

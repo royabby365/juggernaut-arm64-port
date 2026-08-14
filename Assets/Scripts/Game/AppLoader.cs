@@ -2,11 +2,15 @@ using UnityEngine;
 
 public class AppLoader : MonoBehaviour
 {
-	private void Start()
-	{
-	}
+    private void Start()
+    {
+        Debug.Log("[AppLoader] Initializing Juggernaut boot...");
+        
+        // Ensure AtlasManager does not hang looking for non-existent bundles if unconfigured
+        Globals.DebugDoNotLoadAtlases = true;
+        Globals.DebugStartMenuSimple = true;
 
-	private void Update()
-	{
-	}
+        var mainMenuGo = new GameObject("MainMenuHost");
+        mainMenuGo.AddComponent<MainMenu>();
+    }
 }

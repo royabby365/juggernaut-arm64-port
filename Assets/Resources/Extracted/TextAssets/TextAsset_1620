@@ -1,0 +1,1165 @@
+{
+	"achievements": {
+		"847": {
+			"id": 847,
+			"order": 0,
+			"title": "ヒザまで粘液に埋もれて",
+			"info": "チャプター「荒れ果てた湿地」を完了する",
+			"image": "",
+			"condition": {
+				"location": 236,
+				"choice": "test1"
+			},
+			"points": 2
+		},
+		"850": {
+			"id": 850,
+			"order": 0,
+			"title": "洞窟の住人",
+			"info": "チャプター「洞窟を通る危険な道」を完了する。",
+			"image": "",
+			"condition": {
+				"location": 276,
+				"choice": "test1"
+			},
+			"points": 4
+		},
+		"851": {
+			"id": 851,
+			"order": 0,
+			"title": "包囲攻撃下の都市",
+			"info": "チャプター「ブラネンダルの壁の下」を完了する。",
+			"image": "",
+			"condition": {
+				"location": 277,
+				"choice": "test1"
+			},
+			"points": 7
+		},
+		"852": {
+			"id": 852,
+			"order": 0,
+			"title": "フィフティ・フィフティ",
+			"info": "チャプター「目標へ向かう途中」を完了する。",
+			"image": "",
+			"condition": {
+				"location": 278,
+				"choice": "test1"
+			},
+			"points": 9
+		},
+		"853": {
+			"id": 853,
+			"order": 0,
+			"title": "砂嵐",
+			"info": "チャプター「ヒザまで砂に埋もれて」を完了する。",
+			"image": "",
+			"condition": {
+				"location": 280,
+				"choice": "test1"
+			},
+			"points": 12
+		},
+		"854": {
+			"id": 854,
+			"order": 0,
+			"title": "野蛮な種族",
+			"info": "チャプター「ズバーグスの村」を完了する。",
+			"image": "",
+			"condition": {
+				"location": 282,
+				"choice": "test1"
+			},
+			"points": 14
+		},
+		"855": {
+			"id": 855,
+			"order": 0,
+			"title": "トロピカルパラダイス",
+			"info": "チャプター 「ジャングルからのブレークスルー」を完了する。",
+			"image": "",
+			"condition": {
+				"location": 284,
+				"choice": "test1"
+			},
+			"points": 15
+		},
+		"856": {
+			"id": 856,
+			"order": 0,
+			"title": "死んでもいない、生きてもいない",
+			"info": "チャプター「目標まであと少し」を完了する。",
+			"image": "",
+			"condition": {
+				"location": 285,
+				"choice": "test1"
+			},
+			"points": 18
+		},
+		"857": {
+			"id": 857,
+			"order": 0,
+			"title": "ジャガーノート",
+			"info": "チャプター「ソブリングの復讐」を完了する。",
+			"image": "",
+			"condition": {
+				"location": 286,
+				"choice": "test1"
+			},
+			"points": 20
+		},
+		"858": {
+			"id": 858,
+			"order": 0,
+			"title": "指名手配！",
+			"info": "追加チャプター「旧坑」にアクセスする。",
+			"image": "",
+			"condition": {
+				"location": 275,
+				"choice": "test2"
+			},
+			"points": 2,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"859": {
+			"id": 859,
+			"order": 0,
+			"title": "バウンティハンター",
+			"info": "追加チャプター「旧坑」を完了する。",
+			"image": "",
+			"condition": {
+				"location": 275,
+				"choice": "test1"
+			},
+			"points": 4,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"860": {
+			"id": 860,
+			"order": 0,
+			"title": "両生類",
+			"info": "追加チャプター「シルビオンの悲劇」にアクセスする。",
+			"image": "",
+			"condition": {
+				"location": 287,
+				"choice": "test2"
+			},
+			"points": 8
+		},
+		"861": {
+			"id": 861,
+			"order": 0,
+			"title": "ドラゴンスレイヤー",
+			"info": "追加チャプター「シルビオンの悲劇」を完了する。",
+			"image": "",
+			"condition": {
+				"location": 287,
+				"choice": "test1"
+			},
+			"points": 18
+		},
+		"862": {
+			"id": 862,
+			"order": 0,
+			"title": "食肉処理場",
+			"info": "追加チャプター「悪魔のようなオークの樹の影で」にアクセスする。",
+			"image": "",
+			"condition": {
+				"location": 279,
+				"choice": "test2"
+			},
+			"points": 8
+		},
+		"863": {
+			"id": 863,
+			"order": 0,
+			"title": "ブッチャー",
+			"info": "追加チャプター「悪魔のようなオークの樹の影で」を完了する。",
+			"image": "",
+			"condition": {
+				"location": 279,
+				"choice": "test1"
+			},
+			"points": 10
+		},
+		"864": {
+			"id": 864,
+			"order": 0,
+			"title": "これは蜃気楼なのか？",
+			"info": "追加チャプター「命沸きたつ泉」にアクセスする。",
+			"image": "",
+			"condition": {
+				"location": 281,
+				"choice": "test2"
+			},
+			"points": 10
+		},
+		"865": {
+			"id": 865,
+			"order": 0,
+			"title": "サンドデーモン",
+			"info": "追加チャプター「命沸きたつ泉」を完了する。",
+			"image": "",
+			"condition": {
+				"location": 281,
+				"choice": "test1"
+			},
+			"points": 14
+		},
+		"866": {
+			"id": 866,
+			"order": 0,
+			"title": "古代廃墟",
+			"info": "追加チャプター「秘密の聖地」にアクセスする。",
+			"image": "",
+			"condition": {
+				"location": 283,
+				"choice": "test2"
+			},
+			"points": 15
+		},
+		"867": {
+			"id": 867,
+			"order": 0,
+			"title": "女家長",
+			"info": "追加チャプター「秘密の聖地」を完了する。",
+			"image": "",
+			"condition": {
+				"location": 283,
+				"choice": "test1"
+			},
+			"points": 18
+		},
+		"868": {
+			"id": 868,
+			"order": 0,
+			"title": "生徒",
+			"info": "達成レベル 5",
+			"image": "",
+			"condition": {
+				"level": 5,
+				"choice": "test3"
+			},
+			"points": 3
+		},
+		"869": {
+			"id": 869,
+			"order": 0,
+			"title": "名人",
+			"info": "達成レベル 10",
+			"image": "",
+			"condition": {
+				"level": 10,
+				"choice": "test3"
+			},
+			"points": 5
+		},
+		"870": {
+			"id": 870,
+			"order": 0,
+			"title": "達人",
+			"info": "達成レベル 15",
+			"image": "",
+			"condition": {
+				"level": 15,
+				"choice": "test3"
+			},
+			"points": 9
+		},
+		"871": {
+			"id": 871,
+			"order": 0,
+			"title": "偉大な戦士",
+			"info": "達成レベル 20",
+			"image": "",
+			"condition": {
+				"level": 20,
+				"choice": "test3"
+			},
+			"points": 15
+		},
+		"872": {
+			"id": 872,
+			"order": 0,
+			"title": "無敵の戦士",
+			"info": "達成レベル 25",
+			"image": "",
+			"condition": {
+				"level": 25,
+				"choice": "test3"
+			},
+			"points": 18
+		},
+		"873": {
+			"id": 873,
+			"order": 0,
+			"title": "伝説の戦士",
+			"info": "達成レベル 30",
+			"image": "",
+			"condition": {
+				"level": 30,
+				"choice": "test3"
+			},
+			"points": 20
+		},
+		"874": {
+			"id": 874,
+			"order": 0,
+			"title": "アコライト",
+			"info": "新しい魔法の種類を学ぶ。",
+			"image": "",
+			"condition": {
+				"number": 2,
+				"choice": "test4"
+			},
+			"points": 15
+		},
+		"875": {
+			"id": 875,
+			"order": 0,
+			"title": "ロードオブザエレメンツ",
+			"info": "全ての種類の魔法から呪文を学ぶ",
+			"image": "",
+			"condition": {
+				"choice": "test5"
+			},
+			"points": 17
+		},
+		"876": {
+			"id": 876,
+			"order": 0,
+			"title": "魔術師",
+			"info": "全呪文を最大レベルに成長させる",
+			"image": "",
+			"condition": {
+				"choice": "test6"
+			},
+			"points": 15
+		},
+		"877": {
+			"id": 877,
+			"order": 0,
+			"title": "処刑執行人",
+			"info": "処刑を執行する",
+			"image": "",
+			"condition": {
+				"number": 1,
+				"choice": "test24"
+			},
+			"points": 3
+		},
+		"878": {
+			"id": 878,
+			"order": 0,
+			"title": "シリアルキラー",
+			"info": "10人の処刑を執行する",
+			"image": "",
+			"condition": {
+				"number": 10,
+				"choice": "test24"
+			},
+			"points": 10
+		},
+		"879": {
+			"id": 879,
+			"order": 0,
+			"title": "魔法の放散",
+			"info": "マナのかたまりを300個集める",
+			"image": "",
+			"condition": {
+				"number": 300,
+				"choice": "test7"
+			},
+			"points": 4
+		},
+		"880": {
+			"id": 880,
+			"order": 0,
+			"title": "バーサーカー",
+			"info": "100個のフューリーのかたまりを集める",
+			"image": "",
+			"condition": {
+				"number": 100,
+				"choice": "test8"
+			},
+			"points": 5
+		},
+		"881": {
+			"id": 881,
+			"order": 0,
+			"title": "見ないで！",
+			"info": "カオスの眼を50回追い払う",
+			"image": "",
+			"condition": {
+				"count": 50,
+				"choice": "test9"
+			},
+			"points": 7
+		},
+		"882": {
+			"id": 882,
+			"order": 0,
+			"title": "錠前屋",
+			"info": "難易度中のロックを6個こじ開ける",
+			"image": "",
+			"condition": {
+				"type": "normal",
+				"number": 6,
+				"choice": "test10"
+			},
+			"points": 14
+		},
+		"883": {
+			"id": 883,
+			"order": 0,
+			"title": "金庫破り",
+			"info": "難易度高のロックを6個こじ開ける",
+			"image": "",
+			"condition": {
+				"type": "hard",
+				"number": 6,
+				"choice": "test10"
+			},
+			"points": 17
+		},
+		"884": {
+			"id": 884,
+			"order": 0,
+			"title": "こんなものは必要ない",
+			"info": "簡単なロックを、ピックロックを使用せずこじ開ける",
+			"image": "",
+			"condition": {
+				"type": "easy",
+				"count": 1,
+				"choice": "test11"
+			},
+			"points": 5
+		},
+		"885": {
+			"id": 885,
+			"order": 0,
+			"title": "目をつぶっててもできる",
+			"info": "難易度中のロックを、ピックロックを使用せずこじ開ける ",
+			"image": "",
+			"condition": {
+				"type": "normal",
+				"count": 1,
+				"choice": "test11"
+			},
+			"points": 13
+		},
+		"886": {
+			"id": 886,
+			"order": 0,
+			"title": "追跡者",
+			"info": "魔法攻撃を10回よけて「連続ステップを実行する」",
+			"image": "",
+			"condition": {
+				"type": "strong",
+				"count": 10,
+				"choice": "test12"
+			},
+			"points": 4
+		},
+		"887": {
+			"id": 887,
+			"order": 0,
+			"title": "黒魔術",
+			"info": "魔法攻撃を10回よけて「黒のマナを集める」",
+			"image": "",
+			"condition": {
+				"type": "weak",
+				"count": 10,
+				"choice": "test12"
+			},
+			"points": 4
+		},
+		"888": {
+			"id": 888,
+			"order": 0,
+			"title": "炎＆氷",
+			"info": "1回の攻撃中に2つの異なる魔法攻撃を使う。",
+			"image": "",
+			"condition": {
+				"count": 1,
+				"choice": "test13"
+			},
+			"points": 11
+		},
+		"889": {
+			"id": 889,
+			"order": 0,
+			"title": "攻撃名人",
+			"info": "「致命的打撃」の10回使用する",
+			"image": "",
+			"condition": {
+				"type": "crit",
+				"count": 10,
+				"choice": "test14"
+			},
+			"points": 9
+		},
+		"890": {
+			"id": 890,
+			"order": 0,
+			"title": "防御名人",
+			"info": "「ブロック」を20回使用する",
+			"image": "",
+			"condition": {
+				"type": "block",
+				"count": 20,
+				"choice": "test14"
+			},
+			"points": 3
+		},
+		"891": {
+			"id": 891,
+			"order": 0,
+			"title": "ヒーロー",
+			"info": "「強化」を5回使用する",
+			"image": "",
+			"condition": {
+				"type": "strong",
+				"count": 5,
+				"choice": "test14"
+			},
+			"points": 15
+		},
+		"892": {
+			"id": 892,
+			"order": 0,
+			"title": "必殺薬",
+			"info": "戦闘中に敵に5回毒を盛る",
+			"image": "",
+			"condition": {
+				"count": 5,
+				"choice": "test15"
+			},
+			"points": 12
+		},
+		"893": {
+			"id": 893,
+			"order": 0,
+			"title": "もう死にそうだ",
+			"info": "HPと戦い勝利する < 5%",
+			"image": "",
+			"condition": {
+				"percent": 5,
+				"choice": "test17"
+			},
+			"points": 9
+		},
+		"894": {
+			"id": 894,
+			"order": 0,
+			"title": "完全無傷",
+			"info": "HPと戦い勝利する > 95%",
+			"image": "",
+			"condition": {
+				"percent": 95,
+				"choice": "test16"
+			},
+			"points": 12
+		},
+		"895": {
+			"id": 895,
+			"order": 0,
+			"title": "金袋",
+			"info": "5000ゴールドを獲得",
+			"image": "",
+			"condition": {
+				"amount": 5000,
+				"choice": "test18"
+			},
+			"points": 10
+		},
+		"896": {
+			"id": 896,
+			"order": 0,
+			"title": "弱き者のディフェンダー",
+			"info": "捕獲領域を攻撃してくるワイルドモンスターを5人殺す",
+			"image": "",
+			"condition": {
+				"number": 5,
+				"choice": "test19"
+			},
+			"points": 5
+		},
+		"897": {
+			"id": 897,
+			"order": 0,
+			"title": "便利な道具",
+			"info": "店でピックロックを買う",
+			"image": "",
+			"condition": {
+				"item": 626,
+				"choice": "test20"
+			},
+			"points": 8
+		},
+		"898": {
+			"id": 898,
+			"order": 0,
+			"title": "知識欲",
+			"info": "店でマジカルスカルを買う",
+			"image": "",
+			"condition": {
+				"item": 714,
+				"choice": "test20"
+			},
+			"points": 12
+		},
+		"899": {
+			"id": 899,
+			"order": 0,
+			"title": "初級トレジャーハンター",
+			"info": "宝箱を掘る",
+			"image": "",
+			"condition": {
+				"number": 1,
+				"choice": "test21"
+			},
+			"points": 3
+		},
+		"900": {
+			"id": 900,
+			"order": 0,
+			"title": "何個あるんだ？",
+			"info": "宝箱を5個掘る",
+			"image": "",
+			"condition": {
+				"number": 5,
+				"choice": "test21"
+			},
+			"points": 8
+		},
+		"901": {
+			"id": 901,
+			"order": 0,
+			"title": "中級トレジャーハンター",
+			"info": "宝箱を20個掘る",
+			"image": "",
+			"condition": {
+				"number": 20,
+				"choice": "test21"
+			},
+			"points": 14
+		},
+		"902": {
+			"id": 902,
+			"order": 0,
+			"title": "上級トレジャーハンター",
+			"info": "宝箱を50個掘る",
+			"image": "",
+			"condition": {
+				"number": 50,
+				"choice": "test21"
+			},
+			"points": 16
+		},
+		"903": {
+			"id": 903,
+			"order": 0,
+			"title": "欲深い昆虫",
+			"info": "店でスカラブを買う",
+			"image": "",
+			"condition": {
+				"item": 822,
+				"choice": "test20"
+			},
+			"points": 8
+		},
+		"904": {
+			"id": 904,
+			"order": 0,
+			"title": "どうやって這入ってきた？",
+			"info": "隠し場所でスカラブを探す",
+			"image": "",
+			"condition": {
+				"item": 822,
+				"count": 1,
+				"choice": "test22"
+			},
+			"points": 3
+		},
+		"905": {
+			"id": 905,
+			"order": 0,
+			"title": "これが埋めているやつだ！",
+			"info": "ナイトエルフを打ち負かす",
+			"image": "",
+			"condition": {
+				"count": 1,
+				"choice": "test23"
+			},
+			"points": 5
+		},
+		"906": {
+			"id": 906,
+			"order": 0,
+			"title": "耳の尖ったやつらの脅威",
+			"info": "ナイトエルフを5人打ち負かす",
+			"image": "",
+			"condition": {
+				"count": 5,
+				"choice": "test23"
+			},
+			"points": 15
+		},
+		"999": {
+			"id": 999,
+			"order": 0,
+			"title": "酔っぱらってるのか？",
+			"info": "1回の戦闘中に攻撃を10回外す",
+			"image": "",
+			"condition": {
+				"count": 10,
+				"choice": "test25"
+			},
+			"points": 5
+		},
+		"1000": {
+			"id": 1000,
+			"order": 0,
+			"title": "奇跡的な治療",
+			"info": "1回の戦闘中に体力エリキシルを3つ使用する",
+			"image": "",
+			"condition": {
+				"number": 3,
+				"choice": "test26"
+			},
+			"points": 7
+		},
+		"1001": {
+			"id": 1001,
+			"order": 0,
+			"title": "スコール",
+			"info": "1回の戦闘中に強化オーブを3つ使用する",
+			"image": "",
+			"condition": {
+				"number": 3,
+				"choice": "test27"
+			},
+			"points": 4
+		},
+		"1002": {
+			"id": 1002,
+			"order": 0,
+			"title": "ポイズンアイビー",
+			"info": "1回の戦闘中に毒を3つ使用する",
+			"image": "",
+			"condition": {
+				"count": 3,
+				"choice": "test44"
+			},
+			"points": 10
+		},
+		"1003": {
+			"id": 1003,
+			"order": 0,
+			"title": "コンボキング",
+			"info": "1回の戦闘中にコンボ打撃を3回行う",
+			"image": "",
+			"condition": {
+				"count": 3,
+				"choice": "test28"
+			},
+			"points": 15
+		},
+		"1004": {
+			"id": 1004,
+			"order": 0,
+			"title": "左利き",
+			"info": "敵を左からの打撃のみで打倒する",
+			"image": "",
+			"condition": {
+				"choice": "test29"
+			},
+			"points": 5
+		},
+		"1005": {
+			"id": 1005,
+			"order": 0,
+			"title": "マナクラウド",
+			"info": "戦闘中にマナのかたまりを10個たたき出すが、ひとつも回収しない",
+			"image": "",
+			"condition": {
+				"number": 10,
+				"choice": "test30"
+			},
+			"points": 3
+		},
+		"1006": {
+			"id": 1006,
+			"order": 0,
+			"title": "難攻不落",
+			"info": "1回の戦闘中に10回ブロックする",
+			"image": "",
+			"condition": {
+				"count": 10,
+				"choice": "test43"
+			},
+			"points": 8
+		},
+		"1007": {
+			"id": 1007,
+			"order": 0,
+			"title": "眼科医",
+			"info": "1回の戦闘中にカオスの眼を5回破壊する",
+			"image": "",
+			"condition": {
+				"count": 5,
+				"choice": "test42"
+			},
+			"points": 4
+		},
+		"1008": {
+			"id": 1008,
+			"order": 0,
+			"title": "抑制",
+			"info": "戦闘中、敵にマナのかたまりを5個出させるが、ひとつも回収しない",
+			"image": "",
+			"condition": {
+				"number": 5,
+				"choice": "test31"
+			},
+			"points": 4,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1009": {
+			"id": 1009,
+			"order": 0,
+			"title": "大きな誘惑",
+			"info": "完全な魔法とフューリースケールを用いて戦闘を開始し、魔法またはフューリーのどちらも使わずに勝利する",
+			"image": "",
+			"condition": {
+				"choice": "test32"
+			},
+			"points": 15
+		},
+		"1010": {
+			"id": 1010,
+			"order": 0,
+			"title": "過剰供給",
+			"info": "1回の戦闘中に完全なマナスケールでマナを5個集める",
+			"image": "",
+			"condition": {
+				"number": 5,
+				"choice": "test33"
+			},
+			"points": 4
+		},
+		"1011": {
+			"id": 1011,
+			"order": 0,
+			"title": "限界なき怒り",
+			"info": "同戦闘中に完全なフューリースケールでフューリーのかたまりを3個集める",
+			"image": "",
+			"condition": {
+				"number": 3,
+				"choice": "test34"
+			},
+			"points": 4,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1012": {
+			"id": 1012,
+			"order": 0,
+			"title": "制御不可能な侵略",
+			"info": "1回の戦闘中にフューリーパネル上にある3つの能力全てを使用する",
+			"image": "",
+			"condition": {
+				"choice": "test35"
+			},
+			"points": 14
+		},
+		"1013": {
+			"id": 1013,
+			"order": 0,
+			"title": "我慢の限界",
+			"info": "敵を毒殺する",
+			"image": "",
+			"condition": {
+				"choice": "test36"
+			},
+			"points": 10
+		},
+		"1014": {
+			"id": 1014,
+			"order": 0,
+			"title": "ゾンビアーミー",
+			"info": "アンクを使って敵を7回復活させるが、処刑は執行しない",
+			"image": "",
+			"condition": {
+				"count": 7,
+				"choice": "test37"
+			},
+			"points": 16
+		},
+		"1015": {
+			"id": 1015,
+			"order": 0,
+			"title": "平和条約",
+			"info": "1回の戦闘中、カオスの眼にフューリーを10個盗ませる",
+			"image": "",
+			"condition": {
+				"number": 10,
+				"choice": "test38"
+			},
+			"points": 3
+		},
+		"1016": {
+			"id": 1016,
+			"order": 0,
+			"title": "敗北",
+			"info": "連続動作を必要とする魔法攻撃で敵に殺される",
+			"image": "",
+			"condition": {
+				"choice": "test39"
+			},
+			"points": 6
+		},
+		"1017": {
+			"id": 1017,
+			"order": 0,
+			"title": "暗闇の中へ",
+			"info": "マナの黒いかたまりを使用した魔法攻撃で敵に殺される",
+			"image": "",
+			"condition": {
+				"choice": "test40"
+			},
+			"points": 6
+		},
+		"1018": {
+			"id": 1018,
+			"order": 0,
+			"title": "慈善行為",
+			"info": "宝箱を10個掘りだし、そのままにしておく",
+			"image": "",
+			"condition": {
+				"number": 10,
+				"choice": "test41"
+			},
+			"points": 15
+		},
+		"1019": {
+			"id": 1019,
+			"order": 0,
+			"title": "エルフのトロフィ",
+			"info": "エルフの記念品「永遠なるものの聖杯」を獲得",
+			"image": "",
+			"condition": {
+				"item": 304,
+				"count": 1,
+				"choice": "test22"
+			},
+			"points": 13
+		},
+		"1109": {
+			"id": 1109,
+			"order": 0,
+			"title": "終わりはない",
+			"info": "敵を50人破壊する",
+			"image": "",
+			"condition": {
+				"count": 50,
+				"choice": "test45"
+			},
+			"points": 8
+		},
+		"1110": {
+			"id": 1110,
+			"order": 0,
+			"title": "俺が英雄だ！",
+			"info": "敵を100人破壊する",
+			"image": "",
+			"condition": {
+				"count": 100,
+				"choice": "test45"
+			},
+			"points": 14
+		},
+		"1111": {
+			"id": 1111,
+			"order": 0,
+			"title": "戦闘魔術師",
+			"info": "戦闘時に魔法を77回使用する",
+			"image": "",
+			"condition": {
+				"count": 77,
+				"choice": "test46"
+			},
+			"points": 12
+		},
+		"1112": {
+			"id": 1112,
+			"order": 0,
+			"title": "スカルコレクター",
+			"info": "隠された場所でマジックスカルを30個探す",
+			"image": "",
+			"condition": {
+				"item": 714,
+				"count": 30,
+				"choice": "test22"
+			},
+			"points": 15
+		},
+		"1239": {
+			"id": 1239,
+			"order": 0,
+			"title": "伝説のスミス",
+			"info": "伝説のアイテムを1つ作製する。",
+			"image": "",
+			"condition": {
+				"choice": "test47"
+			},
+			"points": 15,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1240": {
+			"id": 1240,
+			"order": 0,
+			"title": "屠殺場",
+			"info": "星3つの戦闘レーティングを獲得する。",
+			"image": "",
+			"condition": {
+				"number": 3,
+				"choice": "test48"
+			},
+			"points": 4,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1241": {
+			"id": 1241,
+			"order": 0,
+			"title": "野蛮な食肉処理場",
+			"info": "星4つの戦闘レーティングを獲得する。",
+			"image": "",
+			"condition": {
+				"number": 4,
+				"choice": "test48"
+			},
+			"points": 6,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1242": {
+			"id": 1242,
+			"order": 0,
+			"title": "狂人が逃亡中",
+			"info": "最高の戦闘レーティングを獲得する。",
+			"image": "",
+			"condition": {
+				"number": 5,
+				"choice": "test48"
+			},
+			"points": 10,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1265": {
+			"id": 1265,
+			"order": 0,
+			"title": "子どもっぽいエクソシスト",
+			"info": "チャプター「厳しい試練」を完了させる。",
+			"image": "",
+			"condition": {
+				"location": 1182,
+				"choice": "test1"
+			},
+			"points": 20,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1266": {
+			"id": 1266,
+			"order": 0,
+			"title": "黒魔術師",
+			"info": "追加チャプター「荒れ果てた墓地」を完了する。",
+			"image": "",
+			"condition": {
+				"location": 1181,
+				"choice": "test1"
+			},
+			"points": 5,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1935": {
+			"id": 1935,
+			"order": 0,
+			"title": "トッパーへの入門",
+			"info": "追加チャプター「トッパーバロウ」を完了する。",
+			"image": "",
+			"condition": {
+				"location": 1862,
+				"choice": "test1"
+			},
+			"points": 6,
+			"minVersion": "2.1",
+			"maxVersion": null
+		},
+		"1936": {
+			"id": 1936,
+			"order": 0,
+			"title": "採掘の伝説",
+			"info": "この鉱山で一回のゲームの間に、30,000ポイントを獲得する",
+			"image": "",
+			"condition": {
+				"amount": 30000,
+				"choice": "test50"
+			},
+			"points": 14,
+			"minVersion": "2.1",
+			"maxVersion": null
+		},
+		"1937": {
+			"id": 1937,
+			"order": 0,
+			"title": "有望なブラスター",
+			"info": "三色鉱山で1回の進行中に、10個のブロックを破壊する",
+			"image": "",
+			"condition": {
+				"number": 10,
+				"choice": "test49"
+			},
+			"points": 5,
+			"minVersion": "2.1",
+			"maxVersion": null
+		},
+		"1938": {
+			"id": 1938,
+			"order": 0,
+			"title": "有能なブラスター",
+			"info": "三色鉱山で1回の進行中に、15個のブロックを破壊する",
+			"image": "",
+			"condition": {
+				"number": 15,
+				"choice": "test49"
+			},
+			"points": 8,
+			"minVersion": "2.1",
+			"maxVersion": null
+		},
+		"1939": {
+			"id": 1939,
+			"order": 0,
+			"title": "戻ってきたボマー",
+			"info": "三色鉱山で1回の進行中に、20個のブロックを破壊する",
+			"image": "",
+			"condition": {
+				"number": 20,
+				"choice": "test49"
+			},
+			"points": 13,
+			"minVersion": "2.1",
+			"maxVersion": null
+		}
+	}
+}

@@ -1,0 +1,264 @@
+{
+	"persArtikuls": {
+		"33": {
+			"id": 33,
+			"title": "Torus",
+			"description": "Ancien mercenaire, Torus fut condamné à la\npotence. Après avoir réussi à s'échapper, il trouva refuge auprès des \nScorpions. Son arme favorite est une pointe. Rapide et adroit, il est prêt aux actes les plus abjects pour s'assurer la victoire.",
+			"class": "2",
+			"sex": "1",
+			"level": 1,
+			"clothingOptions": "",
+			"money": {
+				"1": 150,
+				"3": 10
+			},
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 100,
+					"maxValue": 100
+				},
+				"2": {
+					"typeId": "STR",
+					"minValue": 110,
+					"maxValue": 110
+				},
+				"3": {
+					"typeId": "RAG",
+					"minValue": 50,
+					"maxValue": 50
+				},
+				"4": {
+					"typeId": "SOR",
+					"minValue": 70,
+					"maxValue": 70
+				}
+			},
+			"totalWeight": 0,
+			"selectSet": "14",
+			"selectWeapon": "14",
+			"selectHair": "",
+			"startSpell": 227,
+			"feature": "Magie puissante",
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"427": {
+			"id": 427,
+			"title": "Langerd",
+			"description": "Le garde de Kraen est toujours aussi lugubre et très suspicieux. C'est un excellent guerrier, manant l'épée à deux mains et capable de porter de lourdes armures. Il est donc quasiment invincible.",
+			"class": "3",
+			"sex": "1",
+			"level": 1,
+			"clothingOptions": "",
+			"money": {
+				"1": 150,
+				"3": 10
+			},
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 100,
+					"maxValue": 100
+				},
+				"2": {
+					"typeId": "STR",
+					"minValue": 130,
+					"maxValue": 130
+				},
+				"3": {
+					"typeId": "RAG",
+					"minValue": 70,
+					"maxValue": 70
+				},
+				"4": {
+					"typeId": "SOR",
+					"minValue": 10,
+					"maxValue": 10
+				}
+			},
+			"totalWeight": 0,
+			"selectSet": "13",
+			"selectWeapon": "13",
+			"selectHair": "",
+			"startSpell": 233,
+			"feature": "Force du coup crucial",
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"428": {
+			"id": 428,
+			"title": "Rogvor",
+			"description": "L'un des 12 guerriers légendaires à recevoir le titre éminent de \\destructeur, attribué à celui qui arrête une armée entière de \nzvergs. Vaillant et déterminé, il atteint rapidement \nun état frénétique alimenté par la fureur au combat. Il est insensible à la douleur et à la fatigue.",
+			"class": "1",
+			"sex": "1",
+			"level": 1,
+			"clothingOptions": "",
+			"money": {
+				"1": 150,
+				"3": 10
+			},
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 100,
+					"maxValue": 100
+				},
+				"2": {
+					"typeId": "STR",
+					"minValue": 110,
+					"maxValue": 110
+				},
+				"3": {
+					"typeId": "RAG",
+					"minValue": 90,
+					"maxValue": 90
+				},
+				"4": {
+					"typeId": "SOR",
+					"minValue": 30,
+					"maxValue": 30
+				}
+			},
+			"totalWeight": 0,
+			"selectSet": "21",
+			"selectWeapon": "21",
+			"selectHair": "",
+			"startSpell": 53,
+			"feature": "Coups critiques",
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"429": {
+			"id": 429,
+			"title": "Ursula",
+			"description": "Fille sculpturale ne se séparant jamais de son\nénorme massue. Ainsi armée, elle a survécu aux batailles les plus violentes, fracassé des armures et des crânes. Toujours au centre de la bataille, Ursula perd la raison quand le combat commence, et se transforme en machine de guerre \nà l'allure de femme démon.",
+			"class": "1",
+			"sex": "2",
+			"level": 1,
+			"clothingOptions": "",
+			"money": {
+				"1": 150,
+				"3": 10
+			},
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 100,
+					"maxValue": 100
+				},
+				"2": {
+					"typeId": "STR",
+					"minValue": 110,
+					"maxValue": 110
+				},
+				"3": {
+					"typeId": "RAG",
+					"minValue": 130,
+					"maxValue": 130
+				},
+				"4": {
+					"typeId": "SOR",
+					"minValue": 20,
+					"maxValue": 20
+				}
+			},
+			"totalWeight": 0,
+			"selectSet": "12",
+			"selectWeapon": "9",
+			"selectHair": "2;9",
+			"startSpell": 230,
+			"feature": "Coups critiques",
+			"minVersion": "1.0",
+			"maxVersion": null,
+			"bonus": null
+		},
+		"430": {
+			"id": 430,
+			"title": "Kira",
+			"description": "Orpheline, Kira a passé son enfance dans un cirque, où elle a acquis une souplesse et une\nagilité hors pair. Elle est insensible aux coups \net s'éclipse sans bruit, tel un serpent. Ses\\facultés ont fait d'elle l'un des meilleurs éclaireurs de la\nCohorte d'acier, avant qu'elle ne se rallie aux Scorpions.",
+			"class": "2",
+			"sex": "2",
+			"level": 1,
+			"clothingOptions": "",
+			"money": {
+				"1": 150,
+				"3": 10
+			},
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 120,
+					"maxValue": 120
+				},
+				"2": {
+					"typeId": "STR",
+					"minValue": 110,
+					"maxValue": 110
+				},
+				"3": {
+					"typeId": "RAG",
+					"minValue": 50,
+					"maxValue": 50
+				},
+				"4": {
+					"typeId": "SOR",
+					"minValue": 15,
+					"maxValue": 15
+				}
+			},
+			"totalWeight": 0,
+			"selectSet": "20",
+			"selectWeapon": "20",
+			"selectHair": "2;1",
+			"startSpell": 53,
+			"feature": "Parcelles de vie",
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1861": {
+			"id": 1861,
+			"title": "Hécate",
+			"description": "Descendante d'une noble lignée, elle perdit tout dans des batailles intestines. Après qu'elle eût connu les privations et la pauvreté, elle se jura de ne plus jamais souffrir de la faim. Depuis, des légendes parlent de son talent à s'adjuger de généreux butins.",
+			"class": "3",
+			"sex": "2",
+			"level": 1,
+			"clothingOptions": "",
+			"money": {
+				"1": 300,
+				"3": 15
+			},
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 100,
+					"maxValue": 100
+				},
+				"2": {
+					"typeId": "STR",
+					"minValue": 100,
+					"maxValue": 100
+				},
+				"3": {
+					"typeId": "RAG",
+					"minValue": 70,
+					"maxValue": 70
+				},
+				"4": {
+					"typeId": "SOR",
+					"minValue": 30,
+					"maxValue": 30
+				}
+			},
+			"totalWeight": 0,
+			"selectSet": "10",
+			"selectWeapon": "10",
+			"selectHair": "3;9",
+			"startSpell": 230,
+			"feature": "Trouve plus d'argent",
+			"minVersion": "2.1",
+			"maxVersion": null,
+			"bonus": 301
+		}
+	}
+}

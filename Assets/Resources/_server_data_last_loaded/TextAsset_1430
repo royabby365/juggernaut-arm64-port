@@ -1,0 +1,249 @@
+{
+	"hints": {
+		"achivmentprogressbar": {
+			"id": 1129,
+			"code": "achivmentprogressbar",
+			"title": "Barra de progreso de logros",
+			"description": "Muestra el progreso de tus logros en el juego. Puedes compararlo con el de tus amigos en la pestaña de Clasificación."
+		},
+		"bonusarhifury": {
+			"id": 1069,
+			"code": "bonusarhifury",
+			"title": "Archifuria",
+			"description": "Te da el máximo de furia al inicio de todas las peleas."
+		},
+		"bonusarhimagia": {
+			"id": 1068,
+			"code": "bonusarhimagia",
+			"title": "Bonificación del archimago",
+			"description": "Esta bonificación te otorga el máximo de maná al inicio de las peleas."
+		},
+		"bonusdark": {
+			"id": 389,
+			"code": "bonusdark",
+			"title": "Fuerza de la oscuridad",
+			"description": "Esta bonificación define el % que aumenta la fuerza destructiva de tus hechizos de oscuridad."
+		},
+		"bonusexp": {
+			"id": 392,
+			"code": "bonusexp",
+			"title": "Bonificación de experiencia",
+			"description": "Esta bonificación controla el % de experiencia adicional recibida por ganar una pelea."
+		},
+		"bonusfire": {
+			"id": 387,
+			"code": "bonusfire",
+			"title": "Fuerza del fuego",
+			"description": "Esta bonificación define el % que aumenta la fuerza destructiva de tus hechizos de fuego."
+		},
+		"bonusice": {
+			"id": 388,
+			"code": "bonusice",
+			"title": "Fuerza del hielo",
+			"description": "Esta bonificación define el % que aumenta la fuerza destructiva de tus hechizos de hielo."
+		},
+		"bonuslightning": {
+			"id": 390,
+			"code": "bonuslightning",
+			"title": "Fuerza del relámpago",
+			"description": "Esta bonificación define el % que aumenta la fuerza destructiva de tus hechizos de relámpago."
+		},
+		"bonusmana": {
+			"id": 961,
+			"code": "bonusmana",
+			"title": "Bonificación de maná",
+			"description": "Esta bonificación determina cuántas nubes de maná adicionales puedes recibir. Si la bonificación es igual a 2, muy probablemente recibirás de 1 a 2 nubes adicionales de maná."
+		},
+		"bonusmoney": {
+			"id": 960,
+			"code": "bonusmoney",
+			"title": "Bonificación de dinero",
+			"description": "Esta bonificación determina cuánto oro adicional recibirás por ganar un combate."
+		},
+		"bonusrage": {
+			"id": 962,
+			"code": "bonusrage",
+			"title": "Bonificación de furia",
+			"description": "Esta bonificación determina cuántas nubes de furia adicionales puedes recibir en combate. Si es igual a 2, muy probablemente recibirás de 1 a 2 nubes adicionales de furia."
+		},
+		"cristals": {
+			"id": 377,
+			"code": "cristals",
+			"title": "Cristales",
+			"description": "Cristales. Necesarios para comprar objetos especiales en la tienda. Se obtienen en combates, por realizar capítulos adicionales o se compran en el banco."
+		},
+		"damagepotion": {
+			"id": 382,
+			"code": "damagepotion",
+			"title": "Veneno",
+			"description": "Con él envenenas al enemigo en el combate y lo haces morir lentamente. Se encuentra en cofres de tesoros o se compra en la sección \"Recomendado\" de la tienda."
+		},
+		"expa": {
+			"id": 391,
+			"code": "expa",
+			"title": "Experiencia",
+			"description": "La experiencia es necesaria para subir de nivel. Aumentará al ganar combates y también si encuentras un artefacto especial que contenga una bonificación de experiencia."
+		},
+		"healpotion": {
+			"id": 380,
+			"code": "healpotion",
+			"title": "Poción curativa",
+			"description": "Restaura la vida durante el combate. Puede encontrarse en cofres de tesoros o comprarse en la sección \"Recomendado\" de la tienda."
+		},
+		"image_alert": {
+			"id": 1116,
+			"code": "image_alert",
+			"title": "Atención",
+			"description": "¡Atención!"
+		},
+		"image_completed_text": {
+			"id": 1117,
+			"code": "image_completed_text",
+			"title": "Completado",
+			"description": "¡Completado!"
+		},
+		"image_congrats": {
+			"id": 1118,
+			"code": "image_congrats",
+			"title": "Felicidades",
+			"description": "¡Felicidades!"
+		},
+		"image_fight_button": {
+			"id": 1120,
+			"code": "image_fight_button",
+			"title": "Atacar",
+			"description": "¡ATACAR!"
+		},
+		"image_fight_dodge": {
+			"id": 1121,
+			"code": "image_fight_dodge",
+			"title": "Esquivar",
+			"description": "Esquivar"
+		},
+		"image_fight_execution": {
+			"id": 1122,
+			"code": "image_fight_execution",
+			"title": "Ejecución",
+			"description": "Ejecución"
+		},
+		"image_fight_immunity": {
+			"id": 1123,
+			"code": "image_fight_immunity",
+			"title": "Inmunidad",
+			"description": "Inmunidad"
+		},
+		"image_fights_block": {
+			"id": 1119,
+			"code": "image_fights_block",
+			"title": "Bloquear",
+			"description": "Bloquear"
+		},
+		"image_game_logo": {
+			"id": 1124,
+			"code": "image_game_logo",
+			"title": "Juggernaut",
+			"description": "Juggernaut"
+		},
+		"image_main_map_banner": {
+			"id": 1125,
+			"code": "image_main_map_banner",
+			"title": "Isla de Radway",
+			"description": "Isla de Radway"
+		},
+		"image_news": {
+			"id": 1274,
+			"code": "image_news",
+			"title": "Noticias"
+		},
+		"image_support_banner_text": {
+			"id": 1126,
+			"code": "image_support_banner_text",
+			"title": "Soporte",
+			"description": "Soporte téc.\nSi necesitas ayuda, ¡contacta con nosotros!"
+		},
+		"image_you_lose": {
+			"id": 1127,
+			"code": "image_you_lose",
+			"title": "Has perdido",
+			"description": "¡Has perdido!"
+		},
+		"image_you_win": {
+			"id": 1128,
+			"code": "image_you_win",
+			"title": "Victoria",
+			"description": "¡Victoria!"
+		},
+		"legendarypoints": {
+			"id": 1202,
+			"code": "legendarypoints",
+			"title": "Puntos de estatus legendario del combate",
+			"description": "Tras un combate, en función de su clasificación, recibirás ciertos puntos de estatus legendario. Estos sirven para mejorar tus objetos épicos, lo cual puedes hacer en la ventana del inventario."
+		},
+		"map": {
+			"id": 998,
+			"code": "map",
+			"title": "Mapa principal",
+			"description": "Aquí se muestra tu progreso en el juego, que avanza con cada capítulo terminado."
+		},
+		"money": {
+			"id": 376,
+			"code": "money",
+			"title": "Dinero",
+			"description": "Oro. Se usa para comprar armadura y munición en la tienda. Se consigue en los combates y los territorios liberados, y también puedes adquirirlo en el banco."
+		},
+		"powerpotion": {
+			"id": 381,
+			"code": "powerpotion",
+			"title": "Potenciador",
+			"description": "Al usarlo puedes intensificar notablemente tu próximo ataque físico. Puede encontrarse en cofres de tesoros o comprarse en la sección \"Recomendado\" de la tienda."
+		},
+		"scarab": {
+			"id": 963,
+			"code": "scarab",
+			"title": "Escarabajo",
+			"description": "Los escarabajos sirven para buscar tesoros escondidos en los territorios liberados. Se reciben en combates o como premio por completar ciertos capítulos, o bien se compran en la tienda."
+		},
+		"sculls": {
+			"id": 378,
+			"code": "sculls",
+			"title": "Calaveras",
+			"description": "Calaveras mágicas. Necesarias para estudiar y mejorar los hechizos del Libro de Magia. Se obtienen en combates, al abrir cofres de tesoros o se compran en la tienda."
+		},
+		"socialbutton": {
+			"id": 1114,
+			"code": "socialbutton",
+			"title": "Botones sociales",
+			"description": "Puedes publicar tus logros cada 40 minutos que hayas pasado jugando."
+		},
+		"statfury": {
+			"id": 384,
+			"code": "statfury",
+			"title": "Coraje",
+			"description": "El coraje aumenta la probabilidad de asestar golpes críticos, que causan mayor daño y garantizan que el enemigo desprenda maná. También protege frente a los ataques críticos del enemigo."
+		},
+		"stathp": {
+			"id": 383,
+			"code": "stathp",
+			"title": "Salud",
+			"description": "Este parámetro determina el grado de supervivencia de tu personaje en combate."
+		},
+		"statmagic": {
+			"id": 386,
+			"code": "statmagic",
+			"title": "Magia",
+			"description": "Este parámetro determina la intensidad del daño mágico: cuanto mayor sea, más fuertes serán tus hechizos mágicos."
+		},
+		"statstrength": {
+			"id": 385,
+			"code": "statstrength",
+			"title": "Poder",
+			"description": "El poder determina el daño que causas en combate: cuanto mayor sea, más fuertes serán tus golpes. También influye ligeramente en el daño mágico."
+		},
+		"vzlom": {
+			"id": 379,
+			"code": "vzlom",
+			"title": "Ganzúas",
+			"description": "Ganzúas. Se usan para abrir cofres de tesoros y también te ayudarán en las minas. Se consiguen en combates o se compran en la tienda."
+		}
+	}
+}

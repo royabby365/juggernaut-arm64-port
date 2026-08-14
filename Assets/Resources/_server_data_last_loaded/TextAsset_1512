@@ -1,0 +1,264 @@
+{
+	"persArtikuls": {
+		"33": {
+			"id": 33,
+			"title": "托拉斯",
+			"description": "托拉斯以前是殺手，被判了\n絞刑但成功逃脫，現在加入了\n蝎子幫。他兇殘成性，喜愛暴力。愛用的武器\n是長槍，戰鬥時身手敏捷，\n為求勝利會不擇手段。",
+			"class": "2",
+			"sex": "1",
+			"level": 1,
+			"clothingOptions": "",
+			"money": {
+				"1": 150,
+				"3": 10
+			},
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 100,
+					"maxValue": 100
+				},
+				"2": {
+					"typeId": "STR",
+					"minValue": 110,
+					"maxValue": 110
+				},
+				"3": {
+					"typeId": "RAG",
+					"minValue": 50,
+					"maxValue": 50
+				},
+				"4": {
+					"typeId": "SOR",
+					"minValue": 70,
+					"maxValue": 70
+				}
+			},
+			"totalWeight": 0,
+			"selectSet": "14",
+			"selectWeapon": "14",
+			"selectHair": "",
+			"startSpell": 227,
+			"feature": "强力魔法",
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"427": {
+			"id": 427,
+			"title": "兰格特",
+			"description": "这位卡伦大帝的前护卫经常都愁眉不展，而且对所有事物都抱怀疑的态度。他力大无穷，擅长使用双手剑，而且穿起重甲也不会疲倦，在战斗中可说是所向无敌。",
+			"class": "3",
+			"sex": "1",
+			"level": 1,
+			"clothingOptions": "",
+			"money": {
+				"1": 150,
+				"3": 10
+			},
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 100,
+					"maxValue": 100
+				},
+				"2": {
+					"typeId": "STR",
+					"minValue": 130,
+					"maxValue": 130
+				},
+				"3": {
+					"typeId": "RAG",
+					"minValue": 70,
+					"maxValue": 70
+				},
+				"4": {
+					"typeId": "SOR",
+					"minValue": 10,
+					"maxValue": 10
+				}
+			},
+			"totalWeight": 0,
+			"selectSet": "13",
+			"selectWeapon": "13",
+			"selectHair": "",
+			"startSpell": 233,
+			"feature": "蛮力",
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"428": {
+			"id": 428,
+			"title": "罗弗",
+			"description": "十二名獲得\n「破壞者」的傳說戰士之一。他單人匹馬\n阻止和撃退一支沙維格族的軍團，因此獲封此名。他勇敢堅定，在戰鬥中容易\n殺紅了眼，他的\n高昂戰意更使他能無視痛楚和疲倦。",
+			"class": "1",
+			"sex": "1",
+			"level": 1,
+			"clothingOptions": "",
+			"money": {
+				"1": 150,
+				"3": 10
+			},
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 100,
+					"maxValue": 100
+				},
+				"2": {
+					"typeId": "STR",
+					"minValue": 110,
+					"maxValue": 110
+				},
+				"3": {
+					"typeId": "RAG",
+					"minValue": 90,
+					"maxValue": 90
+				},
+				"4": {
+					"typeId": "SOR",
+					"minValue": 30,
+					"maxValue": 30
+				}
+			},
+			"totalWeight": 0,
+			"selectSet": "21",
+			"selectWeapon": "21",
+			"selectHair": "",
+			"startSpell": 53,
+			"feature": "暴撃",
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"429": {
+			"id": 429,
+			"title": "乌苏拉",
+			"description": "一個總是帶著\n巨鎚的高挑女孩。她參與過哈拉丹中最慘烈的戰鬥，用其巨鎚轟破了\n數之不盡的兵甲和頭顱。你總會在戰況最激烈的地方找到她，而你見到的會是一個完全喪失理智的女殺人魔。",
+			"class": "1",
+			"sex": "2",
+			"level": 1,
+			"clothingOptions": "",
+			"money": {
+				"1": 150,
+				"3": 10
+			},
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 100,
+					"maxValue": 100
+				},
+				"2": {
+					"typeId": "STR",
+					"minValue": 110,
+					"maxValue": 110
+				},
+				"3": {
+					"typeId": "RAG",
+					"minValue": 130,
+					"maxValue": 130
+				},
+				"4": {
+					"typeId": "SOR",
+					"minValue": 20,
+					"maxValue": 20
+				}
+			},
+			"totalWeight": 0,
+			"selectSet": "12",
+			"selectWeapon": "9",
+			"selectHair": "2;9",
+			"startSpell": 230,
+			"feature": "暴撃",
+			"minVersion": "1.0",
+			"maxVersion": null,
+			"bonus": null
+		},
+		"430": {
+			"id": 430,
+			"title": "綺罗",
+			"description": "父母雙亡後，綺羅加入了馬戲團，而她的敏捷和靈巧也是從中而來的。要擊中她相當困難，而她在戰鬥中也會像\n蛇一般隱藏起來。在加入蝎子幫之前，她曾是鋼鐵大隊的優秀斥侯。",
+			"class": "2",
+			"sex": "2",
+			"level": 1,
+			"clothingOptions": "",
+			"money": {
+				"1": 150,
+				"3": 10
+			},
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 120,
+					"maxValue": 120
+				},
+				"2": {
+					"typeId": "STR",
+					"minValue": 110,
+					"maxValue": 110
+				},
+				"3": {
+					"typeId": "RAG",
+					"minValue": 50,
+					"maxValue": 50
+				},
+				"4": {
+					"typeId": "SOR",
+					"minValue": 15,
+					"maxValue": 15
+				}
+			},
+			"totalWeight": 0,
+			"selectSet": "20",
+			"selectWeapon": "20",
+			"selectHair": "2;1",
+			"startSpell": 53,
+			"feature": "硬命",
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1861": {
+			"id": 1861,
+			"title": "赫卡蒂",
+			"description": "赫卡蒂是贵族出身，可是在惨烈的内斗中失去了财產。受过穷苦以后，她发誓永远不要再饿肚子。传说她总能在战斗中找到价值不非的战利品。",
+			"class": "3",
+			"sex": "2",
+			"level": 1,
+			"clothingOptions": "",
+			"money": {
+				"1": 300,
+				"3": 15
+			},
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 100,
+					"maxValue": 100
+				},
+				"2": {
+					"typeId": "STR",
+					"minValue": 100,
+					"maxValue": 100
+				},
+				"3": {
+					"typeId": "RAG",
+					"minValue": 70,
+					"maxValue": 70
+				},
+				"4": {
+					"typeId": "SOR",
+					"minValue": 30,
+					"maxValue": 30
+				}
+			},
+			"totalWeight": 0,
+			"selectSet": "10",
+			"selectWeapon": "10",
+			"selectHair": "3;9",
+			"startSpell": 230,
+			"feature": "增加收入",
+			"minVersion": "2.1",
+			"maxVersion": null,
+			"bonus": 301
+		}
+	}
+}

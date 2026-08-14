@@ -648,7 +648,7 @@ public static class Globals
 
 	internal static readonly bool DebugUseLocalSocialPosting = BuildType != BuildTypeE.InnerRelease && false;
 
-	public static readonly bool DebugStartMenuSimple = false;
+	public static bool DebugStartMenuSimple = false;
 
 	public static readonly bool DebugLoadSoundsABOnly = false;
 
@@ -678,7 +678,7 @@ public static class Globals
 
 	public static readonly bool DebugDoNotLoadAtlasTextures = false;
 
-	public static readonly bool DebugDoNotLoadAtlases = false;
+	public static bool DebugDoNotLoadAtlases = false;
 
 	public static readonly bool IgnoreHud = false;
 

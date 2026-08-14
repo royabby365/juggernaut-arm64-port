@@ -1,0 +1,137 @@
+{
+	"settings": {
+		"berserkDamage": 0,
+		"berserkMaxHealth": 50,
+		"slicesForFatality": 35,
+		"fatalityTime": 7,
+		"probFatality": 30,
+		"turnTime": 6,
+		"sellPrice": 10,
+		"comboK": 300,
+		"criticalK": 172,
+		"shopUP": 600,
+		"mobWeakMagicK": 1,
+		"mobStrMagicK": 2,
+		"mgBM1": 3,
+		"mgBM2": 4,
+		"mgBM4": 5,
+		"mgBM3": 6,
+		"timeTickMagicProtection": 0.1,
+		"mobMGame1": 8,
+		"mobMGame2": 5,
+		"mobMGame3": 5,
+		"locationMobLevel": 10,
+		"mg2BM1": 10,
+		"mg2BM2": 13,
+		"mg2BM4": 15,
+		"mg2BM3": 17,
+		"mg2Time": 4,
+		"introFadeInOutTime": 1,
+		"introReadingTime": 120,
+		"introDayPassTime": 4,
+		"chestPeriod": 900,
+		"chestLifeTime": 500,
+		"chestsMaxCount": 3,
+		"rageSPSimple": 20,
+		"rageSPCrit": 100,
+		"rageBonusProb": 50,
+		"eyePeriod": 10,
+		"eyeP1": 20,
+		"eyeP2": 40,
+		"eyeP3": 80,
+		"defaultFatality": 621,
+		"manaInBall": 4,
+		"critMBCount": 2,
+		"critMBCountRages": 4,
+		"comboManaBalls": 2,
+		"manaOCount": 1,
+		"manaOInitProb": 30,
+		"manaOProb": 100,
+		"manaBonusProb": 50,
+		"magicRes": 90,
+		"idlePeriod": 10,
+		"bloodScreenHealthTreshold": 50,
+		"bloodScreenHealthTreshold2": 30,
+		"bloodScreenHealthTreshold3": 10,
+		"defaultRedWeapon": "9_4",
+		"defaultGreenWeapon": "8_4",
+		"defaultBlueWeapon": "7_4",
+		"teaserPage": "http://juggermobile.com/",
+		"elfs": {
+			"1": {
+				"botId": "820",
+				"level": 13,
+				"isBoss": false
+			}
+		},
+		"elfPeriod": 600,
+		"elfProb": 20,
+		"elfBonus": 1021,
+		"achievmentSharingMoneyBonus": 30,
+		"idle2Prob": 30,
+		"skillComboLevel": 4,
+		"skillMagicLevel": 3,
+		"skillRageLevel": 6,
+		"lmBonus": 1053,
+		"ratingSocialCulldown": 40,
+		"ratingSharingMoneyBonus": 1,
+		"crits2Stars": 30,
+		"crits3Stars": 40,
+		"crits4Stars": 55,
+		"crits5Stars": 70,
+		"fallingStarCooldown": 15,
+		"fallingStarProb": 15,
+		"levelCheckNotifs": 7,
+		"mobsRespProbs": {
+			"1": {
+				"currentBobsCount": 0,
+				"respProb": 90
+			},
+			"2": {
+				"currentBobsCount": 1,
+				"respProb": 75
+			},
+			"3": {
+				"currentBobsCount": 2,
+				"respProb": 60
+			},
+			"4": {
+				"currentBobsCount": 3,
+				"respProb": 50
+			},
+			"5": {
+				"currentBobsCount": 4,
+				"respProb": 40
+			},
+			"6": {
+				"currentBobsCount": 5,
+				"respProb": 30
+			},
+			"7": {
+				"currentBobsCount": 6,
+				"respProb": 20
+			},
+			"8": {
+				"currentBobsCount": 7,
+				"respProb": 10
+			}
+		},
+		"mobsRespCooldown": 400,
+		"faqPage": "http://juggermobile.com/faq.php",
+		"fallingStarTime": 2300,
+		"match3BonusNormal": 1911,
+		"match3BonusNormalFirstMove": 1912,
+		"match3BonusEasy": 1913,
+		"match3BonusEasyFirstMove": 1914,
+		"match3TimerNormal": 45,
+		"match3TimerEasy": 45,
+		"match3TimeKeysCostNormal": 3,
+		"match3TimeKeysCostEasy": 3,
+		"match3BonusProbNormal": 5,
+		"match3BonusProbEasy": 2,
+		"showfps": true,
+		"locationMobLevelOffset": 8,
+		"locationMobLevelMax": 30,
+		"bankFree": "FREE"
+	}
+}

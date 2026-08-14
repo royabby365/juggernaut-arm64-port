@@ -1,0 +1,250 @@
+{
+	"hints": {
+		"achivmentprogressbar": {
+			"id": 1129,
+			"code": "achivmentprogressbar",
+			"title": "Fortschrittsbalken Erfolge",
+			"description": "Zeigt den Fortschritt deiner Spielerfolge an. Du kannst ihn mit dem Fortschritt deiner Freunde im Tab Rating vergleichen."
+		},
+		"bonusarhifury": {
+			"id": 1069,
+			"code": "bonusarhifury",
+			"title": "Erzwut",
+			"description": "Verleiht dir maximale Wut bei jedem Kampfstart."
+		},
+		"bonusarhimagia": {
+			"id": 1068,
+			"code": "bonusarhimagia",
+			"title": "Erzmagier-Bonus",
+			"description": "Dieser Bonus verleiht dir maximales Mana bei jedem Kampfstart."
+		},
+		"bonusdark": {
+			"id": 389,
+			"code": "bonusdark",
+			"title": "Kraft der Finsternis",
+			"description": "Dieser Bonus bestimmt, um wieviel % die Schlagkraft aller deiner Finsternisbeschwörungen steigt."
+		},
+		"bonusexp": {
+			"id": 392,
+			"code": "bonusexp",
+			"title": "Erfahrungsbonus",
+			"description": "Dieser Bonus bestimmt, wieviel % zusätzlicher Erfahrung du bei einem Sieg erhältst."
+		},
+		"bonusfire": {
+			"id": 387,
+			"code": "bonusfire",
+			"title": "Feuerkraft",
+			"description": "Dieser Bonus bestimmt, um wieviel % die Schlagkraft aller deiner Feuerbeschwörungen steigt."
+		},
+		"bonusice": {
+			"id": 388,
+			"code": "bonusice",
+			"title": "Eiskraft",
+			"description": "Dieser Bonus bestimmt, um wieviel % die Schlagkraft aller deiner Eisbeschwörungen steigt."
+		},
+		"bonuslightning": {
+			"id": 390,
+			"code": "bonuslightning",
+			"title": "Blitzkraft",
+			"description": "Dieser Bonus bestimmt, um wieviel % die Schlagkraft aller deiner Blitzbeschwörungen steigt."
+		},
+		"bonusmana": {
+			"id": 961,
+			"code": "bonusmana",
+			"title": "Manabonus",
+			"description": "Dieser Bonus bestimmt, wieviele Manaklumpen du im Kampf bekommen kannst. Wenn der Bonus gleich 2 ist, bedeutet dies, dass du 1 bis 2 zusätzliche Manaklumpen bekommen kannst."
+		},
+		"bonusmoney": {
+			"id": 960,
+			"code": "bonusmoney",
+			"title": "Geldbonus",
+			"description": "Dieser Bonus bestimmt, wieviel zusätzliches Gold du für gewonnene Kämpfe erhältst."
+		},
+		"bonusrage": {
+			"id": 962,
+			"code": "bonusrage",
+			"title": "Wutbonus",
+			"description": "Dieser Bonus bestimmt, wieviele Wutklumpen du im Kampf bekommen kannst. Wenn der Bonus gleich 2 ist, bedeutet dies, dass du 1 bis 2 zusätzliche Wutklumpen bekommen kannst."
+		},
+		"cristals": {
+			"id": 377,
+			"code": "cristals",
+			"title": "Kristalle",
+			"description": "Kristalle. Werden für den Kauf besonderer Gegenstände im Geschäft gebraucht. Können bei Kämpfen und Zusatzaufgaben gewonnen oder in der Bank gekauft werden."
+		},
+		"damagepotion": {
+			"id": 382,
+			"code": "damagepotion",
+			"title": "Vergifto",
+			"description": "Dieses Munitionsteil vergiftet deinen Feind im Kampf, worauf er schrittweise zu sterben beginnt. Kann man in Schatztruhen finden oder in der Abteilung \"Empfohlen\" des Geschäfts kaufen."
+		},
+		"expa": {
+			"id": 391,
+			"code": "expa",
+			"title": "Erfahrung",
+			"description": "Erfahrung wird für den Übergang auf das nächste Level gebraucht. Erhöht sich bei Siegen in Kämpfen. Kann sich außerdem erhöhen, wenn ein spezielles Artefakt mit Erfahrungsbonus gefunden wird."
+		},
+		"healpotion": {
+			"id": 380,
+			"code": "healpotion",
+			"title": "Heilo",
+			"description": "Stellt dein Leben im Kampf wieder her. Kann man in Schatztruhen finden oder in der Abteilung \"Empfohlen\" des Geschäfts kaufen."
+		},
+		"image_alert": {
+			"id": 1116,
+			"code": "image_alert",
+			"title": "Achtung!",
+			"description": "Achtung!"
+		},
+		"image_completed_text": {
+			"id": 1117,
+			"code": "image_completed_text",
+			"title": "Abgeschlossen",
+			"description": "Abgeschlossen!"
+		},
+		"image_congrats": {
+			"id": 1118,
+			"code": "image_congrats",
+			"title": "Herzlichen Glückwunsch",
+			"description": "Herzlichen Glückwunsch!"
+		},
+		"image_fight_button": {
+			"id": 1120,
+			"code": "image_fight_button",
+			"title": "Angriff",
+			"description": "ANGRIFF!"
+		},
+		"image_fight_dodge": {
+			"id": 1121,
+			"code": "image_fight_dodge",
+			"title": "Ausweichen",
+			"description": "Ausweichen"
+		},
+		"image_fight_execution": {
+			"id": 1122,
+			"code": "image_fight_execution",
+			"title": "Hinrichtung",
+			"description": "Hinrichtung"
+		},
+		"image_fight_immunity": {
+			"id": 1123,
+			"code": "image_fight_immunity",
+			"title": "Immunität",
+			"description": "Immunität"
+		},
+		"image_fights_block": {
+			"id": 1119,
+			"code": "image_fights_block",
+			"title": "Block",
+			"description": "Block"
+		},
+		"image_game_logo": {
+			"id": 1124,
+			"code": "image_game_logo",
+			"title": "Juggernaut",
+			"description": "Juggernaut"
+		},
+		"image_main_map_banner": {
+			"id": 1125,
+			"code": "image_main_map_banner",
+			"title": "Insel Radtwege",
+			"description": "Insel Radtwege"
+		},
+		"image_news": {
+			"id": 1274,
+			"code": "image_news",
+			"title": "Nachrichten",
+			"description": ""
+		},
+		"image_support_banner_text": {
+			"id": 1126,
+			"code": "image_support_banner_text",
+			"title": "Support / Knebel-Rechte",
+			"description": "Tech. Support\nBrauchst du Hilfe? Melde dich!"
+		},
+		"image_you_lose": {
+			"id": 1127,
+			"code": "image_you_lose",
+			"title": "Du hast verloren",
+			"description": "Du hast verloren!"
+		},
+		"image_you_win": {
+			"id": 1128,
+			"code": "image_you_win",
+			"title": "Sieg",
+			"description": "Sieg!"
+		},
+		"legendarypoints": {
+			"id": 1202,
+			"code": "legendarypoints",
+			"title": "Legendepunkte in Kampfergebnissen",
+			"description": "Legendepunkte erhältst du entsprechend dem Ergebnis und dem Rating eines Kampfes. Man verwendet sie zur Verbesserung epischer Rüstungsteile, das im Inventar vorgenommen werden kann."
+		},
+		"map": {
+			"id": 998,
+			"code": "map",
+			"title": "Karte",
+			"description": "Zeigt deinen Fortschritt im Spiel an. Erweitert sich mit jedem abgeschlossenen Kapitel."
+		},
+		"money": {
+			"id": 376,
+			"code": "money",
+			"title": "Geld",
+			"description": "Gold. Kann man im Geschäft ausgeben, um neue Rüstungen und Munition zu kaufen. Wird in Kämpfen und auf befreiten Gebieten verdient. Kann in der Bank gekauft werden."
+		},
+		"powerpotion": {
+			"id": 381,
+			"code": "powerpotion",
+			"title": "Stärko",
+			"description": "Dieses Munitionsteil verstärkt deinen nächsten physischen Schlag gegen den Feind erheblich. Kann man in Schatztruhen finden oder in der Abteilung \"Empfohlen\" des Geschäfts kaufen."
+		},
+		"scarab": {
+			"id": 963,
+			"code": "scarab",
+			"title": "Skarabäus",
+			"description": "Skarabäen werden für die Suche nach Schätzen in befreiten Gebieten gebraucht. Man erhält sie in Kämpfen und als Belohnung für abgeschlossene Kapitel. Außerdem können sie im Geschäft gekauft werden."
+		},
+		"sculls": {
+			"id": 378,
+			"code": "sculls",
+			"title": "Schädel",
+			"description": "Magische Schädel. Werden zum Erlernen und Verbessern von Beschwörungen gebraucht. Bekommt man bei Kämpfen und in Schatztruhen oder im Geschäft."
+		},
+		"socialbutton": {
+			"id": 1114,
+			"code": "socialbutton",
+			"title": "Buttons sozialer Netzwerke",
+			"description": "Du kannst deine Ergebnisse alle 40 Minuten veröffentlichen, die du im Spiel verbringst."
+		},
+		"statfury": {
+			"id": 384,
+			"code": "statfury",
+			"title": "Mut",
+			"description": "Mut erhöht die Chance, dem Feind kritische Schläge zuzufügen, wobei du ihm erhöhten Schaden zufügst und garantiert Manasphären aus ihm heraus bekommst. Schützt vor kritischen Angriffen des Gegners."
+		},
+		"stathp": {
+			"id": 383,
+			"code": "stathp",
+			"title": "Gesundheit.",
+			"description": "Dieser Parameter entscheidet über die Lebenskraft deines Spielcharakters. Je höher er ist, desto mehr Leben hast du im Kampf."
+		},
+		"statmagic": {
+			"id": 386,
+			"code": "statmagic",
+			"title": "Zauber",
+			"description": "Dieser Parameter bestimmt die Höhe des magischen Schadens. Je höher er ist, desto stärker sind deine magischen Beschwörungen."
+		},
+		"statstrength": {
+			"id": 385,
+			"code": "statstrength",
+			"title": "Kraft",
+			"description": "Bestimmt den Schaden, den du im Kampf zufügst. Wirkt sich unwesentlich auf Magischen Schaden aus."
+		},
+		"vzlom": {
+			"id": 379,
+			"code": "vzlom",
+			"title": "Dietriche",
+			"description": "Dietriche. Werden zum Aufbrechen von Schatztruhen und in Minen verwendet. Können bei Kämpfen gewonnen oder im Geschäft gekauft werden."
+		}
+	}
+}

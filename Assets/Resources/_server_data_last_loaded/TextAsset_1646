@@ -1,0 +1,84 @@
+{
+	"npc": {
+		"1145": {
+			"id": 1145,
+			"title": "Kelle Avcısı",
+			"picture": "NPC_vedmak_human_clip"
+		},
+		"1146": {
+			"id": 1146,
+			"title": "İz üstünde",
+			"picture": "NPC_vedmak_women_clip"
+		},
+		"1152": {
+			"id": 1152,
+			"title": "Una",
+			"picture": "NPC_una"
+		},
+		"1153": {
+			"id": 1153,
+			"title": "Çılgın Una",
+			"picture": "NPC_posessed_una"
+		},
+		"1154": {
+			"id": 1154,
+			"title": "Suratsız",
+			"picture": "NPC_blackabdula_clip"
+		},
+		"1184": {
+			"id": 1184,
+			"title": "Lanetli Kahraman",
+			"picture": "NPC_skel_clip"
+		},
+		"1185": {
+			"id": 1185,
+			"title": "Dirilmiş Ceset",
+			"picture": "NPC_zombie"
+		},
+		"1186": {
+			"id": 1186,
+			"title": "Amazon Ariyana",
+			"picture": "NPC_amaz"
+		},
+		"1187": {
+			"id": 1187,
+			"title": "Çılgın Amazon",
+			"picture": "NPC_posessed_amaz"
+		},
+		"1268": {
+			"id": 1268,
+			"title": "Mutant",
+			"picture": "NPC_zverg"
+		},
+		"1269": {
+			"id": 1269,
+			"title": "Şaman Mutant",
+			"picture": "NPC_zverg_shaman_clip"
+		},
+		"1270": {
+			"id": 1270,
+			"title": "Zıpırlar",
+			"picture": "NPC_cyclopariki_clip"
+		},
+		"1271": {
+			"id": 1271,
+			"title": "Haydut",
+			"picture": "NPC_fbandit_clip"
+		},
+		"1272": {
+			"id": 1272,
+			"title": "Başkeser",
+			"picture": "NPC_thief_clip"
+		},
+		"1868": {
+			"id": 1868,
+			"title": "Bataklık Prensesi",
+			"picture": "NPC_toprfem"
+		},
+		"1869": {
+			"id": 1869,
+			"title": "Bataklık Efendisi",
+			"picture": "NPC_toprmale_clip"
+		}
+	}
+}

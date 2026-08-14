@@ -1,0 +1,1275 @@
+{
+	"locations": {
+		"1": {
+			"id": 52,
+			"title": "第一章：发出挑战",
+			"bots": {
+				"1": {
+					"botId": "46",
+					"level": 1,
+					"isBoss": false,
+					"minVersion": "1.0"
+				},
+				"2": {
+					"botId": "47",
+					"level": 2,
+					"isBoss": false,
+					"minVersion": "1.0"
+				},
+				"3": {
+					"botId": "122",
+					"level": 3,
+					"isBoss": false,
+					"minVersion": "1.0"
+				},
+				"4": {
+					"botId": "125",
+					"level": 5,
+					"isBoss": true,
+					"minVersion": "1.0"
+				}
+			},
+			"mapId": 1,
+			"3dMap": 2,
+			"periodRespawn": 600,
+			"probRespawn": 15,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "260;585",
+			"coordIconM": "260;585",
+			"coordIconMobs": "310;585",
+			"coordIconChest": "285;635",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 50,
+			"openAfter": null,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 594,
+					"prob": 100
+				}
+			},
+			"bonus": 659,
+			"iconPers": "glava1_NPC",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": true,
+			"minVersion": "1.0",
+			"maxVersion": null,
+			"isCave": false,
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"2": {
+			"id": 236,
+			"title": "第二章：穷山恶水的沼泽",
+			"bots": {
+				"1": {
+					"botId": "237",
+					"level": 5,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "50",
+					"level": 6,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "51",
+					"level": 7,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "239",
+					"level": 8,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "240",
+					"level": 9,
+					"isBoss": false
+				},
+				"6": {
+					"botId": "241",
+					"level": 10,
+					"isBoss": false
+				},
+				"7": {
+					"botId": "49",
+					"level": 10,
+					"isBoss": true
+				}
+			},
+			"mapId": 2,
+			"3dMap": 4,
+			"periodRespawn": 600,
+			"probRespawn": 20,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "520;460",
+			"coordIconM": "520;460",
+			"coordIconMobs": "570;460",
+			"coordIconChest": "545;510",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 50,
+			"openAfter": 52,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 594,
+					"prob": 100
+				}
+			},
+			"bonus": 660,
+			"iconPers": "glava2_NPC",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": false,
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"3": {
+			"id": 275,
+			"title": "额外章节。旧矿坑",
+			"bots": {
+				"1": {
+					"botId": "395",
+					"level": 12,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "396",
+					"level": 13,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "397",
+					"level": 14,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "398",
+					"level": 14,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "399",
+					"level": 14,
+					"isBoss": true
+				}
+			},
+			"mapId": 3,
+			"3dMap": 2,
+			"periodRespawn": 600,
+			"probRespawn": 20,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "500;200",
+			"coordIconM": "500;200",
+			"coordIconMobs": "550;200",
+			"coordIconChest": "525;250",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 60,
+			"openAfter": 236,
+			"openAfterAlt": null,
+			"miniBoss": true,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 593,
+					"prob": 100
+				}
+			},
+			"bonus": 599,
+			"iconPers": "Dopglava_razboy",
+			"description": "我应该一刀赏你个痛快，然后看看你身上有什麼好东西！看来收获应该不错...开玩笑而啦，如果我出手的话，会是我被掛掉吧。怎麼样也好，我欠你一个人情。没你在的话，那些恶魔早就干掉我了。那些是我的同伴！这真难搞。我看得出来你不是偶然到这裡来的吧。帮我报仇，干掉那个把我的手下变成不死物的家伙。他们虽然不是好人，但也不应该有这样的下场，这根本就不讲江湖道义。这小玩意你拿去，用它再加上你的力量，多硬的硬骨头的也能敲得动。",
+			"openPrice": {
+				"2": 10
+			},
+			"openCond": 732,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": true,
+			"caveName": "舊礦坑",
+			"caveGCoord": "420;230",
+			"caveLCoord": "131;-390",
+			"caveD": "easy"
+		},
+		"4": {
+			"id": 276,
+			"title": "第三章：洞穴內的危險通道",
+			"bots": {
+				"1": {
+					"botId": "362",
+					"level": 11,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "369",
+					"level": 12,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "370",
+					"level": 12,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "372",
+					"level": 13,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "124",
+					"level": 13,
+					"isBoss": false
+				},
+				"6": {
+					"botId": "123",
+					"level": 14,
+					"isBoss": false
+				},
+				"7": {
+					"botId": "374",
+					"level": 15,
+					"isBoss": false
+				},
+				"8": {
+					"botId": "493",
+					"level": 15,
+					"isBoss": true
+				}
+			},
+			"mapId": 4,
+			"3dMap": 5,
+			"periodRespawn": 600,
+			"probRespawn": 20,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "600;860",
+			"coordIconM": "600;860",
+			"coordIconMobs": "650;860",
+			"coordIconChest": "625;910",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 60,
+			"openAfter": 236,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 593,
+					"prob": 100
+				}
+			},
+			"bonus": 661,
+			"iconPers": "glava3_NPC",
+			"description": "是誰？人類？又是可惡的人類？天殺的，總是逃不過你們這些傢伙。你們貪得無厭，從來不會知足...碰到什麼就破壞什麼！看看你把我們的洞穴變成了什麼樣子！這裡以前平靜和諧，可是現在！我要把你像小蟲那樣踏扁，受死吧吧吧吧！\n 嗯...你好像跟其他人類不一樣...你希望把所有東西弄好？那我就手下留情吧。反正殺了你也改變不了什麼！我還要再幫你一把。這件神器拿去，你在對抗東方的邪惡時會用得著。",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": false,
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"5": {
+			"id": 277,
+			"title": "第四章：白兰杜的城墙之下",
+			"bots": {
+				"1": {
+					"botId": "400",
+					"level": 16,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "401",
+					"level": 17,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "402",
+					"level": 17,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "403",
+					"level": 18,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "404",
+					"level": 19,
+					"isBoss": false
+				},
+				"6": {
+					"botId": "405",
+					"level": 19,
+					"isBoss": false
+				},
+				"7": {
+					"botId": "468",
+					"level": 20,
+					"isBoss": false
+				},
+				"8": {
+					"botId": "469",
+					"level": 20,
+					"isBoss": true
+				}
+			},
+			"mapId": 5,
+			"3dMap": 7,
+			"periodRespawn": 600,
+			"probRespawn": 30,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "915;425",
+			"coordIconM": "915;425",
+			"coordIconMobs": "965;425",
+			"coordIconChest": "940;475",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 70,
+			"openAfter": 276,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 593,
+					"prob": 100
+				}
+			},
+			"bonus": 662,
+			"iconPers": "glava4_NPC",
+			"description": "伟大的战士，见到你真好！你从着魔者手上解放了白兰杜，愿你的名字永受尊崇！我是审判厅长官，少数倖存者之一。大部份人都在对抗那大恶魔索伐灵时牺牲了。在遥远的东方，在比黄沙更远的亡者之地，那恶魔打破了他的枷锁。我们最优秀的战士尝试去阻止他，但全部都战死了。他抓住了他们的灵魂，把他们变成了杀人不眨眼的着魔者，然后送回了白兰杜。你能够打败他们，那你一定比我们厉害，能够和索伐灵一战。带上这些战斗药剂，它们会帮到你的。",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": false,
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"6": {
+			"id": 278,
+			"title": "第五章：成功在望",
+			"bots": {
+				"1": {
+					"botId": "408",
+					"level": 21,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "413",
+					"level": 22,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "409",
+					"level": 22,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "407",
+					"level": 23,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "410",
+					"level": 24,
+					"isBoss": false
+				},
+				"6": {
+					"botId": "411",
+					"level": 25,
+					"isBoss": false
+				},
+				"7": {
+					"botId": "412",
+					"level": 25,
+					"isBoss": true
+				}
+			},
+			"mapId": 6,
+			"3dMap": 11,
+			"periodRespawn": 600,
+			"probRespawn": 30,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "900;700",
+			"coordIconM": "900;700",
+			"coordIconMobs": "950;700",
+			"coordIconChest": "925;750",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 80,
+			"openAfter": 277,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 584,
+					"prob": 100
+				}
+			},
+			"bonus": 663,
+			"iconPers": "glava5_NPC",
+			"description": "我是永恆的真理水晶。我已经观察了愚蠢的人类数千年，而这是我第一次感谢一位人类。感谢你的帮忙，生命短暂的生物！你们称為「水晶种」的生物是我的孩子，他们被远古魔法操控了，不再听我的说话。我不知道这样做的是什麼力量，而那力量也在尝试影响我清晰坚强的意志。你需要有钢铁一般的意志才能对抗它。你很坚强，但还不够坚强。这些神器你拿去，希望它们能够加强你的意志和魔法能力。",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": false,
+			"caveName": "水晶礦",
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"7": {
+			"id": 279,
+			"title": "额外章节：在恶魔橡树的阴影之下",
+			"bots": {
+				"1": {
+					"botId": "414",
+					"level": 29,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "415",
+					"level": 30,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "416",
+					"level": 31,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "417",
+					"level": 32,
+					"isBoss": true
+				}
+			},
+			"mapId": 7,
+			"3dMap": 11,
+			"periodRespawn": 600,
+			"probRespawn": 30,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "850;890",
+			"coordIconM": "850;890",
+			"coordIconMobs": "900;890",
+			"coordIconChest": "875;940",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 90,
+			"openAfter": 278,
+			"openAfterAlt": null,
+			"miniBoss": true,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 606,
+					"prob": 100
+				}
+			},
+			"bonus": 610,
+			"iconPers": "Dopglava_dub",
+			"description": "我在白蘭杜聽過你的事跡，我們很感激你解放了我們。現在我可以照顧那裡的傷者了，那也是我到這橡樹來的原因。用這樹的橡果釀的酒可以起死回生。\n不過沒有你的話，我早就死得不能再死，喝什麼也沒用。你單人匹馬就殺光那些野獸，真是英雄！不過英雄也需要配神兵，審判廳長官知道我到這裡，就命令我拿一件東西給你。這是我們其中一名領主傳說中用過的武器，這些年都放了在寶物庫裡長塵，不過夠資格用它的人終於出現了，拿去！",
+			"openPrice": {
+				"2": 40
+			},
+			"openCond": 736,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": false,
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"8": {
+			"id": 280,
+			"title": "第六章：深陷黄沙之中",
+			"bots": {
+				"1": {
+					"botId": "418",
+					"level": 26,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "425",
+					"level": 26,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "420",
+					"level": 27,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "422",
+					"level": 28,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "426",
+					"level": 29,
+					"isBoss": false
+				},
+				"6": {
+					"botId": "473",
+					"level": 30,
+					"isBoss": false
+				},
+				"7": {
+					"botId": "419",
+					"level": 30,
+					"isBoss": true
+				}
+			},
+			"mapId": 8,
+			"3dMap": 6,
+			"periodRespawn": 600,
+			"probRespawn": 30,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "1300;800",
+			"coordIconM": "1300;800",
+			"coordIconMobs": "1350;800",
+			"coordIconChest": "1325;850",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 90,
+			"openAfter": 278,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 584,
+					"prob": 100
+				}
+			},
+			"bonus": 664,
+			"iconPers": "glava6_NPC",
+			"description": "感谢你，伟大的战士！真的，你伟大得可以与眾神相提并论！你的事跡会流芳百世，我们的子子孙孙都会歌诵你的英勇！我们的先知早已预言你的出现，他说：「在荣光照耀下，英雄将从西来。他将继续向东去，越过施维格斯，到达亡者之地。他的剑将会左右世界的命运，他的对手会是远古的邪魔。有些面具将唤醒这邪魔。」先知说我们应该帮助这名伟大的英雄，所以请你收下这些魔法药剂吧。",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": false,
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"9": {
+			"id": 281,
+			"title": "额外章节：生命之泉",
+			"bots": {
+				"1": {
+					"botId": "423",
+					"level": 42,
+					"isBoss": true
+				}
+			},
+			"mapId": 9,
+			"3dMap": 6,
+			"periodRespawn": 0,
+			"probRespawn": 0,
+			"respawnMax": 0,
+			"killsCount": 0,
+			"killPeriod": 0,
+			"coordIconZ": "1100;950",
+			"coordIconM": "1100;950",
+			"coordIconMobs": "1150;950",
+			"coordIconChest": "1125;1000",
+			"populationPeriod": 0,
+			"populationPointsUp": 0,
+			"populationMax": 0,
+			"moneyPeriod": 0,
+			"moneyPerPerson": 0,
+			"moneyMax": 0,
+			"openAfter": 280,
+			"openAfterAlt": null,
+			"miniBoss": true,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 606,
+					"prob": 100
+				}
+			},
+			"bonus": 608,
+			"iconPers": "Dopglava_oazis",
+			"description": "惡魔的剋星，我向你確認，你的劍重新打通了前往沙漠唯一綠州的路！長久以來，沙漠之魂剎赫戈拉都守護著這個綠州，但不知道為什麼，他對我們生氣了，開始殺死所有靠近水源的人。我知道你要到東方去，其實沒需要和剎赫戈拉戰鬥，但你還是選擇了拯救我們，讓我們不用渴死！\n請你收下這件古老的盔甲，這是我們的一點心意。在我還是小孩子的時候，我發了一場夢。在夢中我知道了這件盔甲埋了在沙漠裡的什麼地方，也知道了在很久以前，有一位半神英雄為了保護人類，穿起了這件盔甲，和噬食者戰鬥，就跟你現在一樣。那時候這裡還是綠草如茵呢。而在夢中我也知道了應該保管好盔甲，等有一天有英雄為沙漠帶來水源的時候，把盔甲送給他。那位英雄就是你了，請收下這件盔甲吧。",
+			"openPrice": {
+				"2": 40
+			},
+			"openCond": 737,
+			"elfs": false
+		},
+		"10": {
+			"id": 282,
+			"title": "第七章：沙维格族的村庄",
+			"bots": {
+				"1": {
+					"botId": "414",
+					"level": 31,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "476",
+					"level": 32,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "477",
+					"level": 33,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "478",
+					"level": 34,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "481",
+					"level": 35,
+					"isBoss": false
+				},
+				"6": {
+					"botId": "480",
+					"level": 35,
+					"isBoss": false
+				},
+				"7": {
+					"botId": "482",
+					"level": 35,
+					"isBoss": true
+				}
+			},
+			"mapId": 10,
+			"3dMap": 8,
+			"periodRespawn": 600,
+			"probRespawn": 30,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "1370;500",
+			"coordIconM": "1370;500",
+			"coordIconMobs": "1430;500",
+			"coordIconChest": "1395;550",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 100,
+			"openAfter": 280,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 584,
+					"prob": 100
+				}
+			},
+			"bonus": 665,
+			"iconPers": "glava7_NPC",
+			"description": "可恶的人类！你闯进了神圣的土地！这是我们祖先的土地！从来没有人类来过。挖你的心，吃掉你的心！现在不行，现在有不幸。村庄不好。我们杀我们，我们吃我们！萨满没办法，我们的灵魂不接受祭献。我们不知道怎麼样办。不好，很不好！萨满说你知道怎麼样做。萨满说不能杀你，不能吃你。萨满说让他拿走这些护身符就让他走。拿！走！",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": false,
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"11": {
+			"id": 283,
+			"title": "额外章节：秘密祭坛",
+			"bots": {
+				"1": {
+					"botId": "625",
+					"level": 47,
+					"isBoss": true
+				}
+			},
+			"mapId": 11,
+			"3dMap": 11,
+			"periodRespawn": 0,
+			"probRespawn": 0,
+			"respawnMax": 0,
+			"killsCount": 0,
+			"killPeriod": 0,
+			"coordIconZ": "1770;510",
+			"coordIconM": "1770;510",
+			"coordIconMobs": "1845;510",
+			"coordIconChest": "",
+			"populationPeriod": 0,
+			"populationPointsUp": 0,
+			"populationMax": 0,
+			"moneyPeriod": 0,
+			"moneyPerPerson": 0,
+			"moneyMax": 0,
+			"openAfter": 282,
+			"openAfterAlt": null,
+			"miniBoss": true,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 595,
+					"prob": 100
+				}
+			},
+			"bonus": 609,
+			"iconPers": "Dopglava_zveromat",
+			"description": "人类，我了解你的命运，你的前路将会是九死一生。那是在世界诞生时已经决定好的事。你将要面对黑暗和最远古的恶魔，也会越来越强，因為你需要全世界的每一分力量才能够成功！这也是你来到这个祭坛的原因。沙维格一族是為了守护这祭坛而创造出来的伟大战士，你打败了他们，也打败了那会杀掉所有入侵者的「主母」。吾乃命运之书，现在将和你分享我内藏的智慧，使你能够得到这裡最重要的神器。穿起这件盔甲，继续使预言得以实现吧。",
+			"openPrice": {
+				"2": 50
+			},
+			"openCond": 738,
+			"elfs": false
+		},
+		"12": {
+			"id": 284,
+			"title": "第八章：穿越丛林",
+			"bots": {
+				"1": {
+					"botId": "483",
+					"level": 36,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "484",
+					"level": 36,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "485",
+					"level": 37,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "486",
+					"level": 38,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "487",
+					"level": 38,
+					"isBoss": false
+				},
+				"6": {
+					"botId": "488",
+					"level": 39,
+					"isBoss": false
+				},
+				"7": {
+					"botId": "490",
+					"level": 40,
+					"isBoss": false
+				},
+				"8": {
+					"botId": "489",
+					"level": 40,
+					"isBoss": true
+				}
+			},
+			"mapId": 12,
+			"3dMap": 10,
+			"periodRespawn": 600,
+			"probRespawn": 30,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "1170;400",
+			"coordIconM": "1170;400",
+			"coordIconMobs": "1220;400",
+			"coordIconChest": "1195;450",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 100,
+			"openAfter": 282,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 606,
+					"prob": 100
+				}
+			},
+			"bonus": 666,
+			"iconPers": "glava8_NPC",
+			"description": "朕乃亚马逊女皇安妮雅丝安娜...準确的说，以前是女皇才对...当巨大的火光眾亡者之地冒起，整个世界都在震盪的时候，很多亚马逊战士都发疯了。她们开始自相残杀，连我们的牲畜一样发疯了。我们的寺庙跟房屋都被破坏了，所以我现在成為了亡国之后...不过，外邦人，你到底是什麼人？我的战士看到你从沙维格族那边过来，但却没受到他们的攻击。你肯定不是普通人。你要去的地方令人心寒，穿过了这个丛林就只有亡者之地，而那边不是生者能去的。我佩服你的勇气，為表示我的敬意，你收下这颗魔力球吧。",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": false,
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"13": {
+			"id": 285,
+			"title": "第九章：只差一步",
+			"bots": {
+				"1": {
+					"botId": "498",
+					"level": 41,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "497",
+					"level": 42,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "375",
+					"level": 43,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "496",
+					"level": 44,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "495",
+					"level": 45,
+					"isBoss": false
+				},
+				"6": {
+					"botId": "494",
+					"level": 45,
+					"isBoss": true
+				}
+			},
+			"mapId": 13,
+			"3dMap": 3,
+			"periodRespawn": 600,
+			"probRespawn": 30,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "1470;200",
+			"coordIconM": "1470;200",
+			"coordIconMobs": "1520;200",
+			"coordIconChest": "1495;250",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 100,
+			"openAfter": 284,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 606,
+					"prob": 100
+				}
+			},
+			"bonus": 667,
+			"iconPers": "glava9_NPC",
+			"description": "处理好最后一具尸体后，你看了一下四周。其中一座比较新的绞刑台吸引了你的目光，上面吊着一具尸体。你从他的口袋裡找到了一堆开锁工具，看来他生前是靠这个过活的吧。",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": false,
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"14": {
+			"id": 286,
+			"title": "第十章：索伐灵的復仇",
+			"bots": {
+				"1": {
+					"botId": "492",
+					"level": 55,
+					"isBoss": true
+				}
+			},
+			"mapId": 14,
+			"3dMap": 3,
+			"periodRespawn": 0,
+			"probRespawn": 0,
+			"respawnMax": 0,
+			"killsCount": 0,
+			"killPeriod": 0,
+			"coordIconZ": "1700;230",
+			"coordIconM": "1700;230",
+			"coordIconMobs": "1760;230",
+			"coordIconChest": "",
+			"populationPeriod": 0,
+			"populationPointsUp": 0,
+			"populationMax": 0,
+			"moneyPeriod": 0,
+			"moneyPerPerson": 0,
+			"moneyMax": 0,
+			"openAfter": 285,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 595,
+					"prob": 100
+				}
+			},
+			"bonus": 612,
+			"iconPers": "glava10_NPC",
+			"description": "打败索伐灵的蝎子帮战士，你好！朕乃娜特维岛的女皇莉亚．理登，是你救了我。我们会永远记得你和你的伟大事跡！虽然索伐灵死了，但事情还没完结。他没可能自己打破枷锁，背后肯定有人帮助他。无论是生是死我们都要找出这个人，不过我们需要你的帮助。命运把你带到了这裡，我希望你不会拒绝你的女皇。我们的对手力量远超常人，只有你这种力量可及眾神的英雄，才可以对抗他们。我们可以说是必须你的帮助，為了帮你下定决心，我现在把这手套赏赐给你。",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": false
+		},
+		"15": {
+			"id": 287,
+			"title": "额外章节：丝维安的悲剧",
+			"bots": {
+				"1": {
+					"botId": "394",
+					"level": 37,
+					"isBoss": true
+				}
+			},
+			"mapId": 15,
+			"3dMap": 4,
+			"periodRespawn": 0,
+			"probRespawn": 0,
+			"respawnMax": 0,
+			"killsCount": 0,
+			"killPeriod": 0,
+			"coordIconZ": "720;260",
+			"coordIconM": "720;260",
+			"coordIconMobs": "780;260",
+			"coordIconChest": "",
+			"populationPeriod": 0,
+			"populationPointsUp": 0,
+			"populationMax": 0,
+			"moneyPeriod": 0,
+			"moneyPerPerson": 0,
+			"moneyMax": 0,
+			"openAfter": 236,
+			"openAfterAlt": null,
+			"miniBoss": true,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 595,
+					"prob": 100
+				}
+			},
+			"bonus": 607,
+			"iconPers": "NPC_Silvion_branendal",
+			"description": "是谁打败了我的蜥蜴？区区的凡人？天呀，我不能相信是凡人干的...连凡人也办得到这样的事，看来时代不一样了。你的前途无可限量，力量肯定可比美眾神！我只是為我的蜥蜴伤心...牠跟我一起很多年了，我支持黑塔的时候牠保护了我。谁想到牠会像疯狗一样攻击我呢？你救了我，这头盔就当成了报酬吧。这是我年轻时用过来和眾神战斗的，希望你会用得着吧。",
+			"openPrice": {
+				"2": 30
+			},
+			"openCond": 739,
+			"elfs": false
+		},
+		"16": {
+			"id": 1181,
+			"title": "额外章节：荒废的坟场",
+			"bots": {
+				"1": {
+					"botId": "498",
+					"level": 19,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "373",
+					"level": 20,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "497",
+					"level": 21,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "1189",
+					"level": 22,
+					"isBoss": true
+				}
+			},
+			"mapId": 16,
+			"3dMap": 3,
+			"periodRespawn": 600,
+			"probRespawn": 20,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "370;960",
+			"coordIconM": "370;960",
+			"coordIconMobs": "420;960",
+			"coordIconChest": "395;1010",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 70,
+			"openAfter": 276,
+			"openAfterAlt": null,
+			"miniBoss": true,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 593,
+					"prob": 100
+				}
+			},
+			"bonus": 1230,
+			"iconPers": "",
+			"openPrice": {
+				"2": 10
+			},
+			"openCond": 763,
+			"elfs": true,
+			"minVersion": "1.2",
+			"maxVersion": null,
+			"isCave": false,
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"17": {
+			"id": 1182,
+			"title": "额外章节：难苦考验",
+			"bots": {
+				"1": {
+					"botId": "1188",
+					"level": 31,
+					"isBoss": true,
+					"minVersion": "1.2"
+				},
+				"2": {
+					"botId": "1188",
+					"level": 34,
+					"isBoss": true,
+					"minVersion": "1.2"
+				},
+				"3": {
+					"botId": "1188",
+					"level": 38,
+					"isBoss": true,
+					"minVersion": "1.2"
+				},
+				"4": {
+					"botId": "1190",
+					"level": 41,
+					"isBoss": true,
+					"minVersion": "1.2"
+				},
+				"5": {
+					"botId": "1190",
+					"level": 46,
+					"isBoss": true,
+					"minVersion": "1.2"
+				},
+				"6": {
+					"botId": "1190",
+					"level": 49,
+					"isBoss": true,
+					"minVersion": "1.2"
+				},
+				"7": {
+					"botId": "1191",
+					"level": 53,
+					"isBoss": true,
+					"minVersion": "1.2"
+				}
+			},
+			"mapId": 17,
+			"3dMap": 8,
+			"periodRespawn": 0,
+			"probRespawn": 0,
+			"respawnMax": 0,
+			"killsCount": 0,
+			"killPeriod": 0,
+			"coordIconZ": "1500;710",
+			"coordIconM": "1500;710",
+			"coordIconMobs": "1550;710",
+			"coordIconChest": "1525;760",
+			"populationPeriod": 0,
+			"populationPointsUp": 0,
+			"populationMax": 0,
+			"moneyPeriod": 0,
+			"moneyPerPerson": 0,
+			"moneyMax": 0,
+			"openAfter": 280,
+			"openAfterAlt": null,
+			"miniBoss": true,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 606,
+					"prob": 100
+				}
+			},
+			"bonus": 1199,
+			"iconPers": "",
+			"openPrice": {
+				"2": 30
+			},
+			"openCond": 1192,
+			"elfs": true,
+			"minVersion": "1.2",
+			"maxVersion": null
+		},
+		"998": {
+			"id": 1862,
+			"title": "额外章节：土魄族的洞穴",
+			"bots": {
+				"1": {
+					"botId": "1863",
+					"level": 13,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "1864",
+					"level": 14,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "1865",
+					"level": 16,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "1866",
+					"level": 17,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "1867",
+					"level": 18,
+					"isBoss": true
+				}
+			},
+			"mapId": 998,
+			"3dMap": 4,
+			"periodRespawn": 600,
+			"probRespawn": 20,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "650;570",
+			"coordIconM": "650;570",
+			"coordIconMobs": "700;570",
+			"coordIconChest": "675;620",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 60,
+			"openAfter": 236,
+			"openAfterAlt": null,
+			"miniBoss": true,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 593,
+					"prob": 100
+				}
+			},
+			"bonus": 1918,
+			"iconPers": "",
+			"openPrice": {
+				"2": 15
+			},
+			"openCond": 1922,
+			"elfs": true,
+			"minVersion": "2.1",
+			"maxVersion": null,
+			"isCave": false,
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		}
+	}
+}

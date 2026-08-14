@@ -1,0 +1,31 @@
+{
+	"executions": {
+		"621": {
+			"id": 621,
+			"scenario": "fatality1_1",
+			"weaponTitle": "Henkerschlag"
+		},
+		"622": {
+			"id": 622,
+			"scenario": "fatality6",
+			"weaponTitle": "Fettwanst-Rache"
+		},
+		"623": {
+			"id": 623,
+			"scenario": "fatality7",
+			"weaponTitle": "Zorn der Erde"
+		},
+		"624": {
+			"id": 624,
+			"scenario": "fatality9",
+			"weaponTitle": "Fleischerketten"
+		},
+		"1211": {
+			"id": 1211,
+			"scenario": "fatality10",
+			"weaponTitle": "Todespfeile",
+			"minVersion": "1.2",
+			"maxVersion": null
+		}
+	}
+}

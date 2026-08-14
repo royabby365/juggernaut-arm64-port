@@ -1,0 +1,1489 @@
+{
+	"bots": {
+		"46": {
+			"id": 46,
+			"title": "Gryzol",
+			"description": "Las",
+			"3dModel": "11",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_11.jpg",
+			"magic": "1",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"47": {
+			"id": 47,
+			"title": "Hissa",
+			"description": "Las",
+			"3dModel": "16",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_16.jpg",
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"48": {
+			"id": 48,
+			"title": "Rogacz (nie wykorzystuje się)",
+			"description": "Las",
+			"3dModel": "44",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_44.jpg",
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"49": {
+			"id": 49,
+			"title": "Grzybus",
+			"description": "Las",
+			"3dModel": "34",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_34.jpg",
+			"magic": "",
+			"scale": 1.3,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"50": {
+			"id": 50,
+			"title": "Harpina",
+			"description": "Bagno",
+			"3dModel": "52",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_52.jpg",
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"51": {
+			"id": 51,
+			"title": "Bagienna hissa",
+			"3dModel": "18",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_18.jpg",
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"122": {
+			"id": 122,
+			"title": "Rykar",
+			"description": "Las",
+			"3dModel": "62",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_62.jpg",
+			"magic": "",
+			"scale": 0,
+			"closedActions": ""
+		},
+		"123": {
+			"id": 123,
+			"title": "Podziemny trujączak",
+			"3dModel": "33",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_33.jpg",
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"124": {
+			"id": 124,
+			"title": "Skolopendra",
+			"3dModel": "68",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_68.jpg",
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"125": {
+			"id": 125,
+			"title": "Cykloparki",
+			"3dModel": "65",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_65.jpg",
+			"magic": "4",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"237": {
+			"id": 237,
+			"title": "Krzywonóg",
+			"3dModel": "77_1",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_77_1.jpg",
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"238": {
+			"id": 238,
+			"title": "Bagienny ogienek",
+			"3dModel": "31",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_31.jpg",
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"239": {
+			"id": 239,
+			"title": "Rogacz-zwiadowca",
+			"3dModel": "44_2",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_44_2.jpg",
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"240": {
+			"id": 240,
+			"title": "Pierścieniasta scolopendra",
+			"3dModel": "68_2",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_68_2.jpg",
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"241": {
+			"id": 241,
+			"title": "Smrodliwa harpina",
+			"3dModel": "52_2",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_52_2.jpg",
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"242": {
+			"id": 242,
+			"title": "Trujączak",
+			"3dModel": "32",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_32.jpg",
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"359": {
+			"id": 359,
+			"title": "Opętany ogienek",
+			"3dModel": "28",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_28.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"362": {
+			"id": 362,
+			"title": "Krzywonóg-krwiopijca",
+			"3dModel": "77_3",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_77_3.jpg",
+			"immunity": {
+				"1": "3"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"369": {
+			"id": 369,
+			"title": "Paskudna hissa",
+			"3dModel": "18_2",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_18_2.jpg",
+			"immunity": {
+				"1": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"370": {
+			"id": 370,
+			"title": "Rogacz-żołnierz",
+			"3dModel": "44_5",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_44_5.jpg",
+			"immunity": {
+				"1": "2"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"371": {
+			"id": 371,
+			"title": "Harpinada (NIE WYKORZYSTUJE SIĘ)",
+			"3dModel": "52_3",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_52_3.jpg",
+			"immunity": {
+				"1": "2",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"372": {
+			"id": 372,
+			"title": "Krabus-pasożyt",
+			"3dModel": "56_3",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_56_3.jpg",
+			"immunity": {
+				"1": "1"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"373": {
+			"id": 373,
+			"title": "Chybotliwy szkielet",
+			"3dModel": "48",
+			"3dCamera": "",
+			"3dArmor": "weapon=49",
+			"3dPicture": "01_48.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "2"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"374": {
+			"id": 374,
+			"title": "Skrzydlaty cerrator",
+			"3dModel": "58_2",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_58_2.jpg",
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"375": {
+			"id": 375,
+			"title": "Trupojad",
+			"3dModel": "41",
+			"3dCamera": "",
+			"3dArmor": "weapon=41",
+			"3dPicture": "01_41.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "2",
+				"3": "3"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"394": {
+			"id": 394,
+			"title": "Jeziorna salamandra",
+			"3dModel": "61",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_61_4.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "3",
+				"3": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"395": {
+			"id": 395,
+			"title": "Szabrownik",
+			"3dModel": "1",
+			"3dCamera": "",
+			"3dArmor": "belt=1;pelvis=1;boots=1;helm=1",
+			"3dPicture": "r_1.png",
+			"magic": "",
+			"scale": 0,
+			"closedActions": ""
+		},
+		"396": {
+			"id": 396,
+			"title": "Złodziejka",
+			"3dModel": "2",
+			"3dCamera": "",
+			"3dArmor": "set=3;weapon=1;hairs=1;hairs_color=1",
+			"3dPicture": "r_2.jpg",
+			"immunity": {
+				"1": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 5
+		},
+		"397": {
+			"id": 397,
+			"title": "Grabieżca",
+			"3dModel": "1",
+			"3dCamera": "",
+			"3dArmor": "set=3;weapon=2",
+			"3dPicture": "r_3.png",
+			"immunity": {
+				"1": "2"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"398": {
+			"id": 398,
+			"title": "Rozbójniczka",
+			"3dModel": "2",
+			"3dCamera": "",
+			"3dArmor": "set=1_1;hairs=3;hairs_color=2",
+			"3dPicture": "r_4.png",
+			"immunity": {
+				"1": "1",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"399": {
+			"id": 399,
+			"title": "Zbir",
+			"3dModel": "1",
+			"3dCamera": "",
+			"3dArmor": "weapon=5_2;helm=5;hand_l=1;hand_r=1;torso=5;shoulderstrap=8;belt=4;pelvis=3;boots=1",
+			"3dPicture": "r_5.jpg",
+			"immunity": {
+				"1": "2",
+				"2": "3"
+			},
+			"magic": "",
+			"scale": 1.2,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"400": {
+			"id": 400,
+			"title": "Opętana amazonka",
+			"3dModel": "60_1",
+			"3dCamera": "",
+			"3dArmor": "weapon=60_1;hand_l=60_1",
+			"3dPicture": "cg_1.jpg",
+			"immunity": {
+				"1": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"401": {
+			"id": 401,
+			"title": "Opętany strażnik",
+			"3dModel": "2",
+			"3dCamera": "",
+			"3dArmor": "set=9;weapon=9_4;hairs=1;hairs_color=1",
+			"3dPicture": "cg_2.png",
+			"immunity": {
+				"1": "2"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"402": {
+			"id": 402,
+			"title": "Opętany zwiadowca",
+			"3dModel": "1",
+			"3dCamera": "",
+			"3dArmor": "set=8;weapon=8_4",
+			"3dPicture": "cg_3.png",
+			"immunity": {
+				"1": "1"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"403": {
+			"id": 403,
+			"title": "Opętana strażniczka",
+			"3dModel": "2",
+			"3dCamera": "",
+			"3dArmor": "set=4;weapon=7_4;hairs=1;hairs_color=1",
+			"3dPicture": "cg_4.png",
+			"immunity": {
+				"1": "3"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"404": {
+			"id": 404,
+			"title": "Opętana wojowniczka",
+			"3dModel": "2",
+			"3dCamera": "",
+			"3dArmor": "set=8;weapon=8_4",
+			"3dPicture": "cg_5.png",
+			"immunity": {
+				"1": "1"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"405": {
+			"id": 405,
+			"title": "Opętany weteran",
+			"3dModel": "1",
+			"3dCamera": "",
+			"3dArmor": "set=9;weapon=9_4",
+			"3dPicture": "cg_6.png",
+			"immunity": {
+				"1": "2"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"406": {
+			"id": 406,
+			"title": "Opętana kapłanka",
+			"3dModel": "2",
+			"3dCamera": "",
+			"3dArmor": "set=17",
+			"3dPicture": "cg_7.png",
+			"immunity": {
+				"1": "1",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"407": {
+			"id": 407,
+			"title": "Przeistoczony krysztalon",
+			"3dModel": "46",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_46.jpg",
+			"immunity": {
+				"1": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"408": {
+			"id": 408,
+			"title": "Szary rykar",
+			"3dModel": "62_3",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_62_3.jpg",
+			"immunity": {
+				"1": "3"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"409": {
+			"id": 409,
+			"title": "Jaskiniowy org",
+			"3dModel": "15",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_15.jpg",
+			"immunity": {
+				"1": "3",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"410": {
+			"id": 410,
+			"title": "Młody krysztalon",
+			"3dModel": "46",
+			"3dCamera": "",
+			"3dArmor": "helm=3",
+			"3dPicture": "01_46_2.jpg",
+			"immunity": {
+				"1": "3"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"411": {
+			"id": 411,
+			"title": "Wiekowy krysztalon",
+			"3dModel": "46",
+			"3dCamera": "",
+			"3dArmor": "helm=3;hand_l=3;hand_r=3",
+			"3dPicture": "01_46_3.jpg",
+			"immunity": {
+				"1": "3",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"412": {
+			"id": 412,
+			"title": "Zbudzony krysztalon",
+			"3dModel": "47",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_47.jpg",
+			"immunity": {
+				"1": "2",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 1.3,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"413": {
+			"id": 413,
+			"title": "Grzebieniasty cerrator",
+			"3dModel": "58",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_58.jpg",
+			"immunity": {
+				"1": "1"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"414": {
+			"id": 414,
+			"title": "Krzepki wieprzon",
+			"3dModel": "71",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_71.jpg",
+			"immunity": {
+				"1": "2",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "attack_forward;attack_left",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"415": {
+			"id": 415,
+			"title": "Opętany wieprzon",
+			"3dModel": "10",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_10.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "2"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "attack_forward;attack_left",
+			"eyes": 0
+		},
+		"416": {
+			"id": 416,
+			"title": "Demoniczny wieprzon",
+			"3dModel": "20",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_20.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "2"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "attack_forward;attack_left",
+			"eyes": 0
+		},
+		"417": {
+			"id": 417,
+			"title": "Wieprzon-demon",
+			"3dModel": "21",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_21.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "2",
+				"3": "4"
+			},
+			"magic": "",
+			"scale": 1.3,
+			"closedActions": "attack_forward;attack_left",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"418": {
+			"id": 418,
+			"title": "Rośliniec",
+			"3dModel": "53",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_53.jpg",
+			"immunity": {
+				"1": "2",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"419": {
+			"id": 419,
+			"title": "Pełzior-pożeracz",
+			"3dModel": "51",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_51.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "3"
+			},
+			"magic": "",
+			"scale": 1.2,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"420": {
+			"id": 420,
+			"title": "Dojrzały rośliniec",
+			"3dModel": "53",
+			"3dCamera": "",
+			"3dArmor": "helm=3",
+			"3dPicture": "01_53_3.jpg",
+			"immunity": {
+				"1": "2",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 1.2,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"422": {
+			"id": 422,
+			"title": "Piaskowa skolopendra",
+			"3dModel": "68",
+			"3dCamera": "",
+			"3dArmor": "helm=3",
+			"3dPicture": "01_68_3.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "2"
+			},
+			"magic": "",
+			"scale": 1.2,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"423": {
+			"id": 423,
+			"title": "Szerhegrora",
+			"3dModel": "63",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_63.jpg",
+			"immunity": {
+				"1": "2",
+				"2": "3",
+				"3": "4"
+			},
+			"magic": "",
+			"scale": 1.2,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"425": {
+			"id": 425,
+			"title": "Młócarz",
+			"3dModel": "55",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_55.jpg",
+			"immunity": {
+				"1": "2",
+				"2": "3"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"426": {
+			"id": 426,
+			"title": "Młocarz-przywódca",
+			"3dModel": "55",
+			"3dCamera": "",
+			"3dArmor": "helm=3",
+			"3dPicture": "01_55_3.jpg",
+			"immunity": {
+				"1": "2",
+				"2": "3"
+			},
+			"magic": "",
+			"scale": 1.2,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"468": {
+			"id": 468,
+			"title": "Opętany inkwizytor",
+			"3dModel": "1",
+			"3dCamera": "",
+			"3dArmor": "set=17",
+			"3dPicture": "cg_8.png",
+			"immunity": {
+				"1": "2",
+				"2": "3"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"469": {
+			"id": 469,
+			"title": "Krępacz jednorogi",
+			"3dModel": "1",
+			"3dCamera": "",
+			"3dArmor": "weapon=10;set=16",
+			"3dPicture": "cg_9.png",
+			"immunity": {
+				"1": "3"
+			},
+			"magic": "",
+			"scale": 1.3,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"470": {
+			"id": 470,
+			"title": "Org-niszczyciel",
+			"3dModel": "15",
+			"3dCamera": "",
+			"3dArmor": "helm=1",
+			"3dPicture": "01_15.jpg",
+			"immunity": {
+				"1": "3",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"473": {
+			"id": 473,
+			"title": "Ataman ogrów",
+			"3dModel": "15",
+			"3dCamera": "",
+			"3dArmor": "helm=2",
+			"3dPicture": "01_15_2.jpg",
+			"immunity": {
+				"1": "3",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 1.1,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"475": {
+			"id": 475,
+			"title": "Pełzior",
+			"3dModel": "51",
+			"3dCamera": "",
+			"3dArmor": "helm=3",
+			"3dPicture": "01_51_3.jpg",
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"476": {
+			"id": 476,
+			"title": "Zwierg-zawadiaka",
+			"3dModel": "70_1",
+			"3dCamera": "",
+			"3dArmor": "weapon=70_1",
+			"3dPicture": "01_70_1.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "2",
+				"3": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"477": {
+			"id": 477,
+			"title": "Zwierg-wojownik",
+			"3dModel": "70_2",
+			"3dCamera": "",
+			"3dArmor": "weapon=70_2",
+			"3dPicture": "01_70_2.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "2",
+				"3": "4"
+			},
+			"magic": "",
+			"scale": 1.1,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"478": {
+			"id": 478,
+			"title": "Zwierg-zwiadowca",
+			"3dModel": "71_2",
+			"3dCamera": "",
+			"3dArmor": "torso=1;hand_l=1",
+			"3dPicture": "01_71_2.jpg",
+			"immunity": {
+				"1": "3",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"480": {
+			"id": 480,
+			"title": "Zwierg-komendant",
+			"3dModel": "70_3",
+			"3dCamera": "",
+			"3dArmor": "weapon=70_3",
+			"3dPicture": "01_70_3.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "2",
+				"3": "4"
+			},
+			"magic": "",
+			"scale": 1.2,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"481": {
+			"id": 481,
+			"title": "Zwierg-napastnik",
+			"3dModel": "71_3",
+			"3dCamera": "",
+			"3dArmor": "torso=2;hand_l=1;pelvis=1",
+			"3dPicture": "01_71_3.jpg",
+			"immunity": {
+				"1": "3",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"482": {
+			"id": 482,
+			"title": "Szaman zwiergów",
+			"3dModel": "70_4",
+			"3dCamera": "",
+			"3dArmor": "weapon=70_4",
+			"3dPicture": "01_70_4.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "2",
+				"3": "3"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"483": {
+			"id": 483,
+			"title": "Okrutny gryzol",
+			"3dModel": "12",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_12.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "2"
+			},
+			"magic": "1",
+			"scale": 1.3,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"484": {
+			"id": 484,
+			"title": "Krzywonóg-łowca",
+			"3dModel": "77_2",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_77_3.jpg",
+			"immunity": {
+				"1": "3",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"485": {
+			"id": 485,
+			"title": "Jadowita hissa",
+			"3dModel": "17",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_17.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"486": {
+			"id": 486,
+			"title": "Szmaragdowy rogacz",
+			"3dModel": "44",
+			"3dCamera": "",
+			"3dArmor": "helm=4",
+			"3dPicture": "01_44_4.jpg",
+			"immunity": {
+				"1": "2",
+				"2": "3",
+				"3": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"487": {
+			"id": 487,
+			"title": "Szablozęba pantera",
+			"3dModel": "62_4",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_62_4.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "3"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"488": {
+			"id": 488,
+			"title": "Cykloparki-szabrowniki",
+			"3dModel": "65_2",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_65_2.jpg",
+			"immunity": {
+				"1": "2",
+				"2": "4"
+			},
+			"magic": "4",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"489": {
+			"id": 489,
+			"title": "Plażowa krabczyca",
+			"3dModel": "57",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_56_7.jpg",
+			"immunity": {
+				"1": "3",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 1.3,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"490": {
+			"id": 490,
+			"title": "Opętana dzikuska",
+			"3dModel": "60_4",
+			"3dCamera": "",
+			"3dArmor": "weapon=60_4",
+			"3dPicture": "01_60_4.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "3"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"491": {
+			"id": 491,
+			"title": "Przeklęta dusza",
+			"3dModel": "29",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_29.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"492": {
+			"id": 492,
+			"title": "Sewering",
+			"3dModel": "45",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_45.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "3",
+				"3": "4"
+			},
+			"magic": "",
+			"scale": 1.2,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"493": {
+			"id": 493,
+			"title": "Ludojad",
+			"3dModel": "43",
+			"3dCamera": "",
+			"3dArmor": "weapon=43",
+			"3dPicture": "01_43.jpg",
+			"magic": "",
+			"scale": 1.3,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"494": {
+			"id": 494,
+			"title": "Przeklęty bohater",
+			"3dModel": "50",
+			"3dCamera": "",
+			"3dArmor": "weapon=50",
+			"3dPicture": "01_49.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "2",
+				"3": "4"
+			},
+			"magic": "",
+			"scale": 1.3,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"495": {
+			"id": 495,
+			"title": "Szkielet bohatera",
+			"3dModel": "49",
+			"3dCamera": "",
+			"3dArmor": "weapon=49",
+			"3dPicture": "01_50.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "2"
+			},
+			"magic": "",
+			"scale": 1.1,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"496": {
+			"id": 496,
+			"title": "Ceraptor-padlinożerca",
+			"3dModel": "58_3",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_58_3.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "3",
+				"3": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"497": {
+			"id": 497,
+			"title": "Umarlak",
+			"3dModel": "37",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_37.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "3"
+			},
+			"magic": "",
+			"scale": 1.2,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"498": {
+			"id": 498,
+			"title": "Wskrzeszony martwiak",
+			"3dModel": "35",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_35.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "3"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"625": {
+			"id": 625,
+			"title": "Zwiergomatka",
+			"3dModel": "82",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_82.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "2",
+				"3": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"820": {
+			"id": 820,
+			"title": "Ciemna elfka",
+			"3dModel": "90_1",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_90_1.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "2",
+				"3": "3",
+				"4": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0
+		},
+		"1188": {
+			"id": 1188,
+			"title": "Demoniczna Una",
+			"3dModel": "64_1",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_64.jpg",
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": "1.2",
+			"maxVersion": null
+		},
+		"1189": {
+			"id": 1189,
+			"title": "Rykar-martwiak",
+			"3dModel": "72_2",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_72_2.jpg",
+			"immunity": {
+				"1": "1",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 1.2,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": "1.2",
+			"maxVersion": null
+		},
+		"1190": {
+			"id": 1190,
+			"title": "Diabelska Una",
+			"3dModel": "64_2",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_64.jpg",
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": "1.2",
+			"maxVersion": null
+		},
+		"1191": {
+			"id": 1191,
+			"title": "Una-arcydiabeł",
+			"3dModel": "64_3",
+			"3dCamera": "",
+			"3dArmor": "",
+			"3dPicture": "01_64.jpg",
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": "1.2",
+			"maxVersion": null
+		},
+		"1863": {
+			"id": 1863,
+			"title": "Strażniczka bagien",
+			"3dModel": "2",
+			"3dCamera": "",
+			"3dArmor": "pelvis=2_1;boots=2_1;torso=2_1;hairs=8;hairs_color=10",
+			"3dPicture": "topr2",
+			"immunity": {
+				"1": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null,
+			"skinColor": "green"
+		},
+		"1864": {
+			"id": 1864,
+			"title": "Topiór-ochotnik",
+			"3dModel": "1",
+			"3dCamera": "",
+			"3dArmor": "torso=2_1;pelvis=2_1;boots=2_1",
+			"3dPicture": "topr1",
+			"immunity": {
+				"1": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null,
+			"skinColor": "green"
+		},
+		"1865": {
+			"id": 1865,
+			"title": "Topiór-łamignat",
+			"3dModel": "1",
+			"3dCamera": "",
+			"3dArmor": "set=2_1;weapon=8_5",
+			"3dPicture": "topr1",
+			"immunity": {
+				"1": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null,
+			"skinColor": "green"
+		},
+		"1866": {
+			"id": 1866,
+			"title": "Kapłanka trzęsawiska",
+			"3dModel": "2",
+			"3dCamera": "",
+			"3dArmor": "set=2_1;hairs=8;hairs_color=10;weapon=11",
+			"3dPicture": "topr2",
+			"immunity": {
+				"1": "4"
+			},
+			"magic": "",
+			"scale": 0,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null,
+			"skinColor": "green"
+		},
+		"1867": {
+			"id": 1867,
+			"title": "Władca mokradła",
+			"3dModel": "1",
+			"3dCamera": "",
+			"3dArmor": "set=2_1;weapon=24_1",
+			"3dPicture": "topr1",
+			"immunity": {
+				"1": "3",
+				"2": "4"
+			},
+			"magic": "",
+			"scale": 1.2,
+			"closedActions": "",
+			"eyes": 0,
+			"minVersion": null,
+			"maxVersion": null,
+			"skinColor": "green"
+		}
+	}
+}

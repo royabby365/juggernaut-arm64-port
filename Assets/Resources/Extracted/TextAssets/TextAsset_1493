@@ -1,0 +1,31 @@
+{
+	"executions": {
+		"621": {
+			"id": 621,
+			"scenario": "fatality1_1",
+			"weaponTitle": "Удар палача"
+		},
+		"622": {
+			"id": 622,
+			"scenario": "fatality6",
+			"weaponTitle": "Месть толстяка"
+		},
+		"623": {
+			"id": 623,
+			"scenario": "fatality7",
+			"weaponTitle": "Гнев земли"
+		},
+		"624": {
+			"id": 624,
+			"scenario": "fatality9",
+			"weaponTitle": "Цепи мясника"
+		},
+		"1211": {
+			"id": 1211,
+			"scenario": "fatality10",
+			"weaponTitle": "Стрелы смерти",
+			"minVersion": "1.2",
+			"maxVersion": null
+		}
+	}
+}

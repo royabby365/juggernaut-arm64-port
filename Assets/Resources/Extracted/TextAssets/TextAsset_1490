@@ -1,0 +1,1462 @@
+{
+	"phrases": {
+		"AchievDataHeader": {
+			"id": 937,
+			"code": "AchievDataHeader",
+			"text": "훌륭한　전투였습니다！＾＾다음　도전과제를　잊지　마세요："
+		},
+		"AchievHeader": {
+			"id": 936,
+			"code": "AchievHeader",
+			"text": "도전과제를　달성했습니다："
+		},
+		"AchievSocialLabel": {
+			"id": 938,
+			"code": "AchievSocialLabel",
+			"text": "친구와　공유："
+		},
+		"AchievementsAll": {
+			"id": 943,
+			"code": "AchievementsAll",
+			"text": "전부"
+		},
+		"AchievementsLocked": {
+			"id": 944,
+			"code": "AchievementsLocked",
+			"text": "잠김："
+		},
+		"AchievementsProgress": {
+			"id": 942,
+			"code": "AchievementsProgress",
+			"text": "일반　도전과제　진행　상황"
+		},
+		"AchievementsRating": {
+			"id": 946,
+			"code": "AchievementsRating",
+			"text": "등급"
+		},
+		"AchievementsUnlocked": {
+			"id": 945,
+			"code": "AchievementsUnlocked",
+			"text": "잠금　해제됨："
+		},
+		"AchivsAll": {
+			"id": 918,
+			"code": "AchivsAll",
+			"text": "전부"
+		},
+		"AchivsDone": {
+			"id": 919,
+			"code": "AchivsDone",
+			"text": "받음"
+		},
+		"AchivsRating": {
+			"id": 921,
+			"code": "AchivsRating",
+			"text": "등급"
+		},
+		"AchivsTotalProgress": {
+			"id": 917,
+			"code": "AchivsTotalProgress",
+			"text": "일반　도전과제　진행　상황"
+		},
+		"AchivsUndone": {
+			"id": 920,
+			"code": "AchivsUndone",
+			"text": "수집　안　함"
+		},
+		"AddFriendsMessage": {
+			"id": 1108,
+			"code": "AddFriendsMessage",
+			"text": "친구를 Game Center로 초대하여 점수를 비교해보세요."
+		},
+		"AlertNoInternet": {
+			"id": 1115,
+			"code": "AlertNoInternet",
+			"text": "현재 인터넷에 연결되어 있지 않아 해당 옵션을 사용할 수 없습니다."
+		},
+		"AvailableForMining": {
+			"id": 1951,
+			"code": "AvailableForMining"
+		},
+		"BagBag": {
+			"id": 247,
+			"code": "BagBag",
+			"text": "가방"
+		},
+		"BagDark": {
+			"id": 259,
+			"code": "BagDark",
+			"text": "어둠 +{0}%"
+		},
+		"BagElixirs": {
+			"id": 254,
+			"code": "BagElixirs",
+			"text": "전투　엘릭서"
+		},
+		"BagEquipment": {
+			"id": 246,
+			"code": "BagEquipment",
+			"text": "장비"
+		},
+		"BagFire": {
+			"id": 257,
+			"code": "BagFire",
+			"text": "불 +{0}%"
+		},
+		"BagIce": {
+			"id": 256,
+			"code": "BagIce",
+			"text": "얼음 +{0}%"
+		},
+		"BagLighting": {
+			"id": 258,
+			"code": "BagLighting",
+			"text": "번개 +{0}%"
+		},
+		"BagParams": {
+			"id": 248,
+			"code": "BagParams",
+			"text": "능력치"
+		},
+		"BagPoints": {
+			"id": 255,
+			"code": "BagPoints",
+			"text": "분배　가능　포인트: {0}"
+		},
+		"BagResources": {
+			"id": 253,
+			"code": "BagResources",
+			"text": "자원"
+		},
+		"BagSwitchItems": {
+			"id": 842,
+			"code": "BagSwitchItems",
+			"text": "가방"
+		},
+		"BagSwitchParameters": {
+			"id": 841,
+			"code": "BagSwitchParameters",
+			"text": "수치"
+		},
+		"Bank": {
+			"id": 809,
+			"code": "Bank",
+			"text": "은행"
+		},
+		"BankBonus": {
+			"id": 807,
+			"code": "BankBonus",
+			"text": "보너스"
+		},
+		"BankBuyDoneFail": {
+			"id": 993,
+			"code": "BankBuyDoneFail",
+			"text": "구매에　실패했습니다．"
+		},
+		"BankBuyDoneSuccessfull": {
+			"id": 992,
+			"code": "BankBuyDoneSuccessfull",
+			"text": "성공적으로　구매했습니다．"
+		},
+		"BankBuyError": {
+			"id": 959,
+			"code": "BankBuyError",
+			"text": "구매　도중　오류가　발생했습니다． 나중에　다시　시도하십시오．"
+		},
+		"BankCost": {
+			"id": 808,
+			"code": "BankCost",
+			"text": "가격"
+		},
+		"BankCount": {
+			"id": 806,
+			"code": "BankCount",
+			"text": "수량"
+		},
+		"BankTimeout": {
+			"id": 994,
+			"code": "BankTimeout",
+			"text": "구매가 진행되고 있습니다. 잠시만 기다려주세요."
+		},
+		"BankWaitMessage": {
+			"id": 991,
+			"code": "BankWaitMessage",
+			"text": "요청을　수행하고　있습니다．"
+		},
+		"BattleAttack": {
+			"id": 264,
+			"code": "BattleAttack",
+			"text": "공격"
+		},
+		"BattleLostStartOver": {
+			"id": 913,
+			"code": "BattleLostStartOver",
+			"text": "다시　시작"
+		},
+		"BattleResultEtalon": {
+			"id": 1137,
+			"code": "BattleResultEtalon",
+			"text": "크리티컬："
+		},
+		"BattleResultRating": {
+			"id": 1138,
+			"code": "BattleResultRating",
+			"text": "전투　등급："
+		},
+		"BattleResultRatingName0": {
+			"id": 1139,
+			"code": "BattleResultRatingName0",
+			"text": "유치한　전투"
+		},
+		"BattleResultRatingName1": {
+			"id": 1140,
+			"code": "BattleResultRatingName1",
+			"text": "격력한　전투"
+		},
+		"BattleResultRatingName2": {
+			"id": 1141,
+			"code": "BattleResultRatingName2",
+			"text": "도살"
+		},
+		"BattleResultRatingName3": {
+			"id": 1142,
+			"code": "BattleResultRatingName3",
+			"text": "광기의　도살장"
+		},
+		"BattleResultRatingName4": {
+			"id": 1143,
+			"code": "BattleResultRatingName4",
+			"text": "광인이　나타났습니다！"
+		},
+		"BattleResultReal": {
+			"id": 1136,
+			"code": "BattleResultReal",
+			"text": "전투 결과:"
+		},
+		"BattleResultTurnsCount": {
+			"id": 1144,
+			"code": "BattleResultTurnsCount",
+			"text": "｛０｝　공격"
+		},
+		"Bonuses": {
+			"id": 840,
+			"code": "Bonuses",
+			"text": "보너스："
+		},
+		"ButtonAddFriends": {
+			"id": 1107,
+			"code": "ButtonAddFriends",
+			"text": "친구　추가"
+		},
+		"ButtonBuy": {
+			"id": 459,
+			"code": "ButtonBuy",
+			"text": "구매"
+		},
+		"ButtonBuyAndPuton": {
+			"id": 460,
+			"code": "ButtonBuyAndPuton",
+			"text": "구매 및 장비"
+		},
+		"ButtonCancel": {
+			"id": 458,
+			"code": "ButtonCancel",
+			"text": "취소"
+		},
+		"ButtonClose": {
+			"id": 729,
+			"code": "ButtonClose",
+			"text": "닫기"
+		},
+		"ButtonContinue": {
+			"id": 464,
+			"code": "ButtonContinue",
+			"text": "계속하기"
+		},
+		"ButtonFight": {
+			"id": 462,
+			"code": "ButtonFight",
+			"text": "공격"
+		},
+		"ButtonFullRating": {
+			"id": 1106,
+			"code": "ButtonFullRating",
+			"text": "전체　등급"
+		},
+		"ButtonGoToBag": {
+			"id": 511,
+			"code": "ButtonGoToBag",
+			"text": "가방으로"
+		},
+		"ButtonGoToShop": {
+			"id": 764,
+			"code": "ButtonGoToShop",
+			"text": "상점으로"
+		},
+		"ButtonImprove": {
+			"id": 474,
+			"code": "ButtonImprove",
+			"text": "업그레이드"
+		},
+		"ButtonMax": {
+			"id": 514,
+			"code": "ButtonMax",
+			"text": "최대"
+		},
+		"ButtonNo": {
+			"id": 466,
+			"code": "ButtonNo",
+			"text": "아니오"
+		},
+		"ButtonOk": {
+			"id": 457,
+			"code": "ButtonOk",
+			"text": "적용"
+		},
+		"ButtonPutoff": {
+			"id": 1193,
+			"code": "ButtonPutoff",
+			"text": "버리기"
+		},
+		"ButtonPuton": {
+			"id": 501,
+			"code": "ButtonPuton",
+			"text": "장비"
+		},
+		"ButtonSell": {
+			"id": 461,
+			"code": "ButtonSell",
+			"text": "판매"
+		},
+		"ButtonYes": {
+			"id": 465,
+			"code": "ButtonYes",
+			"text": "예"
+		},
+		"BuyFor": {
+			"id": 1952,
+			"code": "BuyFor"
+		},
+		"CastGestureHelp": {
+			"id": 450,
+			"code": "CastGestureHelp",
+			"text": "주문을 쓰려면 원하는 마법 계열의 심볼을 그리십시오."
+		},
+		"ChooseCharBeginGame": {
+			"id": 839,
+			"code": "ChooseCharBeginGame",
+			"text": "게임　시작"
+		},
+		"ChooseCharFeature": {
+			"id": 939,
+			"code": "ChooseCharFeature",
+			"text": "기능："
+		},
+		"ChooseCharPreferences": {
+			"id": 838,
+			"code": "ChooseCharPreferences",
+			"text": "마법:"
+		},
+		"ChoosePrize": {
+			"id": 509,
+			"code": "ChoosePrize",
+			"text": "보상 선택:"
+		},
+		"ChoosePrizeExecution": {
+			"id": 950,
+			"code": "ChoosePrizeExecution",
+			"text": "처형을 위한 추가 보상을 선택:"
+		},
+		"CompareChosen": {
+			"id": 471,
+			"code": "CompareChosen",
+			"text": "선택됨"
+		},
+		"ComparePuton": {
+			"id": 472,
+			"code": "ComparePuton",
+			"text": "장비됨"
+		},
+		"CompareSellItem": {
+			"id": 949,
+			"code": "CompareSellItem",
+			"text": "이　아이템을　｛０｝에　판매하시겠습니까？"
+		},
+		"ConditionBlocks": {
+			"id": 743,
+			"code": "ConditionBlocks",
+			"text": "전투　도중　공격을　｛０｝번　방어하고　승리"
+		},
+		"ConditionCritsInRow": {
+			"id": 746,
+			"code": "ConditionCritsInRow",
+			"text": "크리티컬　공격을　연속으로　｛１｝번　수행하고　전투에서　승리"
+		},
+		"ConditionFatalities": {
+			"id": 745,
+			"code": "ConditionFatalities",
+			"text": "처형을　｛０｝번　수행"
+		},
+		"ConditionKills": {
+			"id": 747,
+			"code": "ConditionKills",
+			"text": "적의　생명력이　｛１｝　이하일　때　최후의　일격으로　전투에서　승리"
+		},
+		"ConditionMagicCast": {
+			"id": 1927,
+			"code": "ConditionMagicCast",
+			"text": "한　전투에서　마법을　｛０｝번　이상　사용"
+		},
+		"ConditionNoMisses": {
+			"id": 742,
+			"code": "ConditionNoMisses",
+			"text": "목표에　모든　공격을　명중시키고　전투에서　승리（적이　공격을　막거나　피해서는　안　됨）"
+		},
+		"ConditionWinWithHP": {
+			"id": 744,
+			"code": "ConditionWinWithHP",
+			"text": "전투에서　생명력이　｛１｝％　이상인　상태로　승리"
+		},
+		"DarkElfName": {
+			"id": 1067,
+			"code": "DarkElfName",
+			"text": "다크　엘프"
+		},
+		"DealOfTheDay": {
+			"id": 1962,
+			"code": "DealOfTheDay"
+		},
+		"DefeatGoodsHeader": {
+			"id": 988,
+			"code": "DefeatGoodsHeader",
+			"text": "승리하려면　무기를　업그레이드해야　합니다："
+		},
+		"ElfPhrase1": {
+			"id": 1064,
+			"code": "ElfPhrase1",
+			"text": "어리석인　인간！ 네녀석은　우리　다크　엘프의　보물에　손을　댔다． 이　보물은　내가　지킨다．　누구도　건드릴　수　없다． 당장　꺼져라．　안　그러면　묵사발을　내줄　테니！"
+		},
+		"ElfPhrase2": {
+			"id": 1071,
+			"code": "ElfPhrase2",
+			"text": "내가　또　보물　저장고를　열게　둘　거라고　생각했다면　오산이다． 내가　검　한　번만　휘둘러도　넌　죽은　목숨이야！ 당장　꺼져！"
+		},
+		"EpicItemInfo": {
+			"id": 1267,
+			"code": "EpicItemInfo",
+			"text": "이　갑옷을　전설　아이템으로　업그레이드해야　합니다． 그러려면　각　전투에서　획득한　전설　상태　포인트를　사용해야　합니다．"
+		},
+		"ExCongratText1": {
+			"id": 793,
+			"code": "ExCongratText1",
+			"text": "추가 챕터의 잠금을 해제했습니다."
+		},
+		"ExCongratText2": {
+			"id": 794,
+			"code": "ExCongratText2",
+			"text": "지도를 사용하여 다가가십시오."
+		},
+		"ExLootLabel": {
+			"id": 728,
+			"code": "ExLootLabel",
+			"text": "챕터　완료　보상"
+		},
+		"ExOpenButton": {
+			"id": 727,
+			"code": "ExOpenButton",
+			"text": "｛０｝（으）로　잠금　해제"
+		},
+		"ExOpenConditionLabel": {
+			"id": 726,
+			"code": "ExOpenConditionLabel",
+			"text": "챕터를　열려면　다음을　수행하십시오："
+		},
+		"ExecutionHelp": {
+			"id": 448,
+			"code": "ExecutionHelp",
+			"text": "처형을 하려면 재빨리 손가락으로 쓸어 적을 공격하십시오. "
+		},
+		"ExecutionLabel": {
+			"id": 508,
+			"code": "ExecutionLabel",
+			"text": "처형"
+		},
+		"FightResultsAddAnger": {
+			"id": 454,
+			"code": "FightResultsAddAnger",
+			"text": "분노 +{0}%"
+		},
+		"FightResultsAddExp": {
+			"id": 455,
+			"code": "FightResultsAddExp",
+			"text": "경험치 +{0}"
+		},
+		"FightResultsBlock": {
+			"id": 657,
+			"code": "FightResultsBlock",
+			"text": "막기"
+		},
+		"FightResultsDamage": {
+			"id": 510,
+			"code": "FightResultsDamage",
+			"text": "대미지"
+		},
+		"FightResultsDodge": {
+			"id": 658,
+			"code": "FightResultsDodge",
+			"text": "회피"
+		},
+		"FightResultsFatality": {
+			"id": 701,
+			"code": "FightResultsFatality",
+			"text": "처형"
+		},
+		"FightResultsImmunity": {
+			"id": 676,
+			"code": "FightResultsImmunity",
+			"text": "면역"
+		},
+		"FightResultsLabel": {
+			"id": 507,
+			"code": "FightResultsLabel",
+			"text": "전투 결과"
+		},
+		"FightResultsTurns": {
+			"id": 453,
+			"code": "FightResultsTurns",
+			"text": "{0} 이동"
+		},
+		"FightResultsTurnsLabel": {
+			"id": 512,
+			"code": "FightResultsTurnsLabel",
+			"text": "전투 결과"
+		},
+		"FinalText": {
+			"id": 1020,
+			"code": "FinalText",
+			"text": "인정하지．　우리의　완벽한　패배다． 네녀석은　우리가　갖은　노력을　기울여　부활시킨　악마를　죽이고　우리의　희망을　짓밟았어． 멍청한　박애주의　때문에　위대한　계획을　망친　거야．　네　어리석은　머리로는　이해할　수　없는　위대한　계획을　말야． 네녀석은　절대　누리지　못할　기나긴　명상과　엄청난　지식이　있다면，　네녀석도　자신이　어떤　실수를　저질렀는지　알게　될　거다． 하지만　우리도　실패의　책임이　있지． 설마　이렇게　강력한　악마에게　맞설　수　있는　인간이　있을　줄이야． 하지만　걱정　마라．　다음에는　절대　이런　실수　하지　않을　테니．　무엇도　부활의　과정을　막을　수는　없다．＾＾동전에는　양면이　있는　법이지．　이번　일로　오랫동안　잊고　있었던　놀라움이라는　감정을　다시　깨닫게　됐어． 그　상으로　네게　우리의　이름을　알려주마．　우리는　＇가면＇이다． 우리를　기억해둬라．　우리도　널　기억할　테니．"
+		},
+		"GotLevel": {
+			"id": 451,
+			"code": "GotLevel",
+			"text": "{0} 레벨이 되었습니다!"
+		},
+		"GotSkillPoints": {
+			"id": 452,
+			"code": "GotSkillPoints",
+			"text": "사용 가능한 스킬 포인트 - {0}"
+		},
+		"InBattleBerserk": {
+			"id": 615,
+			"code": "InBattleBerserk",
+			"text": "남은 전투 시간 동안 생명력이 50% 증가합니다."
+		},
+		"InBattleChapter": {
+			"id": 620,
+			"code": "InBattleChapter",
+			"text": "챕터"
+		},
+		"InBattleFightWith": {
+			"id": 619,
+			"code": "InBattleFightWith",
+			"text": "전투에 사용: "
+		},
+		"InBattleNextBlock": {
+			"id": 613,
+			"code": "InBattleNextBlock",
+			"text": "적의 다음 공격을 막아냅니다."
+		},
+		"InBattleNextCrit": {
+			"id": 614,
+			"code": "InBattleNextCrit",
+			"text": "다음　공격이　크리티컬이　되며　마나　드롭이　상승합니다．"
+		},
+		"InsufficientFunds": {
+			"id": 771,
+			"code": "InsufficientFunds",
+			"text": "돈이　부족합니다．＾＾은행을　통해　계정에　돈을　추가할　수　있습니다．"
+		},
+		"Intro01Text": {
+			"id": 553,
+			"code": "Intro01Text"
+		},
+		"Intro02Center": {
+			"id": 554,
+			"code": "Intro02Center"
+		},
+		"Intro03Text": {
+			"id": 557,
+			"code": "Intro03Text"
+		},
+		"Intro04Center": {
+			"id": 558,
+			"code": "Intro04Center"
+		},
+		"Intro05Text": {
+			"id": 561,
+			"code": "Intro05Text"
+		},
+		"IntroPlace01": {
+			"id": 551,
+			"code": "IntroPlace01"
+		},
+		"IntroPlace03": {
+			"id": 555,
+			"code": "IntroPlace03"
+		},
+		"IntroPlace05": {
+			"id": 559,
+			"code": "IntroPlace05"
+		},
+		"IntroTitle01": {
+			"id": 552,
+			"code": "IntroTitle01"
+		},
+		"IntroTitle03": {
+			"id": 556,
+			"code": "IntroTitle03"
+		},
+		"IntroTitle05": {
+			"id": 560,
+			"code": "IntroTitle05"
+		},
+		"IntroductionText": {
+			"id": 456,
+			"code": "IntroductionText",
+			"text": "\n"
+		},
+		"ItemQuantity": {
+			"id": 941,
+			"code": "ItemQuantity",
+			"text": "개"
+		},
+		"LabelImmunity": {
+			"id": 499,
+			"code": "LabelImmunity",
+			"text": "면역"
+		},
+		"LabelPersMagicPreferenses": {
+			"id": 500,
+			"code": "LabelPersMagicPreferenses",
+			"text": "선호"
+		},
+		"LocationChestCountLabel": {
+			"id": 940,
+			"code": "LocationChestCountLabel",
+			"text": "숨겨진　보물："
+		},
+		"LocationPopulationAtacked": {
+			"id": 810,
+			"code": "LocationPopulationAtacked",
+			"text": "지역　주민들이　공격　당했습니다！"
+		},
+		"LocationPopulationMax": {
+			"id": 846,
+			"code": "LocationPopulationMax",
+			"text": "지역　주민들이　공물을　모으고　있습니다．"
+		},
+		"LocationPopulationPeace": {
+			"id": 811,
+			"code": "LocationPopulationPeace",
+			"text": "인구가　증가하고　있습니다． 사람들이　당신에게　줄　공물을　모으고　있습니다．"
+		},
+		"LockpickingButtonShowCells": {
+			"id": 935,
+			"code": "LockpickingButtonShowCells",
+			"text": "둘러보기"
+		},
+		"LockpickingDifficultyHigh": {
+			"id": 592,
+			"code": "LockpickingDifficultyHigh",
+			"text": "자물쇠 따기 - 높은 난이도"
+		},
+		"LockpickingDifficultyLow": {
+			"id": 590,
+			"code": "LockpickingDifficultyLow",
+			"text": "자물쇠 따기 - 낮은 난이도"
+		},
+		"LockpickingDifficultyMedium": {
+			"id": 591,
+			"code": "LockpickingDifficultyMedium",
+			"text": "자물쇠 따기 - 보통 난이도"
+		},
+		"LockpickingFindAMatch": {
+			"id": 586,
+			"code": "LockpickingFindAMatch",
+			"text": "선택된 요소에 맞는 짝을 고르십시오."
+		},
+		"LockpickingHelpBottom": {
+			"id": 583,
+			"code": "LockpickingHelpBottom",
+			"text": "잠금 장치는 {0}초 동안 훔쳐볼 수 있습니다. 도둑 열쇠 필요: {1}."
+		},
+		"LockpickingHelpTop": {
+			"id": 582,
+			"code": "LockpickingHelpTop",
+			"text": "도둑 열쇠를 사용하여 자물쇠와 같은 한 요소를 고르면 상자를 열 수 있습니다.^^^\n실패하면 도둑 열쇠가 부러집니다."
+		},
+		"LockpickingMatchFound": {
+			"id": 588,
+			"code": "LockpickingMatchFound",
+			"text": "축하합니다!^^성공적으로 짝을 찾았습니다."
+		},
+		"LockpickingNoMoreLockpicks": {
+			"id": 589,
+			"code": "LockpickingNoMoreLockpicks",
+			"text": "도둑 열쇠가 없습니다.^^열쇠가 없으면 더 이상 진행할 수 없습니다."
+		},
+		"LockpickingPrize": {
+			"id": 596,
+			"code": "LockpickingPrize",
+			"text": "상자를 열고 찾은 물건:"
+		},
+		"LockpickingSecBeforeGame": {
+			"id": 598,
+			"code": "LockpickingSecBeforeGame",
+			"text": "게임 시작까지: -{0} 초"
+		},
+		"LockpickingWrongMatch": {
+			"id": 587,
+			"code": "LockpickingWrongMatch",
+			"text": "실수했습니다.^^도둑 열쇠가 부러졌습니다."
+		},
+		"MBookNeedMoreSkill": {
+			"id": 719,
+			"code": "MBookNeedMoreSkill",
+			"text": "주문을 개선시킬 충분한 스킬이 없습니다.^^전투에서 이 주문을 사용하여 스킬을 높일 수 있습니다."
+		},
+		"MBookNeedMoreSkulls": {
+			"id": 718,
+			"code": "MBookNeedMoreSkulls",
+			"text": "주문을 개선할 충분한 마법 해골이 없습니다.^^상자에서 찾거나, 전투에서 얻거나, 상점에서 구매할 수 있습니다."
+		},
+		"MBookPower": {
+			"id": 715,
+			"code": "MBookPower",
+			"text": "힘 {0}"
+		},
+		"MBookSkill": {
+			"id": 716,
+			"code": "MBookSkill",
+			"text": "스킬 {0}/{1}"
+		},
+		"MagicBookHelp": {
+			"id": 479,
+			"code": "MagicBookHelp",
+			"text": "마법에　걸린　해골을 사용하면 이미 배운 주문의 사용 능력과 새로운 주문 습득 능력이 높아집니다."
+		},
+		"MagicDark": {
+			"id": 713,
+			"code": "MagicDark",
+			"text": "어둠"
+		},
+		"MagicFire": {
+			"id": 711,
+			"code": "MagicFire",
+			"text": "불"
+		},
+		"MagicIce": {
+			"id": 710,
+			"code": "MagicIce",
+			"text": "얼음"
+		},
+		"MagicLighting": {
+			"id": 712,
+			"code": "MagicLighting",
+			"text": "번개"
+		},
+		"MagicProtectionHelp": {
+			"id": 449,
+			"code": "MagicProtectionHelp",
+			"text": "마법 공격을 피하려면 스텝 순서를 외워 그대로 수행해야 합니다."
+		},
+		"MainMenuLoadGame": {
+			"id": 1054,
+			"code": "MainMenuLoadGame",
+			"text": "게임　불러오기"
+		},
+		"MainMenuNewGame": {
+			"id": 1056,
+			"code": "MainMenuNewGame",
+			"text": "새　게임"
+		},
+		"MainMenuNewGameAlert": {
+			"id": 1058,
+			"code": "MainMenuNewGameAlert",
+			"text": "새　게임을　시작하면　진행　내용을　잃게　됩니다．＾＾＾새　게임을　시작하시겠습니까？"
+		},
+		"MainMenuSave": {
+			"id": 1055,
+			"code": "MainMenuSave",
+			"text": "저장"
+		},
+		"Match3BlockerText": {
+			"id": 1919,
+			"code": "Match3BlockerText",
+			"text": "게임을　완료하였으며　다시　시작할　수　있습니다．"
+		},
+		"Match3ButtonStart": {
+			"id": 1920,
+			"code": "Match3ButtonStart",
+			"text": "광산에　들어가기"
+		},
+		"Match3ButtonUseKeys": {
+			"id": 1917,
+			"code": "Match3ButtonUseKeys",
+			"text": "채우기"
+		},
+		"Match3DifficultyEasy": {
+			"id": 1924,
+			"code": "Match3DifficultyEasy",
+			"text": "난이도　낮음"
+		},
+		"Match3DifficultyNormal": {
+			"id": 1923,
+			"code": "Match3DifficultyNormal",
+			"text": "난이도　높음"
+		},
+		"Match3HelpBottom": {
+			"id": 1916,
+			"code": "Match3HelpBottom",
+			"text": "아니면　｛０｝개의　도둑　열쇠로　시간을　다시　채워　계속할　수　있습니다．　"
+		},
+		"Match3LootHeader": {
+			"id": 1921,
+			"code": "Match3LootHeader",
+			"text": "사용　가능："
+		},
+		"Match3Mined": {
+			"id": 1925,
+			"code": "Match3Mined",
+			"text": "광산에서　획득"
+		},
+		"Match3Mines": {
+			"id": 1950,
+			"code": "Match3Mines"
+		},
+		"Match3Rating": {
+			"id": 1926,
+			"code": "Match3Rating",
+			"text": "광부　등급"
+		},
+		"Match3Title": {
+			"id": 1915,
+			"code": "Match3Title",
+			"text": "수집　내용："
+		},
+		"Match3Tutorial": {
+			"id": 1929,
+			"code": "Match3Tutorial",
+			"text": "광산　중　하나에　도착했습니다． 여기서　같은　모양의　블럭　한　줄을　파괴하여　자원을　확보하고　아래에　있는　보상을　받을　수　있습니다． 각　게임에는　시간　제한이　있습니다． 시간은　도둑　열쇠로　다시　채울　수　있습니다．"
+		},
+		"MentorManName": {
+			"id": 1065,
+			"code": "MentorManName",
+			"text": "교관　벨로스　줄"
+		},
+		"MentorWomanName": {
+			"id": 1066,
+			"code": "MentorWomanName",
+			"text": "교관　이사"
+		},
+		"MessageNoItems": {
+			"id": 502,
+			"code": "MessageNoItems",
+			"text": "선택한 유형의 아이템이 없습니다."
+		},
+		"MsgGetRatingError": {
+			"id": 1104,
+			"code": "MsgGetRatingError",
+			"text": "Ｇａｍｅ　Ｃｅｎｔｅｒ에　연결할　수　없어　등급을　책정할　수　없습니다． 인터넷　연결이　끊겼을　수　있습니다．"
+		},
+		"MsgRatingTimeout": {
+			"id": 1105,
+			"code": "MsgRatingTimeout",
+			"text": "Ｇａｍｅ　Ｃｅｎｔｅｒ와의　연결이　만료되었습니다． 인터넷　연결을　확인하십시오．"
+		},
+		"NeedMoreStars": {
+			"id": 1196,
+			"code": "NeedMoreStars",
+			"text": "에픽　아이템을　업그레이드하려면　전설　상태　포인트가　필요합니다． 포인트는　전투　등급에　따라　지급되며，　또는　상점에서　구매할　수도　있습니다．"
+		},
+		"NewExecutionLabel": {
+			"id": 762,
+			"code": "NewExecutionLabel",
+			"text": "새로운 처형:"
+		},
+		"NoEpicItems": {
+			"id": 1194,
+			"code": "NoEpicItems",
+			"text": "포인트를　사용하여　에픽　아이템을　전설　아이템으로　만들　수　있습니다． 그러나　현재　착용한　에픽　아이템이　없습니다． 아이템은　상점에서　구매할　수　있습니다．"
+		},
+		"OpsFaqPage": {
+			"id": 1273,
+			"code": "OpsFaqPage",
+			"text": "초보자　튜토리얼　페이지로　이동"
+		},
+		"OpsMusicVolume": {
+			"id": 721,
+			"code": "OpsMusicVolume",
+			"text": "음악　볼륨"
+		},
+		"OpsRestartButton": {
+			"id": 723,
+			"code": "OpsRestartButton",
+			"text": "메뉴"
+		},
+		"OpsRestartLabel": {
+			"id": 722,
+			"code": "OpsRestartLabel",
+			"text": "주　메뉴로　나가기"
+		},
+		"OpsSoundsVolume": {
+			"id": 720,
+			"code": "OpsSoundsVolume",
+			"text": "효과음　볼륨"
+		},
+		"OpsTeaserButton": {
+			"id": 725,
+			"code": "OpsTeaserButton",
+			"text": "이동"
+		},
+		"OpsTeaserLabel": {
+			"id": 724,
+			"code": "OpsTeaserLabel",
+			"text": "게임　웹사이트"
+		},
+		"OpsTutorialToggle": {
+			"id": 912,
+			"code": "OpsTutorialToggle",
+			"text": "힌트　켜기"
+		},
+		"PauseButtonExit": {
+			"id": 911,
+			"code": "PauseButtonExit",
+			"text": "전투　떠나기"
+		},
+		"PauseButtonRestart": {
+			"id": 910,
+			"code": "PauseButtonRestart",
+			"text": "다시　시작"
+		},
+		"PauseButtonResume": {
+			"id": 909,
+			"code": "PauseButtonResume",
+			"text": "전투로　복귀"
+		},
+		"PersClassAssassin": {
+			"id": 118,
+			"code": "PersClassAssassin",
+			"text": "어쌔씬"
+		},
+		"PersClassDefender": {
+			"id": 120,
+			"code": "PersClassDefender",
+			"text": "디펜더"
+		},
+		"PersClassDestroyer": {
+			"id": 119,
+			"code": "PersClassDestroyer",
+			"text": "디스트로이어"
+		},
+		"PlayerAnger": {
+			"id": 245,
+			"code": "PlayerAnger",
+			"text": "분노 {0}%"
+		},
+		"PlayerExperience": {
+			"id": 244,
+			"code": "PlayerExperience",
+			"text": "경험치　｛０｝％"
+		},
+		"PlayerHealth": {
+			"id": 250,
+			"code": "PlayerHealth",
+			"text": "생명력"
+		},
+		"PlayerMagic": {
+			"id": 251,
+			"code": "PlayerMagic",
+			"text": "마법"
+		},
+		"PlayerRage": {
+			"id": 249,
+			"code": "PlayerRage",
+			"text": "용기"
+		},
+		"PlayerStrength": {
+			"id": 252,
+			"code": "PlayerStrength",
+			"text": "힘"
+		},
+		"PostScreenshotToFacebook": {
+			"id": 1167,
+			"code": "PostScreenshotToFacebook",
+			"text": "곧　Ｆａｃｅｂｏｏｋ에　스크린샷이　게시됩니다．"
+		},
+		"RatingSocialMessageFacebook": {
+			"id": 1133,
+			"code": "RatingSocialMessageFacebook",
+			"text": "나는　＜저거노트：　소버링의　복수＞에서　｛０｝점을 획득했다．　악마의　수하들도　모두　공포에　떨고　있다！ 네　점수는　몇　점이지？"
+		},
+		"RatingSocialMessageFacebook341Error": {
+			"id": 1135,
+			"code": "RatingSocialMessageFacebook341Error",
+			"text": "Ｆａｃｅｂｏｏｋ　게시물　제한　수를　초과했습니다．　나중에　다시　시도하세요．"
+		},
+		"RatingSocialMessageFacebookNotPosted": {
+			"id": 1134,
+			"code": "RatingSocialMessageFacebookNotPosted",
+			"text": "메시지를　보내지　못했습니다．"
+		},
+		"RatingSocialMessageTwitter": {
+			"id": 1132,
+			"code": "RatingSocialMessageTwitter",
+			"text": "나는　＜저거노트：　소버링의　복수＞에서　｛０｝점을 획득했다． 네　점수는　몇　점이지？"
+		},
+		"ScarabDig": {
+			"id": 833,
+			"code": "ScarabDig",
+			"text": "파기"
+		},
+		"ScarabFind": {
+			"id": 832,
+			"code": "ScarabFind",
+			"text": "보물　찾기"
+		},
+		"ScarabInsufficient": {
+			"id": 845,
+			"code": "ScarabInsufficient",
+			"text": "풍뎅이가 없어 보물을 찾을 수 없습니다. 풍뎅이는 상점의 '기타' 섹션에서 구매할 수 있습니다."
+		},
+		"Shop": {
+			"id": 260,
+			"code": "Shop",
+			"text": "상점"
+		},
+		"ShopAlreadyPurchased": {
+			"id": 792,
+			"code": "ShopAlreadyPurchased",
+			"text": "구매함"
+		},
+		"ShopAlreadyPuton": {
+			"id": 830,
+			"code": "ShopAlreadyPuton",
+			"text": "장비됨"
+		},
+		"ShopBuy": {
+			"id": 261,
+			"code": "ShopBuy",
+			"text": "구매"
+		},
+		"ShopDivision01": {
+			"id": 765,
+			"code": "ShopDivision01",
+			"text": "추천"
+		},
+		"ShopDivision02": {
+			"id": 766,
+			"code": "ShopDivision02",
+			"text": "갑옷"
+		},
+		"ShopDivision03": {
+			"id": 767,
+			"code": "ShopDivision03",
+			"text": "기타"
+		},
+		"ShopDivision04": {
+			"id": 768,
+			"code": "ShopDivision04",
+			"text": "프리미엄"
+		},
+		"ShopDivision05": {
+			"id": 790,
+			"code": "ShopDivision05",
+			"text": "유물"
+		},
+		"ShopItemsCount": {
+			"id": 355,
+			"code": "ShopItemsCount",
+			"text": "수량"
+		},
+		"ShopItemsUnlocked": {
+			"id": 741,
+			"code": "ShopItemsUnlocked",
+			"text": "상점에　새로운　아이템이　등장했습니다："
+		},
+		"ShopLevelTooLow": {
+			"id": 791,
+			"code": "ShopLevelTooLow",
+			"text": "레벨　｛０｝ "
+		},
+		"ShopResetButton": {
+			"id": 262,
+			"code": "ShopResetButton",
+			"text": "초기화"
+		},
+		"ShopResetTime": {
+			"id": 263,
+			"code": "ShopResetTime",
+			"text": "다음　범위　업데이트："
+		},
+		"ShowTutorial": {
+			"id": 826,
+			"code": "ShowTutorial",
+			"text": "힌트를　켜시겠습니까？"
+		},
+		"SkillComboDesc": {
+			"id": 971,
+			"code": "SkillComboDesc",
+			"text": "콤보　공격　능력이　생기면　적에게　강력한　공격을　가할　수　있게　됩니다． 콤보　공격은　피하거나　막을　수　없습니다．"
+		},
+		"SkillComboName": {
+			"id": 970,
+			"code": "SkillComboName",
+			"text": "콤보"
+		},
+		"SkillHeader": {
+			"id": 967,
+			"code": "SkillHeader",
+			"text": "새로운　능력을　획득："
+		},
+		"SkillMagicDesc": {
+			"id": 973,
+			"code": "SkillMagicDesc",
+			"text": "전투에서　마나를　모으고　마법　기술을　사용할　수　있습니다． 플레이어는　이미　한　개의　전투　주문을　배운　상태입니다． 다른　주문은　마법　책을　통해　배울　수　있습니다．"
+		},
+		"SkillMagicName": {
+			"id": 972,
+			"code": "SkillMagicName",
+			"text": "마법"
+		},
+		"SkillRageDesc": {
+			"id": 975,
+			"code": "SkillRageDesc",
+			"text": "이　능력은　분노를　특별한　콤보　기술로　바꿀　수　있게　해줍니다． 분노를　사용하여　적의　공격을　막아내고，　적에게서　마나를　뽑아내고，　버서커가　될　수도　있습니다．"
+		},
+		"SkillRageName": {
+			"id": 974,
+			"code": "SkillRageName",
+			"text": "분노"
+		},
+		"SocialAchivMessage": {
+			"id": 952,
+			"code": "SocialAchivMessage",
+			"text": "나는　＇｛０｝＇　시험을　통과했다．"
+		},
+		"SocialAchivMessageFacebook": {
+			"id": 1131,
+			"code": "SocialAchivMessageFacebook",
+			"text": "나는　＇｛０｝＇　임무를　완수하고　악마의　소굴에　한　걸음　더　가까워졌다！ 나보다　먼저　소버링을　죽일　자가　있나？"
+		},
+		"SocialAchivMessageFacebook1": {
+			"id": 968,
+			"code": "SocialAchivMessageFacebook1",
+			"text": "＜저거노트： 소버링의　복수＞"
+		},
+		"SocialAchivMessageFacebook2": {
+			"id": 969,
+			"code": "SocialAchivMessageFacebook2"
+		},
+		"SocialAchivMessageTwitter": {
+			"id": 1130,
+			"code": "SocialAchivMessageTwitter",
+			"text": "나는　＇｛０｝＇　시험을　통과했다．"
+		},
+		"SovHeader": {
+			"id": 730,
+			"code": "SovHeader",
+			"text": "슬픔의　소버링　악마"
+		},
+		"SovText": {
+			"id": 731,
+			"code": "SovText",
+			"text": "과거에　하라단을　공포로　몰아넣은　잔인한　악마로，￦ｒ￦ｎ수많은　목숨이　희생된　끝에　물리칠　수　있었습니다． 그리고　오늘날，￦ｒ￦ｎ누군가의　음모로　소버링은　다시　깨어나　힘을　모으고　있습니다．￦ｒ￦ｎ당신의　임무는　이　악마가　래드웨이와￦ｒ￦ｎ도르하임을　악몽으로　몰아넣기　전에　잠재우는　것입니다．"
+		},
+		"StarUpgradeHelp": {
+			"id": 1195,
+			"code": "StarUpgradeHelp",
+			"text": "전설로　업그레이드하고　싶은　에픽　아이템을　선택하십시오．"
+		},
+		"Tut1_1": {
+			"id": 812,
+			"code": "Tut1_1",
+			"text": "몬스터를　공격하려면　몬스터　아래에　있는　녹색　부분을　탭하여　방향을　선택하십시오．＾＾￦ｒ￦ｎ붉은　부분은　몬스터의　시선을　의미합니다． 시선　방향에서　오는　공격은　적이　막거나　피할　수　있습니다．"
+		},
+		"Tut1_2": {
+			"id": 824,
+			"code": "Tut1_2",
+			"text": "몬스터를　공격하려면　녹색　부분을　탭하십시오．"
+		},
+		"Tut2_1": {
+			"id": 814,
+			"code": "Tut2_1",
+			"text": "콤보　공격　버튼은　오른쪽에　있습니다． 해당　방향으로　계속　공격을　하면　슈퍼　공격을　할　수　있습니다．"
+		},
+		"Tut2_2": {
+			"id": 825,
+			"code": "Tut2_2",
+			"text": "적이　플레이어의　공격　방향을　보지　않을　때까지　기다렸다가　콤보　버튼을　탭하기"
+		},
+		"Tut4_1": {
+			"id": 815,
+			"code": "Tut4_1",
+			"text": "전투　도중　적에게서　나오는　푸른　마나　덩어리를　칠　수　있게　되기도　합니다． 이　덩어리를　모아　마법　주문을　시전할　수　있습니다．"
+		},
+		"Tut4_1_1": {
+			"id": 827,
+			"code": "Tut4_1_1",
+			"text": "푸른　덩어리를　탭하여　마나　모으기"
+		},
+		"Tut4_2": {
+			"id": 816,
+			"code": "Tut4_2",
+			"text": "화면　왼쪽이　주문　패널이　있습니다． 푸른　마나를　충분히　모으면　주문을　사용할　수　있습니다．"
+		},
+		"Tut4_2_2": {
+			"id": 828,
+			"code": "Tut4_2_2",
+			"text": "마법　버튼을　탭하기"
+		},
+		"Tut6_1": {
+			"id": 817,
+			"code": "Tut6_1",
+			"text": "적이　공격하는　동안　플레이어　옆에　붉은　분노　덩어리가　발생하기도　합니다． 이를　모아　특정　능력을　사용할　수　있습니다．"
+		},
+		"Tut6_1_2": {
+			"id": 829,
+			"code": "Tut6_1_2",
+			"text": "붉은　덩어리를　탭하여　분노　모으기"
+		},
+		"TutAchievmentButton": {
+			"id": 1033,
+			"code": "TutAchievmentButton",
+			"text": "게임　도전과제　１개를　달성했습니다． 여기를　탭하여　현재　도전과제　내역을　확인하고　다른　플레이어와　비교할　수　있습니다．"
+		},
+		"TutBagExp": {
+			"id": 927,
+			"code": "TutBagExp",
+			"text": "＇경험치＇　보너스를　부여하는　보물을　받았습니다． 이　보너스는　전투에서　받는　보너스　경험치와　연결되어　있습니다．"
+		},
+		"TutBagMagic": {
+			"id": 929,
+			"code": "TutBagMagic",
+			"text": "특정　유형의　마법　보너스를　부여하는　보물을　받았습니다． 이 보너스는 공격 주문을 사용할 때의 대미지 상승률과 관계 있습니다."
+		},
+		"TutBagMana": {
+			"id": 926,
+			"code": "TutBagMana",
+			"text": "＇마나＇　보너스를　부여하는　보물을　받았습니다． 이　보너스는　전투에서　받는　보너스　마나　덩어리의　개수와　연결되어　있습니다． 보너스가　２이면　전투에서　마나　덩어리　２개를　받을　가능성이　높다는　뜻입니다．"
+		},
+		"TutBagMoney": {
+			"id": 928,
+			"code": "TutBagMoney",
+			"text": "＇돈＇　보너스를　부여하는　보물을　받았습니다． 이　보너스는　전투에서　받는　보너스　돈과　연결되어　있습니다．"
+		},
+		"TutBagRage": {
+			"id": 925,
+			"code": "TutBagRage",
+			"text": "＇분노＇　보너스를　부여하는　보물을　받았습니다． 이　보너스는　전투에서　받는　보너스　분노　덩어리의　개수와　연결되어　있습니다． 보너스가　１이면　전투에서　분노　덩어리　１개를　받을　가능성이　높다는　뜻입니다．"
+		},
+		"TutBattleTurn": {
+			"id": 915,
+			"code": "TutBattleTurn",
+			"text": "게임　내　전투는　턴제입니다． 선제　공격을　하면　적이　반격합니다． 각　움직임에는　여러　초가　소요됩니다． 화면　상단의　붉은　막대는　남은　움직임을　의미합니다．"
+		},
+		"TutEndChests": {
+			"id": 916,
+			"code": "TutEndChests",
+			"text": "여기　숨겨진　보물은　모두　파냈습니다． 다른　해방　구역에서　새로운　보물을　찾을　수　있습니다．"
+		},
+		"TutEpicItemPuton": {
+			"id": 1201,
+			"code": "TutEpicItemPuton",
+			"text": "전설급으로　업그레이드할　수　있는　에픽　아이템을　받았습니다． 업그레이드를　하려면　전설　상태　포인트를　사용해야　합니다．"
+		},
+		"TutEye": {
+			"id": 818,
+			"code": "TutEye",
+			"text": "분노를　충분히　모으면　혼돈의　눈이　나타나　분노를　먹게　됩니다． 분노가　많으면　혼돈의　눈이　더　자주　나타납니다． 혼돈의　눈이　분노를　다　먹어치우기　전에　해치워야　합니다．"
+		},
+		"TutEye_2": {
+			"id": 823,
+			"code": "TutEye_2",
+			"text": "혼돈의　눈을　파괴하려면　눈이　폭발할　때까지　탭하십시오．"
+		},
+		"TutFallingStarPhrase1": {
+			"id": 1244,
+			"code": "TutFallingStarPhrase1",
+			"text": "전투　도중에　떨어지는　별이　보이기도　합니다． 별을　잡으면　전투가　끝난　뒤　보너스　전설　상태　포인트를　받을　수　있습니다．"
+		},
+		"TutFallingStarPhrase2": {
+			"id": 1245,
+			"code": "TutFallingStarPhrase2",
+			"text": "별을　탭하고　전투가　종료된　뒤　보너스를　받으십시오．"
+		},
+		"TutFirstMagicBook": {
+			"id": 948,
+			"code": "TutFirstMagicBook",
+			"text": "이　마법　책에서　새로운　주문을　배우고　이미　배운　주문을　강화할　수　있습니다． 그러려면　마법　해골과　특정　수준　이상의　마법　기술이　필요합니다． 마법　기술은　전투에서　마법을　사용하여　높일　수　있습니다．"
+		},
+		"TutFirstMobAttack": {
+			"id": 947,
+			"code": "TutFirstMobAttack",
+			"text": "이　지역은　흉폭한　몬스터에게　공격당했습니다． 어서　몬스터를　해치우십시오． 아니면　지역　주민들이　죽게　됩니다．"
+		},
+		"TutFirstMoneyPile": {
+			"id": 922,
+			"code": "TutFirstMoneyPile",
+			"text": "해방　구역에서　주민들이　공물로　바칠　골드를　모으고　있습니다． 인구가　많을수록　공물도　많아집니다． 인구는　시간이　흐르면　자연스레　증가합니다． 해방　구역에　주기적으로　들르면　지금까지　모아둔　골드를　받을　수　있습니다．"
+		},
+		"TutGotLevel": {
+			"id": 934,
+			"code": "TutGotLevel",
+			"text": "레벨이　올라　３개의　새로운　아이템을　사용할　수　있게　되었습니다． 상점으로　가　벨트，　브레이서，　흉갑을　구매하고　캐릭터를　더욱　강하게　만드십시오． 앞으로　있을　보스전에서　매우　유용할　것입니다．"
+		},
+		"TutImmBattle": {
+			"id": 907,
+			"code": "TutImmBattle",
+			"text": "적이　면역인　마법을　사용했습니다． 다른　마법을　사용하십시오． 전투　전，　몬스터의　이름　옆에　마법　면역　내용이　표시됩니다．"
+		},
+		"TutImmZ": {
+			"id": 908,
+			"code": "TutImmZ",
+			"text": "특정　유형의　마법에　면역인　적과　만났습니다． 면역에　대한　내용은　몬스터　이름의　오른쪽　옆에　표시되어　있습니다． 따라서　전투　시　다른　종류의　마법을　사용하십시오． 여러　종류의　마법을　배우지　않았다면　마법　책을　사용하여　주문을　배우십시오．"
+		},
+		"TutLocationScarab": {
+			"id": 924,
+			"code": "TutLocationScarab",
+			"text": "몬스터로부터　구역을　해방시키면，　숨겨진　보물　상자를　찾을　수　있게　됩니다． 보물　상자에서는　마법　아뮬렛，　반지，　귀걸이　등　매우　유용한　물건을　찾을　수　있습니다． 탭하여　보물을　찾으십시오．"
+		},
+		"TutMagicBookButton": {
+			"id": 990,
+			"code": "TutMagicBookButton",
+			"text": "＇마법＇　스킬을　받으면　마법　책을　사용할　수　있게　됩니다．"
+		},
+		"TutPlayerDefeat": {
+			"id": 923,
+			"code": "TutPlayerDefeat",
+			"text": "전투에서　져도　다시　도전할　수　있습니다． 적을　이길　수　없으면，　전투를　끝내고　상점에　들르십시오． 이곳에서　갑옷과　소모품을　구매하여　캐릭터를　강화할　수　있습니다．"
+		},
+		"TutResurrection": {
+			"id": 834,
+			"code": "TutResurrection",
+			"text": "콤보를　사용하면　적의　영혼을　사로잡아　앙크라는　특별한　아이템에　담을　수　있습니다． 전투에서　승리하면　앙크가　자동으로　적을　부활시키며，　이때　￦ｒ￦ｎ피의　처형을　할　수　있습니다．￦ｒ￦ｎ"
+		},
+		"TutSearchTreasure": {
+			"id": 837,
+			"code": "TutSearchTreasure",
+			"text": "풍뎅이를　사용하여　보물을　찾을　수　있습니다． 보물을　찾으려면　풍뎅이를　특정　위치에　놓고　어떻게　빛나는지　살펴보면　됩니다． 보물에　가까울수록　더　강한　빛을　발합니다． 보물　위에　도착하면　날개를　펄럭입니다． 해당　위치를　파야　합니다．"
+		},
+		"TutShop": {
+			"id": 914,
+			"code": "TutShop",
+			"text": "상점에서　모아둔　골드를　사용할　수　있습니다． 주요　섹션인　＇추천＇에서　현재　레벨에　맞고　착용　중인　갑옷보다　좋은　갑옷을　확인할　수　있습니다． 또한　상점에서　소모품을　구매하여　어려운　전투에서도　이길　수　있습니다．"
+		},
+		"TutShopFilter2": {
+			"id": 930,
+			"code": "TutShopFilter2",
+			"text": "이　섹션에서　게임에서　사용할　수　있는　모든　방어구를　열람할　수　있습니다．"
+		},
+		"TutShopFilter3": {
+			"id": 931,
+			"code": "TutShopFilter3"
+		},
+		"TutShopFilter4": {
+			"id": 932,
+			"code": "TutShopFilter4",
+			"text": "＇프리미엄＇　섹션에서는　할인가에　판매하는　세트와　특별　보물을　확인할　수　있습니다．"
+		},
+		"TutShopFilter5": {
+			"id": 933,
+			"code": "TutShopFilter5",
+			"text": "＇유물＇　섹션에서는　구매할　수는　없고　특정한　임무를　하거나　하여　획득할　수　있는　아이템을　열람할　수　있습니다．"
+		},
+		"TutSliceAttack1": {
+			"id": 995,
+			"code": "TutSliceAttack1",
+			"text": "적을 공격할 때에는 특정 부위를 탭하는 것뿐 아니라 슬라이스해서도 공격할 수 있습니다."
+		},
+		"TutSliceAttack2": {
+			"id": 996,
+			"code": "TutSliceAttack2",
+			"text": "손가락을 왼쪽에서 오른쪽으로 슬라이드하여 적의 왼쪽을 공격하십시오."
+		},
+		"TutSliceAttack3": {
+			"id": 997,
+			"code": "TutSliceAttack3",
+			"text": "현재 위치를 강화하려면, 적의 오른쪽을 치십시오."
+		},
+		"TutStrongMagic": {
+			"id": 819,
+			"code": "TutStrongMagic",
+			"text": "적의　마법 공격을 피하려면 스텝 순서를 외워 그대로 따라해야 합니다."
+		},
+		"WeakMagicMessage": {
+			"id": 585,
+			"code": "WeakMagicMessage",
+			"text": "괴물의 검은 마나를 모두 모아 마법 공격을 피하십시오."
+		},
+		"supportXCodeAlertClose": {
+			"id": 985,
+			"code": "supportXCodeAlertClose",
+			"text": "닫기"
+		},
+		"supportXCodeClose": {
+			"id": 980,
+			"code": "supportXCodeClose",
+			"text": "닫기"
+		},
+		"supportXCodeEMail": {
+			"id": 977,
+			"code": "supportXCodeEMail",
+			"text": "이메일"
+		},
+		"supportXCodeEnterDesc": {
+			"id": 984,
+			"code": "supportXCodeEnterDesc",
+			"text": "겪고　있는　문제에　대해　설명해주세요．"
+		},
+		"supportXCodeEnterEmail": {
+			"id": 982,
+			"code": "supportXCodeEnterEmail",
+			"text": "이메일　주소를　적어주세요．"
+		},
+		"supportXCodeEnterSubject": {
+			"id": 983,
+			"code": "supportXCodeEnterSubject",
+			"text": "제목을　적어주세요．"
+		},
+		"supportXCodeError": {
+			"id": 981,
+			"code": "supportXCodeError",
+			"text": "오류"
+		},
+		"supportXCodeInvEmail": {
+			"id": 986,
+			"code": "supportXCodeInvEmail",
+			"text": "이메일　주소가　잘못되었습니다．　확인한　뒤　다시　시도하십시오．"
+		},
+		"supportXCodePosted": {
+			"id": 987,
+			"code": "supportXCodePosted",
+			"text": "메시지를　보냈습니다．"
+		},
+		"supportXCodeSend": {
+			"id": 979,
+			"code": "supportXCodeSend",
+			"text": "보내기"
+		},
+		"supportXCodeText": {
+			"id": 976,
+			"code": "supportXCodeText",
+			"text": "해결할　수　없는　문제가　발생했거나　실수를　했다면，　고객　지원　서비스에　문의하십시오．"
+		},
+		"supportXCodeTheme": {
+			"id": 978,
+			"code": "supportXCodeTheme",
+			"text": "제목"
+		}
+	}
+}

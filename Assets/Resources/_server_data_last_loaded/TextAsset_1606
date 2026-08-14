@@ -1,0 +1,18 @@
+{
+	"news": {
+		"9": {
+			"id": 9,
+			"title": "News 1",
+			"typeId": "8",
+			"description": "Game news #1",
+			"ord": 1
+		},
+		"10": {
+			"id": 10,
+			"title": "News #2",
+			"typeId": "8",
+			"description": "Game news #2",
+			"ord": 2
+		}
+	}
+}

@@ -1,0 +1,34 @@
+{
+	"moneyTypes": {
+		"1": {
+			"id": 3,
+			"title": "Oro",
+			"code": 1
+		},
+		"2": {
+			"id": 4,
+			"title": "Cristal",
+			"code": 2
+		},
+		"3": {
+			"id": 37,
+			"title": "Ganzúas",
+			"code": 3
+		},
+		"4": {
+			"id": 38,
+			"title": "Calaveras",
+			"code": 4
+		},
+		"5": {
+			"id": 821,
+			"title": "Bugs",
+			"code": 5
+		},
+		"6": {
+			"id": 1161,
+			"title": "Estrellas",
+			"code": 6
+		}
+	}
+}

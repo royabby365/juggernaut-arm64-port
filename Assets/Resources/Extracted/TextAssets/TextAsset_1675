@@ -1,0 +1,1165 @@
+{
+	"achievements": {
+		"847": {
+			"id": 847,
+			"order": 0,
+			"title": "끈적한　늪에　잠겨",
+			"info": "＇황량한　늪＇　챕터를　완료",
+			"image": "",
+			"condition": {
+				"location": 236,
+				"choice": "test1"
+			},
+			"points": 2
+		},
+		"850": {
+			"id": 850,
+			"order": 0,
+			"title": "원시인",
+			"info": "＇동굴을　지나는　위험한　길＇　챕터를　완료",
+			"image": "",
+			"condition": {
+				"location": 276,
+				"choice": "test1"
+			},
+			"points": 4
+		},
+		"851": {
+			"id": 851,
+			"order": 0,
+			"title": "포위된　도시",
+			"info": "＇브래넨달의　벽　아래서＇　챕터를　완료",
+			"image": "",
+			"condition": {
+				"location": 277,
+				"choice": "test1"
+			},
+			"points": 7
+		},
+		"852": {
+			"id": 852,
+			"order": 0,
+			"title": "５０대５０",
+			"info": "＇목표지까지　이제　절반＇　챕터를　완료",
+			"image": "",
+			"condition": {
+				"location": 278,
+				"choice": "test1"
+			},
+			"points": 9
+		},
+		"853": {
+			"id": 853,
+			"order": 0,
+			"title": "모래폭풍",
+			"info": "＇모래에　잠겨＇　챕터를　완료",
+			"image": "",
+			"condition": {
+				"location": 280,
+				"choice": "test1"
+			},
+			"points": 12
+		},
+		"854": {
+			"id": 854,
+			"order": 0,
+			"title": "야만　부족",
+			"info": "＇즈베르그의　마을＇　챕터를　완료",
+			"image": "",
+			"condition": {
+				"location": 282,
+				"choice": "test1"
+			},
+			"points": 14
+		},
+		"855": {
+			"id": 855,
+			"order": 0,
+			"title": "열대의　천국",
+			"info": "＇정글　돌파＇　챕터를　완료",
+			"image": "",
+			"condition": {
+				"location": 284,
+				"choice": "test1"
+			},
+			"points": 15
+		},
+		"856": {
+			"id": 856,
+			"order": 0,
+			"title": "죽지도　못하고　살지도　못하고",
+			"info": "＇이제　거의　목적지＇　챕터를　완료",
+			"image": "",
+			"condition": {
+				"location": 285,
+				"choice": "test1"
+			},
+			"points": 18
+		},
+		"857": {
+			"id": 857,
+			"order": 0,
+			"title": "저거노트",
+			"info": "＇소버링의　복수＇　챕터를　완료",
+			"image": "",
+			"condition": {
+				"location": 286,
+				"choice": "test1"
+			},
+			"points": 20
+		},
+		"858": {
+			"id": 858,
+			"order": 0,
+			"title": "현상수배",
+			"info": "추가　챕터 ＇오래된　광산＇에　대한　접근　권한　획득",
+			"image": "",
+			"condition": {
+				"location": 275,
+				"choice": "test2"
+			},
+			"points": 2,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"859": {
+			"id": 859,
+			"order": 0,
+			"title": "현상금 사냥꾼",
+			"info": "추가　챕터 ＇오래된　광산＇을　완료",
+			"image": "",
+			"condition": {
+				"location": 275,
+				"choice": "test1"
+			},
+			"points": 4,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"860": {
+			"id": 860,
+			"order": 0,
+			"title": "양서류",
+			"info": "＇실비온의　비극＇　추가　챕터를　완료",
+			"image": "",
+			"condition": {
+				"location": 287,
+				"choice": "test2"
+			},
+			"points": 8
+		},
+		"861": {
+			"id": 861,
+			"order": 0,
+			"title": "용　사냥꾼",
+			"info": "＇실비온의　비극＇　추가　챕터를　완료",
+			"image": "",
+			"condition": {
+				"location": 287,
+				"choice": "test1"
+			},
+			"points": 18
+		},
+		"862": {
+			"id": 862,
+			"order": 0,
+			"title": "도살장",
+			"info": "추가　챕터 ＇악마　떡갈나무의　그림자　속에서＇에　대한　접근　권한　획득",
+			"image": "",
+			"condition": {
+				"location": 279,
+				"choice": "test2"
+			},
+			"points": 8
+		},
+		"863": {
+			"id": 863,
+			"order": 0,
+			"title": "도살자",
+			"info": "'악마　떡갈나무의　그림자　속에서'　추가　챕터를　완료",
+			"image": "",
+			"condition": {
+				"location": 279,
+				"choice": "test1"
+			},
+			"points": 10
+		},
+		"864": {
+			"id": 864,
+			"order": 0,
+			"title": "신기루？",
+			"info": "추가　챕터 ＇생명의　샘＇에　대한　접근　권한　획득",
+			"image": "",
+			"condition": {
+				"location": 281,
+				"choice": "test2"
+			},
+			"points": 10
+		},
+		"865": {
+			"id": 865,
+			"order": 0,
+			"title": "모래　악마",
+			"info": "＇생명의　샘＇　추가　챕터를　완료",
+			"image": "",
+			"condition": {
+				"location": 281,
+				"choice": "test1"
+			},
+			"points": 14
+		},
+		"866": {
+			"id": 866,
+			"order": 0,
+			"title": "고대 유적",
+			"info": "추가　챕터 ＇비밀　사원＇에　대한　접근　권한　획득",
+			"image": "",
+			"condition": {
+				"location": 283,
+				"choice": "test2"
+			},
+			"points": 15
+		},
+		"867": {
+			"id": 867,
+			"order": 0,
+			"title": "여족장",
+			"info": "＇비밀　사원＇　추가　챕터를　완료",
+			"image": "",
+			"condition": {
+				"location": 283,
+				"choice": "test1"
+			},
+			"points": 18
+		},
+		"868": {
+			"id": 868,
+			"order": 0,
+			"title": "학생",
+			"info": "레벨　５　달성하기",
+			"image": "",
+			"condition": {
+				"level": 5,
+				"choice": "test3"
+			},
+			"points": 3
+		},
+		"869": {
+			"id": 869,
+			"order": 0,
+			"title": "마스터",
+			"info": "레벨　１０　달성하기",
+			"image": "",
+			"condition": {
+				"level": 10,
+				"choice": "test3"
+			},
+			"points": 5
+		},
+		"870": {
+			"id": 870,
+			"order": 0,
+			"title": "그랜드　마스터",
+			"info": "레벨　１５　달성하기",
+			"image": "",
+			"condition": {
+				"level": 15,
+				"choice": "test3"
+			},
+			"points": 9
+		},
+		"871": {
+			"id": 871,
+			"order": 0,
+			"title": "위대한　전사",
+			"info": "레벨　２０　달성하기",
+			"image": "",
+			"condition": {
+				"level": 20,
+				"choice": "test3"
+			},
+			"points": 15
+		},
+		"872": {
+			"id": 872,
+			"order": 0,
+			"title": "적수가　없는　전사",
+			"info": "레벨　２５　달성하기",
+			"image": "",
+			"condition": {
+				"level": 25,
+				"choice": "test3"
+			},
+			"points": 18
+		},
+		"873": {
+			"id": 873,
+			"order": 0,
+			"title": "전설의　전사",
+			"info": "레벨　３０　달성하기",
+			"image": "",
+			"condition": {
+				"level": 30,
+				"choice": "test3"
+			},
+			"points": 20
+		},
+		"874": {
+			"id": 874,
+			"order": 0,
+			"title": "시종",
+			"info": "새로운　종류의　마법　배우기",
+			"image": "",
+			"condition": {
+				"number": 2,
+				"choice": "test4"
+			},
+			"points": 15
+		},
+		"875": {
+			"id": 875,
+			"order": 0,
+			"title": "원소의　제왕",
+			"info": "모든　종류의　마법에서　하나의　주문을　습득",
+			"image": "",
+			"condition": {
+				"choice": "test5"
+			},
+			"points": 17
+		},
+		"876": {
+			"id": 876,
+			"order": 0,
+			"title": "마법사",
+			"info": "아무　주문이나　최대　레벨까지　습득",
+			"image": "",
+			"condition": {
+				"choice": "test6"
+			},
+			"points": 15
+		},
+		"877": {
+			"id": 877,
+			"order": 0,
+			"title": "처형인",
+			"info": "처형을　실시",
+			"image": "",
+			"condition": {
+				"number": 1,
+				"choice": "test24"
+			},
+			"points": 3
+		},
+		"878": {
+			"id": 878,
+			"order": 0,
+			"title": "연쇄살인마",
+			"info": "처형　１０번　실시",
+			"image": "",
+			"condition": {
+				"number": 10,
+				"choice": "test24"
+			},
+			"points": 10
+		},
+		"879": {
+			"id": 879,
+			"order": 0,
+			"title": "마법 발산",
+			"info": "마나　덩어리　３００개　모으기",
+			"image": "",
+			"condition": {
+				"number": 300,
+				"choice": "test7"
+			},
+			"points": 4
+		},
+		"880": {
+			"id": 880,
+			"order": 0,
+			"title": "버서커",
+			"info": "분노　덩어리　１００개　모으기",
+			"image": "",
+			"condition": {
+				"number": 100,
+				"choice": "test8"
+			},
+			"points": 5
+		},
+		"881": {
+			"id": 881,
+			"order": 0,
+			"title": "보지　마！",
+			"info": "혼돈의　눈　５０번　쫓아내기",
+			"image": "",
+			"condition": {
+				"count": 50,
+				"choice": "test9"
+			},
+			"points": 7
+		},
+		"882": {
+			"id": 882,
+			"order": 0,
+			"title": "열쇠공",
+			"info": "중급　자물쇠　６번　열기",
+			"image": "",
+			"condition": {
+				"type": "normal",
+				"number": 6,
+				"choice": "test10"
+			},
+			"points": 14
+		},
+		"883": {
+			"id": 883,
+			"order": 0,
+			"title": "열쇠　전문가",
+			"info": "고급　자물쇠　６번　열기",
+			"image": "",
+			"condition": {
+				"type": "hard",
+				"number": 6,
+				"choice": "test10"
+			},
+			"points": 17
+		},
+		"884": {
+			"id": 884,
+			"order": 0,
+			"title": "다　필요　없어",
+			"info": "도둑　열쇠　없이　저급　자물쇠를　부숴서　열기",
+			"image": "",
+			"condition": {
+				"type": "easy",
+				"count": 1,
+				"choice": "test11"
+			},
+			"points": 5
+		},
+		"885": {
+			"id": 885,
+			"order": 0,
+			"title": "식은　죽　먹기",
+			"info": "도둑　열쇠　없이　중급　자물쇠를　부숴서　열기 ",
+			"image": "",
+			"condition": {
+				"type": "normal",
+				"count": 1,
+				"choice": "test11"
+			},
+			"points": 13
+		},
+		"886": {
+			"id": 886,
+			"order": 0,
+			"title": "추적자",
+			"info": "＇스텝　순서　그대로　따라하기＇로　마법　공격　１０번　회피하기",
+			"image": "",
+			"condition": {
+				"type": "strong",
+				"count": 10,
+				"choice": "test12"
+			},
+			"points": 4
+		},
+		"887": {
+			"id": 887,
+			"order": 0,
+			"title": "흑마법",
+			"info": "＇검은　마나　모으기＇로　마법　공격　１０번　회피하기",
+			"image": "",
+			"condition": {
+				"type": "weak",
+				"count": 10,
+				"choice": "test12"
+			},
+			"points": 4
+		},
+		"888": {
+			"id": 888,
+			"order": 0,
+			"title": "불과　얼음",
+			"info": "적과의　전투　한　번에서　두　종류의　마법　공격을　수행",
+			"image": "",
+			"condition": {
+				"count": 1,
+				"choice": "test13"
+			},
+			"points": 11
+		},
+		"889": {
+			"id": 889,
+			"order": 0,
+			"title": "공격의　달인",
+			"info": "＇크리티컬　공격＇　능력을　１０번　사용하기",
+			"image": "",
+			"condition": {
+				"type": "crit",
+				"count": 10,
+				"choice": "test14"
+			},
+			"points": 9
+		},
+		"890": {
+			"id": 890,
+			"order": 0,
+			"title": "방어의　달인",
+			"info": "＇방어＇　능력을　２０번　사용하기",
+			"image": "",
+			"condition": {
+				"type": "block",
+				"count": 20,
+				"choice": "test14"
+			},
+			"points": 3
+		},
+		"891": {
+			"id": 891,
+			"order": 0,
+			"title": "영웅",
+			"info": "＇지원＇　능력을　５번　사용하기",
+			"image": "",
+			"condition": {
+				"type": "strong",
+				"count": 5,
+				"choice": "test14"
+			},
+			"points": 15
+		},
+		"892": {
+			"id": 892,
+			"order": 0,
+			"title": "죽음의 포션",
+			"info": "전투에서　적을　５번　중독시키기",
+			"image": "",
+			"condition": {
+				"count": 5,
+				"choice": "test15"
+			},
+			"points": 12
+		},
+		"893": {
+			"id": 893,
+			"order": 0,
+			"title": "최후의　발악",
+			"info": "전투　시　생명력이　５％　이하인　상태에서　승리",
+			"image": "",
+			"condition": {
+				"percent": 5,
+				"choice": "test17"
+			},
+			"points": 9
+		},
+		"894": {
+			"id": 894,
+			"order": 0,
+			"title": "완전무결",
+			"info": "전투　시　생명력이　９５％　이상인　상태에서　승리",
+			"image": "",
+			"condition": {
+				"percent": 95,
+				"choice": "test16"
+			},
+			"points": 12
+		},
+		"895": {
+			"id": 895,
+			"order": 0,
+			"title": "돈가방",
+			"info": "５０００골드　이상　벌기",
+			"image": "",
+			"condition": {
+				"amount": 5000,
+				"choice": "test18"
+			},
+			"points": 10
+		},
+		"896": {
+			"id": 896,
+			"order": 0,
+			"title": "약자의　수호자",
+			"info": "점령　지역을　공격하는　들판의　몬스터를　５마리　이상　해치우기",
+			"image": "",
+			"condition": {
+				"number": 5,
+				"choice": "test19"
+			},
+			"points": 5
+		},
+		"897": {
+			"id": 897,
+			"order": 0,
+			"title": "유용한　도구",
+			"info": "상점에서　도둑　열쇠를　구매",
+			"image": "",
+			"condition": {
+				"item": 626,
+				"choice": "test20"
+			},
+			"points": 8
+		},
+		"898": {
+			"id": 898,
+			"order": 0,
+			"title": "지식을　향하여",
+			"info": "상점에서　마법　해골을　구매",
+			"image": "",
+			"condition": {
+				"item": 714,
+				"choice": "test20"
+			},
+			"points": 12
+		},
+		"899": {
+			"id": 899,
+			"order": 0,
+			"title": "초보　보물　사냥꾼",
+			"info": "보물　상자　파내기",
+			"image": "",
+			"condition": {
+				"number": 1,
+				"choice": "test21"
+			},
+			"points": 3
+		},
+		"900": {
+			"id": 900,
+			"order": 0,
+			"title": "몇　개나　있어？",
+			"info": "보물　상자　５개　파내기",
+			"image": "",
+			"condition": {
+				"number": 5,
+				"choice": "test21"
+			},
+			"points": 8
+		},
+		"901": {
+			"id": 901,
+			"order": 0,
+			"title": "아마추어　보물　사냥꾼",
+			"info": "보물　상자　２０개　파내기",
+			"image": "",
+			"condition": {
+				"number": 20,
+				"choice": "test21"
+			},
+			"points": 14
+		},
+		"902": {
+			"id": 902,
+			"order": 0,
+			"title": "전문　보물　사냥꾼",
+			"info": "보물　상자　５０개　파내기",
+			"image": "",
+			"condition": {
+				"number": 50,
+				"choice": "test21"
+			},
+			"points": 16
+		},
+		"903": {
+			"id": 903,
+			"order": 0,
+			"title": "욕심쟁이　곤충",
+			"info": "상점에서　풍뎅이를　구매",
+			"image": "",
+			"condition": {
+				"item": 822,
+				"choice": "test20"
+			},
+			"points": 8
+		},
+		"904": {
+			"id": 904,
+			"order": 0,
+			"title": "내가　어떻게　여기　왔지？",
+			"info": "노획물에서　풍뎅이를　획득",
+			"image": "",
+			"condition": {
+				"item": 822,
+				"count": 1,
+				"choice": "test22"
+			},
+			"points": 3
+		},
+		"905": {
+			"id": 905,
+			"order": 0,
+			"title": "이놈이　범인이다！",
+			"info": "나이트　엘프　처치하기",
+			"image": "",
+			"condition": {
+				"count": 1,
+				"choice": "test23"
+			},
+			"points": 5
+		},
+		"906": {
+			"id": 906,
+			"order": 0,
+			"title": "뾰족　귀의　위협",
+			"info": "나이트　엘프　５마리　처치하기",
+			"image": "",
+			"condition": {
+				"count": 5,
+				"choice": "test23"
+			},
+			"points": 15
+		},
+		"999": {
+			"id": 999,
+			"order": 0,
+			"title": "취권",
+			"info": "한　전투에서　공격이　１０번　빗나감",
+			"image": "",
+			"condition": {
+				"count": 10,
+				"choice": "test25"
+			},
+			"points": 5
+		},
+		"1000": {
+			"id": 1000,
+			"order": 0,
+			"title": "기적의　치료법",
+			"info": "한　전투에서　체력　엘릭서를　３번　사용",
+			"image": "",
+			"condition": {
+				"number": 3,
+				"choice": "test26"
+			},
+			"points": 7
+		},
+		"1001": {
+			"id": 1001,
+			"order": 0,
+			"title": "돌풍",
+			"info": "한　전투에서　힘　오브를　３번　사용",
+			"image": "",
+			"condition": {
+				"number": 3,
+				"choice": "test27"
+			},
+			"points": 4
+		},
+		"1002": {
+			"id": 1002,
+			"order": 0,
+			"title": "독부",
+			"info": "한　전투에서　독을　３번　사용",
+			"image": "",
+			"condition": {
+				"count": 3,
+				"choice": "test44"
+			},
+			"points": 10
+		},
+		"1003": {
+			"id": 1003,
+			"order": 0,
+			"title": "콤보왕",
+			"info": "한　전투에서　콤보를　３번　사용",
+			"image": "",
+			"condition": {
+				"count": 3,
+				"choice": "test28"
+			},
+			"points": 15
+		},
+		"1004": {
+			"id": 1004,
+			"order": 0,
+			"title": "왼손잡이",
+			"info": "왼쪽에서　공격하여　적을　처치",
+			"image": "",
+			"condition": {
+				"choice": "test29"
+			},
+			"points": 5
+		},
+		"1005": {
+			"id": 1005,
+			"order": 0,
+			"title": "마나　구름",
+			"info": "전투　도중　적에게서　마나　덩어리　１０개를　꺼냈지만　한　개도　모으지　않음",
+			"image": "",
+			"condition": {
+				"number": 10,
+				"choice": "test30"
+			},
+			"points": 3
+		},
+		"1006": {
+			"id": 1006,
+			"order": 0,
+			"title": "철벽",
+			"info": "한　전투에서　１０번　방어",
+			"image": "",
+			"condition": {
+				"count": 10,
+				"choice": "test43"
+			},
+			"points": 8
+		},
+		"1007": {
+			"id": 1007,
+			"order": 0,
+			"title": "오컬티스트",
+			"info": "한　전투에서　혼돈의　눈을　５번　파괴",
+			"image": "",
+			"condition": {
+				"count": 5,
+				"choice": "test42"
+			},
+			"points": 4
+		},
+		"1008": {
+			"id": 1008,
+			"order": 0,
+			"title": "자제",
+			"info": "전투　도중　적에게서　마나　덩어리　５개를　꺼냈지만　한　개도　모으지　않음",
+			"image": "",
+			"condition": {
+				"number": 5,
+				"choice": "test31"
+			},
+			"points": 4,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1009": {
+			"id": 1009,
+			"order": 0,
+			"title": "거대한　유혹",
+			"info": "마법과　분노　수치가　최대인　상태에서　전투를　시작하고，　마법과　분노를　사용하지　않고　전투에서　승리",
+			"image": "",
+			"condition": {
+				"choice": "test32"
+			},
+			"points": 15
+		},
+		"1010": {
+			"id": 1010,
+			"order": 0,
+			"title": "탐욕",
+			"info": "한　전투에서　마나가　꽉　찬　상태로　마나　덩어리　５개를　획득",
+			"image": "",
+			"condition": {
+				"number": 5,
+				"choice": "test33"
+			},
+			"points": 4
+		},
+		"1011": {
+			"id": 1011,
+			"order": 0,
+			"title": "나는　지금　매우　화가　나　있어",
+			"info": "한　전투에서　분노가　꽉　찬　상태로　분노　덩어리　３개를　획득",
+			"image": "",
+			"condition": {
+				"number": 3,
+				"choice": "test34"
+			},
+			"points": 4,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1012": {
+			"id": 1012,
+			"order": 0,
+			"title": "주체할　수　없는　분노",
+			"info": "한　전투에서　분노　패널에　있는　능력　３개를　사용",
+			"image": "",
+			"condition": {
+				"choice": "test35"
+			},
+			"points": 14
+		},
+		"1013": {
+			"id": 1013,
+			"order": 0,
+			"title": "마지막　일격",
+			"info": "적을　중독에　의해　사망하게　만들기",
+			"image": "",
+			"condition": {
+				"choice": "test36"
+			},
+			"points": 10
+		},
+		"1014": {
+			"id": 1014,
+			"order": 0,
+			"title": "좀비　군단",
+			"info": "앙크로　적을　７번　부활시키고　처형을　실시하지　않음",
+			"image": "",
+			"condition": {
+				"count": 7,
+				"choice": "test37"
+			},
+			"points": 16
+		},
+		"1015": {
+			"id": 1015,
+			"order": 0,
+			"title": "평화주의자",
+			"info": "한　전투에서　혼돈의　눈이　분노　１０개를　훔쳐가도록　내버려두기",
+			"image": "",
+			"condition": {
+				"number": 10,
+				"choice": "test38"
+			},
+			"points": 3
+		},
+		"1016": {
+			"id": 1016,
+			"order": 0,
+			"title": "패배",
+			"info": "적이　이동　순서가　필요한　마법　공격을　써서　캐릭터를　죽임",
+			"image": "",
+			"condition": {
+				"choice": "test39"
+			},
+			"points": 6
+		},
+		"1017": {
+			"id": 1017,
+			"order": 0,
+			"title": "어둠　속으로",
+			"info": "적이　검은　마나　덩어리를　활용한　마법　공격으로　캐릭터를　죽임",
+			"image": "",
+			"condition": {
+				"choice": "test40"
+			},
+			"points": 6
+		},
+		"1018": {
+			"id": 1018,
+			"order": 0,
+			"title": "자선",
+			"info": "보물　상자　１０개를　파내기만　하고　건드리지　않기",
+			"image": "",
+			"condition": {
+				"number": 10,
+				"choice": "test41"
+			},
+			"points": 15
+		},
+		"1019": {
+			"id": 1019,
+			"order": 0,
+			"title": "엘프　트로피",
+			"info": "엘프들의　보물인　영원의　잔　얻기",
+			"image": "",
+			"condition": {
+				"item": 304,
+				"count": 1,
+				"choice": "test22"
+			},
+			"points": 13
+		},
+		"1109": {
+			"id": 1109,
+			"order": 0,
+			"title": "끝이　없도다",
+			"info": "５0명의 적 해치우기",
+			"image": "",
+			"condition": {
+				"count": 50,
+				"choice": "test45"
+			},
+			"points": 8
+		},
+		"1110": {
+			"id": 1110,
+			"order": 0,
+			"title": "나는 영웅이다!",
+			"info": "100명의 적 해치우기",
+			"image": "",
+			"condition": {
+				"count": 100,
+				"choice": "test45"
+			},
+			"points": 14
+		},
+		"1111": {
+			"id": 1111,
+			"order": 0,
+			"title": "전투　마법사",
+			"info": "전투에서 마법을 77번 사용",
+			"image": "",
+			"condition": {
+				"count": 77,
+				"choice": "test46"
+			},
+			"points": 12
+		},
+		"1112": {
+			"id": 1112,
+			"order": 0,
+			"title": "해골　수집가",
+			"info": "노획물에서 마법 해골 30개 찾기",
+			"image": "",
+			"condition": {
+				"item": 714,
+				"count": 30,
+				"choice": "test22"
+			},
+			"points": 15
+		},
+		"1239": {
+			"id": 1239,
+			"order": 0,
+			"title": "전설의　대장장이",
+			"info": "전설급　아이템을　만드십시오．",
+			"image": "",
+			"condition": {
+				"choice": "test47"
+			},
+			"points": 15,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1240": {
+			"id": 1240,
+			"order": 0,
+			"title": "도살",
+			"info": "전투에서　３등급을　받으십시오．",
+			"image": "",
+			"condition": {
+				"number": 3,
+				"choice": "test48"
+			},
+			"points": 4,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1241": {
+			"id": 1241,
+			"order": 0,
+			"title": "광기의　도살장",
+			"info": "전투에서　４등급을　받으십시오．",
+			"image": "",
+			"condition": {
+				"number": 4,
+				"choice": "test48"
+			},
+			"points": 6,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1242": {
+			"id": 1242,
+			"order": 0,
+			"title": "전투광",
+			"info": "최고 전투　등급을　받으십시오．",
+			"image": "",
+			"condition": {
+				"number": 5,
+				"choice": "test48"
+			},
+			"points": 10,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1265": {
+			"id": 1265,
+			"order": 0,
+			"title": "어린애　악령　쫓기",
+			"info": "＇엄청난　시련＇　챕터를　완료",
+			"image": "",
+			"condition": {
+				"location": 1182,
+				"choice": "test1"
+			},
+			"points": 20,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1266": {
+			"id": 1266,
+			"order": 0,
+			"title": "네크로맨서",
+			"info": "＇버려진　묘지＇　챕터를　완료",
+			"image": "",
+			"condition": {
+				"location": 1181,
+				"choice": "test1"
+			},
+			"points": 5,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1935": {
+			"id": 1935,
+			"order": 0,
+			"title": "토퍼와의　만남",
+			"info": "＇토퍼　버로우＇　챕터를　완료",
+			"image": "",
+			"condition": {
+				"location": 1862,
+				"choice": "test1"
+			},
+			"points": 6,
+			"minVersion": "2.1",
+			"maxVersion": null
+		},
+		"1936": {
+			"id": 1936,
+			"order": 0,
+			"title": "전설의　광부",
+			"info": "한　개의　광산　게임에서　３０，０００점을　획득",
+			"image": "",
+			"condition": {
+				"amount": 30000,
+				"choice": "test50"
+			},
+			"points": 14,
+			"minVersion": "2.1",
+			"maxVersion": null
+		},
+		"1937": {
+			"id": 1937,
+			"order": 0,
+			"title": "잠재력　있는　발파공",
+			"info": "세　가지　색상　광산에서　한　번에　블럭　１０개를　파괴",
+			"image": "",
+			"condition": {
+				"number": 10,
+				"choice": "test49"
+			},
+			"points": 5,
+			"minVersion": "2.1",
+			"maxVersion": null
+		},
+		"1938": {
+			"id": 1938,
+			"order": 0,
+			"title": "뛰어난　발파공",
+			"info": "세　가지　색상　광산에서　한　번에　블럭　１５개를　파괴",
+			"image": "",
+			"condition": {
+				"number": 15,
+				"choice": "test49"
+			},
+			"points": 8,
+			"minVersion": "2.1",
+			"maxVersion": null
+		},
+		"1939": {
+			"id": 1939,
+			"order": 0,
+			"title": "봄버맨",
+			"info": "세　가지　색상　광산에서　한　번에　블럭　２０개를　파괴",
+			"image": "",
+			"condition": {
+				"number": 20,
+				"choice": "test49"
+			},
+			"points": 13,
+			"minVersion": "2.1",
+			"maxVersion": null
+		}
+	}
+}

@@ -66,10 +66,9 @@ public static class BuildScript
             if (font == null) font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
             if (font == null) font = AssetDatabase.LoadAssetAtPath<Font>("Assets/Fonts/BootFont.ttf");
             if (font != null) text.font = font;
-            // CRITICAL: do NOT override MeshRenderer.sharedMaterial. TextMesh
-            // auto-assigns the font's default material (always-available Font
-            // shader). Overriding it with Shader.Find(...) can produce a
-            // null-shader material in headless builds, killing all text rendering.
+
+            var appLoaderGo = new GameObject("AppLoaderHost");
+            appLoaderGo.AddComponent<AppLoader>();
 
             EditorSceneManager.SaveScene(scene, sceneDir + "/BootSplash.unity");
             EditorBuildSettings.scenes = new[] { new EditorBuildSettingsScene(sceneDir + "/BootSplash.unity", true) };

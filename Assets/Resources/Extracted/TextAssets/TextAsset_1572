@@ -1,0 +1,84 @@
+{
+	"npc": {
+		"1145": {
+			"id": 1145,
+			"title": "Łowca głów",
+			"picture": "NPC_vedmak_human_clip"
+		},
+		"1146": {
+			"id": 1146,
+			"title": "Podążająca śladem",
+			"picture": "NPC_vedmak_women_clip"
+		},
+		"1152": {
+			"id": 1152,
+			"title": "Una",
+			"picture": "NPC_una"
+		},
+		"1153": {
+			"id": 1153,
+			"title": "Opętana Una",
+			"picture": "NPC_posessed_una"
+		},
+		"1154": {
+			"id": 1154,
+			"title": "Bez twarzy",
+			"picture": "NPC_blackabdula_clip"
+		},
+		"1184": {
+			"id": 1184,
+			"title": "Przeklęty bohater",
+			"picture": "NPC_skel_clip"
+		},
+		"1185": {
+			"id": 1185,
+			"title": "Wskrzeszony martwiak",
+			"picture": "NPC_zombie"
+		},
+		"1186": {
+			"id": 1186,
+			"title": "Amazonka Ariana",
+			"picture": "NPC_amaz"
+		},
+		"1187": {
+			"id": 1187,
+			"title": "Opętana amazonka",
+			"picture": "NPC_posessed_amaz"
+		},
+		"1268": {
+			"id": 1268,
+			"title": "Zwierg",
+			"picture": "NPC_zverg"
+		},
+		"1269": {
+			"id": 1269,
+			"title": "Szaman zwiergów",
+			"picture": "NPC_zverg_shaman_clip"
+		},
+		"1270": {
+			"id": 1270,
+			"title": "Cykloparki",
+			"picture": "NPC_cyclopariki_clip"
+		},
+		"1271": {
+			"id": 1271,
+			"title": "Rozbójniczka",
+			"picture": "NPC_fbandit_clip"
+		},
+		"1272": {
+			"id": 1272,
+			"title": "Zbir",
+			"picture": "NPC_thief_clip"
+		},
+		"1868": {
+			"id": 1868,
+			"title": "Kapłanka trzęsawiska",
+			"picture": "NPC_toprfem"
+		},
+		"1869": {
+			"id": 1869,
+			"title": "Władca mokradła",
+			"picture": "NPC_toprmale_clip"
+		}
+	}
+}

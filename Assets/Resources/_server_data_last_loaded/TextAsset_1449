@@ -1,0 +1,124 @@
+{
+	"loadingTips": {
+		"677": {
+			"id": 677,
+			"description": "Return to the captured territory, to receive your tribute and open the treasure chests"
+		},
+		"678": {
+			"id": 678,
+			"description": "Defend captured territory from monsters to maintain population levels"
+		},
+		"679": {
+			"id": 679,
+			"description": "To get access to additional chapters, carry out special missions"
+		},
+		"681": {
+			"id": 681,
+			"description": "One picklock is used up for every unsuccessful attempt to open a chest"
+		},
+		"682": {
+			"id": 682,
+			"description": "The more complicated a lock's mechanism, the more valuable the contents of the chest"
+		},
+		"683": {
+			"id": 683,
+			"description": "By using the red indicator you can determine the direction of a monster's gaze. It will definitely dodge an attack from this direction or block it."
+		},
+		"684": {
+			"id": 684,
+			"description": "A critical blow is guaranteed to give you 2 units of mana"
+		},
+		"686": {
+			"id": 686,
+			"description": "The stronger your fury, the more often your will be visited by the Eye of Chaos"
+		},
+		"687": {
+			"id": 687,
+			"description": "Use one Sphere of Fury and the next monster attack will be blocked"
+		},
+		"688": {
+			"id": 688,
+			"description": "Use four Spheres of Fury and your next attack will be critical with an increased mana drop"
+		},
+		"689": {
+			"id": 689,
+			"description": "Use ten Spheres of Fury to get reinforcement until the end of the fight"
+		},
+		"690": {
+			"id": 690,
+			"description": "Bosses and some monsters have an increased angle of vision and can change the direction of their gaze"
+		},
+		"691": {
+			"id": 691,
+			"description": "Use enchanted skulls to increase the power of your spells"
+		},
+		"692": {
+			"id": 692,
+			"description": "Some monsters are immune to certain types of magic"
+		},
+		"693": {
+			"id": 693,
+			"description": "Execution makes it possible to open an additional chest with a reward"
+		},
+		"694": {
+			"id": 694,
+			"description": "To have the opportunity to perform an execution, obtain a rune of resurrection by killing a monster with combo-blows."
+		},
+		"695": {
+			"id": 695,
+			"description": "The \"Power\" indicator determines the power of an attack"
+		},
+		"696": {
+			"id": 696,
+			"description": "The \"Courage\" indicator determines the chance of a critical blow by you and suppresses critical attacks from the enemy"
+		},
+		"697": {
+			"id": 697,
+			"description": "The \"Magic\" indicator determines the power of a magical attack and the initial amount of mana in combat"
+		},
+		"699": {
+			"id": 699,
+			"description": "In buried chests you can find earrings, rings, artifacts, magical amulets and skulls."
+		},
+		"702": {
+			"id": 702,
+			"description": "Each amulet effectively influences only one type of magic"
+		},
+		"703": {
+			"id": 703,
+			"description": "Collect experience artifacts to get bonus experience after each fight"
+		},
+		"704": {
+			"id": 704,
+			"description": "Collect fury artefacts, so as to get additional Spheres of Fury in combat"
+		},
+		"705": {
+			"id": 705,
+			"description": "Collect mana artefacts, so as to get additional Spheres of Mana in combat"
+		},
+		"706": {
+			"id": 706,
+			"description": "Collect money artifacts to get bonus money after each fight"
+		},
+		"707": {
+			"id": 707,
+			"description": "Each weapon has its unique means of execution. An epic weapon, for example, rips the enemy to shreds using gigantic chains."
+		},
+		"1246": {
+			"id": 1246,
+			"description": "After combining an epic item with legendary status points, you will receive a legendary item"
+		},
+		"1247": {
+			"id": 1247,
+			"description": "The more critical blows you deliver in combat, the higher your fight rating, and the more legendary status points you will receive."
+		},
+		"1248": {
+			"id": 1248,
+			"description": "To receive the maximum rating in combat, pump up your Courage, and actively use magic, combo-blows and your second Fury ability."
+		},
+		"1249": {
+			"id": 1249,
+			"description": "To receive the maximum rating in combat, 70% of blows should be critical"
+		}
+	}
+}

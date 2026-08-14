@@ -1,0 +1,158 @@
+{
+	"subtitles": {
+		"1889": {
+			"id": 1889,
+			"video": "1",
+			"text": "Chantez la gloire du noble royaume d'Haradan et des batailles livrées",
+			"startTime": 16,
+			"endTime": 20
+		},
+		"1890": {
+			"id": 1890,
+			"video": "1",
+			"text": "Lorsque les ténèbres rôdaient et que le mal était ailleurs.",
+			"startTime": 21,
+			"endTime": 25
+		},
+		"1891": {
+			"id": 1891,
+			"video": "1",
+			"text": "Des soldats impavides et braves, à juré de protéger leurs parents,",
+			"startTime": 26,
+			"endTime": 30
+		},
+		"1892": {
+			"id": 1892,
+			"video": "1",
+			"text": "Et engagés corps et âme dans un combat qu'ils ne pouvaient gagner.",
+			"startTime": 31,
+			"endTime": 35
+		},
+		"1893": {
+			"id": 1893,
+			"video": "1",
+			"text": "Leur cause était juste, leurs intentions bonnes, leurs serments précis et louables.",
+			"startTime": 52,
+			"endTime": 56
+		},
+		"1894": {
+			"id": 1894,
+			"video": "1",
+			"text": "Mais le fléau du démon l'emporta, et leur arrêt de mort fut signé.",
+			"startTime": 57,
+			"endTime": 62
+		},
+		"1895": {
+			"id": 1895,
+			"video": "1",
+			"text": "Lîle paisible de Radway prit une teinte rouge sang,",
+			"startTime": 63,
+			"endTime": 67
+		},
+		"1896": {
+			"id": 1896,
+			"video": "1",
+			"text": "Les terres pleurant leurs nobles fils, seules à porter le deuil.",
+			"startTime": 68,
+			"endTime": 74
+		},
+		"1897": {
+			"id": 1897,
+			"video": "1",
+			"text": "Tout espoir s'est-il à jamais envolé ? L'avenir est un mystère.",
+			"startTime": 75,
+			"endTime": 78
+		},
+		"1898": {
+			"id": 1898,
+			"video": "1",
+			"text": "Tu peux changer la destinée des humains.",
+			"startTime": 79,
+			"endTime": 82
+		},
+		"1899": {
+			"id": 1899,
+			"video": "1",
+			"text": "Tu es LE Scorpion !",
+			"startTime": 83,
+			"endTime": 85
+		},
+		"1900": {
+			"id": 1900,
+			"video": "2",
+			"text": "La voie qui t'attend est celle qu'empruntent les héros.",
+			"startTime": 5,
+			"endTime": 10
+		},
+		"1901": {
+			"id": 1901,
+			"video": "2",
+			"text": "Soit prêt à user tes armes pour atteindre le bout de l'île",
+			"startTime": 11,
+			"endTime": 14
+		},
+		"1902": {
+			"id": 1902,
+			"video": "2",
+			"text": "et affronte Sovering le seigneurs des démons.",
+			"startTime": 15,
+			"endTime": 18
+		},
+		"1903": {
+			"id": 1903,
+			"video": "2",
+			"text": "Les démons programment ta mort.",
+			"startTime": 23,
+			"endTime": 25
+		},
+		"1904": {
+			"id": 1904,
+			"video": "2",
+			"text": "Ils te tomberont dessus dans un désert,",
+			"startTime": 36,
+			"endTime": 38
+		},
+		"1905": {
+			"id": 1905,
+			"video": "2",
+			"text": "s'établiront dans une forteresse imprenable,",
+			"startTime": 39,
+			"endTime": 43
+		},
+		"1906": {
+			"id": 1906,
+			"video": "2",
+			"text": "se terreront dans l'obscurité des grottes,",
+			"startTime": 49,
+			"endTime": 50
+		},
+		"1907": {
+			"id": 1907,
+			"video": "2",
+			"text": "te tendront une embuscade dans les marais.",
+			"startTime": 53,
+			"endTime": 54
+		},
+		"1908": {
+			"id": 1908,
+			"video": "2",
+			"text": "Tiens-toi prêt,",
+			"startTime": 55,
+			"endTime": 57
+		},
+		"1909": {
+			"id": 1909,
+			"video": "2",
+			"text": "l'heure de ton premier combat a sonné.",
+			"startTime": 58,
+			"endTime": 61
+		},
+		"1910": {
+			"id": 1910,
+			"video": "2",
+			"text": "Tous aux armes !",
+			"startTime": 62,
+			"endTime": 63
+		}
+	}
+}

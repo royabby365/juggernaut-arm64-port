@@ -1,0 +1,122 @@
+{
+	"skillArtikuls": {
+		"BE": {
+			"id": 648,
+			"title": "Experiencia",
+			"code": "BE",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 0
+		},
+		"BM": {
+			"id": 647,
+			"title": "Hechizos",
+			"code": "BM",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 0
+		},
+		"BMn": {
+			"id": 652,
+			"title": "Dinero",
+			"code": "BMn",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 0
+		},
+		"BR": {
+			"id": 646,
+			"title": "Ira",
+			"code": "BR",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 0
+		},
+		"DARK": {
+			"id": 505,
+			"title": "Oscuridad",
+			"code": "DARK",
+			"weight": 1,
+			"skillPoints": 0,
+			"flags": 0
+		},
+		"FIRE": {
+			"id": 503,
+			"title": "Fuego",
+			"code": "FIRE",
+			"weight": 1,
+			"skillPoints": 0,
+			"flags": 0
+		},
+		"FullMana": {
+			"id": 1059,
+			"title": "Maná",
+			"description": "Maná completo al inicio del combate",
+			"code": "FullMana",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 0
+		},
+		"FullRage": {
+			"id": 1060,
+			"title": "Furia",
+			"description": "Furia completa al inicio del combate",
+			"code": "FullRage",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 0
+		},
+		"ICE": {
+			"id": 504,
+			"title": "Hielo",
+			"code": "ICE",
+			"weight": 1,
+			"skillPoints": 0,
+			"flags": 0
+		},
+		"LIGHT": {
+			"id": 506,
+			"title": "Relámpago",
+			"code": "LIGHT",
+			"weight": 1,
+			"skillPoints": 0,
+			"flags": 0
+		},
+		"RAG": {
+			"id": 56,
+			"title": "Coraje",
+			"description": "Controla la probabilidad de dar un golpe con un daño mayor.",
+			"code": "RAG",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 7
+		},
+		"SOR": {
+			"id": 57,
+			"title": "Magia",
+			"description": "Reduce los daños que recibes de los ataques físicos.",
+			"code": "SOR",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 7
+		},
+		"STR": {
+			"id": 35,
+			"title": "Poder",
+			"description": "Controla el daño que causas en combate<br>10. 10 uds. de poder aumentan el daño medio en 1 punto.",
+			"code": "STR",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 7
+		},
+		"VIT": {
+			"id": 55,
+			"title": "Vida",
+			"description": "Controla tu nivel de vida en el combate.",
+			"code": "VIT",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 7
+		}
+	}
+}

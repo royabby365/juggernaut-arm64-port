@@ -1,0 +1,122 @@
+{
+	"skillArtikuls": {
+		"BE": {
+			"id": 648,
+			"title": "Experience",
+			"code": "BE",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 0
+		},
+		"BM": {
+			"id": 647,
+			"title": "Spells",
+			"code": "BM",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 0
+		},
+		"BMn": {
+			"id": 652,
+			"title": "Money",
+			"code": "BMn",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 0
+		},
+		"BR": {
+			"id": 646,
+			"title": "Anger",
+			"code": "BR",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 0
+		},
+		"DARK": {
+			"id": 505,
+			"title": "Darkness",
+			"code": "DARK",
+			"weight": 1,
+			"skillPoints": 0,
+			"flags": 0
+		},
+		"FIRE": {
+			"id": 503,
+			"title": "Fire",
+			"code": "FIRE",
+			"weight": 1,
+			"skillPoints": 0,
+			"flags": 0
+		},
+		"FullMana": {
+			"id": 1059,
+			"title": "Mana",
+			"description": "Full mana at the start of combat",
+			"code": "FullMana",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 0
+		},
+		"FullRage": {
+			"id": 1060,
+			"title": "Fury",
+			"description": "Full fury at the start of combat",
+			"code": "FullRage",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 0
+		},
+		"ICE": {
+			"id": 504,
+			"title": "Ice",
+			"code": "ICE",
+			"weight": 1,
+			"skillPoints": 0,
+			"flags": 0
+		},
+		"LIGHT": {
+			"id": 506,
+			"title": "Lightning",
+			"code": "LIGHT",
+			"weight": 1,
+			"skillPoints": 0,
+			"flags": 0
+		},
+		"RAG": {
+			"id": 56,
+			"title": "Courage",
+			"description": "Controls the likelihood of delivering a blow with increased damage.",
+			"code": "RAG",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 7
+		},
+		"SOR": {
+			"id": 57,
+			"title": "Magic",
+			"description": "Reduces the damage you receive from physical attacks.",
+			"code": "SOR",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 7
+		},
+		"STR": {
+			"id": 35,
+			"title": "Power",
+			"description": "Controls the damage you cause in combat<br>10. 10 units of power increase average damage by 1.",
+			"code": "STR",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 7
+		},
+		"VIT": {
+			"id": 55,
+			"title": "Life",
+			"description": "Controls your life level in combat.",
+			"code": "VIT",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 7
+		}
+	}
+}

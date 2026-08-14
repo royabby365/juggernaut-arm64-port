@@ -1,0 +1,109 @@
+{
+	"slots": {
+		"1": {
+			"id": 17,
+			"title": "Hełm",
+			"slotId": 1
+		},
+		"2": {
+			"id": 19,
+			"title": "Naramienniki",
+			"slotId": 2
+		},
+		"3": {
+			"id": 11,
+			"title": "Buty",
+			"slotId": 3
+		},
+		"4": {
+			"id": 14,
+			"title": "Pas",
+			"slotId": 4
+		},
+		"5": {
+			"id": 121,
+			"title": "Naręczak",
+			"slotId": 5
+		},
+		"6": {
+			"id": 15,
+			"title": "Rękawica",
+			"slotId": 6
+		},
+		"7": {
+			"id": 13,
+			"title": "Nabiodrniki",
+			"slotId": 7
+		},
+		"8": {
+			"id": 12,
+			"title": "Kirys",
+			"slotId": 8
+		},
+		"9": {
+			"id": 215,
+			"title": "Broń",
+			"slotId": 9
+		},
+		"10": {
+			"id": 220,
+			"title": "Insygnia",
+			"slotId": 10
+		},
+		"11": {
+			"id": 221,
+			"title": "Artefakt",
+			"slotId": 11
+		},
+		"12": {
+			"id": 222,
+			"title": "Pierścień",
+			"slotId": 12
+		},
+		"13": {
+			"id": 223,
+			"title": "Kolczyk",
+			"slotId": 13
+		},
+		"14": {
+			"id": 224,
+			"title": "Amulet",
+			"slotId": 14
+		},
+		"15": {
+			"id": 289,
+			"title": "Wydatki 1",
+			"slotId": 15
+		},
+		"16": {
+			"id": 290,
+			"title": "Wydatki 2",
+			"slotId": 16
+		},
+		"17": {
+			"id": 291,
+			"title": "Wydatki 3",
+			"slotId": 17
+		},
+		"20": {
+			"id": 1150,
+			"title": "Rzadki Zestaw",
+			"slotId": 20
+		},
+		"21": {
+			"id": 1151,
+			"title": "Epicki Zestaw",
+			"slotId": 21
+		},
+		"22": {
+			"id": 1212,
+			"title": "Epicki Półzestaw",
+			"slotId": 22
+		},
+		"23": {
+			"id": 1213,
+			"title": "Zestaw Alchemika",
+			"slotId": 23
+		}
+	}
+}

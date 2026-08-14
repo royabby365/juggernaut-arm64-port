@@ -1,0 +1,1275 @@
+{
+	"locations": {
+		"1": {
+			"id": 52,
+			"title": "チャプター 1挑戦する",
+			"bots": {
+				"1": {
+					"botId": "46",
+					"level": 1,
+					"isBoss": false,
+					"minVersion": "1.0"
+				},
+				"2": {
+					"botId": "47",
+					"level": 2,
+					"isBoss": false,
+					"minVersion": "1.0"
+				},
+				"3": {
+					"botId": "122",
+					"level": 3,
+					"isBoss": false,
+					"minVersion": "1.0"
+				},
+				"4": {
+					"botId": "125",
+					"level": 5,
+					"isBoss": true,
+					"minVersion": "1.0"
+				}
+			},
+			"mapId": 1,
+			"3dMap": 2,
+			"periodRespawn": 600,
+			"probRespawn": 15,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "260;585",
+			"coordIconM": "260;585",
+			"coordIconMobs": "310;585",
+			"coordIconChest": "285;635",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 50,
+			"openAfter": null,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 594,
+					"prob": 100
+				}
+			},
+			"bonus": 659,
+			"iconPers": "glava1_NPC",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": true,
+			"minVersion": "1.0",
+			"maxVersion": null,
+			"isCave": false,
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"2": {
+			"id": 236,
+			"title": "チャプター 2荒れ果てた湿地",
+			"bots": {
+				"1": {
+					"botId": "237",
+					"level": 5,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "50",
+					"level": 6,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "51",
+					"level": 7,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "239",
+					"level": 8,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "240",
+					"level": 9,
+					"isBoss": false
+				},
+				"6": {
+					"botId": "241",
+					"level": 10,
+					"isBoss": false
+				},
+				"7": {
+					"botId": "49",
+					"level": 10,
+					"isBoss": true
+				}
+			},
+			"mapId": 2,
+			"3dMap": 4,
+			"periodRespawn": 600,
+			"probRespawn": 20,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "520;460",
+			"coordIconM": "520;460",
+			"coordIconMobs": "570;460",
+			"coordIconChest": "545;510",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 50,
+			"openAfter": 52,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 594,
+					"prob": 100
+				}
+			},
+			"bonus": 660,
+			"iconPers": "glava2_NPC",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": false,
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"3": {
+			"id": 275,
+			"title": "追加チャプター旧坑",
+			"bots": {
+				"1": {
+					"botId": "395",
+					"level": 12,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "396",
+					"level": 13,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "397",
+					"level": 14,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "398",
+					"level": 14,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "399",
+					"level": 14,
+					"isBoss": true
+				}
+			},
+			"mapId": 3,
+			"3dMap": 2,
+			"periodRespawn": 600,
+			"probRespawn": 20,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "500;200",
+			"coordIconM": "500;200",
+			"coordIconMobs": "550;200",
+			"coordIconChest": "525;250",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 60,
+			"openAfter": 236,
+			"openAfterAlt": null,
+			"miniBoss": true,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 593,
+					"prob": 100
+				}
+			},
+			"bonus": 599,
+			"iconPers": "Dopglava_razboy",
+			"description": "おまえの喉にナイフを突き刺し、その勇ましい品々を漁ってやろうか！面白い物がいくつかありそうだな…冗談だよ、おまえに手を触れたら、こっちが墓場行きになりそうだからな。とにかく、恩に着るよ - お前がいなければ、あのデーモンどもにやられていただろう。昔の仲間よ！複雑な事情があってね。お前は偶然ここにいるわけじゃない、そうだろ？復讐劇のせいで、俺の仲間たちは生ける屍だ。もともとやつらは化け物だったが、あの扱いは間違っている。あれは盗賊のやり方じゃない。いいか、この小さな装身具をやろう - おまえの強さと合わせれば、どんな頭蓋骨でも割ることができるだろう。",
+			"openPrice": {
+				"2": 10
+			},
+			"openCond": 732,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": true,
+			"caveName": "旧坑",
+			"caveGCoord": "420;230",
+			"caveLCoord": "131;-390",
+			"caveD": "easy"
+		},
+		"4": {
+			"id": 276,
+			"title": "チャプター 3洞窟を通る危険な道",
+			"bots": {
+				"1": {
+					"botId": "362",
+					"level": 11,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "369",
+					"level": 12,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "370",
+					"level": 12,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "372",
+					"level": 13,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "124",
+					"level": 13,
+					"isBoss": false
+				},
+				"6": {
+					"botId": "123",
+					"level": 14,
+					"isBoss": false
+				},
+				"7": {
+					"botId": "374",
+					"level": 15,
+					"isBoss": false
+				},
+				"8": {
+					"botId": "493",
+					"level": 15,
+					"isBoss": true
+				}
+			},
+			"mapId": 4,
+			"3dMap": 5,
+			"periodRespawn": 600,
+			"probRespawn": 20,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "600;860",
+			"coordIconM": "600;860",
+			"coordIconMobs": "650;860",
+			"coordIconChest": "625;910",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 60,
+			"openAfter": 236,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 593,
+					"prob": 100
+				}
+			},
+			"bonus": 661,
+			"iconPers": "glava3_NPC",
+			"description": "そこにいるのは誰だ？人間か？あわれな人間がまだいたのか？呪われた種族 - おまえから離れることは不可能なのだ。おまえは決して満足せず、そして止めることができない…触れるものすべてを破壊する！我々の洞窟にした仕打ちを見てみろ！かつて平穏だったこの場所が今では…！いつかこの報いを受けるだろう、まるでみじめなクワーグアのごとくな！\nフン…どうやらおまえは、他のやつらとは違うようだな…すべてを変えたいだと？おまえを生かしておいてやろう。お前が死んだところで、なにひとつ変わりはしないのだ！手助けまでしてやろうじゃないか。この道具を持って行け。おまえを東へと導く悪との戦いにおいて、役に立つだろう。",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": false,
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"5": {
+			"id": 277,
+			"title": "チャプター 4ブラネンダルの壁の下",
+			"bots": {
+				"1": {
+					"botId": "400",
+					"level": 16,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "401",
+					"level": 17,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "402",
+					"level": 17,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "403",
+					"level": 18,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "404",
+					"level": 19,
+					"isBoss": false
+				},
+				"6": {
+					"botId": "405",
+					"level": 19,
+					"isBoss": false
+				},
+				"7": {
+					"botId": "468",
+					"level": 20,
+					"isBoss": false
+				},
+				"8": {
+					"botId": "469",
+					"level": 20,
+					"isBoss": true
+				}
+			},
+			"mapId": 5,
+			"3dMap": 7,
+			"periodRespawn": 600,
+			"probRespawn": 30,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "915;425",
+			"coordIconM": "915;425",
+			"coordIconMobs": "965;425",
+			"coordIconChest": "940;475",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 70,
+			"openAfter": 276,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 593,
+					"prob": 100
+				}
+			},
+			"bonus": 662,
+			"iconPers": "glava4_NPC",
+			"description": "偉大なる戦士よ、お会いできて光栄です！我がブラネンダルを、悪霊にとりつかれたやつらから解放してくれたあなたの名が、永遠に残りますよう！私は数少ない生き残りの古参宗教裁判官。ほとんどの者たちは、巨悪なるデーモンとの戦いで命を落とした。東の果てにある砂漠を超えた死者の地にて、やつは逃れてしまった。行く手を遮った我が精鋭戦士たちは、完全に討滅された。デーモンに捕られてしまった彼らの魂はブラネンダルへ戻り、邪魔をするすべての者たちを殺害していった。取りつかれた者たちを打ち破った誰よりも強靭なあなたなら、ソブリングに対してチャンスがある。この戦闘エリキシルを持っていきなさい。デーモンとの戦いで役に立つでしょう。",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": false,
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"6": {
+			"id": 278,
+			"title": "チャプター 5目標へ向かう途中",
+			"bots": {
+				"1": {
+					"botId": "408",
+					"level": 21,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "413",
+					"level": 22,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "409",
+					"level": 22,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "407",
+					"level": 23,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "410",
+					"level": 24,
+					"isBoss": false
+				},
+				"6": {
+					"botId": "411",
+					"level": 25,
+					"isBoss": false
+				},
+				"7": {
+					"botId": "412",
+					"level": 25,
+					"isBoss": true
+				}
+			},
+			"mapId": 6,
+			"3dMap": 11,
+			"periodRespawn": 600,
+			"probRespawn": 30,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "900;700",
+			"coordIconM": "900;700",
+			"coordIconMobs": "950;700",
+			"coordIconChest": "925;750",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 80,
+			"openAfter": 277,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 584,
+					"prob": 100
+				}
+			},
+			"bonus": 663,
+			"iconPers": "glava5_NPC",
+			"description": "わたしが永遠のクリスタルの理性。千年もの間、人間の愚かさを見てきたわたしが、人間に感謝する日が来るとは。感謝していますよ、命の短い生物さん！クリスタリデスと呼ばれているわたしの子孫たちが、ある古代の魔法にかかってしまった。従順な子孫たちは、もうわたしの言葉を聞いてくれない。この未知の力は彼らを支配することで、わたしの汚れなき強い精神を混乱させようとしている。屈しないためには、鉄のごとく強くなければならない。あなたの魂は強靭なようだけど、それだけでは十分ではない。これらの道具を持っていきなさい。意志を強くし、マジックスキルを向上できるでしょう。",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": false,
+			"caveName": "水晶鉱山",
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"7": {
+			"id": 279,
+			"title": "追加チャプター悪魔のようなオークの樹の影で",
+			"bots": {
+				"1": {
+					"botId": "414",
+					"level": 29,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "415",
+					"level": 30,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "416",
+					"level": 31,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "417",
+					"level": 32,
+					"isBoss": true
+				}
+			},
+			"mapId": 7,
+			"3dMap": 11,
+			"periodRespawn": 600,
+			"probRespawn": 30,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "850;890",
+			"coordIconM": "850;890",
+			"coordIconMobs": "900;890",
+			"coordIconChest": "875;940",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 90,
+			"openAfter": 278,
+			"openAfterAlt": null,
+			"miniBoss": true,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 606,
+					"prob": 100
+				}
+			},
+			"bonus": 610,
+			"iconPers": "Dopglava_dub",
+			"description": "あなたがあの呪縛からブラネンダルを解放したと聞き、なんとも喜ばしい限りだ。これであそこの負傷者にも対応できる - だからこそ、危険を承知でこのオークの樹までやって来た。どんぐりから抽出した醸造酒は、死者を蘇らせる。\nだがあなたがいなければ、醸造酒をもってもわたしを救えなかったはず。独力ですべての獣を抹殺！あなたの勇敢さには、驚くばかりだ！唯一勇気より優れているのは、武装した勇気。わたしがオークの樹へ行くと知ったあの古参宗教裁判官が、これをあなたにと。我々の支配者の一人が持っていた伝説の武器だ。何年もの間宝庫の中で埃をかぶっていたが、やっとこれに値する人物が現れたのだ。持って行くがいい！",
+			"openPrice": {
+				"2": 40
+			},
+			"openCond": 736,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": false,
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"8": {
+			"id": 280,
+			"title": "チャプター 6ヒザまで砂に埋もれて",
+			"bots": {
+				"1": {
+					"botId": "418",
+					"level": 26,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "425",
+					"level": 26,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "420",
+					"level": 27,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "422",
+					"level": 28,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "426",
+					"level": 29,
+					"isBoss": false
+				},
+				"6": {
+					"botId": "473",
+					"level": 30,
+					"isBoss": false
+				},
+				"7": {
+					"botId": "419",
+					"level": 30,
+					"isBoss": true
+				}
+			},
+			"mapId": 8,
+			"3dMap": 6,
+			"periodRespawn": 600,
+			"probRespawn": 30,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "1300;800",
+			"coordIconM": "1300;800",
+			"coordIconMobs": "1350;800",
+			"coordIconChest": "1325;850",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 90,
+			"openAfter": 278,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 584,
+					"prob": 100
+				}
+			},
+			"bonus": 664,
+			"iconPers": "glava6_NPC",
+			"description": "おお、偉大なブレードに感謝するよ！あなたは神と比較されるべき人物！あなたの伝説は受け継がれ、我々の子孫たちはあなたの勇敢さを歌い続けるでしょう！預言者があなたの到来を教えてくれていた - 輝く栄光に包まれた英雄が西からやってくるだろう。彼の行く先はさらに東に向かい、ズバーグスの領域から死者の地へと続いている。この世の運命は彼の剣に委ねられ、その相手は古代の悪となるだろう。マスクたちが、この悪を眠りから起こしてしまった。そして、この偉大なる英雄の手助けをするべきだと預言者は言った。この魔法のエリキシルをどうぞ。",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": false,
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"9": {
+			"id": 281,
+			"title": "追加チャプター命湧きたつ泉",
+			"bots": {
+				"1": {
+					"botId": "423",
+					"level": 42,
+					"isBoss": true
+				}
+			},
+			"mapId": 9,
+			"3dMap": 6,
+			"periodRespawn": 0,
+			"probRespawn": 0,
+			"respawnMax": 0,
+			"killsCount": 0,
+			"killPeriod": 0,
+			"coordIconZ": "1100;950",
+			"coordIconM": "1100;950",
+			"coordIconMobs": "1150;950",
+			"coordIconChest": "1125;1000",
+			"populationPeriod": 0,
+			"populationPointsUp": 0,
+			"populationMax": 0,
+			"moneyPeriod": 0,
+			"moneyPerPerson": 0,
+			"moneyMax": 0,
+			"openAfter": 280,
+			"openAfterAlt": null,
+			"miniBoss": true,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 606,
+					"prob": 100
+				}
+			},
+			"bonus": 608,
+			"iconPers": "Dopglava_oazis",
+			"description": "いいか、デーモンの脅威だよ。あなたの剣が、この砂漠で唯一の泉への道を再び開いたのだ！砂漠の精霊シェルハーゴラは、長い間このオアシスを守っていた。何らかの理由で彼は私たちに怒りを覚え、あの水辺に近づいた者たちすべてを殺し始めた。あなたは東へ向かっている、シェルハーゴラと戦う必要などなかった。だが、あなたは手を貸してくれた。わたしたちはもう渇きから惨い死者をだすことがなくなる！\n感謝の気持ちとして、この古代アーマーを受け取ってほしい。わたしがまだ幼かった頃、それが砂の中に隠れている夢をみた - 正夢だったんだ。その昔、この砂漠が花の咲く場所であった頃、神格化された別の偉大な戦士が人類を守るために、ディバウワラーたちとこのアーマーで戦った - 今のあなたのように。その正夢の中で言われたことがある - 砂漠に水を与える英雄が現れるまで、そのアーマーは保管しておけと。そして、その日が訪れた。このアーマーを受け取ってほしい。",
+			"openPrice": {
+				"2": 40
+			},
+			"openCond": 737,
+			"elfs": false
+		},
+		"10": {
+			"id": 282,
+			"title": "チャプター 7ズバーグスの村",
+			"bots": {
+				"1": {
+					"botId": "414",
+					"level": 31,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "476",
+					"level": 32,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "477",
+					"level": 33,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "478",
+					"level": 34,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "481",
+					"level": 35,
+					"isBoss": false
+				},
+				"6": {
+					"botId": "480",
+					"level": 35,
+					"isBoss": false
+				},
+				"7": {
+					"botId": "482",
+					"level": 35,
+					"isBoss": true
+				}
+			},
+			"mapId": 10,
+			"3dMap": 8,
+			"periodRespawn": 600,
+			"probRespawn": 30,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "1370;500",
+			"coordIconM": "1370;500",
+			"coordIconMobs": "1430;500",
+			"coordIconChest": "1395;550",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 100,
+			"openAfter": 280,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 584,
+					"prob": 100
+				}
+			},
+			"bonus": 665,
+			"iconPers": "glava7_NPC",
+			"description": "あわれな人間め！神聖なる地に足を踏み入れるとは！我が祖先のこの地に！ここへ来た人間は初めてだ。その心臓を取り出して、食いちぎってやろうか！いや、それすらもう無理だ。この村はもうだめだ。仲間同士で殺し合い、共食いまで！シャーマンすらお手上げ、俺たちの心は犠牲を受け入れない。どうすることもできない。最悪だ！シャーマンが、おまえならなんとかできると言った。シャーマンが、おまえを殺して食ってはいけないと言った。シャーマンが、この魔除けをおまえに渡して逃がせと言った。ほら！さあ、行け！",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": false,
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"11": {
+			"id": 283,
+			"title": "追加チャプター秘密の聖地",
+			"bots": {
+				"1": {
+					"botId": "625",
+					"level": 47,
+					"isBoss": true
+				}
+			},
+			"mapId": 11,
+			"3dMap": 11,
+			"periodRespawn": 0,
+			"probRespawn": 0,
+			"respawnMax": 0,
+			"killsCount": 0,
+			"killPeriod": 0,
+			"coordIconZ": "1770;510",
+			"coordIconM": "1770;510",
+			"coordIconMobs": "1845;510",
+			"coordIconChest": "",
+			"populationPeriod": 0,
+			"populationPointsUp": 0,
+			"populationMax": 0,
+			"moneyPeriod": 0,
+			"moneyPerPerson": 0,
+			"moneyMax": 0,
+			"openAfter": 282,
+			"openAfterAlt": null,
+			"miniBoss": true,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 595,
+					"prob": 100
+				}
+			},
+			"bonus": 609,
+			"iconPers": "Dopglava_zveromat",
+			"description": "人間よ、おまえの運命は、すでに死の門をくぐった。この世が誕生した時、おまえの進む道はすでに決定づけられていた。忘却の影から、最古のデーモンたちとの戦いに通じているその道。沿って歩くと同時に、より多くの力強さを集めるその道。勝利を手にするには、この世のすべての強靭さが必要となるだろう！だからこそ、おまえは今、この聖地にたどり着いた。この聖地を侵入者から守るために、偉大なる戦士たちによって創られたこのズバーグスはおまえの前に道を開いた。ここへ足を踏み入れようとした者たちを殺した女家長を、おまえが打ち負かした。無知な者から秘密を守る運命の書であるこのわたしが、この知識を共有しよう - おまえが確実に、この場所の偉大な遺物を得ることができるように。このアーマーを持って、預言を実現し続けるのだ。",
+			"openPrice": {
+				"2": 50
+			},
+			"openCond": 738,
+			"elfs": false
+		},
+		"12": {
+			"id": 284,
+			"title": "チャプター 8ジャングルからのブレークスルー",
+			"bots": {
+				"1": {
+					"botId": "483",
+					"level": 36,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "484",
+					"level": 36,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "485",
+					"level": 37,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "486",
+					"level": 38,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "487",
+					"level": 38,
+					"isBoss": false
+				},
+				"6": {
+					"botId": "488",
+					"level": 39,
+					"isBoss": false
+				},
+				"7": {
+					"botId": "490",
+					"level": 40,
+					"isBoss": false
+				},
+				"8": {
+					"botId": "489",
+					"level": 40,
+					"isBoss": true
+				}
+			},
+			"mapId": 12,
+			"3dMap": 10,
+			"periodRespawn": 600,
+			"probRespawn": 30,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "1170;400",
+			"coordIconM": "1170;400",
+			"coordIconMobs": "1220;400",
+			"coordIconChest": "1195;450",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 100,
+			"openAfter": 282,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 606,
+					"prob": 100
+				}
+			},
+			"bonus": 666,
+			"iconPers": "glava8_NPC",
+			"description": "わたしがこのアマゾンの女王、アニアスアン。いいえ、前女王と言うべきかも…死者の地で巨大な炎が束縛を逃れ、うなり声が全世界を揺るがした時、アマゾンに住む者の多くは理性を失った。お互いの仲間を攻撃し始め、動物たちは狂暴になった。寺院は破壊され、住む場所すらも失った。つまりわたしは、王国なき君主…ところで、あなたは何者？あなたがズバーグスに触れられることなく、彼らの地を通って到着したのを、アマゾンの住民は見ました。あなたは、何かが違う。あなたの行き先がどこかは考えたくもない - ジャングルを越えれば、そこには死者の地があるのみ。そこへの道は、生命を受け入れない。あなたの勇敢さに敬意を表し、この弾薬を与えましょう。",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": false,
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"13": {
+			"id": 285,
+			"title": "チャプター 9目標まであと少し",
+			"bots": {
+				"1": {
+					"botId": "498",
+					"level": 41,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "497",
+					"level": 42,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "375",
+					"level": 43,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "496",
+					"level": 44,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "495",
+					"level": 45,
+					"isBoss": false
+				},
+				"6": {
+					"botId": "494",
+					"level": 45,
+					"isBoss": true
+				}
+			},
+			"mapId": 13,
+			"3dMap": 3,
+			"periodRespawn": 600,
+			"probRespawn": 30,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "1470;200",
+			"coordIconM": "1470;200",
+			"coordIconMobs": "1520;200",
+			"coordIconChest": "1495;250",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 100,
+			"openAfter": 284,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 606,
+					"prob": 100
+				}
+			},
+			"bonus": 667,
+			"iconPers": "glava9_NPC",
+			"description": "最後の死体ってわけだ、辺りを見回してみろ。決して古くない絞首台に目が行くはずだ。最も近い梁からぶら下がっている体がある。ポケットの中を探ると、鍵を開けるピックロックがたくさんある。どうやらこいつは、他人の家財から利益を得ることを恥じなかった生き方をしていたようだな。",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": true,
+			"minVersion": null,
+			"maxVersion": null,
+			"isCave": false,
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"14": {
+			"id": 286,
+			"title": "チャプター 10ソブリングの復讐",
+			"bots": {
+				"1": {
+					"botId": "492",
+					"level": 55,
+					"isBoss": true
+				}
+			},
+			"mapId": 14,
+			"3dMap": 3,
+			"periodRespawn": 0,
+			"probRespawn": 0,
+			"respawnMax": 0,
+			"killsCount": 0,
+			"killPeriod": 0,
+			"coordIconZ": "1700;230",
+			"coordIconM": "1700;230",
+			"coordIconMobs": "1760;230",
+			"coordIconChest": "",
+			"populationPeriod": 0,
+			"populationPointsUp": 0,
+			"populationMax": 0,
+			"moneyPeriod": 0,
+			"moneyPerPerson": 0,
+			"moneyMax": 0,
+			"openAfter": 285,
+			"openAfterAlt": null,
+			"miniBoss": false,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 595,
+					"prob": 100
+				}
+			},
+			"bonus": 612,
+			"iconPers": "glava10_NPC",
+			"description": "ごきげんよう、無敵のソブリングを破ったスコーピオン！わたくしはラエア・レイテン、あなたが救ったラドウェイ島の皇后です。あなたのこと、そしてその偉大なる功績は永遠に忘れません！ただ、ソブリングが死んでも話は終わりではありません。あやつが自分で目覚められたはずはない。だが一体誰が助けたのかは分からない。たとえやつらが死んでいるとしても、所在を突き止めるためならなんでもしましょう。ただ実際のところ、あなたの助けなしでは不可能でしょう。運命はこの巨大な物語の一部にあなたを取り入れた。わたくしはただ、あなたが皇后を拒絶しないことを望みます。人間の力をはるかに上回る強さを持つ生物が、存在するのですから。やつらと戦えるのは、神に近い能力を備えた英雄だけでしょう。ゆえに、あなたの手助けを頼りにしているのです。あなたの決意をより固めるため、このガントレットを差し上げましょう。",
+			"openPrice": {
+			},
+			"openCond": null,
+			"elfs": false
+		},
+		"15": {
+			"id": 287,
+			"title": "追加チャプターシルビオンの悲劇",
+			"bots": {
+				"1": {
+					"botId": "394",
+					"level": 37,
+					"isBoss": true
+				}
+			},
+			"mapId": 15,
+			"3dMap": 4,
+			"periodRespawn": 0,
+			"probRespawn": 0,
+			"respawnMax": 0,
+			"killsCount": 0,
+			"killPeriod": 0,
+			"coordIconZ": "720;260",
+			"coordIconM": "720;260",
+			"coordIconMobs": "780;260",
+			"coordIconChest": "",
+			"populationPeriod": 0,
+			"populationPointsUp": 0,
+			"populationMax": 0,
+			"moneyPeriod": 0,
+			"moneyPerPerson": 0,
+			"moneyMax": 0,
+			"openAfter": 236,
+			"openAfterAlt": null,
+			"miniBoss": true,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 595,
+					"prob": 100
+				}
+			},
+			"bonus": 607,
+			"iconPers": "NPC_Silvion_branendal",
+			"description": "俺のトカゲをやっつけたのはどいつだ？人だと？そんなバカな、まさか人間にできるとは信じがたい…これらも人間の領域とされるのであれば、この世は変化を遂げたと言える。前途には大いなる未来が待っているだろう。おまえはまるで神のよう… これ以上もう言葉は見当たらない！ただ、俺のトカゲがかわいそうで…俺がブラックタワーを支えていた間だって、長い間俺に仕えて守ってくれたんだ。まるで野生の犬みたいに俺を攻撃してくるなんて、誰が思うものか。助けてくれたお礼に、このヘルメットを受け取ってくれ。若い頃にそれを身につけては、神をイラつかせたものだ。きっとおまえの役に立つだろう。",
+			"openPrice": {
+				"2": 30
+			},
+			"openCond": 739,
+			"elfs": false
+		},
+		"16": {
+			"id": 1181,
+			"title": "追加チャプター荒れ果てた墓地",
+			"bots": {
+				"1": {
+					"botId": "498",
+					"level": 19,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "373",
+					"level": 20,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "497",
+					"level": 21,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "1189",
+					"level": 22,
+					"isBoss": true
+				}
+			},
+			"mapId": 16,
+			"3dMap": 3,
+			"periodRespawn": 600,
+			"probRespawn": 20,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "370;960",
+			"coordIconM": "370;960",
+			"coordIconMobs": "420;960",
+			"coordIconChest": "395;1010",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 70,
+			"openAfter": 276,
+			"openAfterAlt": null,
+			"miniBoss": true,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 593,
+					"prob": 100
+				}
+			},
+			"bonus": 1230,
+			"iconPers": "",
+			"openPrice": {
+				"2": 10
+			},
+			"openCond": 763,
+			"elfs": true,
+			"minVersion": "1.2",
+			"maxVersion": null,
+			"isCave": false,
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		},
+		"17": {
+			"id": 1182,
+			"title": "追加チャプター。厳しい試練",
+			"bots": {
+				"1": {
+					"botId": "1188",
+					"level": 31,
+					"isBoss": true,
+					"minVersion": "1.2"
+				},
+				"2": {
+					"botId": "1188",
+					"level": 34,
+					"isBoss": true,
+					"minVersion": "1.2"
+				},
+				"3": {
+					"botId": "1188",
+					"level": 38,
+					"isBoss": true,
+					"minVersion": "1.2"
+				},
+				"4": {
+					"botId": "1190",
+					"level": 41,
+					"isBoss": true,
+					"minVersion": "1.2"
+				},
+				"5": {
+					"botId": "1190",
+					"level": 46,
+					"isBoss": true,
+					"minVersion": "1.2"
+				},
+				"6": {
+					"botId": "1190",
+					"level": 49,
+					"isBoss": true,
+					"minVersion": "1.2"
+				},
+				"7": {
+					"botId": "1191",
+					"level": 53,
+					"isBoss": true,
+					"minVersion": "1.2"
+				}
+			},
+			"mapId": 17,
+			"3dMap": 8,
+			"periodRespawn": 0,
+			"probRespawn": 0,
+			"respawnMax": 0,
+			"killsCount": 0,
+			"killPeriod": 0,
+			"coordIconZ": "1500;710",
+			"coordIconM": "1500;710",
+			"coordIconMobs": "1550;710",
+			"coordIconChest": "1525;760",
+			"populationPeriod": 0,
+			"populationPointsUp": 0,
+			"populationMax": 0,
+			"moneyPeriod": 0,
+			"moneyPerPerson": 0,
+			"moneyMax": 0,
+			"openAfter": 280,
+			"openAfterAlt": null,
+			"miniBoss": true,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 606,
+					"prob": 100
+				}
+			},
+			"bonus": 1199,
+			"iconPers": "",
+			"openPrice": {
+				"2": 30
+			},
+			"openCond": 1192,
+			"elfs": true,
+			"minVersion": "1.2",
+			"maxVersion": null
+		},
+		"998": {
+			"id": 1862,
+			"title": "追加チャプター：トッパーバロウ",
+			"bots": {
+				"1": {
+					"botId": "1863",
+					"level": 13,
+					"isBoss": false
+				},
+				"2": {
+					"botId": "1864",
+					"level": 14,
+					"isBoss": false
+				},
+				"3": {
+					"botId": "1865",
+					"level": 16,
+					"isBoss": false
+				},
+				"4": {
+					"botId": "1866",
+					"level": 17,
+					"isBoss": false
+				},
+				"5": {
+					"botId": "1867",
+					"level": 18,
+					"isBoss": true
+				}
+			},
+			"mapId": 998,
+			"3dMap": 4,
+			"periodRespawn": 600,
+			"probRespawn": 20,
+			"respawnMax": 1,
+			"killsCount": 1,
+			"killPeriod": 120,
+			"coordIconZ": "650;570",
+			"coordIconM": "650;570",
+			"coordIconMobs": "700;570",
+			"coordIconChest": "675;620",
+			"populationPeriod": 180,
+			"populationPointsUp": 1,
+			"populationMax": 10,
+			"moneyPeriod": 60,
+			"moneyPerPerson": 1,
+			"moneyMax": 60,
+			"openAfter": 236,
+			"openAfterAlt": null,
+			"miniBoss": true,
+			"superBoss": false,
+			"chests": {
+				"1": {
+					"chest": 593,
+					"prob": 100
+				}
+			},
+			"bonus": 1918,
+			"iconPers": "",
+			"openPrice": {
+				"2": 15
+			},
+			"openCond": 1922,
+			"elfs": true,
+			"minVersion": "2.1",
+			"maxVersion": null,
+			"isCave": false,
+			"caveGCoord": "",
+			"caveLCoord": "",
+			"caveD": ""
+		}
+	}
+}

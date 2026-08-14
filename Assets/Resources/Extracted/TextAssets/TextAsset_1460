@@ -1,0 +1,1165 @@
+{
+	"achievements": {
+		"847": {
+			"id": 847,
+			"order": 0,
+			"title": "По колено в трясине",
+			"info": "Завершите главу \"Негостеприимное болото\"",
+			"image": "",
+			"condition": {
+				"location": 236,
+				"choice": "test1"
+			},
+			"points": 2
+		},
+		"850": {
+			"id": 850,
+			"order": 0,
+			"title": "Пещерный человек",
+			"info": "Завершите главу \"Опасный путь через пещеры\"",
+			"image": "",
+			"condition": {
+				"location": 276,
+				"choice": "test1"
+			},
+			"points": 4
+		},
+		"851": {
+			"id": 851,
+			"order": 0,
+			"title": "Город в осаде",
+			"info": "Завершите главу \"Под стенами Бранендаля\"",
+			"image": "",
+			"condition": {
+				"location": 277,
+				"choice": "test1"
+			},
+			"points": 7
+		},
+		"852": {
+			"id": 852,
+			"order": 0,
+			"title": "50/50",
+			"info": "Завершите главу \"На полпути к цели\"",
+			"image": "",
+			"condition": {
+				"location": 278,
+				"choice": "test1"
+			},
+			"points": 9
+		},
+		"853": {
+			"id": 853,
+			"order": 0,
+			"title": "Песчаная буря",
+			"info": "Завершите главу \"По колено в песке\"",
+			"image": "",
+			"condition": {
+				"location": 280,
+				"choice": "test1"
+			},
+			"points": 12
+		},
+		"854": {
+			"id": 854,
+			"order": 0,
+			"title": "Дикие племена",
+			"info": "Завершите главу \"Деревня звергов\"",
+			"image": "",
+			"condition": {
+				"location": 282,
+				"choice": "test1"
+			},
+			"points": 14
+		},
+		"855": {
+			"id": 855,
+			"order": 0,
+			"title": "Тропический рай",
+			"info": "Завершите главу \"Прорыв через джунгли\"",
+			"image": "",
+			"condition": {
+				"location": 284,
+				"choice": "test1"
+			},
+			"points": 15
+		},
+		"856": {
+			"id": 856,
+			"order": 0,
+			"title": "Ни жив ни мертв",
+			"info": "Завершите главу \"В шаге от цели\"",
+			"image": "",
+			"condition": {
+				"location": 285,
+				"choice": "test1"
+			},
+			"points": 18
+		},
+		"857": {
+			"id": 857,
+			"order": 0,
+			"title": "Джаггернаут",
+			"info": "Завершите главу \"Месть Соверинга\"",
+			"image": "",
+			"condition": {
+				"location": 286,
+				"choice": "test1"
+			},
+			"points": 20
+		},
+		"858": {
+			"id": 858,
+			"order": 0,
+			"title": "Wanted!",
+			"info": "Получите доступ к дополнительной главе \"Старая шахта\"",
+			"image": "",
+			"condition": {
+				"location": 275,
+				"choice": "test2"
+			},
+			"points": 2,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"859": {
+			"id": 859,
+			"order": 0,
+			"title": "Bounty Hunter",
+			"info": "Завершите дополнительную главу \"Старая шахта\"",
+			"image": "",
+			"condition": {
+				"location": 275,
+				"choice": "test1"
+			},
+			"points": 4,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"860": {
+			"id": 860,
+			"order": 0,
+			"title": "Земноводное",
+			"info": "Получите доступ к дополнительной главе \"Трагедия Сильвиона\"",
+			"image": "",
+			"condition": {
+				"location": 287,
+				"choice": "test2"
+			},
+			"points": 8
+		},
+		"861": {
+			"id": 861,
+			"order": 0,
+			"title": "Dragon Slayer",
+			"info": "Завершите дополнительную главу \"Трагедия Сильвиона\"",
+			"image": "",
+			"condition": {
+				"location": 287,
+				"choice": "test1"
+			},
+			"points": 18
+		},
+		"862": {
+			"id": 862,
+			"order": 0,
+			"title": "Скотобойня",
+			"info": "Получите доступ к дополнительной главе \"В тени демонического дуба\"",
+			"image": "",
+			"condition": {
+				"location": 279,
+				"choice": "test2"
+			},
+			"points": 8
+		},
+		"863": {
+			"id": 863,
+			"order": 0,
+			"title": "Мясник",
+			"info": "Завершите дополнительную главу \"В тени демонического дуба\"",
+			"image": "",
+			"condition": {
+				"location": 279,
+				"choice": "test1"
+			},
+			"points": 10
+		},
+		"864": {
+			"id": 864,
+			"order": 0,
+			"title": "Это мираж?",
+			"info": "Получите доступ к дополнительной главе \"Живительный источник\"",
+			"image": "",
+			"condition": {
+				"location": 281,
+				"choice": "test2"
+			},
+			"points": 10
+		},
+		"865": {
+			"id": 865,
+			"order": 0,
+			"title": "Демон песков",
+			"info": "Завершите дополнительную главу \"Живительный источник\"",
+			"image": "",
+			"condition": {
+				"location": 281,
+				"choice": "test1"
+			},
+			"points": 14
+		},
+		"866": {
+			"id": 866,
+			"order": 0,
+			"title": "Древние руины",
+			"info": "Получите доступ к дополнительной главе \"Тайное святилище\"",
+			"image": "",
+			"condition": {
+				"location": 283,
+				"choice": "test2"
+			},
+			"points": 15
+		},
+		"867": {
+			"id": 867,
+			"order": 0,
+			"title": "Зверомать",
+			"info": "Завершите дополнительную главу \"Тайное святилище\"",
+			"image": "",
+			"condition": {
+				"location": 283,
+				"choice": "test1"
+			},
+			"points": 18
+		},
+		"868": {
+			"id": 868,
+			"order": 0,
+			"title": "Ученик",
+			"info": "Получите 5 уровень",
+			"image": "",
+			"condition": {
+				"level": 5,
+				"choice": "test3"
+			},
+			"points": 3
+		},
+		"869": {
+			"id": 869,
+			"order": 0,
+			"title": "Мастер",
+			"info": "Получите 10 уровень",
+			"image": "",
+			"condition": {
+				"level": 10,
+				"choice": "test3"
+			},
+			"points": 5
+		},
+		"870": {
+			"id": 870,
+			"order": 0,
+			"title": "Гранд-мастер",
+			"info": "Получите 15 уровень",
+			"image": "",
+			"condition": {
+				"level": 15,
+				"choice": "test3"
+			},
+			"points": 9
+		},
+		"871": {
+			"id": 871,
+			"order": 0,
+			"title": "Великий воин",
+			"info": "Получите 20 уровень",
+			"image": "",
+			"condition": {
+				"level": 20,
+				"choice": "test3"
+			},
+			"points": 15
+		},
+		"872": {
+			"id": 872,
+			"order": 0,
+			"title": "Непревзойденный воин",
+			"info": "Получите 25 уровень",
+			"image": "",
+			"condition": {
+				"level": 25,
+				"choice": "test3"
+			},
+			"points": 18
+		},
+		"873": {
+			"id": 873,
+			"order": 0,
+			"title": "Легендарный воин",
+			"info": "Получите 30 уровень",
+			"image": "",
+			"condition": {
+				"level": 30,
+				"choice": "test3"
+			},
+			"points": 20
+		},
+		"874": {
+			"id": 874,
+			"order": 0,
+			"title": "Аколит",
+			"info": "Изучите новую школу магии",
+			"image": "",
+			"condition": {
+				"number": 2,
+				"choice": "test4"
+			},
+			"points": 15
+		},
+		"875": {
+			"id": 875,
+			"order": 0,
+			"title": "Повелитель стихий",
+			"info": "Изучить по одному заклинанию всех школ магии",
+			"image": "",
+			"condition": {
+				"choice": "test5"
+			},
+			"points": 17
+		},
+		"876": {
+			"id": 876,
+			"order": 0,
+			"title": "Чародей",
+			"info": "Развить любое заклинание до максимального уровня",
+			"image": "",
+			"condition": {
+				"choice": "test6"
+			},
+			"points": 15
+		},
+		"877": {
+			"id": 877,
+			"order": 0,
+			"title": "Палач",
+			"info": "Совершите Казнь",
+			"image": "",
+			"condition": {
+				"number": 1,
+				"choice": "test24"
+			},
+			"points": 3
+		},
+		"878": {
+			"id": 878,
+			"order": 0,
+			"title": "Серийный убийца",
+			"info": "Совершите 10 Казней",
+			"image": "",
+			"condition": {
+				"number": 10,
+				"choice": "test24"
+			},
+			"points": 10
+		},
+		"879": {
+			"id": 879,
+			"order": 0,
+			"title": "Магическая эманация",
+			"info": "Соберите 300 сгустков маны",
+			"image": "",
+			"condition": {
+				"number": 300,
+				"choice": "test7"
+			},
+			"points": 4
+		},
+		"880": {
+			"id": 880,
+			"order": 0,
+			"title": "Берсерк",
+			"info": "Соберите 100 сгустков ярости",
+			"image": "",
+			"condition": {
+				"number": 100,
+				"choice": "test8"
+			},
+			"points": 5
+		},
+		"881": {
+			"id": 881,
+			"order": 0,
+			"title": "Не смотри на меня!",
+			"info": "Прогоните Око Хаоса 50 раз",
+			"image": "",
+			"condition": {
+				"count": 50,
+				"choice": "test9"
+			},
+			"points": 7
+		},
+		"882": {
+			"id": 882,
+			"order": 0,
+			"title": "Взломщик",
+			"info": "Взломайте 6 средних замков",
+			"image": "",
+			"condition": {
+				"type": "normal",
+				"number": 6,
+				"choice": "test10"
+			},
+			"points": 14
+		},
+		"883": {
+			"id": 883,
+			"order": 0,
+			"title": "Медвежатник",
+			"info": "Взломайте 6 сложных замков",
+			"image": "",
+			"condition": {
+				"type": "hard",
+				"number": 6,
+				"choice": "test10"
+			},
+			"points": 17
+		},
+		"884": {
+			"id": 884,
+			"order": 0,
+			"title": "Мне это не нужно",
+			"info": "Взломайте простой замок, не используя отмычки",
+			"image": "",
+			"condition": {
+				"type": "easy",
+				"count": 1,
+				"choice": "test11"
+			},
+			"points": 5
+		},
+		"885": {
+			"id": 885,
+			"order": 0,
+			"title": "Я могу делать это с закрытыми глазами",
+			"info": "Взломайте средний замок, не используя отмычки ",
+			"image": "",
+			"condition": {
+				"type": "normal",
+				"count": 1,
+				"choice": "test11"
+			},
+			"points": 13
+		},
+		"886": {
+			"id": 886,
+			"order": 0,
+			"title": "Следопыт",
+			"info": "Увернитесь от 10 магических атак \"Повтори последовательность шагов\"",
+			"image": "",
+			"condition": {
+				"type": "strong",
+				"count": 10,
+				"choice": "test12"
+			},
+			"points": 4
+		},
+		"887": {
+			"id": 887,
+			"order": 0,
+			"title": "Черная магия",
+			"info": "Увернитесь от 10 магических атак \"Собери черную ману\"",
+			"image": "",
+			"condition": {
+				"type": "weak",
+				"count": 10,
+				"choice": "test12"
+			},
+			"points": 4
+		},
+		"888": {
+			"id": 888,
+			"order": 0,
+			"title": "Лед и Пламя",
+			"info": "За один бой атакуйте врага двумя разными магическими атаками",
+			"image": "",
+			"condition": {
+				"count": 1,
+				"choice": "test13"
+			},
+			"points": 11
+		},
+		"889": {
+			"id": 889,
+			"order": 0,
+			"title": "Мастер нападения",
+			"info": "10 раз используйте способность \"Критический удар\"",
+			"image": "",
+			"condition": {
+				"type": "crit",
+				"count": 10,
+				"choice": "test14"
+			},
+			"points": 9
+		},
+		"890": {
+			"id": 890,
+			"order": 0,
+			"title": "Мастер защиты",
+			"info": "20 раз используйте способность \"Блок\"",
+			"image": "",
+			"condition": {
+				"type": "block",
+				"count": 20,
+				"choice": "test14"
+			},
+			"points": 3
+		},
+		"891": {
+			"id": 891,
+			"order": 0,
+			"title": "Богатырь",
+			"info": "5 раз используйте способность \"Усиление\"",
+			"image": "",
+			"condition": {
+				"type": "strong",
+				"count": 5,
+				"choice": "test14"
+			},
+			"points": 15
+		},
+		"892": {
+			"id": 892,
+			"order": 0,
+			"title": "Смертоносное зелье",
+			"info": "5 раз отравите врага во время боя",
+			"image": "",
+			"condition": {
+				"count": 5,
+				"choice": "test15"
+			},
+			"points": 12
+		},
+		"893": {
+			"id": 893,
+			"order": 0,
+			"title": "На последнем дыхании",
+			"info": "Выиграйте бой с НР < 5%",
+			"image": "",
+			"condition": {
+				"percent": 5,
+				"choice": "test17"
+			},
+			"points": 9
+		},
+		"894": {
+			"id": 894,
+			"order": 0,
+			"title": "Ни царапины",
+			"info": "Выиграйте бой с НР > 95%",
+			"image": "",
+			"condition": {
+				"percent": 95,
+				"choice": "test16"
+			},
+			"points": 12
+		},
+		"895": {
+			"id": 895,
+			"order": 0,
+			"title": "Богач",
+			"info": "Заработайте 5000 золотых",
+			"image": "",
+			"condition": {
+				"amount": 5000,
+				"choice": "test18"
+			},
+			"points": 10
+		},
+		"896": {
+			"id": 896,
+			"order": 0,
+			"title": "Защитник слабых",
+			"info": "Убейте 5 диких монстров, напавших на захваченную локацию",
+			"image": "",
+			"condition": {
+				"number": 5,
+				"choice": "test19"
+			},
+			"points": 5
+		},
+		"897": {
+			"id": 897,
+			"order": 0,
+			"title": "Полезные инструменты",
+			"info": "Купите в магазине отмычки",
+			"image": "",
+			"condition": {
+				"item": 626,
+				"choice": "test20"
+			},
+			"points": 8
+		},
+		"898": {
+			"id": 898,
+			"order": 0,
+			"title": "Жажда обучения",
+			"info": "Купите в магазине магические черепа",
+			"image": "",
+			"condition": {
+				"item": 714,
+				"choice": "test20"
+			},
+			"points": 12
+		},
+		"899": {
+			"id": 899,
+			"order": 0,
+			"title": "Новичок кладоискатель",
+			"info": "Откопайте сундук",
+			"image": "",
+			"condition": {
+				"number": 1,
+				"choice": "test21"
+			},
+			"points": 3
+		},
+		"900": {
+			"id": 900,
+			"order": 0,
+			"title": "Сколько их тут?",
+			"info": "Откопайте 5 сундуков",
+			"image": "",
+			"condition": {
+				"number": 5,
+				"choice": "test21"
+			},
+			"points": 8
+		},
+		"901": {
+			"id": 901,
+			"order": 0,
+			"title": "Любитель кладоискатель",
+			"info": "Откопайте 20 сундуков",
+			"image": "",
+			"condition": {
+				"number": 20,
+				"choice": "test21"
+			},
+			"points": 14
+		},
+		"902": {
+			"id": 902,
+			"order": 0,
+			"title": "Профессионал кладоискатель",
+			"info": "Откопайте 50 сундуков",
+			"image": "",
+			"condition": {
+				"number": 50,
+				"choice": "test21"
+			},
+			"points": 16
+		},
+		"903": {
+			"id": 903,
+			"order": 0,
+			"title": "Алчное насекомое",
+			"info": "Купите скарабея в магазине ",
+			"image": "",
+			"condition": {
+				"item": 822,
+				"choice": "test20"
+			},
+			"points": 8
+		},
+		"904": {
+			"id": 904,
+			"order": 0,
+			"title": "Как он сюда заполз?",
+			"info": "Найдите скарабея в дропе",
+			"image": "",
+			"condition": {
+				"item": 822,
+				"count": 1,
+				"choice": "test22"
+			},
+			"points": 3
+		},
+		"905": {
+			"id": 905,
+			"order": 0,
+			"title": "Вот кто их закапывает!",
+			"info": "Победите ночную эльфийку",
+			"image": "",
+			"condition": {
+				"count": 1,
+				"choice": "test23"
+			},
+			"points": 5
+		},
+		"906": {
+			"id": 906,
+			"order": 0,
+			"title": "Гроза остроухих",
+			"info": "Победите 5 ночных эльфиек",
+			"image": "",
+			"condition": {
+				"count": 5,
+				"choice": "test23"
+			},
+			"points": 15
+		},
+		"999": {
+			"id": 999,
+			"order": 0,
+			"title": "Ты пьян?",
+			"info": "Промахнитесь по врагу 10 раз в одном бою",
+			"image": "",
+			"condition": {
+				"count": 10,
+				"choice": "test25"
+			},
+			"points": 5
+		},
+		"1000": {
+			"id": 1000,
+			"order": 0,
+			"title": "Чудесное исцеление",
+			"info": "Используйте 3 эликсира здоровья в одном бою",
+			"image": "",
+			"condition": {
+				"number": 3,
+				"choice": "test26"
+			},
+			"points": 7
+		},
+		"1001": {
+			"id": 1001,
+			"order": 0,
+			"title": "Шквал",
+			"info": "Используйте 3 орба усиления в одном бою",
+			"image": "",
+			"condition": {
+				"number": 3,
+				"choice": "test27"
+			},
+			"points": 4
+		},
+		"1002": {
+			"id": 1002,
+			"order": 0,
+			"title": "Ядовитый плющ",
+			"info": "Используйте 3 боеприпаса отравления в одном бою",
+			"image": "",
+			"condition": {
+				"count": 3,
+				"choice": "test44"
+			},
+			"points": 10
+		},
+		"1003": {
+			"id": 1003,
+			"order": 0,
+			"title": "Великий комбинатор",
+			"info": "Совершите 3 комбо-удара в одном бою",
+			"image": "",
+			"condition": {
+				"count": 3,
+				"choice": "test28"
+			},
+			"points": 15
+		},
+		"1004": {
+			"id": 1004,
+			"order": 0,
+			"title": "Левша",
+			"info": "Победите врага, нанося только удары слева",
+			"image": "",
+			"condition": {
+				"choice": "test29"
+			},
+			"points": 5
+		},
+		"1005": {
+			"id": 1005,
+			"order": 0,
+			"title": "Облако маны",
+			"info": "Во время боя выбейте 10 сгустков маны, но ни один не соберите ",
+			"image": "",
+			"condition": {
+				"number": 10,
+				"choice": "test30"
+			},
+			"points": 3
+		},
+		"1006": {
+			"id": 1006,
+			"order": 0,
+			"title": "Непробиваемый",
+			"info": "Поставьте блок 10 раз в одном бою",
+			"image": "",
+			"condition": {
+				"count": 10,
+				"choice": "test43"
+			},
+			"points": 8
+		},
+		"1007": {
+			"id": 1007,
+			"order": 0,
+			"title": "Окулист",
+			"info": "Уничтожьте Око Хаоса 5 раз в одном бою",
+			"image": "",
+			"condition": {
+				"count": 5,
+				"choice": "test42"
+			},
+			"points": 4
+		},
+		"1008": {
+			"id": 1008,
+			"order": 0,
+			"title": "Самообладание",
+			"info": "Во время боя позвольте врагу выбить 5 сгустков ярости, но ни один не соберите",
+			"image": "",
+			"condition": {
+				"number": 5,
+				"choice": "test31"
+			},
+			"points": 4,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1009": {
+			"id": 1009,
+			"order": 0,
+			"title": "Соблазн велик",
+			"info": "Начните бой с полностью заполненными шкалами магии и ярости и выиграйте бой, не используя ни магию, ни ярость",
+			"image": "",
+			"condition": {
+				"choice": "test32"
+			},
+			"points": 15
+		},
+		"1010": {
+			"id": 1010,
+			"order": 0,
+			"title": "Перенасыщение",
+			"info": "В одном бою, имея полностью заполненную шкалу маны, соберите 5 сгустков маны",
+			"image": "",
+			"condition": {
+				"number": 5,
+				"choice": "test33"
+			},
+			"points": 4
+		},
+		"1011": {
+			"id": 1011,
+			"order": 0,
+			"title": "Мой гнев не знает границ",
+			"info": "В одном бою, имея полностью заполненную шкалу ярости, соберите 3 сгустка ярости",
+			"image": "",
+			"condition": {
+				"number": 3,
+				"choice": "test34"
+			},
+			"points": 4,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1012": {
+			"id": 1012,
+			"order": 0,
+			"title": "Неконтролируемая агрессия",
+			"info": "В одном бою используйте все 3 способности на панели ярости",
+			"image": "",
+			"condition": {
+				"choice": "test35"
+			},
+			"points": 14
+		},
+		"1013": {
+			"id": 1013,
+			"order": 0,
+			"title": "Последняя капля",
+			"info": "Сделайте так, чтобы враг умер от отравления ядом",
+			"image": "",
+			"condition": {
+				"choice": "test36"
+			},
+			"points": 10
+		},
+		"1014": {
+			"id": 1014,
+			"order": 0,
+			"title": "Армия зомби",
+			"info": "7 раз воскресите врага с помощью Анка, но не приступайте к выполнению казни",
+			"image": "",
+			"condition": {
+				"count": 7,
+				"choice": "test37"
+			},
+			"points": 16
+		},
+		"1015": {
+			"id": 1015,
+			"order": 0,
+			"title": "Успокоение",
+			"info": "Позвольте Оку Хаоса похитить 10 единиц Вашей ярости в одном бою ",
+			"image": "",
+			"condition": {
+				"number": 10,
+				"choice": "test38"
+			},
+			"points": 3
+		},
+		"1016": {
+			"id": 1016,
+			"order": 0,
+			"title": "Заблудившийся",
+			"info": "Враг должен убить Вас магической атакой в которой нужно повторить последовательность шагов",
+			"image": "",
+			"condition": {
+				"choice": "test39"
+			},
+			"points": 6
+		},
+		"1017": {
+			"id": 1017,
+			"order": 0,
+			"title": "Погружение во тьму",
+			"info": "Враг должен убить Вас магической атакой с использованием черных сгустков маны",
+			"image": "",
+			"condition": {
+				"choice": "test40"
+			},
+			"points": 6
+		},
+		"1018": {
+			"id": 1018,
+			"order": 0,
+			"title": "Благотворительность",
+			"info": "Выкопайте 10 сундуков и оставьте их на локациях",
+			"image": "",
+			"condition": {
+				"number": 10,
+				"choice": "test41"
+			},
+			"points": 15
+		},
+		"1019": {
+			"id": 1019,
+			"order": 0,
+			"title": "Эльфийский трофей",
+			"info": "Завладейте эльфийской реликвией - Граалем бессмертных",
+			"image": "",
+			"condition": {
+				"item": 304,
+				"count": 1,
+				"choice": "test22"
+			},
+			"points": 13
+		},
+		"1109": {
+			"id": 1109,
+			"order": 0,
+			"title": "И нет им конца",
+			"info": "Уничтожьте 50 врагов",
+			"image": "",
+			"condition": {
+				"count": 50,
+				"choice": "test45"
+			},
+			"points": 8
+		},
+		"1110": {
+			"id": 1110,
+			"order": 0,
+			"title": "Я герой!",
+			"info": "Уничтожьте 100 врагов",
+			"image": "",
+			"condition": {
+				"count": 100,
+				"choice": "test45"
+			},
+			"points": 14
+		},
+		"1111": {
+			"id": 1111,
+			"order": 0,
+			"title": "Боевой маг",
+			"info": "В бою используете магию 77 раз",
+			"image": "",
+			"condition": {
+				"count": 77,
+				"choice": "test46"
+			},
+			"points": 12
+		},
+		"1112": {
+			"id": 1112,
+			"order": 0,
+			"title": "Собиратель черепов",
+			"info": "Найдите в дропе 30 магических черепов",
+			"image": "",
+			"condition": {
+				"item": 714,
+				"count": 30,
+				"choice": "test22"
+			},
+			"points": 15
+		},
+		"1239": {
+			"id": 1239,
+			"order": 0,
+			"title": "Легендарный кузнец",
+			"info": "Создайте одну легендарную вещь.",
+			"image": "",
+			"condition": {
+				"choice": "test47"
+			},
+			"points": 15,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1240": {
+			"id": 1240,
+			"order": 0,
+			"title": "Мясорубка",
+			"info": "Получите рейтинг боя в 3 звезды.",
+			"image": "",
+			"condition": {
+				"number": 3,
+				"choice": "test48"
+			},
+			"points": 4,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1241": {
+			"id": 1241,
+			"order": 0,
+			"title": "Дикая бойня",
+			"info": "Получите рейтинг боя в 4 звезды.",
+			"image": "",
+			"condition": {
+				"number": 4,
+				"choice": "test48"
+			},
+			"points": 6,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1242": {
+			"id": 1242,
+			"order": 0,
+			"title": "Маньяк на свободе",
+			"info": "Получите максимальный рейтинг боя.",
+			"image": "",
+			"condition": {
+				"number": 5,
+				"choice": "test48"
+			},
+			"points": 10,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1265": {
+			"id": 1265,
+			"order": 0,
+			"title": "Детский экзорцист",
+			"info": "Завершите главу \"Недетское испытание\"",
+			"image": "",
+			"condition": {
+				"location": 1182,
+				"choice": "test1"
+			},
+			"points": 20,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1266": {
+			"id": 1266,
+			"order": 0,
+			"title": "Некромант",
+			"info": "Завершите главу \"Заброшенное кладбище\"",
+			"image": "",
+			"condition": {
+				"location": 1181,
+				"choice": "test1"
+			},
+			"points": 5,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1935": {
+			"id": 1935,
+			"order": 0,
+			"title": "Знакомство с Топрами",
+			"info": "Завершите главу \"Нора Топров\"",
+			"image": "",
+			"condition": {
+				"location": 1862,
+				"choice": "test1"
+			},
+			"points": 6,
+			"minVersion": "2.1",
+			"maxVersion": null
+		},
+		"1936": {
+			"id": 1936,
+			"order": 0,
+			"title": "Легенда о шахтере",
+			"info": "Соберите за одну игру в шахте 30000 очков",
+			"image": "",
+			"condition": {
+				"amount": 30000,
+				"choice": "test50"
+			},
+			"points": 14,
+			"minVersion": "2.1",
+			"maxVersion": null
+		},
+		"1937": {
+			"id": 1937,
+			"order": 0,
+			"title": "Перспективный взрыватель",
+			"info": "В трехцветной шахте за раз уничтожьте 10 блоков",
+			"image": "",
+			"condition": {
+				"number": 10,
+				"choice": "test49"
+			},
+			"points": 5,
+			"minVersion": "2.1",
+			"maxVersion": null
+		},
+		"1938": {
+			"id": 1938,
+			"order": 0,
+			"title": "Талантливый взрыватель",
+			"info": "В трехцветной шахте за раз уничтожьте 15 блоков",
+			"image": "",
+			"condition": {
+				"number": 15,
+				"choice": "test49"
+			},
+			"points": 8,
+			"minVersion": "2.1",
+			"maxVersion": null
+		},
+		"1939": {
+			"id": 1939,
+			"order": 0,
+			"title": "Возвращение бомбермена",
+			"info": "В трехцветной шахте за раз уничтожьте 20 блоков",
+			"image": "",
+			"condition": {
+				"number": 20,
+				"choice": "test49"
+			},
+			"points": 13,
+			"minVersion": "2.1",
+			"maxVersion": null
+		}
+	}
+}

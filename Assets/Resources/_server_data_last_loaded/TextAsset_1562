@@ -1,0 +1,1462 @@
+{
+	"phrases": {
+		"AchievDataHeader": {
+			"id": 937,
+			"code": "AchievDataHeader",
+			"text": "做得好，很精彩的战斗！^^不要忘记这些成就："
+		},
+		"AchievHeader": {
+			"id": 936,
+			"code": "AchievHeader",
+			"text": "你得到了成就："
+		},
+		"AchievSocialLabel": {
+			"id": 938,
+			"code": "AchievSocialLabel",
+			"text": "和朋友分享："
+		},
+		"AchievementsAll": {
+			"id": 943,
+			"code": "AchievementsAll",
+			"text": "全部"
+		},
+		"AchievementsLocked": {
+			"id": 944,
+			"code": "AchievementsLocked",
+			"text": "已锁上"
+		},
+		"AchievementsProgress": {
+			"id": 942,
+			"code": "AchievementsProgress",
+			"text": "一般成就进度"
+		},
+		"AchievementsRating": {
+			"id": 946,
+			"code": "AchievementsRating",
+			"text": "排名"
+		},
+		"AchievementsUnlocked": {
+			"id": 945,
+			"code": "AchievementsUnlocked",
+			"text": "已开啟"
+		},
+		"AchivsAll": {
+			"id": 918,
+			"code": "AchivsAll",
+			"text": "全部"
+		},
+		"AchivsDone": {
+			"id": 919,
+			"code": "AchivsDone",
+			"text": "已收到"
+		},
+		"AchivsRating": {
+			"id": 921,
+			"code": "AchivsRating",
+			"text": "排名"
+		},
+		"AchivsTotalProgress": {
+			"id": 917,
+			"code": "AchivsTotalProgress",
+			"text": "一般成就进度"
+		},
+		"AchivsUndone": {
+			"id": 920,
+			"code": "AchivsUndone",
+			"text": "未回收"
+		},
+		"AddFriendsMessage": {
+			"id": 1108,
+			"code": "AddFriendsMessage",
+			"text": "邀请朋友到 Game Center 比较分数。"
+		},
+		"AlertNoInternet": {
+			"id": 1115,
+			"code": "AlertNoInternet",
+			"text": "由於你未连线到网络，此功能不开放。"
+		},
+		"AvailableForMining": {
+			"id": 1951,
+			"code": "AvailableForMining"
+		},
+		"BagBag": {
+			"id": 247,
+			"code": "BagBag",
+			"text": "背包"
+		},
+		"BagDark": {
+			"id": 259,
+			"code": "BagDark",
+			"text": "暗 +{0}%"
+		},
+		"BagElixirs": {
+			"id": 254,
+			"code": "BagElixirs",
+			"text": "战斗药剂"
+		},
+		"BagEquipment": {
+			"id": 246,
+			"code": "BagEquipment",
+			"text": "装备"
+		},
+		"BagFire": {
+			"id": 257,
+			"code": "BagFire",
+			"text": "火 +{0}%"
+		},
+		"BagIce": {
+			"id": 256,
+			"code": "BagIce",
+			"text": "冰 +{0}%"
+		},
+		"BagLighting": {
+			"id": 258,
+			"code": "BagLighting",
+			"text": "雷 +{0}%"
+		},
+		"BagParams": {
+			"id": 248,
+			"code": "BagParams",
+			"text": "能力值"
+		},
+		"BagPoints": {
+			"id": 255,
+			"code": "BagPoints",
+			"text": "可分配的点数：{0}"
+		},
+		"BagResources": {
+			"id": 253,
+			"code": "BagResources",
+			"text": "资源"
+		},
+		"BagSwitchItems": {
+			"id": 842,
+			"code": "BagSwitchItems",
+			"text": "背包"
+		},
+		"BagSwitchParameters": {
+			"id": 841,
+			"code": "BagSwitchParameters",
+			"text": "能力值"
+		},
+		"Bank": {
+			"id": 809,
+			"code": "Bank",
+			"text": "银行"
+		},
+		"BankBonus": {
+			"id": 807,
+			"code": "BankBonus",
+			"text": "奖励"
+		},
+		"BankBuyDoneFail": {
+			"id": 993,
+			"code": "BankBuyDoneFail",
+			"text": "购买失败"
+		},
+		"BankBuyDoneSuccessfull": {
+			"id": 992,
+			"code": "BankBuyDoneSuccessfull",
+			"text": "购买成功"
+		},
+		"BankBuyError": {
+			"id": 959,
+			"code": "BankBuyError",
+			"text": "购买出错，请稍后再试。"
+		},
+		"BankCost": {
+			"id": 808,
+			"code": "BankCost",
+			"text": "价格"
+		},
+		"BankCount": {
+			"id": 806,
+			"code": "BankCount",
+			"text": "数量"
+		},
+		"BankTimeout": {
+			"id": 994,
+			"code": "BankTimeout",
+			"text": "正在处理你的交易。请稍等。"
+		},
+		"BankWaitMessage": {
+			"id": 991,
+			"code": "BankWaitMessage",
+			"text": "正在处理你的要求..."
+		},
+		"BattleAttack": {
+			"id": 264,
+			"code": "BattleAttack",
+			"text": "攻击"
+		},
+		"BattleLostStartOver": {
+			"id": 913,
+			"code": "BattleLostStartOver",
+			"text": "重新开始"
+		},
+		"BattleResultEtalon": {
+			"id": 1137,
+			"code": "BattleResultEtalon",
+			"text": "暴击次数："
+		},
+		"BattleResultRating": {
+			"id": 1138,
+			"code": "BattleResultRating",
+			"text": "战斗评价："
+		},
+		"BattleResultRatingName0": {
+			"id": 1139,
+			"code": "BattleResultRatingName0",
+			"text": "儿憘的战斗"
+		},
+		"BattleResultRatingName1": {
+			"id": 1140,
+			"code": "BattleResultRatingName1",
+			"text": "兇险的战斗"
+		},
+		"BattleResultRatingName2": {
+			"id": 1141,
+			"code": "BattleResultRatingName2",
+			"text": "杀得性起"
+		},
+		"BattleResultRatingName3": {
+			"id": 1142,
+			"code": "BattleResultRatingName3",
+			"text": "大杀特杀"
+		},
+		"BattleResultRatingName4": {
+			"id": 1143,
+			"code": "BattleResultRatingName4",
+			"text": "杀人狂出没！"
+		},
+		"BattleResultReal": {
+			"id": 1136,
+			"code": "BattleResultReal",
+			"text": "战斗结果："
+		},
+		"BattleResultTurnsCount": {
+			"id": 1144,
+			"code": "BattleResultTurnsCount",
+			"text": "{0} 撃"
+		},
+		"Bonuses": {
+			"id": 840,
+			"code": "Bonuses",
+			"text": "奖励："
+		},
+		"ButtonAddFriends": {
+			"id": 1107,
+			"code": "ButtonAddFriends",
+			"text": "增加朋友"
+		},
+		"ButtonBuy": {
+			"id": 459,
+			"code": "ButtonBuy",
+			"text": "购买"
+		},
+		"ButtonBuyAndPuton": {
+			"id": 460,
+			"code": "ButtonBuyAndPuton",
+			"text": "购买并装备"
+		},
+		"ButtonCancel": {
+			"id": 458,
+			"code": "ButtonCancel",
+			"text": "取消"
+		},
+		"ButtonClose": {
+			"id": 729,
+			"code": "ButtonClose",
+			"text": "关闭"
+		},
+		"ButtonContinue": {
+			"id": 464,
+			"code": "ButtonContinue",
+			"text": "继续"
+		},
+		"ButtonFight": {
+			"id": 462,
+			"code": "ButtonFight",
+			"text": "攻击"
+		},
+		"ButtonFullRating": {
+			"id": 1106,
+			"code": "ButtonFullRating",
+			"text": "总排名"
+		},
+		"ButtonGoToBag": {
+			"id": 511,
+			"code": "ButtonGoToBag",
+			"text": "放到背包"
+		},
+		"ButtonGoToShop": {
+			"id": 764,
+			"code": "ButtonGoToShop",
+			"text": "到商店"
+		},
+		"ButtonImprove": {
+			"id": 474,
+			"code": "ButtonImprove",
+			"text": "升级"
+		},
+		"ButtonMax": {
+			"id": 514,
+			"code": "ButtonMax",
+			"text": "最高"
+		},
+		"ButtonNo": {
+			"id": 466,
+			"code": "ButtonNo",
+			"text": "否"
+		},
+		"ButtonOk": {
+			"id": 457,
+			"code": "ButtonOk",
+			"text": "使用"
+		},
+		"ButtonPutoff": {
+			"id": 1193,
+			"code": "ButtonPutoff",
+			"text": "丢弃"
+		},
+		"ButtonPuton": {
+			"id": 501,
+			"code": "ButtonPuton",
+			"text": "装备"
+		},
+		"ButtonSell": {
+			"id": 461,
+			"code": "ButtonSell",
+			"text": "卖出"
+		},
+		"ButtonYes": {
+			"id": 465,
+			"code": "ButtonYes",
+			"text": "是"
+		},
+		"BuyFor": {
+			"id": 1952,
+			"code": "BuyFor"
+		},
+		"CastGestureHelp": {
+			"id": 450,
+			"code": "CastGestureHelp",
+			"text": "要放魔法，画出相应的魔法学派标誌就行。"
+		},
+		"ChooseCharBeginGame": {
+			"id": 839,
+			"code": "ChooseCharBeginGame",
+			"text": "开始游戏"
+		},
+		"ChooseCharFeature": {
+			"id": 939,
+			"code": "ChooseCharFeature",
+			"text": "特点："
+		},
+		"ChooseCharPreferences": {
+			"id": 838,
+			"code": "ChooseCharPreferences",
+			"text": "魔法"
+		},
+		"ChoosePrize": {
+			"id": 509,
+			"code": "ChoosePrize",
+			"text": "选择报酬："
+		},
+		"ChoosePrizeExecution": {
+			"id": 950,
+			"code": "ChoosePrizeExecution",
+			"text": "选择处决的额外报酬："
+		},
+		"CompareChosen": {
+			"id": 471,
+			"code": "CompareChosen",
+			"text": "已选择"
+		},
+		"ComparePuton": {
+			"id": 472,
+			"code": "ComparePuton",
+			"text": "已装备"
+		},
+		"CompareSellItem": {
+			"id": 949,
+			"code": "CompareSellItem",
+			"text": "你确定要以 {0} 的价格卖出这件物品？"
+		},
+		"ConditionBlocks": {
+			"id": 743,
+			"code": "ConditionBlocks",
+			"text": "挡格 {1} 次并战胜对手"
+		},
+		"ConditionCritsInRow": {
+			"id": 746,
+			"code": "ConditionCritsInRow",
+			"text": "连续打出 {1} 次暴撃并战胜对手"
+		},
+		"ConditionFatalities": {
+			"id": 745,
+			"code": "ConditionFatalities",
+			"text": "执行处决 {0} 次"
+		},
+		"ConditionKills": {
+			"id": 747,
+			"code": "ConditionKills",
+			"text": "在敌人的生命值少於 {1} 时击到他"
+		},
+		"ConditionMagicCast": {
+			"id": 1927,
+			"code": "ConditionMagicCast",
+			"text": "在一場戰鬥中，使用魔法 {0} 次或以上"
+		},
+		"ConditionNoMisses": {
+			"id": 742,
+			"code": "ConditionNoMisses",
+			"text": "在战斗中完全命中敌人 ^^ (敌人不能挡格或回避)"
+		},
+		"ConditionWinWithHP": {
+			"id": 744,
+			"code": "ConditionWinWithHP",
+			"text": "在生命值少於 {1}%的情況下戰勝對手"
+		},
+		"DarkElfName": {
+			"id": 1067,
+			"code": "DarkElfName",
+			"text": "黑暗精灵"
+		},
+		"DealOfTheDay": {
+			"id": 1962,
+			"code": "DealOfTheDay"
+		},
+		"DefeatGoodsHeader": {
+			"id": 988,
+			"code": "DefeatGoodsHeader",
+			"text": "要战无不胜，就要记得升级武器："
+		},
+		"ElfPhrase1": {
+			"id": 1064,
+			"code": "ElfPhrase1",
+			"text": "可恶的人类！这裡个宝库是我们黑暗精灵的，我负责守护这裡，不会让任何人碰它们。快走，否则我就把你碎尸万段！"
+		},
+		"ElfPhrase2": {
+			"id": 1071,
+			"code": "ElfPhrase2",
+			"text": "如果你认為我会让你再多开一个我们的宝库，那你就大错特错了。我一剑就可以杀你了！滚！"
+		},
+		"EpicItemInfo": {
+			"id": 1267,
+			"code": "EpicItemInfo",
+			"text": "这件盔甲可以升级到传奇级，利用战斗得到的传奇点数就可以升级。"
+		},
+		"ExCongratText1": {
+			"id": 793,
+			"code": "ExCongratText1",
+			"text": "你开啟了额外章节。"
+		},
+		"ExCongratText2": {
+			"id": 794,
+			"code": "ExCongratText2",
+			"text": "透过地图去到。"
+		},
+		"ExLootLabel": {
+			"id": 728,
+			"code": "ExLootLabel",
+			"text": "完成章节的奖励"
+		},
+		"ExOpenButton": {
+			"id": 727,
+			"code": "ExOpenButton",
+			"text": "以 {0} 开啟"
+		},
+		"ExOpenConditionLabel": {
+			"id": 726,
+			"code": "ExOpenConditionLabel",
+			"text": "要开啟章节，需要："
+		},
+		"ExecutionHelp": {
+			"id": 448,
+			"code": "ExecutionHelp",
+			"text": "要执行处决，用手指快速划过对手就行。 "
+		},
+		"ExecutionLabel": {
+			"id": 508,
+			"code": "ExecutionLabel",
+			"text": "处决"
+		},
+		"FightResultsAddAnger": {
+			"id": 454,
+			"code": "FightResultsAddAnger",
+			"text": "+{0}% 怒氣"
+		},
+		"FightResultsAddExp": {
+			"id": 455,
+			"code": "FightResultsAddExp",
+			"text": "+ {0}% 經驗值"
+		},
+		"FightResultsBlock": {
+			"id": 657,
+			"code": "FightResultsBlock",
+			"text": "格挡"
+		},
+		"FightResultsDamage": {
+			"id": 510,
+			"code": "FightResultsDamage",
+			"text": "伤害"
+		},
+		"FightResultsDodge": {
+			"id": 658,
+			"code": "FightResultsDodge",
+			"text": "回避"
+		},
+		"FightResultsFatality": {
+			"id": 701,
+			"code": "FightResultsFatality",
+			"text": "处决"
+		},
+		"FightResultsImmunity": {
+			"id": 676,
+			"code": "FightResultsImmunity",
+			"text": "免疫"
+		},
+		"FightResultsLabel": {
+			"id": 507,
+			"code": "FightResultsLabel",
+			"text": "战斗结果"
+		},
+		"FightResultsTurns": {
+			"id": 453,
+			"code": "FightResultsTurns",
+			"text": "{0} 步"
+		},
+		"FightResultsTurnsLabel": {
+			"id": 512,
+			"code": "FightResultsTurnsLabel",
+			"text": "战斗时间"
+		},
+		"FinalText": {
+			"id": 1020,
+			"code": "FinalText",
+			"text": "我不会隐瞒，你的确把我们打了个落花流水。我们放了大量心力去復活那只恶魔，将所有希望都放在他身上，但你撃倒了他。你天真的正义感搞乱了我们的伟大计划，而你根本就不可能了解计划有多重要。到你了解了某些你不可能知道的知识，再加上多年的思考，你就会明白你的错。不过我们也有责任，我们从来没想过会有凡人能对抗恶魔。不用担心，我们不会再犯同样的错，也不会有什麼能阻止我们復活那恶魔。^^ 有失就必有得，你令我们感受到早已遗忘的惊喜感觉了。作為谢礼，就让你知道我们的大名吧，我们是「蒙面者」。好好记着吧，我们也不会忘记你的。"
+		},
+		"GotLevel": {
+			"id": 451,
+			"code": "GotLevel",
+			"text": "你升到了等级 {0}！"
+		},
+		"GotSkillPoints": {
+			"id": 452,
+			"code": "GotSkillPoints",
+			"text": "可用技能点数：{0}"
+		},
+		"InBattleBerserk": {
+			"id": 615,
+			"code": "InBattleBerserk",
+			"text": "在餘下的戰鬥，你的生命值上升 50%"
+		},
+		"InBattleChapter": {
+			"id": 620,
+			"code": "InBattleChapter",
+			"text": "章节"
+		},
+		"InBattleFightWith": {
+			"id": 619,
+			"code": "InBattleFightWith",
+			"text": "战斗： "
+		},
+		"InBattleNextBlock": {
+			"id": 613,
+			"code": "InBattleNextBlock",
+			"text": "你会挡下对手的下一次攻击"
+		},
+		"InBattleNextCrit": {
+			"id": 614,
+			"code": "InBattleNextCrit",
+			"text": "你的下一撃会是暴撃，而且怪物会掉出更多魔力珠"
+		},
+		"InsufficientFunds": {
+			"id": 771,
+			"code": "InsufficientFunds",
+			"text": "你不够金币。^^你可以到银行补充。"
+		},
+		"Intro01Text": {
+			"id": 553,
+			"code": "Intro01Text"
+		},
+		"Intro02Center": {
+			"id": 554,
+			"code": "Intro02Center"
+		},
+		"Intro03Text": {
+			"id": 557,
+			"code": "Intro03Text"
+		},
+		"Intro04Center": {
+			"id": 558,
+			"code": "Intro04Center"
+		},
+		"Intro05Text": {
+			"id": 561,
+			"code": "Intro05Text"
+		},
+		"IntroPlace01": {
+			"id": 551,
+			"code": "IntroPlace01"
+		},
+		"IntroPlace03": {
+			"id": 555,
+			"code": "IntroPlace03"
+		},
+		"IntroPlace05": {
+			"id": 559,
+			"code": "IntroPlace05"
+		},
+		"IntroTitle01": {
+			"id": 552,
+			"code": "IntroTitle01"
+		},
+		"IntroTitle03": {
+			"id": 556,
+			"code": "IntroTitle03"
+		},
+		"IntroTitle05": {
+			"id": 560,
+			"code": "IntroTitle05"
+		},
+		"IntroductionText": {
+			"id": 456,
+			"code": "IntroductionText",
+			"text": "\n"
+		},
+		"ItemQuantity": {
+			"id": 941,
+			"code": "ItemQuantity",
+			"text": "件"
+		},
+		"LabelImmunity": {
+			"id": 499,
+			"code": "LabelImmunity",
+			"text": "免疫"
+		},
+		"LabelPersMagicPreferenses": {
+			"id": 500,
+			"code": "LabelPersMagicPreferenses",
+			"text": "喜好设定"
+		},
+		"LocationChestCountLabel": {
+			"id": 940,
+			"code": "LocationChestCountLabel",
+			"text": "隐藏的宝物："
+		},
+		"LocationPopulationAtacked": {
+			"id": 810,
+			"code": "LocationPopulationAtacked",
+			"text": "居民被袭击了！"
+		},
+		"LocationPopulationMax": {
+			"id": 846,
+			"code": "LocationPopulationMax",
+			"text": "人民正在為你準备贡品"
+		},
+		"LocationPopulationPeace": {
+			"id": 811,
+			"code": "LocationPopulationPeace",
+			"text": "人口正在增加。人民正在為你準备贡品"
+		},
+		"LockpickingButtonShowCells": {
+			"id": 935,
+			"code": "LockpickingButtonShowCells",
+			"text": "看一看"
+		},
+		"LockpickingDifficultyHigh": {
+			"id": 592,
+			"code": "LockpickingDifficultyHigh",
+			"text": "开锁 - 高难度"
+		},
+		"LockpickingDifficultyLow": {
+			"id": 590,
+			"code": "LockpickingDifficultyLow",
+			"text": "开锁 - 低难度"
+		},
+		"LockpickingDifficultyMedium": {
+			"id": 591,
+			"code": "LockpickingDifficultyMedium",
+			"text": "开锁 - 中难度"
+		},
+		"LockpickingFindAMatch": {
+			"id": 586,
+			"code": "LockpickingFindAMatch",
+			"text": "為已选的部分找配对。"
+		},
+		"LockpickingHelpBottom": {
+			"id": 583,
+			"code": "LockpickingHelpBottom",
+			"text": "你可以偷看锁头 {0} 秒。需要 {1} 个开锁工具。"
+		},
+		"LockpickingHelpTop": {
+			"id": 582,
+			"code": "LockpickingHelpTop",
+			"text": "要打開寶箱，你需要用開鎖工具解開鎖頭成對的部分。^^^\n失敗的話，開鎖工具會報銷。"
+		},
+		"LockpickingMatchFound": {
+			"id": 588,
+			"code": "LockpickingMatchFound",
+			"text": "恭喜！^^你找到成对的部分了。"
+		},
+		"LockpickingNoMoreLockpicks": {
+			"id": 589,
+			"code": "LockpickingNoMoreLockpicks",
+			"text": "你没有开锁工具了。^^你需要补充才能继续。"
+		},
+		"LockpickingPrize": {
+			"id": 596,
+			"code": "LockpickingPrize",
+			"text": "你打开了宝箱，发现裡面有："
+		},
+		"LockpickingSecBeforeGame": {
+			"id": 598,
+			"code": "LockpickingSecBeforeGame",
+			"text": "游戏将在 {0} 秒后开始。"
+		},
+		"LockpickingWrongMatch": {
+			"id": 587,
+			"code": "LockpickingWrongMatch",
+			"text": "你出错了。^^开锁工具坏掉了。"
+		},
+		"MBookNeedMoreSkill": {
+			"id": 719,
+			"code": "MBookNeedMoreSkill",
+			"text": "你未够技巧去增强这法术。^^你可以在战斗中使用这法术，来增强你的技巧。"
+		},
+		"MBookNeedMoreSkulls": {
+			"id": 718,
+			"code": "MBookNeedMoreSkulls",
+			"text": "你不够魔法头骨去加强这魔法。^^魔法头骨是战斗报酬，也可在宝箱裡找到，或是从商店买到。"
+		},
+		"MBookPower": {
+			"id": 715,
+			"code": "MBookPower",
+			"text": "力量 {0}"
+		},
+		"MBookSkill": {
+			"id": 716,
+			"code": "MBookSkill",
+			"text": "技巧 {0}/{1}"
+		},
+		"MagicBookHelp": {
+			"id": 479,
+			"code": "MagicBookHelp",
+			"text": "你可以使用头骨，强化你懂的魔法，或学习新的魔法。"
+		},
+		"MagicDark": {
+			"id": 713,
+			"code": "MagicDark",
+			"text": "暗"
+		},
+		"MagicFire": {
+			"id": 711,
+			"code": "MagicFire",
+			"text": "火"
+		},
+		"MagicIce": {
+			"id": 710,
+			"code": "MagicIce",
+			"text": "冰"
+		},
+		"MagicLighting": {
+			"id": 712,
+			"code": "MagicLighting",
+			"text": "雷"
+		},
+		"MagicProtectionHelp": {
+			"id": 449,
+			"code": "MagicProtectionHelp",
+			"text": "要回避魔法攻击，就要做出相应的走位。"
+		},
+		"MainMenuLoadGame": {
+			"id": 1054,
+			"code": "MainMenuLoadGame",
+			"text": "载入进度"
+		},
+		"MainMenuNewGame": {
+			"id": 1056,
+			"code": "MainMenuNewGame",
+			"text": "开始新游戏"
+		},
+		"MainMenuNewGameAlert": {
+			"id": 1058,
+			"code": "MainMenuNewGameAlert",
+			"text": "如果你开始新游戏，将会失去现在的进度。^^^你确定要开始新游戏吗？"
+		},
+		"MainMenuSave": {
+			"id": 1055,
+			"code": "MainMenuSave",
+			"text": "储存进度"
+		},
+		"Match3BlockerText": {
+			"id": 1919,
+			"code": "Match3BlockerText",
+			"text": "遊戲已完結，你可以選擇重新開始，"
+		},
+		"Match3ButtonStart": {
+			"id": 1920,
+			"code": "Match3ButtonStart",
+			"text": "進入礦坑"
+		},
+		"Match3ButtonUseKeys": {
+			"id": 1917,
+			"code": "Match3ButtonUseKeys",
+			"text": "加時"
+		},
+		"Match3DifficultyEasy": {
+			"id": 1924,
+			"code": "Match3DifficultyEasy",
+			"text": "低難度"
+		},
+		"Match3DifficultyNormal": {
+			"id": 1923,
+			"code": "Match3DifficultyNormal",
+			"text": "高難度"
+		},
+		"Match3HelpBottom": {
+			"id": 1916,
+			"code": "Match3HelpBottom",
+			"text": "或是消耗 {0} 個開鎖工具加時，繼續遊戲。"
+		},
+		"Match3LootHeader": {
+			"id": 1921,
+			"code": "Match3LootHeader",
+			"text": "已開啟："
+		},
+		"Match3Mined": {
+			"id": 1925,
+			"code": "Match3Mined",
+			"text": "在礦坑中得到"
+		},
+		"Match3Mines": {
+			"id": 1950,
+			"code": "Match3Mines"
+		},
+		"Match3Rating": {
+			"id": 1926,
+			"code": "Match3Rating",
+			"text": "礦工排名"
+		},
+		"Match3Title": {
+			"id": 1915,
+			"code": "Match3Title",
+			"text": "已收集："
+		},
+		"Match3Tutorial": {
+			"id": 1929,
+			"code": "Match3Tutorial",
+			"text": "你到了其中一個礦坑。在這裡你可以將相同的磚塊連成一線，消去它們，把獎品往下移。遊戲有時間限制，你可以消耗開鎖工具去增加時間。"
+		},
+		"MentorManName": {
+			"id": 1065,
+			"code": "MentorManName",
+			"text": "教官维诺斯．祖利"
+		},
+		"MentorWomanName": {
+			"id": 1066,
+			"code": "MentorWomanName",
+			"text": "教官伊纱"
+		},
+		"MessageNoItems": {
+			"id": 502,
+			"code": "MessageNoItems",
+			"text": "你没有所选类别的物品。"
+		},
+		"MsgGetRatingError": {
+			"id": 1104,
+			"code": "MsgGetRatingError",
+			"text": "未能连接到 Game Center，未能读取排名。网络可能断线了。"
+		},
+		"MsgRatingTimeout": {
+			"id": 1105,
+			"code": "MsgRatingTimeout",
+			"text": "与 Game Center 的连线逾时。请检查你的网络连线。"
+		},
+		"NeedMoreStars": {
+			"id": 1196,
+			"code": "NeedMoreStars",
+			"text": "你需要用传奇点数才能把史诗级物品升级成传奇级物品。你可以透过得到良好的战斗评价得到传奇点数，也可在商店购买。"
+		},
+		"NewExecutionLabel": {
+			"id": 762,
+			"code": "NewExecutionLabel",
+			"text": "新处决方式："
+		},
+		"NoEpicItems": {
+			"id": 1194,
+			"code": "NoEpicItems",
+			"text": "你可以使用这些点数，将史诗级物品升级成传奇级物品。你身上没有史诗级物品，但可以到商店购买。"
+		},
+		"OpsFaqPage": {
+			"id": 1273,
+			"code": "OpsFaqPage",
+			"text": "前往新手指南页"
+		},
+		"OpsMusicVolume": {
+			"id": 721,
+			"code": "OpsMusicVolume",
+			"text": "音乐音量"
+		},
+		"OpsRestartButton": {
+			"id": 723,
+			"code": "OpsRestartButton",
+			"text": "目录"
+		},
+		"OpsRestartLabel": {
+			"id": 722,
+			"code": "OpsRestartLabel",
+			"text": "回到主目录"
+		},
+		"OpsSoundsVolume": {
+			"id": 720,
+			"code": "OpsSoundsVolume",
+			"text": "声效音量"
+		},
+		"OpsTeaserButton": {
+			"id": 725,
+			"code": "OpsTeaserButton",
+			"text": "走！"
+		},
+		"OpsTeaserLabel": {
+			"id": 724,
+			"code": "OpsTeaserLabel",
+			"text": "游戏网站"
+		},
+		"OpsTutorialToggle": {
+			"id": 912,
+			"code": "OpsTutorialToggle",
+			"text": "开啟提示"
+		},
+		"PauseButtonExit": {
+			"id": 911,
+			"code": "PauseButtonExit",
+			"text": "离开战斗"
+		},
+		"PauseButtonRestart": {
+			"id": 910,
+			"code": "PauseButtonRestart",
+			"text": "重新开始"
+		},
+		"PauseButtonResume": {
+			"id": 909,
+			"code": "PauseButtonResume",
+			"text": "回到战斗"
+		},
+		"PersClassAssassin": {
+			"id": 118,
+			"code": "PersClassAssassin",
+			"text": "刺客"
+		},
+		"PersClassDefender": {
+			"id": 120,
+			"code": "PersClassDefender",
+			"text": "防卫者"
+		},
+		"PersClassDestroyer": {
+			"id": 119,
+			"code": "PersClassDestroyer",
+			"text": "破坏者"
+		},
+		"PlayerAnger": {
+			"id": 245,
+			"code": "PlayerAnger",
+			"text": "怒氣 {0}%"
+		},
+		"PlayerExperience": {
+			"id": 244,
+			"code": "PlayerExperience",
+			"text": "經驗值 {0}%"
+		},
+		"PlayerHealth": {
+			"id": 250,
+			"code": "PlayerHealth",
+			"text": "生命值"
+		},
+		"PlayerMagic": {
+			"id": 251,
+			"code": "PlayerMagic",
+			"text": "魔法潜能"
+		},
+		"PlayerRage": {
+			"id": 249,
+			"code": "PlayerRage",
+			"text": "勇气"
+		},
+		"PlayerStrength": {
+			"id": 252,
+			"code": "PlayerStrength",
+			"text": "力量"
+		},
+		"PostScreenshotToFacebook": {
+			"id": 1167,
+			"code": "PostScreenshotToFacebook",
+			"text": "画面截图稍后就会刊上 Facebook。"
+		},
+		"RatingSocialMessageFacebook": {
+			"id": 1133,
+			"code": "RatingSocialMessageFacebook",
+			"text": "我在 Juggernaut: The Revenge of Sovering 的分数是：{0}。恶魔的手下都在颤抖！你的分数呢？"
+		},
+		"RatingSocialMessageFacebook341Error": {
+			"id": 1135,
+			"code": "RatingSocialMessageFacebook341Error",
+			"text": "已达 Facebook 发文上限，请稍后再试。"
+		},
+		"RatingSocialMessageFacebookNotPosted": {
+			"id": 1134,
+			"code": "RatingSocialMessageFacebookNotPosted",
+			"text": "未能传送讯息。"
+		},
+		"RatingSocialMessageTwitter": {
+			"id": 1132,
+			"code": "RatingSocialMessageTwitter",
+			"text": "我在 Juggernaut: The Revenge of Sovering 的分数是：{0}。你的分数呢？"
+		},
+		"ScarabDig": {
+			"id": 833,
+			"code": "ScarabDig",
+			"text": "挖掘"
+		},
+		"ScarabFind": {
+			"id": 832,
+			"code": "ScarabFind",
+			"text": "寻找宝物用"
+		},
+		"ScarabInsufficient": {
+			"id": 845,
+			"code": "ScarabInsufficient",
+			"text": "你没有圣甲虫了，所以不能搜索宝物。你可到商店的「其他物品」栏补充。"
+		},
+		"Shop": {
+			"id": 260,
+			"code": "Shop",
+			"text": "商店"
+		},
+		"ShopAlreadyPurchased": {
+			"id": 792,
+			"code": "ShopAlreadyPurchased",
+			"text": "已购买"
+		},
+		"ShopAlreadyPuton": {
+			"id": 830,
+			"code": "ShopAlreadyPuton",
+			"text": "已装备"
+		},
+		"ShopBuy": {
+			"id": 261,
+			"code": "ShopBuy",
+			"text": "购买"
+		},
+		"ShopDivision01": {
+			"id": 765,
+			"code": "ShopDivision01",
+			"text": "建议商品"
+		},
+		"ShopDivision02": {
+			"id": 766,
+			"code": "ShopDivision02",
+			"text": "盔甲"
+		},
+		"ShopDivision03": {
+			"id": 767,
+			"code": "ShopDivision03",
+			"text": "其他物品"
+		},
+		"ShopDivision04": {
+			"id": 768,
+			"code": "ShopDivision04",
+			"text": "特别物品"
+		},
+		"ShopDivision05": {
+			"id": 790,
+			"code": "ShopDivision05",
+			"text": "法器"
+		},
+		"ShopItemsCount": {
+			"id": 355,
+			"code": "ShopItemsCount",
+			"text": "数量"
+		},
+		"ShopItemsUnlocked": {
+			"id": 741,
+			"code": "ShopItemsUnlocked",
+			"text": "你可在商店买到这些新物品："
+		},
+		"ShopLevelTooLow": {
+			"id": 791,
+			"code": "ShopLevelTooLow",
+			"text": "等级 {0} "
+		},
+		"ShopResetButton": {
+			"id": 262,
+			"code": "ShopResetButton",
+			"text": "重置"
+		},
+		"ShopResetTime": {
+			"id": 263,
+			"code": "ShopResetTime",
+			"text": "更新距离前还有"
+		},
+		"ShowTutorial": {
+			"id": 826,
+			"code": "ShowTutorial",
+			"text": "开啟提示吗？"
+		},
+		"SkillComboDesc": {
+			"id": 971,
+			"code": "SkillComboDesc",
+			"text": "学会了连撃后，你就可以使用威力惊人的连续攻击。敌人不能回避或格挡连撃。"
+		},
+		"SkillComboName": {
+			"id": 970,
+			"code": "SkillComboName",
+			"text": "连撃"
+		},
+		"SkillHeader": {
+			"id": 967,
+			"code": "SkillHeader",
+			"text": "你得到了新能力："
+		},
+		"SkillMagicDesc": {
+			"id": 973,
+			"code": "SkillMagicDesc",
+			"text": "从现在开始，你会在战斗中得到魔力珠，也可以使用魔法。你的角色已经会一种战斗魔法，也可以利用魔法之书学习新魔法。"
+		},
+		"SkillMagicName": {
+			"id": 972,
+			"code": "SkillMagicName",
+			"text": "巫术"
+		},
+		"SkillRageDesc": {
+			"id": 975,
+			"code": "SkillRageDesc",
+			"text": "此能力使你的角色能控制自已的怒气，使出殊的战技。你可以利用怒气格挡攻击、从对方身上轰出魔力珠、变身成狂战士。"
+		},
+		"SkillRageName": {
+			"id": 974,
+			"code": "SkillRageName",
+			"text": "怒气"
+		},
+		"SocialAchivMessage": {
+			"id": 952,
+			"code": "SocialAchivMessage",
+			"text": "我通过了测试「{0}」"
+		},
+		"SocialAchivMessageFacebook": {
+			"id": 1131,
+			"code": "SocialAchivMessageFacebook",
+			"text": "我完成了挑战「{0}」，向恶魔的巢穴又更进一步了！你可以先杀掉索伐灵吗？"
+		},
+		"SocialAchivMessageFacebook1": {
+			"id": 968,
+			"code": "SocialAchivMessageFacebook1",
+			"text": "Juggernaut: Revenge of Sovering"
+		},
+		"SocialAchivMessageFacebook2": {
+			"id": 969,
+			"code": "SocialAchivMessageFacebook2"
+		},
+		"SocialAchivMessageTwitter": {
+			"id": 1130,
+			"code": "SocialAchivMessageTwitter",
+			"text": "我通过了测试「{0}」"
+		},
+		"SovHeader": {
+			"id": 730,
+			"code": "SovHeader",
+			"text": "哀伤之恶魔索伐灵"
+		},
+		"SovText": {
+			"id": 731,
+			"code": "SovText",
+			"text": "曾經令哈拉丹的人民生活在恐懼之中的惡魔，當年為打敗他\n犧牲了無數的生命。今天，在\n不知道什麼人的陰謀之下，索伐靈已經甦醒恢復力量。\n你的任務就是要阻止他，好防止\n娜特維島和多爾凱姆再次陷入黑暗。"
+		},
+		"StarUpgradeHelp": {
+			"id": 1195,
+			"code": "StarUpgradeHelp",
+			"text": "指定你要升到传奇级的物品。"
+		},
+		"Tut1_1": {
+			"id": 812,
+			"code": "Tut1_1",
+			"text": "要攻擊怪物，點一下怪物下邊的綠色區域，就可以向那方向攻擊。^^\n 紅色區域是怪物正在看的方向。怪物會回避或擋掉那方向的攻擊。"
+		},
+		"Tut1_2": {
+			"id": 824,
+			"code": "Tut1_2",
+			"text": "点一下绿色区域去攻击怪物"
+		},
+		"Tut2_1": {
+			"id": 814,
+			"code": "Tut2_1",
+			"text": "连撃键左右方。连续向指示的方向攻击，就能发出必杀一撃。"
+		},
+		"Tut2_2": {
+			"id": 825,
+			"code": "Tut2_2",
+			"text": "等敌人的视线从你要进攻的方向移开，然后点撃连撃键"
+		},
+		"Tut4_1": {
+			"id": 815,
+			"code": "Tut4_1",
+			"text": "战斗时，有机会从敌人身上撃出蓝色的「魔力珠」。你可以用它们放魔法。"
+		},
+		"Tut4_1_1": {
+			"id": 827,
+			"code": "Tut4_1_1",
+			"text": "点撃蓝色的「魔力珠」来增加魔力"
+		},
+		"Tut4_2": {
+			"id": 816,
+			"code": "Tut4_2",
+			"text": "魔法介面在画面左方。收集足够的魔力后，你就可以放魔法。"
+		},
+		"Tut4_2_2": {
+			"id": 828,
+			"code": "Tut4_2_2",
+			"text": "点撃魔法键"
+		},
+		"Tut6_1": {
+			"id": 817,
+			"code": "Tut6_1",
+			"text": "遭到敌人攻击时，你的身边有机会出现红色的「怒气珠」。使用一部份能力时，需要用到它们。"
+		},
+		"Tut6_1_2": {
+			"id": 829,
+			"code": "Tut6_1_2",
+			"text": "点撃红色的「怒气珠」来增加怒气"
+		},
+		"TutAchievmentButton": {
+			"id": 1033,
+			"code": "TutAchievmentButton",
+			"text": "你得到了其中一项游戏成就。你可以按这裡，观看你的成就，还有和其他玩家比较。"
+		},
+		"TutBagExp": {
+			"id": 927,
+			"code": "TutBagExp",
+			"text": "你得到了一件提供「经验值」加成的神器。这加成影响你在战斗后得到额外经验值数量。"
+		},
+		"TutBagMagic": {
+			"id": 929,
+			"code": "TutBagMagic",
+			"text": "你得到了一件為其中一種魔法提供加成的神器。這加成會以百份比形式，提高相應種類魔法的傷害。"
+		},
+		"TutBagMana": {
+			"id": 926,
+			"code": "TutBagMana",
+			"text": "你得到了一件提供「魔力」加成的神器。这加成影响你在战斗中得到的额外魔力珠数目。如果加成是「2」，那表现你很大机会多得到 1 到 2 颗魔力珠。"
+		},
+		"TutBagMoney": {
+			"id": 928,
+			"code": "TutBagMoney",
+			"text": "你得到了一件提供「金币」加成的神器。这加成影响你在战斗后得到的额外金币数量。"
+		},
+		"TutBagRage": {
+			"id": 925,
+			"code": "TutBagRage",
+			"text": "你得到了一件提供「怒氣」加成的神器。這加成影響你在戰鬥中得到的額外怒氣珠數目。如果加成是「1」，那你就很大機會可以額外得到 1 顆怒氣珠。"
+		},
+		"TutBattleTurn": {
+			"id": 915,
+			"code": "TutBattleTurn",
+			"text": "战斗以回合制进行，由你先攻，然后敌人还撃。你有数秒去决定行动。画面的上端有一条红条，显示还有多少时间去下决定。"
+		},
+		"TutEndChests": {
+			"id": 916,
+			"code": "TutEndChests",
+			"text": "你已经挖走了这裡隐藏的所有宝物。你可以要其他已解放的领地去找新的宝藏。"
+		},
+		"TutEpicItemPuton": {
+			"id": 1201,
+			"code": "TutEpicItemPuton",
+			"text": "你得到了一件史诗级物品。你可以投放所需的传奇点数，将之升级為传奇级物品。"
+		},
+		"TutEye": {
+			"id": 818,
+			"code": "TutEye",
+			"text": "累积起来的怒气会吸引混沌之眼，怒气是他的粮食。你累积的怒气越多，它就会出现得越频频。在它吸走你的怒气之前，消灭它吧！"
+		},
+		"TutEye_2": {
+			"id": 823,
+			"code": "TutEye_2",
+			"text": "要消灭混沌之眼，你需要连续点撃它，直到它爆炸為止。"
+		},
+		"TutFallingStarPhrase1": {
+			"id": 1244,
+			"code": "TutFallingStarPhrase1",
+			"text": "有时候，在战斗时你会看到有星星掉下来。拿到的话，战斗结束后就会得到额外的传奇点数。"
+		},
+		"TutFallingStarPhrase2": {
+			"id": 1245,
+			"code": "TutFallingStarPhrase2",
+			"text": "点一下星星，战斗结束后就会得到额外的传奇点数"
+		},
+		"TutFirstMagicBook": {
+			"id": 948,
+			"code": "TutFirstMagicBook",
+			"text": "利用这本魔法书，你可以学到新的魔法，还有强化懂得的魔法。你需要魔法头骨和魔法技巧才能这样做。你可透过战斗提升魔法技巧。"
+		},
+		"TutFirstMobAttack": {
+			"id": 947,
+			"code": "TutFirstMobAttack",
+			"text": "这领地遭到怪物攻击了，你应该尽快消灭他，不然他就会杀死人民了。"
+		},
+		"TutFirstMoneyPile": {
+			"id": 922,
+			"code": "TutFirstMoneyPile",
+			"text": "在已解放的领地，人民会為你收集金币。人口越多，金币也越多。人口会随时间自然增长。你可以不时去已解放的领地看看，回收金币。"
+		},
+		"TutGotLevel": {
+			"id": 934,
+			"code": "TutGotLevel",
+			"text": "你升级了，学会了使用 3 种新物品。到商店买下腰带、护腕、胸甲各一吧，这会提升角色的能力。你将要面对头目怪，这些装备会帮到你。"
+		},
+		"TutImmBattle": {
+			"id": 907,
+			"code": "TutImmBattle",
+			"text": "敌人对你刚使用的魔法免疫。用另一种魔法吧。敌人的对什麼魔法免疫，会在战斗前显示在他们的名字旁边。"
+		},
+		"TutImmZ": {
+			"id": 908,
+			"code": "TutImmZ",
+			"text": "你遇到了对其中一种魔法免疫的敌人。这类敌人的名字右手边都会有一个魔法符号。战斗时，试试用不同的魔法吧。如果你还没学其他魔法，可以打开魔法书学习。"
+		},
+		"TutLocationScarab": {
+			"id": 924,
+			"code": "TutLocationScarab",
+			"text": "解决领土裡所有的怪物后，你可以去找隐藏的宝箱。这些宝箱裡有魔法护身符、戒指、耳环等其他非常有用的物品。点一下来开始寻宝。"
+		},
+		"TutMagicBookButton": {
+			"id": 990,
+			"code": "TutMagicBookButton",
+			"text": "学会了「巫术」技能时，你会收到魔法之书。"
+		},
+		"TutPlayerDefeat": {
+			"id": 923,
+			"code": "TutPlayerDefeat",
+			"text": "当你战败了，你可以重新挑战。如果你不够敌人打，你可以先完结战斗，去商店看看。在商店你可以买到盔甲和魔力球去强化角色。"
+		},
+		"TutResurrection": {
+			"id": 834,
+			"code": "TutResurrection",
+			"text": "透過連撃，你有機會得到敵人的靈魂。靈魂會裝在復活符文裡，戰鬥後會自動使用，讓你\n痛快的處決敵人\n"
+		},
+		"TutSearchTreasure": {
+			"id": 837,
+			"code": "TutSearchTreasure",
+			"text": "你可以同圣甲虫寻找宝物：将圣甲虫放到地点，然后留意牠发光的状况。越靠近宝物，光度就会越强。去到宝物的所在地时，牠更会拍翼。那就挖下去吧。"
+		},
+		"TutShop": {
+			"id": 914,
+			"code": "TutShop",
+			"text": "你可以在商店使用金币购物，在「建议商品」栏，你可以找到适合你等级的最佳盔甲。你也可以在这买到魔力球，有了它们，多难搞的敌人也可以打败。"
+		},
+		"TutShopFilter2": {
+			"id": 930,
+			"code": "TutShopFilter2",
+			"text": "此栏包括了游戏内的所有盔甲"
+		},
+		"TutShopFilter3": {
+			"id": 931,
+			"code": "TutShopFilter3"
+		},
+		"TutShopFilter4": {
+			"id": 932,
+			"code": "TutShopFilter4",
+			"text": "在「特别物品」栏你可以找到特价套装和特别神器。"
+		},
+		"TutShopFilter5": {
+			"id": 933,
+			"code": "TutShopFilter5",
+			"text": "在「法器」栏你可以找到属於非卖品的物品，要得到它们，你需要达成相应的条件。"
+		},
+		"TutSliceAttack1": {
+			"id": 995,
+			"code": "TutSliceAttack1",
+			"text": "要攻击不同的地方，除了点撃该方向外，用手指划那方向也行。"
+		},
+		"TutSliceAttack2": {
+			"id": 996,
+			"code": "TutSliceAttack2",
+			"text": "从左到右扫画面，就可以攻击敌人的左方。"
+		},
+		"TutSliceAttack3": {
+			"id": 997,
+			"code": "TutSliceAttack3",
+			"text": "要巩固位置，攻击敌人的右方"
+		},
+		"TutStrongMagic": {
+			"id": 819,
+			"code": "TutStrongMagic",
+			"text": "要回避魔法攻击，就要按指示做出走位。"
+		},
+		"WeakMagicMessage": {
+			"id": 585,
+			"code": "WeakMagicMessage",
+			"text": "收集怪物所有的黑暗魔力，来回避他的魔法攻击。"
+		},
+		"supportXCodeAlertClose": {
+			"id": 985,
+			"code": "supportXCodeAlertClose",
+			"text": "关闭"
+		},
+		"supportXCodeClose": {
+			"id": 980,
+			"code": "supportXCodeClose",
+			"text": "关闭"
+		},
+		"supportXCodeEMail": {
+			"id": 977,
+			"code": "supportXCodeEMail",
+			"text": "电邮"
+		},
+		"supportXCodeEnterDesc": {
+			"id": 984,
+			"code": "supportXCodeEnterDesc",
+			"text": "请在此描述问题"
+		},
+		"supportXCodeEnterEmail": {
+			"id": 982,
+			"code": "supportXCodeEnterEmail",
+			"text": "请提供你的电邮地址"
+		},
+		"supportXCodeEnterSubject": {
+			"id": 983,
+			"code": "supportXCodeEnterSubject",
+			"text": "输入主旨"
+		},
+		"supportXCodeError": {
+			"id": 981,
+			"code": "supportXCodeError",
+			"text": "错误"
+		},
+		"supportXCodeInvEmail": {
+			"id": 986,
+			"code": "supportXCodeInvEmail",
+			"text": "电邮地址不正确，请检查后再试一次。"
+		},
+		"supportXCodePosted": {
+			"id": 987,
+			"code": "supportXCodePosted",
+			"text": "讯息已送出"
+		},
+		"supportXCodeSend": {
+			"id": 979,
+			"code": "supportXCodeSend",
+			"text": "传送"
+		},
+		"supportXCodeText": {
+			"id": 976,
+			"code": "supportXCodeText",
+			"text": "如果你在游戏遇到自己不能解决的问题，或找到错误，请联络我们的支援服务。"
+		},
+		"supportXCodeTheme": {
+			"id": 978,
+			"code": "supportXCodeTheme",
+			"text": "主旨"
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"sets": {
+		"1": {
+			"id": 147,
+			"title": "Saccheggiatore",
+			"setId": 1
+		},
+		"2": {
+			"id": 160,
+			"title": "Spadaccino",
+			"setId": 2
+		},
+		"3": {
+			"id": 168,
+			"title": "Distruttore",
+			"setId": 3
+		},
+		"4": {
+			"id": 169,
+			"title": "Tiranno",
+			"setId": 4
+		}
+	}
+}

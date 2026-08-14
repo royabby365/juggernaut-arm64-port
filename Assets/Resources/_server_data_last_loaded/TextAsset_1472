@@ -1,0 +1,249 @@
+{
+	"hints": {
+		"achivmentprogressbar": {
+			"id": 1129,
+			"code": "achivmentprogressbar",
+			"title": "Başarı gelişim çubuğu",
+			"description": "Bu çubuk, oyun başarılarındaki gelişimi gösterir. Şöhret tablosunda bakarak arkadaşlarının arsında yerini görebilirsin."
+		},
+		"bonusarhifury": {
+			"id": 1069,
+			"code": "bonusarhifury",
+			"title": "Ulu Öfke",
+			"description": "Her dövüşe maksimum öfke ile başlamanı sağlar."
+		},
+		"bonusarhimagia": {
+			"id": 1068,
+			"code": "bonusarhimagia",
+			"title": "Ulu Büyücü Ödülü",
+			"description": "Her dövüşe maksimum mana ile başlamanı sağlar."
+		},
+		"bonusdark": {
+			"id": 389,
+			"code": "bonusdark",
+			"title": "Gölge gücü",
+			"description": "Bu, gölge büyülerinin yıkım gücündeki yüzdelik artışı gösterir."
+		},
+		"bonusexp": {
+			"id": 392,
+			"code": "bonusexp",
+			"title": "Ek tecrübe",
+			"description": "Bu, kazanılan bir dövüşten sonra alınan ek tecrübenin yüzdesini belirler."
+		},
+		"bonusfire": {
+			"id": 387,
+			"code": "bonusfire",
+			"title": "Ateş gücü",
+			"description": "Bu, ateş büyülerinin yıkım gücündeki yüzdelik artışı gösterir."
+		},
+		"bonusice": {
+			"id": 388,
+			"code": "bonusice",
+			"title": "Buz gücü",
+			"description": "Bu, buz büyülerinin yıkım gücündeki yüzdelik artışı gösterir."
+		},
+		"bonuslightning": {
+			"id": 390,
+			"code": "bonuslightning",
+			"title": "Şimşek gücü",
+			"description": "Bu, şimşek büyülerinin yıkım gücündeki yüzdelik artışı gösterir."
+		},
+		"bonusmana": {
+			"id": 961,
+			"code": "bonusmana",
+			"title": "Ek mana",
+			"description": "Bu, her zaferden sonra ne kadar ek mana alacağını belirler. Eğer değeri 2 ise, büyük ihtimalle 1 ila 2 arası ek mana pıhtısı kazanırsın."
+		},
+		"bonusmoney": {
+			"id": 960,
+			"code": "bonusmoney",
+			"title": "Ek para",
+			"description": "Bu, her zaferden sonra ne kadar ek altın alacağını belirler."
+		},
+		"bonusrage": {
+			"id": 962,
+			"code": "bonusrage",
+			"title": "Ek öfke",
+			"description": "Bu, dövüşte ne kadar ek öfke alacağını belirler. Eğer değeri 2 ise, büyük ihtimalle 1 ila 2 arası ek öfke pıhtısı kazanırsın."
+		},
+		"cristals": {
+			"id": 377,
+			"code": "cristals",
+			"title": "Kristal",
+			"description": "Kristaller, dükkandan nesne satın almak için gereklidir. Dövüşte kazanılabilir, ek bölümler tamamlanınca ödül olarak alınabilir ya da bankada satın alınabilir."
+		},
+		"damagepotion": {
+			"id": 382,
+			"code": "damagepotion",
+			"title": "Zehir",
+			"description": "Düşmanı zehirleyip yavaş yavaş öldürmek için kullanılır. Hazine sandıklarından çıkabilir ya da dükkanın \"Önerilen\" bölümünde elde edilebilir."
+		},
+		"expa": {
+			"id": 391,
+			"code": "expa",
+			"title": "Tecrübe",
+			"description": "Bu senin tecrüben. Seviye atlamak için gerekir. Tecrübe, kazanılan dövüşlerle artar. Aynı zamanda ek tecrübe barındıran özel bir nesne bulunduğunda artar."
+		},
+		"healpotion": {
+			"id": 380,
+			"code": "healpotion",
+			"title": "Şifa İksiri",
+			"description": "Bu iksir, dövüşte yaşam yeniler. Hazine sandıklarından çıkabilir ya da dükkanın \"Önerilen\" bölümünde elde edilebilir."
+		},
+		"image_alert": {
+			"id": 1116,
+			"code": "image_alert",
+			"title": "Dikkat",
+			"description": "Dikkat!"
+		},
+		"image_completed_text": {
+			"id": 1117,
+			"code": "image_completed_text",
+			"title": "Tamamlandı",
+			"description": "Tamamlandı!"
+		},
+		"image_congrats": {
+			"id": 1118,
+			"code": "image_congrats",
+			"title": "Tebrikler",
+			"description": "Tebrikler!"
+		},
+		"image_fight_button": {
+			"id": 1120,
+			"code": "image_fight_button",
+			"title": "Saldır",
+			"description": "SALDIR!"
+		},
+		"image_fight_dodge": {
+			"id": 1121,
+			"code": "image_fight_dodge",
+			"title": "Korunma",
+			"description": "Korunma"
+		},
+		"image_fight_execution": {
+			"id": 1122,
+			"code": "image_fight_execution",
+			"title": "İdam",
+			"description": "İdam"
+		},
+		"image_fight_immunity": {
+			"id": 1123,
+			"code": "image_fight_immunity",
+			"title": "Direnç",
+			"description": "Direnç"
+		},
+		"image_fights_block": {
+			"id": 1119,
+			"code": "image_fights_block",
+			"title": "Bloke",
+			"description": "Bloke"
+		},
+		"image_game_logo": {
+			"id": 1124,
+			"code": "image_game_logo",
+			"title": "Juggernaut",
+			"description": "Juggernaut"
+		},
+		"image_main_map_banner": {
+			"id": 1125,
+			"code": "image_main_map_banner",
+			"title": "Radvaya Adası",
+			"description": "Radvaya Adası"
+		},
+		"image_news": {
+			"id": 1274,
+			"code": "image_news",
+			"title": "Haberler"
+		},
+		"image_support_banner_text": {
+			"id": 1126,
+			"code": "image_support_banner_text",
+			"title": "Destek",
+			"description": "Teknik destek\nYardım gerekiyorsa kullan!"
+		},
+		"image_you_lose": {
+			"id": 1127,
+			"code": "image_you_lose",
+			"title": "Yenildin",
+			"description": "Yenildin!"
+		},
+		"image_you_win": {
+			"id": 1128,
+			"code": "image_you_win",
+			"title": "Zafer",
+			"description": "Zafer!"
+		},
+		"legendarypoints": {
+			"id": 1202,
+			"code": "legendarypoints",
+			"title": "Dövüşten gelen efsanevi puanlar",
+			"description": "Dövüşten sonra, dövüşün klasmanına bağlı olarak efsanevi puanlar kazanırsın. Bunlar, epik nesneleri geliştirmek için gereklidir. Bunu karakter penceresinde yapabilirsin."
+		},
+		"map": {
+			"id": 998,
+			"code": "map",
+			"title": "Ana harita",
+			"description": "Oyundaki ilerleme, burada gösterilir. Tamamlanan her bölümden sonra artar."
+		},
+		"money": {
+			"id": 376,
+			"code": "money",
+			"title": "Para",
+			"description": "Altın. Dükkandan yeni zırhlar ve mühimmat almak için kullanılır. Dövüşte ve özgürleştirilmiş bölgelerden toplanır. Banka'da da satın alınabilir."
+		},
+		"powerpotion": {
+			"id": 381,
+			"code": "powerpotion",
+			"title": "Doping",
+			"description": "Bunu kullanarak bir sonraki vuruşunun gücünü oldukça arttırabilirsin. Hazine sandıklarından çıkabilir ya da dükkanın \"Önerilen\" bölümünde elde edilebilir."
+		},
+		"scarab": {
+			"id": 963,
+			"code": "scarab",
+			"title": "Tarla Böceği",
+			"description": "Tarla Böcekleri, özgürleştirilmiş bölgelerde hazine aramak için gerekir. Dövüşte ya da belli bölgeler temizlenince kazanılabilirler. Dükkanda da satın alınabilirler."
+		},
+		"sculls": {
+			"id": 378,
+			"code": "sculls",
+			"title": "Kafatası",
+			"description": "Büyülü Kafatasları, Büyü Kitabı'ndaki büyüleri öğrenmek ve geliştirmek için gerekir. Dövüşte kazanılabilir, hazine sandıklarından çıkabilir ya da dükkanda satın alınabilir."
+		},
+		"socialbutton": {
+			"id": 1114,
+			"code": "socialbutton",
+			"title": "Sosyal",
+			"description": "Oyunda geçirdiğin her 40 dakikadan sonra başarılarını duyurabilirsin."
+		},
+		"statfury": {
+			"id": 384,
+			"code": "statfury",
+			"title": "Cesaret",
+			"description": "Cesaret, kritik vuruş yapma ve rakibin mana kürelerini yok etmeyi sağlayacak kadar yüksek zarar verme olasılığını arttırır. Aynı zamanda kritik vuruşlara karşı koruma sağlar."
+		},
+		"stathp": {
+			"id": 383,
+			"code": "stathp",
+			"title": "Sağlık",
+			"description": "Bu özellik, karakterin dövüşte hayatta kalabilme becerisini belirler."
+		},
+		"statmagic": {
+			"id": 386,
+			"code": "statmagic",
+			"title": "Büyü",
+			"description": "Bu özellik, karakterin büyü zararını belirler. Ne kadar yüksekse büyü ile verilen zarar o kadar fazla olur."
+		},
+		"statstrength": {
+			"id": 385,
+			"code": "statstrength",
+			"title": "Güç",
+			"description": "Güç, dövüşte verilen zararı belirler. Ne kadar yüksekse vuruş o kadar şiddetli olur. Aynı zamanda büyü zararı üzerinde az bir etkisi vardır."
+		},
+		"vzlom": {
+			"id": 379,
+			"code": "vzlom",
+			"title": "Maymuncuk",
+			"description": "Maymuncuklar. Hazine sandıklarını açmakta ve madenlerde işine yararlar. Dövüşte kazanılabilir ya da dükkanda satın alınabilir."
+		}
+	}
+}
