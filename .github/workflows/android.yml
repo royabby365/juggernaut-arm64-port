@@ -32,20 +32,19 @@ jobs:
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
           UNITY_SERIAL: ${{ steps.extract-serial.outputs.UNITY_SERIAL }}
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-          REPO: ${{ github.workspace }}
-          IMAGE: unityci/editor:ubuntu-2021.3.45f1-android-3
-          BUILD_NAME: Android
-          VERSION: 2.4.3
-          VERSION_CODE: 1
         run: |
           set -euo pipefail
+          REPO="${{ github.workspace }}"
+          IMAGE="unityci/editor:ubuntu-2021.3.45f1-android-3"
+          VERSION="2.4.3"
+          VERSION_CODE="1"
           mkdir -p "$REPO/build"
           echo "[build] activating license + building (this takes 5-10 min, IL2CPP)..."
           docker run --rm \
             -v "$REPO":/github/workspace \
             -w /github/workspace \
             --env UNITY_EMAIL="$UNITY_EMAIL" \
-            --env UNITY_PASSWORD="$UNI...RD" \
+            --env UNITY_PASSWORD="$UNITY_PASSWORD" \
             --env UNITY_SERIAL="$UNITY_SERIAL" \
             --env UNITY_LICENSE="$UNITY_LICENSE" \
             --cpus="$(nproc)" \
