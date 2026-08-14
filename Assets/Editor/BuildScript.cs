@@ -12,7 +12,6 @@ using UnityEditor;
 using UnityEditor.Build.Reporting;
 using UnityEditor.SceneManagement;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public static class BuildScript
@@ -49,34 +48,9 @@ public static class BuildScript
             camGo.AddComponent<AudioListener>();
 
             var splashGo = new GameObject("BootSplashText");
-            var canvas = splashGo.AddComponent<Canvas>();
-            canvas.renderMode = RenderMode.ScreenSpaceOverlay;
-            // Add the text as a child of the Canvas so it renders through the
-            // uGUI pipeline (no dynamic-font-atlas / GUI/Text Shader issues).
-            var textGo = new GameObject("BootText");
-            textGo.transform.SetParent(splashGo.transform, false);
-            var text = textGo.AddComponent<Text>();
-            text.text = "Juggernaut\narm64 port build\n(boot scene - game content TBD)";
-            text.fontSize = 48;
-            text.alignment = TextAnchor.MiddleCenter;
-            text.color = Color.white;
-            text.horizontalOverflow = HorizontalWrapMode.Wrap;
-            text.verticalOverflow = VerticalWrapMode.Truncate;
-            // Assign a font — fallback chain ensures glyphs render (not blocks).
-            var font = Resources.GetBuiltinResource<Font>("Arial.ttf");
-            if (font == null) font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
-            if (font == null) font = AssetDatabase.LoadAssetAtPath<Font>("Assets/Fonts/BootFont.ttf");
-            if (font != null)
-            {
-                text.font = font;
-            }
-            else
-            {
-                Debug.LogWarning("[BuildScript] No font available for boot splash text; if missing, glyphs will be blocks");
-            }
-            // UI Text on Canvas needs no MeshRenderer/Shader.Find —
-            // Text generates its own vertex geometry and uses the font's own
-            // internal material, avoiding the dynamic-atlas-less-gui-block problem.
+            // Canvas + UI Text added at runtime by BootTextInitializer
+            // (avoids needing UnityEngine.UI referenced in the Editor assembly).
+            splashGo.AddComponent<BootTextInitializer>();
 
             EditorSceneManager.SaveScene(scene, sceneDir + "/BootSplash.unity");
             EditorBuildSettings.scenes = new[] { new EditorBuildSettingsScene(sceneDir + "/BootSplash.unity", true) };
