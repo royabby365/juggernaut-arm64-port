@@ -9,14 +9,6 @@ jobs:
   build:
     name: Unity Android Build
     runs-on: ubuntu-latest
-    # GameCI requires a Unity license. Set these secrets in repo Settings > Secrets:
-    #   UNITY_LICENSE          full license content (unity-editor.license file contents / .ulf)
-    #   UNITY_EMAIL            your Unity account email
-    #   UNITY_PASSWORD         your Unity account password
-    # License: free Personal account. Unity killed manual (.alf) activation for
-    # Personal licenses (Aug 2023) — get the .ulf via Unity Hub instead:
-    #   Hub > Preferences > Licenses > Add > Get a free personal license
-    #   then copy the contents of Unity_lic.ulf into the UNITY_LICENSE secret.
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -64,7 +56,6 @@ jobs:
               # Personal license (F*) needs machine-id randomization for activation
               if [[ "$UNITY_SERIAL" = F* ]]; then
                 echo "[container] Randomizing machine ID for personal license activation"
-                # Use host machine-id
                 mkdir -p /var/lib/dbus/ && ln -sf /etc/machine-id /var/lib/dbus/machine-id
               fi
               # Pre-create editor license cache dir (Unity licensing client needs this)
@@ -72,7 +63,12 @@ jobs:
               echo "[container] === activation ==="
               unity-editor -logFile /dev/stdout -quit -serial "$UNITY_SERIAL" \
                 -username "$UNITY_EMAIL" -password "$UNITY_PASSWORD" \
-                -projectPath /BlankProject >/dev/null 2>&1 || true
+                -projectPath /BlankProject
+              ACTIVATION_RC=$?
+              echo "[container] activation exit=$ACTIVATION_RC"
+              if [ $ACTIVATION_RC -ne 0 ]; then
+                echo "[container] activation failed, but continuing to build..."
+              fi
               echo "[container] === build ==="
               unity-editor -batchmode -nographics -logFile /dev/stdout -quit \
                 -projectPath /github/workspace \
