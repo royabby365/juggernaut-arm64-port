@@ -24,13 +24,18 @@ public static class BuildScript
         // ---- "64-bit" switch; Mono is 32-bit only on modern Unity Android)
         EditorUserBuildSettings.SwitchActiveBuildTarget(UnityEditor.Build.NamedBuildTarget.Android, BuildTarget.Android);
         PlayerSettings.SetScriptingBackend(UnityEditor.Build.NamedBuildTarget.Android, ScriptingImplementation.IL2CPP);
-        PlayerSettings.Android.targetArchitectures = AndroidArchitecture.ARM64; // arm64 production build
+        PlayerSettings.Android.targetArchitectures = AndroidArchitecture.ARM64 | AndroidArchitecture.X86_64; // Dual-arch for local emulator testing
         PlayerSettings.Android.targetSdkVersion = AndroidSdkVersions.AndroidApiLevel33;
         PlayerSettings.Android.minSdkVersion = AndroidSdkVersions.AndroidApiLevel22;
         PlayerSettings.Android.forceInternetPermission = true;
         PlayerSettings.bundleVersion = "2.4.3";
         PlayerSettings.productName = "Juggernaut";
         PlayerSettings.Android.bundleVersionCode = 1;
+        PlayerSettings.defaultInterfaceOrientation = UIOrientation.LandscapeLeft;
+        PlayerSettings.allowedAutorotateToLandscapeLeft = true;
+        PlayerSettings.allowedAutorotateToLandscapeRight = true;
+        PlayerSettings.allowedAutorotateToPortrait = false;
+        PlayerSettings.allowedAutorotateToPortraitUpsideDown = false;
 
         // ---- 2. Guarantee a scene to pack (unconditionally regenerate
         // to ensure latest font / TextMesh configuration is baked in)
@@ -52,9 +57,11 @@ public static class BuildScript
             var splashGo = new GameObject("BootSplashText");
             splashGo.transform.position = new Vector3(0f, 0f, 5f);
             var text = splashGo.AddComponent<TextMesh>();
+            text.alignment = TextAlignment.Center;
+            text.anchor = TextAnchor.MiddleCenter;
             text.text = "Juggernaut\narm64 port build\n(boot scene - game content TBD)";
-            text.fontSize = 48;
-            text.characterSize = 0.08f;
+            text.fontSize = 32;
+            text.characterSize = 0.04f;
             var font = Resources.GetBuiltinResource<Font>("Arial.ttf");
             if (font == null) font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
             if (font == null) font = AssetDatabase.LoadAssetAtPath<Font>("Assets/Fonts/BootFont.ttf");
