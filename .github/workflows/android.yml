@@ -45,7 +45,7 @@ jobs:
             -v "$REPO":/github/workspace \
             -w /github/workspace \
             --env UNITY_EMAIL="$UNITY_EMAIL" \
-            --env UNITY_PASSWORD="$UNITY_PASSWORD" \
+            --env UNITY_PASSWORD="$UNI...RD" \
             --env UNITY_SERIAL="$UNITY_SERIAL" \
             --env UNITY_LICENSE="$UNITY_LICENSE" \
             --cpus="$(nproc)" \
@@ -72,14 +72,17 @@ jobs:
                 echo "[container] activation failed, but continuing to build..."
               fi
               echo "[container] === build ==="
+              # Run build without grep filtering to see all output
               unity-editor -batchmode -nographics -logFile /dev/stdout -quit \
                 -projectPath /github/workspace \
                 -buildTarget Android -customBuildTarget Android \
                 -customBuildPath /github/workspace/build/Android/Android.apk \
                 -executeMethod BuildScript.BuildPlayer \
                 -buildVersion '"'"'$VERSION'"'"' -androidVersionCode '"'"'$VERSION_CODE'"'"' \
-                -androidExportType androidPackage -androidSymbolType none \
-                2>&1 | grep -vE "Player connection|Desktop is|Initialize udev|memorysetup|Licensing" | tail -120
+                -androidExportType androidPackage -androidSymbolType none
+              BUILD_RC=$?
+              echo "[container] build exit=$BUILD_RC"
+              exit $BUILD_RC
             '; echo "[container] done"
           RC=$?
           echo "[build] container exit=$RC"
