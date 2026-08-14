@@ -75,7 +75,11 @@ public static class BuildScript
         if (summary.result != BuildResult.Succeeded)
         {
             foreach (var step in report.steps)
-                Debug.LogError("[BootScript] step " + step.name + " depth=" + step.depth + " msgs=" + step.messages.Length);
+            {
+                Debug.LogError($"[BootScript] step {step.name} depth={step.depth} msgs={step.messages.Length}");
+                foreach (var msg in step.messages)
+                    Debug.LogError($"[BootScript]   {msg.type}: {msg.content}");
+            }
             throw new Exception("Build FAILED with " + summary.totalErrors + " errors");
         }
         Debug.Log("[BootScript] APK written to " + Path.GetFullPath(outputPath));
