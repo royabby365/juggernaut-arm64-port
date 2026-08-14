@@ -32,12 +32,14 @@ public static class BuildScript
         PlayerSettings.productName = "Juggernaut";
         PlayerSettings.Android.bundleVersionCode = 1;
 
-        // ---- 2. Guarantee a scene to pack (Unity requires >= 1 scene)
-        if (EditorBuildSettings.scenes == null || EditorBuildSettings.scenes.Length == 0)
+        // ---- 2. Guarantee a scene to pack (unconditionally regenerate
+        // to ensure latest font / TextMesh configuration is baked in)
         {
-            Debug.Log("[BuildScript] No scenes in EditorBuildSettings - generating boot splash scene.");
+            Debug.Log("[BuildScript] Generating clean boot splash scene.");
             string sceneDir = "Assets/Scenes";
             Directory.CreateDirectory(sceneDir);
+            string scenePath = sceneDir + "/BootSplash.unity";
+            if (File.Exists(scenePath)) File.Delete(scenePath);
             var scene = EditorSceneManager.NewScene(NewSceneSetup.EmptyScene, NewSceneMode.Single);
 
             var camGo = new GameObject("Main Camera");
