@@ -1,0 +1,7 @@
+<linker>
+  <!-- BootTextInitializer loads UnityEngine.UI types via string-based
+       Type.GetType calls. The linker must not strip this assembly. -->
+  <assembly fullname="UnityEngine.UI" preserve="all" />
+  <!-- BootFont may be loaded via Resources.Load from Assets/Fonts -->
+  <assembly fullname="UnityEngine.TextRenderingModule" preserve="all" />
+</linker>
