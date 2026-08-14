@@ -17,8 +17,6 @@ jobs:
     # Personal licenses (Aug 2023) — get the .ulf via Unity Hub instead:
     #   Hub > Preferences > Licenses > Add > Get a free personal license
     #   then copy the contents of Unity_lic.ulf into the UNITY_LICENSE secret.
-    # GameCI v4 REQUIRES UNITY_LICENSE (or UNITY_SERIAL for Pro/Plus);
-    # UNITY_EMAIL + UNITY_PASSWORD alone is not enough.
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -36,23 +34,62 @@ jobs:
         env:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
 
-      - name: Unity Build (Android, IL2CPP, arm64)
-        uses: game-ci/unity-builder@v4
+      - name: Build Android APK using Docker (replicates local_build.sh)
         env:
-          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
           UNITY_SERIAL: ${{ steps.extract-serial.outputs.UNITY_SERIAL }}
-        with:
-          targetPlatform: Android
-          unityVersion: 2021.3.45f1
-          buildMethod: BuildScript.BuildPlayer
-          androidExportType: androidPackage
-          buildsPath: build
-          skipActivation: false
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          REPO: ${{ github.workspace }}
+          IMAGE: unityci/editor:ubuntu-2021.3.45f1-android-3
+          BUILD_NAME: Android
+          VERSION: 2.4.3
+          VERSION_CODE: 1
+        run: |
+          set -euo pipefail
+          mkdir -p "$REPO/build"
+          echo "[build] activating license + building (this takes 5-10 min, IL2CPP)..."
+          docker run --rm \
+            -v "$REPO":/github/workspace \
+            -w /github/workspace \
+            --env UNITY_EMAIL="$UNITY_EMAIL" \
+            --env UNITY_PASSWORD="$UNITY_PASSWORD" \
+            --env UNITY_SERIAL="$UNITY_SERIAL" \
+            --env UNITY_LICENSE="$UNITY_LICENSE" \
+            --cpus="$(nproc)" \
+            --memory="$(free -b | awk '/Mem:/{print $7}' | xargs -I{} echo "{} / 1024 / 1024" | bc)m" \
+            "$IMAGE" \
+            bash -c '
+              set -uo pipefail
+              # Personal license (F*) needs machine-id randomization for activation
+              if [[ "$UNITY_SERIAL" = F* ]]; then
+                echo "[container] Randomizing machine ID for personal license activation"
+                # Use host machine-id
+                mkdir -p /var/lib/dbus/ && ln -sf /etc/machine-id /var/lib/dbus/machine-id
+              fi
+              # Pre-create editor license cache dir (Unity licensing client needs this)
+              mkdir -p /root/.cache/unity3d
+              echo "[container] === activation ==="
+              unity-editor -logFile /dev/stdout -quit -serial "$UNITY_SERIAL" \
+                -username "$UNITY_EMAIL" -password "$UNITY_PASSWORD" \
+                -projectPath /BlankProject >/dev/null 2>&1 || true
+              echo "[container] === build ==="
+              unity-editor -batchmode -nographics -logFile /dev/stdout -quit \
+                -projectPath /github/workspace \
+                -buildTarget Android -customBuildTarget Android \
+                -customBuildPath /github/workspace/build/Android/Android.apk \
+                -executeMethod BuildScript.BuildPlayer \
+                -buildVersion '"'"'$VERSION'"'"' -androidVersionCode '"'"'$VERSION_CODE'"'"' \
+                -androidExportType androidPackage -androidSymbolType none \
+                2>&1 | grep -vE "Player connection|Desktop is|Initialize udev|memorysetup|Licensing" | tail -120
+            '; echo "[container] done"
+          RC=$?
+          echo "[build] container exit=$RC"
+          ls -la "$REPO/build/Android/" 2>/dev/null | grep -E "apk|aab" && echo "[build] APK produced" || echo "[build] no APK yet"
+          exit $RC
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: juggernaut-arm64-apk
-          path: build/*.apk
+          path: build/**/*.apk
