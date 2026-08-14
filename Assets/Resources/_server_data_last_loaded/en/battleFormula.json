@@ -1,0 +1,17 @@
+{
+	"battleFormula": {
+		"pCrit": 0.175,
+		"paCrit0": 0.2,
+		"persCR": 0,
+		"critK": 1.063,
+		"critSec0": 80,
+		"pMAG": 1.125,
+		"paMAG": 0.2456,
+		"magSec0": 60,
+		"magK": 1.083,
+		"persMR": 1,
+		"manaC": 5,
+		"manaSec0": 60,
+		"manaK": 1.083
+	}
+}

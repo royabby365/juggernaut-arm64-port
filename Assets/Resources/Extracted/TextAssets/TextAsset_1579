@@ -1,0 +1,1492 @@
+{
+	"dialogs": {
+		"1147": {
+			"id": 1147,
+			"bot": "52_125_5",
+			"dialogs": {
+				"1": {
+					"npc": "1270",
+					"maleText": "Cycloptiques : Hourra ! Une personne vivante qui respire ! Je vais te mordre la jambe ! Je vais te cracher dans les yeux ! Je vais t'arracher l'oreille ! Hourra ! Tu ne peux nous échapper !",
+					"location": "right"
+				},
+				"2": {
+					"location": ""
+				},
+				"3": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1155": {
+			"id": 1155,
+			"bot": "236_239_8",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Je savais que tu viendrais. Maman m'a dit que j'aurai des amis... Je suis Una... Je suis du village voisin... Je n'y retournerai jamais. Je viens avec toi.",
+					"femaleText": "Je savais que tu viendrais. Maman m'a dit que j'aurai des amis... Je suis Una... Je suis du village voisin... Je n'y retournerai jamais. Je viens avec toi.",
+					"location": "left"
+				},
+				"2": {
+					"location": ""
+				},
+				"3": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1156": {
+			"id": 1156,
+			"bot": "236_240_9",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Je ne devrais probablement pas raconter ce qui s'est passé dans le village. Je me suis échappé pour aller cueillir des baies dans la forêt. Et quand je suis rentré, les gens étaient mauvais, très mauvais.",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1152",
+					"maleText": "Ils n'étaient pas comme d'habitude. Ils avaient l'air de faire semblant d'être des humains, comme le loup du conte de fées. J'ai appelé, mais personne n'a répondu.",
+					"location": "left"
+				},
+				"3": {
+					"npc": "1152",
+					"maleText": "Les villageois ont changé... Il se sont jetés sur moi ! Cela a été difficile de leur échapper.",
+					"location": "left"
+				},
+				"4": {
+					"npc": "1152",
+					"maleText": "Quand j'y repense, je serre mon nounours et je pleure. Je crois que tu ne me feras pas de mal. Heureusement que je t'ai rencontré. Maman dit aussi que j'ai eu de la chance.",
+					"location": "left"
+				},
+				"5": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1157": {
+			"id": 1157,
+			"bot": "236_241_10",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Tu me demandes où est ma maman ? Elle est là, à me parler. Si tu veux lui dire quelque chose, je lui transmets ton message.",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1152",
+					"maleText": "Pourquoi est-ce que tu me regardes comme ça ? Je n'aime pas que l'on me regarde comme ça... Des choses terribles peuvent arriver !",
+					"location": "left"
+				},
+				"3": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1158": {
+			"id": 1158,
+			"bot": "236_49_10",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Stop ! Tu entends ? L'homme du marais gémit... Maman me l'a montré. Autrefois, il était comme tout le monde, jusqu'au jour où il s'est noyé dans le marais. Il est hideux et veut notre mort  à tout prix...",
+					"location": "left"
+				},
+				"2": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1159": {
+			"id": 1159,
+			"bot": "275_398_14",
+			"dialogs": {
+				"1": {
+					"npc": "1271",
+					"maleText": "Donne tes affaires ! Je ne te le demanderai pas deux fois ! Si tu les déposes là, je te laisse sortir. Si tu traînes, tu ramperas à quatre pattes. Et si tu refuses, tu signes ton arrêt de mort !",
+					"location": "right"
+				},
+				"2": {
+					"location": ""
+				},
+				"3": {
+					"location": ""
+				},
+				"4": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1317": {
+			"id": 1317,
+			"bot": "276_369_12",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "J'aime marcher comme ça avec toi. J'ai l'impression que nous faisons une promenades et que je suis un enfant ordinaire.",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1152",
+					"maleText": "Maman dit que je te fais peur. Est-ce que tu as vraiment peur d'une petite fille ?",
+					"femaleText": "Maman dit que je te fais peur. Est-ce que tu as vraiment peur d'une petite fille ?",
+					"location": "left"
+				},
+				"3": {
+					"location": ""
+				},
+				"4": {
+					"location": ""
+				},
+				"5": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1320": {
+			"id": 1320,
+			"bot": "276_124_13",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Tu es si drôle quand tu te bats ! Tu agites ton épée comme si tu dansais ! Dommage que maman ne me laissera pas t'enseigner notre technique de combat...",
+					"location": "left"
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1325": {
+			"id": 1325,
+			"bot": "276_493_15",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Il nous suit. Tu entends ses pas ? Je les entends. Je sens sa présence. Il va mal. Il souffre.",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1152",
+					"maleText": "Il meurt de faim. Il est habitué à manger des gens. Cela fait des années qu'il n'a plus rencontré personne, mis à part des araignées et des chauve-souris. Il va nous manger... ça pour sûr !",
+					"location": "left"
+				},
+				"3": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1328": {
+			"id": 1328,
+			"bot": "1181_498_19",
+			"dialogs": {
+				"1": {
+					"npc": "1185",
+					"maleText": "De la viande vivante... Chaude... J'avais tellement envie de nourriture chaude... Tu tombes à pic, mortel, je vais me nourrir de ta chair...",
+					"location": "right"
+				},
+				"2": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1378": {
+			"id": 1378,
+			"bot": "275_399_14",
+			"dialogs": {
+				"1": {
+					"npc": "1272",
+					"maleText": "Tu crois que, parce que tu as eu à faire aux autres, tu vas pouvoir m'acheter ? Il n'existe pas de cimetière qui puisse tous les accueillir !",
+					"femaleText": "Tu crois que, parce que tu as eu à faire aux autres, tu vas pouvoir m'acheter ? Il n'existe pas de cimetière qui puisse tous les accueillir !",
+					"location": "right"
+				},
+				"2": {
+					"npc": "1272",
+					"maleText": "Je vais te tailler en pièces ! Je vais faire un gobelet avec ton crâne, un collier avec tes dents et des flûtes avec tes os !",
+					"location": "right"
+				},
+				"3": {
+					"location": ""
+				},
+				"4": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1383": {
+			"id": 1383,
+			"bot": "277_400_16",
+			"dialogs": {
+				"1": {
+					"npc": "1187",
+					"maleText": "Agenouille-toi devant Sovering, misérable créature !",
+					"femaleText": "Agenouille-toi devant Sovering, misérable créature !",
+					"location": "right"
+				},
+				"2": {
+					"npc": "1187",
+					"maleText": "Le seigneur te voit à travers mes yeux, et il te demande de t'agenouiller ! Si tu résistes, il me confèrera une grande force et je te taillerai en pièces !",
+					"location": "right"
+				},
+				"3": {
+					"location": ""
+				},
+				"4": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1388": {
+			"id": 1388,
+			"bot": "277_401_17",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Ne te rue pas sur ton arme, guerrier ! Je suis revenu pour te remercier, pas pour t'attaquer ! En me battant au combat, tu as extirpé de mon être l'esprit maléfique de Sovering !",
+					"femaleText": "Ne te rue pas sur ton arme, guerrier ! Je suis revenu pour te remercier, pas pour t'attaquer ! En me battant au combat, tu as extirpé de mon être l'esprit maléfique de Sovering !",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1186",
+					"maleText": "Je m'appelle Ariana et je te dois la vie ! Conformément aux lois amazones, je te servirai jusqu'à la fin de mes jours. Laisse-moi le temps de soigner mes blessures et je te suivrai jusqu'au bout du monde !",
+					"location": "left"
+				},
+				"3": {
+					"location": ""
+				},
+				"4": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1391": {
+			"id": 1391,
+			"bot": "277_402_17",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Je n'aime pas cette femme que tu as emmenée avec nous. L'amazone. Débarrasse-toi d'elle, tu entends !!",
+					"femaleText": "Je n'aime pas cette femme que tu as emmenée avec nous. L'amazone. Débarrasse-toi d'elle, tu entends !!",
+					"location": "left"
+				},
+				"2": {
+					"location": ""
+				},
+				"3": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1398": {
+			"id": 1398,
+			"bot": "277_403_18",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Pardonne-moi, mon sauveur, je ne devrais pas en parler mais je n'en puis plus de me retenir. Cette... hum... fille qui nous accompagne. À Branendal, les gens tremblent rien qu'à entendre son nom. Elle est possédée par le démon !",
+					"femaleText": "Pardonne-moi, mon sauveur, je ne devrais pas en parler mais je n'en puis plus de me retenir. Cette... hum... fille qui nous accompagne. À Branendal, les gens tremblent rien qu'à entendre son nom. Elle est possédée par le démon !",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1186",
+					"maleText": "Elle t'a dit qu'elle a fui son village ? Ne va pas croire ça ! La gamine a tué les siens, et maintenant c'est notre peau qu'elle veut avoir !",
+					"location": "left"
+				},
+				"3": {
+					"npc": "1152",
+					"maleText": "Pourquoi est-ce qu'elle dit ça ?... Tu crois que j'ai fait quelque chose de mal ? C'est faux. J'ai été correcte !...",
+					"location": "left"
+				},
+				"4": {
+					"location": ""
+				},
+				"5": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1407": {
+			"id": 1407,
+			"bot": "277_404_19",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Una est mauvaise, Una ment. Les miens, mon village... J'ai menti. En vérité, je n'ai pas fui mon village...",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1152",
+					"maleText": "Mais c'est eux qui m'ont attaquée en premier ! Je ne voulais pas ça en réalité ! J'ai eu la peur de ma vie... Et quelque chose s'est passé.",
+					"location": "left"
+				},
+				"3": {
+					"npc": "1152",
+					"maleText": "Et ils sont tous morts brûlés. Tous ! Ma famille entière, mes voisins, tout le village... Mais maman a dit que cela devait arriver.",
+					"location": "left"
+				},
+				"4": {
+					"npc": "1152",
+					"maleText": "Parce que sinon ils m'auraient tuée... Ils deviennent tous mauvais à cause de Sovering. Ils me pourchassent. Je vais me mettre à pleurer. Ne me chasse pas s'il te plaît...",
+					"location": "left"
+				},
+				"5": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1414": {
+			"id": 1414,
+			"bot": "277_405_19",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "J'ai pleuré toute la journée... Tu vas me pardonner ce que j'ai fait dans le village, dis ? Pardonne-moi et laisse-moi venir avec toi...",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1152",
+					"maleText": "À part toi, je n'ai pas d'amis. J'ai seulement mon nounours et ma maman pour s'occuper de moi...",
+					"femaleText": "À part toi, je n'ai pas d'amis. J'ai seulement mon nounours et ma maman pour s'occuper de moi...",
+					"location": "left"
+				},
+				"3": {
+					"npc": "1186",
+					"maleText": "Je commence à avoir de la peine pour cette fillette. Elle n'est peut-être pas aussi terrible que je le pensais... Autorise-la à rester, mon héros. Elle peut peut-être t'être utile dans ton périple.",
+					"femaleText": "Je commence à avoir de la peine pour cette fillette. Elle n'est peut-être pas aussi terrible que je le pensais... Autorise-la à rester, ma mie. Elle peut peut-être t'être utile dans ton périple.",
+					"location": "left"
+				},
+				"4": {
+					"location": ""
+				},
+				"5": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1425": {
+			"id": 1425,
+			"bot": "277_469_20",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Attends... Je sais que tu n'as pas d'autre choix que d'avancer, mais j'ai si peur pour toi, mon protecteur !... Rien de pire ne pourrait m'arriver que de te perdre...",
+					"femaleText": "Attends... Je sais que tu n'as pas d'autre choix que d'avancer, mais j'ai si peur pour toi, mon protecteur !... Rien de pire ne pourrait m'arriver que de te perdre...",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1186",
+					"maleText": "Pourquoi je suis si désolé ? Crois-moi, j'ai mes raisons. Le corène à cornes est en route. Il était le champion incontesté des tournois de guerriers qui avaient lieu avant que l'on n'entende parler de Sovering...",
+					"location": "left"
+				},
+				"3": {
+					"npc": "1186",
+					"maleText": "Le corène à cornes est si puissant qu'il peut brandir telle une plume, une épée grande comme un humain !",
+					"location": "left"
+				},
+				"4": {
+					"npc": "1186",
+					"maleText": "Cette épée peut couper un cavalier et son cheval en deux ! Je ne dirais pas cela si je ne l'avais pas vu de mes propres yeux !",
+					"location": "left"
+				},
+				"5": {
+					"npc": "1186",
+					"maleText": "Le corène était capable de tuer n'importe qui d'un seul coup lorsqu'il était humain. Maintenant, il est possédé par Sovering et son pouvoir démoniaque. Je te demande juste d'être prudent. Pour Radway, pour moi...",
+					"femaleText": "Le corène était capable de tuer n'importe qui d'un seul coup lorsqu'il était humain. Maintenant, il est possédé par Sovering et son pouvoir démoniaque. Je te demande juste d'être prudent. Pour Radway, pour moi...",
+					"location": "left"
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1430": {
+			"id": 1430,
+			"bot": "278_413_22",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "J'ai fait un terrible cauchemar. Je me suis réveillée en nage avec la peur au ventre.",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1152",
+					"maleText": "Dans mon rêve, j'ai vu des créatures aussi puissantes que des montagnes... Les armes ne transpercent pas leurs corps de cristal... Maman dit que ce n'était qu'un rêve.",
+					"location": "left"
+				},
+				"3": {
+					"location": ""
+				},
+				"4": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1435": {
+			"id": 1435,
+			"bot": "278_409_22",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Je ressens Leur pouvoir à présent... Les gens sont si chétifs en comparaison...",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1152",
+					"maleText": "Elles sont là, devant nous... Les créatures de cristal... Elles n'ont pas d'âme, mais Elles sont furieuses d'avoir été réveillées... Terriblement furieuses... Tu n'as pas peur ? Tu devrais pourtant !",
+					"location": "left"
+				},
+				"3": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1444": {
+			"id": 1444,
+			"bot": "278_407_23",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "J'ai le pressentiment qu'il va arriver malheur ! Je me fais du souci pour toi, mon héros.",
+					"femaleText": "J'ai le pressentiment qu'il va arriver malheur ! Je me fais du souci pour toi, mon protecteur.",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1186",
+					"maleText": "J'ai vu une créature que je n'ai jamais vue auparavant. Mais je me souviens de certaines légendes sur des créatures de ce genre. Ce sont des cristallides. On dit qu'elles ont vécu il y a des siècles, et qu'un beau jour, elles se sont endormies...",
+					"location": "left"
+				},
+				"3": {
+					"npc": "1186",
+					"maleText": "Fais attention à toi ! Tu es le seul qui puisses sauver Radway !",
+					"location": "left"
+				},
+				"4": {
+					"location": ""
+				},
+				"5": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1452": {
+			"id": 1452,
+			"bot": "278_411_25",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Tu te bats admirablement bien, mon bienfaiteur ! Tu sais, j'ai pensé aux malheurs qui ont frappé le monde... D'abord le démon Sovering, puis maintenant ces géants de pierre...",
+					"femaleText": "Tu te bats admirablement bien, mon bienfaiteur ! Tu sais, j'ai pensé aux malheurs qui ont frappé le monde... D'abord le démon Sovering, puis maintenant ces géants de pierre...",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1186",
+					"maleText": "Cela ne peut être une simple coïncidence... Il y a quelqu'un derrière tout ça... Une main diabolique a réveillé le démon et les géants... Un être connaissant la magie noire, et élémentaliste en même temps...",
+					"location": "left"
+				},
+				"3": {
+					"location": ""
+				},
+				"4": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1457": {
+			"id": 1457,
+			"bot": "278_412_25",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Le sol tremble... Est-ce un tremblement de terre ?",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1186",
+					"maleText": "Non... Ce sont... des pas ! Les pas de quelqu'un de très grand... Il s'approche. Que vais-je découvrir ? Par pitié !",
+					"location": "left"
+				},
+				"3": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1465": {
+			"id": 1465,
+			"bot": "279_414_29",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "J'ai entendu dire qu'il y a des sangliers particulièrement dangereux dans le coin. J'ai cependant déjà eu à faire à des porcs bien pires dans les pubs de Branendal.",
+					"location": "left"
+				},
+				"2": {
+					"location": ""
+				},
+				"3": {
+					"location": ""
+				},
+				"4": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1474": {
+			"id": 1474,
+			"bot": "279_415_30",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Beau combat, mon héros. Regarde, un autre sanglier. Bizarre, je n'en ai jamais vu de la sorte...",
+					"femaleText": "Beau combat, mon protecteur. Regarde, un autre sanglier. Bizarre, je n'en ai jamais vu de la sorte...",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1152",
+					"maleText": "Tout cela est dû aux glands du chêne qui pousse là-bas. Ses racines vont puiser de l'énergie en enfer... Les porcs mangent les glands qui en tombent.",
+					"location": "left"
+				},
+				"3": {
+					"npc": "1152",
+					"maleText": "Ils sont donc mauvais, très mauvais. Vite, cachons-nous !",
+					"location": "left"
+				},
+				"4": {
+					"location": ""
+				},
+				"5": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1481": {
+			"id": 1481,
+			"bot": "279_417_32",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Tu tues les sangliers et chasses l'esprit maléfique qui les habite... Mais les esprits sont là... Je les vois. Ils sont avec nous. Et ils sont furieux d'avoir été dérangés.",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1152",
+					"maleText": "Les esprits se déplacent. Ils... Ils sont tous entrés dans le corps d'un sanglier ! Maman dit que ça va devenir dangereux ! Cours !",
+					"location": "left"
+				},
+				"3": {
+					"location": ""
+				},
+				"4": {
+					"location": ""
+				},
+				"5": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1490": {
+			"id": 1490,
+			"bot": "280_418_26",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Nous sommes arrivés dans le désert, brave guerrier. Il fait si chaud qu'on enlèverait bien quelques épaisseurs !",
+					"femaleText": "Nous sommes arrivés dans le désert, brave guerrier. Il fait si chaud qu'on enlèverait bien quelques épaisseurs !",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1152",
+					"maleText": "Je vois des terres à l'horizon... parcourues de coulées de lave et de monstres à cornes... Mais même là-bas, il fait moins chaud que dans ce terrible désert...",
+					"location": "left"
+				},
+				"3": {
+					"npc": "1186",
+					"maleText": "Il n'y a pas d'eau, la terre est desséchée sur plusieurs mètres de profondeur. Résultat, les plantes ne se nourrissent pas dans le sol, mais directement des voyageurs. Je crois que je vois une herbe cannibale à l'horizon !",
+					"location": "left"
+				},
+				"4": {
+					"location": ""
+				},
+				"5": {
+					"location": ""
+				},
+				"6": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1497": {
+			"id": 1497,
+			"bot": "280_425_26",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Je n'ai pas réussi à décrocher mon regard de ces terres... Je me souviens d'histoires de requins des sables errant dans le désert... Ils peuvent nager dans le sable comme des poissons dans l'océan...",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1186",
+					"maleText": "Et si une de ces créatures se faufilait jusqu'à nous... Je vais rester surveiller et... Oh non ! Je sens quelque chose bouger !",
+					"location": "left"
+				},
+				"3": {
+					"location": ""
+				},
+				"4": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1506": {
+			"id": 1506,
+			"bot": "280_422_28",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "J'ai peur. Non pas des monstres, mais de moi-même. Quelque chose va peut-être se produire. Maman est inquiète. C'est comme ce qui est arrivé dans le village. Je ne peux pas continuer comme ça.",
+					"location": "left"
+				},
+				"2": {
+					"location": ""
+				},
+				"3": {
+					"location": ""
+				},
+				"4": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1515": {
+			"id": 1515,
+			"bot": "280_426_29",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Mon héros, je dois dire que j'ai été injuste avec cette fille... Una. C'est une enfant, elle est très mûre pour son âge. Elle serait une excellente amazone.",
+					"femaleText": "Mon protecteur, je dois dire que j'ai été injuste avec cette fille... Una. C'est une enfant, elle est très mûre pour son âge. Elle serait une excellente amazone.",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1186",
+					"maleText": "Mais elle porte des forces maléfiques en elle. Plus nous approcherons du repaire de Sovering, plus Una changera... et cela empirera.",
+					"femaleText": "Mais elle porte des forces maléfiques en elle. Plus nous approcherons du repaire de Sovering, plus Una changera... et cela empirera.",
+					"location": "left"
+				},
+				"3": {
+					"location": ""
+				},
+				"4": {
+					"location": ""
+				},
+				"5": {
+					"location": ""
+				},
+				"6": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1528": {
+			"id": 1528,
+			"bot": "280_419_30",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Tu vas réussir, mon protecteur. J'ai foi en toi !",
+					"femaleText": "Tu vas réussir, mon protecteur. J'ai foi en toi !",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1186",
+					"maleText": "Quoi ? Est-ce que je dis toujours qu'il y a un grand danger ? Désolée mais je dois t'encourager d'une manière ou d'une autre !",
+					"location": "left"
+				},
+				"3": {
+					"npc": "1186",
+					"maleText": "Tu as raison, nous allons faire face à un autre ennemi menaçant... Regarde comme le sable vole dans les airs là-bas. Un énorme vers prédateur glisse sous le sable. Il est si grand qu'il pourrait avaler l'ogre que tu as récemment exterminé !",
+					"femaleText": "Tu as raison, une nouvelle menace se profile pour nous... Regarde comme le sable vole dans les airs là-bas. Un énorme vers prédateur glisse sous le sable. Il est si grand qu'il pourrait avaler l'ogre que tu as récemment exterminé !",
+					"location": "left"
+				},
+				"4": {
+					"location": ""
+				},
+				"5": {
+					"location": ""
+				},
+				"6": {
+					"location": ""
+				},
+				"7": {
+					"location": ""
+				},
+				"8": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1535": {
+			"id": 1535,
+			"bot": "1182_1188_31",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Contente de te revoir ! J'étais si seule ici. Je n'ai pas cessé de penser à la manière dont les malheurs sont arrivés. Mais j'ai aussi pensé à la façon dont je peux t'aider... C'est maman qui me l'a suggéré.",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1152",
+					"maleText": "Tu vas devoir affronter le démon le plus puissant qui soit : Sovering. Peut-être que si tu commences par me vaincre, tu seras mieux préparé à te battre contre lui.",
+					"femaleText": "Tu vas devoir affronter le démon le plus puissant qui soit : Sovering. Peut-être que si tu commences par me vaincre, tu seras mieux préparé à te battre contre lui.",
+					"location": "left"
+				},
+				"3": {
+					"npc": "1153",
+					"maleText": "Veux-tu t'entraîner avec moi ? Je vais redevenir forte comme je l'étais dans le village... Mais si je te blesse, ne sois pas vexé. C'est d'accord ? Prêt ?",
+					"location": "right"
+				},
+				"4": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1540": {
+			"id": 1540,
+			"bot": "1182_1188_34",
+			"dialogs": {
+				"1": {
+					"npc": "1153",
+					"maleText": "Quoi, tu as eu du mal à venir à bout d'une enfant ? Mais ce n'était qu'un échauffement ! Prêt pour le second round ?",
+					"femaleText": "Quoi, tu as eu toutes les peines du monde à venir à bout d'une enfant ? Mais ce n'était qu'un échauffement ! Prêt pour le second round ?",
+					"location": "right"
+				},
+				"2": {
+					"location": ""
+				},
+				"3": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1547": {
+			"id": 1547,
+			"bot": "1182_1188_38",
+			"dialogs": {
+				"1": {
+					"npc": "1153",
+					"maleText": "Maman dit que tes pouvoirs grandissent. Tout comme les miens. On remet ça ?",
+					"location": "right"
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1556": {
+			"id": 1556,
+			"bot": "1182_1190_41",
+			"dialogs": {
+				"1": {
+					"npc": "1153",
+					"maleText": "Tu es fort. Mais maman dit que je suis capable de mieux. On recommence ?",
+					"femaleText": "Tu es fort. Mais maman dit que je suis capable de mieux. On recommence ?",
+					"location": "right"
+				},
+				"2": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1567": {
+			"id": 1567,
+			"bot": "1182_1190_46",
+			"dialogs": {
+				"1": {
+					"npc": "1153",
+					"maleText": "Tes coups sont puissants, maman se fait parfois du souci pour moi. Mais nous ne pouvons pas arrêter là. Bientôt je vais te montrer ce dont je suis vraiment capable.",
+					"location": "right"
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1572": {
+			"id": 1572,
+			"bot": "1182_1190_49",
+			"dialogs": {
+				"1": {
+					"npc": "1153",
+					"maleText": "Maman dit que tu es celui qui sauvera notre monde. Mais même quelqu'un comme toi a besoin d'un entraînement. Si tu veux, nous pouvons continuer. Je vais te montrer de nouvelles choses.",
+					"femaleText": "Maman dit que tu es celui qui sauvera notre monde. Mais même quelqu'un comme toi a besoin d'un entraînement. Si tu veux, nous pouvons continuer. Je vais te montrer de nouvelles choses.",
+					"location": "right"
+				},
+				"2": {
+					"npc": "1153",
+					"maleText": "Tu me demandes si ma maman, dont je parle si souvent, est encore en vie ? Non. Mais elle n'est pas non plus avec les morts.",
+					"location": "right"
+				},
+				"3": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1579": {
+			"id": 1579,
+			"bot": "1182_1191_53",
+			"dialogs": {
+				"1": {
+					"npc": "1153",
+					"maleText": "Je veux que tu battes Sovering. Je le veux, je le veux ! Si tu me bats encore une fois, je te donnerai mon nounours, il t'aidera.",
+					"femaleText": "Je veux que tu battes Sovering. Je le veux, je le veux ! Si tu me bats encore une fois, je te donnerai mon nounours, il t'aidera.",
+					"location": "right"
+				},
+				"2": {
+					"npc": "1153",
+					"maleText": "Arrête de me regarder comme ça... Il va vraiment t'aider. Tu ignores juste ce dont il est capable. C'est maman qui me l'a donné.",
+					"location": "right"
+				},
+				"3": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1582": {
+			"id": 1582,
+			"bot": "281_423_42",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Même dans nos jungles, les gens tremblent lorsqu'ils le nom du démon ! Aucun guerrier ordinaire ne peut le battre, mais j'ai foi en toi !",
+					"location": "left"
+				},
+				"2": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1587": {
+			"id": 1587,
+			"bot": "282_414_31",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Cette forêt n'inspire rien de bon à maman. Je ne peux pas continuer, mais toi tu le peux. Je vais attendre là. Je serai sage, promis !",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1152",
+					"maleText": "Est-ce que je vais te manquer ? Toi, oui. Reviendras-tu jouer avec moi ? Je t'apprendrai le jeu de la vie et de la mort.",
+					"location": "left"
+				},
+				"3": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1594": {
+			"id": 1594,
+			"bot": "282_476_32",
+			"dialogs": {
+				"1": {
+					"npc": "1268",
+					"maleText": "Humain stupide ! Que fais-tu là ? Ici vivent les zvergs, ici, terre des zvergs ! Va t'en !",
+					"location": "right"
+				},
+				"2": {
+					"npc": "1268",
+					"maleText": "Tu ne veux pas partir ? Quel affront ! Tu vas mourir ! Je vais te tuer et te manger !",
+					"location": "right"
+				},
+				"3": {
+					"npc": "1186",
+					"maleText": "Maudits zvergs ! Un jour, ils ont tenté d'enlever ma sœur. Nous avons eu toutes les peines du monde à les en empêcher. Ils avaient l'air d'humains, mais ils sont bien pire, et surtout, ils sont repoussants !",
+					"femaleText": "Maudits zvergs ! Un jour, ils ont tenté d'enlever ma sœur. Nous avons eu toutes les peines du monde à les en empêcher. Ils ne se lavent pas. Ils sont pires que les humains. Montre-leur ce dont une femme est capable ma sœur !",
+					"location": "left"
+				},
+				"4": {
+					"location": ""
+				},
+				"5": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1606": {
+			"id": 1606,
+			"bot": "282_477_33",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Je comprends pourquoi Una a décidé de rester... Plus nous irons loin, mieux je percevrai les dessins diaboliques de Sovering. Il a peut-être réveillé le pouvoir qui sommeille en cette fille pour le retourner contre toi.",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1186",
+					"maleText": "Una l'a compris. Elle est restée en retrait pour ne pas nous faire de mal. J'ai le sentiment que tu reverras cette fille, mon héros.",
+					"femaleText": "Una l'a compris. Elle est restée en retrait pour ne pas nous faire de mal. J'ai le sentiment que tu reverras cette fille, ma mie.",
+					"location": "left"
+				},
+				"3": {
+					"location": ""
+				},
+				"4": {
+					"location": ""
+				},
+				"5": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1619": {
+			"id": 1619,
+			"bot": "282_478_34",
+			"dialogs": {
+				"1": {
+					"npc": "1154",
+					"maleText": "Quels sont tes plans, mortel ? Vaincre Sovering. Ton insolence te conduira à ta perte. Ta mort sera atroce ! Arrête avant qu'il ne soit trop tard !",
+					"femaleText": "Quels sont tes plans, mortel ? T'attaquer à Sovering. Ton insolence te conduira à ta perte. Ta mort sera atroce ! Arrête avant qu'il ne soit trop tard !",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1154",
+					"maleText": "Pauvre idiot, ton arme ne te servira à rien. Tu t'attaques à un pouvoir capable de t'aplatir comme une crêpe. Tu es déterminé ? Je t'aurai prévenu...",
+					"femaleText": "Pauvre folle, ton arme ne te servira à rien. Tu t'attaques à un pouvoir capable de te réduire en bouillie. Tu es sûre ? Je t'aurai prévenue...",
+					"location": "left"
+				},
+				"3": {
+					"location": ""
+				},
+				"4": {
+					"location": ""
+				},
+				"5": {
+					"location": ""
+				},
+				"6": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1702": {
+			"id": 1702,
+			"bot": "282_482_35",
+			"dialogs": {
+				"1": {
+					"npc": "1269",
+					"maleText": "Tu es venu pour tuer nos zvergs. Les esprits sont furieux ! Ils ne te le pardonneront jamais ! Ils m'ont conféré ma force. Je vais te donner en sacrifice !",
+					"location": "right"
+				},
+				"2": {
+					"npc": "1186",
+					"maleText": "Pire qu'un zverg ordinaire, il y a leurs shamans  ! Ils disent conduire une victime à l'autel du sacrifice une fois par jour. En échange, les esprits démoniaques leur confèrent de prodigieux pouvoirs.",
+					"location": "left"
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1705": {
+			"id": 1705,
+			"bot": "283_625_47",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Dans ces contrées, dans ce coin secret, vit la matriarche, la mère de tous les zvergs. Nous, les amazones, respectons les femmes, mais celle-ci doit être une créature vraiment immonde.",
+					"location": "left"
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1708": {
+			"id": 1708,
+			"bot": "284_483_36",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Ces magnifiques jungles sont mon pays natal. Nulle part ailleurs, les fleurs n'exhalent de telles senteurs et les oiseaux ne chantent comme ceux qui ont enchanté mon enfance.",
+					"femaleText": "Ces magnifiques jungles sont mon pays natal. Nulle part ailleurs tu ne trouveras de fleurs aussi belles et de chants d'oiseaux aussi harmonieux.",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1186",
+					"maleText": "Tout ce qui est là nous appartient à nous, amazones. Nous avons capturé des hommes. Pour notre plaisir et pour travailler.",
+					"femaleText": "Tout ce qui est là nous appartient à nous, amazones. Nous avons capturé des hommes. Pour notre plaisir et pour travailler. Quelle vie merveilleuse, vous ne croyez pas ma mie ?",
+					"location": "left"
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1713": {
+			"id": 1713,
+			"bot": "284_484_36",
+			"dialogs": {
+				"1": {
+					"npc": "1154",
+					"maleText": "Je vois que tu as fait fi de mes paroles. Tu n'aurais pas dû. De nombreux tas d'os comme toi sont enterrés dans ce pays. Veux-tu les rejoindre ?",
+					"femaleText": "Je vois que tu as fait fi de mes paroles. Tu n'aurais pas dû. De nombreux tas d'os comme toi sont enterrés dans ce pays. Veux-tu les rejoindre ?",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1154",
+					"maleText": "Tu es allé si loin que tu ne t'en tireras pas avec une mort rapide. Tes souffrances feront même grimacer les démons des enfers !",
+					"femaleText": "Tu es allé si loin que tu ne t'en tireras pas avec une mort rapide. Tes souffrances feront même grimacer les démons des enfers !",
+					"location": "left"
+				},
+				"3": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1720": {
+			"id": 1720,
+			"bot": "284_485_37",
+			"dialogs": {
+				"1": {
+					"npc": "1154",
+					"maleText": "Toujours en vie, l'impudent ? Je vais mettre un terme immédiat à tes certitudes ! Maintenant, je t'en conjure, fais demi-tour.",
+					"femaleText": "Toujours en vie, l'impudente ? Je vais mettre un terme immédiat à tes certitudes ! Maintenant, je t'en conjure, fais demi-tour.",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1154",
+					"maleText": "Rebrousse chemin et tu verras peut-être le prochain lever du soleil. Continue et tu seras à jamais plongé dans les ténèbres. Penses-y mortel !",
+					"femaleText": "Rebrousse chemin et tu verras peut-être le prochain lever du soleil. Continue et tu seras à jamais plongé dans les ténèbres. Penses-y femme !",
+					"location": "left"
+				},
+				"3": {
+					"npc": "1154",
+					"maleText": "Qui je suis ? Tu n'as pas besoin de le savoir dans le monde qui t'attend... Et si par un quelconque miracle, tu survis, tu me reverras. Moi et mes frères...",
+					"location": "left"
+				},
+				"4": {
+					"location": ""
+				},
+				"5": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1731": {
+			"id": 1731,
+			"bot": "284_486_38",
+			"dialogs": {
+				"1": {
+					"npc": "1145",
+					"maleText": "Un homme en vie ? Dans ces contrées maudites ? Tu n'as pas été éventré et tu ne sembles pas être possédé...",
+					"femaleText": "Une femme en vie ? Dans ces contrées maudites ? Tu n'as pas été éventrée et tu ne sembles pas être possédée...",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1146",
+					"maleText": "C'est un homme, cela ne fait aucun doute. Nous pensions que le seul que nous aurions rencontré ici aurait été Celui qui cache son visage. Peut-être l'as-tu vu en chemin, étranger ?",
+					"femaleText": "En vie, cela ne fait aucun doute. Nous pensions que le seul que nous aurions rencontré ici aurait été Celui qui cache son visage. Peut-être l'as-tu vu en chemin, étranger ?",
+					"location": "left"
+				},
+				"3": {
+					"npc": "1145",
+					"maleText": "Tu l'as croisé, c'est certain ! Il pense pouvoir nous échapper ! Bientôt, je lui passerai la corde autour du cou, et il paiera pour tout ce qui arrive ici.",
+					"femaleText": "Tu l'as croisé, c'est certain ! Il pense pouvoir nous échapper ! Bientôt, je lui passerai la corde autour du cou, et il paiera pour tout ce qui arrive ici.",
+					"location": "left"
+				},
+				"4": {
+					"npc": "1146",
+					"maleText": "Ma compagne a un peu exagéré au sujet de sa colère, mais nous devons faire vite. Nous ne te retiendrons pas plus longtemps. Poursuis ton chemin si tu tiens à la vie.",
+					"location": "left"
+				},
+				"5": {
+					"location": ""
+				},
+				"6": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1738": {
+			"id": 1738,
+			"bot": "284_488_39",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Cycloptiques. Je les hais ! Ils sont les ennemis jurés des amazones. Nous nous battons contre ces viles créatures depuis que nous vivons ici.",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1186",
+					"maleText": "Ils t'ont tendu une embuscade, t'ont attaqué à plusieurs et ont volé tout ce qui n'était pas cloué. Seuls des blasphèmes sortent de leurs bouches. Je suis sûr que tu les remettras à leur place, mon héros !",
+					"femaleText": "Ils t'ont tendu une embuscade, t'ont attaqué à plusieurs et ont volé tout ce qui n'était pas cloué. Seuls des blasphèmes sortent de leurs bouches. Remets-les à leur place, mon sauveur !",
+					"location": "left"
+				},
+				"3": {
+					"npc": "1270",
+					"maleText": "Regarde, une nouvelle proie. Je frappe en premier. Non, moi d'abord ! Prépare-toi à mourir, humain !",
+					"location": "right"
+				},
+				"4": {
+					"location": ""
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1745": {
+			"id": 1745,
+			"bot": "284_490_40",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Presque toutes mes sœurs sont possédées comme je l'étais avant de te rencontrer, mon sauveur. Des guerriers nobles se sont transformés en monstres sanguinaires. Quelle fin terrible pour notre tribu !",
+					"femaleText": "Presque toutes mes sœurs sont possédées et se sont transformées en monstres comme celui que j'étais avant de te rencontrer, mon sauveur. Quelle fin terrible pour notre tribu !",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1186",
+					"maleText": "C'est l'une d'elles. La pauvre ! Bats-la, peut-être qu'elle pourra être soignée comme moi. Ou du moins, tu abrègeras ses souffrances. Prudence toutefois. Les amazones sont rusées et fortes, et celle-ci a un démon en elle.",
+					"femaleText": "C'est l'une d'elles. La pauvre ! Bats-la, elle peut peut-être être soignée comme moi. Ou du moins, tu abrègeras ses souffrances.",
+					"location": "left"
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1748": {
+			"id": 1748,
+			"bot": "284_489_40",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Un monstre avec d'immenses griffes capables de couper une personne en deux t'attend ! Tu es le seul à pouvoir le vaincre, mon héros !",
+					"femaleText": "Un monstre avec d'immenses griffes capables de couper une personne en deux t'attend ! Tu es le seul à pouvoir le vaincre, mon héros !",
+					"location": "left"
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1753": {
+			"id": 1753,
+			"bot": "285_498_41",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Ce lieu me dégoute... Une terrible malédiction plane sur ces terres ! Un mal ancien règne ici, un mal diabolique...",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1185",
+					"maleText": "J'ai attendu si longtemps... Ma gorge est sèche. Je veux boire ton sang... Étancher ma soif...",
+					"location": "right"
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1762": {
+			"id": 1762,
+			"bot": "285_497_42",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Regarde. En voilà une autre... J'ai une peur bleue des cadavres ressuscités ! Je pense que je vais mourir de dégout si cette créature immonde me touche avec ses doigts putrides.",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1186",
+					"maleText": "Heureuse que tu sois là, mon bienfaiteur... Tu vas me défendre et sauver le monde, j'en suis sûre !",
+					"location": "left"
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1769": {
+			"id": 1769,
+			"bot": "285_375_43",
+			"dialogs": {
+				"1": {
+					"npc": "1145",
+					"maleText": "Toujours en vie ? Les dieux doivent être de ton côté puisque tu n'as pas encore été déchiqueté par les vautours ! Ou peut-être sais-tu vraiment te battre...",
+					"femaleText": "Toujours en vie ? Les dieux doivent être de ton côté puisque tu n'as pas encore été déchiqueté par les vautours ! Ou peut-être sais-tu vraiment te battre...",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1146",
+					"maleText": "Je sens vraiment plus de forces en toi, guerrier. Tu pourrais nous être utile à l'occasion. Mais à présent, nous devons faire vite. Notre partie de chasse n'est pas terminée.",
+					"femaleText": "Je sens vraiment plus de forces en toi, guerrier. Tu pourrais nous être utile à l'occasion. Mais à présent, nous devons faire vite. Notre partie de chasse n'est pas terminée.",
+					"location": "left"
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1772": {
+			"id": 1772,
+			"bot": "285_495_45",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Les squelettes ne sont pas aussi repoussants que les cadavres pourris, mais ils sont plus dangereux au combat. Sovering leur a probablement insufflé de la vie pour qu'ils puissent nous détruire.",
+					"location": "left"
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1777": {
+			"id": 1777,
+			"bot": "285_494_45",
+			"dialogs": {
+				"1": {
+					"npc": "1184",
+					"maleText": "Où vas-tu, ton sabre à la main, humain ? C'est le domaine de mon seigneur, Sovering, et tous les mortels devraient s'agenouiller devant lui en s'aspergeant la tête de sable.",
+					"location": "right"
+				},
+				"2": {
+					"npc": "1184",
+					"maleText": "Mais même cela ne te sauvera pas, créature impudente ! Je ne te permettrai pas d'importuner les restes de mon seigneur ! Il te réduira en cendres d'un simple regard, mais je t'achèverai avant même qu'il n'en ait l'occasion.",
+					"location": "right"
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1782": {
+			"id": 1782,
+			"bot": "286_492_55",
+			"dialogs": {
+				"1": {
+					"npc": "1186",
+					"maleText": "Tu vas devoir affronter Sovering en personne ! Si tu gagnes, le monde sera débarrassé d'une malédiction. Si tu perds, nous périrons tous. Je prie les dieux de nous aider et d'être avec toi !",
+					"location": "left"
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1856": {
+			"id": 1856,
+			"bot": "1181_373_20",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Cet endroit ne m'inspire rien de bon. Partons.",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1152",
+					"maleText": "Tu entends ? Des bruits d'os. Ils se rapprochent...",
+					"location": "left"
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1858": {
+			"id": 1858,
+			"bot": "1181_1189_22",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Il y a une odeur bizarre, comme celle de ce chat qui s'est noyé dans la rivière.",
+					"location": "left"
+				}
+			},
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1872": {
+			"id": 1872,
+			"bot": "1862_1863_13",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Maman dit qu'ils n'apprécient pas de nous voir ici. Le peuple des marais n'aime pas recevoir de visiteurs. ",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1868",
+					"maleText": "Quelqu'un dans nos marais ? Il n'y a rien pour vous ici ! Esprits du bourbier, attendez mon offre !",
+					"location": "right"
+				}
+			},
+			"minVersion": "2.1",
+			"maxVersion": null
+		},
+		"1876": {
+			"id": 1876,
+			"bot": "1862_1864_14",
+			"dialogs": {
+				"1": {
+					"npc": "1869",
+					"maleText": "Pourquoi venez-vous ? Avant, personne ne se souciait du marais. Nous autres colosses étions les seuls à habiter le bourbier.",
+					"location": "right"
+				},
+				"2": {
+					"npc": "1869",
+					"maleText": "C'est la mort que tu vas trouver ici ! Ton linceul sera de la vase, les pleureuses à ton enterrement seront des grenouilles, une butte sera ta pierre tombale.",
+					"location": "right"
+				},
+				"3": {
+					"npc": "1869",
+					"maleText": "Tu ne veux pas entendre raison ? Alors prépare-toi à être réduit en bouillie par mes guerriers !",
+					"location": "right"
+				}
+			},
+			"minVersion": "2.1",
+			"maxVersion": null
+		},
+		"1880": {
+			"id": 1880,
+			"bot": "1862_1865_16",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Les adultes disent que si je ne suis pas sage, je vais me transformer en colosse. Tu crois qu'ils ont tous été des enfants méchants ?",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1869",
+					"maleText": "Comment oses-tu fouler le sol de mon royaume et tuer mes guerriers ? Mes enfants ! Tu vas le regretter !",
+					"location": "right"
+				},
+				"3": {
+					"npc": "1869",
+					"maleText": "Le seul moyen pour toi de rester en vie va être d'entrer à mon service ! Ce qui peut arriver de mieux à un humain, non ? Alors tu vas mourir !",
+					"location": "right"
+				}
+			},
+			"minVersion": "2.1",
+			"maxVersion": null
+		},
+		"1883": {
+			"id": 1883,
+			"bot": "1862_1866_17",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Ils sont très rusés. Une femme du marais se cache là-bas. Elle pense que personne ne peut la voir, mais maman voit tout le monde.",
+					"location": "left"
+				},
+				"2": {
+					"npc": "1868",
+					"maleText": "Notre marais est plein d'os humains ! Mais tes restes n'auront pas de mal à trouver leur leur place !",
+					"location": "right"
+				}
+			},
+			"minVersion": "2.1",
+			"maxVersion": null
+		},
+		"1886": {
+			"id": 1886,
+			"bot": "1862_1867_17",
+			"dialogs": {
+				"1": {
+					"npc": "1869",
+					"maleText": "Les algues du marais sont maculées du sang de mes soldats ! Tu es un adversaire redoutable, humain ! Mais nous sommes plus forts !",
+					"location": "right"
+				},
+				"2": {
+					"npc": "1869",
+					"maleText": "Le marais va t'engloutir, les esprits seront en transe sur ta tombe. Nous autres colosses sommes les maîtres du monde !",
+					"location": "right"
+				}
+			},
+			"minVersion": "2.1",
+			"maxVersion": null
+		},
+		"1888": {
+			"id": 1888,
+			"bot": "275_395_12",
+			"dialogs": {
+				"1": {
+					"npc": "1152",
+					"maleText": "Au village, on dit que cette mine est le repaire de brigands. Et si c'était vrai ? N'as-tu pas peur de t'aventurer dans ses ténèbres ?",
+					"location": "left"
+				}
+			},
+			"minVersion": "2.1",
+			"maxVersion": null
+		}
+	}
+}

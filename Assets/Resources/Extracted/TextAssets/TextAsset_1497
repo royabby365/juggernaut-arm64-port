@@ -1,0 +1,249 @@
+{
+	"hints": {
+		"achivmentprogressbar": {
+			"id": 1129,
+			"code": "achivmentprogressbar",
+			"title": "成就进度",
+			"description": "你可在这裡看到你的成就进度，并可以在「得分」标籤和朋友比较。"
+		},
+		"bonusarhifury": {
+			"id": 1069,
+			"code": "bonusarhifury",
+			"title": "激怒",
+			"description": "让你以愤怒值全满的状态进入每场战斗。"
+		},
+		"bonusarhimagia": {
+			"id": 1068,
+			"code": "bonusarhimagia",
+			"title": "大魔法师",
+			"description": "此加成让你以魔力全满的状态进入每场战斗。"
+		},
+		"bonusdark": {
+			"id": 389,
+			"code": "bonusdark",
+			"title": "暗之力",
+			"description": "以百份比形式，提高黑暗屬性魔法的傷害。"
+		},
+		"bonusexp": {
+			"id": 392,
+			"code": "bonusexp",
+			"title": "经验值加成",
+			"description": "以百份比形式，增加得到的經驗值。"
+		},
+		"bonusfire": {
+			"id": 387,
+			"code": "bonusfire",
+			"title": "火之力",
+			"description": "以百份比形式，提高火屬性魔法的傷害。"
+		},
+		"bonusice": {
+			"id": 388,
+			"code": "bonusice",
+			"title": "冰之力",
+			"description": "以百份比形式，提高冰屬性魔法的傷害。"
+		},
+		"bonuslightning": {
+			"id": 390,
+			"code": "bonuslightning",
+			"title": "雷之力",
+			"description": "以百份比形式，提高雷屬性魔法的傷害。"
+		},
+		"bonusmana": {
+			"id": 961,
+			"code": "bonusmana",
+			"title": "魔力加成",
+			"description": "这加成影响你在战斗中得到的额外魔力珠数目。如果加成是「2」，那表现你很大机会多得到 1 到 2 颗魔力珠。"
+		},
+		"bonusmoney": {
+			"id": 960,
+			"code": "bonusmoney",
+			"title": "金币加成",
+			"description": "这加成影响你在战斗后得到的额外金币数量。"
+		},
+		"bonusrage": {
+			"id": 962,
+			"code": "bonusrage",
+			"title": "怒气加成",
+			"description": "这加成影响你在战斗中得到的额外怒气珠数目。如果加成是「2」，那表现你很大机会多得到 1 到 2 颗怒气珠。"
+		},
+		"cristals": {
+			"id": 377,
+			"code": "cristals",
+			"title": "水晶",
+			"description": "水晶。购买特殊物品用。战斗和额外章节的报酬，也可以从银行买到。"
+		},
+		"damagepotion": {
+			"id": 382,
+			"code": "damagepotion",
+			"title": "毒药",
+			"description": "魔力球的一种，使用后可令敌人慢慢中毒致死。在宝箱裡会找到，或是从商店的「推介商品」栏裡买到。"
+		},
+		"expa": {
+			"id": 391,
+			"code": "expa",
+			"title": "经验值",
+			"description": "升级用。胜出战斗就会得到，如果有增加经验的物品，得到的经验值会增加。"
+		},
+		"healpotion": {
+			"id": 380,
+			"code": "healpotion",
+			"title": "治疗药",
+			"description": "魔力球的一种，可在战斗中回復生命值。在宝箱裡会找到，或是从商店的「推介商品」栏裡买到。"
+		},
+		"image_alert": {
+			"id": 1116,
+			"code": "image_alert",
+			"title": "注意",
+			"description": "注意！"
+		},
+		"image_completed_text": {
+			"id": 1117,
+			"code": "image_completed_text",
+			"title": "已完成",
+			"description": "已完成！"
+		},
+		"image_congrats": {
+			"id": 1118,
+			"code": "image_congrats",
+			"title": "恭喜",
+			"description": "恭喜！"
+		},
+		"image_fight_button": {
+			"id": 1120,
+			"code": "image_fight_button",
+			"title": "攻击",
+			"description": "攻击！"
+		},
+		"image_fight_dodge": {
+			"id": 1121,
+			"code": "image_fight_dodge",
+			"title": "回避",
+			"description": "回避"
+		},
+		"image_fight_execution": {
+			"id": 1122,
+			"code": "image_fight_execution",
+			"title": "处决",
+			"description": "处决"
+		},
+		"image_fight_immunity": {
+			"id": 1123,
+			"code": "image_fight_immunity",
+			"title": "免疫",
+			"description": "免疫"
+		},
+		"image_fights_block": {
+			"id": 1119,
+			"code": "image_fights_block",
+			"title": "格挡",
+			"description": "格挡"
+		},
+		"image_game_logo": {
+			"id": 1124,
+			"code": "image_game_logo",
+			"title": "Juggernaut",
+			"description": "Juggernaut"
+		},
+		"image_main_map_banner": {
+			"id": 1125,
+			"code": "image_main_map_banner",
+			"title": "娜特维岛",
+			"description": "娜特维岛"
+		},
+		"image_news": {
+			"id": 1274,
+			"code": "image_news",
+			"title": "最新资讯"
+		},
+		"image_support_banner_text": {
+			"id": 1126,
+			"code": "image_support_banner_text",
+			"title": "支援",
+			"description": "技術支援\n需要幫忙的話，請聯絡我們！"
+		},
+		"image_you_lose": {
+			"id": 1127,
+			"code": "image_you_lose",
+			"title": "你输了",
+			"description": "你输了！"
+		},
+		"image_you_win": {
+			"id": 1128,
+			"code": "image_you_win",
+			"title": "胜利",
+			"description": "胜利！"
+		},
+		"legendarypoints": {
+			"id": 1202,
+			"code": "legendarypoints",
+			"title": "从战斗获得的传奇点数",
+			"description": "根据战斗评价影响，你会获得传奇点数。你可以在物品面板，利用传奇点数把史诗级物品升级成传奇级物品。"
+		},
+		"map": {
+			"id": 998,
+			"code": "map",
+			"title": "主地图",
+			"description": "这裡显示你的游戏进度，每完成一章就会增加。"
+		},
+		"money": {
+			"id": 376,
+			"code": "money",
+			"title": "金币",
+			"description": "金币。可以用来在商店购买新盔甲跟魔力球。可以从战斗和已解放的领土得到，也可以从银行买到。"
+		},
+		"powerpotion": {
+			"id": 381,
+			"code": "powerpotion",
+			"title": "强化药",
+			"description": "魔力球的一种，使用后可大大加强下一次物理攻击的伤害。在宝箱裡会找到，或是从商店的「推介商品」栏裡买到。"
+		},
+		"scarab": {
+			"id": 963,
+			"code": "scarab",
+			"title": "圣甲虫",
+			"description": "你需要有圣甲虫，才可以在已解放的领地寻找隐藏宝物。你可以透过战斗或完成特定章节得到这物品，也可以在商店中购买。"
+		},
+		"sculls": {
+			"id": 378,
+			"code": "sculls",
+			"title": "头骨",
+			"description": "魔法头骨。学习和增强在魔法之书裡的魔法会用到。战斗报酬，也可在宝箱裡找到，或是从银行买到。"
+		},
+		"socialbutton": {
+			"id": 1114,
+			"code": "socialbutton",
+			"title": "社交键",
+			"description": "每游玩 40 分鐘，你就可以发佈你的成就。"
+		},
+		"statfury": {
+			"id": 384,
+			"code": "statfury",
+			"title": "勇气",
+			"description": "勇气会提高暴撃率，暴撃时，造成的伤害会比平常高，敌人也会掉出魔力珠。勇气也会减少敌人的暴击率。"
+		},
+		"stathp": {
+			"id": 383,
+			"code": "stathp",
+			"title": "生命值",
+			"description": "影响角色在战斗中的生存机会。 "
+		},
+		"statmagic": {
+			"id": 386,
+			"code": "statmagic",
+			"title": "魔法潜能",
+			"description": "影响角色的魔法攻击力。数值越高，伤害越大。"
+		},
+		"statstrength": {
+			"id": 385,
+			"code": "statstrength",
+			"title": "力量",
+			"description": "影响角色的攻击力。数值越高，伤害越大。力量也会轻微影响魔法伤害。"
+		},
+		"vzlom": {
+			"id": 379,
+			"code": "vzlom",
+			"title": "开锁工具",
+			"description": "开锁工具。在打开宝箱是会用到。战斗报酬，也可以从商店买到。"
+		}
+	}
+}

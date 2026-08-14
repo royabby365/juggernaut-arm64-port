@@ -1,0 +1,250 @@
+{
+	"hints": {
+		"achivmentprogressbar": {
+			"id": 1129,
+			"code": "achivmentprogressbar",
+			"title": "Achievement progress bar",
+			"description": "This shows the progress of your in-game achievements. You can compare it with that of your friends in the Rating tab."
+		},
+		"bonusarhifury": {
+			"id": 1069,
+			"code": "bonusarhifury",
+			"title": "Archfury",
+			"description": "Gives you maximum fury when starting each fight."
+		},
+		"bonusarhimagia": {
+			"id": 1068,
+			"code": "bonusarhimagia",
+			"title": "Archmage Bonus",
+			"description": "This bonus gives you maximum mana when starting each fight."
+		},
+		"bonusdark": {
+			"id": 389,
+			"code": "bonusdark",
+			"title": "Strength of Darkness",
+			"description": "This bonus determines the % increase in the destructive force of all your darkness spells."
+		},
+		"bonusexp": {
+			"id": 392,
+			"code": "bonusexp",
+			"title": "Experience bonus",
+			"description": "This bonus controls the % of additional experience you receive for winning a fight."
+		},
+		"bonusfire": {
+			"id": 387,
+			"code": "bonusfire",
+			"title": "Strength of Fire",
+			"description": "This bonus determines the % increase in the destructive force of all your fire spells."
+		},
+		"bonusice": {
+			"id": 388,
+			"code": "bonusice",
+			"title": "Strength of Ice",
+			"description": "This bonus determines the % increase in the destructive force of all your ice spells."
+		},
+		"bonuslightning": {
+			"id": 390,
+			"code": "bonuslightning",
+			"title": "Strength of Lightning",
+			"description": "This bonus determines the % increase in the destructive force of all your lightning spells."
+		},
+		"bonusmana": {
+			"id": 961,
+			"code": "bonusmana",
+			"title": "Mana bonus",
+			"description": "This bonus determines how many additional clots of mana you can get If the bonus is equal to 2 - this means that you are highly likely to get from 1 to 2 additional clots of mana."
+		},
+		"bonusmoney": {
+			"id": 960,
+			"code": "bonusmoney",
+			"title": "Money bonus",
+			"description": "This bonus determines how much additional gold you receive after victory in combat."
+		},
+		"bonusrage": {
+			"id": 962,
+			"code": "bonusrage",
+			"title": "Fury bonus",
+			"description": "This bonus determines how many additional clots of fury you can receive in combat. If the bonus is equal to 2 - this means that you are highly likely to receive from 1 to 2 additional clots of fury."
+		},
+		"cristals": {
+			"id": 377,
+			"code": "cristals",
+			"title": "Crystals",
+			"description": "Crystals. Required to purchase special items in the Shop. Can be earned in combat, received as a reward for additional chapters, or bought in the Bank."
+		},
+		"damagepotion": {
+			"id": 382,
+			"code": "damagepotion",
+			"title": "Poison",
+			"description": "This ammunition poisons your enemy in combat, causing them to slowly die. It can be found in treasure chests or bought in the \"Recommended\" section in the Shop."
+		},
+		"expa": {
+			"id": 391,
+			"code": "expa",
+			"title": "Experience",
+			"description": "This is your experience. It is required to level-up. Experience increases with victory in combat. It can also be increased if you find a special artifact containing an experience bonus."
+		},
+		"healpotion": {
+			"id": 380,
+			"code": "healpotion",
+			"title": "Healing potion",
+			"description": "This ammunition restores your life in combat. It can be found in treasure chests or bought in the \"Recommended\" section in the Shop."
+		},
+		"image_alert": {
+			"id": 1116,
+			"code": "image_alert",
+			"title": "Attention",
+			"description": "Attention!"
+		},
+		"image_completed_text": {
+			"id": 1117,
+			"code": "image_completed_text",
+			"title": "Completed",
+			"description": "Completed!"
+		},
+		"image_congrats": {
+			"id": 1118,
+			"code": "image_congrats",
+			"title": "Congratulations",
+			"description": "Congratulations!"
+		},
+		"image_fight_button": {
+			"id": 1120,
+			"code": "image_fight_button",
+			"title": "Attack",
+			"description": "ATTACK!"
+		},
+		"image_fight_dodge": {
+			"id": 1121,
+			"code": "image_fight_dodge",
+			"title": "Dodge",
+			"description": "Dodge"
+		},
+		"image_fight_execution": {
+			"id": 1122,
+			"code": "image_fight_execution",
+			"title": "Execution",
+			"description": "Execution"
+		},
+		"image_fight_immunity": {
+			"id": 1123,
+			"code": "image_fight_immunity",
+			"title": "Immunity",
+			"description": "Immunity"
+		},
+		"image_fights_block": {
+			"id": 1119,
+			"code": "image_fights_block",
+			"title": "Block",
+			"description": "Block"
+		},
+		"image_game_logo": {
+			"id": 1124,
+			"code": "image_game_logo",
+			"title": "Juggernaut",
+			"description": "Juggernaut"
+		},
+		"image_main_map_banner": {
+			"id": 1125,
+			"code": "image_main_map_banner",
+			"title": "Island of Radway",
+			"description": "Island of Radway"
+		},
+		"image_news": {
+			"id": 1274,
+			"code": "image_news",
+			"title": "News",
+			"description": ""
+		},
+		"image_support_banner_text": {
+			"id": 1126,
+			"code": "image_support_banner_text",
+			"title": "Support",
+			"description": "Tech. support\nIf you need help - get in touch!"
+		},
+		"image_you_lose": {
+			"id": 1127,
+			"code": "image_you_lose",
+			"title": "You have lost",
+			"description": "You have lost!"
+		},
+		"image_you_win": {
+			"id": 1128,
+			"code": "image_you_win",
+			"title": "Victory",
+			"description": "Victory!"
+		},
+		"legendarypoints": {
+			"id": 1202,
+			"code": "legendarypoints",
+			"title": "Legendary status points from combat",
+			"description": "Following a fight, based on its rating, you will receive legendary status points. These are required to upgrade your epic items. You can do this in the inventory window."
+		},
+		"map": {
+			"id": 998,
+			"code": "map",
+			"title": "Main Map",
+			"description": "Your game progress is shown here. It will increase with every newly finished chapter."
+		},
+		"money": {
+			"id": 376,
+			"code": "money",
+			"title": "Money",
+			"description": "Gold. It can be used in the shop to buy new armor and ammunition. It is earned in combat and from liberated territory. You can also buy it in the Bank."
+		},
+		"powerpotion": {
+			"id": 381,
+			"code": "powerpotion",
+			"title": "Booster",
+			"description": "By using this ammunition, you can seriously strengthen your next physical blow against the enemy. It can be found in treasure chests or bought in the \"Recommended\" section in the Shop."
+		},
+		"scarab": {
+			"id": 963,
+			"code": "scarab",
+			"title": "Scarab",
+			"description": "Scarabs are needed to search for hidden treasure in liberated territory. They can be received in combat and as a reward for completing certain chapters. They can also be bought in the Shop."
+		},
+		"sculls": {
+			"id": 378,
+			"code": "sculls",
+			"title": "Skulls",
+			"description": "Magical Skulls. Needed to study and improve spells in the Book of Magic. May be earned in combat, by breaking open treasure chests, or bought in the Shop."
+		},
+		"socialbutton": {
+			"id": 1114,
+			"code": "socialbutton",
+			"title": "Social buttons",
+			"description": "You can publish your achievements after every 40 minutes spent in the game."
+		},
+		"statfury": {
+			"id": 384,
+			"code": "statfury",
+			"title": "Courage",
+			"description": "Courage increases the chance of critical blows, causing increased damage that is guaranteed to knock mana spheres our of your opponent. Courage also protects you from critical enemy attacks."
+		},
+		"stathp": {
+			"id": 383,
+			"code": "stathp",
+			"title": "Health",
+			"description": "This parameter is responsible for the survivability of your character in combat. "
+		},
+		"statmagic": {
+			"id": 386,
+			"code": "statmagic",
+			"title": "Magic",
+			"description": "This parameter is responsible for the power of your magical damage. The higher it is, the harder your magic spells will hit."
+		},
+		"statstrength": {
+			"id": 385,
+			"code": "statstrength",
+			"title": "Power",
+			"description": "Power determines the damage you cause in combat. The higher it is, the harder you hit. Power also has a slight influence on magical damage."
+		},
+		"vzlom": {
+			"id": 379,
+			"code": "vzlom",
+			"title": "Picklocks",
+			"description": "Picklocks. These are used to open treasure chests and will help you in the mines. They are earned in combat or bought in the Shop."
+		}
+	}
+}

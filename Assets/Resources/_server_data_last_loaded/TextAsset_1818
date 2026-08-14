@@ -1,0 +1,1148 @@
+{
+	"storeGoods": {
+		"151": {
+			"id": 151,
+			"item": "146",
+			"probability": 50,
+			"levelMin": 3,
+			"levelMax": 10,
+			"count": 1,
+			"price": {
+				"1": 150
+			},
+			"relict": false,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"152": {
+			"id": 152,
+			"item": "148",
+			"probability": 50,
+			"levelMin": 3,
+			"levelMax": 10,
+			"count": 1,
+			"price": {
+				"1": 100
+			},
+			"relict": false,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"154": {
+			"id": 154,
+			"item": "149",
+			"probability": 50,
+			"levelMin": 3,
+			"levelMax": 10,
+			"count": 1,
+			"price": {
+				"1": 130
+			},
+			"relict": false,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"171": {
+			"id": 171,
+			"item": "150",
+			"probability": 50,
+			"levelMin": 2,
+			"levelMax": 10,
+			"count": 1,
+			"price": {
+				"1": 10
+			},
+			"relict": false,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"172": {
+			"id": 172,
+			"item": "155",
+			"probability": 50,
+			"levelMin": 2,
+			"levelMax": 10,
+			"count": 1,
+			"price": {
+				"1": 10
+			},
+			"relict": false,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"173": {
+			"id": 173,
+			"item": "156",
+			"probability": 50,
+			"levelMin": 4,
+			"levelMax": 10,
+			"count": 1,
+			"price": {
+				"1": 200
+			},
+			"relict": false,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"174": {
+			"id": 174,
+			"item": "157",
+			"probability": 50,
+			"levelMin": 4,
+			"levelMax": 10,
+			"count": 1,
+			"price": {
+				"1": 300
+			},
+			"relict": false,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"175": {
+			"id": 175,
+			"item": "158",
+			"probability": 50,
+			"levelMin": 2,
+			"levelMax": 10,
+			"count": 1,
+			"price": {
+				"1": 10
+			},
+			"relict": false,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"176": {
+			"id": 176,
+			"item": "159",
+			"probability": 50,
+			"levelMin": 12,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"1": 4500
+			},
+			"relict": false
+		},
+		"177": {
+			"id": 177,
+			"item": "161",
+			"probability": 50,
+			"levelMin": 8,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"1": 1300
+			},
+			"relict": false
+		},
+		"178": {
+			"id": 178,
+			"item": "162",
+			"probability": 50,
+			"levelMin": 11,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"1": 3450
+			},
+			"relict": false
+		},
+		"179": {
+			"id": 179,
+			"item": "163",
+			"probability": 50,
+			"levelMin": 6,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"1": 600
+			},
+			"relict": false
+		},
+		"180": {
+			"id": 180,
+			"item": "164",
+			"probability": 50,
+			"levelMin": 5,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"1": 400
+			},
+			"relict": false
+		},
+		"182": {
+			"id": 182,
+			"item": "166",
+			"probability": 50,
+			"levelMin": 10,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"1": 2550
+			},
+			"relict": false
+		},
+		"183": {
+			"id": 183,
+			"item": "167",
+			"probability": 50,
+			"levelMin": 7,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"1": 900
+			},
+			"relict": false
+		},
+		"360": {
+			"id": 360,
+			"item": "170",
+			"probability": 20,
+			"levelMin": 20,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"1": 55000
+			},
+			"relict": false,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"361": {
+			"id": 361,
+			"item": "184",
+			"probability": 20,
+			"levelMin": 16,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"1": 19800
+			},
+			"relict": false,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"363": {
+			"id": 363,
+			"item": "185",
+			"probability": 20,
+			"levelMin": 19,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"1": 45000
+			},
+			"relict": false,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"364": {
+			"id": 364,
+			"item": "186",
+			"probability": 20,
+			"levelMin": 14,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"1": 10500
+			},
+			"relict": false,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"365": {
+			"id": 365,
+			"item": "187",
+			"probability": 20,
+			"levelMin": 13,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"1": 7800
+			},
+			"relict": false,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"366": {
+			"id": 366,
+			"item": "188",
+			"probability": 20,
+			"levelMin": 17,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"1": 27000
+			},
+			"relict": false,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"367": {
+			"id": 367,
+			"item": "189",
+			"probability": 20,
+			"levelMin": 18,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"1": 36300
+			},
+			"relict": false,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"368": {
+			"id": 368,
+			"item": "190",
+			"probability": 20,
+			"levelMin": 15,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"1": 14400
+			},
+			"relict": false,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"637": {
+			"id": 637,
+			"item": "626",
+			"probability": 30,
+			"levelMin": 1,
+			"levelMax": null,
+			"count": 30,
+			"price": {
+				"2": 15
+			},
+			"relict": false
+		},
+		"673": {
+			"id": 673,
+			"item": "270",
+			"probability": 100,
+			"levelMin": 5,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"1": 200
+			},
+			"relict": false,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"674": {
+			"id": 674,
+			"item": "271",
+			"probability": 100,
+			"levelMin": 1,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"2": 4
+			},
+			"relict": false,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"675": {
+			"id": 675,
+			"item": "269",
+			"probability": 100,
+			"levelMin": 1,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"2": 3
+			},
+			"relict": false,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"709": {
+			"id": 709,
+			"item": "165",
+			"probability": 50,
+			"levelMin": 9,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"1": 1800
+			},
+			"relict": false
+		},
+		"717": {
+			"id": 717,
+			"item": "714",
+			"probability": 0,
+			"levelMin": 1,
+			"levelMax": null,
+			"count": 35,
+			"price": {
+				"2": 50
+			},
+			"relict": false,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"773": {
+			"id": 773,
+			"item": "170",
+			"probability": 20,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"2": 170
+			}
+		},
+		"774": {
+			"id": 774,
+			"item": "187",
+			"probability": 20,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"2": 100
+			}
+		},
+		"775": {
+			"id": 775,
+			"item": "186",
+			"probability": 20,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"2": 110
+			}
+		},
+		"776": {
+			"id": 776,
+			"item": "190",
+			"probability": 20,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"2": 120
+			}
+		},
+		"777": {
+			"id": 777,
+			"item": "184",
+			"probability": 20,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"2": 130
+			}
+		},
+		"778": {
+			"id": 778,
+			"item": "185",
+			"probability": 20,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"2": 160
+			}
+		},
+		"779": {
+			"id": 779,
+			"item": "189",
+			"probability": 20,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"2": 150
+			}
+		},
+		"780": {
+			"id": 780,
+			"item": "188",
+			"probability": 20,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"2": 140
+			}
+		},
+		"781": {
+			"id": 781,
+			"item": "337",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"2": 70
+			},
+			"relict": false
+		},
+		"782": {
+			"id": 782,
+			"item": "346",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"2": 70
+			},
+			"relict": false
+		},
+		"783": {
+			"id": 783,
+			"item": "344",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"2": 70
+			},
+			"relict": false
+		},
+		"784": {
+			"id": 784,
+			"item": "313",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"2": 70
+			},
+			"relict": false
+		},
+		"785": {
+			"id": 785,
+			"item": "336",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"2": 70
+			},
+			"relict": false
+		},
+		"786": {
+			"id": 786,
+			"item": "320",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"2": 70
+			},
+			"relict": false
+		},
+		"787": {
+			"id": 787,
+			"item": "311",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"2": 70
+			},
+			"relict": false
+		},
+		"788": {
+			"id": 788,
+			"item": "334",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"2": 70
+			},
+			"relict": false
+		},
+		"831": {
+			"id": 831,
+			"item": "822",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 2,
+			"price": {
+				"2": 30
+			},
+			"relict": false
+		},
+		"953": {
+			"id": 953,
+			"item": "431",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 0,
+			"price": {
+			},
+			"relict": true
+		},
+		"954": {
+			"id": 954,
+			"item": "216",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 0,
+			"price": {
+			},
+			"relict": true
+		},
+		"955": {
+			"id": 955,
+			"item": "204",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 0,
+			"price": {
+			},
+			"relict": true
+		},
+		"989": {
+			"id": 989,
+			"item": "304",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 0,
+			"price": {
+			},
+			"relict": true
+		},
+		"1023": {
+			"id": 1023,
+			"item": "199",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 0,
+			"price": {
+			},
+			"relict": true
+		},
+		"1024": {
+			"id": 1024,
+			"item": "206",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 0,
+			"price": {
+			},
+			"relict": true
+		},
+		"1025": {
+			"id": 1025,
+			"item": "201",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 0,
+			"price": {
+			},
+			"relict": true
+		},
+		"1026": {
+			"id": 1026,
+			"item": "202",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 0,
+			"price": {
+			},
+			"relict": true
+		},
+		"1027": {
+			"id": 1027,
+			"item": "1022",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 0,
+			"price": {
+			},
+			"relict": true
+		},
+		"1028": {
+			"id": 1028,
+			"item": "205",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 0,
+			"price": {
+			},
+			"relict": true
+		},
+		"1029": {
+			"id": 1029,
+			"item": "200",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 0,
+			"price": {
+			},
+			"relict": true
+		},
+		"1030": {
+			"id": 1030,
+			"item": "203",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 0,
+			"price": {
+			},
+			"relict": true
+		},
+		"1032": {
+			"id": 1032,
+			"item": "1031",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 0,
+			"price": {
+			},
+			"relict": true
+		},
+		"1061": {
+			"id": 1061,
+			"item": "319",
+			"probability": 0,
+			"levelMin": 8,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"2": 350
+			},
+			"relict": false,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1062": {
+			"id": 1062,
+			"item": "296",
+			"probability": 0,
+			"levelMin": 8,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"2": 600
+			},
+			"relict": false,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1086": {
+			"id": 1086,
+			"item": "1072",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 0,
+			"price": {
+			},
+			"relict": true
+		},
+		"1087": {
+			"id": 1087,
+			"item": "1073",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 0,
+			"price": {
+			},
+			"relict": true
+		},
+		"1088": {
+			"id": 1088,
+			"item": "1074",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 0,
+			"price": {
+			},
+			"relict": true
+		},
+		"1089": {
+			"id": 1089,
+			"item": "1075",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 0,
+			"price": {
+			},
+			"relict": true
+		},
+		"1090": {
+			"id": 1090,
+			"item": "1076",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 0,
+			"price": {
+			},
+			"relict": true
+		},
+		"1091": {
+			"id": 1091,
+			"item": "1077",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 0,
+			"price": {
+			},
+			"relict": true
+		},
+		"1092": {
+			"id": 1092,
+			"item": "1078",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 0,
+			"price": {
+			},
+			"relict": true
+		},
+		"1093": {
+			"id": 1093,
+			"item": "1079",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 0,
+			"price": {
+			},
+			"relict": true
+		},
+		"1094": {
+			"id": 1094,
+			"item": "1080",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 0,
+			"price": {
+			},
+			"relict": true
+		},
+		"1095": {
+			"id": 1095,
+			"item": "1081",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 0,
+			"price": {
+			},
+			"relict": true
+		},
+		"1096": {
+			"id": 1096,
+			"item": "1082",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 0,
+			"price": {
+			},
+			"relict": true
+		},
+		"1097": {
+			"id": 1097,
+			"item": "1083",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 0,
+			"price": {
+			},
+			"relict": true
+		},
+		"1098": {
+			"id": 1098,
+			"item": "1084",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 0,
+			"price": {
+			},
+			"relict": true
+		},
+		"1099": {
+			"id": 1099,
+			"item": "1085",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 0,
+			"price": {
+			},
+			"relict": true
+		},
+		"1168": {
+			"id": 1168,
+			"item": "270",
+			"probability": 0,
+			"levelMin": 1,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"2": 1
+			},
+			"relict": false,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1169": {
+			"id": 1169,
+			"item": "269",
+			"probability": 0,
+			"levelMin": 6,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"1": 450
+			},
+			"relict": false
+		},
+		"1171": {
+			"id": 1171,
+			"item": "271",
+			"probability": 0,
+			"levelMin": 7,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"1": 700
+			},
+			"relict": false,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1179": {
+			"id": 1179,
+			"item": "1178",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 150,
+			"price": {
+				"2": 195
+			},
+			"relict": false,
+			"minVersion": "1.2",
+			"maxVersion": null
+		},
+		"1180": {
+			"id": 1180,
+			"item": "1177",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"2": 960
+			},
+			"relict": false,
+			"minVersion": "1.2",
+			"maxVersion": null
+		},
+		"1198": {
+			"id": 1198,
+			"item": "1197",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 0,
+			"price": {
+			},
+			"relict": true,
+			"minVersion": "1.2",
+			"maxVersion": null
+		},
+		"1216": {
+			"id": 1216,
+			"item": "1215",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"2": 300
+			},
+			"relict": false,
+			"minVersion": "1.2",
+			"maxVersion": null,
+			"discount": 0
+		},
+		"1217": {
+			"id": 1217,
+			"item": "1214",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"2": 570
+			},
+			"relict": false,
+			"minVersion": "1.2",
+			"maxVersion": null
+		},
+		"1231": {
+			"id": 1231,
+			"item": "164",
+			"probability": 50,
+			"levelMin": 1,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"2": 2
+			},
+			"relict": false,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1232": {
+			"id": 1232,
+			"item": "163",
+			"probability": 50,
+			"levelMin": 1,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"2": 3
+			},
+			"relict": false,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1233": {
+			"id": 1233,
+			"item": "167",
+			"probability": 50,
+			"levelMin": 1,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"2": 5
+			},
+			"relict": false,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1234": {
+			"id": 1234,
+			"item": "161",
+			"probability": 50,
+			"levelMin": 1,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"2": 7
+			},
+			"relict": false,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1235": {
+			"id": 1235,
+			"item": "165",
+			"probability": 50,
+			"levelMin": 1,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"2": 9
+			},
+			"relict": false,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1236": {
+			"id": 1236,
+			"item": "166",
+			"probability": 50,
+			"levelMin": 1,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"2": 13
+			},
+			"relict": false,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1237": {
+			"id": 1237,
+			"item": "162",
+			"probability": 50,
+			"levelMin": 1,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"2": 17
+			},
+			"relict": false,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1238": {
+			"id": 1238,
+			"item": "159",
+			"probability": 50,
+			"levelMin": 1,
+			"levelMax": null,
+			"count": 1,
+			"price": {
+				"2": 22
+			},
+			"relict": false,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1853": {
+			"id": 1853,
+			"item": "1852",
+			"probability": 0,
+			"levelMin": null,
+			"levelMax": null,
+			"count": 0,
+			"price": {
+			},
+			"relict": true,
+			"minVersion": null,
+			"maxVersion": null
+		}
+	}
+}

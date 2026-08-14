@@ -1,0 +1,264 @@
+{
+	"persArtikuls": {
+		"33": {
+			"id": 33,
+			"title": "Torus",
+			"description": "Torus era un asesino a sueldo y fue sentenciado a la \nhorca, pero logró escapar y encontró cobijo entre los \nEscorpiones. Es extremadamente cruel y violento, su \narma preferida es la pica, en combate es ágil y rápido, y \nestá dispuesto a emplear los métodos más despreciables para conseguir la victoria.",
+			"class": "2",
+			"sex": "1",
+			"level": 1,
+			"clothingOptions": "",
+			"money": {
+				"1": 150,
+				"3": 10
+			},
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 100,
+					"maxValue": 100
+				},
+				"2": {
+					"typeId": "STR",
+					"minValue": 110,
+					"maxValue": 110
+				},
+				"3": {
+					"typeId": "RAG",
+					"minValue": 50,
+					"maxValue": 50
+				},
+				"4": {
+					"typeId": "SOR",
+					"minValue": 70,
+					"maxValue": 70
+				}
+			},
+			"totalWeight": 0,
+			"selectSet": "14",
+			"selectWeapon": "14",
+			"selectHair": "",
+			"startSpell": 227,
+			"feature": "Magia poderosa",
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"427": {
+			"id": 427,
+			"title": "Langerde",
+			"description": "El antiguo guardaespaldas del Emperador Kraen parece siempre sombrío y desconfiado. Es un luchador excelente y, con su gran fuerza, maneja hábilmente su mandoble y lleva sin cansarse pesadas armaduras, lo que lo hace casi invencible.",
+			"class": "3",
+			"sex": "1",
+			"level": 1,
+			"clothingOptions": "",
+			"money": {
+				"1": 150,
+				"3": 10
+			},
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 100,
+					"maxValue": 100
+				},
+				"2": {
+					"typeId": "STR",
+					"minValue": 130,
+					"maxValue": 130
+				},
+				"3": {
+					"typeId": "RAG",
+					"minValue": 70,
+					"maxValue": 70
+				},
+				"4": {
+					"typeId": "SOR",
+					"minValue": 10,
+					"maxValue": 10
+				}
+			},
+			"totalWeight": 0,
+			"selectSet": "13",
+			"selectWeapon": "13",
+			"selectHair": "",
+			"startSpell": 233,
+			"feature": "Fuerza de golpe colosal",
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"428": {
+			"id": 428,
+			"title": "Rogvor",
+			"description": "Uno de los 12 guerreros legendarios que recibieron el título de\nDestructor, otorgado por\ndetener y acabar con todo un ejército de zvergs usando\nuna sola mano. Es valiente y resuelto, y la furia\ndel combate lo lleva a alcanzar un\nestado de frenesí en el que no siente dolor ni cansancio.",
+			"class": "1",
+			"sex": "1",
+			"level": 1,
+			"clothingOptions": "",
+			"money": {
+				"1": 150,
+				"3": 10
+			},
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 100,
+					"maxValue": 100
+				},
+				"2": {
+					"typeId": "STR",
+					"minValue": 110,
+					"maxValue": 110
+				},
+				"3": {
+					"typeId": "RAG",
+					"minValue": 90,
+					"maxValue": 90
+				},
+				"4": {
+					"typeId": "SOR",
+					"minValue": 30,
+					"maxValue": 30
+				}
+			},
+			"totalWeight": 0,
+			"selectSet": "21",
+			"selectWeapon": "21",
+			"selectHair": "",
+			"startSpell": 53,
+			"feature": "Golpes críticos",
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"429": {
+			"id": 429,
+			"title": "Úrsula",
+			"description": "Esta muchacha jamás abandona su\nenorme martillo, con el que ha vencido en\nlas más feroces batallas de Haradán. Está siempre en el corazón de la lucha y pierde totalmente\nla cabeza durante una pelea: tras el primer\ngolpe, se convierte en una especie de demonio con\nforma de mujer lleno de ansias por matar.",
+			"class": "1",
+			"sex": "2",
+			"level": 1,
+			"clothingOptions": "",
+			"money": {
+				"1": 150,
+				"3": 10
+			},
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 100,
+					"maxValue": 100
+				},
+				"2": {
+					"typeId": "STR",
+					"minValue": 110,
+					"maxValue": 110
+				},
+				"3": {
+					"typeId": "RAG",
+					"minValue": 130,
+					"maxValue": 130
+				},
+				"4": {
+					"typeId": "SOR",
+					"minValue": 20,
+					"maxValue": 20
+				}
+			},
+			"totalWeight": 0,
+			"selectSet": "12",
+			"selectWeapon": "9",
+			"selectHair": "2;9",
+			"startSpell": 230,
+			"feature": "Golpes críticos",
+			"minVersion": "1.0",
+			"maxVersion": null,
+			"bonus": null
+		},
+		"430": {
+			"id": 430,
+			"title": "Kira",
+			"description": "Kira perdió a sus padres de niña y pasó su infancia en una compañía\nde circo, donde adquirió gran flexibilidad y\nagilidad. Es casi inmune a los golpes en combate\ny sabe esconderse silenciosamente. Gracias a sus\nhabilidades, fue una de las mejores exploradoras de la\nCohorte de Acero hasta que se unió a los escorpiones.",
+			"class": "2",
+			"sex": "2",
+			"level": 1,
+			"clothingOptions": "",
+			"money": {
+				"1": 150,
+				"3": 10
+			},
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 120,
+					"maxValue": 120
+				},
+				"2": {
+					"typeId": "STR",
+					"minValue": 110,
+					"maxValue": 110
+				},
+				"3": {
+					"typeId": "RAG",
+					"minValue": 50,
+					"maxValue": 50
+				},
+				"4": {
+					"typeId": "SOR",
+					"minValue": 15,
+					"maxValue": 15
+				}
+			},
+			"totalWeight": 0,
+			"selectSet": "20",
+			"selectWeapon": "20",
+			"selectHair": "2;1",
+			"startSpell": 53,
+			"feature": "Montones de vida",
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1861": {
+			"id": 1861,
+			"title": "Hekate",
+			"description": "Descendiente de un linaje de la nobleza, Hekate perdió su fortuna en sangrientas batallas. Tras vivir en la pobreza, se juró que no volvería a pasar hambre, y ahora es célebre su habilidad para conseguir grandes botines en combate.",
+			"class": "3",
+			"sex": "2",
+			"level": 1,
+			"clothingOptions": "",
+			"money": {
+				"1": 300,
+				"3": 15
+			},
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 100,
+					"maxValue": 100
+				},
+				"2": {
+					"typeId": "STR",
+					"minValue": 100,
+					"maxValue": 100
+				},
+				"3": {
+					"typeId": "RAG",
+					"minValue": 70,
+					"maxValue": 70
+				},
+				"4": {
+					"typeId": "SOR",
+					"minValue": 30,
+					"maxValue": 30
+				}
+			},
+			"totalWeight": 0,
+			"selectSet": "10",
+			"selectWeapon": "10",
+			"selectHair": "3;9",
+			"startSpell": 230,
+			"feature": "Encuentra más dinero",
+			"minVersion": "2.1",
+			"maxVersion": null,
+			"bonus": 301
+		}
+	}
+}

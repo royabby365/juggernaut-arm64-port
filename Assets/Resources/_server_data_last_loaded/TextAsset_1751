@@ -1,0 +1,122 @@
+{
+	"skillArtikuls": {
+		"BE": {
+			"id": 648,
+			"title": "経験値",
+			"code": "BE",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 0
+		},
+		"BM": {
+			"id": 647,
+			"title": "呪文",
+			"code": "BM",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 0
+		},
+		"BMn": {
+			"id": 652,
+			"title": "マネー",
+			"code": "BMn",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 0
+		},
+		"BR": {
+			"id": 646,
+			"title": "憤怒値",
+			"code": "BR",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 0
+		},
+		"DARK": {
+			"id": 505,
+			"title": "暗黒",
+			"code": "DARK",
+			"weight": 1,
+			"skillPoints": 0,
+			"flags": 0
+		},
+		"FIRE": {
+			"id": 503,
+			"title": "炎",
+			"code": "FIRE",
+			"weight": 1,
+			"skillPoints": 0,
+			"flags": 0
+		},
+		"FullMana": {
+			"id": 1059,
+			"title": "マナ",
+			"description": "戦闘開始での完全マナ",
+			"code": "FullMana",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 0
+		},
+		"FullRage": {
+			"id": 1060,
+			"title": "フューリー",
+			"description": "戦闘開始での完全フューリー",
+			"code": "FullRage",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 0
+		},
+		"ICE": {
+			"id": 504,
+			"title": "氷",
+			"code": "ICE",
+			"weight": 1,
+			"skillPoints": 0,
+			"flags": 0
+		},
+		"LIGHT": {
+			"id": 506,
+			"title": "稲妻",
+			"code": "LIGHT",
+			"weight": 1,
+			"skillPoints": 0,
+			"flags": 0
+		},
+		"RAG": {
+			"id": 56,
+			"title": "勇気",
+			"description": "破壊力を増加した打撃を与える可能性をコントロールする。",
+			"code": "RAG",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 7
+		},
+		"SOR": {
+			"id": 57,
+			"title": "魔法",
+			"description": "物質的な攻撃から受けるダメージを減少する。",
+			"code": "SOR",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 7
+		},
+		"STR": {
+			"id": 35,
+			"title": "パワー",
+			"description": "戦闘<br>10で与えたダメージをコントロールする。10個のパワーにより平均ダメージが1アップする。",
+			"code": "STR",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 7
+		},
+		"VIT": {
+			"id": 55,
+			"title": "生命",
+			"description": "戦闘中の生命レベルをコントロールする。",
+			"code": "VIT",
+			"weight": 1,
+			"skillPoints": 1,
+			"flags": 7
+		}
+	}
+}

@@ -1,0 +1,124 @@
+{
+	"loadingTips": {
+		"677": {
+			"id": 677,
+			"description": "Kehre in die eroberten Gebiete zurück, um Geld einzusammeln und Schatztruhen zu öffnen."
+		},
+		"678": {
+			"id": 678,
+			"description": "Verteidige die eroberten Gebiete vor Monstern, um die Bevölkerungszahl konstant zu halten."
+		},
+		"679": {
+			"id": 679,
+			"description": "Um Zugang zu den zusätzlichen Herausforderungen zu bekommen, musst du spezielle Aufgaben lösen."
+		},
+		"681": {
+			"id": 681,
+			"description": "Bei jedem gescheiterten Aufbrechen, geht ein Dietrich verloren."
+		},
+		"682": {
+			"id": 682,
+			"description": "Je komplizierter das Schloss, desto wertvoller der Inhalt der Truhe."
+		},
+		"683": {
+			"id": 683,
+			"description": "Dank des roten Zeigers kann man die Blickrichtung des Monsters bestimmen. Er wird einen Angriff aus dieser Richtung ausweichen oder ihn blocken."
+		},
+		"684": {
+			"id": 684,
+			"description": "Ein kritischer Schlag bringt dir garantiert 2 Manapunkte"
+		},
+		"686": {
+			"id": 686,
+			"description": "Je stärker deine Wut, desto öfter wird das Auge des Chaos dich aufsuchen."
+		},
+		"687": {
+			"id": 687,
+			"description": "Verwende eine Wutsphäre, um den nächsten Angriff des Monsters zu blocken."
+		},
+		"688": {
+			"id": 688,
+			"description": "Verwende vier Wutsphären, und dein nächster Angriff wird kritisch und mit erhöhtem Manadrop gekrönt sein."
+		},
+		"689": {
+			"id": 689,
+			"description": "Verwende zehn Wutsphären, um bis Kampfende Verstärkung zu erhalten."
+		},
+		"690": {
+			"id": 690,
+			"description": "Bosse und einige Monster haben ein erweitertes Blickfeld und können die Richtung ändern, in die sie schauen."
+		},
+		"691": {
+			"id": 691,
+			"description": "Verwende Zauberschädel, um deine Beschwörungen zu vergrößern"
+		},
+		"692": {
+			"id": 692,
+			"description": "Einige Monster sind immun gegen bestimmte Arten von Magie"
+		},
+		"693": {
+			"id": 693,
+			"description": "Jede Hinrichtung bringt dir eine zusätzliche Truhe mit Belohnungen ein"
+		},
+		"694": {
+			"id": 694,
+			"description": "Um Monster hinzurichten, beschaffe Runen der Wiederbelebung, indem du sie mit Kombi-Schlägen tötest"
+		},
+		"695": {
+			"id": 695,
+			"description": "Der Kennwert \"Kraft\" beeinflusst die Angriffskraft"
+		},
+		"696": {
+			"id": 696,
+			"description": "Der Kennwert \"Mut\" beeinflusst die Chance deiner kritischen Schläge und verringert die kritischen Schläge des Gegners"
+		},
+		"697": {
+			"id": 697,
+			"description": "Der Kennwert \"Magie\" beeinflusst die Kraft magischer Angriffe und die Anfangsmenge von Mana im Kampf"
+		},
+		"699": {
+			"id": 699,
+			"description": "In den vergrabenen Truhen kann man Ohrringe, Ringe, Artefakte, magische Amulette und Schädel kaufen."
+		},
+		"702": {
+			"id": 702,
+			"description": "Jedes Amulett beeinflusst jeweils nur einen Typ von Magie besonders effektiv"
+		},
+		"703": {
+			"id": 703,
+			"description": "Sammle Artefakte der Erfahrung, um nach jedem Kampf Bonus-Erfahrung zu bekommen"
+		},
+		"704": {
+			"id": 704,
+			"description": "Sammle Artefakte der Wut, um zusätzliche Wutsphären im Kampf zu bekommen"
+		},
+		"705": {
+			"id": 705,
+			"description": "Sammle Mana-Artefakte, um zusätzliche Wutsphären im Kampf zu bekommen"
+		},
+		"706": {
+			"id": 706,
+			"description": "Sammle Geld-Artefakte, um nach jedem Kampf Bonus-Geld zu bekommen"
+		},
+		"707": {
+			"id": 707,
+			"description": "Jede Waffe vollstreckt eine eigene Hinrichtung. Epische Waffen, zum Beispiel, zerreißen den Feind mithilfe gigantischer Ketten in Stücke. "
+		},
+		"1246": {
+			"id": 1246,
+			"description": "Wenn du eine epische Sache mit Legendepunkten vereinst, erhältst du eine legendäre Sache. "
+		},
+		"1247": {
+			"id": 1247,
+			"description": "Je mehr kritische Schläge du zufügst, desto höher das Spielrating und größer die Menge von Legendepunkten."
+		},
+		"1248": {
+			"id": 1248,
+			"description": "Um maximales Kampfrating zu erhalten, steigere Mut und verwende im Kampf aktiv Magie, Kombo-Schläge und die zweite Wut-Fähigkeit."
+		},
+		"1249": {
+			"id": 1249,
+			"description": "Um ein maximales Kampfrating zu erhalten, müssen 70% der Schläge kritisch sein."
+		}
+	}
+}

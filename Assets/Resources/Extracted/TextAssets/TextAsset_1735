@@ -1,0 +1,249 @@
+{
+	"hints": {
+		"achivmentprogressbar": {
+			"id": 1129,
+			"code": "achivmentprogressbar",
+			"title": "Barra del progresso dei successi",
+			"description": "Questa barra mostra il progresso dei tuoi successi nel gioco. Puoi confrontarla con quella dei tuoi amici nella sezione Classifica."
+		},
+		"bonusarhifury": {
+			"id": 1069,
+			"code": "bonusarhifury",
+			"title": "Arcifuria",
+			"description": "Ti dà il massimo della furia ogni volta che inizi un combattimento."
+		},
+		"bonusarhimagia": {
+			"id": 1068,
+			"code": "bonusarhimagia",
+			"title": "Bonus arcimago",
+			"description": "Questo bonus ti dà il massimo dei punti mana ogni volta che inizi un combattimento."
+		},
+		"bonusdark": {
+			"id": 389,
+			"code": "bonusdark",
+			"title": "Forza dell'Oscurità",
+			"description": "Questo bonus determina l'aumento in % nella forza distruttiva di tutti i tuoi incantesimi dell'oscurità."
+		},
+		"bonusexp": {
+			"id": 392,
+			"code": "bonusexp",
+			"title": "Bonus esperienza",
+			"description": "Questo bonus controlla la % di ulteriore esperienza che ricevi per aver vinto un combattimento."
+		},
+		"bonusfire": {
+			"id": 387,
+			"code": "bonusfire",
+			"title": "Forza del Fuoco",
+			"description": "Questo bonus determina l'aumento in % nella forza distruttiva di tutti i tuoi incantesimi di fuoco."
+		},
+		"bonusice": {
+			"id": 388,
+			"code": "bonusice",
+			"title": "Forza del Ghiaccio",
+			"description": "Questo bonus determina l'aumento in % nella forza distruttiva di tutti i tuoi incantesimi di ghiaccio."
+		},
+		"bonuslightning": {
+			"id": 390,
+			"code": "bonuslightning",
+			"title": "Forza del Fulmine",
+			"description": "Questo bonus determina l'aumento in % nella forza distruttiva di tutti i tuoi incantesimi del fulmine."
+		},
+		"bonusmana": {
+			"id": 961,
+			"code": "bonusmana",
+			"title": "Bonus mana",
+			"description": "Questo bonus determina quanti concentrati di mana aggiuntivi puoi ricevere. Se il bonus è pari a 2, ciò significa che hai un'alta probabilità di ricevere 1 o 2 concentrati di mana aggiuntivi."
+		},
+		"bonusmoney": {
+			"id": 960,
+			"code": "bonusmoney",
+			"title": "Bonus soldi",
+			"description": "Questo bonus determina la quantità di denaro aggiuntivo che ricevi dopo una vittoria in combattimento."
+		},
+		"bonusrage": {
+			"id": 962,
+			"code": "bonusrage",
+			"title": "Bonus Furia",
+			"description": "Questo bonus determina quanti concentrati di Furia aggiuntivi puoi ricevere in combattimento. Se il bonus è pari a 2, ciò significa che hai un'alta probabilità di ricevere 1 o 2 concentrati di Furia aggiuntivi."
+		},
+		"cristals": {
+			"id": 377,
+			"code": "cristals",
+			"title": "Cristalli",
+			"description": "Cristalli. Necessari per acquistare accessori speciali nel negozio. Possono essere guadagnati in combattimento, ricevuti come ricompensa per capitoli aggiuntivi oppure acquistati nella banca."
+		},
+		"damagepotion": {
+			"id": 382,
+			"code": "damagepotion",
+			"title": "Veleno",
+			"description": "Questa munizione avvelena il tuo nemico in combattimento conducendolo lentamente alla morte. Può essere trovato nelle casse del tesoro oppure acquistato nel negozio nella sezione \"Consigliati\"."
+		},
+		"expa": {
+			"id": 391,
+			"code": "expa",
+			"title": "Esperienza",
+			"description": "Questa è la tua esperienza. È necessaria per salire di livello. L'esperienza aumenta con la vittoria nei combattimenti. Può essere aumentata anche trovando un artefatto speciale contenente un bonus esperienza."
+		},
+		"healpotion": {
+			"id": 380,
+			"code": "healpotion",
+			"title": "Pozione curativa",
+			"description": "Questa munizione ti riporta in vita nel combattimento. Può essere trovata nelle casse del tesoro oppure acquistata nel negozio nella sezione \"Consigliati\"."
+		},
+		"image_alert": {
+			"id": 1116,
+			"code": "image_alert",
+			"title": "Attenzione",
+			"description": "Attenzione!"
+		},
+		"image_completed_text": {
+			"id": 1117,
+			"code": "image_completed_text",
+			"title": "Concluso",
+			"description": "Concluso!"
+		},
+		"image_congrats": {
+			"id": 1118,
+			"code": "image_congrats",
+			"title": "Congratulazioni",
+			"description": "Congratulazioni!"
+		},
+		"image_fight_button": {
+			"id": 1120,
+			"code": "image_fight_button",
+			"title": "Attacca",
+			"description": "ATTACCA!"
+		},
+		"image_fight_dodge": {
+			"id": 1121,
+			"code": "image_fight_dodge",
+			"title": "Schivata",
+			"description": "Schivata"
+		},
+		"image_fight_execution": {
+			"id": 1122,
+			"code": "image_fight_execution",
+			"title": "Esecuzione",
+			"description": "Esecuzione"
+		},
+		"image_fight_immunity": {
+			"id": 1123,
+			"code": "image_fight_immunity",
+			"title": "Immunità",
+			"description": "Immunità"
+		},
+		"image_fights_block": {
+			"id": 1119,
+			"code": "image_fights_block",
+			"title": "Blocco",
+			"description": "Blocco"
+		},
+		"image_game_logo": {
+			"id": 1124,
+			"code": "image_game_logo",
+			"title": "Juggernaut",
+			"description": "Juggernaut"
+		},
+		"image_main_map_banner": {
+			"id": 1125,
+			"code": "image_main_map_banner",
+			"title": "Isola di Radway",
+			"description": "Isola di Radway"
+		},
+		"image_news": {
+			"id": 1274,
+			"code": "image_news",
+			"title": "Novità"
+		},
+		"image_support_banner_text": {
+			"id": 1126,
+			"code": "image_support_banner_text",
+			"title": "Supporto",
+			"description": "Supporto tecnico\nSe hai bisogno di aiuto, contattaci!"
+		},
+		"image_you_lose": {
+			"id": 1127,
+			"code": "image_you_lose",
+			"title": "Hai perso",
+			"description": "Hai perso!"
+		},
+		"image_you_win": {
+			"id": 1128,
+			"code": "image_you_win",
+			"title": "Vittoria",
+			"description": "Vittoria!"
+		},
+		"legendarypoints": {
+			"id": 1202,
+			"code": "legendarypoints",
+			"title": "Punti status leggendari del combattimento",
+			"description": "A seconda del punteggio del tuo combattimento riceverai punti status leggendari richiesti per aumentare il livello dei tuoi oggetti epici. Puoi farlo nella finestra dell'inventario."
+		},
+		"map": {
+			"id": 998,
+			"code": "map",
+			"title": "Mappa principale",
+			"description": "Qui viene mostrato il tuo progresso nel gioco. Aumenterà ogni volta che finirai un capitolo."
+		},
+		"money": {
+			"id": 376,
+			"code": "money",
+			"title": "Denaro",
+			"description": "Monete d'oro. Possono essere usate nel negozio per acquistare munizioni o una nuova armatura. Si ottengono nei combattimenti e per aver liberato dei territori. Puoi anche acquistarle nella banca."
+		},
+		"powerpotion": {
+			"id": 381,
+			"code": "powerpotion",
+			"title": "Razzo",
+			"description": "Usando questa munizione puoi aumentare estremamente la forza del tuo successivo colpo fisico. Può essere trovato nelle casse del tesoro oppure acquistato nel negozio nella sezione \"Consigliati\"."
+		},
+		"scarab": {
+			"id": 963,
+			"code": "scarab",
+			"title": "Scarabeo",
+			"description": "Gli scarabei servono per trovare il tesoro nascosto nei territori liberati. Possono essere ricevuti in combattimento come premio per aver completato alcuni capitoli oppure possono essere acquistati nel negozio."
+		},
+		"sculls": {
+			"id": 378,
+			"code": "sculls",
+			"title": "Teschi",
+			"description": "Teschi magici. Servono per studiare e migliorare gli incantesimi nel Libro della Magia. Possono essere guadagnati aprendo casse del tesoro, in combattimento oppure acquistati nel negozio."
+		},
+		"socialbutton": {
+			"id": 1114,
+			"code": "socialbutton",
+			"title": "Pulsanti sociali",
+			"description": "Puoi pubblicare i tuoi successi ogni 40 minuti che sei nel gioco."
+		},
+		"statfury": {
+			"id": 384,
+			"code": "statfury",
+			"title": "Coraggio",
+			"description": "Il coraggio aumenta la probabilità di sferrare colpi critici causando danni maggiori che ti permettono di espellere sfere mana dal corpo del tuo avversario. Il coraggio ti protegge inoltre da attacchi critici nemici."
+		},
+		"stathp": {
+			"id": 383,
+			"code": "stathp",
+			"title": "Salute",
+			"description": "Questo parametro è responsabile della sopravvivenza del tuo personaggio in combattimento."
+		},
+		"statmagic": {
+			"id": 386,
+			"code": "statmagic",
+			"title": "Magia",
+			"description": "Questo parametro è responsabile della potenza del tuo danno magico. Maggiore è la magia, più forti saranno i tuoi incantesimi."
+		},
+		"statstrength": {
+			"id": 385,
+			"code": "statstrength",
+			"title": "Potenza",
+			"description": "La potenza determina i danni che causi in combattimento. Maggiore è la potenza, più forti saranno i tuoi colpi. La potenza ha anche una leggera influenza sui danni magici."
+		},
+		"vzlom": {
+			"id": 379,
+			"code": "vzlom",
+			"title": "Grimaldelli",
+			"description": "Grimaldelli. Vengono utilizzati per aprire casse del tesoro e ti serviranno nelle miniere. Possono essere guadagnati in combattimento o acquistati nel negozio."
+		}
+	}
+}

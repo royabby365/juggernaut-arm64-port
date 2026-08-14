@@ -1,0 +1,158 @@
+{
+	"subtitles": {
+		"1889": {
+			"id": 1889,
+			"video": "1",
+			"text": "Oh, cantos de las nobles batallas libradas en Haradán",
+			"startTime": 16,
+			"endTime": 20
+		},
+		"1890": {
+			"id": 1890,
+			"video": "1",
+			"text": "al cubrirse de sombras la tierra y aproximarse el mal.",
+			"startTime": 21,
+			"endTime": 25
+		},
+		"1891": {
+			"id": 1891,
+			"video": "1",
+			"text": "De soldados valientes que a su pueblo juraron proteger,",
+			"startTime": 26,
+			"endTime": 30
+		},
+		"1892": {
+			"id": 1892,
+			"video": "1",
+			"text": "y ni enfrascados en la batalla la pudieron vencer.",
+			"startTime": 31,
+			"endTime": 35
+		},
+		"1893": {
+			"id": 1893,
+			"video": "1",
+			"text": "Espadas afiladas para defender su justa intención,",
+			"startTime": 52,
+			"endTime": 56
+		},
+		"1894": {
+			"id": 1894,
+			"video": "1",
+			"text": "aunque el azote del demonio al final a todos sentenció.",
+			"startTime": 57,
+			"endTime": 62
+		},
+		"1895": {
+			"id": 1895,
+			"video": "1",
+			"text": "La pacífica Isla de Radway se sumió en sangre y drama",
+			"startTime": 63,
+			"endTime": 67
+		},
+		"1896": {
+			"id": 1896,
+			"video": "1",
+			"text": "y la tierra lloraba a sus hijos sin nadie para consolarla",
+			"startTime": 68,
+			"endTime": 74
+		},
+		"1897": {
+			"id": 1897,
+			"video": "1",
+			"text": "El futuro es incierto. ¿Se perdió la esperanza sin condición?",
+			"startTime": 75,
+			"endTime": 78
+		},
+		"1898": {
+			"id": 1898,
+			"video": "1",
+			"text": "No, tú tienes el tus manos el poder de recuperarla.",
+			"startTime": 79,
+			"endTime": 82
+		},
+		"1899": {
+			"id": 1899,
+			"video": "1",
+			"text": "¡Tú eres el escorpión!",
+			"startTime": 83,
+			"endTime": 85
+		},
+		"1900": {
+			"id": 1900,
+			"video": "2",
+			"text": "El camino que se abre ante ti es el del héroe.",
+			"startTime": 5,
+			"endTime": 10
+		},
+		"1901": {
+			"id": 1901,
+			"video": "2",
+			"text": "Atraviesa la isla luchando hasta llegar al otro extremo",
+			"startTime": 11,
+			"endTime": 14
+		},
+		"1902": {
+			"id": 1902,
+			"video": "2",
+			"text": "y enfréntate al demonio Sovering.",
+			"startTime": 15,
+			"endTime": 18
+		},
+		"1903": {
+			"id": 1903,
+			"video": "2",
+			"text": "Malvados enemigos ya planean tu muerte.",
+			"startTime": 23,
+			"endTime": 25
+		},
+		"1904": {
+			"id": 1904,
+			"video": "2",
+			"text": "Se abalanzarán sobre ti en desiertos inertes.",
+			"startTime": 36,
+			"endTime": 38
+		},
+		"1905": {
+			"id": 1905,
+			"video": "2",
+			"text": "Aparecerán en fortalezas impenetrables.",
+			"startTime": 39,
+			"endTime": 43
+		},
+		"1906": {
+			"id": 1906,
+			"video": "2",
+			"text": "Aguardarán en la oscuridad de las cuevas.",
+			"startTime": 49,
+			"endTime": 50
+		},
+		"1907": {
+			"id": 1907,
+			"video": "2",
+			"text": "Te asaltarán en medio de las ciénagas.",
+			"startTime": 53,
+			"endTime": 54
+		},
+		"1908": {
+			"id": 1908,
+			"video": "2",
+			"text": "Permanece alerta,",
+			"startTime": 55,
+			"endTime": 57
+		},
+		"1909": {
+			"id": 1909,
+			"video": "2",
+			"text": "pues ha llegado tu primera batalla.",
+			"startTime": 58,
+			"endTime": 61
+		},
+		"1910": {
+			"id": 1910,
+			"video": "2",
+			"text": "¡A las armas!",
+			"startTime": 62,
+			"endTime": 63
+		}
+	}
+}

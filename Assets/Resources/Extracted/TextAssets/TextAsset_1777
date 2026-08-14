@@ -1,0 +1,31 @@
+{
+	"executions": {
+		"621": {
+			"id": 621,
+			"scenario": "fatality1_1",
+			"weaponTitle": "斩首撃"
+		},
+		"622": {
+			"id": 622,
+			"scenario": "fatality6",
+			"weaponTitle": "肥鬼的服仇"
+		},
+		"623": {
+			"id": 623,
+			"scenario": "fatality7",
+			"weaponTitle": "大地之怒"
+		},
+		"624": {
+			"id": 624,
+			"scenario": "fatality9",
+			"weaponTitle": "屠夫的锁链"
+		},
+		"1211": {
+			"id": 1211,
+			"scenario": "fatality10",
+			"weaponTitle": "死亡之箭",
+			"minVersion": "1.2",
+			"maxVersion": null
+		}
+	}
+}

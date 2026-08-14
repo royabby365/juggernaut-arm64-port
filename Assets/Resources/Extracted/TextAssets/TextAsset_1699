@@ -1,0 +1,249 @@
+{
+	"hints": {
+		"achivmentprogressbar": {
+			"id": 1129,
+			"code": "achivmentprogressbar",
+			"title": "Postęp bar osiągnięć",
+			"description": "Rozwój Twoich osiągnięć w grze. Możesz porównać go z rozwojem swoich znajomych w zakładce Ranking."
+		},
+		"bonusarhifury": {
+			"id": 1069,
+			"code": "bonusarhifury",
+			"title": "Arcywściekłość",
+			"description": "Przydaje Ci maksimum wściekłości na początku każdej walki."
+		},
+		"bonusarhimagia": {
+			"id": 1068,
+			"code": "bonusarhimagia",
+			"title": "Bonus arcymagii",
+			"description": "Przydaje Ci maksimum many na początku każdej walki."
+		},
+		"bonusdark": {
+			"id": 389,
+			"code": "bonusdark",
+			"title": "Siła Mroku",
+			"description": "Bonus, który określa, o ile % wzrośnie siła rażenia Twoich wszystkich zaklęć mroku."
+		},
+		"bonusexp": {
+			"id": 392,
+			"code": "bonusexp",
+			"title": "Bonus Doświadczenia",
+			"description": "Bonus, który określa, ile dodatkowego % doświadczenia dostaniesz za wygraną walkę."
+		},
+		"bonusfire": {
+			"id": 387,
+			"code": "bonusfire",
+			"title": "Siła Ognia",
+			"description": "Bonus, który określa, o ile % wzrośnie siła rażenia Twoich wszystkich zaklęć ognia."
+		},
+		"bonusice": {
+			"id": 388,
+			"code": "bonusice",
+			"title": "Siła Lodu",
+			"description": "Bonus, który określa, o ile % wzrośnie siła rażenia Twoich wszystkich zaklęć lodu."
+		},
+		"bonuslightning": {
+			"id": 390,
+			"code": "bonuslightning",
+			"title": "Siła Błyskawicy",
+			"description": "Bonus, który określa, o ile % wzrośnie siła rażenia Twoich wszystkich zaklęć błyskawicy."
+		},
+		"bonusmana": {
+			"id": 961,
+			"code": "bonusmana",
+			"title": "Bonus many",
+			"description": "Bonus ten określa, ile dodatkowych grudek many możesz zdobyć. Jeśli wartość bonusu wynosi 2, oznacza to, że z dużym prawdopodobieństwem zdobędziesz dodatkową 1 lub 2 grudki many."
+		},
+		"bonusmoney": {
+			"id": 960,
+			"code": "bonusmoney",
+			"title": "Pieniężny bonus",
+			"description": "Ten bonus określa, ile dodatkowego złota będziesz dostawać za zwycięskie walki."
+		},
+		"bonusrage": {
+			"id": 962,
+			"code": "bonusrage",
+			"title": "Bonus wściekłości",
+			"description": "Bonus ten określa, ile dodatkowych grudek wściekłości możesz zdobyć w walce. Jeśli wartość bonusu wynosi 2, oznacza to, że z dużym prawdopodobieństwem zdobędziesz dodatkową 1 lub 2 grudki many."
+		},
+		"cristals": {
+			"id": 377,
+			"code": "cristals",
+			"title": "Kryształy",
+			"description": "Kryształy. W sklepie sprzedaje się za nie specjalne przedmioty. Można zdobyć w walkach, dostać w nagrodę za dodatkowe rozdziały lub kupić w banku."
+		},
+		"damagepotion": {
+			"id": 382,
+			"code": "damagepotion",
+			"title": "Zatruwarka",
+			"description": "Zatruwa Twojego wroga podczas walki, który w wyniku tego zaczyna powoli konać. Można znaleźć w skrzyniach ze skarbami lub kupić w dziale sklepu Zalecane\".\""
+		},
+		"expa": {
+			"id": 391,
+			"code": "expa",
+			"title": "Doświadczenie",
+			"description": "Twoje doświadczenie. Decyduje o przejściu na nowy poziom. Doświadczenie rośnie po zwycięskich walkach. Można je też zwiększyć, jeśli się znajdzie specjalny artefakt z bonusem doświadczenia."
+		},
+		"healpotion": {
+			"id": 380,
+			"code": "healpotion",
+			"title": "Uzdrawiarka",
+			"description": "Przywraca życie w walce. Można znaleźć w skrzyniach ze skarbami lub kupić w dziale sklepu Zalecane\".\""
+		},
+		"image_alert": {
+			"id": 1116,
+			"code": "image_alert",
+			"title": "Uwaga",
+			"description": "Uwaga!"
+		},
+		"image_completed_text": {
+			"id": 1117,
+			"code": "image_completed_text",
+			"title": "Zaliczone",
+			"description": "Zaliczone!"
+		},
+		"image_congrats": {
+			"id": 1118,
+			"code": "image_congrats",
+			"title": "Gratulacje",
+			"description": "Gratulacje!"
+		},
+		"image_fight_button": {
+			"id": 1120,
+			"code": "image_fight_button",
+			"title": "Atak",
+			"description": "ATAK!"
+		},
+		"image_fight_dodge": {
+			"id": 1121,
+			"code": "image_fight_dodge",
+			"title": "Unik",
+			"description": "Unik"
+		},
+		"image_fight_execution": {
+			"id": 1122,
+			"code": "image_fight_execution",
+			"title": "Egzekucja",
+			"description": "Egzekucja"
+		},
+		"image_fight_immunity": {
+			"id": 1123,
+			"code": "image_fight_immunity",
+			"title": "Immunitet",
+			"description": "Immunitet"
+		},
+		"image_fights_block": {
+			"id": 1119,
+			"code": "image_fights_block",
+			"title": "Blok",
+			"description": "Blok"
+		},
+		"image_game_logo": {
+			"id": 1124,
+			"code": "image_game_logo",
+			"title": "Juggernaut",
+			"description": "Juggernaut"
+		},
+		"image_main_map_banner": {
+			"id": 1125,
+			"code": "image_main_map_banner",
+			"title": "Wyspa Radwa",
+			"description": "Wyspa Radwa"
+		},
+		"image_news": {
+			"id": 1274,
+			"code": "image_news",
+			"title": "Newsy"
+		},
+		"image_support_banner_text": {
+			"id": 1126,
+			"code": "image_support_banner_text",
+			"title": "Support",
+			"description": "Tech. supportr\nPotrzebna pomoc - daj znać!"
+		},
+		"image_you_lose": {
+			"id": 1127,
+			"code": "image_you_lose",
+			"title": "Porażka",
+			"description": "Porażka!"
+		},
+		"image_you_win": {
+			"id": 1128,
+			"code": "image_you_win",
+			"title": "Zwycięstwo",
+			"description": "Zwycięstwo!"
+		},
+		"legendarypoints": {
+			"id": 1202,
+			"code": "legendarypoints",
+			"title": "Punkty legendarności w wynikach walki",
+			"description": "W wynikach walki, zgodnie z jej rankingiem otrzymujesz punkty legendarności. Potrzebne są do ulepszenia Twoich epickich rzeczy. Możesz to zrobić w oknie plecaka."
+		},
+		"map": {
+			"id": 998,
+			"code": "map",
+			"title": "Mapa",
+			"description": "Tutaj zobaczysz Twój postęp w grze. Zwiększa się on wraz z każdym zakończonym rozdziałem."
+		},
+		"money": {
+			"id": 376,
+			"code": "money",
+			"title": "Pieniądze",
+			"description": "Złote monety. W sklepie można za nie kupić nową zbroję i amunicję. Do zdobycia w walkach i na podbitych terytoriach. Oczywiście można je kupić też w banku."
+		},
+		"powerpotion": {
+			"id": 381,
+			"code": "powerpotion",
+			"title": "Wzmacniarka",
+			"description": "Przy pomocy tej amunicji możesz znacznie spotęgować swój kolejny fizyczny cios. Można znaleźć w skrzyniach ze skarbami lub kupić w dziale sklepu Zalecane\".\""
+		},
+		"scarab": {
+			"id": 963,
+			"code": "scarab",
+			"title": "Skarabeusz",
+			"description": "Skarabeusze służą do poszukiwań zakopanych na wyzwolonych terytoriach skarbów. Zdobyć można je w walkach oraz w nagrodę za przejście oddzielnych rozdziałów. No i w sklepie."
+		},
+		"sculls": {
+			"id": 378,
+			"code": "sculls",
+			"title": "Czaszki",
+			"description": "Magiczne czaszki. Niezbędne do nauki i ulepszenia zaklęć w Księdze Magii. Można je zdobyć w walkach, w skrzyniach ze skarbami lub kupić w sklepie."
+		},
+		"socialbutton": {
+			"id": 1114,
+			"code": "socialbutton",
+			"title": "Przyciski społeczności",
+			"description": "Możesz publikować rezultaty swych osiągnięć co 40 minut, spędzonych w grze."
+		},
+		"statfury": {
+			"id": 384,
+			"code": "statfury",
+			"title": "Odwaga",
+			"description": "Odwaga zwiększa szansę zadania wrogowi krytycznych ciosów, które powodują więcej obrażeń i na sto procent wytrząsają z przeciwnika sfery many. Odwaga chroni także przed krytycznymi ciosami wroga."
+		},
+		"stathp": {
+			"id": 383,
+			"code": "stathp",
+			"title": "Zdrowie",
+			"description": "Parametr odpowiedzialny za zdolność przetrwania w walce. Im jest wyższy, tym więcej masz życia w walce."
+		},
+		"statmagic": {
+			"id": 386,
+			"code": "statmagic",
+			"title": "Magia",
+			"description": "Parametr odpowiedzialny za siłę magicznych obrażeń. Im jest wyższy, tym większa siła rażenia Twoich magicznych zaklęć."
+		},
+		"statstrength": {
+			"id": 385,
+			"code": "statstrength",
+			"title": "Siła",
+			"description": "Siła określa zadawane przez Ciebie obrażenia w walce. Im jest większa, tym silniejsze są ciosy. Wpływa także nieznacznie na magiczne obrażenia."
+		},
+		"vzlom": {
+			"id": 379,
+			"code": "vzlom",
+			"title": "Wytrychy",
+			"description": "Wytrychy. Przy ich pomocy można otworzyć skrzynie ze skarbami. Można je zdobyć w walkach lub kupić w sklepie."
+		}
+	}
+}

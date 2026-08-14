@@ -1,0 +1,292 @@
+{
+	"spells": {
+		"53": {
+			"id": 53,
+			"title": "鬼火",
+			"level": "1",
+			"magicSchool": "2",
+			"price": {
+				"4": 50
+			},
+			"3dPicture": "",
+			"3dEffect": "magic_baf_attack_fire",
+			"prevSpell": "515",
+			"prevSpell2": null,
+			"magicBook": true,
+			"power": 170,
+			"points": 10,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"227": {
+			"id": 227,
+			"title": "黑暗之力",
+			"level": "1",
+			"magicSchool": "1",
+			"price": {
+				"4": 50
+			},
+			"3dPicture": "",
+			"3dEffect": "magic_baf_attack_dark",
+			"prevSpell": "524",
+			"prevSpell2": null,
+			"magicBook": true,
+			"power": 170,
+			"points": 10,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"230": {
+			"id": 230,
+			"title": "雷击",
+			"level": "1",
+			"magicSchool": "4",
+			"price": {
+				"4": 50
+			},
+			"3dPicture": "",
+			"3dEffect": "magic_baf_attack_electro",
+			"prevSpell": "533",
+			"prevSpell2": null,
+			"magicBook": true,
+			"power": 170,
+			"points": 10,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"233": {
+			"id": 233,
+			"title": "暴风雪",
+			"level": "1",
+			"magicSchool": "3",
+			"price": {
+				"4": 50
+			},
+			"3dPicture": "",
+			"3dEffect": "magic_baf_attack_ice",
+			"prevSpell": "542",
+			"prevSpell2": null,
+			"magicBook": true,
+			"power": 170,
+			"points": 10,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"515": {
+			"id": 515,
+			"title": "炎爆",
+			"level": "2",
+			"magicSchool": "2",
+			"price": {
+				"4": 25
+			},
+			"3dPicture": "",
+			"3dEffect": "magic_fireball",
+			"prevSpell": "516",
+			"prevSpell2": null,
+			"magicBook": true,
+			"power": 200,
+			"points": 20,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"516": {
+			"id": 516,
+			"title": "火炎之环",
+			"level": "3",
+			"magicSchool": "2",
+			"price": {
+				"4": 50
+			},
+			"3dPicture": "",
+			"3dEffect": "magic_aoe_fire",
+			"prevSpell": null,
+			"prevSpell2": "1934",
+			"magicBook": true,
+			"power": 230,
+			"points": 30,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"524": {
+			"id": 524,
+			"title": "黑暗波动",
+			"level": "2",
+			"magicSchool": "1",
+			"price": {
+				"4": 25
+			},
+			"3dPicture": "",
+			"3dEffect": "magic_darkball",
+			"prevSpell": "525",
+			"prevSpell2": null,
+			"magicBook": true,
+			"power": 200,
+			"points": 20,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"525": {
+			"id": 525,
+			"title": "黑暗之环",
+			"level": "3",
+			"magicSchool": "1",
+			"price": {
+				"4": 50
+			},
+			"3dPicture": "",
+			"3dEffect": "magic_aoe_dark",
+			"prevSpell": null,
+			"prevSpell2": "1933",
+			"magicBook": true,
+			"power": 230,
+			"points": 30,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"533": {
+			"id": 533,
+			"title": "雷破",
+			"level": "2",
+			"magicSchool": "4",
+			"price": {
+				"4": 25
+			},
+			"3dPicture": "",
+			"3dEffect": "magic_electroball",
+			"prevSpell": "534",
+			"prevSpell2": null,
+			"magicBook": true,
+			"power": 200,
+			"points": 20,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"534": {
+			"id": 534,
+			"title": "雷电之环",
+			"level": "3",
+			"magicSchool": "4",
+			"price": {
+				"4": 50
+			},
+			"3dPicture": "",
+			"3dEffect": "magic_aoe_electro",
+			"prevSpell": null,
+			"prevSpell2": "1931",
+			"magicBook": true,
+			"power": 230,
+			"points": 30,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"542": {
+			"id": 542,
+			"title": "冰衝",
+			"level": "2",
+			"magicSchool": "3",
+			"price": {
+				"4": 25
+			},
+			"3dPicture": "",
+			"3dEffect": "magic_iceball",
+			"prevSpell": "543",
+			"prevSpell2": null,
+			"magicBook": true,
+			"power": 200,
+			"points": 20,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"543": {
+			"id": 543,
+			"title": "寒冰之环",
+			"level": "3",
+			"magicSchool": "3",
+			"price": {
+				"4": 50
+			},
+			"3dPicture": "",
+			"3dEffect": "magic_aoe_ice",
+			"prevSpell": null,
+			"prevSpell2": "1932",
+			"magicBook": true,
+			"power": 230,
+			"points": 30,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1931": {
+			"id": 1931,
+			"title": "雷電咒",
+			"level": "4",
+			"magicSchool": "4",
+			"price": {
+				"4": 100
+			},
+			"3dPicture": "",
+			"3dEffect": "magic_aoe_electro",
+			"prevSpell": null,
+			"prevSpell2": null,
+			"magicBook": true,
+			"power": 260,
+			"points": 0,
+			"minVersion": "2.1",
+			"maxVersion": null
+		},
+		"1932": {
+			"id": 1932,
+			"title": "寒冰咒",
+			"level": "4",
+			"magicSchool": "3",
+			"price": {
+				"4": 100
+			},
+			"3dPicture": "",
+			"3dEffect": "magic_aoe_ice",
+			"prevSpell": null,
+			"prevSpell2": null,
+			"magicBook": true,
+			"power": 260,
+			"points": 0,
+			"minVersion": "2.1",
+			"maxVersion": null
+		},
+		"1933": {
+			"id": 1933,
+			"title": "暗黑咒",
+			"level": "4",
+			"magicSchool": "1",
+			"price": {
+				"4": 100
+			},
+			"3dPicture": "",
+			"3dEffect": "magic_aoe_dark",
+			"prevSpell": null,
+			"prevSpell2": null,
+			"magicBook": true,
+			"power": 260,
+			"points": 0,
+			"minVersion": "2.1",
+			"maxVersion": null
+		},
+		"1934": {
+			"id": 1934,
+			"title": "烈炎咒",
+			"level": "4",
+			"magicSchool": "2",
+			"price": {
+				"4": 100
+			},
+			"3dPicture": "",
+			"3dEffect": "magic_aoe_fire",
+			"prevSpell": null,
+			"prevSpell2": null,
+			"magicBook": true,
+			"power": 260,
+			"points": 0,
+			"minVersion": "2.1",
+			"maxVersion": null
+		}
+	}
+}

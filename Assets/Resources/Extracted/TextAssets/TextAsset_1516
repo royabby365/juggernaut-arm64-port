@@ -1,0 +1,1165 @@
+{
+	"achievements": {
+		"847": {
+			"id": 847,
+			"order": 0,
+			"title": "Bis zu den Knien im Sumpf",
+			"info": "Beende das Kapitel \"Ungastlicher Sumpf\"",
+			"image": "",
+			"condition": {
+				"location": 236,
+				"choice": "test1"
+			},
+			"points": 2
+		},
+		"850": {
+			"id": 850,
+			"order": 0,
+			"title": "Höhlenmensch",
+			"info": "Beende das Kapitel \"Gefährlicher Weg durch die Höhlen\"",
+			"image": "",
+			"condition": {
+				"location": 276,
+				"choice": "test1"
+			},
+			"points": 4
+		},
+		"851": {
+			"id": 851,
+			"order": 0,
+			"title": "Die belagerte Stadt",
+			"info": "Beende das Kapitel \"Vor den Toren Branentals\"",
+			"image": "",
+			"condition": {
+				"location": 277,
+				"choice": "test1"
+			},
+			"points": 7
+		},
+		"852": {
+			"id": 852,
+			"order": 0,
+			"title": "50/50",
+			"info": "Beende das Kapitel \"Auf halben Weg zum Ziel\"",
+			"image": "",
+			"condition": {
+				"location": 278,
+				"choice": "test1"
+			},
+			"points": 9
+		},
+		"853": {
+			"id": 853,
+			"order": 0,
+			"title": "Sandsturm",
+			"info": "Beende das Kapitel \"Bis zum Knie im Sand\"",
+			"image": "",
+			"condition": {
+				"location": 280,
+				"choice": "test1"
+			},
+			"points": 12
+		},
+		"854": {
+			"id": 854,
+			"order": 0,
+			"title": "Wilde Stämme",
+			"info": "Beende das Kapitel \"Wäldlerdorf\"",
+			"image": "",
+			"condition": {
+				"location": 282,
+				"choice": "test1"
+			},
+			"points": 14
+		},
+		"855": {
+			"id": 855,
+			"order": 0,
+			"title": "Tropisches Paradies",
+			"info": "Beende das Kapitel \"Durch den Dschungel\"",
+			"image": "",
+			"condition": {
+				"location": 284,
+				"choice": "test1"
+			},
+			"points": 15
+		},
+		"856": {
+			"id": 856,
+			"order": 0,
+			"title": "Weder tot, noch lebendig",
+			"info": "Beende das Kapitel \"Ein Schritt vor dem Ziel\"",
+			"image": "",
+			"condition": {
+				"location": 285,
+				"choice": "test1"
+			},
+			"points": 18
+		},
+		"857": {
+			"id": 857,
+			"order": 0,
+			"title": "Juggernaut",
+			"info": "Beende das Kapitel \"Soverings Rache\"",
+			"image": "",
+			"condition": {
+				"location": 286,
+				"choice": "test1"
+			},
+			"points": 20
+		},
+		"858": {
+			"id": 858,
+			"order": 0,
+			"title": "Wanted!",
+			"info": "Erhalte Zugriff zur zusätzlichen Herausforderung \"Alte Mine\"",
+			"image": "",
+			"condition": {
+				"location": 275,
+				"choice": "test2"
+			},
+			"points": 2,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"859": {
+			"id": 859,
+			"order": 0,
+			"title": "Bounty Hunter",
+			"info": "Beende die zusätzliche Herausforderung \"Alte Mine\"",
+			"image": "",
+			"condition": {
+				"location": 275,
+				"choice": "test1"
+			},
+			"points": 4,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"860": {
+			"id": 860,
+			"order": 0,
+			"title": "Amphibien",
+			"info": "Erhalte Zugriff zur zusätzlichen Herausforderung \"Silvions Tragödie\"",
+			"image": "",
+			"condition": {
+				"location": 287,
+				"choice": "test2"
+			},
+			"points": 8
+		},
+		"861": {
+			"id": 861,
+			"order": 0,
+			"title": "Dragon Slayer",
+			"info": "Beende die zusätzliche Herausforderung \"Silvions Tragödie\"",
+			"image": "",
+			"condition": {
+				"location": 287,
+				"choice": "test1"
+			},
+			"points": 18
+		},
+		"862": {
+			"id": 862,
+			"order": 0,
+			"title": "Schlachthaus",
+			"info": "Erhalte Zugriff zur zusätzlichen Herausforderung \"Im Schatten des Dämoneneiche\"",
+			"image": "",
+			"condition": {
+				"location": 279,
+				"choice": "test2"
+			},
+			"points": 8
+		},
+		"863": {
+			"id": 863,
+			"order": 0,
+			"title": "Der Fleischer",
+			"info": "Beende die zusätzliche Herausforderung \"Im Schatten der Dämoneneiche\"",
+			"image": "",
+			"condition": {
+				"location": 279,
+				"choice": "test1"
+			},
+			"points": 10
+		},
+		"864": {
+			"id": 864,
+			"order": 0,
+			"title": "Ist es eine Fata Morgana?",
+			"info": "Erhalte Zugriff zur zusätzlichen Herausforderung \"Belebende Quelle\"",
+			"image": "",
+			"condition": {
+				"location": 281,
+				"choice": "test2"
+			},
+			"points": 10
+		},
+		"865": {
+			"id": 865,
+			"order": 0,
+			"title": "Der Sanddämon",
+			"info": "Beende die zusätzliche Herausforderung \"Belebende Quelle\"",
+			"image": "",
+			"condition": {
+				"location": 281,
+				"choice": "test1"
+			},
+			"points": 14
+		},
+		"866": {
+			"id": 866,
+			"order": 0,
+			"title": "Antike Ruinen",
+			"info": "Erhalte Zugriff zur zusätzlichen Herausforderung \"Geheimer Tempel\"",
+			"image": "",
+			"condition": {
+				"location": 283,
+				"choice": "test2"
+			},
+			"points": 15
+		},
+		"867": {
+			"id": 867,
+			"order": 0,
+			"title": "Die Tiermutter",
+			"info": "Beende die zusätzliche Herausforderung \"Geheimer Tempel\"",
+			"image": "",
+			"condition": {
+				"location": 283,
+				"choice": "test1"
+			},
+			"points": 18
+		},
+		"868": {
+			"id": 868,
+			"order": 0,
+			"title": "Lehrling",
+			"info": "Erreiche das 5. Level",
+			"image": "",
+			"condition": {
+				"level": 5,
+				"choice": "test3"
+			},
+			"points": 3
+		},
+		"869": {
+			"id": 869,
+			"order": 0,
+			"title": "Meister",
+			"info": "Erreiche das 10. Level",
+			"image": "",
+			"condition": {
+				"level": 10,
+				"choice": "test3"
+			},
+			"points": 5
+		},
+		"870": {
+			"id": 870,
+			"order": 0,
+			"title": "Großer Meister",
+			"info": "Erreiche das 15. Level",
+			"image": "",
+			"condition": {
+				"level": 15,
+				"choice": "test3"
+			},
+			"points": 9
+		},
+		"871": {
+			"id": 871,
+			"order": 0,
+			"title": "Mächtiger Krieger",
+			"info": "Erreiche das 20. Level",
+			"image": "",
+			"condition": {
+				"level": 20,
+				"choice": "test3"
+			},
+			"points": 15
+		},
+		"872": {
+			"id": 872,
+			"order": 0,
+			"title": "Unschlagbarer Krieger",
+			"info": "Erreiche das 25. Level",
+			"image": "",
+			"condition": {
+				"level": 25,
+				"choice": "test3"
+			},
+			"points": 18
+		},
+		"873": {
+			"id": 873,
+			"order": 0,
+			"title": "Legendärer Krieger",
+			"info": "Erreiche das 30. Level",
+			"image": "",
+			"condition": {
+				"level": 30,
+				"choice": "test3"
+			},
+			"points": 20
+		},
+		"874": {
+			"id": 874,
+			"order": 0,
+			"title": "Akolyth",
+			"info": "Erlerne eine neue Magieschule",
+			"image": "",
+			"condition": {
+				"number": 2,
+				"choice": "test4"
+			},
+			"points": 15
+		},
+		"875": {
+			"id": 875,
+			"order": 0,
+			"title": "Herr der Gezeiten",
+			"info": "Jeweils eine Beschwörung von jeder Magieschule lernen",
+			"image": "",
+			"condition": {
+				"choice": "test5"
+			},
+			"points": 17
+		},
+		"876": {
+			"id": 876,
+			"order": 0,
+			"title": "Zauberer",
+			"info": "Neue Beschwörung bis zum maximalen Level entwickeln",
+			"image": "",
+			"condition": {
+				"choice": "test6"
+			},
+			"points": 15
+		},
+		"877": {
+			"id": 877,
+			"order": 0,
+			"title": "Henker",
+			"info": "Hinrichtung vollstrecken",
+			"image": "",
+			"condition": {
+				"number": 1,
+				"choice": "test24"
+			},
+			"points": 3
+		},
+		"878": {
+			"id": 878,
+			"order": 0,
+			"title": "Serienmörder",
+			"info": "Vollstrecke 10 Hinrichtungen",
+			"image": "",
+			"condition": {
+				"number": 10,
+				"choice": "test24"
+			},
+			"points": 10
+		},
+		"879": {
+			"id": 879,
+			"order": 0,
+			"title": "Magische Emanation",
+			"info": "Sammle 300 Manaklumpen",
+			"image": "",
+			"condition": {
+				"number": 300,
+				"choice": "test7"
+			},
+			"points": 4
+		},
+		"880": {
+			"id": 880,
+			"order": 0,
+			"title": "Berserker",
+			"info": "Sammle 100 Wutklumpen",
+			"image": "",
+			"condition": {
+				"number": 100,
+				"choice": "test8"
+			},
+			"points": 5
+		},
+		"881": {
+			"id": 881,
+			"order": 0,
+			"title": "Schau mich nicht an!",
+			"info": "Vertreibe das Auge des Chaos 50 Mal",
+			"image": "",
+			"condition": {
+				"count": 50,
+				"choice": "test9"
+			},
+			"points": 7
+		},
+		"882": {
+			"id": 882,
+			"order": 0,
+			"title": "Einbrecher",
+			"info": "Breche 6 mittelschwere Schlösser auf",
+			"image": "",
+			"condition": {
+				"type": "normal",
+				"number": 6,
+				"choice": "test10"
+			},
+			"points": 14
+		},
+		"883": {
+			"id": 883,
+			"order": 0,
+			"title": "Panzerknacker",
+			"info": "Breche 6 schwere Schlösser auf",
+			"image": "",
+			"condition": {
+				"type": "hard",
+				"number": 6,
+				"choice": "test10"
+			},
+			"points": 17
+		},
+		"884": {
+			"id": 884,
+			"order": 0,
+			"title": "Das brauche ich nicht",
+			"info": "Brich ein einfaches Schloss auf, ohne einen Dietrich zu benutzen",
+			"image": "",
+			"condition": {
+				"type": "easy",
+				"count": 1,
+				"choice": "test11"
+			},
+			"points": 5
+		},
+		"885": {
+			"id": 885,
+			"order": 0,
+			"title": "Das kann ich mit geschlossenen Augen",
+			"info": "Brich ein mittelschweres Schloss auf, ohne einen Dietrich zu benutzen",
+			"image": "",
+			"condition": {
+				"type": "normal",
+				"count": 1,
+				"choice": "test11"
+			},
+			"points": 13
+		},
+		"886": {
+			"id": 886,
+			"order": 0,
+			"title": "Fährtensucher",
+			"info": "Weiche 10 magischen Angriffen aus \"Wiederhole die vorgegebene Schrittfolge\"",
+			"image": "",
+			"condition": {
+				"type": "strong",
+				"count": 10,
+				"choice": "test12"
+			},
+			"points": 4
+		},
+		"887": {
+			"id": 887,
+			"order": 0,
+			"title": "Schwarze Magie",
+			"info": "Weiche 10 magischen Angriffen aus \"Sammle schwarzes Mana\"",
+			"image": "",
+			"condition": {
+				"type": "weak",
+				"count": 10,
+				"choice": "test12"
+			},
+			"points": 4
+		},
+		"888": {
+			"id": 888,
+			"order": 0,
+			"title": "Feuer und Eis",
+			"info": "Greife den Feind während eines Kampfes mit zwei unterschiedlichen magischen Angriffen an",
+			"image": "",
+			"condition": {
+				"count": 1,
+				"choice": "test13"
+			},
+			"points": 11
+		},
+		"889": {
+			"id": 889,
+			"order": 0,
+			"title": "Meister des Angriffs",
+			"info": "Verwende 10 Mal die Fähigkeit \"Kritischer Schlag\"",
+			"image": "",
+			"condition": {
+				"type": "crit",
+				"count": 10,
+				"choice": "test14"
+			},
+			"points": 9
+		},
+		"890": {
+			"id": 890,
+			"order": 0,
+			"title": "Meister der Verteidigung",
+			"info": "Verwende 20 Mal die Fähigkeit \"Block\"",
+			"image": "",
+			"condition": {
+				"type": "block",
+				"count": 20,
+				"choice": "test14"
+			},
+			"points": 3
+		},
+		"891": {
+			"id": 891,
+			"order": 0,
+			"title": "Recke",
+			"info": "Verwende 5 Mal die Fähigkeit \"Verstärkung\"",
+			"image": "",
+			"condition": {
+				"type": "strong",
+				"count": 5,
+				"choice": "test14"
+			},
+			"points": 15
+		},
+		"892": {
+			"id": 892,
+			"order": 0,
+			"title": "Tödlicher Trank",
+			"info": "Vergifte den Feind im Kampf 5 Mal",
+			"image": "",
+			"condition": {
+				"count": 5,
+				"choice": "test15"
+			},
+			"points": 12
+		},
+		"893": {
+			"id": 893,
+			"order": 0,
+			"title": "Mit letzter Kraft",
+			"info": "Gewinne mit einer Gesundheit von < 5%",
+			"image": "",
+			"condition": {
+				"percent": 5,
+				"choice": "test17"
+			},
+			"points": 9
+		},
+		"894": {
+			"id": 894,
+			"order": 0,
+			"title": "Nicht Mal ein Kratzer",
+			"info": "Gewinne mit einer Gesundheit von < 95%",
+			"image": "",
+			"condition": {
+				"percent": 95,
+				"choice": "test16"
+			},
+			"points": 12
+		},
+		"895": {
+			"id": 895,
+			"order": 0,
+			"title": "Krösus",
+			"info": "Verdiene 5000 Gold",
+			"image": "",
+			"condition": {
+				"amount": 5000,
+				"choice": "test18"
+			},
+			"points": 10
+		},
+		"896": {
+			"id": 896,
+			"order": 0,
+			"title": "Beschützer der Schwachen",
+			"info": "Töte 5 wilde Monster, die die eroberten Gebiete überfallen haben",
+			"image": "",
+			"condition": {
+				"number": 5,
+				"choice": "test19"
+			},
+			"points": 5
+		},
+		"897": {
+			"id": 897,
+			"order": 0,
+			"title": "Praktische Werkzeuge",
+			"info": "Kaufe im Geschäft Dietriche",
+			"image": "",
+			"condition": {
+				"item": 626,
+				"choice": "test20"
+			},
+			"points": 8
+		},
+		"898": {
+			"id": 898,
+			"order": 0,
+			"title": "Lerndurst",
+			"info": "Kaufe im Geschäft magische Schädel",
+			"image": "",
+			"condition": {
+				"item": 714,
+				"choice": "test20"
+			},
+			"points": 12
+		},
+		"899": {
+			"id": 899,
+			"order": 0,
+			"title": "Anfänger-Schatzsucher",
+			"info": "Grabe die Truhe aus",
+			"image": "",
+			"condition": {
+				"number": 1,
+				"choice": "test21"
+			},
+			"points": 3
+		},
+		"900": {
+			"id": 900,
+			"order": 0,
+			"title": "Wie viele gibt's hier?",
+			"info": "Grabe 5 Truhen aus",
+			"image": "",
+			"condition": {
+				"number": 5,
+				"choice": "test21"
+			},
+			"points": 8
+		},
+		"901": {
+			"id": 901,
+			"order": 0,
+			"title": "Amateur-Schatzsucher",
+			"info": "Grabe 20 Truhen aus",
+			"image": "",
+			"condition": {
+				"number": 20,
+				"choice": "test21"
+			},
+			"points": 14
+		},
+		"902": {
+			"id": 902,
+			"order": 0,
+			"title": "Profi-Schatzsucher",
+			"info": "Grabe 50 Truhen aus",
+			"image": "",
+			"condition": {
+				"number": 50,
+				"choice": "test21"
+			},
+			"points": 16
+		},
+		"903": {
+			"id": 903,
+			"order": 0,
+			"title": "Gieriges Insekt",
+			"info": "Kaufe einen Skarabäus im Geschäft",
+			"image": "",
+			"condition": {
+				"item": 822,
+				"choice": "test20"
+			},
+			"points": 8
+		},
+		"904": {
+			"id": 904,
+			"order": 0,
+			"title": "Wie ist er hierher gekrochen?",
+			"info": "Finde einen Skarabäus im Drop",
+			"image": "",
+			"condition": {
+				"item": 822,
+				"count": 1,
+				"choice": "test22"
+			},
+			"points": 3
+		},
+		"905": {
+			"id": 905,
+			"order": 0,
+			"title": "Jetzt weiß ich, wer sie alle vergräbt!",
+			"info": "Besiege die Nachtelfe",
+			"image": "",
+			"condition": {
+				"count": 1,
+				"choice": "test23"
+			},
+			"points": 5
+		},
+		"906": {
+			"id": 906,
+			"order": 0,
+			"title": "Bedrohung der Spitzohren",
+			"info": "Besiege 5 Nachtelfen",
+			"image": "",
+			"condition": {
+				"count": 5,
+				"choice": "test23"
+			},
+			"points": 15
+		},
+		"999": {
+			"id": 999,
+			"order": 0,
+			"title": "Bist du betrunken?",
+			"info": "Verfehle den Feind 10 Mal in einem Kampf",
+			"image": "",
+			"condition": {
+				"count": 10,
+				"choice": "test25"
+			},
+			"points": 5
+		},
+		"1000": {
+			"id": 1000,
+			"order": 0,
+			"title": "Wundersame Heilung",
+			"info": "Verwende 3 Gesundheitselixiere in einem Kampf",
+			"image": "",
+			"condition": {
+				"number": 3,
+				"choice": "test26"
+			},
+			"points": 7
+		},
+		"1001": {
+			"id": 1001,
+			"order": 0,
+			"title": "Schwall",
+			"info": "Verwende 3 Verstärkungskugeln in einem Kampf",
+			"image": "",
+			"condition": {
+				"number": 3,
+				"choice": "test27"
+			},
+			"points": 4
+		},
+		"1002": {
+			"id": 1002,
+			"order": 0,
+			"title": "Giftiger Efeu",
+			"info": "Verwende 3 Munitionen der Vergiftung in einem Kampf",
+			"image": "",
+			"condition": {
+				"count": 3,
+				"choice": "test44"
+			},
+			"points": 10
+		},
+		"1003": {
+			"id": 1003,
+			"order": 0,
+			"title": "Großer Kombinator",
+			"info": "Verwende 3 Kombo-Schläge in einem Kampf",
+			"image": "",
+			"condition": {
+				"count": 3,
+				"choice": "test28"
+			},
+			"points": 15
+		},
+		"1004": {
+			"id": 1004,
+			"order": 0,
+			"title": "Mit links",
+			"info": "Besiege den Gegner und benutze dafür nur Schläge von links",
+			"image": "",
+			"condition": {
+				"choice": "test29"
+			},
+			"points": 5
+		},
+		"1005": {
+			"id": 1005,
+			"order": 0,
+			"title": "Manawolke",
+			"info": "Schlage im Kampf 10 Manaklumpen heraus, sammle jedoch keinen einzigen ein",
+			"image": "",
+			"condition": {
+				"number": 10,
+				"choice": "test30"
+			},
+			"points": 3
+		},
+		"1006": {
+			"id": 1006,
+			"order": 0,
+			"title": "Der Undurchdringliche",
+			"info": "Blocke 10 Mal in einem Kampf",
+			"image": "",
+			"condition": {
+				"count": 10,
+				"choice": "test43"
+			},
+			"points": 8
+		},
+		"1007": {
+			"id": 1007,
+			"order": 0,
+			"title": "Der Optiker",
+			"info": "Vernichte das Auge des Chaos 5 Mal in einem Kampf",
+			"image": "",
+			"condition": {
+				"count": 5,
+				"choice": "test42"
+			},
+			"points": 4
+		},
+		"1008": {
+			"id": 1008,
+			"order": 0,
+			"title": "Selbstbeherrschung",
+			"info": "Erlaube dem Feind im Kampf 5 Wutklumpen herauszuschlagen, sammle jedoch keinen einzigen davon ein",
+			"image": "",
+			"condition": {
+				"number": 5,
+				"choice": "test31"
+			},
+			"points": 4,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1009": {
+			"id": 1009,
+			"order": 0,
+			"title": "Die große Versuchung",
+			"info": "Beginne den Kampf mit vollen Magie- und Wutanzeigen und gewinne ihn, ohne die beiden Fähigkeiten einzusetzen.  ",
+			"image": "",
+			"condition": {
+				"choice": "test32"
+			},
+			"points": 15
+		},
+		"1010": {
+			"id": 1010,
+			"order": 0,
+			"title": "Übersättigung",
+			"info": "Sammle bei einer gefüllten Manaskala 5 Manaklumpen in einem Kampf.",
+			"image": "",
+			"condition": {
+				"number": 5,
+				"choice": "test33"
+			},
+			"points": 4
+		},
+		"1011": {
+			"id": 1011,
+			"order": 0,
+			"title": "Mein Zorn kennt keine Grenzen",
+			"info": "Sammle bei einer gefüllten Wutskala 3 Wutklumpen in einem Kampf.",
+			"image": "",
+			"condition": {
+				"number": 3,
+				"choice": "test34"
+			},
+			"points": 4,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1012": {
+			"id": 1012,
+			"order": 0,
+			"title": "Unkontrollierte Aggression",
+			"info": "Verwende alle 3 Fähigkeiten des Wut-Panels in einem Kampf",
+			"image": "",
+			"condition": {
+				"choice": "test35"
+			},
+			"points": 14
+		},
+		"1013": {
+			"id": 1013,
+			"order": 0,
+			"title": "Der letzte Tropfen",
+			"info": "Gewinne den Kampf so, dass der Gegner durch Vergiftung stirbt",
+			"image": "",
+			"condition": {
+				"choice": "test36"
+			},
+			"points": 10
+		},
+		"1014": {
+			"id": 1014,
+			"order": 0,
+			"title": "Zombie-Armee",
+			"info": "Belebe den Gegner mithilfe von Ankh 7 Mal, ohne ihn jedoch hinzurichten",
+			"image": "",
+			"condition": {
+				"count": 7,
+				"choice": "test37"
+			},
+			"points": 16
+		},
+		"1015": {
+			"id": 1015,
+			"order": 0,
+			"title": "Beschwichtigung",
+			"info": "Erlaube dem Auge des Chaos, 10 deiner Wutpunkte in einem Kampf zu rauben",
+			"image": "",
+			"condition": {
+				"number": 10,
+				"choice": "test38"
+			},
+			"points": 3
+		},
+		"1016": {
+			"id": 1016,
+			"order": 0,
+			"title": "Der Verirrte",
+			"info": "Der Gegner soll dich mit einem magischen Angriff töten, bei dem eine bestimmte Reihenfolge von Schritten wiederholt werden muss",
+			"image": "",
+			"condition": {
+				"choice": "test39"
+			},
+			"points": 6
+		},
+		"1017": {
+			"id": 1017,
+			"order": 0,
+			"title": "Verloren im Nebel",
+			"info": "Der Gegner soll dich mit einem magischen Angriff unter Anwendung  schwarzer Magieklumpen töten ",
+			"image": "",
+			"condition": {
+				"choice": "test40"
+			},
+			"points": 6
+		},
+		"1018": {
+			"id": 1018,
+			"order": 0,
+			"title": "Wohltätigkeit",
+			"info": "Grabe 10 Truhen aus und lasse sie liegen",
+			"image": "",
+			"condition": {
+				"number": 10,
+				"choice": "test41"
+			},
+			"points": 15
+		},
+		"1019": {
+			"id": 1019,
+			"order": 0,
+			"title": "Elfen-Trophäe",
+			"info": "Bringe eine Elfenreliquie in deinen Besitz - den Graal der Unsterblichen",
+			"image": "",
+			"condition": {
+				"item": 304,
+				"count": 1,
+				"choice": "test22"
+			},
+			"points": 13
+		},
+		"1109": {
+			"id": 1109,
+			"order": 0,
+			"title": "Und es nimmt kein Ende",
+			"info": "Vernichte 50 Feinde",
+			"image": "",
+			"condition": {
+				"count": 50,
+				"choice": "test45"
+			},
+			"points": 8
+		},
+		"1110": {
+			"id": 1110,
+			"order": 0,
+			"title": "Ich bin ein Held!",
+			"info": "Vernichte 100 Feinde",
+			"image": "",
+			"condition": {
+				"count": 100,
+				"choice": "test45"
+			},
+			"points": 14
+		},
+		"1111": {
+			"id": 1111,
+			"order": 0,
+			"title": "Kampfmagier",
+			"info": "Du wendest im Kampf 77 Mal Magie an",
+			"image": "",
+			"condition": {
+				"count": 77,
+				"choice": "test46"
+			},
+			"points": 12
+		},
+		"1112": {
+			"id": 1112,
+			"order": 0,
+			"title": "Schädelsammler",
+			"info": "Finde im Drop 30 magische Schädel",
+			"image": "",
+			"condition": {
+				"item": 714,
+				"count": 30,
+				"choice": "test22"
+			},
+			"points": 15
+		},
+		"1239": {
+			"id": 1239,
+			"order": 0,
+			"title": "Legendärer Schmied",
+			"info": "Erschaffe ein legendäres Teil.",
+			"image": "",
+			"condition": {
+				"choice": "test47"
+			},
+			"points": 15,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1240": {
+			"id": 1240,
+			"order": 0,
+			"title": "Heißer Kampf",
+			"info": "Erhalte ein Kampfrating von 3 Sternen.",
+			"image": "",
+			"condition": {
+				"number": 3,
+				"choice": "test48"
+			},
+			"points": 4,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1241": {
+			"id": 1241,
+			"order": 0,
+			"title": "Gemetzel",
+			"info": "Erhalte ein Kampfrating von 4 Sternen.",
+			"image": "",
+			"condition": {
+				"number": 4,
+				"choice": "test48"
+			},
+			"points": 6,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1242": {
+			"id": 1242,
+			"order": 0,
+			"title": "Irrer auf freiem Fuß!",
+			"info": "Erhalte das maximale Kampfrating.",
+			"image": "",
+			"condition": {
+				"number": 5,
+				"choice": "test48"
+			},
+			"points": 10,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1265": {
+			"id": 1265,
+			"order": 0,
+			"title": "Kleiner Exorzist",
+			"info": "Beende die Herausforderung \"Schlechte Erziehung\"",
+			"image": "",
+			"condition": {
+				"location": 1182,
+				"choice": "test1"
+			},
+			"points": 20,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1266": {
+			"id": 1266,
+			"order": 0,
+			"title": "Nekromant",
+			"info": "Beende die Herausforderung \"Verlassener Friedhof\"",
+			"image": "",
+			"condition": {
+				"location": 1181,
+				"choice": "test1"
+			},
+			"points": 5,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1935": {
+			"id": 1935,
+			"order": 0,
+			"title": "Bekanntschaft mit Toparen",
+			"info": "Beende die Herausforderung \"Toparenbau\"",
+			"image": "",
+			"condition": {
+				"location": 1862,
+				"choice": "test1"
+			},
+			"points": 6,
+			"minVersion": "2.1",
+			"maxVersion": null
+		},
+		"1936": {
+			"id": 1936,
+			"order": 0,
+			"title": "Legende vom Bergmann",
+			"info": "Sammle in einem Spiel in der Mine 30000 Punkte ",
+			"image": "",
+			"condition": {
+				"amount": 30000,
+				"choice": "test50"
+			},
+			"points": 14,
+			"minVersion": "2.1",
+			"maxVersion": null
+		},
+		"1937": {
+			"id": 1937,
+			"order": 0,
+			"title": "Sprengmeister mit Perspektive",
+			"info": "Zerstöre 10 Blocks auf einmal in dreifarbiger Mine",
+			"image": "",
+			"condition": {
+				"number": 10,
+				"choice": "test49"
+			},
+			"points": 5,
+			"minVersion": "2.1",
+			"maxVersion": null
+		},
+		"1938": {
+			"id": 1938,
+			"order": 0,
+			"title": "Sprengmeister mit Talent",
+			"info": "Zerstöre 15 Blocks auf einmal in dreifarbiger Mine",
+			"image": "",
+			"condition": {
+				"number": 15,
+				"choice": "test49"
+			},
+			"points": 8,
+			"minVersion": "2.1",
+			"maxVersion": null
+		},
+		"1939": {
+			"id": 1939,
+			"order": 0,
+			"title": "Der Bomber ist zurück",
+			"info": "Zerstöre 20 Blocks auf einmal in dreifarbiger Mine",
+			"image": "",
+			"condition": {
+				"number": 20,
+				"choice": "test49"
+			},
+			"points": 13,
+			"minVersion": "2.1",
+			"maxVersion": null
+		}
+	}
+}

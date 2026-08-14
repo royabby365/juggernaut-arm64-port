@@ -1,0 +1,54 @@
+{
+	"chest": {
+		"584": {
+			"id": 584,
+			"count": 7,
+			"type": "2",
+			"bonus": 603,
+			"index": "5",
+			"elfProbability": 30,
+			"elfLevelDifference": 15,
+			"elfModel": 0
+		},
+		"593": {
+			"id": 593,
+			"count": 6,
+			"type": "2",
+			"bonus": 602,
+			"index": "2",
+			"elfProbability": 20,
+			"elfLevelDifference": 10,
+			"elfModel": 0
+		},
+		"594": {
+			"id": 594,
+			"count": 5,
+			"type": "1",
+			"bonus": 600,
+			"index": "3",
+			"elfProbability": 0,
+			"elfLevelDifference": 0,
+			"elfModel": 0
+		},
+		"595": {
+			"id": 595,
+			"count": 10,
+			"type": "3",
+			"bonus": 605,
+			"index": "4",
+			"elfProbability": 50,
+			"elfLevelDifference": 25,
+			"elfModel": 0
+		},
+		"606": {
+			"id": 606,
+			"count": 8,
+			"type": "2",
+			"bonus": 604,
+			"index": "1",
+			"elfProbability": 40,
+			"elfLevelDifference": 25,
+			"elfModel": 0
+		}
+	}
+}

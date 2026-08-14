@@ -1,0 +1,24 @@
+{
+	"sets": {
+		"1": {
+			"id": 147,
+			"title": "Merodeador",
+			"setId": 1
+		},
+		"2": {
+			"id": 160,
+			"title": "Espadachín",
+			"setId": 2
+		},
+		"3": {
+			"id": 168,
+			"title": "Destructor",
+			"setId": 3
+		},
+		"4": {
+			"id": 169,
+			"title": "Tirano",
+			"setId": 4
+		}
+	}
+}

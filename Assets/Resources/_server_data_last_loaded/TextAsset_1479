@@ -1,0 +1,151 @@
+{
+	"settings": {
+		"templates": {
+			"achievements": {
+				"path": "shr/j/es/achievements.js",
+				"mtime": 1340363097,
+				"size": 22776
+			},
+			"bank": {
+				"path": "shr/j/es/bank.js",
+				"mtime": 1340363096,
+				"size": 1308
+			},
+			"battleFormula": {
+				"path": "shr/j/es/battleFormula.js",
+				"mtime": 1337698776,
+				"size": 247
+			},
+			"bonuses": {
+				"path": "shr/j/es/bonuses.js",
+				"mtime": 1340363095,
+				"size": 58652
+			},
+			"bossLevels": {
+				"path": "shr/j/es/bossLevels.js",
+				"mtime": 1340369277,
+				"size": 17445
+			},
+			"botLevels": {
+				"path": "shr/j/es/botLevels.js",
+				"mtime": 1338791179,
+				"size": 32868
+			},
+			"bots": {
+				"path": "shr/j/es/bots.js",
+				"mtime": 1340363096,
+				"size": 26552
+			},
+			"chest": {
+				"path": "shr/j/es/chest.js",
+				"mtime": 1337698776,
+				"size": 846
+			},
+			"colors": {
+				"path": "shr/j/es/colors.js",
+				"mtime": 1340363093,
+				"size": 354
+			},
+			"conditions": {
+				"path": "shr/j/es/conditions.js",
+				"mtime": 1340363096,
+				"size": 1231
+			},
+			"dialogs": {
+				"path": "shr/j/es/dialogs.js",
+				"mtime": 1340363097,
+				"size": 46629
+			},
+			"executions": {
+				"path": "shr/j/es/executions.js",
+				"mtime": 1340363096,
+				"size": 568
+			},
+			"hints": {
+				"path": "shr/j/es/hints.js",
+				"mtime": 1340363096,
+				"size": 8426
+			},
+			"items": {
+				"path": "shr/j/es/items.js",
+				"mtime": 1340363094,
+				"size": 104042
+			},
+			"levels": {
+				"path": "shr/j/es/levels.js",
+				"mtime": 1340363093,
+				"size": 4759
+			},
+			"loadingTips": {
+				"path": "shr/j/es/loadingTips.js",
+				"mtime": 1340363096,
+				"size": 4245
+			},
+			"locations": {
+				"path": "shr/j/es/locations.js",
+				"mtime": 1340370270,
+				"size": 31648
+			},
+			"mines": {
+				"path": "shr/j/es/mines.js",
+				"mtime": 1340363097,
+				"size": 658
+			},
+			"moneyTypes": {
+				"path": "shr/j/es/moneyTypes.js",
+				"mtime": 1340363093,
+				"size": 399
+			},
+			"npc": {
+				"path": "shr/j/es/npc.js",
+				"mtime": 1340363097,
+				"size": 1516
+			},
+			"persArtikuls": {
+				"path": "shr/j/es/persArtikuls.js",
+				"mtime": 1340363093,
+				"size": 6193
+			},
+			"phrases": {
+				"path": "shr/j/es/phrases.js",
+				"mtime": 1340363093,
+				"size": 40505
+			},
+			"sets": {
+				"path": "shr/j/es/sets.js",
+				"mtime": 1340363096,
+				"size": 285
+			},
+			"settings": {
+				"path": "shr/j/es/settings.js",
+				"mtime": 1340363096,
+				"size": 2821
+			},
+			"skillArtikuls": {
+				"path": "shr/j/es/skillArtikuls.js",
+				"mtime": 1340363093,
+				"size": 2199
+			},
+			"slots": {
+				"path": "shr/j/es/slots.js",
+				"mtime": 1340363093,
+				"size": 1501
+			},
+			"spells": {
+				"path": "shr/j/es/spells.js",
+				"mtime": 1340363096,
+				"size": 5471
+			},
+			"storeGoods": {
+				"path": "shr/j/es/storeGoods.js",
+				"mtime": 1340363095,
+				"size": 17616
+			},
+			"subtitles": {
+				"path": "shr/j/es/subtitles.js",
+				"mtime": 1340363097,
+				"size": 3224
+			}
+		}
+	}
+}

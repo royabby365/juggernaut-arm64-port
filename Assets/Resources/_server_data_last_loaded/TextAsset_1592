@@ -1,0 +1,3572 @@
+{
+	"bonuses": {
+		"40": {
+			"id": 40,
+			"title": "0_Тест_Бонус рождения",
+			"drop": {
+				"1": {
+					"probability": 100,
+					"type": "2",
+					"count": 10,
+					"item": "626"
+				}
+			},
+			"allItems": false,
+			"count": 0
+		},
+		"41": {
+			"id": 41,
+			"title": "0_Тест_Супер бонус",
+			"drop": {
+				"1": {
+					"probability": 100,
+					"type": "2",
+					"count": 10,
+					"item": "836"
+				},
+				"2": {
+					"probability": 100,
+					"type": "1",
+					"count": 1
+				}
+			},
+			"allItems": true,
+			"count": 0
+		},
+		"225": {
+			"id": 225,
+			"title": "0_Тест_бонус за победу над мобом",
+			"drop": {
+				"1": {
+					"probability": 0,
+					"type": "4",
+					"count": 1566,
+					"item": "216"
+				},
+				"2": {
+					"probability": 0,
+					"type": "1",
+					"count": 1,
+					"item": "205"
+				},
+				"3": {
+					"probability": 0,
+					"type": "1",
+					"count": 1,
+					"item": "201"
+				},
+				"4": {
+					"probability": 0,
+					"type": "1",
+					"count": 1,
+					"item": "199"
+				},
+				"5": {
+					"probability": 0,
+					"type": "2",
+					"count": 150,
+					"item": "836"
+				},
+				"6": {
+					"probability": 0,
+					"type": "2",
+					"count": 1500,
+					"item": "835"
+				}
+			},
+			"allItems": false,
+			"count": 0
+		},
+		"356": {
+			"id": 356,
+			"title": "Дроп 1-4 уровень",
+			"drop": {
+				"1": {
+					"probability": 10,
+					"type": "2",
+					"count": 10,
+					"item": "835"
+				},
+				"2": {
+					"probability": 30,
+					"type": "2",
+					"count": 30,
+					"item": "835"
+				},
+				"3": {
+					"probability": 50,
+					"type": "2",
+					"count": 50,
+					"item": "835"
+				},
+				"4": {
+					"probability": 50,
+					"type": "2",
+					"count": 60,
+					"item": "835"
+				},
+				"5": {
+					"probability": 10,
+					"type": "2",
+					"count": 1,
+					"item": "836"
+				}
+			},
+			"allItems": false,
+			"count": 1
+		},
+		"564": {
+			"id": 564,
+			"title": "НЕ ИСПОЛЬЗУЕТСЯ",
+			"drop": {
+				"1": {
+					"probability": 20,
+					"type": "1",
+					"count": 1,
+					"item": "167"
+				},
+				"2": {
+					"probability": 20,
+					"type": "1",
+					"count": 1,
+					"item": "164"
+				},
+				"3": {
+					"probability": 20,
+					"type": "1",
+					"count": 1,
+					"item": "165"
+				},
+				"4": {
+					"probability": 20,
+					"type": "1",
+					"count": 1,
+					"item": "161"
+				},
+				"5": {
+					"probability": 20,
+					"type": "1",
+					"count": 1,
+					"item": "166"
+				},
+				"6": {
+					"probability": 20,
+					"type": "1",
+					"count": 1,
+					"item": "163"
+				},
+				"7": {
+					"probability": 20,
+					"type": "1",
+					"count": 1,
+					"item": "162"
+				},
+				"8": {
+					"probability": 20,
+					"type": "1",
+					"count": 1,
+					"item": "159"
+				},
+				"9": {
+					"probability": 1,
+					"type": "1",
+					"count": 1,
+					"item": "190"
+				},
+				"10": {
+					"probability": 1,
+					"type": "1",
+					"count": 1,
+					"item": "187"
+				},
+				"11": {
+					"probability": 1,
+					"type": "1",
+					"count": 1,
+					"item": "188"
+				},
+				"12": {
+					"probability": 1,
+					"type": "1",
+					"count": 1,
+					"item": "184"
+				},
+				"13": {
+					"probability": 1,
+					"type": "1",
+					"count": 1,
+					"item": "189"
+				},
+				"14": {
+					"probability": 1,
+					"type": "1",
+					"count": 1,
+					"item": "186"
+				},
+				"15": {
+					"probability": 1,
+					"type": "1",
+					"count": 1,
+					"item": "185"
+				},
+				"16": {
+					"probability": 1,
+					"type": "1",
+					"count": 1,
+					"item": "170"
+				},
+				"17": {
+					"probability": 300,
+					"type": "2",
+					"count": 10,
+					"item": "835"
+				},
+				"18": {
+					"probability": 400,
+					"type": "2",
+					"count": 15,
+					"item": "835"
+				},
+				"19": {
+					"probability": 400,
+					"type": "2",
+					"count": 20,
+					"item": "835"
+				},
+				"20": {
+					"probability": 300,
+					"type": "2",
+					"count": 25,
+					"item": "835"
+				},
+				"21": {
+					"probability": 250,
+					"type": "2",
+					"count": 30,
+					"item": "835"
+				},
+				"22": {
+					"probability": 200,
+					"type": "2",
+					"count": 35,
+					"item": "835"
+				},
+				"23": {
+					"probability": 250,
+					"type": "2",
+					"count": 1,
+					"item": "626"
+				},
+				"24": {
+					"probability": 200,
+					"type": "2",
+					"count": 2,
+					"item": "626"
+				},
+				"25": {
+					"probability": 100,
+					"type": "2",
+					"count": 3,
+					"item": "626"
+				},
+				"26": {
+					"probability": 50,
+					"type": "2",
+					"count": 4,
+					"item": "626"
+				},
+				"27": {
+					"probability": 30,
+					"type": "2",
+					"count": 5,
+					"item": "626"
+				},
+				"28": {
+					"probability": 20,
+					"type": "2",
+					"count": 6,
+					"item": "626"
+				},
+				"29": {
+					"probability": 100,
+					"type": "2",
+					"count": 1,
+					"item": "714"
+				},
+				"30": {
+					"probability": 250,
+					"type": "2",
+					"count": 2,
+					"item": "714"
+				},
+				"31": {
+					"probability": 250,
+					"type": "2",
+					"count": 3,
+					"item": "714"
+				},
+				"32": {
+					"probability": 200,
+					"type": "2",
+					"count": 4,
+					"item": "714"
+				},
+				"33": {
+					"probability": 20,
+					"type": "2",
+					"count": 5,
+					"item": "714"
+				},
+				"34": {
+					"probability": 3,
+					"type": "2",
+					"count": 1,
+					"item": "836"
+				},
+				"35": {
+					"probability": 5,
+					"type": "2",
+					"count": 1,
+					"item": "822"
+				}
+			},
+			"allItems": false,
+			"count": 0
+		},
+		"597": {
+			"id": 597,
+			"title": "0_Тест_бонус сундука",
+			"drop": {
+				"1": {
+					"probability": 0,
+					"type": "2",
+					"count": 1000,
+					"item": "626"
+				},
+				"2": {
+					"probability": 0,
+					"type": "2",
+					"count": 500,
+					"item": "835"
+				},
+				"3": {
+					"probability": 0,
+					"type": "2",
+					"count": 222,
+					"item": "714"
+				},
+				"4": {
+					"probability": 0,
+					"type": "4",
+					"count": 1230
+				},
+				"5": {
+					"probability": 0,
+					"type": "1",
+					"count": 0,
+					"item": "435"
+				}
+			},
+			"allItems": false,
+			"count": 0
+		},
+		"599": {
+			"id": 599,
+			"title": "Доп глава_Старая шахта_14",
+			"drop": {
+				"1": {
+					"probability": 1,
+					"type": "2",
+					"count": 1,
+					"item": "822"
+				}
+			},
+			"allItems": true,
+			"count": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"600": {
+			"id": 600,
+			"title": "Сундук_1",
+			"drop": {
+				"1": {
+					"probability": 100,
+					"type": "2",
+					"count": 150,
+					"item": "835"
+				},
+				"2": {
+					"probability": 50,
+					"type": "2",
+					"count": 2,
+					"item": "714"
+				},
+				"3": {
+					"probability": 30,
+					"type": "2",
+					"count": 3,
+					"item": "714"
+				},
+				"4": {
+					"probability": 10,
+					"type": "1",
+					"count": 1,
+					"item": "349"
+				},
+				"5": {
+					"probability": 10,
+					"type": "1",
+					"count": 1,
+					"item": "354"
+				},
+				"6": {
+					"probability": 10,
+					"type": "1",
+					"count": 1,
+					"item": "343"
+				},
+				"7": {
+					"probability": 10,
+					"type": "1",
+					"count": 1,
+					"item": "338"
+				},
+				"8": {
+					"probability": 10,
+					"type": "1",
+					"count": 1,
+					"item": "316"
+				},
+				"9": {
+					"probability": 10,
+					"type": "1",
+					"count": 1,
+					"item": "328"
+				},
+				"10": {
+					"probability": 10,
+					"type": "1",
+					"count": 1,
+					"item": "329"
+				},
+				"11": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "439"
+				},
+				"12": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "438"
+				},
+				"13": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "436"
+				},
+				"14": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "437"
+				}
+			},
+			"allItems": false,
+			"count": 3
+		},
+		"602": {
+			"id": 602,
+			"title": "Сундук_2",
+			"drop": {
+				"1": {
+					"probability": 100,
+					"type": "2",
+					"count": 200,
+					"item": "835"
+				},
+				"2": {
+					"probability": 50,
+					"type": "2",
+					"count": 3,
+					"item": "714"
+				},
+				"3": {
+					"probability": 50,
+					"type": "2",
+					"count": 4,
+					"item": "714"
+				},
+				"4": {
+					"probability": 25,
+					"type": "2",
+					"count": 5,
+					"item": "714"
+				},
+				"5": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "349"
+				},
+				"6": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "354"
+				},
+				"7": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "343"
+				},
+				"8": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "338"
+				},
+				"9": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "316"
+				},
+				"10": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "328"
+				},
+				"11": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "329"
+				},
+				"12": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "439"
+				},
+				"13": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "438"
+				},
+				"14": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "436"
+				},
+				"15": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "437"
+				},
+				"16": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "352"
+				},
+				"17": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "347"
+				},
+				"18": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "350"
+				},
+				"19": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "340"
+				},
+				"20": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "333"
+				},
+				"21": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "326"
+				},
+				"22": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "318"
+				},
+				"23": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "330"
+				},
+				"24": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "444"
+				},
+				"25": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "445"
+				},
+				"26": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "446"
+				},
+				"27": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "447"
+				},
+				"28": {
+					"probability": 10,
+					"type": "1",
+					"count": 1,
+					"item": "303"
+				}
+			},
+			"allItems": false,
+			"count": 4
+		},
+		"603": {
+			"id": 603,
+			"title": "Сундук_3",
+			"drop": {
+				"1": {
+					"probability": 50,
+					"type": "2",
+					"count": 250,
+					"item": "835"
+				},
+				"2": {
+					"probability": 100,
+					"type": "2",
+					"count": 5,
+					"item": "714"
+				},
+				"3": {
+					"probability": 50,
+					"type": "2",
+					"count": 7,
+					"item": "714"
+				},
+				"4": {
+					"probability": 25,
+					"type": "2",
+					"count": 9,
+					"item": "714"
+				},
+				"5": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "349"
+				},
+				"6": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "354"
+				},
+				"7": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "343"
+				},
+				"8": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "338"
+				},
+				"9": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "316"
+				},
+				"10": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "328"
+				},
+				"11": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "329"
+				},
+				"12": {
+					"probability": 2,
+					"type": "1",
+					"count": 1,
+					"item": "439"
+				},
+				"13": {
+					"probability": 2,
+					"type": "1",
+					"count": 1,
+					"item": "438"
+				},
+				"14": {
+					"probability": 2,
+					"type": "1",
+					"count": 1,
+					"item": "436"
+				},
+				"15": {
+					"probability": 2,
+					"type": "1",
+					"count": 1,
+					"item": "437"
+				},
+				"16": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "352"
+				},
+				"17": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "347"
+				},
+				"18": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "350"
+				},
+				"19": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "340"
+				},
+				"20": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "333"
+				},
+				"21": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "326"
+				},
+				"22": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "318"
+				},
+				"23": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "330"
+				},
+				"24": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "337"
+				},
+				"25": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "346"
+				},
+				"26": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "344"
+				},
+				"27": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "336"
+				},
+				"28": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "334"
+				},
+				"29": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "311"
+				},
+				"30": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "320"
+				},
+				"31": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "313"
+				},
+				"32": {
+					"probability": 10,
+					"type": "1",
+					"count": 1,
+					"item": "444"
+				},
+				"33": {
+					"probability": 10,
+					"type": "1",
+					"count": 1,
+					"item": "445"
+				},
+				"34": {
+					"probability": 10,
+					"type": "1",
+					"count": 1,
+					"item": "446"
+				},
+				"35": {
+					"probability": 10,
+					"type": "1",
+					"count": 1,
+					"item": "447"
+				},
+				"36": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "442"
+				},
+				"37": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "440"
+				},
+				"38": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "441"
+				},
+				"39": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "443"
+				},
+				"40": {
+					"probability": 10,
+					"type": "1",
+					"count": 1,
+					"item": "303"
+				},
+				"41": {
+					"probability": 10,
+					"type": "1",
+					"count": 1,
+					"item": "301"
+				},
+				"42": {
+					"probability": 10,
+					"type": "1",
+					"count": 1,
+					"item": "309"
+				},
+				"43": {
+					"probability": 10,
+					"type": "1",
+					"count": 1,
+					"item": "307"
+				},
+				"44": {
+					"probability": 10,
+					"type": "1",
+					"count": 1,
+					"item": "295"
+				}
+			},
+			"allItems": false,
+			"count": 4,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"604": {
+			"id": 604,
+			"title": "Сундук_4",
+			"drop": {
+				"1": {
+					"probability": 50,
+					"type": "2",
+					"count": 350,
+					"item": "835"
+				},
+				"2": {
+					"probability": 200,
+					"type": "2",
+					"count": 5,
+					"item": "714"
+				},
+				"3": {
+					"probability": 100,
+					"type": "2",
+					"count": 6,
+					"item": "714"
+				},
+				"4": {
+					"probability": 50,
+					"type": "2",
+					"count": 8,
+					"item": "714"
+				},
+				"5": {
+					"probability": 25,
+					"type": "2",
+					"count": 10,
+					"item": "714"
+				},
+				"6": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "352"
+				},
+				"7": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "347"
+				},
+				"8": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "350"
+				},
+				"9": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "340"
+				},
+				"10": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "333"
+				},
+				"11": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "326"
+				},
+				"12": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "318"
+				},
+				"13": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "330"
+				},
+				"14": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "337"
+				},
+				"15": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "346"
+				},
+				"16": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "344"
+				},
+				"17": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "336"
+				},
+				"18": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "334"
+				},
+				"19": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "311"
+				},
+				"20": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "320"
+				},
+				"21": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "313"
+				},
+				"22": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "444"
+				},
+				"23": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "445"
+				},
+				"24": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "446"
+				},
+				"25": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "447"
+				},
+				"26": {
+					"probability": 10,
+					"type": "1",
+					"count": 1,
+					"item": "442"
+				},
+				"27": {
+					"probability": 10,
+					"type": "1",
+					"count": 1,
+					"item": "440"
+				},
+				"28": {
+					"probability": 10,
+					"type": "1",
+					"count": 1,
+					"item": "441"
+				},
+				"29": {
+					"probability": 10,
+					"type": "1",
+					"count": 1,
+					"item": "443"
+				},
+				"30": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "295"
+				},
+				"31": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "301"
+				},
+				"32": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "307"
+				},
+				"33": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "309"
+				},
+				"34": {
+					"probability": 10,
+					"type": "1",
+					"count": 1,
+					"item": "298"
+				},
+				"35": {
+					"probability": 10,
+					"type": "1",
+					"count": 1,
+					"item": "299"
+				},
+				"36": {
+					"probability": 10,
+					"type": "1",
+					"count": 1,
+					"item": "300"
+				},
+				"37": {
+					"probability": 10,
+					"type": "1",
+					"count": 1,
+					"item": "306"
+				}
+			},
+			"allItems": false,
+			"count": 4,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"605": {
+			"id": 605,
+			"title": "Сундук_5",
+			"drop": {
+				"1": {
+					"probability": 100,
+					"type": "2",
+					"count": 10,
+					"item": "714"
+				},
+				"2": {
+					"probability": 50,
+					"type": "2",
+					"count": 15,
+					"item": "714"
+				},
+				"3": {
+					"probability": 25,
+					"type": "2",
+					"count": 20,
+					"item": "714"
+				},
+				"4": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "337"
+				},
+				"5": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "346"
+				},
+				"6": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "344"
+				},
+				"7": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "336"
+				},
+				"8": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "334"
+				},
+				"9": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "311"
+				},
+				"10": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "320"
+				},
+				"11": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "313"
+				},
+				"12": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "442"
+				},
+				"13": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "440"
+				},
+				"14": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "441"
+				},
+				"15": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "443"
+				},
+				"16": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "345"
+				},
+				"17": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "348"
+				},
+				"18": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "339"
+				},
+				"19": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "342"
+				},
+				"20": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "317"
+				},
+				"21": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "325"
+				},
+				"22": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "331"
+				},
+				"23": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "323"
+				},
+				"24": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "432"
+				},
+				"25": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "433"
+				},
+				"26": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "434"
+				},
+				"27": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "435"
+				},
+				"28": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "298"
+				},
+				"29": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "299"
+				},
+				"30": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "300"
+				},
+				"31": {
+					"probability": 15,
+					"type": "1",
+					"count": 1,
+					"item": "306"
+				}
+			},
+			"allItems": false,
+			"count": 5,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"607": {
+			"id": 607,
+			"title": "Доп глава_Саламандра_37",
+			"drop": {
+				"1": {
+					"probability": 1,
+					"type": "1",
+					"count": 1,
+					"item": "216"
+				}
+			},
+			"allItems": true,
+			"count": 0
+		},
+		"608": {
+			"id": 608,
+			"title": "Доп глава_Шергергори_40",
+			"drop": {
+				"1": {
+					"probability": 1,
+					"type": "1",
+					"count": 1,
+					"item": "298"
+				}
+			},
+			"allItems": true,
+			"count": 0
+		},
+		"609": {
+			"id": 609,
+			"title": "Доп глава_Звероматка_45",
+			"drop": {
+				"1": {
+					"probability": 1,
+					"type": "1",
+					"count": 1,
+					"item": "1022"
+				}
+			},
+			"allItems": true,
+			"count": 0
+		},
+		"610": {
+			"id": 610,
+			"title": "Доп глава_Демонический дуб_32",
+			"drop": {
+				"1": {
+					"probability": 1,
+					"type": "1",
+					"count": 1,
+					"item": "431"
+				}
+			},
+			"allItems": true,
+			"count": 0
+		},
+		"611": {
+			"id": 611,
+			"title": "БОСС_Одержимая уна_30 (НЕ ИСПОЛЬЗУЕТСЯ)",
+			"drop": {
+				"1": {
+					"probability": 10000,
+					"type": "1",
+					"count": 1,
+					"item": "199"
+				},
+				"2": {
+					"probability": 1,
+					"type": "2",
+					"count": 10,
+					"item": "714"
+				},
+				"3": {
+					"probability": 1,
+					"type": "2",
+					"count": 50,
+					"item": "835"
+				},
+				"4": {
+					"probability": 1,
+					"type": "2",
+					"count": 5,
+					"item": "626"
+				}
+			},
+			"allItems": false,
+			"count": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"612": {
+			"id": 612,
+			"title": "Глава 10. Месть Соверинга",
+			"drop": {
+				"1": {
+					"probability": 1,
+					"type": "1",
+					"count": 1,
+					"item": "1031"
+				}
+			},
+			"allItems": true,
+			"count": 0
+		},
+		"659": {
+			"id": 659,
+			"title": "Глава 1. Бросая вызов",
+			"drop": {
+				"1": {
+					"probability": 1,
+					"type": "2",
+					"count": 2,
+					"item": "822"
+				}
+			},
+			"allItems": true,
+			"count": 0
+		},
+		"660": {
+			"id": 660,
+			"title": "Глава 2. Негостеприимное болото",
+			"drop": {
+				"1": {
+					"probability": 1,
+					"type": "1",
+					"count": 5,
+					"item": "269"
+				}
+			},
+			"allItems": true,
+			"count": 0
+		},
+		"661": {
+			"id": 661,
+			"title": "Глава 3. Опасный путь через пещеры",
+			"drop": {
+				"1": {
+					"probability": 1,
+					"type": "1",
+					"count": 3,
+					"item": "271"
+				}
+			},
+			"allItems": true,
+			"count": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"662": {
+			"id": 662,
+			"title": "Глава 4. Под стенами Бранендаля",
+			"drop": {
+				"1": {
+					"probability": 1,
+					"type": "2",
+					"count": 800,
+					"item": "835"
+				}
+			},
+			"allItems": true,
+			"count": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"663": {
+			"id": 663,
+			"title": "Глава 5. На полпути к цели",
+			"drop": {
+				"1": {
+					"probability": 1,
+					"type": "2",
+					"count": 1000,
+					"item": "835"
+				}
+			},
+			"allItems": true,
+			"count": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"664": {
+			"id": 664,
+			"title": "Глава 6. По колено в песке",
+			"drop": {
+				"1": {
+					"probability": 1,
+					"type": "2",
+					"count": 1,
+					"item": "822"
+				}
+			},
+			"allItems": true,
+			"count": 0
+		},
+		"665": {
+			"id": 665,
+			"title": "Глава 7. Деревня Звергов",
+			"drop": {
+				"1": {
+					"probability": 1,
+					"type": "2",
+					"count": 2000,
+					"item": "835"
+				}
+			},
+			"allItems": true,
+			"count": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"666": {
+			"id": 666,
+			"title": "Глава 8. Прорыв через джунгли",
+			"drop": {
+				"1": {
+					"probability": 1,
+					"type": "1",
+					"count": 2500,
+					"item": "835"
+				}
+			},
+			"allItems": true,
+			"count": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"667": {
+			"id": 667,
+			"title": "Глава 9. В шаге от цели",
+			"drop": {
+				"1": {
+					"probability": 1,
+					"type": "2",
+					"count": 1,
+					"item": "822"
+				}
+			},
+			"allItems": true,
+			"count": 0,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"843": {
+			"id": 843,
+			"title": "Дроп_БОСС_10_Болото",
+			"drop": {
+				"1": {
+					"probability": 100,
+					"type": "2",
+					"count": 150,
+					"item": "835"
+				},
+				"2": {
+					"probability": 100,
+					"type": "1",
+					"count": 1,
+					"item": "1073"
+				},
+				"3": {
+					"probability": 100,
+					"type": "2",
+					"count": 3,
+					"item": "836"
+				},
+				"4": {
+					"probability": 100,
+					"type": "2",
+					"count": 5,
+					"item": "714"
+				},
+				"5": {
+					"probability": 100,
+					"type": "2",
+					"count": 10,
+					"item": "626"
+				}
+			},
+			"allItems": false,
+			"count": 1
+		},
+		"844": {
+			"id": 844,
+			"title": "Дроп_БОСС_20_Город",
+			"drop": {
+				"1": {
+					"probability": 100,
+					"type": "1",
+					"count": 1,
+					"item": "1076"
+				},
+				"2": {
+					"probability": 100,
+					"type": "2",
+					"count": 1,
+					"item": "822"
+				},
+				"3": {
+					"probability": 100,
+					"type": "2",
+					"count": 10,
+					"item": "626"
+				},
+				"4": {
+					"probability": 100,
+					"type": "2",
+					"count": 5,
+					"item": "714"
+				},
+				"5": {
+					"probability": 100,
+					"type": "2",
+					"count": 3,
+					"item": "836"
+				}
+			},
+			"allItems": false,
+			"count": 1
+		},
+		"964": {
+			"id": 964,
+			"title": "Дроп_БОСС_5_Лес",
+			"drop": {
+				"1": {
+					"probability": 20,
+					"type": "2",
+					"count": 1,
+					"item": "1072"
+				},
+				"2": {
+					"probability": 20,
+					"type": "2",
+					"count": 70,
+					"item": "835"
+				},
+				"3": {
+					"probability": 20,
+					"type": "2",
+					"count": 4,
+					"item": "626"
+				},
+				"4": {
+					"probability": 20,
+					"type": "2",
+					"count": 2,
+					"item": "836"
+				},
+				"5": {
+					"probability": 20,
+					"type": "2",
+					"count": 3,
+					"item": "714"
+				}
+			},
+			"allItems": false,
+			"count": 1
+		},
+		"1021": {
+			"id": 1021,
+			"title": "Дроп_Эльфийка",
+			"drop": {
+				"1": {
+					"probability": 25,
+					"type": "1",
+					"count": 1,
+					"item": "304"
+				},
+				"2": {
+					"probability": 50,
+					"type": "2",
+					"count": 300,
+					"item": "835"
+				},
+				"3": {
+					"probability": 50,
+					"type": "2",
+					"count": 10,
+					"item": "626"
+				},
+				"4": {
+					"probability": 50,
+					"type": "2",
+					"count": 5,
+					"item": "714"
+				},
+				"5": {
+					"probability": 50,
+					"type": "2",
+					"count": 3,
+					"item": "836"
+				}
+			},
+			"allItems": false,
+			"count": 1
+		},
+		"1034": {
+			"id": 1034,
+			"title": "Дроп_БОСС_15_Пещера",
+			"drop": {
+				"1": {
+					"probability": 100,
+					"type": "2",
+					"count": 1,
+					"item": "822"
+				},
+				"2": {
+					"probability": 100,
+					"type": "2",
+					"count": 200,
+					"item": "835"
+				},
+				"3": {
+					"probability": 100,
+					"type": "2",
+					"count": 3,
+					"item": "836"
+				},
+				"4": {
+					"probability": 100,
+					"type": "2",
+					"count": 5,
+					"item": "714"
+				},
+				"5": {
+					"probability": 100,
+					"type": "1",
+					"count": 1,
+					"item": "1074"
+				}
+			},
+			"allItems": false,
+			"count": 1
+		},
+		"1035": {
+			"id": 1035,
+			"title": "Дроп 5-10 уровень",
+			"drop": {
+				"1": {
+					"probability": 500,
+					"type": "2",
+					"count": 50,
+					"item": "835"
+				},
+				"2": {
+					"probability": 400,
+					"type": "2",
+					"count": 2,
+					"item": "626"
+				},
+				"3": {
+					"probability": 500,
+					"type": "2",
+					"count": 1,
+					"item": "714"
+				},
+				"4": {
+					"probability": 400,
+					"type": "2",
+					"count": 1,
+					"item": "836"
+				},
+				"5": {
+					"probability": 5,
+					"type": "2",
+					"count": 1,
+					"item": "822"
+				},
+				"6": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "156"
+				},
+				"7": {
+					"probability": 5,
+					"type": "1",
+					"count": 1,
+					"item": "157"
+				},
+				"8": {
+					"probability": 5,
+					"type": "2",
+					"count": 1,
+					"item": "836"
+				}
+			},
+			"allItems": false,
+			"count": 1
+		},
+		"1036": {
+			"id": 1036,
+			"title": "Дроп 12-14 уровень",
+			"drop": {
+				"1": {
+					"probability": 500,
+					"type": "2",
+					"count": 60,
+					"item": "835"
+				},
+				"2": {
+					"probability": 400,
+					"type": "2",
+					"count": 2,
+					"item": "626"
+				},
+				"3": {
+					"probability": 500,
+					"type": "2",
+					"count": 1,
+					"item": "714"
+				},
+				"4": {
+					"probability": 400,
+					"type": "2",
+					"count": 1,
+					"item": "836"
+				},
+				"5": {
+					"probability": 2,
+					"type": "2",
+					"count": 1,
+					"item": "822"
+				},
+				"6": {
+					"probability": 2,
+					"type": "1",
+					"count": 1,
+					"item": "163"
+				},
+				"7": {
+					"probability": 2,
+					"type": "1",
+					"count": 1,
+					"item": "167"
+				},
+				"8": {
+					"probability": 2,
+					"type": "2",
+					"count": 1,
+					"item": "836"
+				},
+				"9": {
+					"probability": 2,
+					"type": "2",
+					"count": 2,
+					"item": "714"
+				}
+			},
+			"allItems": false,
+			"count": 1,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1037": {
+			"id": 1037,
+			"title": "Дроп 16-17 19-20 уровень",
+			"drop": {
+				"1": {
+					"probability": 500,
+					"type": "2",
+					"count": 50,
+					"item": "835"
+				},
+				"2": {
+					"probability": 500,
+					"type": "2",
+					"count": 2,
+					"item": "626"
+				},
+				"3": {
+					"probability": 400,
+					"type": "2",
+					"count": 1,
+					"item": "714"
+				},
+				"4": {
+					"probability": 20,
+					"type": "2",
+					"count": 1,
+					"item": "836"
+				},
+				"5": {
+					"probability": 5,
+					"type": "2",
+					"count": 2,
+					"item": "714"
+				},
+				"6": {
+					"probability": 2,
+					"type": "2",
+					"count": 1,
+					"item": "822"
+				},
+				"7": {
+					"probability": 2,
+					"type": "1",
+					"count": 1,
+					"item": "161"
+				},
+				"8": {
+					"probability": 2,
+					"type": "1",
+					"count": 1,
+					"item": "165"
+				}
+			},
+			"allItems": false,
+			"count": 1,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1038": {
+			"id": 1038,
+			"title": "Дроп 18 уровень",
+			"drop": {
+				"1": {
+					"probability": 50,
+					"type": "2",
+					"count": 50,
+					"item": "835"
+				},
+				"2": {
+					"probability": 10,
+					"type": "2",
+					"count": 2,
+					"item": "626"
+				},
+				"3": {
+					"probability": 2,
+					"type": "2",
+					"count": 1,
+					"item": "714"
+				},
+				"4": {
+					"probability": 100,
+					"type": "2",
+					"count": 1,
+					"item": "836"
+				},
+				"5": {
+					"probability": 500,
+					"type": "2",
+					"count": 3,
+					"item": "714"
+				},
+				"6": {
+					"probability": 1000,
+					"type": "2",
+					"count": 1,
+					"item": "822"
+				},
+				"7": {
+					"probability": 2,
+					"type": "1",
+					"count": 1,
+					"item": "161"
+				},
+				"8": {
+					"probability": 2,
+					"type": "1",
+					"count": 1,
+					"item": "165"
+				}
+			},
+			"allItems": false,
+			"count": 1
+		},
+		"1039": {
+			"id": 1039,
+			"title": "Дроп 21-24 уровень",
+			"drop": {
+				"1": {
+					"probability": 200,
+					"type": "2",
+					"count": 70,
+					"item": "835"
+				},
+				"2": {
+					"probability": 300,
+					"type": "2",
+					"count": 3,
+					"item": "626"
+				},
+				"3": {
+					"probability": 500,
+					"type": "2",
+					"count": 1,
+					"item": "714"
+				},
+				"4": {
+					"probability": 50,
+					"type": "2",
+					"count": 1,
+					"item": "836"
+				},
+				"5": {
+					"probability": 2,
+					"type": "2",
+					"count": 5,
+					"item": "714"
+				},
+				"6": {
+					"probability": 2,
+					"type": "2",
+					"count": 1,
+					"item": "822"
+				},
+				"7": {
+					"probability": 2,
+					"type": "1",
+					"count": 1,
+					"item": "162"
+				},
+				"8": {
+					"probability": 2,
+					"type": "1",
+					"count": 1,
+					"item": "165"
+				},
+				"9": {
+					"probability": 2,
+					"type": "1",
+					"count": 1,
+					"item": "186"
+				},
+				"10": {
+					"probability": 2,
+					"type": "1",
+					"count": 1,
+					"item": "166"
+				}
+			},
+			"allItems": false,
+			"count": 1,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1041": {
+			"id": 1041,
+			"title": "Дроп_БОСС_25_Кристалл",
+			"drop": {
+				"1": {
+					"probability": 100,
+					"type": "1",
+					"count": 1,
+					"item": "1077"
+				},
+				"2": {
+					"probability": 100,
+					"type": "2",
+					"count": 1,
+					"item": "822"
+				},
+				"3": {
+					"probability": 100,
+					"type": "2",
+					"count": 300,
+					"item": "835"
+				},
+				"4": {
+					"probability": 100,
+					"type": "2",
+					"count": 5,
+					"item": "714"
+				},
+				"5": {
+					"probability": 100,
+					"type": "2",
+					"count": 3,
+					"item": "836"
+				}
+			},
+			"allItems": false,
+			"count": 1
+		},
+		"1042": {
+			"id": 1042,
+			"title": "Дроп_БОСС_14_Разбойник",
+			"drop": {
+				"1": {
+					"probability": 100,
+					"type": "1",
+					"count": 1,
+					"item": "1075"
+				},
+				"2": {
+					"probability": 100,
+					"type": "2",
+					"count": 1,
+					"item": "822"
+				},
+				"3": {
+					"probability": 100,
+					"type": "2",
+					"count": 200,
+					"item": "835"
+				},
+				"4": {
+					"probability": 100,
+					"type": "2",
+					"count": 5,
+					"item": "714"
+				},
+				"5": {
+					"probability": 100,
+					"type": "2",
+					"count": 3,
+					"item": "836"
+				}
+			},
+			"allItems": false,
+			"count": 1,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1043": {
+			"id": 1043,
+			"title": "Дроп 26-27 29-30 уровень",
+			"drop": {
+				"1": {
+					"probability": 200,
+					"type": "2",
+					"count": 80,
+					"item": "835"
+				},
+				"2": {
+					"probability": 500,
+					"type": "2",
+					"count": 3,
+					"item": "626"
+				},
+				"3": {
+					"probability": 300,
+					"type": "2",
+					"count": 1,
+					"item": "714"
+				},
+				"4": {
+					"probability": 50,
+					"type": "2",
+					"count": 1,
+					"item": "836"
+				},
+				"5": {
+					"probability": 2,
+					"type": "2",
+					"count": 5,
+					"item": "714"
+				},
+				"6": {
+					"probability": 2,
+					"type": "2",
+					"count": 1,
+					"item": "822"
+				},
+				"7": {
+					"probability": 2,
+					"type": "1",
+					"count": 1,
+					"item": "162"
+				},
+				"8": {
+					"probability": 2,
+					"type": "1",
+					"count": 1,
+					"item": "159"
+				},
+				"9": {
+					"probability": 2,
+					"type": "1",
+					"count": 1,
+					"item": "190"
+				},
+				"10": {
+					"probability": 2,
+					"type": "1",
+					"count": 1,
+					"item": "186"
+				}
+			},
+			"allItems": false,
+			"count": 1,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1044": {
+			"id": 1044,
+			"title": "Дроп 28 уровень",
+			"drop": {
+				"1": {
+					"probability": 2,
+					"type": "2",
+					"count": 80,
+					"item": "835"
+				},
+				"2": {
+					"probability": 2,
+					"type": "2",
+					"count": 3,
+					"item": "626"
+				},
+				"3": {
+					"probability": 2,
+					"type": "2",
+					"count": 2,
+					"item": "714"
+				},
+				"4": {
+					"probability": 50,
+					"type": "2",
+					"count": 1,
+					"item": "836"
+				},
+				"5": {
+					"probability": 1000,
+					"type": "1",
+					"count": 1,
+					"item": "165"
+				}
+			},
+			"allItems": false,
+			"count": 1
+		},
+		"1045": {
+			"id": 1045,
+			"title": "Дроп_БОСС_30_Пустыня",
+			"drop": {
+				"1": {
+					"probability": 100,
+					"type": "1",
+					"count": 1,
+					"item": "1078"
+				},
+				"2": {
+					"probability": 100,
+					"type": "2",
+					"count": 1,
+					"item": "822"
+				},
+				"3": {
+					"probability": 100,
+					"type": "2",
+					"count": 400,
+					"item": "835"
+				},
+				"4": {
+					"probability": 100,
+					"type": "2",
+					"count": 6,
+					"item": "714"
+				},
+				"5": {
+					"probability": 100,
+					"type": "2",
+					"count": 4,
+					"item": "836"
+				}
+			},
+			"allItems": false,
+			"count": 1
+		},
+		"1046": {
+			"id": 1046,
+			"title": "Дроп_БОСС_32_Демонический дуб",
+			"drop": {
+				"1": {
+					"probability": 100,
+					"type": "1",
+					"count": 1,
+					"item": "1079"
+				},
+				"2": {
+					"probability": 100,
+					"type": "2",
+					"count": 1,
+					"item": "822"
+				},
+				"3": {
+					"probability": 100,
+					"type": "2",
+					"count": 400,
+					"item": "835"
+				},
+				"4": {
+					"probability": 100,
+					"type": "2",
+					"count": 6,
+					"item": "714"
+				},
+				"5": {
+					"probability": 100,
+					"type": "2",
+					"count": 4,
+					"item": "836"
+				}
+			},
+			"allItems": false,
+			"count": 1
+		},
+		"1047": {
+			"id": 1047,
+			"title": "Дроп 31-50 уровень",
+			"drop": {
+				"1": {
+					"probability": 300,
+					"type": "2",
+					"count": 100,
+					"item": "835"
+				},
+				"2": {
+					"probability": 300,
+					"type": "2",
+					"count": 3,
+					"item": "626"
+				},
+				"3": {
+					"probability": 300,
+					"type": "2",
+					"count": 1,
+					"item": "714"
+				},
+				"4": {
+					"probability": 50,
+					"type": "2",
+					"count": 1,
+					"item": "836"
+				},
+				"5": {
+					"probability": 10,
+					"type": "2",
+					"count": 5,
+					"item": "714"
+				},
+				"6": {
+					"probability": 2,
+					"type": "2",
+					"count": 1,
+					"item": "822"
+				},
+				"7": {
+					"probability": 100,
+					"type": "1",
+					"count": 2,
+					"item": "270"
+				},
+				"8": {
+					"probability": 100,
+					"type": "1",
+					"count": 1,
+					"item": "269"
+				}
+			},
+			"allItems": false,
+			"count": 1,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1048": {
+			"id": 1048,
+			"title": "Дроп_БОСС_35_Зверги",
+			"drop": {
+				"1": {
+					"probability": 100,
+					"type": "1",
+					"count": 1,
+					"item": "1080"
+				},
+				"2": {
+					"probability": 100,
+					"type": "2",
+					"count": 1,
+					"item": "822"
+				},
+				"3": {
+					"probability": 100,
+					"type": "2",
+					"count": 400,
+					"item": "835"
+				},
+				"4": {
+					"probability": 100,
+					"type": "2",
+					"count": 6,
+					"item": "714"
+				},
+				"5": {
+					"probability": 100,
+					"type": "2",
+					"count": 4,
+					"item": "836"
+				}
+			},
+			"allItems": false,
+			"count": 1
+		},
+		"1049": {
+			"id": 1049,
+			"title": "Дроп_БОСС_40_Джунгли",
+			"drop": {
+				"1": {
+					"probability": 100,
+					"type": "1",
+					"count": 1,
+					"item": "1081"
+				},
+				"2": {
+					"probability": 100,
+					"type": "2",
+					"count": 1,
+					"item": "822"
+				},
+				"3": {
+					"probability": 100,
+					"type": "2",
+					"count": 500,
+					"item": "835"
+				},
+				"4": {
+					"probability": 100,
+					"type": "2",
+					"count": 7,
+					"item": "714"
+				},
+				"5": {
+					"probability": 100,
+					"type": "2",
+					"count": 5,
+					"item": "836"
+				}
+			},
+			"allItems": false,
+			"count": 1
+		},
+		"1050": {
+			"id": 1050,
+			"title": "Дроп_БОСС_45_Кладбище",
+			"drop": {
+				"1": {
+					"probability": 100,
+					"type": "1",
+					"count": 1,
+					"item": "1084"
+				},
+				"2": {
+					"probability": 100,
+					"type": "2",
+					"count": 1,
+					"item": "822"
+				},
+				"3": {
+					"probability": 100,
+					"type": "2",
+					"count": 500,
+					"item": "835"
+				},
+				"4": {
+					"probability": 100,
+					"type": "2",
+					"count": 7,
+					"item": "714"
+				},
+				"5": {
+					"probability": 100,
+					"type": "2",
+					"count": 5,
+					"item": "836"
+				}
+			},
+			"allItems": false,
+			"count": 1
+		},
+		"1051": {
+			"id": 1051,
+			"title": "Дроп_БОСС_47_Звероматка",
+			"drop": {
+				"1": {
+					"probability": 100,
+					"type": "1",
+					"count": 1,
+					"item": "1085"
+				},
+				"2": {
+					"probability": 100,
+					"type": "2",
+					"count": 1,
+					"item": "822"
+				},
+				"3": {
+					"probability": 100,
+					"type": "2",
+					"count": 500,
+					"item": "835"
+				},
+				"4": {
+					"probability": 100,
+					"type": "2",
+					"count": 7,
+					"item": "714"
+				},
+				"5": {
+					"probability": 100,
+					"type": "2",
+					"count": 5,
+					"item": "836"
+				}
+			},
+			"allItems": false,
+			"count": 1
+		},
+		"1052": {
+			"id": 1052,
+			"title": "Дроп_БОСС_50_Соверинг",
+			"drop": {
+				"1": {
+					"probability": 500,
+					"type": "2",
+					"count": 1,
+					"item": "822"
+				},
+				"2": {
+					"probability": 500,
+					"type": "2",
+					"count": 1000,
+					"item": "835"
+				},
+				"3": {
+					"probability": 500,
+					"type": "2",
+					"count": 15,
+					"item": "714"
+				},
+				"4": {
+					"probability": 1,
+					"type": "2",
+					"count": 100,
+					"item": "836"
+				},
+				"5": {
+					"probability": 500,
+					"type": "2",
+					"count": 10,
+					"item": "836"
+				}
+			},
+			"allItems": false,
+			"count": 1
+		},
+		"1053": {
+			"id": 1053,
+			"title": "Дроп с напавшего монстра",
+			"drop": {
+				"1": {
+					"probability": 500,
+					"type": "2",
+					"count": 50,
+					"item": "835"
+				},
+				"2": {
+					"probability": 500,
+					"type": "2",
+					"count": 60,
+					"item": "835"
+				},
+				"3": {
+					"probability": 500,
+					"type": "2",
+					"count": 1,
+					"item": "626"
+				},
+				"4": {
+					"probability": 300,
+					"type": "2",
+					"count": 1,
+					"item": "836"
+				},
+				"5": {
+					"probability": 400,
+					"type": "2",
+					"count": 70,
+					"item": "835"
+				}
+			},
+			"allItems": false,
+			"count": 1,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1057": {
+			"id": 1057,
+			"title": "Дроп 11,15 уровень",
+			"drop": {
+				"1": {
+					"probability": 100,
+					"type": "2",
+					"count": 60,
+					"item": "835"
+				},
+				"2": {
+					"probability": 1,
+					"type": "2",
+					"count": 2,
+					"item": "626"
+				},
+				"3": {
+					"probability": 1,
+					"type": "2",
+					"count": 2,
+					"item": "714"
+				},
+				"4": {
+					"probability": 1,
+					"type": "2",
+					"count": 1,
+					"item": "836"
+				},
+				"5": {
+					"probability": 1000,
+					"type": "2",
+					"count": 1,
+					"item": "822"
+				},
+				"6": {
+					"probability": 1,
+					"type": "1",
+					"count": 1,
+					"item": "163"
+				},
+				"7": {
+					"probability": 1,
+					"type": "1",
+					"count": 1,
+					"item": "167"
+				}
+			},
+			"allItems": false,
+			"count": 1
+		},
+		"1100": {
+			"id": 1100,
+			"title": "Дроп 25 уровень",
+			"drop": {
+				"1": {
+					"probability": 5000,
+					"type": "2",
+					"count": 1,
+					"item": "187"
+				},
+				"2": {
+					"probability": 150,
+					"type": "2",
+					"count": 3,
+					"item": "626"
+				},
+				"3": {
+					"probability": 100,
+					"type": "2",
+					"count": 2,
+					"item": "714"
+				},
+				"4": {
+					"probability": 100,
+					"type": "2",
+					"count": 1,
+					"item": "836"
+				},
+				"5": {
+					"probability": 2,
+					"type": "2",
+					"count": 5,
+					"item": "714"
+				},
+				"6": {
+					"probability": 2,
+					"type": "2",
+					"count": 1,
+					"item": "822"
+				},
+				"7": {
+					"probability": 2,
+					"type": "1",
+					"count": 1,
+					"item": "162"
+				},
+				"8": {
+					"probability": 2,
+					"type": "1",
+					"count": 1,
+					"item": "165"
+				},
+				"9": {
+					"probability": 2,
+					"type": "1",
+					"count": 1,
+					"item": "186"
+				},
+				"10": {
+					"probability": 2,
+					"type": "1",
+					"count": 1,
+					"item": "166"
+				}
+			},
+			"allItems": false,
+			"count": 1,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1101": {
+			"id": 1101,
+			"title": "Дроп_БОСС_42_Шергергори",
+			"drop": {
+				"1": {
+					"probability": 100,
+					"type": "1",
+					"count": 1,
+					"item": "1082"
+				},
+				"2": {
+					"probability": 100,
+					"type": "2",
+					"count": 1,
+					"item": "822"
+				},
+				"3": {
+					"probability": 100,
+					"type": "2",
+					"count": 500,
+					"item": "835"
+				},
+				"4": {
+					"probability": 100,
+					"type": "2",
+					"count": 7,
+					"item": "714"
+				},
+				"5": {
+					"probability": 100,
+					"type": "2",
+					"count": 5,
+					"item": "836"
+				}
+			},
+			"allItems": false,
+			"count": 1
+		},
+		"1102": {
+			"id": 1102,
+			"title": "Дроп_БОСС_37_Саламандра",
+			"drop": {
+				"1": {
+					"probability": 100,
+					"type": "1",
+					"count": 1,
+					"item": "1083"
+				},
+				"2": {
+					"probability": 100,
+					"type": "2",
+					"count": 1,
+					"item": "822"
+				},
+				"3": {
+					"probability": 100,
+					"type": "2",
+					"count": 400,
+					"item": "835"
+				},
+				"4": {
+					"probability": 100,
+					"type": "2",
+					"count": 6,
+					"item": "714"
+				},
+				"5": {
+					"probability": 100,
+					"type": "2",
+					"count": 4,
+					"item": "836"
+				}
+			},
+			"allItems": false,
+			"count": 1
+		},
+		"1199": {
+			"id": 1199,
+			"title": "Доп глава_Уна",
+			"drop": {
+				"1": {
+					"probability": 1,
+					"type": "1",
+					"count": 1,
+					"item": "1197"
+				}
+			},
+			"allItems": true,
+			"count": 0,
+			"minVersion": "1.2",
+			"maxVersion": null
+		},
+		"1230": {
+			"id": 1230,
+			"title": "Доп глава_Заброшенное кладбище_22",
+			"drop": {
+				"1": {
+					"probability": 1,
+					"type": "1",
+					"count": 1,
+					"item": "1852"
+				}
+			},
+			"allItems": true,
+			"count": 0,
+			"minVersion": "1.2",
+			"maxVersion": null
+		},
+		"1250": {
+			"id": 1250,
+			"title": "Дроп_БОСС_22_Старое кладбище",
+			"drop": {
+				"1": {
+					"probability": 100,
+					"type": "2",
+					"count": 6,
+					"item": "714"
+				},
+				"2": {
+					"probability": 100,
+					"type": "2",
+					"count": 1,
+					"item": "822"
+				},
+				"3": {
+					"probability": 100,
+					"type": "2",
+					"count": 10,
+					"item": "626"
+				},
+				"4": {
+					"probability": 100,
+					"type": "2",
+					"count": 5,
+					"item": "714"
+				},
+				"5": {
+					"probability": 100,
+					"type": "2",
+					"count": 3,
+					"item": "836"
+				}
+			},
+			"allItems": false,
+			"count": 1,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1252": {
+			"id": 1252,
+			"title": "Дроп_БОСС_31_Уна1",
+			"drop": {
+				"1": {
+					"probability": 100,
+					"type": "2",
+					"count": 5,
+					"item": "714"
+				},
+				"2": {
+					"probability": 100,
+					"type": "2",
+					"count": 1,
+					"item": "822"
+				},
+				"3": {
+					"probability": 100,
+					"type": "2",
+					"count": 400,
+					"item": "835"
+				},
+				"4": {
+					"probability": 100,
+					"type": "2",
+					"count": 6,
+					"item": "714"
+				},
+				"5": {
+					"probability": 100,
+					"type": "2",
+					"count": 4,
+					"item": "836"
+				}
+			},
+			"allItems": false,
+			"count": 1,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1253": {
+			"id": 1253,
+			"title": "Дроп_БОСС_34_Уна2",
+			"drop": {
+				"1": {
+					"probability": 100,
+					"type": "2",
+					"count": 5,
+					"item": "714"
+				},
+				"2": {
+					"probability": 100,
+					"type": "2",
+					"count": 1,
+					"item": "822"
+				},
+				"3": {
+					"probability": 100,
+					"type": "2",
+					"count": 400,
+					"item": "835"
+				},
+				"4": {
+					"probability": 100,
+					"type": "2",
+					"count": 6,
+					"item": "714"
+				},
+				"5": {
+					"probability": 100,
+					"type": "2",
+					"count": 4,
+					"item": "836"
+				}
+			},
+			"allItems": false,
+			"count": 1,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1254": {
+			"id": 1254,
+			"title": "Дроп_БОСС_38_Уна3",
+			"drop": {
+				"1": {
+					"probability": 100,
+					"type": "2",
+					"count": 6,
+					"item": "714"
+				},
+				"2": {
+					"probability": 100,
+					"type": "2",
+					"count": 1,
+					"item": "822"
+				},
+				"3": {
+					"probability": 100,
+					"type": "2",
+					"count": 500,
+					"item": "835"
+				},
+				"4": {
+					"probability": 100,
+					"type": "2",
+					"count": 7,
+					"item": "714"
+				},
+				"5": {
+					"probability": 100,
+					"type": "2",
+					"count": 5,
+					"item": "836"
+				}
+			},
+			"allItems": false,
+			"count": 1,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1255": {
+			"id": 1255,
+			"title": "Дроп_БОСС_41_Уна4",
+			"drop": {
+				"1": {
+					"probability": 100,
+					"type": "1",
+					"count": 6,
+					"item": "714"
+				},
+				"2": {
+					"probability": 100,
+					"type": "2",
+					"count": 1,
+					"item": "822"
+				},
+				"3": {
+					"probability": 100,
+					"type": "2",
+					"count": 500,
+					"item": "835"
+				},
+				"4": {
+					"probability": 100,
+					"type": "2",
+					"count": 7,
+					"item": "714"
+				},
+				"5": {
+					"probability": 100,
+					"type": "2",
+					"count": 5,
+					"item": "836"
+				}
+			},
+			"allItems": false,
+			"count": 1,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1256": {
+			"id": 1256,
+			"title": "Дроп_БОСС_46_Уна5",
+			"drop": {
+				"1": {
+					"probability": 100,
+					"type": "1",
+					"count": 6,
+					"item": "714"
+				},
+				"2": {
+					"probability": 100,
+					"type": "2",
+					"count": 1,
+					"item": "822"
+				},
+				"3": {
+					"probability": 100,
+					"type": "2",
+					"count": 700,
+					"item": "835"
+				},
+				"4": {
+					"probability": 100,
+					"type": "2",
+					"count": 7,
+					"item": "714"
+				},
+				"5": {
+					"probability": 100,
+					"type": "2",
+					"count": 5,
+					"item": "836"
+				}
+			},
+			"allItems": false,
+			"count": 1,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1257": {
+			"id": 1257,
+			"title": "Дроп_БОСС_49_Уна6",
+			"drop": {
+				"1": {
+					"probability": 100,
+					"type": "1",
+					"count": 6,
+					"item": "714"
+				},
+				"2": {
+					"probability": 100,
+					"type": "2",
+					"count": 1,
+					"item": "822"
+				},
+				"3": {
+					"probability": 100,
+					"type": "2",
+					"count": 800,
+					"item": "835"
+				},
+				"4": {
+					"probability": 100,
+					"type": "2",
+					"count": 7,
+					"item": "714"
+				},
+				"5": {
+					"probability": 100,
+					"type": "2",
+					"count": 5,
+					"item": "836"
+				}
+			},
+			"allItems": false,
+			"count": 1,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1258": {
+			"id": 1258,
+			"title": "Дроп_БОСС_53_Уна7",
+			"drop": {
+				"1": {
+					"probability": 100,
+					"type": "1",
+					"count": 10,
+					"item": "714"
+				},
+				"2": {
+					"probability": 100,
+					"type": "2",
+					"count": 1,
+					"item": "822"
+				},
+				"3": {
+					"probability": 100,
+					"type": "2",
+					"count": 1000,
+					"item": "835"
+				},
+				"4": {
+					"probability": 100,
+					"type": "2",
+					"count": 9,
+					"item": "714"
+				},
+				"5": {
+					"probability": 100,
+					"type": "2",
+					"count": 6,
+					"item": "836"
+				}
+			},
+			"allItems": false,
+			"count": 1,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1911": {
+			"id": 1911,
+			"title": "Дроп в Match3_2",
+			"drop": {
+				"1": {
+					"probability": 100,
+					"type": "2",
+					"count": 10,
+					"item": "835"
+				},
+				"2": {
+					"probability": 90,
+					"type": "2",
+					"count": 12,
+					"item": "835"
+				},
+				"3": {
+					"probability": 70,
+					"type": "2",
+					"count": 14,
+					"item": "835"
+				},
+				"4": {
+					"probability": 30,
+					"type": "2",
+					"count": 1,
+					"item": "1178"
+				},
+				"5": {
+					"probability": 10,
+					"type": "2",
+					"count": 2,
+					"item": "1178"
+				}
+			},
+			"allItems": false,
+			"count": 0,
+			"minVersion": "2.1",
+			"maxVersion": "2.1"
+		},
+		"1912": {
+			"id": 1912,
+			"title": "Дроп в Match3_2_первый ход",
+			"drop": {
+				"1": {
+					"probability": 100,
+					"type": "2",
+					"count": 8,
+					"item": "835"
+				}
+			},
+			"allItems": false,
+			"count": 0,
+			"minVersion": "2.1",
+			"maxVersion": "2.1"
+		},
+		"1913": {
+			"id": 1913,
+			"title": "Дроп в Match3_1",
+			"drop": {
+				"1": {
+					"probability": 200,
+					"type": "2",
+					"count": 2,
+					"item": "835"
+				},
+				"2": {
+					"probability": 100,
+					"type": "2",
+					"count": 3,
+					"item": "835"
+				},
+				"3": {
+					"probability": 70,
+					"type": "2",
+					"count": 4,
+					"item": "835"
+				},
+				"4": {
+					"probability": 50,
+					"type": "2",
+					"count": 5,
+					"item": "835"
+				}
+			},
+			"allItems": false,
+			"count": 0,
+			"minVersion": "2.1",
+			"maxVersion": "2.1"
+		},
+		"1914": {
+			"id": 1914,
+			"title": "Дроп в Match3_1_первый ход",
+			"drop": {
+				"1": {
+					"probability": 100,
+					"type": "2",
+					"count": 2,
+					"item": "835"
+				}
+			},
+			"allItems": false,
+			"count": 0,
+			"minVersion": "2.1",
+			"maxVersion": "2.1"
+		},
+		"1918": {
+			"id": 1918,
+			"title": "Доп глава_Нора топров_18",
+			"drop": {
+				"1": {
+					"probability": 1,
+					"type": "2",
+					"count": 2,
+					"item": "822"
+				}
+			},
+			"allItems": true,
+			"count": 1,
+			"minVersion": "2.1",
+			"maxVersion": null
+		},
+		"1930": {
+			"id": 1930,
+			"title": "Дроп_БОСС_18_Топр",
+			"drop": {
+				"1": {
+					"probability": 100,
+					"type": "1",
+					"count": 250,
+					"item": "835"
+				},
+				"2": {
+					"probability": 100,
+					"type": "2",
+					"count": 1,
+					"item": "822"
+				},
+				"3": {
+					"probability": 100,
+					"type": "2",
+					"count": 200,
+					"item": "835"
+				},
+				"4": {
+					"probability": 100,
+					"type": "2",
+					"count": 5,
+					"item": "714"
+				},
+				"5": {
+					"probability": 100,
+					"type": "2",
+					"count": 3,
+					"item": "836"
+				}
+			},
+			"allItems": false,
+			"count": 1,
+			"minVersion": "2.1",
+			"maxVersion": null
+		},
+		"1956": {
+			"id": 1956,
+			"title": "Дроп в Match3_3",
+			"drop": {
+				"1": {
+					"probability": 100,
+					"type": "2",
+					"count": 12,
+					"item": "835"
+				},
+				"2": {
+					"probability": 90,
+					"type": "2",
+					"count": 14,
+					"item": "835"
+				},
+				"3": {
+					"probability": 70,
+					"type": "2",
+					"count": 17,
+					"item": "835"
+				},
+				"4": {
+					"probability": 10,
+					"type": "2",
+					"count": 1,
+					"item": "836"
+				},
+				"5": {
+					"probability": 30,
+					"type": "2",
+					"count": 2,
+					"item": "1178"
+				},
+				"6": {
+					"probability": 10,
+					"type": "2",
+					"count": 3,
+					"item": "1178"
+				}
+			},
+			"allItems": false,
+			"count": 0,
+			"minVersion": "2.1",
+			"maxVersion": "2.1"
+		},
+		"1957": {
+			"id": 1957,
+			"title": "Дроп в Match3_3_первый ход",
+			"drop": {
+				"1": {
+					"probability": 100,
+					"type": "2",
+					"count": 10,
+					"item": "835"
+				}
+			},
+			"allItems": false,
+			"count": 0,
+			"minVersion": "2.1",
+			"maxVersion": "2.1"
+		},
+		"1958": {
+			"id": 1958,
+			"title": "Дроп в Match3_4",
+			"drop": {
+				"1": {
+					"probability": 100,
+					"type": "2",
+					"count": 14,
+					"item": "835"
+				},
+				"2": {
+					"probability": 90,
+					"type": "2",
+					"count": 17,
+					"item": "835"
+				},
+				"3": {
+					"probability": 70,
+					"type": "2",
+					"count": 20,
+					"item": "835"
+				},
+				"4": {
+					"probability": 10,
+					"type": "2",
+					"count": 1,
+					"item": "836"
+				},
+				"5": {
+					"probability": 10,
+					"type": "2",
+					"count": 1,
+					"item": "714"
+				},
+				"6": {
+					"probability": 30,
+					"type": "2",
+					"count": 2,
+					"item": "1178"
+				},
+				"7": {
+					"probability": 20,
+					"type": "2",
+					"count": 3,
+					"item": "1178"
+				},
+				"8": {
+					"probability": 10,
+					"type": "2",
+					"count": 4,
+					"item": "1178"
+				}
+			},
+			"allItems": false,
+			"count": 0,
+			"minVersion": "2.1",
+			"maxVersion": "2.1"
+		},
+		"1959": {
+			"id": 1959,
+			"title": "Дроп в Match3_4_первый ход",
+			"drop": {
+				"1": {
+					"probability": 100,
+					"type": "2",
+					"count": 12,
+					"item": "835"
+				}
+			},
+			"allItems": false,
+			"count": 0,
+			"minVersion": "2.1",
+			"maxVersion": "2.1"
+		},
+		"1960": {
+			"id": 1960,
+			"title": "Дроп в Match3_5",
+			"drop": {
+				"1": {
+					"probability": 100,
+					"type": "2",
+					"count": 20,
+					"item": "835"
+				},
+				"2": {
+					"probability": 90,
+					"type": "2",
+					"count": 25,
+					"item": "835"
+				},
+				"3": {
+					"probability": 70,
+					"type": "2",
+					"count": 30,
+					"item": "835"
+				},
+				"4": {
+					"probability": 10,
+					"type": "2",
+					"count": 1,
+					"item": "836"
+				},
+				"5": {
+					"probability": 10,
+					"type": "2",
+					"count": 1,
+					"item": "714"
+				},
+				"6": {
+					"probability": 30,
+					"type": "2",
+					"count": 2,
+					"item": "1178"
+				},
+				"7": {
+					"probability": 20,
+					"type": "2",
+					"count": 3,
+					"item": "1178"
+				},
+				"8": {
+					"probability": 10,
+					"type": "2",
+					"count": 4,
+					"item": "1178"
+				},
+				"9": {
+					"probability": 3,
+					"type": "2",
+					"count": 1,
+					"item": "822"
+				}
+			},
+			"allItems": false,
+			"count": 0,
+			"minVersion": "2.1",
+			"maxVersion": "2.1"
+		},
+		"1961": {
+			"id": 1961,
+			"title": "Дроп в Match3_5_первый ход",
+			"drop": {
+				"1": {
+					"probability": 100,
+					"type": "2",
+					"count": 17,
+					"item": "835"
+				}
+			},
+			"allItems": false,
+			"count": 0,
+			"minVersion": "2.1",
+			"maxVersion": "2.1"
+		}
+	}
+}

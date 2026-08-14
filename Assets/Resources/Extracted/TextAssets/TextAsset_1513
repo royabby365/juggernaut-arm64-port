@@ -1,0 +1,24 @@
+{
+	"sets": {
+		"1": {
+			"id": 147,
+			"title": "Szabrownik",
+			"setId": 1
+		},
+		"2": {
+			"id": 160,
+			"title": "Rębajło",
+			"setId": 2
+		},
+		"3": {
+			"id": 168,
+			"title": "Niszczyciel",
+			"setId": 3
+		},
+		"4": {
+			"id": 169,
+			"title": "Tyran",
+			"setId": 4
+		}
+	}
+}

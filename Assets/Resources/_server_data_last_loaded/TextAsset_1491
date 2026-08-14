@@ -1,0 +1,29 @@
+{
+	"colors": {
+		"27": {
+			"id": 27,
+			"title": "회색",
+			"code": "gray"
+		},
+		"28": {
+			"id": 28,
+			"title": "녹색",
+			"code": "green"
+		},
+		"29": {
+			"id": 29,
+			"title": "파란색",
+			"code": "blue"
+		},
+		"30": {
+			"id": 30,
+			"title": "보라색",
+			"code": "purple"
+		},
+		"31": {
+			"id": 31,
+			"title": "붉은색",
+			"code": "red"
+		}
+	}
+}

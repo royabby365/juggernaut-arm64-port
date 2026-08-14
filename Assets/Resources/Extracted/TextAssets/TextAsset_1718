@@ -1,0 +1,4148 @@
+////////////////////////////////////////////////////////////////////
+/// TEMP
+////////////////////////////////////////////////////////////////////
+
+$temp_point {
+ scenario(global_14feb_point_white);
+ scenario(global_14feb_point_blue);
+ scenario(global_14feb_point_pink);
+ scenario(global_14feb_point_red);
+}
+
+$temp_snow {
+ scenario(global_14feb_snow_white);
+ scenario(global_14feb_snow_blue);
+ scenario(global_14feb_snow_pink);
+ scenario(global_14feb_snow_red);
+}
+
+$temp_fire {
+ scenario(global_14feb_fire_white);
+ scenario(global_14feb_fire_blue);
+ scenario(global_14feb_fire_pink);
+ scenario(global_14feb_fire_red);
+}
+
+$temp_heart {
+ scenario(global_14feb_heart_white);
+ scenario(global_14feb_heart_blue);
+ scenario(global_14feb_heart_pink);
+ scenario(global_14feb_heart_red);
+}
+
+$pettest {
+ petplay(walk);
+ fx(sll1,fx_splashbig,pet); fxpos(sll1,0,-0.1,0,1);
+}
+
+////////////////////////////////////////////////////////////////////
+// ATTACKS
+////////////////////////////////////////////////////////////////////
+
+$fatality_fire_death {
+ scenario(ifx_magic_fireball_1);
+ play(magic_attack,35);
+ scenario(global_magic_fireball_prestart);
+ wait(0.75);
+ scenario(global_magic_fireball_start);
+ scenario(global_magic_fireball_fly);
+ wait(0.15);
+ scenario(global_magic_fireball_exp);
+ enemyscenario(global_react_death32);
+ wait(1.5);
+ light(1,1,0.3);
+}
+
+$fatality_ice_death {
+ scenario(ifx_magic_iceball_1);
+ play(magic_attack,35);
+ scenario(global_magic_iceball_prestart);
+ wait(0.75);
+ scenario(global_magic_iceball_start);
+ scenario(global_magic_iceball_fly);
+ wait(0.15);
+ scenario(global_magic_iceball_exp);
+ enemyscenario(global_react_death16);
+ wait(1.5);
+ light(1,1,0.3);
+}
+
+$fatality_light_death {
+ scenario(ifx_magic_lightball_1);
+ play(magic_attack,35);
+ scenario(global_magic_lightball_prestart);
+ wait(0.75);
+ scenario(global_magic_lightball_start);
+ scenario(global_magic_lightball_fly);
+ wait(0.15);
+ scenario(global_magic_lightball_exp);
+ enemyscenario(global_react_death8);
+ wait(1.5);
+ light(1,1,0.3);
+}
+
+$fatality_dark_death {
+ scenario(ifx_magic_darkball_1);
+ play(magic_attack,35);
+ scenario(global_magic_darkball_prestart);
+ wait(0.75);
+ scenario(global_magic_darkball_start);
+ scenario(global_magic_darkball_fly);
+ wait(0.15);
+ scenario(global_magic_darkball_exp);
+ enemyscenario(global_react_death4);
+ wait(1.5);
+ light(1,1,0.3);
+}
+
+$fatality_electro_death {
+ scenario(ifx_magic_electroball_1);
+ play(magic_attack,35);
+ scenario(global_magic_electroball_prestart);
+ wait(0.75);
+ scenario(global_magic_electroball_start);
+ scenario(global_magic_electroball_fly);
+ wait(0.15);
+ scenario(global_magic_electroball_exp);
+ enemyscenario(global_react_death128);
+ wait(1.5);
+ light(1,1,0.3);
+}
+
+$fatality_acid_death {
+ scenario(ifx_magic_acidball_1);
+ play(magic_attack,35);
+ scenario(global_magic_acidball_prestart);
+ wait(0.75);
+ scenario(global_magic_acidball_start);
+ scenario(global_magic_acidball_fly);
+ wait(0.15);
+ scenario(global_magic_acidball_exp);
+ enemyscenario(global_react_death64);
+ wait(1.5);
+ light(1,1,0.3);
+}
+
+//-----BERSERK-----//
+
+$berserk1 {
+ fxberserk(1);
+}
+
+$berserk2 {
+ fxberserk(2);
+}
+
+$berserk3 {
+ fxberserk(2);
+ scenario(global_snd_magic_baf_berserk);
+ scenario(global_berserk);
+ size(1.2,1);
+}
+
+//-----MAIN ATTACKS-----//
+
+$step_l {
+ scenario(ifx_step_l);
+ wait(0.7);
+ enemyscenario(ifx_step_l);
+}
+
+$step_r {
+ scenario(ifx_step_r);
+ wait(0.7);
+ enemyscenario(ifx_step_r);
+}
+
+$attack {
+ scenario(global_snd_attack);
+ #ifweapon(1);
+  #random(50, matk, 1);
+   play(foot_front,6);
+   scenario(global_smoke_little_legs);
+   react(f,1);
+   scenario(template_attack_splash_med);
+   scenario(global_smoke_small_legs);
+  random#;
+  #random(100, matk);
+   play(hand_front,5);
+   scenario(global_smoke_little_legs);
+   react(f,1);
+   scenario(template_attack_splash_small);
+   wait(0.1);
+   scenario(global_smoke_small_legs);
+  random#;
+ ifweapon#;
+
+ #ifweapon(0,1);
+  #random(30, ohatk, 1);
+   play(attack_uppercot,19);
+   scenario(global_smoke_little_legs);
+   react(u,1);
+   scenario(template_attack_splash_big);
+   scenario(global_smoke_small_legs);
+  random#;
+  #random(100, ohatk);
+   play(attack,17);
+   react(f,1);
+   scenario(template_attack_splash_med);
+   scenario(global_smoke_small_legs);
+  random#;
+ ifweapon#;
+
+ #ifweapon(0,0,1);
+  scenario(global_snd_attack_weapon);
+  #random(30, thatk, 1);
+   play(attack_uppercot,10);
+   scenario(global_smoke_little_legs);
+   react(u,1);
+   scenario(template_attack_splash_big);
+   scenario(global_smoke_small_legs);
+  random#;
+  #random(100, thatk);
+   play(attack,10);
+   react(f,1);
+   scenario(template_attack_splash_med);
+   scenario(global_smoke_small_legs);
+  random#;
+ ifweapon#;
+
+ #ifweapon(0,0,0,1);
+  #random(30, hatk, 1);
+   play(attack_uppercot,8);
+   scenario(global_smoke_little_legs);
+   react(u,1);
+   scenario(template_attack_splash_big);
+   scenario(global_smoke_small_legs);
+  random#;
+  #random(100, hatk);
+   play(attack,6);
+   react(f,1);
+   scenario(template_attack_splash_med);
+   scenario(global_smoke_small_legs);
+  random#;
+ ifweapon#;
+
+ #ifweapon(0,0,0,0,1);
+  #random(30, thatk, 1);
+   play(attack_uppercot,20);
+   scenario(global_smoke_little_legs);
+   react(u,1);
+   scenario(template_attack_splash_big);
+   scenario(global_smoke_small_legs);
+  random#;
+  #random(100, thatk);
+   play(attack,15);
+   react(f,1);
+   scenario(template_attack_splash_med);
+   scenario(global_smoke_small_legs);
+  random#;
+ ifweapon#;
+}
+
+$attack_left {
+ scenario(global_snd_attack_left);
+ #ifweapon(1);
+  #random(50, matk, 1);
+   sound(front_foot_m,0.5);
+   play(foot_left,9);
+   scenario(global_smoke_little_legs);
+   react(r,1);
+   scenario(template_attack_splash_med);
+   scenario(global_smoke_small_legs);
+  random#;
+  #random(100, matk);
+   sound(front_hand_m,0.8);
+   play(hand_left,19);
+   react(r,1);
+   scenario(template_attack_splash_small);
+   scenario(global_smoke_small_legs);
+  random#;
+ ifweapon#;
+
+ #ifweapon(0,1);
+  #random(20, atk, 1);
+   play(attack_force,17);
+   scenario(global_smoke_little_legs);
+   react(r,1);
+   scenario(template_attack_splash_big);
+   scenario(global_smoke_small_legs);
+   wait(1);
+   scenario(global_smoke_little_legs);
+  random#;
+  #random(100, atk);
+   play(attack_left,19);
+   react(r,1);
+   scenario(template_attack_splash_med);
+   scenario(global_smoke_small_legs);
+  random#;
+ ifweapon#;
+
+ #ifweapon(0,0,1);
+  play(attack_left,13);
+  react(r,1);
+  scenario(template_attack_splash_med);
+  scenario(global_smoke_small_legs);
+ ifweapon#;
+
+ #ifweapon(0,0,0,1);
+  play(attack_left,2);
+  react(r,1);
+  scenario(template_attack_splash_med);
+  scenario(global_smoke_small_legs);
+ ifweapon#;
+
+ #ifweapon(0,0,0,0,1);
+  play(attack_left,5);
+  react(r,1);
+  scenario(template_attack_splash_med);
+  scenario(global_smoke_small_legs);
+ ifweapon#;
+}
+
+$attack_right {
+ scenario(global_snd_attack_right);
+ #ifweapon(1);
+  #random(50, matk2, 1);
+   sound(front_foot_m,0.5);
+   play(foot_right,10);
+   scenario(global_smoke_little_legs);
+   react(l,1);
+   scenario(template_attack_splash_med);
+   scenario(global_smoke_small_legs);
+   wait(1.35);
+   scenario(global_smoke_little_legs);
+  random#;
+  #random(100, matk2);
+   sound(front_hand_m,0.5);
+   play(hand_right,7);
+   react(l,1);
+   scenario(template_attack_splash_small);
+   scenario(global_smoke_small_legs);
+   wait(1.15);
+   scenario(global_smoke_little_legs);
+  random#;
+ ifweapon#;
+
+ #ifweapon(0,1);
+  #random(50, atk, 1);
+   play(attack_right2,17);
+   react(l,1);
+   scenario(template_attack_splash_med);
+   scenario(global_smoke_small_legs);
+  random#;
+  #random(100, atk);
+   play(attack_right,16);
+   react(l,1);
+   scenario(template_attack_splash_med);
+   scenario(global_smoke_small_legs);
+  random#;
+ ifweapon#;
+ 
+ #ifweapon(0,0,1);
+  play(attack_right,20);
+  react(l,1);
+  scenario(template_attack_splash_med);
+  scenario(global_smoke_small_legs);
+ ifweapon#;
+
+ #ifweapon(0,0,0,1);
+  play(attack_right,1);
+  react(l,1);
+  scenario(template_attack_splash_med);
+  scenario(global_smoke_small_legs);
+ ifweapon#;
+
+ #ifweapon(0,0,0,0,1);
+  play(attack_right,15);
+  scenario(global_smoke_small_legs);
+  react(l,1);
+  scenario(template_attack_splash_med);
+  scenario(global_smoke_small_legs);
+ ifweapon#;
+}
+
+$attack_force {
+ scenario(global_snd_attack_force);
+  #ifweapon(0,1);
+   play(attack_force,17);
+   scenario(global_smoke_little_legs);
+   react(f,1);
+   scenario(template_attack_splash_big);
+   wait(0.1);
+   scenario(global_smoke_small_legs);
+   wait(0.9);
+   scenario(global_smoke_little_legs);
+  ifweapon#;
+
+  #ifweapon(0,0,1);
+   play(attack_force,10);
+   scenario(global_smoke_little_legs);
+   react(f,1);
+   scenario(template_attack_splash_big);
+   wait(0.1);
+   scenario(global_smoke_small_legs);
+   wait(0.9);
+   scenario(global_smoke_little_legs);
+  ifweapon#;
+
+  #ifweapon(0,0,0,1);
+   play(attack_force,6);
+   scenario(global_smoke_little_legs);
+   react(f,1);
+   scenario(template_attack_splash_big);
+   wait(0.1);
+   scenario(global_smoke_small_legs);
+   wait(0.9);
+   scenario(global_smoke_little_legs);
+  ifweapon#;
+
+  #ifweapon(0,0,0,0,1);
+   play(attack_force,15);
+   scenario(global_smoke_little_legs);
+   react(f,1);
+   scenario(template_attack_splash_big);
+   wait(0.1);
+   scenario(global_smoke_small_legs);
+   wait(0.9);
+   scenario(global_smoke_little_legs);
+  ifweapon#;
+}
+
+$attack_uppercot {
+ scenario(global_snd_attack_uppercut);
+ #ifweapon(0,1);
+  play(attack_uppercot,19);
+  scenario(global_smoke_little_legs);
+  react(u,1);
+  scenario(template_attack_splash_big);
+  scenario(global_smoke_small_legs);
+ ifweapon#;
+ 
+ #ifweapon(0,0,1);
+  play(attack_uppercot,10);
+  scenario(global_smoke_little_legs);
+  react(u,1);
+  scenario(template_attack_splash_big);
+  scenario(global_smoke_small_legs);
+ ifweapon#;
+
+ #ifweapon(0,0,0,1);
+  play(attack_uppercot,8);
+  scenario(global_smoke_little_legs);
+  react(u,1);
+  scenario(template_attack_splash_big);
+  scenario(global_smoke_small_legs);
+ ifweapon#;
+
+ #ifweapon(0,0,0,0,1);
+  play(attack_uppercot,20);
+  scenario(global_smoke_little_legs);
+  react(u,1);
+  scenario(template_attack_splash_big);
+  scenario(global_smoke_small_legs);
+ ifweapon#;
+}
+
+$attack_super {
+ scenario(global_snd_attack_super);
+ #ifweapon(1);
+  play(attack_super,30);
+  scenario(global_smoke_exp);
+  wait(0.1);
+  scenario(global_smoke_small_legs);
+  wait(0.1);
+  react(u,1);
+  scenario(template_attack_splash_big);
+  enemyscenario(global_smoke_exp);
+  wait(1.2);
+  scenario(global_smoke_small_legs);
+ ifweapon#;
+
+ #ifweapon(0,1);
+  play(attack_super,15);
+  scenario(global_smoke_small_legs);
+  wait(0.6);
+  react(u,1);
+  scenario(template_attack_splash_big);
+  enemyscenario(global_smoke_exp);
+  wait(0.4);
+  scenario(global_smoke_small_legs);
+ ifweapon#;
+ 
+ #ifweapon(0,0,1);
+  play(attack_super,10);
+  scenario(global_smoke_exp);
+  wait(0.6);
+  scenario(global_smoke_exp);
+  wait(0.8); 
+  scenario(global_smoke_exp);
+  wait(0.1);
+  scenario(global_smoke_little_legs);
+  react(u,1);
+  scenario(template_attack_splash_big);
+  scenario(global_smoke_small_legs);
+  enemyscenario(global_smoke_exp);
+ ifweapon#;
+   
+ #ifweapon(0,0,0,1);
+  play(attack_super,26);
+  scenario(global_smoke_exp);
+  wait(0.3);
+  scenario(global_smoke_exp);
+  wait(0.3); 
+  scenario(global_smoke_exp);
+  wait(0.5); 
+  scenario(global_smoke_little_legs);
+  react(u,1);
+  scenario(template_attack_splash_big);
+  scenario(global_smoke_small_legs);
+  enemyscenario(global_smoke_exp);
+ ifweapon#;
+ 
+ #ifweapon(0,0,0,0,1);
+  scenario(global_smoke_fly);
+  play(attack_super,20);
+  scenario(global_smoke_exp);
+  wait(0.3); 
+  scenario(global_smoke_fly);
+  wait(0.6); 
+  react(u,1);
+  scenario(template_attack_splash_big);
+  scenario(global_smoke_small_legs);
+  enemyscenario(global_smoke_exp);
+ ifweapon#;
+}
+
+////////////////////////////////////////////////////////////////////
+// FATALITY
+////////////////////////////////////////////////////////////////////
+
+===========
+
+$camera_vibration_test {
+ movecam(center,center,3,4,1,3,3);
+ wait(2);
+ vibration(4,4,-1);
+ wait(0.1);
+ vibration(4,4,-1);
+}
+
+===========
+
+$fatality1 {
+ #ifweapon(1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  play(hand_front,5);
+  scenario(global_smoke_little_legs);
+  wait(0.45);
+  scenario(global_fatality_meat_part_2);
+  vibration(4,4,-1);
+  wait(0.1);
+  scenario(global_smoke_small_leg_l);
+  scenario(global_camera_end);
+ ifweapon#;
+
+ #ifweapon(0,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  play(attack_force,20);
+  scenario(global_smoke_little_legs);
+  wait(0.4);
+  scenario(global_fatality_meat_part_2);
+  vibration(4,4,-1);
+  wait(0.1);
+  scenario(global_smoke_small_legs);
+  wait(0.9);
+  scenario(global_smoke_little_legs);
+  scenario(global_camera_end);
+ ifweapon#;
+
+ #ifweapon(0,0,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  play(attack_uppercot,15);
+  scenario(global_smoke_little_legs);
+  wait(0.4);
+  scenario(global_fatality_meat_part_2);
+  vibration(4,4,-1);
+  wait(0.1);
+  scenario(global_smoke_small_legs);
+  wait(0.9);
+  scenario(global_smoke_little_legs);
+  scenario(global_camera_end);
+ ifweapon#;
+
+ #ifweapon(0,0,0,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  play(attack_uppercot,10);
+  scenario(global_smoke_little_legs);
+  wait(0.4);
+  scenario(global_fatality_meat_part_2);
+  vibration(4,4,-1);
+  wait(0.1);
+  scenario(global_smoke_small_legs);
+  wait(0.9);
+  scenario(global_smoke_little_legs);
+  scenario(global_camera_end);
+ ifweapon#;
+
+ #ifweapon(0,0,0,0,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  play(attack_uppercot,20);
+  scenario(global_smoke_little_legs);
+  wait(0.4);
+  scenario(global_fatality_meat_part_2);
+  vibration(4,4,-1);
+  wait(0.1);
+  scenario(global_smoke_small_legs);
+  wait(0.9);
+  scenario(global_smoke_little_legs);
+  scenario(global_camera_end);
+ ifweapon#;
+enemyreactfx();
+}
+
+$fatality1_1 {
+ #ifweapon(1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  play(attack_super,40);
+  scenario(global_smoke_little_legs);
+  wait(0.45);
+  scenario(global_fatality_meat_part_2);
+  vibration(4,4,-1);
+  wait(0.1);
+  scenario(global_smoke_small_leg_l);
+  scenario(global_camera_end);
+ ifweapon#;
+
+ #ifweapon(0,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  play(attack_super,46);
+  scenario(global_smoke_little_legs);
+  wait(0.4);
+  scenario(global_fatality_meat_part_2);
+  vibration(4,4,-1);
+  wait(0.1);
+  scenario(global_smoke_small_legs);
+  wait(0.9);
+  scenario(global_smoke_little_legs);
+  scenario(global_camera_end);
+ ifweapon#;
+
+ #ifweapon(0,0,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  play(attack_super,60);
+  scenario(global_smoke_little_legs);
+  wait(0.4);
+  scenario(global_fatality_meat_part_2);
+  vibration(4,4,-1);
+  wait(0.1);
+  scenario(global_smoke_small_legs);
+  wait(0.9);
+  scenario(global_smoke_little_legs);
+  scenario(global_camera_end);
+ ifweapon#;
+
+ #ifweapon(0,0,0,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  play(attack_super,60);
+  scenario(global_smoke_little_legs);
+  wait(0.4);
+  scenario(global_fatality_meat_part_2);
+  vibration(4,4,-1);
+  wait(0.1);
+  scenario(global_smoke_small_legs);
+  wait(0.9);
+  scenario(global_smoke_little_legs);
+  scenario(global_camera_end);
+ ifweapon#;
+
+ #ifweapon(0,0,0,0,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  play(attack_super,50);
+  scenario(global_smoke_little_legs);
+  wait(0.4);
+  scenario(global_fatality_meat_part_2);
+  vibration(4,4,-1);
+  wait(0.1);
+  scenario(global_smoke_small_legs);
+  wait(0.9);
+  scenario(global_smoke_little_legs);
+  scenario(global_camera_end);
+ ifweapon#;
+enemyreactfx();
+}
+
+$fatality2 {
+ #ifweapon(1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  scenario(ifx_brutality_noweapon);
+  wait(2.9);
+  scenario(global_fatality_meat_part_2);
+  vibration(4,4,-1);
+  scenario(global_camera_end);
+ ifweapon#;
+
+ #ifweapon(0,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  scenario(ifx_brutality_1hweapon);
+  wait(3.5);
+  scenario(global_fatality_meat_part_2);
+  vibration(4,4,-1);
+  scenario(global_camera_end);
+ ifweapon#;
+ 
+ #ifweapon(0,0,1,1,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  scenario(ifx_brutality_2hweapon);
+  wait(3.3);
+  scenario(global_fatality_meat_part_2);
+  vibration(4,4,-1);
+  scenario(global_camera_end);
+ ifweapon#;
+enemyreactfx();
+}
+
+$fatality3 {
+ #ifweapon(1,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  scenario(global_fatality_energy_1_1);
+  wait(0.3);
+  scenario(global_fatality_energy_1_2);
+  scenario(global_fatality_energy_1);
+  scenario(global_fatality_energy_2);
+  play(magic_aoe);
+  wait(0.2);
+  enemyscenario(ifx_fatality_fly);
+  wait(1.3);
+  scenario(global_fatality_energy_3);
+  scenario(global_fatality_meat_part_2);
+  vibration(2,3,-1);
+  scenario(global_camera_end);
+ ifweapon#;
+
+ #ifweapon(0,0,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  scenario(global_fatality_energy_1_1);
+  wait(0.3);
+  play(magic_aoe);
+  wait(0.3);
+  scenario(global_fatality_energy_1);
+  scenario(global_fatality_energy_2);
+  wait(0.7);
+  enemyscenario(ifx_fatality_fly);
+  wait(1.3);
+  scenario(global_fatality_energy_3);
+  scenario(global_fatality_meat_part_2);
+  vibration(2,3,-1);
+  scenario(global_camera_end);
+ ifweapon#;
+
+ #ifweapon(0,0,0,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  scenario(global_fatality_energy_1_1);
+  wait(0.3);
+  play(magic_aoe);
+  wait(0.3);
+  scenario(global_fatality_energy_1);
+  scenario(global_fatality_energy_2);
+  wait(0.1);
+  enemyscenario(ifx_fatality_fly);
+  wait(1.3);
+  scenario(global_fatality_energy_3);
+  scenario(global_fatality_meat_part_2);
+  vibration(2,3,-1);
+  scenario(global_camera_end);
+ ifweapon#;
+
+ #ifweapon(0,0,0,0,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  scenario(global_fatality_energy_1_1);
+  wait(0.3);
+  play(magic_aoe);
+  wait(0.3);
+  scenario(global_fatality_energy_1);
+  scenario(global_fatality_energy_2);
+  wait(0.3);
+  enemyscenario(ifx_fatality_fly);
+  wait(1.3);
+  scenario(global_fatality_energy_3);
+  scenario(global_fatality_meat_part_2);
+  vibration(2,3,-1);
+  scenario(global_camera_end);
+ ifweapon#;
+enemyreactfx();
+}
+
+$fatality4 {
+ #ifweapon(1,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  enemyscenario(global_fatality_monsters_1);
+  wait(0.3);
+  playpart(magic_aoe,1,0,20);
+  playpart(magic_aoe,0.15,20,35);
+  playpart(magic_aoe,1,35,55);
+  scenario(global_fatality_meat_part_2);
+  enemyscenario(global_fatality_monsters_2);
+  vibration(2,3,-1);
+  playpart(magic_aoe,1,55,100);
+  scenario(global_camera_end);
+ ifweapon#;
+ 
+ #ifweapon(0,0,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  playpart(magic_aoe,1,0,30);
+  enemyscenario(global_fatality_monsters_1);
+  playpart(magic_aoe,1,30,60);
+  playpart(magic_aoe,0.05,60,70);
+  playpart(magic_aoe,1,70,85);
+  scenario(global_fatality_meat_part_2);
+  enemyscenario(global_fatality_monsters_2);
+  vibration(2,3,-1);
+  playpart(magic_aoe,1,85,200);
+  scenario(global_camera_end);
+ ifweapon#;
+
+ #ifweapon(0,0,0,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  playpart(magic_aoe,1,0,30);
+  enemyscenario(global_fatality_monsters_1);
+  playpart(magic_aoe,1,30,60);
+  playpart(magic_aoe,1,60,70);
+  scenario(global_fatality_meat_part_2);
+  enemyscenario(global_fatality_monsters_2);
+  playpart(magic_aoe,1,70,85);
+  vibration(2,3,-1);
+  playpart(magic_aoe,1,85,200);
+  scenario(global_camera_end);
+ ifweapon#;
+
+ #ifweapon(0,0,0,0,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  playpart(magic_aoe,1,0,30);
+  enemyscenario(global_fatality_monsters_1);
+  playpart(magic_aoe,0.5,30,60);
+  playpart(magic_aoe,0.2,60,70);
+  scenario(global_fatality_meat_part_2);
+  enemyscenario(global_fatality_monsters_2);
+  playpart(magic_aoe,1,70,85);
+  vibration(2,3,-1);
+  playpart(magic_aoe,1,85,200);
+  scenario(global_camera_end);
+ ifweapon#;
+enemyreactfx();
+}
+
+$fatality5 {
+ #ifweapon(1,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  scenario(global_fatality_size_1);
+  play(magic_aoe,15);
+  enemyscenario(ifx_fatality_damage);
+  enemyscenario(ifx_blood_fontan);
+  wait(0.35);
+  enemysize(0.3,1);
+  wait(0.7);
+  vibration(4,4,-1);
+  scenario(global_fatality_meat_part_2);
+  scenario(global_camera_end);
+ ifweapon#;
+
+ #ifweapon(0,0,1,0,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  scenario(global_fatality_size_1);
+  play(magic_aoe,30);
+  enemyscenario(ifx_fatality_damage);
+  enemyscenario(ifx_blood_fontan);
+  wait(0.35);
+  enemysize(0.3,1);
+  wait(0.7);
+  vibration(4,4,-1);
+  scenario(global_fatality_meat_part_2);
+  scenario(global_camera_end);
+ ifweapon#;
+
+ #ifweapon(0,0,0,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  scenario(global_fatality_size_1);
+  play(magic_aoe,17);
+  enemyscenario(ifx_fatality_damage);
+  enemyscenario(ifx_blood_fontan);
+  wait(0.35);
+  enemysize(0.3,1);
+  wait(0.7);
+  vibration(4,4,-1);
+  scenario(global_fatality_meat_part_2);
+  scenario(global_camera_end);
+ ifweapon#;
+enemyreactfx();
+}
+
+$fatality6 {
+ #ifweapon(1,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  scenario(global_fatality_size_1);
+  play(magic_aoe,15);
+  enemyscenario(ifx_fatality_damage);
+  enemyscenario(ifx_blood_fontan);
+  wait(0.35);
+  enemysize(1.8,1);
+  wait(0.7);
+  vibration(4,4,-1);
+  scenario(global_fatality_meat_part_2);
+  scenario(global_camera_end);
+ ifweapon#;
+
+ #ifweapon(0,0,1,0,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  scenario(global_fatality_size_1);
+  play(magic_aoe,30);
+  enemyscenario(ifx_fatality_damage);
+  enemyscenario(ifx_blood_fontan);
+  wait(0.35);
+  enemysize(1.8,1);
+  wait(0.7);
+  vibration(4,4,-1);
+  scenario(global_fatality_meat_part_2);
+  scenario(global_camera_end);
+ ifweapon#;
+
+ #ifweapon(0,0,0,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  scenario(global_fatality_size_1);
+  play(magic_aoe,17);
+  enemyscenario(ifx_fatality_damage);
+  enemyscenario(ifx_blood_fontan);
+  wait(0.35);
+  enemysize(1.8,1);
+  wait(0.7);
+  vibration(4,4,-1);
+  scenario(global_fatality_meat_part_2);
+  scenario(global_camera_end);
+ ifweapon#;
+enemyreactfx();
+}
+
+$fatality7 {
+ #ifweapon(1,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  scenario(global_fatality_pikes_prestart);
+  play(magic_attack,70);
+  scenario(global_fatality_pikes_start);
+  scenario(global_fatality_pikes_start_2);
+  enemyscenario(global_fatality_pikes);
+  enemyscenario(global_fatality_pikes_smoke);
+  enemyplay(damage);
+  wait(0.1);
+  vibration(4,4,-1);
+  scenario(global_fatality_meat_part_2);
+  wait(0.7);
+  enemyscenario(global_fatality_pikes_smoke);
+  scenario(global_camera_end);
+ ifweapon#;
+ 
+ #ifweapon(0,0,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  scenario(global_fatality_pikes_prestart);
+  play(magic_attack,60);
+  scenario(global_fatality_pikes_start);
+  scenario(global_fatality_pikes_start_2);
+  enemyscenario(global_fatality_pikes);
+  enemyscenario(global_fatality_pikes_smoke);
+  enemyplay(damage);
+  wait(0.1);
+  vibration(4,4,-1);
+  scenario(global_fatality_meat_part_2);
+  wait(0.7);
+  enemyscenario(global_fatality_pikes_smoke);
+  scenario(global_camera_end);
+ ifweapon#;
+ 
+ #ifweapon(0,0,0,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  scenario(global_fatality_pikes_prestart);
+  play(magic_attack,53);
+  scenario(global_fatality_pikes_start);
+  scenario(global_fatality_pikes_start_2);
+  enemyscenario(global_fatality_pikes);
+  enemyscenario(global_fatality_pikes_smoke);
+  enemyplay(damage);
+  wait(0.1);
+  vibration(4,4,-1);
+  scenario(global_fatality_meat_part_2);
+  wait(0.7);
+  enemyscenario(global_fatality_pikes_smoke);
+  scenario(global_camera_end);
+ ifweapon#;
+ 
+ #ifweapon(0,0,0,0,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  scenario(global_fatality_pikes_prestart);
+  play(magic_attack,65);
+  scenario(global_fatality_pikes_start);
+  scenario(global_fatality_pikes_start_2);
+  enemyscenario(global_fatality_pikes);
+  enemyscenario(global_fatality_pikes_smoke);
+  enemyplay(damage);
+  wait(0.1);
+  vibration(4,4,-1);
+  scenario(global_fatality_meat_part_2);
+  wait(0.7);
+  enemyscenario(global_fatality_pikes_smoke);
+  scenario(global_camera_end);
+ ifweapon#;
+enemyreactfx();
+}
+
+$fatality8 {
+ #ifweapon(1,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  scenario(global_fatality_tuman_tuman_2);
+  enemyscenario(global_fatality_tuman_enemy);
+  scenario(global_fatality_tuman_prestart);
+  play(magic_aoe,60);
+  scenario(global_fatality_tuman_monsters);
+  wait(1);
+  enemyscenario(global_fatality_tuman_monsters_attack);
+  enemyscenario(ifx_fatality_down_blood);
+  wait(1.5);
+  vibration(4,4,-1);
+  scenario(global_fatality_meat_part_2);
+  scenario(global_camera_end);
+ ifweapon#;
+ 
+ #ifweapon(0,0,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  scenario(global_fatality_tuman_tuman_2);
+  enemyscenario(global_fatality_tuman_enemy);
+  scenario(global_fatality_tuman_prestart);
+  play(magic_aoe,67);
+  scenario(global_fatality_tuman_monsters);
+  wait(1);
+  enemyscenario(global_fatality_tuman_monsters_attack);
+  enemyscenario(ifx_fatality_down_blood);
+  wait(1.5);
+  vibration(4,4,-1);
+  scenario(global_fatality_meat_part_2);
+  scenario(global_camera_end);
+ ifweapon#;
+ 
+ #ifweapon(0,0,0,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  scenario(global_fatality_tuman_tuman_2);
+  enemyscenario(global_fatality_tuman_enemy);
+  scenario(global_fatality_tuman_prestart);
+  play(magic_aoe,55);
+  scenario(global_fatality_tuman_monsters);
+  wait(1);
+  enemyscenario(global_fatality_tuman_monsters_attack);
+  enemyscenario(ifx_fatality_down_blood);
+  wait(1.5);
+  vibration(4,4,-1);
+  scenario(global_fatality_meat_part_2);
+  scenario(global_camera_end);
+ ifweapon#;
+ 
+ #ifweapon(0,0,0,0,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  scenario(global_fatality_tuman_tuman_2);
+  enemyscenario(global_fatality_tuman_enemy);
+  scenario(global_fatality_tuman_prestart);
+  play(magic_aoe,70);
+  scenario(global_fatality_tuman_monsters);
+  wait(1);
+  enemyscenario(global_fatality_tuman_monsters_attack);
+  enemyscenario(ifx_fatality_down_blood);
+  wait(1.5);
+  vibration(4,4,-1);
+  scenario(global_fatality_meat_part_2);
+  scenario(global_camera_end);
+ ifweapon#;
+enemyreactfx();
+}
+
+$fatality9 {
+ #ifweapon(1,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  scenario(global_fatality_chains_prestart);
+  play(magic_aoe,55);
+  scenario(global_fatality_chains_start);
+  wait(0.1);
+  enemyscenario(global_fatality_chains);
+  enemyscenario(ifx_fatality_damage);
+  wait(0.9);
+  vibration(4,4,-1);
+  scenario(global_fatality_meat_part_2);
+  scenario(global_camera_end);
+ ifweapon#;
+
+#ifweapon(0,0,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  scenario(global_fatality_chains_prestart);
+  play(magic_aoe,62);
+  scenario(global_fatality_chains_start);
+  wait(0.1);
+  enemyscenario(global_fatality_chains);
+  enemyscenario(ifx_fatality_damage);
+  wait(0.9);
+  vibration(4,4,-1);
+  scenario(global_fatality_meat_part_2);
+  scenario(global_camera_end);
+ ifweapon#;
+ 
+ #ifweapon(0,0,0,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  scenario(global_fatality_chains_prestart);
+  play(magic_aoe,50);
+  scenario(global_fatality_chains_start);
+  wait(0.1);
+  enemyscenario(global_fatality_chains);
+  enemyscenario(ifx_fatality_damage);
+  wait(0.9);
+  vibration(4,4,-1);
+  scenario(global_fatality_meat_part_2);
+  scenario(global_camera_end);
+ ifweapon#;
+ 
+ #ifweapon(0,0,0,0,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  scenario(global_fatality_chains_prestart);
+  play(magic_aoe,65);
+  scenario(global_fatality_chains_start);
+  wait(0.1);
+  enemyscenario(global_fatality_chains);
+  enemyscenario(ifx_fatality_damage);
+  wait(0.9);
+  vibration(4,4,-1);
+  scenario(global_fatality_meat_part_2);
+  scenario(global_camera_end);
+ ifweapon#;
+enemyreactfx();
+}
+
+$fatality10 {
+ #ifweapon(1,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  scenario(global_fatality_pikes_prestart);
+  play(magic_attack,50);
+  scenario(global_fatality_arrows_fly);
+  wait(0.1);
+  enemyscenario(ifx_fatality_damage);
+  wait(1.2);
+  vibration(4,4,-1);
+  scenario(global_fatality_meat_part_2);
+  scenario(global_camera_end);
+ ifweapon#;
+
+#ifweapon(0,0,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  scenario(global_fatality_pikes_prestart);
+  play(magic_attack,45);
+  scenario(global_fatality_arrows_fly);
+  wait(0.1);
+  enemyscenario(ifx_fatality_damage);
+  wait(1.2);
+  vibration(4,4,-1);
+  scenario(global_fatality_meat_part_2);
+  scenario(global_camera_end);
+ ifweapon#;
+ 
+ #ifweapon(0,0,0,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  scenario(global_fatality_pikes_prestart);
+  play(magic_attack,45);
+  scenario(global_fatality_arrows_fly);
+  wait(0.1);
+  enemyscenario(ifx_fatality_damage);
+  wait(1.2);
+  vibration(4,4,-1);
+  scenario(global_fatality_meat_part_2);
+  scenario(global_camera_end);
+ ifweapon#;
+ 
+ #ifweapon(0,0,0,0,1);
+  scenario(global_fatality_meat_part_1_red);
+  wait(1);
+  scenario(global_camera);
+  wait(1);
+  scenario(global_fatality_pikes_prestart);
+  play(magic_attack,40);
+  scenario(global_fatality_arrows_fly);
+  wait(0.1);
+  enemyscenario(ifx_fatality_damage);
+  wait(1.2);
+  vibration(4,4,-1);
+  scenario(global_fatality_meat_part_2);
+  scenario(global_camera_end);
+ ifweapon#;
+enemyreactfx();
+}
+
+////////////////////////////////////////////////////////////////////
+// PLAYER MAGIC
+////////////////////////////////////////////////////////////////////
+
+//-----DOT-----//
+
+$magic_dot_fire {
+ #ifweapon(1,1);
+  scenario(ifx_aoe_fire_1);
+  play(magic_aoe,22);
+  scenario(global_magic_dot_fire_cast);
+  wait(0.35);
+  enemyscenario(global_magic_dot_fire_buff);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  scenario(ifx_aoe_fire_1);
+  play(magic_aoe,38);
+  scenario(global_magic_dot_fire_cast);
+  wait(0.35);
+  enemyscenario(global_magic_dot_fire_buff);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  scenario(ifx_aoe_fire_1);
+  play(magic_aoe,25);
+  scenario(global_magic_dot_fire_cast);
+  wait(0.35);
+  enemyscenario(global_magic_dot_fire_buff);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  scenario(ifx_aoe_fire_1);
+  play(magic_aoe,35);
+  scenario(global_magic_dot_fire_cast);
+  wait(0.35);
+  enemyscenario(global_magic_dot_fire_buff);
+ ifweapon#;
+}
+
+$magic_dot_fire_cast {
+ #ifweapon(1,1);
+  scenario(ifx_aoe_fire_1);
+  play(magic_aoe,22);
+  scenario(global_magic_dot_fire_cast);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  scenario(ifx_aoe_fire_1);
+  play(magic_aoe,38);
+  scenario(global_magic_dot_fire_cast);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  scenario(ifx_aoe_fire_1);
+  play(magic_aoe,25);
+  scenario(global_magic_dot_fire_cast);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  scenario(ifx_aoe_fire_1);
+  play(magic_aoe,35);
+  scenario(global_magic_dot_fire_cast);
+ ifweapon#;
+}
+
+$magic_dot_ice {
+ #ifweapon(1,1);
+  scenario(ifx_aoe_ice_1);
+  play(magic_aoe,22);
+  scenario(global_magic_dot_ice_cast);
+  wait(0.35);
+  enemyscenario(global_magic_dot_ice_buff);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  scenario(ifx_aoe_ice_1);
+  play(magic_aoe,38);
+  scenario(global_magic_dot_ice_cast);
+  wait(0.35);
+  enemyscenario(global_magic_dot_ice_buff);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  scenario(ifx_aoe_ice_1);
+  play(magic_aoe,25);
+  scenario(global_magic_dot_ice_cast);
+  wait(0.35);
+  enemyscenario(global_magic_dot_ice_buff);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  scenario(ifx_aoe_ice_1);
+  play(magic_aoe,35);
+  scenario(global_magic_dot_ice_cast);
+  wait(0.35);
+  enemyscenario(global_magic_dot_ice_buff);
+ ifweapon#;
+}
+
+$magic_dot_ice_cast {
+ #ifweapon(1,1);
+  scenario(ifx_aoe_ice_1);
+  play(magic_aoe,22);
+  scenario(global_magic_dot_ice_cast);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  scenario(ifx_aoe_ice_1);
+  play(magic_aoe,38);
+  scenario(global_magic_dot_ice_cast);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  scenario(ifx_aoe_ice_1);
+  play(magic_aoe,25);
+  scenario(global_magic_dot_ice_cast);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  scenario(ifx_aoe_ice_1);
+  play(magic_aoe,35);
+  scenario(global_magic_dot_ice_cast);
+ ifweapon#;
+}
+
+$magic_dot_light {
+ #ifweapon(1,1);
+  scenario(ifx_aoe_light_1);
+  play(magic_aoe,22);
+  scenario(global_magic_dot_light_cast);
+  wait(0.35);
+  enemyscenario(global_magic_dot_light_buff);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  scenario(ifx_aoe_light_1);
+  play(magic_aoe,38);
+  scenario(global_magic_dot_light_cast);
+  wait(0.35);
+  enemyscenario(global_magic_dot_light_buff);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  scenario(ifx_aoe_light_1);
+  play(magic_aoe,25);
+  scenario(global_magic_dot_light_cast);
+  wait(0.35);
+  enemyscenario(global_magic_dot_light_buff);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  scenario(ifx_aoe_light_1);
+  play(magic_aoe,35);
+  scenario(global_magic_dot_light_cast);
+  wait(0.35);
+  enemyscenario(global_magic_dot_light_buff);
+ ifweapon#;
+}
+
+$magic_dot_light_cast {
+ #ifweapon(1,1);
+  scenario(ifx_aoe_light_1);
+  play(magic_aoe,22);
+  scenario(global_magic_dot_light_cast);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  scenario(ifx_aoe_light_1);
+  play(magic_aoe,38);
+  scenario(global_magic_dot_light_cast);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  scenario(ifx_aoe_light_1);
+  play(magic_aoe,25);
+  scenario(global_magic_dot_light_cast);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  scenario(ifx_aoe_light_1);
+  play(magic_aoe,35);
+  scenario(global_magic_dot_light_cast);
+ ifweapon#;
+}
+
+$magic_dot_dark {
+ #ifweapon(1,1);
+  scenario(ifx_aoe_dark_1);
+  play(magic_aoe,22);
+  scenario(global_magic_dot_dark_cast);
+  wait(0.35);
+  enemyscenario(global_magic_dot_dark_buff);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  scenario(ifx_aoe_dark_1);
+  play(magic_aoe,38);
+  scenario(global_magic_dot_dark_cast);
+  wait(0.35);
+  enemyscenario(global_magic_dot_dark_buff);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  scenario(ifx_aoe_dark_1);
+  play(magic_aoe,25);
+  scenario(global_magic_dot_dark_cast);
+  wait(0.35);
+  enemyscenario(global_magic_dot_dark_buff);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  scenario(ifx_aoe_dark_1);
+  play(magic_aoe,35);
+  scenario(global_magic_dot_dark_cast);
+  wait(0.35);
+  enemyscenario(global_magic_dot_dark_buff);
+ ifweapon#;
+}
+
+$magic_dot_dark_cast {
+ #ifweapon(1,1);
+  scenario(ifx_aoe_dark_1);
+  play(magic_aoe,22);
+  scenario(global_magic_dot_dark_cast);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  scenario(ifx_aoe_dark_1);
+  play(magic_aoe,38);
+  scenario(global_magic_dot_dark_cast);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  scenario(ifx_aoe_dark_1);
+  play(magic_aoe,25);
+  scenario(global_magic_dot_dark_cast);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  scenario(ifx_aoe_dark_1);
+  play(magic_aoe,35);
+  scenario(global_magic_dot_dark_cast);
+ ifweapon#;
+}
+
+$magic_dot_electro {
+ #ifweapon(1,1);
+  scenario(ifx_aoe_electro_1);
+  play(magic_aoe,22);
+  scenario(global_magic_dot_electro_cast);
+  wait(0.35);
+  enemyscenario(global_magic_dot_electro_buff);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  scenario(ifx_aoe_electro_1);
+  play(magic_aoe,38);
+  scenario(global_magic_dot_electro_cast);
+  wait(0.35);
+  enemyscenario(global_magic_dot_electro_buff);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  scenario(ifx_aoe_electro_1);
+  play(magic_aoe,25);
+  scenario(global_magic_dot_electro_cast);
+  wait(0.35);
+  enemyscenario(global_magic_dot_electro_buff);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  scenario(ifx_aoe_electro_1);
+  play(magic_aoe,35);
+  scenario(global_magic_dot_electro_cast);
+  wait(0.35);
+  enemyscenario(global_magic_dot_electro_buff);
+ ifweapon#;
+}
+
+$magic_dot_electro_cast {
+ #ifweapon(1,1);
+  scenario(ifx_aoe_electro_1);
+  play(magic_aoe,22);
+  scenario(global_magic_dot_electro_cast);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  scenario(ifx_aoe_electro_1);
+  play(magic_aoe,38);
+  scenario(global_magic_dot_electro_cast);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  scenario(ifx_aoe_electro_1);
+  play(magic_aoe,25);
+  scenario(global_magic_dot_electro_cast);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  scenario(ifx_aoe_electro_1);
+  play(magic_aoe,35);
+  scenario(global_magic_dot_electro_cast);
+ ifweapon#;
+}
+
+$magic_dot_acid {
+ #ifweapon(1,1);
+  scenario(ifx_aoe_acid_1);
+  play(magic_aoe,22);
+  scenario(global_magic_dot_acid_cast);
+  wait(0.35);
+  enemyscenario(global_magic_dot_acid_buff);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  scenario(ifx_aoe_acid_1);
+  play(magic_aoe,38);
+  scenario(global_magic_dot_acid_cast);
+  wait(0.35);
+  enemyscenario(global_magic_dot_acid_buff);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  scenario(ifx_aoe_acid_1);
+  play(magic_aoe,25);
+  scenario(global_magic_dot_acid_cast);
+  wait(0.35);
+  enemyscenario(global_magic_dot_acid_buff);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  scenario(ifx_aoe_acid_1);
+  play(magic_aoe,35);
+  scenario(global_magic_dot_acid_cast);
+  wait(0.35);
+  enemyscenario(global_magic_dot_acid_buff);
+ ifweapon#;
+}
+
+$magic_dot_acid_cast {
+ #ifweapon(1,1);
+  scenario(ifx_aoe_acid_1);
+  play(magic_aoe,22);
+  scenario(global_magic_dot_acid_cast);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  scenario(ifx_aoe_acid_1);
+  play(magic_aoe,38);
+  scenario(global_magic_dot_acid_cast);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  scenario(ifx_aoe_acid_1);
+  play(magic_aoe,25);
+  scenario(global_magic_dot_acid_cast);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  scenario(ifx_aoe_acid_1);
+  play(magic_aoe,35);
+  scenario(global_magic_dot_acid_cast);
+ ifweapon#;
+}
+
+//-----DIRECT-----//
+
+$magic_necroball_white {
+ #ifweapon(1,1);
+  scenario(ifx_magic_nb01_1);
+  play(magic_attack,40);
+  scenario(ifx_magic_nb01_2);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  scenario(ifx_magic_nb01_1);
+  play(magic_attack,32);
+  scenario(ifx_magic_nb01_2);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  scenario(ifx_magic_nb01_1);
+  play(magic_attack,29);
+  scenario(ifx_magic_nb01_2);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  scenario(ifx_magic_nb01_1);
+  play(magic_attack,37);
+  scenario(ifx_magic_nb01_2);
+ ifweapon#;
+}
+
+$magic_necroball_green {
+ #ifweapon(1,1);
+  scenario(ifx_magic_nb02_1);
+  play(magic_attack,40);
+  scenario(ifx_magic_nb02_2);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  scenario(ifx_magic_nb02_1);
+  play(magic_attack,32);
+  scenario(ifx_magic_nb02_2);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  scenario(ifx_magic_nb02_1);
+  play(magic_attack,29);
+  scenario(ifx_magic_nb02_2);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  scenario(ifx_magic_nb02_1);
+  play(magic_attack,37);
+  scenario(ifx_magic_nb02_2);
+ ifweapon#;
+}
+
+$magic_necroball_blue {
+ #ifweapon(1,1);
+  scenario(ifx_magic_nb03_1);
+  play(magic_attack,40);
+  scenario(ifx_magic_nb03_2);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  scenario(ifx_magic_nb03_1);
+  play(magic_attack,32);
+  scenario(ifx_magic_nb03_2);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  scenario(ifx_magic_nb03_1);
+  play(magic_attack,29);
+  scenario(ifx_magic_nb03_2);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  scenario(ifx_magic_nb03_1);
+  play(magic_attack,37);
+  scenario(ifx_magic_nb03_2);
+ ifweapon#;
+}
+
+$magic_necroball_purple {
+ #ifweapon(1,1);
+  scenario(ifx_magic_nb04_1);
+  play(magic_attack,40);
+  scenario(ifx_magic_nb04_2);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  scenario(ifx_magic_nb04_1);
+  play(magic_attack,32);
+  scenario(ifx_magic_nb04_2);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  scenario(ifx_magic_nb04_1);
+  play(magic_attack,29);
+  scenario(ifx_magic_nb04_2);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  scenario(ifx_magic_nb04_1);
+  play(magic_attack,37);
+  scenario(ifx_magic_nb04_2);
+ ifweapon#;
+}
+
+$magic_necroball_red {
+ #ifweapon(1,1);
+  scenario(ifx_magic_nb05_1);
+  play(magic_attack,40);
+  scenario(ifx_magic_nb05_2);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  scenario(ifx_magic_nb05_1);
+  play(magic_attack,32);
+  scenario(ifx_magic_nb05_2);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  scenario(ifx_magic_nb05_1);
+  play(magic_attack,29);
+  scenario(ifx_magic_nb05_2);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  scenario(ifx_magic_nb05_1);
+  play(magic_attack,37);
+  scenario(ifx_magic_nb05_2);
+ ifweapon#;
+}
+
+$magic_fireball {
+ #ifweapon(1,1);
+  scenario(ifx_magic_fireball_1);
+  play(magic_attack,40);
+  scenario(ifx_magic_fireball_2);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  scenario(ifx_magic_fireball_1);
+  play(magic_attack,33);
+  scenario(ifx_magic_fireball_2);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  scenario(ifx_magic_fireball_1);
+  play(magic_attack,31);
+  scenario(ifx_magic_fireball_2);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  scenario(ifx_magic_fireball_1);
+  play(magic_attack,37);
+  scenario(ifx_magic_fireball_2);
+ ifweapon#;
+}
+
+$magic_iceball {
+ #ifweapon(1,1);
+  scenario(ifx_magic_iceball_1);
+  play(magic_attack,40);
+  scenario(ifx_magic_iceball_2);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  scenario(ifx_magic_iceball_1);
+  play(magic_attack,33);
+  scenario(ifx_magic_iceball_2);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  scenario(ifx_magic_iceball_1);
+  play(magic_attack,31);
+  scenario(ifx_magic_iceball_2);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  scenario(ifx_magic_iceball_1);
+  play(magic_attack,37);
+  scenario(ifx_magic_iceball_2);
+ ifweapon#;
+}
+
+$magic_lightball {
+ #ifweapon(1,1);
+  scenario(ifx_magic_lightball_1);
+  play(magic_attack,40);
+  scenario(ifx_magic_lightball_2);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  scenario(ifx_magic_lightball_1);
+  play(magic_attack,33);
+  scenario(ifx_magic_lightball_2);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  scenario(ifx_magic_lightball_1);
+  play(magic_attack,31);
+  scenario(ifx_magic_lightball_2);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  scenario(ifx_magic_lightball_1);
+  play(magic_attack,37);
+  scenario(ifx_magic_lightball_2);
+ ifweapon#;
+}
+
+$magic_darkball {
+ #ifweapon(1,1);
+  scenario(ifx_magic_darkball_1);
+  play(magic_attack,40);
+  scenario(ifx_magic_darkball_2);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  scenario(ifx_magic_darkball_1);
+  play(magic_attack,33);
+  scenario(ifx_magic_darkball_2);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  scenario(ifx_magic_darkball_1);
+  play(magic_attack,31);
+  scenario(ifx_magic_darkball_2);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  scenario(ifx_magic_darkball_1);
+  play(magic_attack,37);
+  scenario(ifx_magic_darkball_2);
+ ifweapon#;
+}
+
+$magic_electroball {
+ #ifweapon(1,1);
+  scenario(ifx_magic_electroball_1);
+  play(magic_attack,42);
+  scenario(ifx_magic_electroball_2);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  scenario(ifx_magic_electroball_1);
+  play(magic_attack,35);
+  scenario(ifx_magic_electroball_2);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  scenario(ifx_magic_electroball_1);
+  play(magic_attack,32);
+  scenario(ifx_magic_electroball_2);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  scenario(ifx_magic_electroball_1);
+  play(magic_attack,40);
+  scenario(ifx_magic_electroball_2);
+ ifweapon#;
+}
+
+$magic_acidball {
+ #ifweapon(1,1);
+  scenario(ifx_magic_acidball_1);
+  play(magic_attack,40);
+  scenario(ifx_magic_acidball_2);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  scenario(ifx_magic_acidball_1);
+  play(magic_attack,33);
+  scenario(ifx_magic_acidball_2);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  scenario(ifx_magic_acidball_1);
+  play(magic_attack,31);
+  scenario(ifx_magic_acidball_2);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  scenario(ifx_magic_acidball_1);
+  play(magic_attack,37);
+  scenario(ifx_magic_acidball_2);
+ ifweapon#;
+}
+
+//-----AOE-----//
+
+$magic_aoe_fire {
+ #ifweapon(1,1);
+  scenario(ifx_aoe_fire_1);
+  play(magic_aoe,22);
+  scenario(ifx_aoe_fire_2);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  scenario(ifx_aoe_fire_1);
+  play(magic_aoe,38);
+  scenario(ifx_aoe_fire_2);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  scenario(ifx_aoe_fire_1);
+  play(magic_aoe,23);
+  scenario(ifx_aoe_fire_2);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  scenario(ifx_aoe_fire_1);
+  play(magic_aoe,33);
+  scenario(ifx_aoe_fire_2);
+ ifweapon#;
+}
+
+$magic_aoe_fire_cast {
+ #ifweapon(1,1);
+  scenario(ifx_aoe_fire_1);
+  play(magic_aoe,22);
+  scenario(ifx_aoe_fire_3);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  scenario(ifx_aoe_fire_1);
+  play(magic_aoe,38);
+  scenario(ifx_aoe_fire_3);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  scenario(ifx_aoe_fire_1);
+  play(magic_aoe,23);
+  scenario(ifx_aoe_fire_3);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  scenario(ifx_aoe_fire_1);
+  play(magic_aoe,33);
+  scenario(ifx_aoe_fire_3);
+ ifweapon#;
+}
+
+$magic_aoe_ice {
+ #ifweapon(1,1);
+  scenario(ifx_aoe_ice_1);
+  play(magic_aoe,22);
+  scenario(ifx_aoe_ice_2);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  scenario(ifx_aoe_ice_1);
+  play(magic_aoe,38);
+  scenario(ifx_aoe_ice_2);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  scenario(ifx_aoe_ice_1);
+  play(magic_aoe,23);
+  scenario(ifx_aoe_ice_2);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  scenario(ifx_aoe_ice_1);
+  play(magic_aoe,33);
+  scenario(ifx_aoe_ice_2);
+ ifweapon#;
+}
+
+$magic_aoe_ice_cast {
+ #ifweapon(1,1);
+  scenario(ifx_aoe_ice_1);
+  play(magic_aoe,22);
+  scenario(ifx_aoe_ice_3);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  scenario(ifx_aoe_ice_1);
+  play(magic_aoe,38);
+  scenario(ifx_aoe_ice_3);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  scenario(ifx_aoe_ice_1);
+  play(magic_aoe,23);
+  scenario(ifx_aoe_ice_3);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  scenario(ifx_aoe_ice_1);
+  play(magic_aoe,33);
+  scenario(ifx_aoe_ice_3);
+ ifweapon#;
+}
+
+$magic_aoe_light {
+ #ifweapon(1,1);
+  scenario(ifx_aoe_light_1);
+  play(magic_aoe,22);
+  scenario(ifx_aoe_light_2);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  scenario(ifx_aoe_light_1);
+  play(magic_aoe,38);
+  scenario(ifx_aoe_light_2);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  scenario(ifx_aoe_light_1);
+  play(magic_aoe,23);
+  scenario(ifx_aoe_light_2);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  scenario(ifx_aoe_light_1);
+  play(magic_aoe,33);
+  scenario(ifx_aoe_light_2);
+ ifweapon#;
+}
+
+$magic_aoe_light_cast {
+ #ifweapon(1,1);
+  scenario(ifx_aoe_light_1);
+  play(magic_aoe,22);
+  scenario(ifx_aoe_light_3);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  scenario(ifx_aoe_light_1);
+  play(magic_aoe,38);
+  scenario(ifx_aoe_light_3);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  scenario(ifx_aoe_light_1);
+  play(magic_aoe,23);
+  scenario(ifx_aoe_light_3);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  scenario(ifx_aoe_light_1);
+  play(magic_aoe,33);
+  scenario(ifx_aoe_light_3);
+ ifweapon#;
+}
+
+$magic_aoe_dark {
+ #ifweapon(1,1);
+  scenario(ifx_aoe_dark_1);
+  play(magic_aoe,22);
+  scenario(ifx_aoe_dark_2);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  scenario(ifx_aoe_dark_1);
+  play(magic_aoe,38);
+  scenario(ifx_aoe_dark_2);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  scenario(ifx_aoe_dark_1);
+  play(magic_aoe,23);
+  scenario(ifx_aoe_dark_2);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  scenario(ifx_aoe_dark_1);
+  play(magic_aoe,33);
+  scenario(ifx_aoe_dark_2);
+ ifweapon#;
+}
+
+$magic_aoe_dark_cast {
+ #ifweapon(1,1);
+  scenario(ifx_aoe_dark_1);
+  play(magic_aoe,22);
+  scenario(ifx_aoe_dark_3);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  scenario(ifx_aoe_dark_1);
+  play(magic_aoe,38);
+  scenario(ifx_aoe_dark_3);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  scenario(ifx_aoe_dark_1);
+  play(magic_aoe,23);
+  scenario(ifx_aoe_dark_3);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  scenario(ifx_aoe_dark_1);
+  play(magic_aoe,33);
+  scenario(ifx_aoe_dark_3);
+ ifweapon#;
+}
+
+$magic_aoe_electro {
+ #ifweapon(1,1);
+  scenario(ifx_aoe_electro_1);
+  play(magic_aoe,22);
+  scenario(ifx_aoe_electro_2);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  scenario(ifx_aoe_electro_1);
+  play(magic_aoe,38);
+  scenario(ifx_aoe_electro_2);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  scenario(ifx_aoe_electro_1);
+  play(magic_aoe,23);
+  scenario(ifx_aoe_electro_2);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  scenario(ifx_aoe_electro_1);
+  play(magic_aoe,33);
+  scenario(ifx_aoe_electro_2);
+ ifweapon#;
+}
+
+$magic_aoe_electro_cast {
+ #ifweapon(1,1);
+  scenario(ifx_aoe_electro_1);
+  play(magic_aoe,22);
+  scenario(ifx_aoe_electro_3);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  scenario(ifx_aoe_electro_1);
+  play(magic_aoe,38);
+  scenario(ifx_aoe_electro_3);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  scenario(ifx_aoe_electro_1);
+  play(magic_aoe,23);
+  scenario(ifx_aoe_electro_3);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  scenario(ifx_aoe_electro_1);
+  play(magic_aoe,33);
+  scenario(ifx_aoe_electro_3);
+ ifweapon#;
+}
+
+$magic_aoe_acid {
+ #ifweapon(1,1);
+  scenario(ifx_aoe_acid_1);
+  play(magic_aoe,22);
+  scenario(ifx_aoe_acid_2);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  scenario(ifx_aoe_acid_1);
+  play(magic_aoe,38);
+  scenario(ifx_aoe_acid_2);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  scenario(ifx_aoe_acid_1);
+  play(magic_aoe,23);
+  scenario(ifx_aoe_acid_2);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  scenario(ifx_aoe_acid_1);
+  play(magic_aoe,33);
+  scenario(ifx_aoe_acid_2);
+ ifweapon#;
+}
+
+$magic_aoe_acid_cast {
+ #ifweapon(1,1);
+  scenario(ifx_aoe_acid_1);
+  play(magic_aoe,22);
+  scenario(ifx_aoe_acid_3);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  scenario(ifx_aoe_acid_1);
+  play(magic_aoe,38);
+  scenario(ifx_aoe_acid_3);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  scenario(ifx_aoe_acid_1);
+  play(magic_aoe,23);
+  scenario(ifx_aoe_acid_3);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  scenario(ifx_aoe_acid_1);
+  play(magic_aoe,33);
+  scenario(ifx_aoe_acid_3);
+ ifweapon#;
+}
+
+//-----BAF ATTACK-----//
+
+$magic_baf_attack_fire {
+ light(0,1.5);
+  #ifweapon(0,0,1,1,1);
+   scenario(global_snd_magic_baf_fire);
+  ifweapon#;
+ scenario(global_magic_baf_fire_hand_1);
+ #ifweapon(1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,0,1);  play(magic_baf,15); ifweapon#;
+ #ifweapon(0,0,0,1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,0,0,0,1);  play(magic_baf,38); ifweapon#;
+  #ifweapon(1,1,0,0,0);
+   scenario(global_snd_magic_baf_fire);
+  ifweapon#;
+ scenario(global_magic_baf_fire_hand_2);
+ enemyscenario(global_magic_dot_fire_buff);
+ react(f,0);
+ wait(0.2);
+ enemyscenario(global_magic_dot_fire_start);
+ wait(1);
+ light(1,1,0.3);
+}
+
+$magic_baf_attack_ice {
+ light(0,1.5);
+  #ifweapon(0,0,1,1,1);
+   scenario(global_snd_magic_baf_ice);
+  ifweapon#;
+ scenario(global_magic_baf_ice_hand_1);
+ #ifweapon(1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,0,1);  play(magic_baf,15); ifweapon#;
+ #ifweapon(0,0,0,1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,0,0,0,1);  play(magic_baf,38); ifweapon#;
+  #ifweapon(1,1,0,0,0);
+   scenario(global_snd_magic_baf_ice);
+  ifweapon#;
+ scenario(global_magic_baf_ice_hand_2);
+ enemyscenario(global_magic_dot_ice_buff);
+ react(f,0);
+ wait(0.2);
+ enemyscenario(global_magic_dot_ice_start);
+ wait(1);
+ light(1,1,0.3);
+}
+
+$magic_baf_attack_dark {
+ light(0,1.5);
+  #ifweapon(0,0,1,1,1);
+   scenario(global_snd_magic_baf_dark);
+  ifweapon#;
+ scenario(global_magic_baf_dark_hand_1);
+ #ifweapon(1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,0,1);  play(magic_baf,15); ifweapon#;
+ #ifweapon(0,0,0,1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,0,0,0,1);  play(magic_baf,38); ifweapon#;
+  #ifweapon(1,1,0,0,0);
+   scenario(global_snd_magic_baf_dark);
+  ifweapon#;
+ scenario(global_magic_baf_dark_hand_2);
+ enemyscenario(global_magic_dot_dark_buff);
+ react(f,0);
+ wait(0.2);
+ enemyscenario(global_magic_dot_dark_start);
+ wait(1);
+ light(1,1,0.3);
+}
+
+$magic_baf_attack_electro {
+ light(0,1.5);
+  #ifweapon(0,0,1,1,1);
+   scenario(global_snd_magic_baf_electro);
+  ifweapon#;
+ scenario(global_magic_baf_electro_hand_1);
+ #ifweapon(1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,0,1);  play(magic_baf,15); ifweapon#;
+ #ifweapon(0,0,0,1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,0,0,0,1);  play(magic_baf,38); ifweapon#;
+  #ifweapon(1,1,0,0,0);
+   scenario(global_snd_magic_baf_electro);
+  ifweapon#;
+ scenario(global_magic_baf_electro_hand_2);
+ enemyscenario(global_magic_dot_electro_buff);
+ react(f,0);
+ wait(0.2);
+ enemyscenario(global_magic_dot_electro_start);
+ wait(1);
+ light(1,1,0.3);
+}
+
+//-----BAF-----//
+
+$magic_baf_fire {
+ light(0,1.5);
+  #ifweapon(0,0,1,1,1);
+   scenario(global_snd_magic_baf_fire);
+  ifweapon#;
+ scenario(global_magic_baf_fire_hand_1);
+ #ifweapon(1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,0,1);  play(magic_baf,15); ifweapon#;
+ #ifweapon(0,0,0,1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,0,0,0,1);  play(magic_baf,38); ifweapon#;
+  #ifweapon(1,1,0,0,0);
+   scenario(global_snd_magic_baf_fire);
+  ifweapon#;
+ scenario(global_magic_baf_fire_hand_2);
+ scenario(global_magic_baf_fire);
+ light(1,1,0.3);
+}
+
+$magic_baf_fire_cast {
+ light(0,1.5);
+  #ifweapon(0,0,1,1,1);
+   scenario(global_snd_magic_baf_fire);
+  ifweapon#;
+ scenario(global_magic_baf_fire_hand_1);
+ #ifweapon(1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,0,1);  play(magic_baf,15); ifweapon#;
+ #ifweapon(0,0,0,1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,0,0,0,1);  play(magic_baf,38); ifweapon#;
+  #ifweapon(1,1,0,0,0);
+   scenario(global_snd_magic_baf_fire);
+  ifweapon#;
+ scenario(global_magic_baf_fire_hand_2);
+ light(1,1,0.3);
+}
+
+$magic_baf_ice {
+ light(0,1.5);
+  #ifweapon(0,0,1,1,1);
+   scenario(global_snd_magic_baf_ice);
+  ifweapon#;
+ scenario(global_magic_baf_ice_hand_1);
+ #ifweapon(1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,0,1);  play(magic_baf,15); ifweapon#;
+ #ifweapon(0,0,0,1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,0,0,0,1);  play(magic_baf,38); ifweapon#;
+  #ifweapon(1,1,0,0,0);
+   scenario(global_snd_magic_baf_ice);
+  ifweapon#;
+ scenario(global_magic_baf_ice_hand_2);
+ scenario(global_magic_baf_ice);
+ light(1,1,0.3);
+}
+
+$magic_baf_ice_cast {
+ light(0,1.5);
+  #ifweapon(0,0,1,1,1);
+   scenario(global_snd_magic_baf_ice);
+  ifweapon#;
+ scenario(global_magic_baf_ice_hand_1);
+ #ifweapon(1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,0,1);  play(magic_baf,15); ifweapon#;
+ #ifweapon(0,0,0,1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,0,0,0,1);  play(magic_baf,38); ifweapon#;
+  #ifweapon(1,1,0,0,0);
+   scenario(global_snd_magic_baf_ice);
+  ifweapon#;
+ scenario(global_magic_baf_ice_hand_2);
+ light(1,1,0.3);
+}
+
+$magic_baf_light {
+ light(0,1.5);
+  #ifweapon(0,0,1,1,1);
+   scenario(global_snd_magic_baf_light);
+  ifweapon#;
+ scenario(global_magic_baf_light_hand_1);
+ #ifweapon(1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,0,1);  play(magic_baf,15); ifweapon#;
+ #ifweapon(0,0,0,1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,0,0,0,1);  play(magic_baf,38); ifweapon#;
+  #ifweapon(1,1,0,0,0);
+   scenario(global_snd_magic_baf_light);
+  ifweapon#;
+ scenario(global_magic_baf_light_hand_2);
+ scenario(global_magic_baf_light);
+ light(1,1,0.3);
+}
+
+$magic_baf_light_cast {
+ light(0,1.5);
+  #ifweapon(0,0,1,1,1);
+   scenario(global_snd_magic_baf_light);
+  ifweapon#;
+ scenario(global_magic_baf_light_hand_1);
+ #ifweapon(1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,0,1);  play(magic_baf,15); ifweapon#;
+ #ifweapon(0,0,0,1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,0,0,0,1);  play(magic_baf,38); ifweapon#;
+  #ifweapon(1,1,0,0,0);
+   scenario(global_snd_magic_baf_light);
+  ifweapon#;
+ scenario(global_magic_baf_light_hand_2);
+ light(1,1,0.3);
+}
+
+$magic_baf_dark {
+ light(0,1.5);
+  #ifweapon(0,0,1,1,1);
+   scenario(global_snd_magic_baf_dark);
+  ifweapon#;
+ scenario(global_magic_baf_dark_hand_1);
+ #ifweapon(1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,0,1);  play(magic_baf,15); ifweapon#;
+ #ifweapon(0,0,0,1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,0,0,0,1);  play(magic_baf,38); ifweapon#;
+  #ifweapon(1,1,0,0,0);
+   scenario(global_snd_magic_baf_dark);
+  ifweapon#;
+ scenario(global_magic_baf_dark_hand_2);
+ scenario(global_magic_baf_dark);
+ light(1,1,0.3);
+}
+
+$magic_baf_dark_cast {
+ light(0,1.5);
+  #ifweapon(0,0,1,1,1);
+   scenario(global_snd_magic_baf_dark);
+  ifweapon#;
+ scenario(global_magic_baf_dark_hand_1);
+ #ifweapon(1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,0,1);  play(magic_baf,15); ifweapon#;
+ #ifweapon(0,0,0,1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,0,0,0,1);  play(magic_baf,38); ifweapon#;
+  #ifweapon(1,1,0,0,0);
+   scenario(global_snd_magic_baf_dark);
+  ifweapon#;
+ scenario(global_magic_baf_dark_hand_2);
+ light(1,1,0.3);
+}
+
+$magic_baf_electro {
+ light(0,1.5);
+  #ifweapon(0,0,1,1,1);
+   scenario(global_snd_magic_baf_electro);
+  ifweapon#;
+ scenario(global_magic_baf_electro_hand_1);
+ #ifweapon(1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,0,1);  play(magic_baf,15); ifweapon#;
+ #ifweapon(0,0,0,1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,0,0,0,1);  play(magic_baf,38); ifweapon#;
+  #ifweapon(1,1,0,0,0);
+   scenario(global_snd_magic_baf_electro);
+  ifweapon#;
+ scenario(global_magic_baf_electro_hand_2);
+ scenario(global_magic_baf_electro);
+ light(1,1,0.3);
+}
+
+$magic_baf_electro_cast {
+ light(0,1.5);
+  #ifweapon(0,0,1,1,1);
+   scenario(global_snd_magic_baf_electro);
+  ifweapon#;
+ scenario(global_magic_baf_electro_hand_1);
+ #ifweapon(1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,0,1);  play(magic_baf,15); ifweapon#;
+ #ifweapon(0,0,0,1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,0,0,0,1);  play(magic_baf,38); ifweapon#;
+  #ifweapon(1,1,0,0,0);
+   scenario(global_snd_magic_baf_electro);
+  ifweapon#;
+ scenario(global_magic_baf_electro_hand_2);
+ light(1,1,0.3);
+}
+
+$magic_baf_acid {
+ light(0,1.5);
+  #ifweapon(0,0,1,1,1);
+   scenario(global_snd_magic_baf_acid);
+  ifweapon#;
+ scenario(global_magic_baf_acid_hand_1);
+ #ifweapon(1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,0,1);  play(magic_baf,15); ifweapon#;
+ #ifweapon(0,0,0,1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,0,0,0,1);  play(magic_baf,38); ifweapon#;
+  #ifweapon(1,1,0,0,0);
+   scenario(global_snd_magic_baf_acid);
+  ifweapon#;
+ scenario(global_magic_baf_acid_hand_2);
+ scenario(global_magic_baf_acid);
+ light(1,1,0.3);
+}
+
+$magic_baf_acid_cast {
+ light(0,1.5);
+  #ifweapon(0,0,1,1,1);
+   scenario(global_snd_magic_baf_acid);
+  ifweapon#;
+ scenario(global_magic_baf_acid_hand_1);
+ #ifweapon(1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,0,1);  play(magic_baf,15); ifweapon#;
+ #ifweapon(0,0,0,1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,0,0,0,1);  play(magic_baf,38); ifweapon#;
+  #ifweapon(1,1,0,0,0);
+   scenario(global_snd_magic_baf_acid);
+  ifweapon#;
+ scenario(global_magic_baf_acid_hand_2);
+ light(1,1,0.3);
+}
+
+$magic_baf_block {
+ light(0,1.5);
+ scenario(global_snd_baf_block);
+ scenario(global_magic_baf_block);
+ #ifweapon(1,1,0,1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,0,1);  play(magic_baf,15); ifweapon#;
+ #ifweapon(0,0,0,0,1);  play(magic_baf,38); ifweapon#;
+ scenario(global_magic_baf_block_buff);
+ light(1,1,0.3);
+}
+
+$magic_baf_block_cast {
+ light(0,1.5);
+ scenario(global_snd_baf_block);
+ scenario(global_magic_baf_block);
+ #ifweapon(1,1,0,1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,0,1);  play(magic_baf,15); ifweapon#;
+ #ifweapon(0,0,0,0,1);  play(magic_baf,38); ifweapon#;
+ light(1,1,0.3);
+}
+
+$magic_baf_stun {
+ light(0,1.5);
+ scenario(global_magic_baf_stun);
+ #ifweapon(1,1,0,1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,0,1);  play(magic_baf,15); ifweapon#;
+ #ifweapon(0,0,0,0,1);  play(magic_baf,38); ifweapon#;
+ enemyscenario(global_magic_baf_stun_buff);
+ light(1,1,0.3);
+}
+
+$magic_baf_stun_cast {
+ light(0,1.5);
+ scenario(global_magic_baf_stun);
+ #ifweapon(1,1,0,1);  play(magic_baf,35); ifweapon#;
+ #ifweapon(0,0,1);  play(magic_baf,15); ifweapon#;
+ #ifweapon(0,0,0,0,1);  play(magic_baf,38); ifweapon#;
+ light(1,1,0.3);
+}
+
+//-----BOTTLES-----//
+
+$botles_redirect {
+ play(magic_baf,37);
+ scenario(global_bottle_char_redirect);
+ wait(0.75);
+ scenario(global_bottle_char_redirect_fx);
+}
+
+$botles_redirect_cast {
+ play(magic_baf,37);
+ scenario(global_bottle_char_redirect);
+}
+
+$botles_dragon_grey {
+ scenario(global_dragon_grey);
+}
+
+$botles_dragon_green {
+ scenario(global_dragon_green);
+}
+
+$botles_dragon_blue {
+ scenario(global_dragon_blue);
+}
+
+$botles_dragon_purple {
+ scenario(global_dragon_purple);
+}
+
+$botles_dragon_red {
+ scenario(global_dragon_red);
+}
+
+$magic_backstab {
+ scenario(global_dist_magic_prestart);
+ play(magic_baf,30);
+ react(f,0);
+ wait(0.3);
+ scenario(global_dist_magic_start);
+ enemyscenario(global_dist_magic_damage_start);
+ wait(0.2);
+ enemyscenario(global_dist_magic_damage);
+ }
+
+$magic_backstab_cast {
+ scenario(global_dist_magic_prestart);
+ play(magic_baf,30);
+ wait(0.3);
+ scenario(global_dist_magic_start);
+}
+
+$botles_crit_grey {
+ scenario(global_bottle_char_crit_1);
+}
+
+$botles_crit_green {
+ scenario(global_bottle_char_crit_2);
+}
+
+$botles_crit_blue {
+ scenario(global_bottle_char_crit_3);
+}
+
+$botles_crit_purple {
+ scenario(global_bottle_char_crit_4);
+}
+
+$botles_crit_red {
+ scenario(global_bottle_char_crit_5);
+}
+
+$fury {
+ scenario(global_fury);
+}
+
+$botles_power_grey {
+ scenario(global_bottle_char_power_1);
+}
+
+$botles_power_green {
+ scenario(global_bottle_char_power_2);
+}
+
+$botles_power_blue {
+ scenario(global_bottle_char_power_3);
+}
+
+$botles_power_purple {
+ scenario(global_bottle_char_power_4);
+}
+
+$botles_power_red {
+ scenario(global_bottle_char_power_5);
+}
+
+$botles_debuff_fire {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_fire_fx);
+ wait(0.2);
+ enemyscenario(global_botles_debuff_fire_buff);
+}
+
+$botles_debuff_fire_cast {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_fire_fx);
+}
+
+$botles_debuff_ice {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_ice_fx);
+ wait(0.2);
+ enemyscenario(global_botles_debuff_ice_buff);
+}
+
+$botles_debuff_ice_cast {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_ice_fx);
+}
+
+$botles_debuff_light {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_light_fx);
+ wait(0.2);
+ enemyscenario(global_botles_debuff_light_buff);
+}
+
+$botles_debuff_light_cast {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_light_fx);
+}
+
+$botles_debuff_dark {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_dark_fx);
+ wait(0.2);
+ enemyscenario(global_botles_debuff_dark_buff);
+}
+
+$botles_debuff_dark_cast {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_dark_fx);
+}
+
+$botles_debuff_electro {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_electro_fx);
+ wait(0.2);
+ enemyscenario(global_botles_debuff_electro_buff);
+}
+
+$botles_debuff_electro_cast {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_electro_fx);
+}
+
+$botles_debuff_acid {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_acid_fx);
+ wait(0.2);
+ enemyscenario(global_botles_debuff_acid_buff);
+}
+
+$botles_debuff_acid_cast {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_acid_fx);
+}
+
+$botles_dispell {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_fx);
+ enemyscenario(global_botles_dispell_buff);
+}
+
+$botles_dispell_cast {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_fx);
+}
+
+$botles_dispell_fire {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_fire_fx);
+ enemyscenario(global_botles_dispell_fire_buff);
+}
+
+$botles_dispell_fire_cast {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_fire_fx);
+}
+
+$botles_dispell_ice {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_ice_fx);
+ enemyscenario(global_botles_dispell_ice_buff);
+}
+
+$botles_dispell_ice_cast {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_ice_fx);
+}
+
+$botles_dispell_light {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_light_fx);
+ enemyscenario(global_botles_dispell_light_buff);
+}
+
+$botles_dispell_light_cast {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_light_fx);
+}
+
+$botles_dispell_dark {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_dark_fx);
+ enemyscenario(global_botles_dispell_dark_buff);
+}
+
+$botles_dispell_dark_cast {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_dark_fx);
+}
+
+$botles_dispell_electro {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_electro_fx);
+ enemyscenario(global_botles_dispell_electro_buff);
+}
+
+$botles_dispell_electro_cast {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_electro_fx);
+}
+
+$botles_dispell_acid {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_acid_fx);
+ enemyscenario(global_botles_dispell_acid_buff);
+}
+
+$botles_dispell_acid_cast {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_acid_fx);
+}
+
+$botles_dispell_friend {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_fx);
+ scenario(global_botles_dispell_buff);
+}
+
+$botles_dispell_friend_cast {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_fx);
+}
+
+$botles_dispell_fire_friend {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_fire_fx);
+ scenario(global_botles_dispell_fire_buff);
+}
+
+$botles_dispell_fire_friend_cast {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_fire_fx);
+}
+
+$botles_dispell_ice_friend {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_ice_fx);
+ scenario(global_botles_dispell_ice_buff);
+}
+
+$botles_dispell_ice_friend_cast {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_ice_fx);
+}
+
+$botles_dispell_light_friend {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_light_fx);
+ scenario(global_botles_dispell_light_buff);
+}
+
+$botles_dispell_light_friend_cast {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_light_fx);
+}
+
+$botles_dispell_dark_friend {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_dark_fx);
+ scenario(global_botles_dispell_dark_buff);
+}
+
+$botles_dispell_dark_friend_cast {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_dark_fx);
+}
+
+$botles_dispell_electro_friend {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_electro_fx);
+ scenario(global_botles_dispell_electro_buff);
+}
+
+$botles_dispell_electro_friend_cast {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_electro_fx);
+}
+
+$botles_dispell_acid_friend {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_acid_fx);
+ scenario(global_botles_dispell_acid_buff);
+}
+
+$botles_dispell_acid_friend_cast {
+ play(magic_baf,37);
+ scenario(global_bottle_char_dis_acid_fx);
+}
+
+$botles_healself_grey {
+ scenario(global_bottle_icon_healself);
+ wait(0.7);
+ scenario(global_bottle_char_healself_1);
+ wait(0.3);
+ reactfx();
+}
+
+$botles_healself_green {
+ scenario(global_bottle_icon_healself);
+ wait(0.7);
+ scenario(global_bottle_char_healself_2);
+ wait(0.3);
+ reactfx();
+}
+
+$botles_healself_blue {
+ scenario(global_bottle_icon_healself);
+ wait(0.7);
+ scenario(global_bottle_char_healself_3);
+ wait(0.3);
+ reactfx();
+}
+
+$botles_healself_purple {
+ scenario(global_bottle_icon_healself);
+ wait(0.7);
+ scenario(global_bottle_char_healself_4);
+ wait(0.3);
+ reactfx();
+}
+
+$botles_healself_red {
+ scenario(global_bottle_icon_healself);
+ wait(0.7);
+ scenario(global_bottle_char_healself_5);
+ wait(0.3);
+ reactfx();
+}
+
+$botles_healfriend_grey {
+ play(magic_baf,37);
+ scenario(global_bottle_char_healfriend_baf_1);
+ scenario(global_bottle_icon_healfriend);
+ wait(0.7);
+ scenario(global_bottle_char_healfriend_1);
+ wait(0.3);
+ reactfx();
+}
+
+$botles_healfriend_grey_cast {
+ play(magic_baf,37);
+ scenario(global_bottle_char_healfriend_baf_1);
+}
+
+$botles_healfriend_green {
+ play(magic_baf,37);
+ scenario(global_bottle_char_healfriend_baf_2);
+ scenario(global_bottle_icon_healfriend);
+ wait(0.7);
+ scenario(global_bottle_char_healfriend_2);
+ wait(0.3);
+ reactfx();
+}
+
+$botles_healfriend_green_cast {
+ play(magic_baf,37);
+ scenario(global_bottle_char_healfriend_baf_2);
+}
+
+$botles_healfriend_blue {
+ play(magic_baf,37);
+ scenario(global_bottle_char_healfriend_baf_3);
+ scenario(global_bottle_icon_healfriend);
+ wait(0.7);
+ scenario(global_bottle_char_healfriend_3);
+ wait(0.3);
+ reactfx();
+}
+
+$botles_healfriend_blue_cast {
+ play(magic_baf,37);
+ scenario(global_bottle_char_healfriend_baf_3);
+}
+
+$botles_healfriend_purple {
+ play(magic_baf,37);
+ scenario(global_bottle_char_healfriend_baf_4);
+ scenario(global_bottle_icon_healfriend);
+ wait(0.7);
+ scenario(global_bottle_char_healfriend_4);
+ wait(0.3);
+ reactfx();
+}
+
+$botles_healfriend_purple_cast {
+ play(magic_baf,37);
+ scenario(global_bottle_char_healfriend_baf_4);
+}
+
+$botles_healfriend_red {
+ play(magic_baf,37);
+ scenario(global_bottle_char_healfriend_baf_5);
+ scenario(global_bottle_icon_healfriend);
+ wait(0.7);
+ scenario(global_bottle_char_healfriend_5);
+ wait(0.3);
+ reactfx();
+}
+
+$botles_healfriend_red_cast {
+ play(magic_baf,37);
+ scenario(global_bottle_char_healfriend_baf_5);
+}
+
+$botles_healthup {
+ scenario(global_bottle_icon_healthup);
+ wait(0.7);
+ scenario(global_bottle_char_healthup);
+ wait(0.3);
+ reactfx();
+}
+
+$botles_poison {
+ play(magic_baf,20);
+ scenario(global_bottle_hand_poison);
+ wait(0.2);
+ enemyscenario(global_bottle_icon_poison);
+ wait(0.7);
+ enemyscenario(global_bottle_char_poison);
+ wait(0.3);
+ reactfx();
+}
+
+$botles_poison_cast {
+ play(magic_baf,20);
+ scenario(global_bottle_hand_poison);
+}
+
+$botles_ressurect {
+ play(magic_baf,37);
+ scenario(global_bottle_char_res_fx);
+ wait(0.2);
+ scenario(global_bottle_icon_res);
+ wait(0.7);
+ scenario(global_bottle_char_res);
+ reactfx();
+}
+
+$botles_ressurect_cast {
+ play(magic_baf,37);
+ scenario(global_bottle_char_res_fx);
+}
+
+$botles_ressurect2 {
+ play(magic_baf,35);
+ scenario(global_bottle_char_res_fx);
+ wait(0.2);
+ enemyscenario(global_bottle_icon_res);
+ wait(0.7);
+ enemyscenario(global_bottle_char_res);
+ reactfx();
+}
+
+$botles_giant_grey {
+ scenario(global_bottle_icon_strenght_1);
+ wait(0.7);
+ scenario(global_bottle_char_strenght1);
+ reactfx();
+ wait(3);
+}
+
+$botles_giant_green {
+ scenario(global_bottle_icon_strenght_2);
+ wait(0.7);
+ scenario(global_bottle_char_strenght2);
+ reactfx();
+}
+
+$botles_giant_blue {
+ scenario(global_bottle_icon_strenght_3);
+ wait(0.7);
+ scenario(global_bottle_char_strenght3);
+ reactfx(); 
+}
+
+$botles_giant_purple {
+ scenario(global_bottle_icon_strenght_4);
+ wait(0.7);
+ scenario(global_bottle_char_strenght4);
+ reactfx(); 
+}
+
+$botles_giant_red {
+ scenario(global_bottle_icon_strenght_5);
+ wait(0.7);
+ scenario(global_bottle_char_strenght5);
+ reactfx(); 
+}
+
+$botles_strenght_grey {
+ scenario(global_bottle_char_strenght_01);
+}
+
+$botles_strenght_green {
+ scenario(global_bottle_char_strenght_02);
+}
+
+$botles_strenght_blue {
+ scenario(global_bottle_char_strenght_03);
+}
+
+$botles_strenght_purple {
+ scenario(global_bottle_char_strenght_04);
+}
+
+$botles_strenght_red {
+ scenario(global_bottle_char_strenght_05);
+}
+
+$botles_vampir {
+ scenario(global_bottle_icon_vampir);
+ wait(0.7);
+ scenario(global_bottle_char_vampir);
+ wait(0.3);
+ reactfx();
+}
+
+$botles_vampir_grey {
+ scenario(global_bottle_char_vampir_01);
+ reactfx(); 
+}
+
+$botles_vampir_green {
+ scenario(global_bottle_char_vampir_02);
+ reactfx(); 
+}
+
+$botles_vampir_blue {
+ scenario(global_bottle_char_vampir_03);
+ reactfx(); 
+}
+
+$botles_vampir_purple {
+ scenario(global_bottle_char_vampir_04);
+ reactfx(); 
+}
+
+$botles_vampir_red {
+ scenario(global_bottle_char_vampir_05);
+ reactfx();  
+}
+
+////////////////////////////////////////////////////////////////////
+// REACTIONS
+////////////////////////////////////////////////////////////////////
+
+$react_block {
+  wait(0.1);
+  scenario(global_snd_block);
+  reactfx();
+  play(block,20);
+  vibration(1,2,0);
+  scenario(global_react_block);
+}
+
+$react_dodge {
+  wait(0.1);
+  scenario(global_snd_dodge);
+  reactfx();
+  play(dodge);
+  scenario(global_dodge_trail);
+ #ifweapon(1,1); 
+  wait(0.3);
+  scenario(global_smoke_little_legs);
+  wait(1.1);
+  scenario(global_smoke_little_legs);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  wait(0.3);
+  scenario(global_smoke_little_legs);
+  wait(0.6);
+  scenario(global_smoke_little_legs);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  wait(0.5);
+  scenario(global_smoke_little_legs);
+  wait(0.6);
+  scenario(global_smoke_little_legs);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  wait(0.3);
+  scenario(global_smoke_little_legs);
+  wait(0.85);
+  scenario(global_smoke_little_legs);
+ ifweapon#;
+}
+
+$react_dmg {
+ wait(0.5);
+ scenario(global_snd_damage);
+ reactfx();
+ play(damage);
+}
+
+$react_dmgf {
+ wait(0.5);
+ scenario(global_snd_damage_force);
+ reactfx();
+ play(damage_force);
+ scenario(global_smoke_fly);
+ #ifweapon(1,1); 
+  wait(0.55);
+  vibration(1,2,0);
+  scenario(global_smoke_medium_torso);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  wait(0.55);
+  vibration(1,2,0);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  wait(0.1);
+  vibration(1,2,0);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  wait(0.3);
+  vibration(1,2,0);
+  scenario(global_smoke_medium_torso);
+  wait(2.5);
+  scenario(global_smoke_little_legs);
+ ifweapon#;
+}
+
+$react_dmgl {
+  wait(0.5);
+  scenario(global_snd_damage_force);
+  reactfx();
+  play(damage_force);
+  scenario(global_smoke_fly);
+  step(0,-1,0,3);
+ #ifweapon(1,1); 
+  wait(0.55);
+  vibration(1,2,0);
+  scenario(global_smoke_medium_torso);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  wait(0.55);
+  vibration(1,2,0);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  wait(0.55);
+  vibration(1,2,0);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  wait(0.3);
+  vibration(1,2,0);
+  scenario(global_smoke_medium_torso);
+  wait(2.5);
+  scenario(global_smoke_little_legs);
+ ifweapon#;
+ wait(1);
+ enemyscenario(ifx_step_r);
+}
+
+$react_dmgr {
+  wait(0.5);
+  scenario(global_snd_damage_force);
+  reactfx();
+  play(damage_force);
+  scenario(global_smoke_fly);
+  step(0,1,0,3);
+ #ifweapon(1,1);
+  wait(0.55);
+  vibration(1,2,0);
+  scenario(global_smoke_medium_torso);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  wait(0.55);
+  vibration(1,2,0);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  wait(0.55);
+  vibration(1,2,0);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  wait(0.3);
+  vibration(1,2,0);
+  scenario(global_smoke_medium_torso);
+  wait(2.5);
+  scenario(global_smoke_little_legs);
+ ifweapon#;
+ wait(1);
+ enemyscenario(ifx_step_l);
+}
+
+$react_dmgu {
+  wait(0.5);
+  scenario(global_snd_damage_force);
+  reactfx();
+  play(damage_uppercot);
+  scenario(global_smoke_fly);
+ #ifweapon(1,1);
+  wait(0.6);
+  vibration(1,2,0);
+  scenario(global_smoke_medium_torso);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  wait(0.9);
+  vibration(1,2,0);
+  scenario(global_smoke_medium_torso);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  wait(0.5);
+  vibration(1,2,0);
+  scenario(global_smoke_medium_torso);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  wait(0.6);
+  vibration(1,2,0);
+  scenario(global_smoke_medium_torso);
+  wait(2.6);
+  scenario(global_smoke_little_legs);
+ ifweapon#;
+}
+
+$react_death {
+  wait(0.5);
+  scenario(global_snd_death);
+  reactfx();
+  play(death);
+ #ifweapon(1,1);
+  wait(1.8);
+  scenario(global_smoke_medium_torso);
+  wait(0.1);
+  scenario(global_react_death);
+  fx(rd1,fx_dethfastpatno1,pos_spinecenter);    fxpos(rd1,0,-0.25,0,0);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  wait(2.4);
+  scenario(global_smoke_medium_torso);
+  wait(0.1);
+  scenario(global_react_death);
+  fx(rd1,fx_dethfastpatno1,pos_spinecenter);    fxpos(rd1,0,-0.25,0,0);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  wait(0.75);
+  scenario(global_smoke_medium_torso);
+  wait(0.1);
+  scenario(global_react_death);
+  fx(rd1,fx_dethfastpatno1,pos_spinecenter);    fxpos(rd1,0,-0.1,0,0);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  wait(1.3);
+  scenario(global_smoke_medium_torso);
+  wait(0.1);
+  scenario(global_react_death);
+  fx(rd1,fx_dethfastpatno1,pos_spinecenter);    fxpos(rd1,0,-0.1,0,0);
+ ifweapon#;
+}
+
+$react_deathf {
+  wait(0.5);
+  scenario(global_snd_death_force);
+  reactfx();
+  play(death_force);
+  scenario(global_smoke_fly);
+ #ifweapon(1,1);
+  wait(0.55);
+  vibration(1,2,0);
+  scenario(global_smoke_medium_torso);
+  wait(3.4);
+  scenario(global_react_death);
+  fx(rdf1,fx_dethfastpatno1,pos_spinecenter);    fxpos(rdf1,0,-0.15,0,0);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  wait(0.3);
+  vibration(1,2,0);
+  scenario(global_smoke_medium_torso);
+  wait(0.5);
+  scenario(global_react_death);
+  fx(rdf1,fx_dethfastpatno1,pos_spinecenter);    fxpos(rdf1,0,-0.1,0,0);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  wait(0.3);
+  vibration(1,2,0);
+  scenario(global_smoke_medium_torso);
+  wait(0.5);
+  scenario(global_react_death);
+  fx(rdf1,fx_dethfastpatno1,pos_spinecenter);    fxpos(rdf1,0,-0.1,0,0);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  wait(0.3);
+  vibration(1,2,0);
+  scenario(global_smoke_medium_torso);
+  wait(0.5);
+  scenario(global_react_death);
+  fx(rdf1,fx_dethfastpatno1,pos_spinecenter);    fxpos(rdf1,0,-0.1,0,0);
+ ifweapon#;
+}
+
+$react_deathl {scenario(react_deathf);}
+$react_deathr {scenario(react_deathf);}
+
+$react_deathu {
+  wait(0.5);
+  scenario(global_snd_death_force);
+  reactfx();
+  play(death_uppercot);
+  scenario(global_smoke_fly);
+ #ifweapon(1,1);
+  wait(0.6);
+  vibration(1,2,0);
+  scenario(global_smoke_medium_torso);
+  wait(0.5);
+  scenario(global_react_death);
+  fx(rdu1,fx_dethfastpatno1,pos_spinecenter);    fxpos(rdu1,0,-0.2,0,0);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  wait(0.6);
+  vibration(1,2,0);
+  scenario(global_smoke_medium_torso);
+  wait(0.4);
+  scenario(global_react_death);
+  fx(rdu1,fx_dethfastpatno1,pos_spinecenter);    fxpos(rdu1,0,-0.1,0,0);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  wait(0.6);
+  vibration(1,2,0);
+  scenario(global_smoke_medium_torso);
+  wait(0.4);
+  scenario(global_react_death);
+  fx(rdu1,fx_dethfastpatno1,pos_spinecenter);    fxpos(rdu1,0,-0.1,0,0);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  wait(0.6);
+  vibration(1,2,0);
+  scenario(global_smoke_medium_torso);
+  wait(0.4);
+  scenario(global_react_death);
+  fx(rdu1,fx_dethfastpatno1,pos_spinecenter);    fxpos(rdu1,0,-0.1,0,0);
+ ifweapon#;
+}
+
+////////////////////////////////////////////////////////////////////
+// INDIVIDUAL EFFECTS
+////////////////////////////////////////////////////////////////////
+
+//-----STEP-----//
+
+$ifx_step_r {
+ #ifweapon(1);
+  step(1,-1,1);
+ ifweapon#;
+ #ifweapon(0,1,1,1,1);
+  step(-1,-1,1);
+ ifweapon#;
+}
+
+$ifx_step_l {
+ #ifweapon(1);
+  step(-1,1,1);
+ ifweapon#;
+ #ifweapon(0,1,1,1,1);
+  step(1,1,1);
+ ifweapon#;
+}
+
+//-----SPLASH-----//
+
+$template_attack_splash_small {
+ #ifnotreact(1,1); 
+  enemyscenario(global_attack_splash_small);
+  #ifnotweapon(1);enemyscenario(ifx_blood);ifnotweapon#;
+  #ifweapon(1); enemyscenario(ifx_blood_small);ifweapon#;
+  #random(0); wait(0.3); pause(8,0.2); random#;
+ ifnotreact#;
+}
+
+$template_attack_splash_med {
+ #ifnotreact(1,1); 
+  enemyscenario(global_attack_splash_med);
+  #ifnotweapon(1);enemyscenario(ifx_blood);ifnotweapon#;
+  #ifweapon(1);enemyscenario(ifx_blood_small);ifweapon#;
+  #random(0); wait(0.3); pause(8,0.2); random#;
+ ifnotreact#;
+}
+
+$template_attack_splash_big {
+ #ifnotreact(1,1); 
+  enemyscenario(global_attack_splash_big);
+  #ifnotweapon(1);enemyscenario(ifx_blood);ifnotweapon#;
+  #ifweapon(1);enemyscenario(ifx_blood_small);ifweapon#;
+  #random(0); wait(0.3); pause(8,0.2); random#;
+ ifnotreact#;
+}
+
+//-----DIRECT-----//
+
+$ifx_magic_nb01_1 {
+ light(0,1.5);
+ scenario(global_magic_nb01_prestart);
+}
+
+$ifx_magic_nb01_2 {
+ wait(0.45);
+ #ifnotreact(1);
+  react(f,0);
+ ifnotreact#;
+ wait(0.3);
+ scenario(global_magic_nb01_fly);
+ wait(0.25);
+ #ifreact(1);
+  enemyscenario(global_magic_absorb_necro);
+  enemyreactfx(f,0);
+ ifreact#;
+ #ifreact(0,1);
+  scenario(global_magic_nb01_expsmall);
+ ifreact#;
+ #ifnotreact(1,1);
+  scenario(global_magic_nb01_exp);
+ ifnotreact#;
+ light(1,1);
+}
+
+$ifx_magic_nb02_1 {
+ light(0,1.5);
+ scenario(global_magic_nb02_prestart);
+}
+
+$ifx_magic_nb02_2 {
+ wait(0.45);
+ #ifnotreact(1);
+  react(f,0);
+ ifnotreact#;
+ wait(0.3);
+ scenario(global_magic_nb02_fly);
+ wait(0.25);
+ #ifreact(1);
+  enemyscenario(global_magic_absorb_necro);
+  enemyreactfx(f,0);
+ ifreact#;
+ #ifreact(0,1);
+  scenario(global_magic_nb02_expsmall);
+ ifreact#;
+ #ifnotreact(1,1);
+  scenario(global_magic_nb02_exp);
+ ifnotreact#;
+ light(1,1);
+}
+
+$ifx_magic_nb03_1 {
+ light(0,1.5);
+ scenario(global_magic_nb03_prestart);
+}
+
+$ifx_magic_nb03_2 {
+ wait(0.45);
+ #ifnotreact(1);
+  react(f,0);
+ ifnotreact#;
+ wait(0.3);
+ scenario(global_magic_nb03_fly);
+ wait(0.25);
+ #ifreact(1);
+  enemyscenario(global_magic_absorb_necro);
+  enemyreactfx(f,0);
+ ifreact#;
+ #ifreact(0,1);
+  scenario(global_magic_nb03_expsmall);
+ ifreact#;
+ #ifnotreact(1,1);
+  scenario(global_magic_nb03_exp);
+ ifnotreact#;
+ light(1,1);
+}
+
+$ifx_magic_nb04_1 {
+ light(0,1.5);
+ scenario(global_magic_nb04_prestart);
+}
+
+$ifx_magic_nb04_2 {
+ wait(0.45);
+ #ifnotreact(1);
+  react(f,0);
+ ifnotreact#;
+ wait(0.3);
+ scenario(global_magic_nb04_fly);
+ wait(0.25);
+ #ifreact(1);
+  enemyscenario(global_magic_absorb_necro);
+  enemyreactfx(f,0);
+ ifreact#;
+ #ifreact(0,1);
+  scenario(global_magic_nb04_expsmall);
+ ifreact#;
+ #ifnotreact(1,1);
+  scenario(global_magic_nb04_exp);
+ ifnotreact#;
+ light(1,1);
+}
+
+$ifx_magic_nb05_1 {
+ light(0,1.5);
+ scenario(global_magic_nb05_prestart);
+}
+
+$ifx_magic_nb05_2 {
+ wait(0.45);
+ #ifnotreact(1);
+  react(f,0);
+ ifnotreact#;
+ wait(0.3);
+ scenario(global_magic_nb05_fly);
+ wait(0.25);
+ #ifreact(1);
+  enemyscenario(global_magic_absorb_necro);
+  enemyreactfx(f,0);
+ ifreact#;
+ #ifreact(0,1);
+  scenario(global_magic_nb05_expsmall);
+ ifreact#;
+ #ifnotreact(1,1);
+  scenario(global_magic_nb05_exp);
+ ifnotreact#;
+ light(1,1);
+}
+
+$ifx_magic_fireball_1 {
+ light(0,1.5);
+  #ifweapon(0,0,1,1,1);
+   scenario(global_snd_magic_fire);
+  ifweapon#;
+ fx(fxfb1,fx_fmagstart0,pos_hand_l,1);
+}
+
+$ifx_magic_fireball_2 {
+ scenario(global_magic_fireball_prestart);
+ wait(0.45);
+ #ifnotreact(1);
+  react(f,0);
+ ifnotreact#;
+ wait(0.3);
+  #ifweapon(1,1,0,0,0);
+   scenario(global_snd_magic_fire);
+  ifweapon#;
+ scenario(global_magic_fireball_start);
+ scenario(global_magic_fireball_fly);
+ wait(0.2);
+ #ifreact(0,1);
+  scenario(global_magic_fireball_expsmall);
+ ifreact#;
+ #ifnotreact(1,1);
+  scenario(global_magic_fireball_exp);
+ ifnotreact#;
+ light(1,1);
+}
+
+$ifx_magic_iceball_1 {
+ light(0,1.5);
+  #ifweapon(0,0,1,1,1);
+   scenario(global_snd_magic_ice);
+  ifweapon#;
+ fx(fxib1,fx_imagstart0,pos_hand_l,1);
+}
+
+$ifx_magic_iceball_2 {
+ scenario(global_magic_iceball_prestart);
+ wait(0.45);
+ #ifnotreact(1);
+  react(f,0);
+ ifnotreact#;
+ wait(0.3);
+  #ifweapon(1,1,0,0,0);
+   scenario(global_snd_magic_ice);
+  ifweapon#;
+ scenario(global_magic_iceball_start);
+ scenario(global_magic_iceball_fly);
+ wait(0.2);
+ #ifreact(0,1);
+  scenario(global_magic_iceball_expsmall);
+ ifreact#; 
+ #ifnotreact(1,1);
+  scenario(global_magic_iceball_exp);
+ ifnotreact#;
+ light(1,1);
+}
+
+$ifx_magic_lightball_1 {
+ light(0,1.5);
+  #ifweapon(0,0,1,1,1);
+   scenario(global_snd_magic_light);
+  ifweapon#;
+ fx(fxlb1,fx_lmagstart0,pos_hand_l,1);
+}
+
+$ifx_magic_lightball_2 {
+ scenario(global_magic_lightball_prestart);
+ wait(0.45);
+ #ifnotreact(1);
+  react(f,0);
+ ifnotreact#;
+ wait(0.3);
+  #ifweapon(1,1,0,0,0);
+   scenario(global_snd_magic_light);
+  ifweapon#;
+ scenario(global_magic_lightball_start);
+ scenario(global_magic_lightball_fly);
+ wait(0.2);
+ #ifreact(1);
+  enemyscenario(global_magic_absorb_light);
+  enemyreactfx(f,0);
+ ifreact#;
+ #ifreact(0,1);
+  scenario(global_magic_lightball_expsmall);
+ ifreact#; 
+ #ifnotreact(1,1);
+  scenario(global_magic_lightball_exp);
+ ifnotreact#;
+ light(1,1);
+}
+
+$ifx_magic_darkball_1 {
+ light(0,1.5);
+  #ifweapon(0,0,1,1,1);
+   scenario(global_snd_magic_dark);
+  ifweapon#;
+ scenario(global_magic_darkball_begin);
+}
+
+$ifx_magic_darkball_2 {
+ scenario(global_magic_darkball_prestart);
+ wait(0.45);
+ #ifnotreact(1);
+  react(f,0);
+ ifnotreact#;
+ wait(0.3);
+  #ifweapon(1,1,0,0,0);
+   scenario(global_snd_magic_dark);
+  ifweapon#;
+ scenario(global_magic_darkball_start);
+ scenario(global_magic_darkball_fly);
+ wait(0.2);
+ #ifreact(1);
+  enemyscenario(global_magic_absorb_dark);
+  enemyreactfx(f,0);
+ ifreact#;
+ #ifreact(0,1);
+  scenario(global_magic_darkball_expsmall);
+ ifreact#; 
+ #ifnotreact(1,1);
+  scenario(global_magic_darkball_exp);
+ ifnotreact#;
+ light(1,1);
+}
+
+$ifx_magic_electroball_1 {
+ light(0,1.5);
+  #ifweapon(0,0,1,1,1);
+   scenario(global_snd_magic_electro);
+  ifweapon#;
+ fx(fxeb1,fx_emagstart0,pos_hand_l,1);
+}
+
+$ifx_magic_electroball_2 {
+ scenario(global_magic_electroball_prestart);
+ wait(0.45);
+ #ifnotreact(1);
+  react(f,0);
+ ifnotreact#;
+ wait(0.2);
+  #ifweapon(1,1,0,0,0);
+   scenario(global_snd_magic_electro);
+  ifweapon#;
+ scenario(global_magic_electroball_start);
+ scenario(global_magic_electroball_fly);
+ wait(0.25);
+ #ifreact(1);
+  enemyscenario(global_magic_absorb_electro);
+  enemyreactfx(f,0);
+ ifreact#;
+ #ifreact(0,1);
+  scenario(global_magic_electroball_expsmall);
+ ifreact#; 
+ #ifnotreact(1,1);
+  scenario(global_magic_electroball_exp);
+ ifnotreact#;
+ light(1,1);
+}
+
+$ifx_magic_acidball_1 {
+ light(0,1.5);
+  #ifweapon(0,0,1,1,1);
+   scenario(global_snd_magic_acid);
+  ifweapon#;
+ fx(fxab1,fx_amagstart0,pos_hand_l,1);
+}
+
+$ifx_magic_acidball_2 {
+ scenario(global_magic_acidball_prestart);
+ wait(0.45);
+ #ifnotreact(1);
+  react(f,0);
+ ifnotreact#;
+ wait(0.3);
+  #ifweapon(1,1,0,0,0);
+   scenario(global_snd_magic_acid);
+  ifweapon#;
+ scenario(global_magic_acidball_start);
+ scenario(global_magic_acidball_fly);
+ wait(0.2);
+ #ifreact(1);
+  enemyscenario(global_magic_absorb_acid);
+  enemyreactfx(f,0);
+ ifreact#;
+ #ifreact(0,1);
+  scenario(global_magic_acidball_expsmall);
+ ifreact#; 
+ #ifnotreact(1,1);
+  scenario(global_magic_acidball_exp);
+ ifnotreact#;
+ light(1,1);
+}
+
+//-----AOE-----//
+
+$ifx_aoe_fire_1 {
+ light(0,2);
+  #ifweapon(0,0,1,1,1);
+   scenario(global_snd_magic_aoe_fire);
+  ifweapon#;
+ scenario(global_magic_fireaoe_prestart);
+}
+
+$ifx_aoe_fire_2 {
+ wait(0.5);
+ scenario(global_magic_fireaoe_start);
+ react(f,0);
+ wait(0.35);
+  #ifweapon(1,1,0,0,0);
+   scenario(global_snd_magic_aoe_fire);
+  ifweapon#;
+ scenario(global_magic_fireaoe_wave);
+ wait(0.2);
+ scenario(global_magic_fireaoe_exp);
+ light(1,0.5,0);
+}
+
+$ifx_aoe_fire_3 {
+ wait(0.5);
+ scenario(global_magic_fireaoe_start);
+ react(f,0);
+ wait(0.35);
+  #ifweapon(1,1,0,0,0);
+   scenario(global_snd_magic_aoe_fire);
+  ifweapon#;
+ scenario(global_magic_fireaoe_wave);
+ light(1,0.5,0);
+}
+
+$ifx_aoe_ice_1 {
+ light(0,2);
+  #ifweapon(0,0,1,1,1);
+   scenario(global_snd_magic_aoe_ice);
+  ifweapon#;
+ scenario(global_magic_iceaoe_prestart);
+}
+
+$ifx_aoe_ice_2 {
+ wait(0.5);
+ scenario(global_magic_iceaoe_start);
+ react(f,0);
+ wait(0.35);
+  #ifweapon(1,1,0,0,0);
+   scenario(global_snd_magic_aoe_ice);
+  ifweapon#;
+ scenario(global_magic_iceaoe_wave);
+ wait(0.2);
+ scenario(global_magic_iceaoe_exp);
+ light(1,0.5,0);
+}
+
+$ifx_aoe_ice_3 {
+ wait(0.5);
+ scenario(global_magic_iceaoe_start);
+ react(f,0);
+ wait(0.35);
+  #ifweapon(1,1,0,0,0);
+   scenario(global_snd_magic_aoe_ice);
+  ifweapon#;
+ scenario(global_magic_iceaoe_wave);
+ light(1,0.5,0);
+}
+
+$ifx_aoe_light_1 {
+ light(0,2);
+  #ifweapon(0,0,1,1,1);
+   scenario(global_snd_magic_aoe_light);
+  ifweapon#;
+ scenario(global_magic_lightaoe_prestart);
+}
+
+$ifx_aoe_light_2 {
+ wait(0.5);
+ scenario(global_magic_lightaoe_start);
+ react(f,0);
+ wait(0.35);
+  #ifweapon(1,1,0,0,0);
+   scenario(global_snd_magic_aoe_light);
+  ifweapon#;
+ scenario(global_magic_lightaoe_wave);
+ wait(0.2);
+ scenario(global_magic_lightaoe_exp);
+ light(1,0.5,0);
+}
+
+$ifx_aoe_light_3 {
+ wait(0.5);
+ scenario(global_magic_lightaoe_start);
+ react(f,0);
+ wait(0.35);
+  #ifweapon(1,1,0,0,0);
+   scenario(global_snd_magic_aoe_light);
+  ifweapon#;
+ scenario(global_magic_lightaoe_wave);
+ light(1,0.5,0);
+}
+
+$ifx_aoe_dark_1 {
+ light(0,2);
+  #ifweapon(0,0,1,1,1);
+   scenario(global_snd_magic_aoe_dark);
+  ifweapon#;
+ scenario(global_magic_darkaoe_prestart);
+}
+
+$ifx_aoe_dark_2 {
+ wait(0.5);
+ scenario(global_magic_darkaoe_start);
+ react(f,0);
+ wait(0.35);
+  #ifweapon(1,1,0,0,0);
+   scenario(global_snd_magic_aoe_dark);
+  ifweapon#;
+ scenario(global_magic_darkaoe_wave);
+ wait(0.2);
+ scenario(global_magic_darkaoe_exp);
+ light(1,0.5,0);
+}
+
+$ifx_aoe_dark_3 {
+ wait(0.5);
+ scenario(global_magic_darkaoe_start);
+ react(f,0);
+ wait(0.35);
+  #ifweapon(1,1,0,0,0);
+   scenario(global_snd_magic_aoe_dark);
+  ifweapon#;
+ scenario(global_magic_darkaoe_wave);
+ light(1,0.5,0);
+}
+
+$ifx_aoe_electro_1 {
+ light(0,2);
+  #ifweapon(0,0,1,1,1);
+   scenario(global_snd_magic_aoe_electro);
+  ifweapon#;
+ scenario(global_magic_electroaoe_prestart);
+}
+
+$ifx_aoe_electro_2 {
+ wait(0.5);
+ scenario(global_magic_electroaoe_start);
+ react(f,0);
+ wait(0.35);
+  #ifweapon(1,1,0,0,0);
+   scenario(global_snd_magic_aoe_electro);
+  ifweapon#;
+ scenario(global_magic_electroaoe_wave);
+ wait(0.2);
+ scenario(global_magic_electroaoe_exp);
+ light(1,0.5,0);
+}
+
+$ifx_aoe_electro_3 {
+ wait(0.5);
+ scenario(global_magic_electroaoe_start);
+ react(f,0);
+ wait(0.35);
+  #ifweapon(1,1,0,0,0);
+   scenario(global_snd_magic_aoe_electro);
+  ifweapon#;
+ scenario(global_magic_electroaoe_wave);
+ light(1,0.5,0);
+}
+
+$ifx_aoe_acid_1 {
+ light(0,2);
+  #ifweapon(0,0,1,1,1);
+   scenario(global_snd_magic_aoe_acid);
+  ifweapon#;
+ scenario(global_magic_acidaoe_prestart);
+}
+
+$ifx_aoe_acid_2 {
+ wait(0.5);
+ scenario(global_magic_acidaoe_start);
+ react(f,0);
+ wait(0.35);
+  #ifweapon(1,1,0,0,0);
+   scenario(global_snd_magic_aoe_acid);
+  ifweapon#;
+ scenario(global_magic_acidaoe_wave);
+ wait(0.2);
+ scenario(global_magic_acidaoe_exp);
+ light(1,0.5,0);
+}
+
+$ifx_aoe_acid_3 {
+ wait(0.5);
+ scenario(global_magic_acidaoe_start);
+ react(f,0);
+ wait(0.35);
+  #ifweapon(1,1,0,0,0);
+   scenario(global_snd_magic_aoe_acid);
+  ifweapon#;
+ scenario(global_magic_acidaoe_wave);
+ light(1,0.5,0);
+}
+
+//-----BLOOD-----//
+
+$ifx_blood {
+ scenario(global_react_blood);
+}
+
+$ifx_blood_small {
+ scenario(global_react_blood_small);
+}
+
+$ifx_blood_down_splash {
+ fx(0,fx_blooddownsplat_Rd,pos_toe_r);
+ wait(0.1);
+ fx(0,fx_blooddownsplat_Rd,pos_toe_l);
+}
+
+$ifx_fatality_blood_splash {
+ fx(0,fx_bloodsplat_Rd,pos_spinecenter);
+ fx(fbs1,sfx_flesh_Rd,bottom);           fxpos(fbs1,0,1.55,0,1);
+ wait(0.5);
+ fx(0,fx_bloodsplat_Rd_2,bottom);
+}
+
+$ifx_blood_splash {
+ fx(0,fx_bloodsplat_Rd,pos_spinecenter);
+}
+
+$ifx_blood_fontan {
+ fx(0,fx_sizeblood_rd1,pos_head,1);
+ fx(0,fx_sizeblood_rd1,pos_spinecenter,1);
+ fx(0,fx_sizeblood_rd1,pos_hand_r,1);
+ fx(0,fx_sizeblood_rd1,pos_hand_l,1);
+ fx(0,fx_sizeblood_rd1,pos_toe_r,1);
+ fx(0,fx_sizeblood_rd1,pos_toe_l,1);
+}
+
+$ifx_blood_screen {
+ #random(25); fx(0,fx_bloodekran_Rd_L);  random#;
+ #random(25); fx(0,fx_bloodekran_Rd_R);  random#;
+ #random(50); fx(0,fx_bloodekran_Rd_RD); random#;
+ #random(50); wait(0.05);                random#;
+ #random(50); fx(0,fx_bloodekran_Rd_LD); random#;
+ #random(50); wait(0.1);                 random#;
+ #random(50); fx(0,fx_bloodekran_Rd_RU); random#;
+ #random(50); wait(0.1);                 random#;
+ #random(50); fx(0,fx_bloodekran_Rd_LU); random#;
+}
+
+//-----BRUTALITY-----//
+
+$ifx_brutality_noweapon {
+ playpart(hand_left,1,0,40);
+ scenario(template_attack_splash_med);
+ sound(front_hand_m);
+ enemyplay(damage);
+ playpart(hand_front,1.2,15,30);
+ scenario(template_attack_splash_small);
+ sound(front_foot_m);
+ enemyplay(damage);
+ playpart(hand_right,1.2,10,30);
+ scenario(template_attack_splash_med);
+ sound(front_foot_m);
+ enemyplay(damage);
+ playpart(hand_left,1.2,20,40);
+ scenario(template_attack_splash_big);
+ sound(front_hand_m);
+ enemyplay(damage);
+ playpart(hand_right,1.2,10,30);
+ scenario(template_attack_splash_small);
+ sound(front_foot_m);
+ enemyplay(damage);
+ playpart(hand_front,1.2,15,30);
+ scenario(template_attack_splash_med);
+ sound(front_foot_m);
+ enemyplay(damage);
+ sound(front_foot_m,0.3);
+ playpart(foot_left,1,10,80);
+}
+
+$ifx_brutality_1hweapon {
+ playpart(attack_left,1,0,40);
+ scenario(template_attack_splash_med);
+ sound(front_hand_m);
+ enemyplay(damage);
+ playpart(attack,1.2,20,40);
+ scenario(template_attack_splash_small);
+ sound(front_foot_m);
+ enemyplay(damage);
+ playpart(attack_right,1.2,15,40);
+ scenario(template_attack_splash_med);
+ sound(front_foot_m);
+ enemyplay(damage);
+ playpart(attack_left,1.2,15,40);
+ scenario(template_attack_splash_big);
+ sound(front_hand_m);
+ enemyplay(damage);
+ playpart(attack_right,1.2,15,40);
+ scenario(template_attack_splash_small);
+ sound(front_foot_m);
+ enemyplay(damage);
+ playpart(attack,1.2,20,40);
+ scenario(template_attack_splash_med);
+ sound(front_foot_m);
+ enemyplay(damage);
+ sound(front_foot_m,0.3);
+ playpart(attack_uppercot,1,20,80);
+}
+
+$ifx_brutality_2hweapon {
+ playpart(attack_left,1,0,35);
+ scenario(template_attack_splash_med);
+ sound(front_foot_m);
+ enemyplay(damage);
+ playpart(attack,1.2,10,30);
+ scenario(template_attack_splash_small);
+ sound(front_foot_m);
+ enemyplay(damage);
+ playpart(attack_right,1.2,15,40);
+ scenario(template_attack_splash_med);
+ sound(front_foot_m);
+ enemyplay(damage);
+ playpart(attack_left,1.2,15,35);
+ scenario(template_attack_splash_med);
+ sound(front_hand_m);
+ enemyplay(damage);
+ playpart(attack_right,1.2,15,40);
+ scenario(template_attack_splash_small);
+ sound(front_foot_m);
+ enemyplay(damage);
+ playpart(attack,1.2,10,30);
+ scenario(template_attack_splash_med);
+ sound(front_foot_m);
+ enemyplay(damage);
+ sound(front_foot_m,0.3);
+ playpart(attack_uppercot,1,10,80);
+}
+
+$ifx_fatality_damage {
+ playpart(damage,0.65,10,30);
+ playpart(damage,0.65,10,30);
+}
+
+$ifx_fatality_fly {
+ moveto(0,3,0,1);
+ playpart(damage,0.65,10,30);
+ playpart(damage,0.65,10,30);
+ moveto(0,-3,0,0.1);
+ playpart(death,1,50,100);
+}
+
+$ifx_fatality_down_blood {
+ playpart(damage,0.75,10,30);
+ scenario(ifx_blood_down_splash);
+ playpart(damage,0.75,10,30);
+ scenario(ifx_blood_down_splash);
+ playpart(damage,0.75,10,30);
+ scenario(ifx_blood_down_splash);
+}
+
+////////////////////////////////////////////////////////////////////
+// TRIGGERS AND OTHER
+////////////////////////////////////////////////////////////////////
+
+$onshow {
+ scenario(global_onshow);
+}
+
+$onhide {
+ scenario(global_onhide);
+}

@@ -1,0 +1,34 @@
+{
+	"moneyTypes": {
+		"1": {
+			"id": 3,
+			"title": "Gold",
+			"code": 1
+		},
+		"2": {
+			"id": 4,
+			"title": "Brillant",
+			"code": 2
+		},
+		"3": {
+			"id": 37,
+			"title": "Dietriche",
+			"code": 3
+		},
+		"4": {
+			"id": 38,
+			"title": "Schädel",
+			"code": 4
+		},
+		"5": {
+			"id": 821,
+			"title": "Käfer",
+			"code": 5
+		},
+		"6": {
+			"id": 1161,
+			"title": "Sterne",
+			"code": 6
+		}
+	}
+}

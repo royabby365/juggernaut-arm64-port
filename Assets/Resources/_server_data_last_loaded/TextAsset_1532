@@ -1,0 +1,1479 @@
+{
+	"phrases": {
+		"AchievDataHeader": {
+			"id": 937,
+			"code": "AchievDataHeader",
+			"text": "Молодец, отлично справился! ^^ Не забудь про почти выполненные достижения:"
+		},
+		"AchievHeader": {
+			"id": 936,
+			"code": "AchievHeader",
+			"text": "Вы получили достижение:"
+		},
+		"AchievSocialLabel": {
+			"id": 938,
+			"code": "AchievSocialLabel",
+			"text": "Поделиться с друзьями:"
+		},
+		"AchievementsAll": {
+			"id": 943,
+			"code": "AchievementsAll",
+			"text": "Все"
+		},
+		"AchievementsLocked": {
+			"id": 944,
+			"code": "AchievementsLocked",
+			"text": "Неполученные"
+		},
+		"AchievementsProgress": {
+			"id": 942,
+			"code": "AchievementsProgress",
+			"text": "Общий прогресс испытаний"
+		},
+		"AchievementsRating": {
+			"id": 946,
+			"code": "AchievementsRating",
+			"text": "Рейтинг"
+		},
+		"AchievementsUnlocked": {
+			"id": 945,
+			"code": "AchievementsUnlocked",
+			"text": "Полученные"
+		},
+		"AchivsAll": {
+			"id": 918,
+			"code": "AchivsAll",
+			"text": "Все"
+		},
+		"AchivsDone": {
+			"id": 919,
+			"code": "AchivsDone",
+			"text": "Полученные"
+		},
+		"AchivsRating": {
+			"id": 921,
+			"code": "AchivsRating",
+			"text": "Рейтинг"
+		},
+		"AchivsTotalProgress": {
+			"id": 917,
+			"code": "AchivsTotalProgress",
+			"text": "ОБЩИЙ ПРОГРЕСС ДОСТИЖЕНИЙ"
+		},
+		"AchivsUndone": {
+			"id": 920,
+			"code": "AchivsUndone",
+			"text": "Неполученные"
+		},
+		"AddFriendsMessage": {
+			"id": 1108,
+			"code": "AddFriendsMessage",
+			"text": "Пригласите друзей в Game Center, чтобы сравнить очки."
+		},
+		"AlertNoInternet": {
+			"id": 1115,
+			"code": "AlertNoInternet",
+			"text": "Опция недоступна, так как в данный момент отсутствует подключение к интернету."
+		},
+		"AvailableForMining": {
+			"id": 1951,
+			"code": "AvailableForMining",
+			"text": "Можно_^^_добыть:"
+		},
+		"BagBag": {
+			"id": 247,
+			"code": "BagBag",
+			"text": "Рюкзак"
+		},
+		"BagDark": {
+			"id": 259,
+			"code": "BagDark",
+			"text": "Тьма +{0}%"
+		},
+		"BagElixirs": {
+			"id": 254,
+			"code": "BagElixirs",
+			"text": "Боевые эликсиры"
+		},
+		"BagEquipment": {
+			"id": 246,
+			"code": "BagEquipment",
+			"text": "Экипировка"
+		},
+		"BagFire": {
+			"id": 257,
+			"code": "BagFire",
+			"text": "Огонь +{0}%"
+		},
+		"BagIce": {
+			"id": 256,
+			"code": "BagIce",
+			"text": "Лед +{0}%"
+		},
+		"BagLighting": {
+			"id": 258,
+			"code": "BagLighting",
+			"text": "Молния +{0}%"
+		},
+		"BagParams": {
+			"id": 248,
+			"code": "BagParams",
+			"text": "Характеристики"
+		},
+		"BagPoints": {
+			"id": 255,
+			"code": "BagPoints",
+			"text": "Свободных очков для распределения: {0}"
+		},
+		"BagResources": {
+			"id": 253,
+			"code": "BagResources",
+			"text": "Ресурсы"
+		},
+		"BagSwitchItems": {
+			"id": 842,
+			"code": "BagSwitchItems",
+			"text": "Рюкзак"
+		},
+		"BagSwitchParameters": {
+			"id": 841,
+			"code": "BagSwitchParameters",
+			"text": "Параметры"
+		},
+		"Bank": {
+			"id": 809,
+			"code": "Bank",
+			"text": "БАНК"
+		},
+		"BankBonus": {
+			"id": 807,
+			"code": "BankBonus",
+			"text": "бонус"
+		},
+		"BankBuyDoneFail": {
+			"id": 993,
+			"code": "BankBuyDoneFail",
+			"text": "Покупка не удалась"
+		},
+		"BankBuyDoneSuccessfull": {
+			"id": 992,
+			"code": "BankBuyDoneSuccessfull",
+			"text": "Покупка удачно совершена"
+		},
+		"BankBuyError": {
+			"id": 959,
+			"code": "BankBuyError",
+			"text": "Произошла ошибка при покупке. Попробуйте позже."
+		},
+		"BankCost": {
+			"id": 808,
+			"code": "BankCost",
+			"text": "цена"
+		},
+		"BankCount": {
+			"id": 806,
+			"code": "BankCount",
+			"text": "количество"
+		},
+		"BankTimeout": {
+			"id": 994,
+			"code": "BankTimeout",
+			"text": "Ваша покупка в процессе обработки. Ожидайте."
+		},
+		"BankWaitMessage": {
+			"id": 991,
+			"code": "BankWaitMessage",
+			"text": "Ожидайте, ваш запрос обрабатывается..."
+		},
+		"BattleAttack": {
+			"id": 264,
+			"code": "BattleAttack",
+			"text": "Напасть"
+		},
+		"BattleLostStartOver": {
+			"id": 913,
+			"code": "BattleLostStartOver",
+			"text": "Заново"
+		},
+		"BattleResultEtalon": {
+			"id": 1137,
+			"code": "BattleResultEtalon",
+			"text": "Из них критических:"
+		},
+		"BattleResultRating": {
+			"id": 1138,
+			"code": "BattleResultRating",
+			"text": "Рейтинг боя:"
+		},
+		"BattleResultRatingName0": {
+			"id": 1139,
+			"code": "BattleResultRatingName0",
+			"text": "Детская драка"
+		},
+		"BattleResultRatingName1": {
+			"id": 1140,
+			"code": "BattleResultRatingName1",
+			"text": "Жаркий бой"
+		},
+		"BattleResultRatingName2": {
+			"id": 1141,
+			"code": "BattleResultRatingName2",
+			"text": "Мясорубка"
+		},
+		"BattleResultRatingName3": {
+			"id": 1142,
+			"code": "BattleResultRatingName3",
+			"text": "Дикая бойня"
+		},
+		"BattleResultRatingName4": {
+			"id": 1143,
+			"code": "BattleResultRatingName4",
+			"text": "Маньяк на свободе!"
+		},
+		"BattleResultReal": {
+			"id": 1136,
+			"code": "BattleResultReal",
+			"text": "Результат боя:"
+		},
+		"BattleResultTurnsCount": {
+			"id": 1144,
+			"code": "BattleResultTurnsCount",
+			"text": "{0} ударов"
+		},
+		"Bonuses": {
+			"id": 840,
+			"code": "Bonuses",
+			"text": "Бонусы:"
+		},
+		"ButtonAddFriends": {
+			"id": 1107,
+			"code": "ButtonAddFriends",
+			"text": "Добавить друзей"
+		},
+		"ButtonBuy": {
+			"id": 459,
+			"code": "ButtonBuy",
+			"text": "Купить"
+		},
+		"ButtonBuyAndPuton": {
+			"id": 460,
+			"code": "ButtonBuyAndPuton",
+			"text": "Купить и надеть"
+		},
+		"ButtonCancel": {
+			"id": 458,
+			"code": "ButtonCancel",
+			"text": "Отменить"
+		},
+		"ButtonClose": {
+			"id": 729,
+			"code": "ButtonClose",
+			"text": "Закрыть"
+		},
+		"ButtonContinue": {
+			"id": 464,
+			"code": "ButtonContinue",
+			"text": "Продолжить"
+		},
+		"ButtonFight": {
+			"id": 462,
+			"code": "ButtonFight",
+			"text": "Напасть"
+		},
+		"ButtonFullRating": {
+			"id": 1106,
+			"code": "ButtonFullRating",
+			"text": "Весь рейтинг"
+		},
+		"ButtonGoToBag": {
+			"id": 511,
+			"code": "ButtonGoToBag",
+			"text": "В рюкзак"
+		},
+		"ButtonGoToShop": {
+			"id": 764,
+			"code": "ButtonGoToShop",
+			"text": "В магазин"
+		},
+		"ButtonImprove": {
+			"id": 474,
+			"code": "ButtonImprove",
+			"text": "Улучшить"
+		},
+		"ButtonMax": {
+			"id": 514,
+			"code": "ButtonMax",
+			"text": "Максимум"
+		},
+		"ButtonNo": {
+			"id": 466,
+			"code": "ButtonNo",
+			"text": "Нет"
+		},
+		"ButtonOk": {
+			"id": 457,
+			"code": "ButtonOk",
+			"text": "Применить"
+		},
+		"ButtonPutoff": {
+			"id": 1193,
+			"code": "ButtonPutoff",
+			"text": "Снять"
+		},
+		"ButtonPuton": {
+			"id": 501,
+			"code": "ButtonPuton",
+			"text": "Надеть"
+		},
+		"ButtonSell": {
+			"id": 461,
+			"code": "ButtonSell",
+			"text": "Продать"
+		},
+		"ButtonYes": {
+			"id": 465,
+			"code": "ButtonYes",
+			"text": "Да"
+		},
+		"BuyFor": {
+			"id": 1952,
+			"code": "BuyFor",
+			"text": "Улучшить за"
+		},
+		"CastGestureHelp": {
+			"id": 450,
+			"code": "CastGestureHelp",
+			"text": "Для создания заклинания нарисуйте пальцем символ соответствующей школы магии."
+		},
+		"ChooseCharBeginGame": {
+			"id": 839,
+			"code": "ChooseCharBeginGame",
+			"text": "Начать игру"
+		},
+		"ChooseCharFeature": {
+			"id": 939,
+			"code": "ChooseCharFeature",
+			"text": "Особенность:"
+		},
+		"ChooseCharPreferences": {
+			"id": 838,
+			"code": "ChooseCharPreferences",
+			"text": "Магия:"
+		},
+		"ChoosePrize": {
+			"id": 509,
+			"code": "ChoosePrize",
+			"text": "Выберите награду:"
+		},
+		"ChoosePrizeExecution": {
+			"id": 950,
+			"code": "ChoosePrizeExecution",
+			"text": "Выберите дополнительную награду за казнь:"
+		},
+		"CompareChosen": {
+			"id": 471,
+			"code": "CompareChosen",
+			"text": "Выбрано"
+		},
+		"ComparePuton": {
+			"id": 472,
+			"code": "ComparePuton",
+			"text": "Надето"
+		},
+		"CompareSellItem": {
+			"id": 949,
+			"code": "CompareSellItem",
+			"text": "Вы действительно хотите продать вещь за {0}?"
+		},
+		"ConditionBlocks": {
+			"id": 743,
+			"code": "ConditionBlocks",
+			"text": "{1} раз блокировать удар во время боя и выиграть его"
+		},
+		"ConditionCritsInRow": {
+			"id": 746,
+			"code": "ConditionCritsInRow",
+			"text": "Нанести {1} критических ударов подряд и выиграть бой"
+		},
+		"ConditionFatalities": {
+			"id": 745,
+			"code": "ConditionFatalities",
+			"text": "Совершить казнь {0} раз"
+		},
+		"ConditionKills": {
+			"id": 747,
+			"code": "ConditionKills",
+			"text": "Добить врага, когда у него {1} и меньше жизни"
+		},
+		"ConditionMagicCast": {
+			"id": 1927,
+			"code": "ConditionMagicCast",
+			"text": "За один бой использовать магию {1} или более раз"
+		},
+		"ConditionNoMisses": {
+			"id": 742,
+			"code": "ConditionNoMisses",
+			"text": "Выиграть бой так, чтобы все атаки попали в цель ^^ (враг не должен заблокировать удар или увернуться от него)"
+		},
+		"ConditionWinWithHP": {
+			"id": 744,
+			"code": "ConditionWinWithHP",
+			"text": "Выиграть бой с количеством жизни > {1} %"
+		},
+		"DarkElfName": {
+			"id": 1067,
+			"code": "DarkElfName",
+			"text": "Тёмная эльфийка"
+		},
+		"DealOfTheDay": {
+			"id": 1962,
+			"code": "DealOfTheDay",
+			"text": "ТОВАР ^^ ДНЯ"
+		},
+		"DefeatGoodsHeader": {
+			"id": 988,
+			"code": "DefeatGoodsHeader",
+			"text": "Чтобы побеждать, не забывайте улучшать свое вооружение:"
+		},
+		"ElfPhrase1": {
+			"id": 1064,
+			"code": "ElfPhrase1",
+			"text": "Жалкий человечишка! Ты покусился на тайник, принадлежащий темным эльфам. Я охраняю эти сокровища и не позволю к ним прикоснуться. Убирайся отсюда, иначе я порублю тебя на куски!"
+		},
+		"ElfPhrase2": {
+			"id": 1071,
+			"code": "ElfPhrase2",
+			"text": "Если ты думаешь, что я позволю тебе распечатать еще один наш тайник, то ты сильно заблуждаешься. Один взмах моих сабель – и ты покойник! Прочь!"
+		},
+		"EpicItemInfo": {
+			"id": 1267,
+			"code": "EpicItemInfo",
+			"text": "Этот доспех может быть улучшен и превращен в легендарную вещь. Для этого используйте очки легендарности, которые вы получаете за рейтинг в каждом бою."
+		},
+		"ExCongratText1": {
+			"id": 793,
+			"code": "ExCongratText1",
+			"text": "Вы открыли дополнительную главу."
+		},
+		"ExCongratText2": {
+			"id": 794,
+			"code": "ExCongratText2",
+			"text": "Используйте карту, чтобы попасть в нее."
+		},
+		"ExLootLabel": {
+			"id": 728,
+			"code": "ExLootLabel",
+			"text": "Награда за прохождение главы"
+		},
+		"ExOpenButton": {
+			"id": 727,
+			"code": "ExOpenButton",
+			"text": "Открыть сразу за {0}"
+		},
+		"ExOpenConditionLabel": {
+			"id": 726,
+			"code": "ExOpenConditionLabel",
+			"text": "Чтобы открыть главу, совершите подвиги:"
+		},
+		"ExecutionHelp": {
+			"id": 448,
+			"code": "ExecutionHelp",
+			"text": "Для совершения казни, двигая пальцем, очень быстро режьте противника."
+		},
+		"ExecutionLabel": {
+			"id": 508,
+			"code": "ExecutionLabel",
+			"text": "Казнь"
+		},
+		"FightResultsAddAnger": {
+			"id": 454,
+			"code": "FightResultsAddAnger",
+			"text": "+{0}% злости"
+		},
+		"FightResultsAddExp": {
+			"id": 455,
+			"code": "FightResultsAddExp",
+			"text": "+{0} опыта"
+		},
+		"FightResultsBlock": {
+			"id": 657,
+			"code": "FightResultsBlock",
+			"text": "Блок"
+		},
+		"FightResultsDamage": {
+			"id": 510,
+			"code": "FightResultsDamage",
+			"text": "Урон"
+		},
+		"FightResultsDodge": {
+			"id": 658,
+			"code": "FightResultsDodge",
+			"text": "Уворот"
+		},
+		"FightResultsFatality": {
+			"id": 701,
+			"code": "FightResultsFatality",
+			"text": "Казнь"
+		},
+		"FightResultsImmunity": {
+			"id": 676,
+			"code": "FightResultsImmunity",
+			"text": "Иммунитет"
+		},
+		"FightResultsLabel": {
+			"id": 507,
+			"code": "FightResultsLabel",
+			"text": "Результаты боя"
+		},
+		"FightResultsTurns": {
+			"id": 453,
+			"code": "FightResultsTurns",
+			"text": "{0} ход"
+		},
+		"FightResultsTurnsLabel": {
+			"id": 512,
+			"code": "FightResultsTurnsLabel",
+			"text": "Время боя"
+		},
+		"FinalText": {
+			"id": 1020,
+			"code": "FinalText",
+			"text": "Не буду скрывать - мы поражены и обескуражены. Тобой уничтожен демон, на воскрешение которого мы потратили немало сил и возлагали большие надежды. Глупейшее человеколюбие заставило тебя встать на пути грандиозного замысла, величие которого тебе не под силу охватить своим жалким умишком. Только долгие годы размышлений и некоторые знания, доступа к которым ты не имеешь, могли бы помочь осознать тебе свою ошибку. Впрочем, мы сами виноваты в своей неудаче. Мы даже не допускали мысли о том, что можем столкнуться со смертным, способным противостоять высшим демонам. Ничего, в следующий раз мы избежим подобной оплошности, и ничто не сможет воспрепятствовать процессу перерождения. ^^ Нет худа без добра - благодаря тебе мы снова смогли испытать давно забытое чувство удивления. В награду за это мы открываем своё имя: мы - Маски. Помни его, ибо мы о тебе не забудем."
+		},
+		"GotLevel": {
+			"id": 451,
+			"code": "GotLevel",
+			"text": "Вы достигли {0} уровня!"
+		},
+		"GotSkillPoints": {
+			"id": 452,
+			"code": "GotSkillPoints",
+			"text": "Вам доступно очков умений - {0}."
+		},
+		"InBattleBerserk": {
+			"id": 615,
+			"code": "InBattleBerserk",
+			"text": "До конца боя ваша жизненная энергия увеличена на 50%"
+		},
+		"InBattleChapter": {
+			"id": 620,
+			"code": "InBattleChapter",
+			"text": "Глава"
+		},
+		"InBattleFightWith": {
+			"id": 619,
+			"code": "InBattleFightWith",
+			"text": "Бой с"
+		},
+		"InBattleNextBlock": {
+			"id": 613,
+			"code": "InBattleNextBlock",
+			"text": "Следующий удар противника будет вами заблокирован"
+		},
+		"InBattleNextCrit": {
+			"id": 614,
+			"code": "InBattleNextCrit",
+			"text": "Ваш следующий удар будет критическим с повышенным дропом маны"
+		},
+		"InsufficientFunds": {
+			"id": 771,
+			"code": "InsufficientFunds",
+			"text": "У вас недостаточно средств для оплаты. ^^ Вы можете докупить недостающие средства в Банке."
+		},
+		"Intro01Text": {
+			"id": 553,
+			"code": "Intro01Text",
+			"text": ""
+		},
+		"Intro02Center": {
+			"id": 554,
+			"code": "Intro02Center",
+			"text": ""
+		},
+		"Intro03Text": {
+			"id": 557,
+			"code": "Intro03Text",
+			"text": ""
+		},
+		"Intro04Center": {
+			"id": 558,
+			"code": "Intro04Center",
+			"text": ""
+		},
+		"Intro05Text": {
+			"id": 561,
+			"code": "Intro05Text",
+			"text": ""
+		},
+		"IntroPlace01": {
+			"id": 551,
+			"code": "IntroPlace01",
+			"text": ""
+		},
+		"IntroPlace03": {
+			"id": 555,
+			"code": "IntroPlace03",
+			"text": ""
+		},
+		"IntroPlace05": {
+			"id": 559,
+			"code": "IntroPlace05",
+			"text": ""
+		},
+		"IntroTitle01": {
+			"id": 552,
+			"code": "IntroTitle01",
+			"text": ""
+		},
+		"IntroTitle03": {
+			"id": 556,
+			"code": "IntroTitle03",
+			"text": ""
+		},
+		"IntroTitle05": {
+			"id": 560,
+			"code": "IntroTitle05",
+			"text": ""
+		},
+		"IntroductionText": {
+			"id": 456,
+			"code": "IntroductionText",
+			"text": ""
+		},
+		"ItemQuantity": {
+			"id": 941,
+			"code": "ItemQuantity",
+			"text": "шт."
+		},
+		"LabelImmunity": {
+			"id": 499,
+			"code": "LabelImmunity",
+			"text": "Иммунитет"
+		},
+		"LabelPersMagicPreferenses": {
+			"id": 500,
+			"code": "LabelPersMagicPreferenses",
+			"text": "Предпочтения"
+		},
+		"LocationChestCountLabel": {
+			"id": 940,
+			"code": "LocationChestCountLabel",
+			"text": "Сокровищ зарыто:"
+		},
+		"LocationPopulationAtacked": {
+			"id": 810,
+			"code": "LocationPopulationAtacked",
+			"text": "Местные жители атакованы!"
+		},
+		"LocationPopulationMax": {
+			"id": 846,
+			"code": "LocationPopulationMax",
+			"text": "Местное население собирает для вас дань."
+		},
+		"LocationPopulationPeace": {
+			"id": 811,
+			"code": "LocationPopulationPeace",
+			"text": "Местное население увеличивается и собирает для вас дань."
+		},
+		"LockpickingButtonShowCells": {
+			"id": 935,
+			"code": "LockpickingButtonShowCells",
+			"text": "Подсмотреть"
+		},
+		"LockpickingDifficultyHigh": {
+			"id": 592,
+			"code": "LockpickingDifficultyHigh",
+			"text": "Взлом замка - Высокая сложность"
+		},
+		"LockpickingDifficultyLow": {
+			"id": 590,
+			"code": "LockpickingDifficultyLow",
+			"text": "Взлом замка - Низкая сложность"
+		},
+		"LockpickingDifficultyMedium": {
+			"id": 591,
+			"code": "LockpickingDifficultyMedium",
+			"text": "Взлом замка - Средняя сложность"
+		},
+		"LockpickingFindAMatch": {
+			"id": 586,
+			"code": "LockpickingFindAMatch",
+			"text": "Найдите пару выбранному элементу."
+		},
+		"LockpickingHelpBottom": {
+			"id": 583,
+			"code": "LockpickingHelpBottom",
+			"text": "Вы можете в течение {0} секунд подсмотреть устройство замка. Потребуется отмычек:{1}."
+		},
+		"LockpickingHelpTop": {
+			"id": 582,
+			"code": "LockpickingHelpTop",
+			"text": "Чтобы взломать сундук, открывайте попарно одинаковые элементы замка, используя для этого отмычки. ^^^\nПри неудачной попытке отмычка сломается."
+		},
+		"LockpickingMatchFound": {
+			"id": 588,
+			"code": "LockpickingMatchFound",
+			"text": "Поздравляем! ^^ Вы успешно нашли пару."
+		},
+		"LockpickingNoMoreLockpicks": {
+			"id": 589,
+			"code": "LockpickingNoMoreLockpicks",
+			"text": "У вас закончились отмычки. ^^ Вы не сможете продолжить взлом без них."
+		},
+		"LockpickingPrize": {
+			"id": 596,
+			"code": "LockpickingPrize",
+			"text": "Вы открыли сундук и обнаружили в нём:"
+		},
+		"LockpickingSecBeforeGame": {
+			"id": 598,
+			"code": "LockpickingSecBeforeGame",
+			"text": "До начала игры осталось {0} сек."
+		},
+		"LockpickingWrongMatch": {
+			"id": 587,
+			"code": "LockpickingWrongMatch",
+			"text": "Вы ошиблись. ^^ Отмычка сломалась."
+		},
+		"MBookNeedMoreSkill": {
+			"id": 719,
+			"code": "MBookNeedMoreSkill",
+			"text": "У вас недостаточно мастерства для улучшения заклинания. ^^ Вы можете увеличить мастерство, применяя это заклинание в бою."
+		},
+		"MBookNeedMoreSkulls": {
+			"id": 718,
+			"code": "MBookNeedMoreSkulls",
+			"text": "У вас недостаточно магических черепов для улучшения заклинания. ^^ Их можно добыть в сундуках, в боях или же купить в магазине."
+		},
+		"MBookPower": {
+			"id": 715,
+			"code": "MBookPower",
+			"text": "Мощность {0}"
+		},
+		"MBookSkill": {
+			"id": 716,
+			"code": "MBookSkill",
+			"text": "Мастерство {0}/{1}"
+		},
+		"MagicBookHelp": {
+			"id": 479,
+			"code": "MagicBookHelp",
+			"text": "С помощью колдовских черепов вы можете совершенствовать известные вам магические приёмы, а также изучать новые."
+		},
+		"MagicDark": {
+			"id": 713,
+			"code": "MagicDark",
+			"text": "тьма"
+		},
+		"MagicFire": {
+			"id": 711,
+			"code": "MagicFire",
+			"text": "огонь"
+		},
+		"MagicIce": {
+			"id": 710,
+			"code": "MagicIce",
+			"text": "лёд"
+		},
+		"MagicLighting": {
+			"id": 712,
+			"code": "MagicLighting",
+			"text": "молния"
+		},
+		"MagicProtectionHelp": {
+			"id": 449,
+			"code": "MagicProtectionHelp",
+			"text": "Запомните и повторите последовательность шагов, чтобы увернуться от магической атаки."
+		},
+		"MainMenuLoadGame": {
+			"id": 1054,
+			"code": "MainMenuLoadGame",
+			"text": "Загрузить игру"
+		},
+		"MainMenuNewGame": {
+			"id": 1056,
+			"code": "MainMenuNewGame",
+			"text": "Новая игра"
+		},
+		"MainMenuNewGameAlert": {
+			"id": 1058,
+			"code": "MainMenuNewGameAlert",
+			"text": "Вы собираетесь удалить вашу игровую запись. ^^^ Вы уверены, что хотите сделать это?"
+		},
+		"MainMenuSave": {
+			"id": 1055,
+			"code": "MainMenuSave",
+			"text": "Сохранение"
+		},
+		"Match3BlockerText": {
+			"id": 1919,
+			"code": "Match3BlockerText",
+			"text": "Вы завершили игру и можете начать ее заново."
+		},
+		"Match3ButtonStart": {
+			"id": 1920,
+			"code": "Match3ButtonStart",
+			"text": "Спуститься в шахту"
+		},
+		"Match3ButtonUseKeys": {
+			"id": 1917,
+			"code": "Match3ButtonUseKeys",
+			"text": "Восполнить"
+		},
+		"Match3DifficultyEasy": {
+			"id": 1924,
+			"code": "Match3DifficultyEasy",
+			"text": "Сложность низкая"
+		},
+		"Match3DifficultyNormal": {
+			"id": 1923,
+			"code": "Match3DifficultyNormal",
+			"text": "Сложность высокая"
+		},
+		"Match3HelpBottom": {
+			"id": 1916,
+			"code": "Match3HelpBottom",
+			"text": "Или можете продолжить ее, восполнив шкалу времени за {0} отмычки."
+		},
+		"Match3LootHeader": {
+			"id": 1921,
+			"code": "Match3LootHeader",
+			"text": "Можно добыть:"
+		},
+		"Match3Mined": {
+			"id": 1925,
+			"code": "Match3Mined",
+			"text": "Добыто в шахтах"
+		},
+		"Match3Mines": {
+			"id": 1950,
+			"code": "Match3Mines",
+			"text": "Шахты"
+		},
+		"Match3Rating": {
+			"id": 1926,
+			"code": "Match3Rating",
+			"text": "Рейтинг шахтера"
+		},
+		"Match3Title": {
+			"id": 1915,
+			"code": "Match3Title",
+			"text": "СОБРАНО:"
+		},
+		"Match3Tutorial": {
+			"id": 1929,
+			"code": "Match3Tutorial",
+			"text": "Вы попали в одну из шахт. Здесь вы можете добывать ресурсы, разрушая линии одинаковых блоков и перемещая призы вниз. Каждая игра ограничена временем. Вы можете восполнить время в любой момент за отмычки."
+		},
+		"MentorManName": {
+			"id": 1065,
+			"code": "MentorManName",
+			"text": "Инструктор Веллос Юл"
+		},
+		"MentorWomanName": {
+			"id": 1066,
+			"code": "MentorWomanName",
+			"text": "Наставница Иса"
+		},
+		"MessageNoItems": {
+			"id": 502,
+			"code": "MessageNoItems",
+			"text": "У вас нет предметов выбранного типа."
+		},
+		"MsgGetRatingError": {
+			"id": 1104,
+			"code": "MsgGetRatingError",
+			"text": "Рейтинг недоступен, так как невозможно подключиться к Game Center. Возможно, отсутствует подключение к интернету."
+		},
+		"MsgRatingTimeout": {
+			"id": 1105,
+			"code": "MsgRatingTimeout",
+			"text": "Время ожидания подключения к Game Center истекло. Проверьте ваше соединение с интернетом."
+		},
+		"NeedMoreStars": {
+			"id": 1196,
+			"code": "NeedMoreStars",
+			"text": "Очки легендарности нужны для улучшения эпических вещей. Вы получаете их за рейтинг боя, также вы можете купить их в магазине."
+		},
+		"NewExecutionLabel": {
+			"id": 762,
+			"code": "NewExecutionLabel",
+			"text": "Новая казнь:"
+		},
+		"NoEpicItems": {
+			"id": 1194,
+			"code": "NoEpicItems",
+			"text": "Вы можете вложить эти очки в эпические вещи, чтобы улучшить их до легендарных.  Но в данный момент у вас нет одетых эпических вещей. Вы можете купить их в магазине."
+		},
+		"OpsFaqPage": {
+			"id": 1273,
+			"code": "OpsFaqPage",
+			"text": "Перейти на страницу учебника новичка"
+		},
+		"OpsMusicVolume": {
+			"id": 721,
+			"code": "OpsMusicVolume",
+			"text": "Громкость музыки"
+		},
+		"OpsRestartButton": {
+			"id": 723,
+			"code": "OpsRestartButton",
+			"text": "Меню"
+		},
+		"OpsRestartLabel": {
+			"id": 722,
+			"code": "OpsRestartLabel",
+			"text": "Выйти в главное меню"
+		},
+		"OpsSoundsVolume": {
+			"id": 720,
+			"code": "OpsSoundsVolume",
+			"text": "Громкость звуковых эффектов"
+		},
+		"OpsTeaserButton": {
+			"id": 725,
+			"code": "OpsTeaserButton",
+			"text": "Перейти"
+		},
+		"OpsTeaserLabel": {
+			"id": 724,
+			"code": "OpsTeaserLabel",
+			"text": "Перейти на web-страницу проекта"
+		},
+		"OpsTutorialToggle": {
+			"id": 912,
+			"code": "OpsTutorialToggle",
+			"text": "Включить подсказки"
+		},
+		"PauseButtonExit": {
+			"id": 911,
+			"code": "PauseButtonExit",
+			"text": "Покинуть бой"
+		},
+		"PauseButtonRestart": {
+			"id": 910,
+			"code": "PauseButtonRestart",
+			"text": "Начать заново"
+		},
+		"PauseButtonResume": {
+			"id": 909,
+			"code": "PauseButtonResume",
+			"text": "Вернуться в бой"
+		},
+		"PersClassAssassin": {
+			"id": 118,
+			"code": "PersClassAssassin",
+			"text": "Ассасин"
+		},
+		"PersClassDefender": {
+			"id": 120,
+			"code": "PersClassDefender",
+			"text": "Защитник"
+		},
+		"PersClassDestroyer": {
+			"id": 119,
+			"code": "PersClassDestroyer",
+			"text": "Разрушитель"
+		},
+		"PlayerAnger": {
+			"id": 245,
+			"code": "PlayerAnger",
+			"text": "Злость {0}%"
+		},
+		"PlayerExperience": {
+			"id": 244,
+			"code": "PlayerExperience",
+			"text": "Опыт {0}%"
+		},
+		"PlayerHealth": {
+			"id": 250,
+			"code": "PlayerHealth",
+			"text": "Жизнь"
+		},
+		"PlayerMagic": {
+			"id": 251,
+			"code": "PlayerMagic",
+			"text": "Магия"
+		},
+		"PlayerRage": {
+			"id": 249,
+			"code": "PlayerRage",
+			"text": "Отвага"
+		},
+		"PlayerStrength": {
+			"id": 252,
+			"code": "PlayerStrength",
+			"text": "Сила"
+		},
+		"PostScreenshotToFacebook": {
+			"id": 1167,
+			"code": "PostScreenshotToFacebook",
+			"text": "Скриншот в течение нескольких минут отправится на публикацию в Facebook."
+		},
+		"RatingSocialMessageFacebook": {
+			"id": 1133,
+			"code": "RatingSocialMessageFacebook",
+			"text": "У меня {0} очков в игре \"Джаггернаут: Месть Соверинга\" - подручные демона дрожат от страха! А какой счёт у тебя?"
+		},
+		"RatingSocialMessageFacebook341Error": {
+			"id": 1135,
+			"code": "RatingSocialMessageFacebook341Error",
+			"text": "В Facebook достигнут предел публикаций, попробуйте позже."
+		},
+		"RatingSocialMessageFacebookNotPosted": {
+			"id": 1134,
+			"code": "RatingSocialMessageFacebookNotPosted",
+			"text": "Не удалось отправить сообщение."
+		},
+		"RatingSocialMessageTwitter": {
+			"id": 1132,
+			"code": "RatingSocialMessageTwitter",
+			"text": "У меня {0} очков в игре \"Джаггернаут: Месть Соверинга\". А сколько у тебя?"
+		},
+		"ScarabDig": {
+			"id": 833,
+			"code": "ScarabDig",
+			"text": "Копать"
+		},
+		"ScarabFind": {
+			"id": 832,
+			"code": "ScarabFind",
+			"text": "Искать сокровища"
+		},
+		"ScarabInsufficient": {
+			"id": 845,
+			"code": "ScarabInsufficient",
+			"text": "Вы не можете искать сокровища, так как у вас закончились скарабеи. Вы всегда можете пополнить их запас в магазине в разделе \"Разное\"."
+		},
+		"Shop": {
+			"id": 260,
+			"code": "Shop",
+			"text": "Магазин"
+		},
+		"ShopAlreadyPurchased": {
+			"id": 792,
+			"code": "ShopAlreadyPurchased",
+			"text": "куплено"
+		},
+		"ShopAlreadyPuton": {
+			"id": 830,
+			"code": "ShopAlreadyPuton",
+			"text": "надето"
+		},
+		"ShopBuy": {
+			"id": 261,
+			"code": "ShopBuy",
+			"text": "Купить"
+		},
+		"ShopDivision01": {
+			"id": 765,
+			"code": "ShopDivision01",
+			"text": "Рекомендовано"
+		},
+		"ShopDivision02": {
+			"id": 766,
+			"code": "ShopDivision02",
+			"text": "Доспехи"
+		},
+		"ShopDivision03": {
+			"id": 767,
+			"code": "ShopDivision03",
+			"text": "Разное"
+		},
+		"ShopDivision04": {
+			"id": 768,
+			"code": "ShopDivision04",
+			"text": "Премиум"
+		},
+		"ShopDivision05": {
+			"id": 790,
+			"code": "ShopDivision05",
+			"text": "Реликвии"
+		},
+		"ShopItemsCount": {
+			"id": 355,
+			"code": "ShopItemsCount",
+			"text": "Количество"
+		},
+		"ShopItemsUnlocked": {
+			"id": 741,
+			"code": "ShopItemsUnlocked",
+			"text": "В магазине вам стали доступны новые товары:"
+		},
+		"ShopLevelTooLow": {
+			"id": 791,
+			"code": "ShopLevelTooLow",
+			"text": "Уровень {0} "
+		},
+		"ShopResetButton": {
+			"id": 262,
+			"code": "ShopResetButton",
+			"text": "Сбросить"
+		},
+		"ShopResetTime": {
+			"id": 263,
+			"code": "ShopResetTime",
+			"text": ""
+		},
+		"ShowTutorial": {
+			"id": 826,
+			"code": "ShowTutorial",
+			"text": "Включить подсказки?"
+		},
+		"SkillComboDesc": {
+			"id": 971,
+			"code": "SkillComboDesc",
+			"text": "Получив способность комбо-удара, вы обрели возможность наносить удар огромной силы. Враг не сможет ни увернуться от него, ни заблокировать его."
+		},
+		"SkillComboName": {
+			"id": 970,
+			"code": "SkillComboName",
+			"text": "Комбо-удар"
+		},
+		"SkillHeader": {
+			"id": 967,
+			"code": "SkillHeader",
+			"text": "Вы получили новую способность:"
+		},
+		"SkillMagicDesc": {
+			"id": 973,
+			"code": "SkillMagicDesc",
+			"text": "Теперь в боях вы сможете собирать ману и использовать магические приемы. Ваш герой уже владеет одним боевым заклинанием. Изучить другие заклинания вы можете при помощи своей книги магии."
+		},
+		"SkillMagicName": {
+			"id": 972,
+			"code": "SkillMagicName",
+			"text": "Колдовство"
+		},
+		"SkillRageDesc": {
+			"id": 975,
+			"code": "SkillRageDesc",
+			"text": "Эта способность позволяет вам управлять вашей яростью и обращать ее в специальные боевые приемы. Используя свою ярость, вы можете блокировать удары противника, выбивать из него ману, а также превращаться в берсерка."
+		},
+		"SkillRageName": {
+			"id": 974,
+			"code": "SkillRageName",
+			"text": "Ярость"
+		},
+		"SocialAchivMessage": {
+			"id": 952,
+			"code": "SocialAchivMessage",
+			"text": "Я прошел испытание \"{0}\""
+		},
+		"SocialAchivMessageFacebook": {
+			"id": 1131,
+			"code": "SocialAchivMessageFacebook",
+			"text": "Мной пройдено испытание \"{0}\" - логово демона всё ближе! Сможешь убить Соверинга раньше?!"
+		},
+		"SocialAchivMessageFacebook1": {
+			"id": 968,
+			"code": "SocialAchivMessageFacebook1",
+			"text": "Джаггернаут: Месть Соверинга"
+		},
+		"SocialAchivMessageFacebook2": {
+			"id": 969,
+			"code": "SocialAchivMessageFacebook2",
+			"text": ""
+		},
+		"SocialAchivMessageTwitter": {
+			"id": 1130,
+			"code": "SocialAchivMessageTwitter",
+			"text": "Я прошел испытание \"{0}\""
+		},
+		"SovHeader": {
+			"id": 730,
+			"code": "SovHeader",
+			"text": "Демон скорби Соверинг"
+		},
+		"SovText": {
+			"id": 731,
+			"code": "SovText",
+			"text": "Грозный демон, в былые времена терзавший жителей Харадана и\nпобежденный лишь ценой насчетного числа жизней. Сегодня по\nчьей-то злой воле Соверинг пробудился и вновь набирает силу.\nВаш долг - остановить страшное прождение тьмы, пока оно не\nпревратило земли Радвея и Дорхейма в царство кошмаров."
+		},
+		"StarUpgradeHelp": {
+			"id": 1195,
+			"code": "StarUpgradeHelp",
+			"text": "Укажите эпическую вещь, которую хотите улучшить до легендарной."
+		},
+		"Tut1_1": {
+			"id": 812,
+			"code": "Tut1_1",
+			"text": "Чтобы атаковать монстра, нажмите на один из зеленых секторов под ним. ^^ \nКрасный сектор показывает направление взгляда монстра. Он увернется или блокирует атаку в этом направлении."
+		},
+		"Tut1_2": {
+			"id": 824,
+			"code": "Tut1_2",
+			"text": "Нажмите на зелёный сектор, чтобы атаковать монстра"
+		},
+		"Tut2_1": {
+			"id": 814,
+			"code": "Tut2_1",
+			"text": "Справа расположена кнопка комбо-удара. Последовательно нанося удары в указанных направлениях, вы сможете совершить супер-удар. "
+		},
+		"Tut2_2": {
+			"id": 825,
+			"code": "Tut2_2",
+			"text": "Дождитесь момента, когда враг не будет следить за направлением вашей атаки, и нажмите кнопку комбо-удара"
+		},
+		"Tut4_1": {
+			"id": 815,
+			"code": "Tut4_1",
+			"text": "Во время боя есть вероятность выбить из врага синие сгустки маны. Они пригодятся вам для сотворения заклинаний."
+		},
+		"Tut4_1_1": {
+			"id": 827,
+			"code": "Tut4_1_1",
+			"text": "Нажмите на синий сгусток, чтобы собрать ману"
+		},
+		"Tut4_2": {
+			"id": 816,
+			"code": "Tut4_2",
+			"text": "В левой части экрана расположена панель заклинаний. Вы сможете сотворить заклинание, когда накопите достаточно маны."
+		},
+		"Tut4_2_2": {
+			"id": 828,
+			"code": "Tut4_2_2",
+			"text": "Нажмите на иконку магии"
+		},
+		"Tut6_1": {
+			"id": 817,
+			"code": "Tut6_1",
+			"text": "Во время вражеских атак возле вас с некоторой вероятностью могут возникнуть красные сгустки ярости. Собирайте их, они необходимы для активации специальных способностей."
+		},
+		"Tut6_1_2": {
+			"id": 829,
+			"code": "Tut6_1_2",
+			"text": "Нажмите на алый сгусток, чтобы собрать ярость"
+		},
+		"TutAchievmentButton": {
+			"id": 1033,
+			"code": "TutAchievmentButton",
+			"text": "Вы получили одно из игровых достижений. Посмотреть все существующие достижения, а также сравнить свой успех с другими пользователями вы можете, нажав на эту кнопку."
+		},
+		"TutBagExp": {
+			"id": 927,
+			"code": "TutBagExp",
+			"text": "У вас появился артефакт, дающий бонус \"Опыт\". Этот бонус определяет, сколько дополнительно % опыта вы получите за выигранный бой."
+		},
+		"TutBagMagic": {
+			"id": 929,
+			"code": "TutBagMagic",
+			"text": "У вас появился артефакт, дающий бонус одному из типов магии. Этот бонус определяет, на сколько % вырастет убойная сила заклинаний данного типа магии."
+		},
+		"TutBagMana": {
+			"id": 926,
+			"code": "TutBagMana",
+			"text": "У вас появился артефакт, дающий бонус \"Мана\". Этот бонус определяет, сколько дополнительных сгустков маны вы можете получить. Если бонус равен 2 - это значит, что вы с большой вероятностью можете получить  от 1 до 2 дополнительных сгустков маны."
+		},
+		"TutBagMoney": {
+			"id": 928,
+			"code": "TutBagMoney",
+			"text": "У вас появился артефакт, дающий бонус \"Деньги\". Этот бонус определяет, сколько дополнительно золота вы получите после победы в боях."
+		},
+		"TutBagRage": {
+			"id": 925,
+			"code": "TutBagRage",
+			"text": "У вас появился артефакт, дающий бонус \"Гнев\". Этот бонус определяет, сколько дополнительных сгустков ярости вы можете получить в бою. Если бонус равен 1 - это значит, что вы с большой вероятностью можете получить 1 дополнительный сгусток ярости."
+		},
+		"TutBattleTurn": {
+			"id": 915,
+			"code": "TutBattleTurn",
+			"text": "Обратите внимание, что бой в игре происходит по ходам. Сначала бьете вы, затем противник вам отвечает. На каждый ход вам дается несколько секунд. В верхней части экрана есть красная полоска, которая показывает оставшееся у вас время на ход."
+		},
+		"TutEndChests": {
+			"id": 916,
+			"code": "TutEndChests",
+			"text": "Вы выкопали все зарытые здесь сокровища. Найти новые вы сможете на других освобожденных территориях."
+		},
+		"TutEpicItemPuton": {
+			"id": 1201,
+			"code": "TutEpicItemPuton",
+			"text": "У вас появилась эпическая вещь, которую вы можете улучшить до легендарной. Для этого вам надо вложить в нее необходимое количество очков легендарности, которые вы получаете за каждый бой, согласно его рейтингу."
+		},
+		"TutEye": {
+			"id": 818,
+			"code": "TutEye",
+			"text": "Накопленная вами ярость привлекает  Око Хаоса, которое питается ею. Чем больше вы накопили ярости, тем чаще оно появляется. Вам нужно уничтожить Око Хаоса прежде, чем оно успеет поглотить вашу ярость."
+		},
+		"TutEye_2": {
+			"id": 823,
+			"code": "TutEye_2",
+			"text": "Чтобы уничтожить Око Хаоса, нажимайте на него до тех пор, пока оно не взорвется"
+		},
+		"TutFallingStarPhrase1": {
+			"id": 1244,
+			"code": "TutFallingStarPhrase1",
+			"text": "Иногда в процессе боя вы будете видеть падающую звезду. Успейте собрать ее, чтобы получить бонусное очко легендарности в конце боя."
+		},
+		"TutFallingStarPhrase2": {
+			"id": 1245,
+			"code": "TutFallingStarPhrase2",
+			"text": "Нажмите на звезду, чтобы получить бонус в конце боя"
+		},
+		"TutFirstMagicBook": {
+			"id": 948,
+			"code": "TutFirstMagicBook",
+			"text": "В этой магической книге вы можете изучать новые заклинания, а также улучшать имеющиеся. Для этого вам нужны магические черепа и определенное магическое мастерство. Увеличить последнее можно, используя в бою магию."
+		},
+		"TutFirstMobAttack": {
+			"id": 947,
+			"code": "TutFirstMobAttack",
+			"text": "На эту территорию напал агрессивный монстр. Вам нужно как можно быстрей уничтожить его. В противном случае он будет убивать местное население."
+		},
+		"TutFirstMoneyPile": {
+			"id": 922,
+			"code": "TutFirstMoneyPile",
+			"text": "На освобожденных территориях местное население собирает для вас золото.  Чем больше население, тем больше денег они вам приносят. Увеличивается население само по себе со временем. Периодически возвращайтесь на освобожденные территории, чтобы забрать собранное для вас золото."
+		},
+		"TutGotLevel": {
+			"id": 934,
+			"code": "TutGotLevel",
+			"text": "Вы перешли на новый уровень и вам стали доступны три новые вещи.  Зайдите в магазин и купите там пояс, наруч и кирасу, в них вы станете сильней. Вас ждет бой с Боссом и эти вещи вам помогут."
+		},
+		"TutImmBattle": {
+			"id": 907,
+			"code": "TutImmBattle",
+			"text": "Вы только что применили магию, к которой враг имеет иммунитет. Используйте альтернативные заклинания. Магический иммунитет врага пишется перед боем рядом с его названием."
+		},
+		"TutImmZ": {
+			"id": 908,
+			"code": "TutImmZ",
+			"text": "Вы столкнулись с врагом, который имеет иммунитет к определенным типам магии. Он указан в виде значка магии справа от названия монстра. В бою с ним старайтесь использовать любую другую магию. Если другая магия у вас не изучена, вы можете сделать это в своей магической книге."
+		},
+		"TutLocationScarab": {
+			"id": 924,
+			"code": "TutLocationScarab",
+			"text": "Освободив территорию от монстров, вы можете заняться поиском зарытых там сундуков с сокровищами. Среди сокровищ можно найти магические амулеты, кольца, серьги и другие крайне полезные предметы. Для поиска сокровищ нажмите эту кнопку."
+		},
+		"TutMagicBookButton": {
+			"id": 990,
+			"code": "TutMagicBookButton",
+			"text": "С получением способности \"Колдовство\", вам стала доступна книга магии. "
+		},
+		"TutPlayerDefeat": {
+			"id": 923,
+			"code": "TutPlayerDefeat",
+			"text": "Проиграв бой, вы не получаете никаких штрафов за это и можете легко переиграть его снова. Если вам не удается победить врага, завершите бой и посетите магазин. Там купите доступные доспехи и боеприпасы, чтобы усилить вашего героя."
+		},
+		"TutResurrection": {
+			"id": 834,
+			"code": "TutResurrection",
+			"text": "При комбо-ударах есть вероятность присвоить себе душу врага, которая помещается в специальный предмет - Анкх. После победы над врагом Анкх автоматически используется для воскрешения противника и совершения над ним \nкровавой казни\n"
+		},
+		"TutSearchTreasure": {
+			"id": 837,
+			"code": "TutSearchTreasure",
+			"text": "Искать сокровища вы можете при помощи скарабеев, для этого перемещайте его по местности и внимательно следите за его свечением. Чем он ближе к кладу, тем оно сильней. Оказавшись над кладом, он начнет махать крыльями. Смело копайте в этом месте."
+		},
+		"TutShop": {
+			"id": 914,
+			"code": "TutShop",
+			"text": "В магазине вы можете тратить накопленное золото. В его главном разделе \"Рекомендуемое\" находятся доспехи, доступные вам по уровню и которые лучше ваших текущих. Также здесь продаются Боеприпасы, с помощью них можно выигрывать даже очень сложные бои."
+		},
+		"TutShopFilter2": {
+			"id": 930,
+			"code": "TutShopFilter2",
+			"text": "В этом разделе представлены все доступные в игре доспехи."
+		},
+		"TutShopFilter3": {
+			"id": 931,
+			"code": "TutShopFilter3",
+			"text": "В этом разделе можно всегда найти скарабеев, которые нужны для поиска сокровищ. Магические черепа, необходимые для улучшения ваших заклинаний. И отмычки, которые помогут вам взломать найденные сундуки с сокровищами."
+		},
+		"TutShopFilter4": {
+			"id": 932,
+			"code": "TutShopFilter4",
+			"text": "В разделе \"Премиум\" вы можете приобрести комплекты со скидками и специальные артефакты."
+		},
+		"TutShopFilter5": {
+			"id": 933,
+			"code": "TutShopFilter5",
+			"text": "В разделе \"Реликвии\" вы можете ознакомиться с предметами, которые нельзя купить, а можно только получить за те или иные заслуги."
+		},
+		"TutSliceAttack1": {
+			"id": 995,
+			"code": "TutSliceAttack1",
+			"text": "Вы можете атаковать врага не только нажимая на сектора, но и совершая движения пальцем по экрану в нужном направлении."
+		},
+		"TutSliceAttack2": {
+			"id": 996,
+			"code": "TutSliceAttack2",
+			"text": "Проведите пальцем по экрану слева направо для атаки в левую зону врага"
+		},
+		"TutSliceAttack3": {
+			"id": 997,
+			"code": "TutSliceAttack3",
+			"text": "Для закрепления ударьте врага в правую зону"
+		},
+		"TutStrongMagic": {
+			"id": 819,
+			"code": "TutStrongMagic",
+			"text": "Чтобы увернуться от магической атаки, повторите указанную последовательность шагов"
+		},
+		"WeakMagicMessage": {
+			"id": 585,
+			"code": "WeakMagicMessage",
+			"text": "Успейте собрать всю чёрную ману монстра, чтобы избежать его магической атаки."
+		},
+		"supportXCodeAlertClose": {
+			"id": 985,
+			"code": "supportXCodeAlertClose",
+			"text": "Закрыть"
+		},
+		"supportXCodeClose": {
+			"id": 980,
+			"code": "supportXCodeClose",
+			"text": "Закрыть"
+		},
+		"supportXCodeEMail": {
+			"id": 977,
+			"code": "supportXCodeEMail",
+			"text": "e-mail"
+		},
+		"supportXCodeEnterDesc": {
+			"id": 984,
+			"code": "supportXCodeEnterDesc",
+			"text": "Введите описание проблемы"
+		},
+		"supportXCodeEnterEmail": {
+			"id": 982,
+			"code": "supportXCodeEnterEmail",
+			"text": "Укажите Ваш E-mail для обратной связи:"
+		},
+		"supportXCodeEnterSubject": {
+			"id": 983,
+			"code": "supportXCodeEnterSubject",
+			"text": "Укажите тему сообщения:"
+		},
+		"supportXCodeError": {
+			"id": 981,
+			"code": "supportXCodeError",
+			"text": "Ошибка"
+		},
+		"supportXCodeInvEmail": {
+			"id": 986,
+			"code": "supportXCodeInvEmail",
+			"text": "Недопустимый электронный адрес. Проверьте правильность его ввода."
+		},
+		"supportXCodePosted": {
+			"id": 987,
+			"code": "supportXCodePosted",
+			"text": "Ваше сообщение отправлено"
+		},
+		"supportXCodeSend": {
+			"id": 979,
+			"code": "supportXCodeSend",
+			"text": "Отправить"
+		},
+		"supportXCodeText": {
+			"id": 976,
+			"code": "supportXCodeText",
+			"text": "Если у Вас возникла проблема, которую вы не можете решить самостоятельно или нашли ошибку, то можете обратиться в нашу службу поддержки."
+		},
+		"supportXCodeTheme": {
+			"id": 978,
+			"code": "supportXCodeTheme",
+			"text": "Тема"
+		}
+	}
+}

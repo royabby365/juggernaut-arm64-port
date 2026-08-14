@@ -1,0 +1,264 @@
+{
+	"persArtikuls": {
+		"33": {
+			"id": 33,
+			"title": "Torus",
+			"description": "Najemny zabójca w przeszłości, Torus, został skazany na \npowieszenie, ale zdołał uciec i znalazł azyl u \nSkorpionów. Niezwykle okrutny, napawa się przemocą. Jego ulubioną \nbronią jest glewia, w walce odznacza się przebiegłością i w \ndrodze do zwycięstwa gotów iść po trupach.",
+			"class": "2",
+			"sex": "1",
+			"level": 1,
+			"clothingOptions": "",
+			"money": {
+				"1": 150,
+				"3": 10
+			},
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 100,
+					"maxValue": 100
+				},
+				"2": {
+					"typeId": "STR",
+					"minValue": 110,
+					"maxValue": 110
+				},
+				"3": {
+					"typeId": "RAG",
+					"minValue": 50,
+					"maxValue": 50
+				},
+				"4": {
+					"typeId": "SOR",
+					"minValue": 70,
+					"maxValue": 70
+				}
+			},
+			"totalWeight": 0,
+			"selectSet": "14",
+			"selectWeapon": "14",
+			"selectHair": "",
+			"startSpell": 227,
+			"feature": "Silna magia",
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"427": {
+			"id": 427,
+			"title": "Langerd",
+			"description": "Były osobisty ochroniarz imperatora Krejna zawsze jest ponury i potwornie podejrzliwy. Włada ogromną fizyczną siłą i zalicza się do najlepszych mistrzów walki dwuręcznym mieczem, a ponieważ najcięższa zbroja to dla niego piórko, jest praktycznie nie do pokonania w walce.",
+			"class": "3",
+			"sex": "1",
+			"level": 1,
+			"clothingOptions": "",
+			"money": {
+				"1": 150,
+				"3": 10
+			},
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 100,
+					"maxValue": 100
+				},
+				"2": {
+					"typeId": "STR",
+					"minValue": 130,
+					"maxValue": 130
+				},
+				"3": {
+					"typeId": "RAG",
+					"minValue": 70,
+					"maxValue": 70
+				},
+				"4": {
+					"typeId": "SOR",
+					"minValue": 10,
+					"maxValue": 10
+				}
+			},
+			"totalWeight": 0,
+			"selectSet": "13",
+			"selectWeapon": "13",
+			"selectHair": "",
+			"startSpell": 233,
+			"feature": "Duża siła ciosu",
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"428": {
+			"id": 428,
+			"title": "Rogwor",
+			"description": "Jeden z 12 legendarnych wojowników, którzy zdobyli głośny tytuł r\nniszczyciela. Przyznany mu za to, że w pojedynkę\npowstrzymał i zmusił do ucieczki całe wojskor\nzwiergów. Szalenie odważny i zdecydowany. W walce szybko wpada\nw szał i, kiedy zapłonie wojowniczą\nwściekłością, nie czuje ani bólu, ani zmęczenia.",
+			"class": "1",
+			"sex": "1",
+			"level": 1,
+			"clothingOptions": "",
+			"money": {
+				"1": 150,
+				"3": 10
+			},
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 100,
+					"maxValue": 100
+				},
+				"2": {
+					"typeId": "STR",
+					"minValue": 110,
+					"maxValue": 110
+				},
+				"3": {
+					"typeId": "RAG",
+					"minValue": 90,
+					"maxValue": 90
+				},
+				"4": {
+					"typeId": "SOR",
+					"minValue": 30,
+					"maxValue": 30
+				}
+			},
+			"totalWeight": 0,
+			"selectSet": "21",
+			"selectWeapon": "21",
+			"selectHair": "",
+			"startSpell": 53,
+			"feature": "Krytyczne uderzenia",
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"429": {
+			"id": 429,
+			"title": "Urszula",
+			"description": "Ta dorodna dziewczyna nigdy nie rozstaje się ze swoim \nolbrzymim młotem. Przeszła z nim przez\nnajgorętsze starcia Haradanu, miażdżyła zbroje i\nczaszki. W walce Urszula kompletnie traci\ngłowę, tak bardzo napawa się widokiem krwi, a po pierwszym ciosie\nprzeobraża się w opętanego żądzą mordowania demona z\nkobiecą twarzą.",
+			"class": "1",
+			"sex": "2",
+			"level": 1,
+			"clothingOptions": "",
+			"money": {
+				"1": 150,
+				"3": 10
+			},
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 100,
+					"maxValue": 100
+				},
+				"2": {
+					"typeId": "STR",
+					"minValue": 110,
+					"maxValue": 110
+				},
+				"3": {
+					"typeId": "RAG",
+					"minValue": 130,
+					"maxValue": 130
+				},
+				"4": {
+					"typeId": "SOR",
+					"minValue": 20,
+					"maxValue": 20
+				}
+			},
+			"totalWeight": 0,
+			"selectSet": "12",
+			"selectWeapon": "9",
+			"selectHair": "2;9",
+			"startSpell": 230,
+			"feature": "Krytyczne uderzenia",
+			"minVersion": "1.0",
+			"maxVersion": null,
+			"bonus": null
+		},
+		"430": {
+			"id": 430,
+			"title": "Kira",
+			"description": "Kira straciła rodziców i spędziła dzieciństwo w\ncyrku, gdzie nabrała niespotykanej gibkości i\nzwinności. To dlatego jest prawie poza zasięgiem dla obcych ciosów,\ndo tego skrada się cicho jak wąż. Dzięki swym\numiejętnościom Kira - zanim nie przeszła\ndo Skorpionów - zaliczała się do najlepszych zwiadczyń\nStalowej Kohorty.",
+			"class": "2",
+			"sex": "2",
+			"level": 1,
+			"clothingOptions": "",
+			"money": {
+				"1": 150,
+				"3": 10
+			},
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 120,
+					"maxValue": 120
+				},
+				"2": {
+					"typeId": "STR",
+					"minValue": 110,
+					"maxValue": 110
+				},
+				"3": {
+					"typeId": "RAG",
+					"minValue": 50,
+					"maxValue": 50
+				},
+				"4": {
+					"typeId": "SOR",
+					"minValue": 15,
+					"maxValue": 15
+				}
+			},
+			"totalWeight": 0,
+			"selectSet": "20",
+			"selectWeapon": "20",
+			"selectHair": "2;1",
+			"startSpell": 53,
+			"feature": "Dużo życia",
+			"minVersion": "1.0",
+			"maxVersion": null
+		},
+		"1861": {
+			"id": 1861,
+			"title": "Hekate",
+			"description": "Hekate, która była dziedziczką znamienitego rodu, straciła cały swój majątek w krwawych zatargach. Zasmakowawszy nędzy, przyrzekła sobie, że już nigdy więcej nie zazna głodu. Teraz po świecie krążą legendy o jej umiejętności zdobywania legendarnych bogactw.",
+			"class": "3",
+			"sex": "2",
+			"level": 1,
+			"clothingOptions": "",
+			"money": {
+				"1": 300,
+				"3": 15
+			},
+			"skills": {
+				"1": {
+					"typeId": "VIT",
+					"minValue": 100,
+					"maxValue": 100
+				},
+				"2": {
+					"typeId": "STR",
+					"minValue": 100,
+					"maxValue": 100
+				},
+				"3": {
+					"typeId": "RAG",
+					"minValue": 70,
+					"maxValue": 70
+				},
+				"4": {
+					"typeId": "SOR",
+					"minValue": 30,
+					"maxValue": 30
+				}
+			},
+			"totalWeight": 0,
+			"selectSet": "10",
+			"selectWeapon": "10",
+			"selectHair": "3;9",
+			"startSpell": 230,
+			"feature": "Znajduje więcej pieniędzy",
+			"minVersion": "2.1",
+			"maxVersion": null,
+			"bonus": 301
+		}
+	}
+}

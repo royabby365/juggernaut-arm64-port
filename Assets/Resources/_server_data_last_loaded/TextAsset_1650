@@ -1,0 +1,29 @@
+{
+	"colors": {
+		"27": {
+			"id": 27,
+			"title": "Grigio",
+			"code": "gray"
+		},
+		"28": {
+			"id": 28,
+			"title": "Verde",
+			"code": "green"
+		},
+		"29": {
+			"id": 29,
+			"title": "Blu",
+			"code": "blue"
+		},
+		"30": {
+			"id": 30,
+			"title": "Viola",
+			"code": "purple"
+		},
+		"31": {
+			"id": 31,
+			"title": "Rosso",
+			"code": "red"
+		}
+	}
+}

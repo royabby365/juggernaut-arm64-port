@@ -1,0 +1,5536 @@
+////////////////////////////////////////////////////////////////////
+// VARIABLES
+////////////////////////////////////////////////////////////////////
+
+//---CAMERA---//
+
+var camspeed1 1;
+
+////////////////////////////////////////////////////////////////////
+// SOUND
+////////////////////////////////////////////////////////////////////
+
+//-----------------------------GLOBAL-----------------------------//
+
+$global_snd_fatality_start {sound(fatality_start);}
+$global_snd_fatality_exp {sound(fatality_main);}
+
+$global_snd_magic_baf_berserk {sound(magic_baf_berserk);}
+$global_snd_magic_baf_crit {sound(magic_baf_crit);}
+
+$global_snd_botles_crit {sound(botles_crit);}
+$global_snd_botles_dispell {sound(botles_dispell);}
+$global_snd_botles_healself {sound(botles_healself);}
+$global_snd_botles_power {sound(botles_power);}
+$global_snd_botles_redirect {sound(botles_redirect);}
+$global_snd_botles_strenght {sound(botles_strenght);}
+$global_snd_botles_vampir {sound(botles_vampir);}
+
+//-----------------------------PLAYER-----------------------------//
+
+//---ATTACK---//
+
+$global_snd_attack {
+ #ifweapon(1);
+  #random(50, skick1); sound(local_kick1); random#;
+  #random(100, skick1); sound(local_kick1); random#;
+ ifweapon#;
+ #ifweapon(0,1);
+  #random(50, satk1); sound(local_attack1); random#;
+  #random(50, satk1); sound(local_attack2); random#;
+  #random(100, satk1); sound(local_attack3); random#;
+ ifweapon#;
+ #ifweapon(0,0,1);
+  #random(50, satk1); sound(local_attack_1_2hsw); random#;
+  #random(100, satk1); sound(local_attack_2_2hsw); random#;
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  #random(50, satk1); sound(local_attack_1_hmr); random#;
+  #random(100, satk1); sound(local_attack_2_hmr); random#;
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  #random(50, satk1); sound(local_attack_1_glv); random#;
+  #random(100, satk1); sound(local_attack_2_glv); random#;
+ ifweapon#;
+}
+
+$global_snd_attack_left {
+ #ifweapon(1);
+  #random(50, skick1); sound(local_kick1); random#;
+  #random(100, skick1); sound(local_kick1); random#;
+ ifweapon#;
+ #ifweapon(0,1);
+  #random(50, satk1); sound(local_attack1); random#;
+  #random(50, satk1); sound(local_attack2); random#;
+  #random(100, satk1); sound(local_attack3); random#;
+ ifweapon#;
+ #ifweapon(0,0,1);
+  #random(50, smathmr1); wait(0.1); sound(local_attack_left_1_2hsw); random#;
+  #random(100, smathmr1); wait(0.1); sound(local_attack_left_2_2hsw); random#;
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  #random(50, smathmr1); wait(0.1); sound(local_attack_left_1_hmr); random#;
+  #random(100, smathmr1); wait(0.1); sound(local_attack_left_2_hmr); random#;
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  #random(50, smathmr1); wait(0.1); sound(local_attack_left_1_glv); random#;
+  #random(100, smathmr1); wait(0.1); sound(local_attack_left_2_glv); random#;
+ ifweapon#;
+}
+
+$global_snd_attack_right {
+ #ifweapon(1);
+  #random(50, skick1); sound(local_kick1); random#;
+  #random(100, skick1); sound(local_kick1); random#;
+ ifweapon#;
+ #ifweapon(0,1);
+  #random(50, satk1); sound(local_attack1); random#;
+  #random(50, satk1); sound(local_attack2); random#;
+  #random(100, satk1); sound(local_attack3); random#;
+ ifweapon#;
+ #ifweapon(0,0,1);
+  #random(50, smathmr2); wait(0.1); sound(local_attack_right_1_2hsw); random#;
+  #random(100, smathmr2); wait(0.1); sound(local_attack_right_2_2hsw); random#;
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  #random(50, smathmr2); wait(0.1); sound(local_attack_right_1_hmr); random#;
+  #random(100, smathmr2); wait(0.1); sound(local_attack_right_2_hmr); random#;
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  #random(50, smathmr2); wait(0.1); sound(local_attack_right_1_glv); random#;
+  #random(100, smathmr2); wait(0.1); sound(local_attack_right_2_glv); random#;
+ ifweapon#;
+}
+
+$global_snd_attack_force {
+ #ifweapon(0,1);
+  #random(50, satk1); sound(local_attack1); random#;
+  #random(50, satk1); sound(local_attack2); random#;
+  #random(100, satk1); sound(local_attack3); random#;
+ ifweapon#;
+ #ifweapon(0,0,1);
+  #random(50, satk1); sound(local_attack_1_2hsw); random#;
+  #random(100, satk1); sound(local_attack_2_2hsw); random#;
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  #random(50, satk1); sound(local_attack_1_hmr); random#;
+  #random(100, satk1); sound(local_attack_2_hmr); random#;
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  #random(50, satk1); sound(local_attack_1_glv); random#;
+  #random(100, satk1); sound(local_attack_2_glv); random#;
+ ifweapon#;
+}
+
+$global_snd_attack_uppercut {
+ #ifweapon(0,1);
+  #random(50, satk1); sound(local_attack1); random#;
+  #random(50, satk1); sound(local_attack2); random#;
+  #random(100, satk1); sound(local_attack3); random#;
+ ifweapon#;
+ #ifweapon(0,0,1);
+  #random(50, smathmr3); wait(0.1); sound(local_attack_uppercut_1_2hsw); random#;
+  #random(100, smathmr3); wait(0.1); sound(local_attack_uppercut_2_2hsw); random#;
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  #random(50, smathmr3); wait(0.1); sound(local_attack_uppercut_1_hmr); random#;
+  #random(100, smathmr3); wait(0.1); sound(local_attack_uppercut_2_hmr); random#;
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  #random(50, smathmr3); wait(0.1); sound(local_attack_uppercut_1_glv); random#;
+  #random(100, smathmr3); wait(0.1); sound(local_attack_uppercut_2_glv); random#;
+ ifweapon#;
+}
+
+$global_snd_attack_super {
+ #ifweapon(0,1);
+  #random(50, satk1); sound(local_attack1); random#;
+  #random(50, satk1); sound(local_attack2); random#;
+  #random(100, satk1); sound(local_attack3); random#;
+ ifweapon#;
+ #ifweapon(0,0,1);
+  sound(local_attack_super_voice_2hsw);
+  sound(local_attack_super_2hsw);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  sound(local_attack_super_voice_hmr);
+  sound(local_attack_super_hmr,0.3);
+  sound(local_attack_super_hmr_w);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  sound(local_attack_super_voice_glv);
+  sound(local_attack_super_glv,0.3);
+  sound(local_attack_super_glv_w);
+  wait(2.2);
+  sound(local_attack_super_step_glv);
+ ifweapon#;
+}
+
+//-----------------------------MAGIC-----------------------------//
+
+//---DIRECT---//
+
+$global_snd_magic_fire {
+ #ifweapon(1);
+  sound(magic_fire);
+ ifweapon#;
+ #ifweapon(0,1);
+  sound(magic_fire);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  sound(local_magic_direct_fire_2hsw);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  sound(local_magic_direct_fire_hmr);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  sound(local_magic_direct_fire_glv);
+ ifweapon#;
+}
+
+$global_snd_magic_ice {
+ #ifweapon(1);
+  sound(magic_ice);
+ ifweapon#;
+ #ifweapon(0,1);
+  sound(magic_ice);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  sound(local_magic_direct_ice_2hsw,0.3);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  sound(local_magic_direct_ice_hmr,0.3);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  sound(local_magic_direct_ice_glv);
+ ifweapon#;
+}
+
+$global_snd_magic_light {
+ #ifweapon(1);
+  sound(magic_light);
+ ifweapon#;
+ #ifweapon(0,1);
+  sound(magic_light);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  sound(local_magic_direct_light_2hsw);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  sound(local_magic_direct_light_hmr);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  sound(local_magic_direct_light_glv);
+ ifweapon#;
+}
+
+$global_snd_magic_dark {
+ #ifweapon(1);
+  sound(magic_dark);
+ ifweapon#;
+ #ifweapon(0,1);
+  sound(magic_dark);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  sound(local_magic_direct_dark_2hsw);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  sound(local_magic_direct_dark_hmr);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  sound(local_magic_direct_dark_glv);
+ ifweapon#;
+}
+
+$global_snd_magic_electro {
+ #ifweapon(1);
+  sound(magic_electro);
+ ifweapon#;
+ #ifweapon(0,1);
+  sound(magic_electro);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  sound(local_magic_direct_electro_2hsw,0.4);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  sound(local_magic_direct_electro_hmr);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  sound(local_magic_direct_electro_glv);
+ ifweapon#;
+}
+
+$global_snd_magic_acid {
+ #ifweapon(1);
+  sound(magic_acid);
+ ifweapon#;
+ #ifweapon(0,1);
+  sound(magic_acid);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  sound(local_magic_direct_acid_2hsw);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  sound(local_magic_direct_acid_hmr);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  sound(local_magic_direct_acid_glv);
+ ifweapon#;
+}
+
+//---AOE---//
+
+$global_snd_magic_aoe_fire {
+ #ifweapon(1);
+  sound(magic_fire);
+ ifweapon#;
+ #ifweapon(0,1);
+  sound(magic_fire);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  sound(local_magic_aoe_fire_2hsw,0.2);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  sound(local_magic_aoe_fire_hmr);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  sound(local_magic_aoe_fire_glv);
+ ifweapon#;
+}
+
+$global_snd_magic_aoe_ice {
+ #ifweapon(1);
+  sound(magic_ice);
+ ifweapon#;
+ #ifweapon(0,1);
+  sound(magic_ice);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  sound(local_magic_aoe_ice_2hsw,0.5);
+  sound(local_magic_aoe_ice_2hsw_w,0.2);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  sound(local_magic_aoe_ice_hmr,0.5);
+  sound(local_magic_aoe_ice_hmr_w);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  sound(local_magic_aoe_ice_glv,0.2);
+  sound(local_magic_aoe_ice_glv_w);
+ ifweapon#;
+}
+
+$global_snd_magic_aoe_light {
+ #ifweapon(1);
+  sound(magic_light);
+ ifweapon#;
+ #ifweapon(0,1);
+  sound(magic_light);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  sound(local_magic_aoe_light_2hsw,0.2);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  sound(local_magic_aoe_light_hmr);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  sound(local_magic_aoe_light_glv);
+ ifweapon#;
+}
+
+$global_snd_magic_aoe_dark {
+ #ifweapon(1);
+  sound(magic_dark);
+ ifweapon#;
+ #ifweapon(0,1);
+  sound(magic_dark);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  sound(local_magic_aoe_dark_2hsw,0.2);
+  sound(local_magic_aoe_dark_2hsw_w);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  sound(local_magic_aoe_dark_hmr);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  sound(local_magic_aoe_dark_glv);
+ ifweapon#;
+}
+
+$global_snd_magic_aoe_electro {
+ #ifweapon(1);
+  sound(magic_electro);
+ ifweapon#;
+ #ifweapon(0,1);
+  sound(magic_electro);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  sound(local_magic_aoe_electro_2hsw,0.2);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  sound(local_magic_aoe_electro_hmr,0.4);
+  sound(local_magic_aoe_electro_hmr_w);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  sound(local_magic_aoe_electro_glv,0.4);
+  sound(local_magic_aoe_electro_glv_w);
+ ifweapon#;
+}
+
+$global_snd_magic_aoe_acid {
+ #ifweapon(1);
+  sound(magic_acid);
+ ifweapon#;
+ #ifweapon(0,1);
+  sound(magic_acid);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  sound(local_magic_aoe_acid_2hsw,0.2);
+  sound(local_magic_aoe_acid_2hsw_w);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  sound(local_magic_aoe_acid_hmr);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  sound(local_magic_aoe_acid_glv);
+ ifweapon#;
+}
+
+//---BUFF---//
+
+$global_snd_magic_baf_fire {
+ #ifweapon(1);
+  sound(baf_fire);
+ ifweapon#;
+ #ifweapon(0,1);
+  sound(baf_fire);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  sound(local_magic_buff_fire_2hsw);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  sound(local_magic_buff_fire_hmr);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  sound(local_magic_buff_fire_glv);
+ ifweapon#;
+}
+
+$global_snd_magic_baf_ice {
+ #ifweapon(1);
+  sound(baf_ice);
+ ifweapon#;
+ #ifweapon(0,1);
+  sound(baf_ice);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  sound(local_magic_buff_ice_2hsw);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  sound(local_magic_buff_ice_hmr);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  sound(local_magic_buff_ice_glv);
+ ifweapon#;
+}
+
+$global_snd_magic_baf_light {
+ #ifweapon(1);
+  sound(baf_light);
+ ifweapon#;
+ #ifweapon(0,1);
+  sound(baf_light);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  sound(local_magic_buff_light_2hsw);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  sound(local_magic_buff_light_hmr);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  sound(local_magic_buff_light_glv);
+ ifweapon#;
+}
+
+$global_snd_magic_baf_dark {
+ #ifweapon(1);
+  sound(baf_dark);
+ ifweapon#;
+ #ifweapon(0,1);
+  sound(baf_dark);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  sound(local_magic_buff_dark_2hsw);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  sound(local_magic_buff_dark_hmr);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  sound(local_magic_buff_dark_glv);
+ ifweapon#;
+}
+
+$global_snd_magic_baf_electro {
+ #ifweapon(1);
+  sound(baf_electro);
+ ifweapon#;
+ #ifweapon(0,1);
+  sound(baf_electro);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  sound(local_magic_buff_electro_2hsw);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  sound(local_magic_buff_electro_hmr);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  sound(local_magic_buff_electro_glv);
+ ifweapon#;
+}
+
+$global_snd_magic_baf_acid {
+ #ifweapon(1);
+  sound(baf_acid);
+ ifweapon#;
+ #ifweapon(0,1);
+  sound(baf_acid);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  sound(local_magic_buff_acid_2hsw);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  sound(local_magic_buff_acid_hmr);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  sound(local_magic_buff_acid_glv);
+ ifweapon#;
+}
+
+$global_snd_baf_block {
+ #ifweapon(1);
+  sound(magic_baf_block);
+ ifweapon#;
+ #ifweapon(0,1);
+  sound(magic_baf_block);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  sound(magic_baf_block);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  sound(magic_baf_block);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  sound(magic_baf_block);
+ ifweapon#;
+}
+
+//---REACT---//
+
+$global_snd_block {
+ #ifweapon(1);
+  sound(local_block);
+ ifweapon#;
+ #ifweapon(0,1);
+  sound(local_block);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  sound(local_block_2hsw);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  sound(local_block_hmr);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  sound(local_block_glv);
+ ifweapon#;
+}
+
+$global_snd_dodge {
+ #ifweapon(1);
+  sound(local_dodge);
+ ifweapon#;
+ #ifweapon(0,1);
+  sound(local_dodge);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  sound(local_dodge_2hsw);
+  wait(0.2);
+  sound(local_dodge_voice_2hsw);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  sound(local_dodge_hmr);
+  wait(0.2);
+  sound(local_dodge_voice_hmr);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  sound(local_dodge_glv);
+  wait(0.2);
+  sound(local_dodge_voice_glv);
+ ifweapon#;
+}
+
+$global_snd_damage {
+ #ifweapon(1);
+  sound(damage_kick);
+ ifweapon#;
+ #ifweapon(0,1);
+  #random(50, sdmg1); sound(damage_weapon1); random#;
+  #random(50, sdmg1); sound(damage_weapon2); random#;
+  #random(100, sdmg1); sound(damage_weapon3); random#;
+ ifweapon#;
+ #ifweapon(0,0,1);
+  sound(local_damage_2hsw);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  sound(local_damage_hmr);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  sound(local_damage_glv);
+ ifweapon#;
+}
+
+$global_snd_damage_force {
+ #ifweapon(1);
+  sound(local_damage_force);
+ ifweapon#;
+ #ifweapon(0,1);
+  sound(local_damage_force);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  sound(local_damage_force_2hsw);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  sound(local_damage_force_hmr);
+  sound(local_damage_force_step_hmr,2.1);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  sound(local_damage_force_glv);
+ ifweapon#;
+}
+
+$global_snd_death {
+ #ifweapon(1);
+  sound(local_death);
+ ifweapon#;
+ #ifweapon(0,1);
+  sound(local_death);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  sound(local_death_2hsw);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  sound(local_death_hmr);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  sound(local_death_glv);
+ ifweapon#;
+}
+
+$global_snd_death_force {
+ #ifweapon(1);
+  sound(local_death_force);
+ ifweapon#;
+ #ifweapon(0,1);
+  sound(local_death_force);
+ ifweapon#;
+ #ifweapon(0,0,1);
+  sound(local_death_force_2hsw);
+ ifweapon#;
+ #ifweapon(0,0,0,1);
+  sound(local_death_force_hmr);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  sound(local_death_force_glv);
+ ifweapon#;
+}
+
+//---MOB TYPE 1---//
+
+$global_snd_mob_attack {
+ #random(50, satk1); sound(local_attack1); random#;
+ #random(50, satk1); sound(local_attack2); random#;
+ #random(100, satk1); sound(local_attack3); random#;
+}
+
+$global_snd_mob_attack_damage {
+ #random(50, satk1); sound(local_attack_damage1); random#;
+ #random(50, satk1); sound(local_attack_damage2); random#;
+ #random(100, satk1); sound(local_attack_damage3); random#;
+}
+
+$global_snd_mob_magic_direct {sound(local_magic);}
+$global_snd_mob_magic_aoe {sound(local_magic_aoe);}
+$global_snd_mob_magic_baf {sound(local_magic_baf);}
+
+$global_snd_mob_block {sound(local_block);}
+$global_snd_mob_dodge {sound(local_dodge);}
+$global_snd_mob_damage {sound(local_damage);}
+$global_snd_mob_damage_rnd {#random(50, dmg1); sound(local_damage2); random#; #random(100, dmg1); sound(local_damage1); random#;}
+$global_snd_mob_damage_force {sound(local_damage_force);}
+$global_snd_mob_death {sound(local_death);}
+$global_snd_mob_death_force {sound(local_death);}
+
+$global_snd_mob_idle2 {sound(local_idle2);}
+
+//---MOB TYPE 2---//
+
+$global_snd_mob2_attack {sound(local_attack);}
+$global_snd_mob2_attack_left {sound(local_attack_left);}
+$global_snd_mob2_attack_right {sound(local_attack_right);}
+$global_snd_mob2_attack_uppercot {sound(local_attack_uppercut);}
+$global_snd_mob2_attack_hit {#random(50, hit1); sound(local_hit2); random#; #random(50, hit1); sound(local_hit3); random#; #random(100, hit1); sound(local_hit); random#;}
+
+$global_snd_mob2_direct {sound(local_magic_attack);}
+$global_snd_mob2_aoe {sound(local_magic_aoe);}
+$global_snd_mob2_baf {sound(local_magic_buff);}
+
+$global_snd_mob2_block {sound(local_block);}
+$global_snd_mob2_dodge {sound(local_dodge);}
+$global_snd_mob2_damage {#random(50, dmg1); sound(local_damage2); random#; #random(100, dmg1); sound(local_damage1); random#;}
+$global_snd_mob2_damage_force {sound(local_damage_hard);}
+$global_snd_mob2_death {sound(local_death);}
+$global_snd_mob2_death_force {sound(local_death_hard);}
+
+$global_snd_mob2_idle {sound(local_idle);}
+
+////////////////////////////////////////////////////////////////////
+// CAMERA
+////////////////////////////////////////////////////////////////////
+
+$global_camera_zoom {
+ movecam(center,enemy,0.5,2,0,0,-1);
+ wait(2);
+ endmovecam();
+}
+
+$global_camera_end {
+ wait(2);
+ endmovecam();
+}
+
+$global_camera {
+ scenario(global_camera_slow);
+ scenario(global_slowmo_);
+}
+
+$global_slowmo {
+ wait(1);
+ #random(50, slowm1); slowmo(3.5); random#;
+}
+
+//-----SLOWCAM-----//
+
+$global_camera_slow { 
+ #random(10, cam1); scenario(global_camera_player_left_s); random#;
+ #random(20, cam1); scenario(global_camera_enemy_down_left_s); random#;
+ #random(20, cam1); scenario(global_camera_enemy_down_right_s); random#;
+}
+
+$global_camera_player_right_s {
+ movecam(center,center,1,4,1,3,-1);
+}
+
+$global_camera_player_left_s {
+ movecam(center,center,1,4,1,-3,-1);
+}
+
+$global_camera_enemy_left_s {
+ movecam(center,center,1,-4,1,3,-1);
+}
+
+$global_camera_enemy_right_s {
+ movecam(center,center,1,-4,1,-3,-1);
+}
+
+$global_camera_player_top_right_s {
+ movecam(center,center,1,3,5,5,-1);
+}
+
+$global_camera_player_top_left_s {
+ movecam(center,center,1,3,5,-5,-1);
+}
+
+$global_camera_enemy_top_left_s {
+ movecam(center,center,1,-3,5,5,-1);
+}
+
+$global_camera_enemy_top_right_s {
+ movecam(center,center,1,-3,5,-5,-1);
+}
+
+$global_camera_player_down_right_s {
+ movecam(center,center,1,3,-1.3,5,-1);
+}
+
+$global_camera_player_down_left_s {
+ movecam(center,center,1,3,-1.3,-5,-1);
+}
+
+$global_camera_enemy_down_left_s {
+ movecam(center,center,1,-3,-1.3,5,-1);
+}
+
+global_camera_enemy_down_right_s {
+ movecam(center,center,1,-3,-1.3,-5,-1);
+}
+
+//-----FASTCAM-----//
+
+$global_camera_fast {
+ #random(10, cam1); scenario(global_camera_player_left); random#;
+ #random(20, cam1); scenario(global_camera_enemy_down_left); random#;
+ #random(20, cam1); scenario(global_camera_enemy_down_right); random#;
+}
+
+$global_camera_player_right {
+ movecam(center,center,0.5,4,1,3,-1);
+}
+
+$global_camera_player_left {
+ movecam(center,center,0.5,4,1,-3,-1);
+}
+
+$global_camera_enemy_left {
+ movecam(center,center,0.5,-4,1,3,-1);
+}
+
+$global_camera_enemy_right {
+ movecam(center,center,0.5,-4,1,-3,-1);
+}
+
+$global_camera_player_top_right {
+ movecam(center,center,0.5,3,5,5,-1);
+}
+
+$global_camera_player_top_left {
+ movecam(center,center,0.5,3,5,-5,-1);
+}
+
+$global_camera_enemy_top_left {
+ movecam(center,center,0.5,-3,5,5,-1);
+}
+
+$global_camera_enemy_top_right {
+ movecam(center,center,0.5,-3,5,-5,-1);
+}
+
+$global_camera_player_down_right {
+ movecam(center,center,0.5,3,-1.3,5,-1);
+}
+
+$global_camera_player_down_left {
+ movecam(center,center,0.5,3,-1.3,-5,-1);
+}
+
+$global_camera_enemy_down_left {
+ movecam(center,center,0.5,-3,-1.3,5,-1);
+}
+
+$global_camera_enemy_down_right {
+ movecam(center,center,0.5,-3,-1.3,-5,-1);
+}
+
+////////////////////////////////////////////////////////////////////
+// MANEKEN
+////////////////////////////////////////////////////////////////////
+
+//-----UNI-----//
+
+$global_maneken_uni_1 {
+ fx(0,fx_statue_exp1,pos_head);
+ fx(0,fx_statue_exp1,pos_hand_l);
+}
+
+$global_maneken_uni_2 {
+ fx(0,fx_statue_exp1,pos_hand_r);
+}
+
+$global_maneken_uni_3 {
+ fx(0,fx_statue_exp1,pos_hand_l);
+ fx(0,fx_statue_exp1,pos_spinecenter);
+}
+
+$global_maneken_uni_4 {
+ fx(0,fx_statue_exp1,pos_weapon);
+}
+
+$global_maneken_uni_5 {
+ fx(0,fx_statue_exp1,pos_toe_r);
+ fx(0,fx_statue_exp1,pos_toe_l);
+}
+
+//-----WOOD-----//
+
+$global_maneken_wood_1 {
+ fx(0,fx_statue_exp_wood1,pos_head);
+ fx(0,fx_statue_exp_wood1,pos_hand_l);
+}
+
+$global_maneken_wood_2 {
+ fx(0,fx_statue_exp_wood1,pos_hand_r);
+}
+
+$global_maneken_wood_3 {
+ fx(0,fx_statue_exp_wood1,pos_hand_l);
+ fx(0,fx_statue_exp_wood1,pos_spinecenter);
+}
+
+$global_maneken_wood_4 {
+ fx(0,fx_statue_exp_wood1,pos_weapon);
+}
+
+$global_maneken_wood_5 {
+ fx(0,fx_statue_exp_wood1,pos_toe_r);
+ fx(0,fx_statue_exp_wood1,pos_toe_l);
+}
+
+//-----ROCK-----//
+
+$global_maneken_rock_1 {
+ fx(0,fx_statue_exp_rock1,pos_head);
+ fx(0,fx_statue_exp_rock1,pos_hand_l);
+}
+
+$global_maneken_rock_2 {
+ fx(0,fx_statue_exp_rock1,pos_hand_r);
+}
+
+$global_maneken_rock_3 {
+ fx(0,fx_statue_exp_rock1,pos_hand_l);
+ fx(0,fx_statue_exp_rock1,pos_spinecenter);
+}
+
+$global_maneken_rock_4 {
+ fx(0,fx_statue_exp_rock1,pos_weapon);
+}
+
+$global_maneken_rock_5 {
+ fx(0,fx_statue_exp_rock1,pos_toe_r);
+ fx(0,fx_statue_exp_rock1,pos_toe_l);
+}
+
+//-----METAL-----//
+
+$global_maneken_metal_1 {
+ fx(0,fx_statue_exp_metal1,pos_head);
+ fx(0,fx_statue_exp_metal1,pos_hand_l);
+}
+
+$global_maneken_metal_2 {
+ fx(0,fx_statue_exp_metal1,pos_hand_r);
+}
+
+$global_maneken_metal_3 {
+ fx(0,fx_statue_exp_metal1,pos_hand_l);
+ fx(0,fx_statue_exp_metal1,pos_spinecenter);
+}
+
+$global_maneken_metal_4 {
+ fx(0,fx_statue_exp_metal1,pos_weapon);
+}
+
+$global_maneken_metal_5 {
+ fx(0,fx_statue_exp_metal1,pos_toe_r);
+ fx(0,fx_statue_exp_metal1,pos_toe_l);
+}
+
+////////////////////////////////////////////////////////////////////
+// SMOKE
+////////////////////////////////////////////////////////////////////
+
+//-----DODGE-----//
+
+$global_dodge_trail {
+ fx(0,fx_dodgetrail1,pos_spinecenter,1);
+}
+
+//-----SMOKE-----//
+
+$global_smoke_exp {
+ fx(0,fx_expsmoke2,bottom);
+}
+
+$global_smoke_magic {
+ fx(msm1,fx_startsmoke1,bottom); fxpos(msm1,0,0,0,1); fxrot(msm1,0,180,0,1);
+}
+
+$global_smoke_little_legs {
+ fx(sll1,fx_movesmokelitl,pos_toe_l);           fxpos(sll1,0,-0.1,0,1);
+ fx(sll2,fx_movesmokelitl,pos_toe_r);           fxpos(sll2,0,-0.1,0,1);
+}
+
+$global_smoke_little_legs_dog {
+ fx(sll21,fx_movesmokelitl,pos_toe_l);          fxpos(sll21,0,-0.3,0,1);
+ fx(sll22,fx_movesmokelitl,pos_toe_r);          fxpos(sll22,0,-0.3,0,1);
+}
+
+$global_smoke_little_legs_demongirl {
+ fx(0,fx_movesmokelitl,pos_weapon);
+}
+
+$global_smoke_small_legs {
+ fx(ssl1,fx_movesmokesmal,pos_toe_l);           fxpos(ssl1,0,-0.1,0,1);
+ fx(ssl2,fx_movesmokesmal,pos_toe_r);           fxpos(ssl2,0,-0.1,0,1);
+}
+
+$global_smoke_small_leg_l {
+ fx(ssl1,fx_movesmokesmal,pos_toe_l);           fxpos(ssl1,0,-0.1,0,1);
+}
+
+$global_smoke_med_legs {
+ fx(sml1,fx_movesmokemed,pos_toe_l);            fxpos(sml1,0,-0.2,0,1);
+ fx(sml2,fx_movesmokemed,pos_toe_r);            fxpos(sml2,0,-0.2,0,1);
+}
+
+$global_smoke_med_leg_l {
+ fx(sml1,fx_movesmokemed,pos_toe_l);            fxpos(sml1,0,-0.1,0,1);
+}
+
+$global_smoke_med_leg_r {
+ fx(smr1,fx_movesmokemed,pos_toe_r);            fxpos(smr1,0,-0.1,0,1);
+}
+
+$global_smoke_med_legs_crystal {
+ fx(sml1,fx_movesmokemed,pos_toe_l);            fxpos(sml1,0,-0.5,0,1);
+ fx(sml2,fx_movesmokemed,pos_toe_r);            fxpos(sml2,0,-0.5,0,1);
+}
+
+$global_smoke_little_arms {
+ fx(sla1,fx_movesmokesmal,pos_hand_l);          fxpos(sla1,0,-0.1,0,1);
+ fx(sla2,fx_movesmokesmal,pos_hand_r);          fxpos(sla2,0,-0.1,0,1);
+}
+
+$global_smoke_little_arms_dog {
+ fx(sla21,fx_movesmokesmal,pos_hand_l);         fxpos(sla1,0,-0.3,0,1);
+ fx(sla22,fx_movesmokesmal,pos_hand_r);         fxpos(sla2,0,-0.3,0,1);
+}
+
+$global_smoke_small_arms {
+ fx(ssa1,fx_movesmokesmal,pos_hand_l);          fxpos(ssa1,0,-0.1,0,1);
+ fx(ssa2,fx_movesmokesmal,pos_hand_r);          fxpos(ssa2,0,-0.1,0,1);
+}
+
+$global_smoke_small_arm_l {
+ fx(ssa1,fx_movesmokesmal,pos_hand_l);          fxpos(ssa1,0,-0.1,0,1);
+}
+
+$global_smoke_small_arms_ogre {
+ fx(ssao1,fx_movesmokesmal,pos_hand_l);         fxpos(ssao1,0,-0.5,0,1);
+ fx(ssao2,fx_movesmokesmal,pos_hand_r);         fxpos(ssao2,0,-0.5,0,1);
+}
+
+$global_smoke_med_arms {
+ fx(sml1,fx_movesmokemed,pos_hand_l);            fxpos(sml1,0,-0.2,0,1);
+ fx(sml2,fx_movesmokemed,pos_hand_r);            fxpos(sml2,0,-0.2,0,1);
+}
+
+$global_smoke_medium_torso {
+ fx(smt1,fx_movesmokemed,pos_spinecenter);      fxpos(smt1,0,-0.2,0,1);
+}
+
+$global_smoke_medium_torso_kabanishe {
+ fx(sbt1,fx_movesmokemed,pos_toe_l);      fxpos(sbt1,0,-0.4,0,1);
+}
+
+$global_smoke_leg_kabanishe {
+ fx(sbt1,fx_movesmokemed,pos_weapon);      fxpos(sbt1,0,-0.6,0,1);
+}
+
+$global_smoke_big_torso {
+ fx(sbt1,fx_movesmokebig,pos_spinecenter);      fxpos(sbt1,0,-0.4,0,1);
+}
+
+$global_smoke_lizard_tail {
+ fx(slt1,fx_movesmokemed,pos_weapon);      fxpos(slt1,0,-0.1,0,1);
+}
+
+$global_smoke_fly {
+ fx(0,fx_fastsmoke1,pos_spinecenter,1);
+}
+
+$global_block_smoke {
+ fx(0,fx_blocksmoke,pos_spinecenter,1);
+}
+
+$global_smoke_bottom {
+ fx(gsb1,fx_movesmokebig,bottom);           fxpos(gsb1,0,-0.2,0,1);
+}
+
+$global_smoke_ring1 {
+ fx(0,fx_ringsmoke1,bottom);
+}
+
+$global_smoke_ring2 {
+ fx(gsr1,fx_ringsmoke1,pos_spinecenter);    fxpos(gsr1,0,-0.5,0,1);
+}
+
+$global_smoke_ring3 {
+ fx(gsr1,fx_ringsmoke1_1,bottom);
+}
+
+////////////////////////////////////////////////////////////////////
+// ATTACKS
+////////////////////////////////////////////////////////////////////
+
+//-----SPLASH-----//
+
+$global_attack_splash_small {
+ fx(ass1,fx_splashmed,pos_spinecenter);     fxpos(ass1,0,0,0,1);
+ fx(0,fx_splashparts1,pos_spinecenter);
+}
+
+$global_attack_splash_med {
+ fx(asm1,fx_splashmed,pos_spinecenter);     fxpos(asm1,0,0,0,1);
+ fx(0,fx_splashparts1,pos_spinecenter);
+}
+
+$global_attack_splash_big {
+ vibration(2,3,0);
+ fx(asb1,fx_splashbig,pos_spinecenter);     fxpos(asb1,0,0,0,1);
+ fx(0,fx_splashparts1,pos_spinecenter);
+}
+
+////////////////////////////////////////////////////////////////////
+// FATALITY
+////////////////////////////////////////////////////////////////////
+
+$global_arena_ftext {
+ fx(aft1,sfx_react_fatality,bottom);          fxpos(aft1,0,1,1.5,0);
+}
+
+$global_arena_fire {
+ fx(af1,fx_fireround,bottom);                 fxpos(af1,-2,-0.1,0,1);     fxrot(af1,0,270,0,1);
+}
+
+$global_arena_blood {
+ fx(ab1,fx_lightround,bottom);                fxpos(ab1,-2,-0.1,0,1);
+}
+
+$global_fatality_meat_part_1_red {
+ scenario(global_snd_fatality_start);
+ scenario(global_arena_ftext);
+ light(0,2);
+ fx(ar1,fx_redround_1,bottom); fxpos(ar1,0,-0.1,0,1); fxrot(ar1,0,0,0,1);
+ wait(7.2);
+ light(1,2);
+}
+
+$global_fatality_meat_part_1_blue {
+ scenario(global_snd_fatality_start);
+ scenario(global_arena_ftext);
+ light(0,2);
+ fx(ab1,fx_blueround_1,bottom);               fxpos(ab1,-2,-0.1,0,1);
+ wait(7.2);
+ light(1,2);
+}
+
+$global_fatality_meat_part_2 {
+ scenario(global_snd_fatality_exp);
+ enemyscenario(global_attack_splash_big);
+ enemyscenario(ifx_fatality_blood_splash);
+ enemyscenario(ifx_blood_screen);
+ react(f,0);
+ wait(0.1);
+ enemyhide();
+}
+
+$global_fatality_energy_1 {
+fx(0,fx_handenergy1,pos_hand_l,1);
+fx(0,fx_handenergy2,pos_hand_l,1);
+fx(0,fx_handenergy1,pos_hand_r,1);
+fx(0,fx_handenergy2,pos_hand_r,1);
+}
+
+$global_fatality_energy_1_1 {
+fx(fe11,fx_handenergy3,pos_hand_l,1);          fxpos(fe11,0,0,0,1);     fxrot(fe11,0,90,0,1);
+fx(fe12,fx_handenergy3,pos_hand_r,1);          fxpos(fe12,0,0,0,1);     fxrot(fe12,0,90,0,1);
+}
+
+$global_fatality_energy_1_2 {
+fx(fe13,fx_lightingbolt,pos_hand_l,1,2);
+}
+
+$global_fatality_energy_2 {
+enemyfx(0,fx_handenergy1,pos_hand_l,1,3);
+enemyfx(0,fx_handenergy1,pos_hand_r,1,3);
+enemyfx(0,fx_handenergy1,pos_toe_l,1,3);
+enemyfx(0,fx_handenergy1,pos_toe_r,1,3);
+enemyfx(0,fx_handenergy2,pos_hand_l,1,3);
+enemyfx(0,fx_handenergy2,pos_hand_r,1,3);
+enemyfx(0,fx_handenergy2,pos_toe_l,1,3);
+enemyfx(0,fx_handenergy2,pos_toe_r,1,3);
+}
+
+$global_fatality_energy_3 {
+fx(gfe1,fx_movesmokemed,pos_hand_l);            fxpos(gfe1,0,-0.4,0,1);
+enemyfx(0,fx_movesmokebig,bottom);
+enemyfx(0,fx_splashparts1,bottom);
+}
+
+$global_fatality_monsters_1 {
+fx(0,fx_monsters_1,bottom);
+}
+
+$global_fatality_monsters_2 {
+fx(0,fx_monsters_2,pos_spinecenter);
+}
+
+$global_fatality_size_1 {
+fx(0,fx_sizehand1,pos_hand_l,1);
+}
+
+$global_fatality_pikes {
+fx(fp1,sfx_pikes,bottom); fxpos(fp1,0,0,0,1); fxrot(fp1,0,270,0,1);
+}
+
+$global_fatality_pikes_prestart {
+fx(0,fx_pikesstart1,pos_hand_l,1);
+}
+
+$global_fatality_pikes_start {
+fx(0,fx_pikesstart2,bottom);
+}
+
+$global_fatality_pikes_start_2 {
+fx(0,fx_pikesstart3,pos_hand_l,1);
+}
+
+$global_fatality_pikes_smoke {
+fx(0,fx_pikesmoke1,bottom);
+}
+
+---F_TUMAN---
+
+$global_fatality_tuman_prestart {
+fx(0,fx_tumanstart1,pos_hand_l,1);
+}
+
+$global_fatality_tuman_tuman {
+fx(0,fx_tuman1,bottom);
+}
+
+$global_fatality_tuman_tuman_2 {
+fx(ft1,fx_tuman1_1,bottom);   fxpos(ft1,0,0,0,1); fxrot(ft1,0,0,0,1);
+}
+
+$global_fatality_tuman_enemy {
+fx(0,fx_tuman2,bottom);
+}
+
+$global_fatality_tuman_monsters {
+fx(0,fx_monsters1,bottom);
+}
+
+$global_fatality_tuman_monsters_attack {
+fx(0,fx_monsters2,bottom);
+}
+
+---F_CHAINS---
+
+$global_fatality_chains_prestart {
+fx(0,fx_chainsstart1,pos_hand_l,1);
+}
+
+$global_fatality_chains_start {
+fx(0,fx_chainsstart2,pos_hand_l);
+}
+
+$global_fatality_chains {
+fx(fc1,sfx_chains_01,bottom);  fxpos(fc1,0,0,0,1); fxrot(fc1,0,0,0,1);
+scenario(ifx_blood_fontan);
+wait(0.15);
+scenario(ifx_blood);
+wait(1.15);
+fxdestroy(sfx_chains_01,0);
+}
+
+---F_ARROWS---
+
+$global_fatality_arrows_pike_1 {
+fx(fa1,sfx_arrowpike_1,pos_hand_l); fxpos(fa1,0,0,0,1); fxrot(fa1,0,180,0,1);
+}
+
+$global_fatality_arrows_pike_2 {
+fx(fa2,sfx_arrowpike_2,pos_hand_l); fxpos(fa2,0,0,0,1); fxrot(fa2,0,180,0,1);
+}
+
+$global_fatality_arrows_pike_3 {
+fx(fa3,sfx_arrowpike_3,pos_hand_l); fxpos(fa3,0,0,0,1); fxrot(fa3,0,180,0,1);
+}
+
+$global_fatality_arrows_swarm_1 {
+fx(fa4,sfx_arrowpike_1_swarm,pos_hand_l); fxpos(fa4,0,0,0,1); fxrot(fa4,0,180,0,1);
+}
+
+$global_fatality_arrows_swarm_2 {
+fx(fa5,sfx_arrowpike_2_swarm,pos_hand_l); fxpos(fa5,0,0,0,1); fxrot(fa5,0,180,0,1);
+}
+
+$global_fatality_arrows_swarm_3 {
+fx(fa6,sfx_arrowpike_3_swarm,pos_hand_l); fxpos(fa6,0,0,0,1); fxrot(fa6,0,180,0,1);
+}
+
+$global_fatality_arrows_fly {
+scenario(global_fatality_arrows_pike_1);
+wait(0.1);
+scenario(global_fatality_arrows_pike_3);
+scenario(global_fatality_arrows_swarm_3);
+wait(0.1);
+scenario(global_fatality_arrows_pike_2);
+wait(0.1);
+scenario(global_fatality_arrows_swarm_2);
+wait(0.3);
+scenario(global_fatality_arrows_swarm_1);
+enemyscenario(ifx_blood);
+enemyplay(damage);
+wait(0.5);
+enemyscenario(ifx_blood);
+}
+
+////////////////////////////////////////////////////////////////////
+// MOB MAGIC
+////////////////////////////////////////////////////////////////////
+
+//-----DOG-----//
+
+---DIRECT---
+
+$global_magic_direct_start_dog {
+ fx(mdsd1,fx_dogmagstart2,pos_head);            fxpos(mdsd1,0,0.2,0,1);
+}
+
+$global_magic_direct_fly_dog {
+ fx(mdfd1,sfx_dogmagball1,pos_head);            fxpos(mdfd1,0,-0.8,0,1);        fxrot(mdfd1,0,90,0,1);
+ fx(mdfd2,fx_startsmoke1,bottom);               fxpos(mdfd2,0,0,0,1);           fxrot(mdfd2,0,180,0,1);
+}
+
+$global_magic_direct_exp_dog {
+ vibration(2,3,0);
+ enemyfx(0,fx_dogmagexp1,pos_spinecenter);
+ enemyfx(0,fx_dogmagexp2,pos_hand_l,1);
+ enemyfx(0,fx_dogmagexp2,pos_hand_r,1);
+ wait(0.1);
+ enemyfx(mded1,fx_startsmoke1,bottom);          enemyfxpos(mded1,0,0,0,1);      enemyfxrot(mded1,0,180,0,1);
+}
+
+$global_magic_direct_expsmall_dog {
+ enemyfx(mdesd1,fx_dogmagexpsmall1,bottom);     enemyfxpos(mdesd1,0,1.3,0,1);
+}
+
+---AOE---
+
+$global_magic_aoe_prestart_dog {
+ fx(mapd1,fx_dogaoestart1,pos_head);            fxpos(mapd1,0,0,0,1);
+}
+
+$global_magic_aoe_start_dog {
+ fx(masd1,fx_dogaoestart2,pos_head);            fxpos(masd1,0,0.2,0,1);
+}
+
+$global_magic_aoe_wave_dog {
+ vibration(5,5,-1);
+ fx(mawd1,sfx_dogaoewave1,bottom);              fxpos(mawd1,0,0,0,1);
+}
+
+$global_magic_aoe_exp_dog {
+ enemyfx(maed1,fx_dogaoeexp1,bottom);           enemyfxpos(maed1,0,0,0,1);
+ enemyfx(0,fx_dogaoeexp2,pos_toe_l,1);
+ enemyfx(0,fx_dogaoeexp2,pos_toe_r,1);
+}
+
+---BAF---
+
+$global_magic_baf_dog {
+ fx(0,fx_dogbafstart2,bottom);
+}
+
+//-----BOAR-----//
+
+---DIRECT---
+
+$global_magic_direct_prestart_boar {
+ fx(0,fx_boarmagstart2,pos_head);
+}
+
+$global_magic_direct_start_boar {
+ fx(0,fx_boarmagstart3,pos_head);
+}
+
+$global_magic_direct_fly_boar {
+ fx(mdfb1,sfx_boarmagball1,pos_head);           fxpos(mdfb1,0,0.25,0,1);        fxrot(mdfb1,0,90,0,1);
+ fx(mdfb2,fx_startsmoke1,bottom);               fxpos(mdfb2,0,0,0,1);           fxrot(mdfb2,0,180,0,1);
+}
+
+$global_magic_direct_exp_boar {
+ vibration(2,3,0);
+ enemyfx(0,fx_boarmagexp1,pos_spinecenter);
+ enemyfx(0,fx_boarmagexp2,pos_hand_l,1);
+ enemyfx(0,fx_boarmagexp2,pos_hand_r,1);
+ wait(0.1);
+ enemyfx(mdeb1,fx_startsmoke1,bottom);          enemyfxpos(mdeb1,0,0,0,1);      enemyfxrot(mdeb1,0,180,0,1);
+}
+
+$global_magic_direct_expsmall_boar {
+ enemyfx(mdesb1,fx_boarmagexpsmall1,bottom);    enemyfxpos(mdesb1,0,1.3,0,1);
+}
+
+---AOE---
+
+$global_magic_aoe_prestart_boar {
+ fx(mapb1,fx_boaraoestart1,pos_head);           fxpos(mapb1,0,0,0,1);
+}
+
+$global_magic_aoe_wave_boar {
+ vibration(5,5,-1);
+ fx(mawb1,sfx_boaraoewave1,bottom);             fxpos(mawb1,0,0,0,1);
+}
+
+---BAF---
+
+$global_magic_baf_boar {
+ fx(0,fx_boarbafstart1,bottom);
+}
+
+//-----SNAKE-----//
+
+---DIRECT---
+
+$global_magic_direct_start_snake {
+ fx(0,fx_snkmagstart3,pos_head);
+}
+
+$global_magic_direct_fly_snake {
+ fx(mdfs1,sfx_snkmagball1,pos_head);            fxpos(mdfs1,0,-0.3,0,1);        fxrot(mdfs1,0,90,0,1);
+ fx(mdfs2,fx_startsmoke1,bottom);               fxpos(mdfs2,0,0,0,1);           fxrot(mdfs2,0,180,0,1);
+}
+
+$global_magic_direct_exp_snake {
+ vibration(2,3,0);
+ enemyfx(0,fx_snkmagexp1,pos_spinecenter);
+ enemyfx(0,fx_snkmagexp2,pos_hand_l,1);
+ enemyfx(0,fx_snkmagexp2,pos_hand_r,1);
+ wait(0.1);
+ enemyfx(mdes1,fx_startsmoke1,bottom);          enemyfxpos(mdes1,0,0,0,1);      enemyfxrot(mdes1,0,180,0,1);
+}
+
+$global_magic_direct_expsmall_snake {
+ enemyfx(mdess1,fx_snkmagexpsmall1,bottom);     enemyfxpos(mdess1,0,1.3,0,1);
+}
+
+---AOE---
+
+$global_magic_aoe_prestart_snake {
+ fx(maps1,fx_snakeaoestart1,pos_spinecenter);   fxpos(maps1,0,0,0,1);
+}
+
+$global_magic_aoe_wave_snake {
+ vibration(5,5,-1);
+ fx(maws1,sfx_snakeaoewave1,pos_toe_l);         fxpos(maws1,0,0,0,1);
+}
+
+---BAF---
+
+$global_magic_baf_snake_start {
+ fx(0,fx_snkbafstart1,bottom);
+}
+
+$global_magic_baf_snake_double {
+ fx(0,fx_snkbafstart2,bottom);
+}
+
+//-----OGRE-----//
+
+---DIRECT---
+
+$global_magic_direct_fly_ogre {
+ fx(mdfo1,sfx_ogremagball1,pos_head);           fxpos(mdfo1,0,-1.8,0,1);        fxrot(mdfo1,0,90,0,1);
+ fx(mdfo2,fx_startsmoke1,bottom);               fxpos(mdfo2,0,0,0,1);           fxrot(mdfo2,0,180,0,1);
+}
+
+---AOE---
+
+$global_magic_aoe_wave_ogre {
+ vibration(5,5,-1);
+ fx(mawo1,sfx_ogreaoewave1,pos_hand_l);         fxpos(mawo1,0,0,0,1);
+}
+
+---BAF---
+
+$global_magic_baf_ogre {
+ fx(0,fx_ogrebafstart1,bottom);
+}
+
+//-----BOLOTO-----//
+
+---DIRECT---
+
+$global_magic_direct_start_boloto {
+ fx(mdsb1,fx_bolotomagstart1,pos_head);         fxpos(mdsb1,0,-0.5,1,0);
+}
+
+$global_magic_direct_fly_boloto {
+ fx(mdfb1,sfx_bolotomagball1,pos_head);         fxpos(mdfb1,0,-0.5,0,1);        fxrot(mdfb1,0,90,0,1);
+ fx(mdfb2,fx_startsmoke1,bottom);               fxpos(mdfb2,0,0,0,1);           fxrot(mdfb2,0,180,0,1);
+}
+
+---AOE---
+
+$global_magic_aoe_prestart_boloto {
+ fx(mapb1,fx_bolotoaoestart1,pos_head);         fxpos(mapb1,0,0,0,1);
+}
+
+$global_magic_aoe_wave_boloto {
+ vibration(5,5,-1);
+ fx(mawb1,sfx_bolotoaoewave1,bottom);           fxpos(mawb1,0,0,0,1);
+}
+
+$global_magic_aoe_exp_boloto {
+ enemyfx(maeb1,fx_bolotoaoeexp1,bottom);        enemyfxpos(maeb1,0,0,0,1);
+ enemyfx(0,fx_bolotoaoeexp2,pos_toe_l,1);
+ enemyfx(0,fx_bolotoaoeexp2,pos_toe_r,1);
+}
+
+---BAF---
+
+$global_magic_baf_boloto {
+ fx(0,fx_bolotobafstart1,bottom);
+}
+
+//-----ZOMBIE-----//
+
+---DIRECT---
+
+$global_magic_direct_start_zombie {
+ fx(0,fx_zombiedirectstart1,pos_head,1);
+ fx(mdsz1,fx_startsmoke1,bottom);               fxpos(mdsz1,0,0,0,1);           fxrot(mdsz1,0,180,0,1);
+}
+
+$global_magic_direct_exp_zombie {
+ vibration(2,3,0);
+ enemyfx(0,fx_zombiemagexp1,pos_spinecenter);
+ enemyfx(0,fx_zombiemagexp2,pos_hand_l,1);
+ enemyfx(0,fx_zombiemagexp2,pos_hand_r,1);
+ wait(0.1);
+ enemyfx(mdez1,fx_startsmoke1,bottom);          enemyfxpos(mdez1,0,0,0,1);      enemyfxrot(mdez1,0,180,0,1);
+}
+
+$global_magic_direct_expsmall_zombie {
+ enemyfx(mdez1,fx_zombiemagexp1,bottom);        enemyfxpos(mdez1,0,1.3,0,1);
+}
+
+---AOE---
+
+$global_magic_aoe_prestart_zombie {
+ fx(mapz1,fx_zombieaoestart1,pos_head);         fxpos(mapz1,0,0,0,1);
+}
+
+$global_magic_aoe_start_zombie {
+ fx(0,fx_zombieaoestart2,pos_head,1);
+}
+
+$global_magic_aoe_wave_zombie {
+ vibration(5,5,-1);
+ fx(mawz1,sfx_zombieaoewave1,bottom);           fxpos(mawz1,0,0,0,1);
+}
+
+$global_magic_aoe_exp_zombie {
+ enemyfx(maez,fx_zombieaoeexp1,bottom);         enemyfxpos(maez,0,0,0,1);
+ enemyfx(0,fx_zombieaoeexp2,pos_toe_l,1);
+ enemyfx(0,fx_zombieaoeexp2,pos_toe_r,1);
+}
+
+---BAF---
+
+$global_magic_baf_zombie {
+ fx(0,fx_zombiebafstart1,bottom);
+}
+
+//-----CANNIBAL-----//
+
+---DIRECT---
+
+$global_magic_direct_prestart_cannibal {
+ fx(0,fx_cannibalmagstart1,pos_hand_l);
+}
+
+$global_magic_direct_fly_cannibal {
+ fx(mdfc1,fx_cannibalmagball1,pos_hand_l);      fxpos(mdfc1,-0.5,-1.8,0,1);     fxrot(mdfc1,0,90,0,1);
+ fx(mdsc2,fx_startsmoke1,bottom);               fxpos(mdsc2,0,0,0,1);           fxrot(mdsc2,0,180,0,1);
+}
+
+---AOE---
+
+$global_magic_aoe_wave_cannibal {
+ vibration(5,5,-1);
+ fx(mawc1,sfx_cannibalaoewave1,pos_hand_l);     fxpos(mawc1,0,0,0,1);
+}
+
+---BAF---
+
+$global_magic_baf_cannibal {
+ fx(0,fx_cannibalbafstart1,bottom);
+}
+
+//-----BEATLE-----//
+
+---DIRECT---
+
+$global_magic_direct_prestart_beatle {
+ fx(0,fx_dogaoestart0,bottom);
+ fx(0,fx_beatlemagstart1,pos_spinecenter,1);
+}
+
+$global_magic_direct_start_beatle {
+ fx(0,fx_beatlemagstart2,pos_head);
+}
+
+$global_magic_direct_fly_beatle {
+ fx(mdfb1,sfx_beatlemagball1,pos_spinecenter);  fxpos(mdfb1,0,0,0,1);        fxrot(mdfb1,0,90,0,1);
+}
+
+$global_magic_direct_exp_beatle {
+ vibration(2,3,0);
+ enemyfx(0,fx_beatlemagexp1,pos_spinecenter);
+ enemyfx(0,fx_beatlemagexp2,pos_hand_l,1);
+ enemyfx(0,fx_beatlemagexp2,pos_hand_r,1);
+ wait(0.1);
+ enemyfx(mdeb1,fx_startsmoke1,bottom);          enemyfxpos(mdeb1,0,0,0,1);      enemyfxrot(mdeb1,0,180,0,1);
+}
+
+$global_magic_direct_expsmall_beatle {
+ enemyfx(mdesb1,fx_beatlemagexpsmall1,bottom);  enemyfxpos(mdesb1,0,1.3,0,1);
+}
+
+---AOE---
+
+$global_magic_aoe_prestart_beatle {
+ fx(0,fx_beatlemagstart1,pos_spinecenter,1);
+}
+
+$global_magic_aoe_fly_beatle {
+ fx(mdfb1,sfx_beatleaoeball1,pos_spinecenter);  fxpos(mdfb1,0,0,0,1);        fxrot(mdfb1,0,90,0,1);
+}
+
+$global_magic_aoe_wave_beatle {
+ vibration(5,5,-1);
+ fx(mawb1,sfx_beatleaoewave1,bottom);           fxpos(mawb1,0,0,0,1);
+}
+
+---BAF---
+
+$global_magic_baf_beatle {
+ fx(0,fx_beatlebafstart1,bottom);
+}
+
+//-----SOVEREIGHN-----//
+
+---DIRECT---
+
+$global_magic_direct_start_sover {
+ fx(mdss1,fx_soverdirectstart1,pos_spinecenter);    fxpos(mdss1,0,-0.5,0,1);      fxrot(mdss1,0,90,0,1);
+}
+
+$global_magic_direct_exp_sover {
+ vibration(2,3,0);
+ enemyfx(0,fx_sovermagexp1,pos_spinecenter);
+ enemyfx(0,fx_sovermagexp2,pos_hand_l,1);
+ enemyfx(0,fx_sovermagexp2,pos_hand_r,1);
+ wait(0.1);
+ enemyfx(mdes1,fx_startsmoke1,bottom);          enemyfxpos(mdes1,0,0,0,1);      enemyfxrot(mdes1,0,180,0,1);
+}
+
+$global_magic_direct_expsmall_sover {
+ enemyfx(mdes1,fx_sovermagexp1,bottom);        enemyfxpos(mdes1,0,1.3,0,1);
+}
+
+---AOE---
+
+$global_magic_aoe_prestart_sover {
+ fx(maps1,fx_soveraoestart1,pos_hand_l);           fxpos(maps1,0,0,0,1);
+}
+
+$global_magic_aoe_wave_sover {
+ vibration(5,5,-1);
+ fx(maws1,sfx_soveraoewave1,bottom);             fxpos(maws1,0,0,0,1);
+}
+
+---BAF---
+
+$global_magic_baf_sover {
+ fx(0,fx_soverbafstart1,bottom);
+ wait(0.15);
+ fx(0,fx_idleflame_01,pos_head,1);
+}
+
+//-----CRYSTALLOID-----//
+
+---DIRECT---
+
+$global_magic_direct_prestart_crystal {
+ fx(0,fx_crystaltrail,pos_hand_r,1);
+ fx(0,fx_crystalaoestart0,pos_hand_r,1);
+}
+
+$global_magic_direct_start_crystal {
+ fx(0,fx_crystalaoestart1,pos_hand_r);
+ fx(mdsc1,sfx_crystaldirectstart1,pos_hand_r);    fxpos(mdsc1,0,-0.1,0,1);      fxrot(mdsc1,0,90,0,1);
+}
+
+$global_magic_direct_exp_crystal {
+ vibration(2,3,0);
+ enemyfx(0,fx_crystalmagexp1,pos_spinecenter);
+ enemyfx(0,fx_crystalmagexp2,pos_hand_l,1);
+ enemyfx(0,fx_crystalmagexp2,pos_hand_r,1);
+ wait(0.1);
+ enemyfx(mdec1,fx_startsmoke1,bottom);          enemyfxpos(mdec1,0,0,0,1);      enemyfxrot(mdec1,0,180,0,1);
+}
+
+$global_magic_direct_expsmall_crystal {
+ enemyfx(mdec1,fx_crystalmagexp1,bottom);        enemyfxpos(mdec1,0,1.3,0,1);
+}
+
+---AOE---
+
+$global_magic_aoe_prestart_crystal {
+ fx(0,fx_crystaltrail,pos_hand_r,1);
+ fx(0,fx_crystaltrail,pos_hand_l,1);
+ fx(0,fx_crystalaoestart0,pos_hand_r,1);
+ fx(0,fx_crystalaoestart0,pos_hand_l,1);
+}
+
+$global_magic_aoe_start_crystal {
+ fx(0,fx_crystalaoestart1,pos_hand_r);
+ fx(mapc1,fx_crystalaoewave1,bottom);             fxpos(mapc1,0,0,0,1);
+}
+
+$global_magic_aoe_wave_crystal {
+ vibration(5,5,-1);
+ fx(mawc1,sfx_crystalaoewave2,bottom);             fxpos(mawc1,0,0,0,1);
+}
+
+---BAF---
+
+$global_magic_baf_crystal {
+ fx(0,fx_crystalbafstart1,bottom);
+ wait(1);
+ fx(0,fx_crystalbafstart2,bottom);
+ vibration(5,5,-1);
+}
+
+//-----FIREBALL FIREFLYES-----//
+
+$global_magic_darkball_start_ff {
+ fx(mds1,fx_dmagstart3,pos_hand_l);             fxpos(mds1,0,0,0,1);
+}
+
+$global_magic_darkball_fly_ff {
+ fx(mdf1,sfx_dmagball1,pos_hand_l);             fxpos(mdf1,0,0,0,1);            fxrot(mdf1,0,90,0,1);
+ fx(mdf2,fx_startsmoke1,bottom);                fxpos(mdf2,0,0,0,1);            fxrot(mdf2,0,180,0,1);
+}
+
+$global_magic_acidball_start_ff {
+ fx(mas1,fx_amagstart3,pos_hand_l);             fxpos(mas1,0,0,0,1);
+}
+
+$global_magic_acidball_fly_ff {
+ fx(maf1,sfx_amagball1,pos_hand_l);             fxpos(maf1,0,0,0,1);            fxrot(maf1,0,90,0,1);
+ fx(maf2,fx_startsmoke1,bottom);                fxpos(maf2,0,0,0,1);            fxrot(maf2,0,180,0,1);
+}
+
+//-----FIREFLY BOSS-----//
+
+---DIRECT---
+
+$global_magic_direct_prestart_ffboss {
+ fx(mdpf1,fx_flybossmagstart1,pos_spinecenter);         fxpos(mdpf1,0,0,0,1);
+}
+
+$global_magic_direct_start_ffboss {
+ fx(mdsf1,fx_flybossmagstart2,pos_hand_l);         fxpos(mdsf1,0,0.3,0,1);
+}
+
+$global_magic_direct_fly_ffboss {
+ fx(mdff1,fx_flybossmagattack1,pos_hand_l);          fxpos(mdff1,0,0,0,1);      fxrot(mdff1,0,90,0,1);
+}
+
+$global_magic_direct_exp_ffboss {
+ vibration(2,3,0);
+ enemyfx(0,fx_flybossexp1,pos_spinecenter);
+ enemyfx(0,fx_flybossexp2,pos_hand_l,1);
+ enemyfx(0,fx_flybossexp2,pos_hand_r,1);
+}
+
+$global_magic_direct_expsmall_ffboss {
+ enemyfx(mdef1,fx_flybossexp1,bottom);    enemyfxpos(mdef1,0,1.3,0,1);
+}
+
+---AOE---
+
+$global_magic_aoe_prestart_ffboss {
+ fx(mapf1,fx_flybossaoestart1,pos_spinecenter,1);         fxpos(mapf1,0,0,0,1);
+}
+
+$global_magic_aoe_wave_ffboss {
+ vibration(5,5,-1);
+ fx(mawf1,sfx_flybossaoewave1,bottom);             fxpos(mawf1,0,0,0,1);
+}
+
+$global_magic_aoe_exp_ffboss {
+ enemyfx(maef1,fx_flybossexp1,bottom);          enemyfxpos(maef1,0,0,0,1);
+ enemyfx(0,fx_flybossexp2,pos_toe_l,1);
+ enemyfx(0,fx_flybossexp2,pos_toe_r,1);
+}
+
+---BAF---
+
+$global_magic_baf_ffboss {
+ fx(0,fx_flybossbaf1,bottom);
+}
+
+//-----FIREFLY PURPLE-----//
+
+---DIRECT---
+
+$global_magic_direct_prestart_ffpurple {
+ fx(mdpf1,fx_flymagstart1,pos_spinecenter);         fxpos(mdpf1,0,0,0,1);
+}
+
+$global_magic_direct_start_ffpurple {
+ fx(mdsf1,fx_flymagstart2,pos_hand_l);         fxpos(mdsf1,0,0.3,0,1);
+}
+
+$global_magic_direct_fly_ffpurple {
+ fx(mdff1,fx_flymagattack1,pos_hand_l);          fxpos(mdff1,0,0,0,1);      fxrot(mdff1,0,90,0,1);
+}
+
+$global_magic_direct_exp_ffpurple {
+ vibration(2,3,0);
+ enemyfx(0,fx_flyexp1,pos_spinecenter);
+ enemyfx(0,fx_flyexp2,pos_hand_l,1);
+ enemyfx(0,fx_flyexp2,pos_hand_r,1);
+}
+
+$global_magic_direct_expsmall_ffpurple {
+ enemyfx(mdef1,fx_flyexp1,bottom);    enemyfxpos(mdef1,0,1.3,0,1);
+}
+
+---AOE---
+
+$global_magic_aoe_prestart_ffpurple {
+ fx(mapf1,fx_flyaoestart1,pos_spinecenter,1);         fxpos(mapf1,0,0,0,1);
+}
+
+$global_magic_aoe_wave_ffpurple {
+ vibration(5,5,-1);
+ fx(mawf1,sfx_flyaoewave1,bottom);             fxpos(mawf1,0,0,0,1);
+}
+
+$global_magic_aoe_exp_ffpurple {
+ enemyfx(maef1,fx_flyexp1,bottom);          enemyfxpos(maef1,0,0,0,1);
+ enemyfx(0,fx_flyexp2,pos_toe_l,1);
+ enemyfx(0,fx_flyexp2,pos_toe_r,1);
+}
+
+---BAF---
+
+$global_magic_baf_ffpurple {
+ fx(0,fx_flybaf1,bottom);
+}
+
+//-----SHAIWORM-----//
+
+---DIRECT---
+
+$global_magic_direct_fly_shaiworm {
+ fx(0,fx_shaidirect1,pos_head,1);
+ fx(mdfsw2,fx_startsmoke1,bottom);               fxpos(mdfsw2,0,0,0,1);           fxrot(mdfsw2,0,180,0,1);
+}
+
+$global_magic_direct_exp_shaiworm {
+ vibration(2,3,0);
+ enemyfx(0,fx_shaidirectexp1,pos_spinecenter);
+ enemyfx(0,fx_shaidirectexp2,pos_hand_l,1);
+ enemyfx(0,fx_shaidirectexp2,pos_hand_r,1);
+ wait(0.1);
+ enemyfx(mdesw1,fx_startsmoke1,bottom);          enemyfxpos(mdesw1,0,0,0,1);      enemyfxrot(mdesw1,0,180,0,1);
+}
+
+$global_magic_direct_expsmall_shaiworm {
+ enemyfx(mdessw1,fx_shaidirectexpsmall1,bottom);     enemyfxpos(mdessw1,0,1.3,0,1);
+}
+
+---AOE---
+
+$global_magic_aoe_shaiworm_start {
+ fx(0,fx_shaiaoestart1,bottom);
+ fx(0,fx_shaibafstart2,pos_head,1);
+}
+
+$global_magic_aoe_wave_shaiworm {
+ vibration(5,5,-1);
+ fx(0,sfx_shaiaoe1,bottom);
+}
+
+---BAF---
+
+$global_magic_baf_shaiworm_start {
+ fx(0,fx_shaibafstart1,pos_head,1);
+}
+
+$global_magic_baf_shaiworm {
+ fx(0,fx_shaibafstart2,pos_head,1);
+ fx(0,fx_shaibaf1,bottom);
+}
+
+---TECH---
+
+$global_shai_ground_fx {
+ fx(0,fx_groundkap_02,pos_toe_l);
+}
+
+//-----SKELETON-----//
+
+---DIRECT---
+
+$global_magic_direct_fly_skeleton {
+ fx(mdfs1,sfx_skeletdirect1,pos_head);            fxpos(mdfs1,0,-0.2,0,1);        fxrot(mdfs1,0,90,0,1);
+ fx(mdfs2,fx_startsmoke1,bottom);                 fxpos(mdfs2,0,0,0,1);           fxrot(mdfs2,0,180,0,1);
+}
+
+$global_magic_direct_exp_skeleton {
+ vibration(2,3,0);
+ enemyfx(0,fx_skeletdirectexp1,pos_spinecenter);
+ enemyfx(0,fx_skeletdirectexp2,pos_hand_l,1);
+ enemyfx(0,fx_skeletdirectexp2,pos_hand_r,1);
+ wait(0.1);
+ enemyfx(mdesw1,fx_startsmoke1,bottom);           enemyfxpos(mdesw1,0,0,0,1);      enemyfxrot(mdesw1,0,180,0,1);
+}
+
+$global_magic_direct_expsmall_skeleton {
+ enemyfx(mdess1,fx_skeletdirectexpsmall1,bottom); enemyfxpos(mdess1,0,1.3,0,1);
+}
+
+---AOE---
+
+$global_magic_aoe_skeleton_prestart {
+ fx(0,fx_skeletbafstart1,pos_hand_l,1);
+}
+
+$global_magic_aoe_skeleton_start {
+ fx(0,fx_skeletaoestart1,pos_hand_l);
+}
+
+$global_magic_aoe_wave_skeleton {
+ vibration(5,5,-1);
+ fx(0,sfx_skeletaoe1,bottom);
+}
+
+$global_magic_aoe_exp_skeleton {
+ vibration(2,3,0);
+ enemyfx(0,fx_skeletdirectexp2,pos_toe_l,1);
+ enemyfx(0,fx_skeletdirectexp2,pos_toe_r,1);
+ wait(0.1);
+ enemyfx(mdesw1,fx_startsmoke1,bottom);           enemyfxpos(mdesw1,0,0,0,1);      enemyfxrot(mdesw1,0,180,0,1);
+}
+
+---BAF---
+
+$global_magic_baf_skeleton_start {
+ fx(0,fx_skeletbafstart1,pos_hand_l,1);
+}
+
+$global_magic_baf_skeleton {
+ fx(0,fx_skeletbaf1,bottom);
+ wait(0.5);
+ fx(0,fx_skeletbafstart2,pos_spinecenter);
+}
+
+//-----SKELETON BOSS-----//
+
+---DIRECT---
+
+$global_magic_direct_fly_bosskeleton {
+ fx(mdfs1,sfx_bosskeletdirect1,pos_head);            fxpos(mdfs1,0,-0.2,0,1);        fxrot(mdfs1,0,90,0,1);
+ fx(mdfs2,fx_startsmoke1,bottom);                 fxpos(mdfs2,0,0,0,1);           fxrot(mdfs2,0,180,0,1);
+}
+
+$global_magic_direct_exp_bosskeleton {
+ vibration(2,3,0);
+ enemyfx(0,fx_bosskeletdirectexp1,pos_spinecenter);
+ enemyfx(0,fx_bosskeletdirectexp2,pos_hand_l,1);
+ enemyfx(0,fx_bosskeletdirectexp2,pos_hand_r,1);
+ wait(0.1);
+ enemyfx(mdesw1,fx_startsmoke1,bottom);           enemyfxpos(mdesw1,0,0,0,1);      enemyfxrot(mdesw1,0,180,0,1);
+}
+
+$global_magic_direct_expsmall_bosskeleton {
+ enemyfx(mdess1,fx_bosskeletdirectexpsmall1,bottom); enemyfxpos(mdess1,0,1.3,0,1);
+}
+
+---AOE---
+
+$global_magic_aoe_bosskeleton_prestart {
+ fx(0,fx_bosskeletbafstart1,pos_hand_l,1);
+}
+
+$global_magic_aoe_bosskeleton_start {
+ fx(0,fx_bosskeletaoestart1,pos_hand_l);
+}
+
+$global_magic_aoe_wave_bosskeleton {
+ vibration(5,5,-1);
+ fx(0,sfx_bosskeletaoe1,bottom);
+}
+
+$global_magic_aoe_exp_bosskeleton {
+ vibration(2,3,0);
+ enemyfx(0,fx_bosskeletdirectexp2,pos_toe_l,1);
+ enemyfx(0,fx_bosskeletdirectexp2,pos_toe_r,1);
+ wait(0.1);
+ enemyfx(mdesw1,fx_startsmoke1,bottom);           enemyfxpos(mdesw1,0,0,0,1);      enemyfxrot(mdesw1,0,180,0,1);
+}
+
+---BAF---
+
+$global_magic_baf_bosskeleton_start {
+ fx(0,fx_bosskeletbafstart1,pos_hand_l,1);
+}
+
+$global_magic_baf_bosskeleton {
+ fx(0,fx_bosskeletbaf1,bottom);
+ wait(0.5);
+ fx(0,fx_bosskeletbafstart2,pos_spinecenter);
+}
+
+//-----DRAGONFLY-----//
+
+---DIRECT---
+
+$global_magic_direct_fly_dragonfly {
+ fx(mdfd1,sfx_dflydirect1,pos_head);            fxpos(mdfd1,0,-0.2,0,1);        fxrot(mdfd1,0,90,0,1);
+ fx(mdfd2,fx_startsmoke1,bottom);               fxpos(mdfd2,0,0,0,1);           fxrot(mdfd2,0,180,0,1);
+}
+
+$global_magic_direct_exp_dragonfly {
+ vibration(2,3,0);
+ enemyfx(0,fx_dflydirectexp1,pos_spinecenter);
+ enemyfx(0,fx_dflydirectexp2,pos_hand_l,1);
+ enemyfx(0,fx_dflydirectexp2,pos_hand_r,1);
+ wait(0.1);
+ enemyfx(mded1,fx_startsmoke1,bottom);           enemyfxpos(mded1,0,0,0,1);      enemyfxrot(mded1,0,180,0,1);
+}
+
+$global_magic_direct_expsmall_dragonfly {
+ enemyfx(mdesd1,fx_dflydirectexpsmall1,bottom); enemyfxpos(mdesd1,0,1.3,0,1);
+}
+
+---AOE---
+
+$global_magic_aoe_dragonfly_prestart {
+ fx(0,fx_dflybafstart1,pos_toe_l,1);
+ fx(0,fx_dflybafstart1,pos_head,1);
+}
+
+$global_magic_aoe_dragonfly_start {
+ fx(0,fx_dflyaoestart1,pos_head);
+}
+
+$global_magic_aoe_wave_dragonfly {
+ vibration(5,5,-1);
+ fx(0,sfx_dflyaoe1,bottom);
+}
+
+$global_magic_aoe_exp_dragonfly {
+ vibration(2,3,0);
+ enemyfx(0,fx_dflydirectexp2,pos_toe_l,1);
+ enemyfx(0,fx_dflydirectexp2,pos_toe_r,1);
+ wait(0.1);
+ enemyfx(mded1,fx_startsmoke1,bottom);           enemyfxpos(mded1,0,0,0,1);      enemyfxrot(mded1,0,180,0,1);
+}
+
+---BAF---
+
+$global_magic_baf_dragonfly_start {
+ fx(0,fx_dflybafstart1,pos_head,1);
+}
+
+$global_magic_baf_dragonfly {
+ fx(0,fx_dflybaf1,pos_spinecenter);
+}
+
+//-----SNAKE CACTUS-----//
+
+---SPECIAL---
+
+$global_attack_cactus {
+ fx(ac1,fx_cactusspit1,pos_head);            fxpos(ac1,0,0.1,0,1);        fxrot(ac1,0,90,0,1);
+}
+
+$global_attack_exp_cactus {
+ fx(0,fx_cactusspitex1,pos_spinecenter);
+}
+
+---DIRECT---
+
+$global_magic_direct_fly_cactus {
+ fx(0,fx_cactusdirect1,pos_head,1);
+ fx(mdfc2,fx_startsmoke1,bottom);               fxpos(mdfc2,0,0,0,1);           fxrot(mdfc2,0,180,0,1);
+}
+
+$global_magic_direct_exp_cactus {
+ vibration(2,3,0);
+ enemyfx(0,fx_cactusdirectexp1,pos_spinecenter);
+ enemyfx(0,fx_cactusdirectexp2,pos_hand_l,1);
+ enemyfx(0,fx_cactusdirectexp2,pos_hand_r,1);
+ wait(0.1);
+ enemyfx(mdec1,fx_startsmoke1,bottom);           enemyfxpos(mdec1,0,0,0,1);      enemyfxrot(mdec1,0,180,0,1);
+}
+
+$global_magic_direct_expsmall_cactus {
+ enemyfx(mdesc1,fx_cactusdirectexpsmall1,bottom); enemyfxpos(mdesc1,0,1.3,0,1);
+}
+
+---AOE---
+
+$global_magic_aoe_cactus_prestart {
+ fx(0,fx_cactusbafstart1,pos_head,1);
+}
+
+$global_magic_aoe_cactus_start {
+ fx(0,fx_cactusaoestart1,pos_head,1);
+}
+
+$global_magic_aoe_wave_cactus {
+ vibration(5,5,-1);
+ fx(0,sfx_cactusaoe1,bottom);
+}
+
+$global_magic_aoe_exp_cactus {
+ vibration(2,3,0);
+ enemyfx(0,fx_cactusdirectexp2,pos_toe_l,1);
+ enemyfx(0,fx_cactusdirectexp2,pos_toe_r,1);
+ wait(0.1);
+ enemyfx(mdec1,fx_startsmoke1,bottom);           enemyfxpos(mdec1,0,0,0,1);      enemyfxrot(mdec1,0,180,0,1);
+}
+
+---BAF---
+
+$global_magic_baf_cactus_start {
+ fx(0,fx_cactusbafflame1,pos_head,1);
+}
+
+$global_magic_baf_cactus {
+ fx(0,fx_cactusbafhands1,pos_spinecenter,1);
+ fx(0,fx_cactusbafhands1,pos_head,1);
+ fx(0,fx_cactusbafhands1,pos_hand_r,1);
+ fx(0,fx_cactusbafhands1,pos_hand_l,1);
+ fx(0,fx_cactusbaf1,pos_spinecenter);
+}
+
+//-----REVUN-----//
+
+---TECH---
+
+$global_revun_ground {
+ fx(0,fx_groundlegs_01,pos_toe_r,1,-1);
+ fx(0,fx_groundlegs_02,pos_toe_l,1,-1);
+}
+
+$global_revun_ground_destroy {
+ fxdestroy(fx_groundlegs_01);
+ fxdestroy(fx_groundlegs_02);
+}
+
+$global_revun_ground_fx_spine {
+ fx(0,fx_groundkap_04,pos_spinecenter);
+}
+
+$global_revun_ground_fx_legs {
+ fx(0,fx_groundkap_04,pos_toe_r);
+ fx(0,fx_groundkap_04,pos_toe_l);
+}
+
+$global_revun_ground_fx_head {
+ fx(0,fx_groundkap_04,pos_head);
+}
+
+---DIRECT---
+
+$global_magic_direct_fly_revun {
+ fx(mdfr1,sfx_revundirect1,pos_head); fxpos(mdfr1,0,-1.3,0,1); fxrot(mdfr1,0,90,0,1);
+ fx(mdfr2,fx_startsmoke1,bottom); fxpos(mdfr2,0,0,0,1); fxrot(mdfr2,0,180,0,1);
+}
+
+$global_magic_direct_exp_revun {
+ vibration(2,3,0);
+ enemyfx(0,fx_revundirectexp1,pos_toe_l);
+ enemyfx(0,fx_revundirectexp2,pos_toe_l,1);
+ enemyfx(0,fx_revundirectexp2,pos_toe_r,1);
+ wait(0.1);
+ enemyfx(mdec1,fx_startsmoke1,bottom); enemyfxpos(mdec1,0,0,0,1); enemyfxrot(mdec1,0,180,0,1);
+}
+
+$global_magic_direct_expsmall_revun {
+ enemyfx(mdesc1,fx_revundirectexpsmall1,bottom); enemyfxpos(mdesc1,0,1.3,0,1);
+}
+
+---AOE---
+
+$global_magic_aoe_revun_start {
+ fx(0,fx_revunaoestart1,pos_head);
+}
+
+$global_magic_aoe_wave_revun {
+ vibration(5,5,-1);
+ fx(0,sfx_revunaoe1,bottom);
+}
+
+$global_magic_aoe_exp_revun {
+ vibration(2,3,0);
+ enemyfx(0,fx_revundirectexp2,pos_toe_l,1);
+ enemyfx(0,fx_revundirectexp2,pos_toe_r,1);
+ wait(0.1);
+ enemyfx(mdec1,fx_startsmoke1,bottom);           enemyfxpos(mdec1,0,0,0,1);      enemyfxrot(mdec1,0,180,0,1);
+}
+
+---BAF---
+
+$global_magic_baf_revun_start {
+ fx(0,fx_revunbafstart1,pos_head,1);
+}
+
+$global_magic_baf_revun {
+ fx(0,fx_revunbaf1,bottom);
+}
+
+//-----CRAB-----//
+
+---DIRECT---
+
+$global_magic_direct_fly_crab {
+ fx(mdfc1,sfx_crabdirect1,pos_head); fxpos(mdfc1,0,-0.2,0,1); fxrot(mdfc1,0,90,0,1);
+ fx(mdfc2,fx_startsmoke1,bottom); fxpos(mdfc2,0,0,0,1); fxrot(mdfc2,0,180,0,1);
+}
+
+$global_magic_direct_exp_crab {
+ vibration(2,3,0);
+ enemyfx(0,fx_crabdirectexp1,pos_hand_r,1);
+ enemyfx(0,fx_crabdirectexp2,pos_hand_l,1);
+ wait(0.1);
+ enemyfx(mdec1,fx_startsmoke1,bottom); enemyfxpos(mdec1,0,0,0,1); enemyfxrot(mdec1,0,180,0,1);
+}
+
+$global_magic_direct_expsmall_crab {
+ enemyfx(mdesc1,fx_crabdirectexpsmall1,bottom); enemyfxpos(mdesc1,0,1.3,0,1);
+}
+
+---AOE---
+
+$global_magic_aoe_wave_crab {
+ vibration(5,5,-1);
+ fx(0,sfx_crabaoe1,bottom);
+}
+
+$global_magic_aoe_exp_crab {
+ vibration(2,3,0);
+ enemyfx(0,fx_crabdirectexp2,pos_toe_l,1);
+ enemyfx(0,fx_crabdirectexp2,pos_toe_r,1);
+ wait(0.1);
+ enemyfx(mdec1,fx_startsmoke1,bottom);           enemyfxpos(mdec1,0,0,0,1);      enemyfxrot(mdec1,0,180,0,1);
+}
+
+---BAF---
+
+$global_magic_baf_crab_start {
+ fx(0,fx_crabbafstart1,pos_head,1);
+}
+
+$global_magic_baf_crab {
+ fx(0,fx_crabbaf1,pos_hand_r,1);
+ fx(0,fx_crabbaf1,pos_hand_l,1);
+}
+
+//-----FLYLIZARD-----//
+
+---SPECIAL---
+
+$global_flylizard_attack_1 {
+ fx(0,fx_flyliziflame1,pos_head,1);
+}
+
+$global_flylizard_attack_2 {
+ fx(0,fx_flyliziflame2,pos_head,1);
+}
+
+$global_attack_flylizard_prestart {
+ fx(0,fx_flylizbafstart1,pos_head,1);
+}
+
+$global_attack_fly_flylizard {
+ fx(aff1,sfx_flylizattack1,pos_head); fxpos(aff1,0,-0.5,0,1); fxrot(aff1,0,90,0,1);
+ wait(0.4);
+ fx(aff2,fx_startsmoke1,bottom); fxpos(aff2,0,0,0,1); fxrot(aff2,0,180,0,1);
+}
+
+---DIRECT---
+
+$global_magic_direct_fly_flylizard {
+ fx(mffd1,sfx_flylizdirect1,pos_head); fxpos(mffd1,0,-0.2,0,1); fxrot(mffd1,0,90,0,1);
+ fx(mffd2,fx_startsmoke1,bottom); fxpos(mffd2,0,0,0,1); fxrot(mffd2,0,180,0,1);
+}
+
+$global_magic_direct_exp_flylizard {
+ vibration(2,3,0);
+ enemyfx(0,fx_flylizdirectexp1,pos_spinecenter);
+ enemyfx(0,fx_flylizdirectexp2,pos_hand_l,1);
+ enemyfx(0,fx_flylizdirectexp2,pos_hand_r,1);
+ wait(0.1);
+ enemyfx(mdef1,fx_startsmoke1,bottom); enemyfxpos(mdef1,0,0,0,1); enemyfxrot(mdef1,0,180,0,1);
+}
+
+$global_magic_direct_expsmall_flylizard {
+ enemyfx(mdesf1,fx_flylizdirectexpsmall1,bottom); enemyfxpos(mdesf1,0,1.3,0,1);
+}
+
+---AOE---
+
+$global_magic_aoe_flylizard_prestart {
+ fx(0,fx_flylizbafstart1,pos_hand_r,1);
+ fx(0,fx_flylizbafstart1,pos_hand_l,1);
+}
+
+$global_magic_aoe_flylizard_start {
+ fx(0,fx_flylizaoestart1,pos_head);
+}
+
+$global_magic_aoe_wave_flylizard {
+ vibration(5,5,-1);
+ fx(0,sfx_flylizaoe1,bottom);
+}
+
+$global_magic_aoe_exp_flylizard {
+ vibration(2,3,0);
+ enemyfx(0,fx_flylizdirectexp2,pos_toe_l,1);
+ enemyfx(0,fx_flylizdirectexp2,pos_toe_r,1);
+ wait(0.1);
+ enemyfx(mdef1,fx_startsmoke1,bottom); enemyfxpos(mdef1,0,0,0,1); enemyfxrot(mdef1,0,180,0,1);
+}
+
+---BAF---
+
+$global_magic_baf_flylizard_start {
+ fx(0,fx_flylizbafstart1,pos_hand_r,1);
+ fx(0,fx_flylizbafstart1,pos_hand_l,1);
+ fx(0,fx_flylizbafstart1,pos_toe_r,1);
+ fx(0,fx_flylizbafstart1,pos_toe_l,1);
+}
+
+$global_magic_baf_flylizard {
+ fx(0,fx_flylizbaf1,pos_spinecenter);
+}
+
+//-----BODYGUARD-----//
+
+---DIRECT---
+
+$global_magic_direct_fly_bguard {
+ fx(mdfb1,sfx_bguarddirect1,pos_hand_r); fxpos(mdfb1,0,0.1,0,1); fxrot(mdfb1,0,90,0,1);
+ fx(mdfb2,fx_startsmoke1,bottom); fxpos(mdfb2,0,0,0,1); fxrot(mdfb2,0,180,0,1);
+}
+
+$global_magic_direct_exp_bguard {
+ vibration(2,3,0);
+ enemyfx(0,fx_bguarddirectexp1,pos_spinecenter);
+ enemyfx(0,fx_bguarddirectexp2,pos_hand_l,1);
+ enemyfx(0,fx_bguarddirectexp2,pos_hand_r,1);
+ wait(0.1);
+ enemyfx(mdeb1,fx_startsmoke1,bottom); enemyfxpos(mdeb1,0,0,0,1); enemyfxrot(mdeb1,0,180,0,1);
+}
+
+$global_magic_direct_expsmall_bguard {
+ enemyfx(mdeb1,fx_bguarddirectexpsmall1,bottom); enemyfxpos(mdeb1,0,1.3,0,1);
+}
+
+---AOE---
+
+$global_magic_aoe_bguard_prestart {
+ fx(0,fx_bguardbafstart1,pos_hand_r,1);
+}
+
+$global_magic_aoe_bguard_start {
+ fx(0,fx_bguardaoestart1,pos_hand_r);
+}
+
+$global_magic_aoe_wave_bguard {
+ vibration(5,5,-1);
+ fx(0,sfx_bguardaoe1,bottom);
+}
+
+$global_magic_aoe_exp_bguard {
+ vibration(2,3,0);
+ enemyfx(0,fx_bguarddirectexp2,pos_toe_l,1);
+ enemyfx(0,fx_bguarddirectexp2,pos_toe_r,1);
+ wait(0.1);
+ enemyfx(mdeb1,fx_startsmoke1,bottom); enemyfxpos(mdeb1,0,0,0,1); enemyfxrot(mdeb1,0,180,0,1);
+}
+
+
+---BAF---
+
+$global_magic_baf_bguard_start {
+ fx(0,fx_bguardbafstart1,pos_hand_l,1);
+}
+
+$global_magic_baf_bguard {
+ fx(0,fx_bguardbaf1,pos_hand_l);
+ fx(0,fx_bguardbafstart2,bottom);
+}
+
+//-----LIZARD-----//
+
+---DIRECT---
+
+$global_magic_direct_fly_lizard {
+ fx(mdf1,sfx_lizarddirect1,pos_head,1);
+}
+
+$global_magic_direct_exp_lizard {
+ vibration(2,3,0);
+ enemyfx(0,fx_lizarddirectexp1,pos_spinecenter);
+ enemyfx(0,fx_lizarddirectexp2,pos_hand_l,1);
+ enemyfx(0,fx_lizarddirectexp2,pos_hand_r,1);
+ wait(0.1);
+ enemyfx(mde1,fx_startsmoke1,bottom); enemyfxpos(mde1,0,0,0,1); enemyfxrot(mde1,0,180,0,1);
+}
+
+$global_magic_direct_expsmall_lizard {
+ enemyfx(mdes1,fx_lizarddirectexpsmall1,bottom); enemyfxpos(mdes1,0,1.3,0,1);
+}
+
+---AOE---
+
+$global_magic_aoe_lizard_prestart {
+ fx(0,fx_lizardaoestart1,pos_head,1);
+}
+
+$global_magic_aoe_lizard_start {
+ fx(0,fx_lizardbaf1,bottom);
+}
+
+$global_magic_aoe_lizard_prewave {
+ fx(0,fx_lizardaoestart2,bottom);
+}
+
+$global_magic_aoe_wave_lizard {
+ vibration(5,5,-1);
+ fx(0,sfx_lizardaoe1,bottom);
+}
+
+$global_magic_aoe_exp_lizard {
+ vibration(2,3,0);
+ enemyfx(0,fx_lizarddirectexp2,pos_toe_l,1);
+ enemyfx(0,fx_lizarddirectexp2,pos_toe_r,1);
+ wait(0.1);
+ enemyfx(mae1,fx_startsmoke1,bottom); enemyfxpos(mae1,0,0,0,1); enemyfxrot(mae1,0,180,0,1);
+}
+
+---BAF---
+
+$global_magic_baf_lizard_start {
+ fx(0,fx_lizardbafstart1,pos_head,1);
+}
+
+$global_magic_baf_lizard {
+ fx(0,fx_lizardbafstart2,pos_head,1);
+ wait(0.45);
+ fx(0,fx_lizardbaf1,pos_hand_r);
+ wait(0.45);
+ fx(0,fx_lizardbaf1,pos_hand_l);
+ wait(0.45);
+ fx(0,fx_lizardbaf1,pos_hand_r);
+}
+
+//-----ICE LIZARD-----//
+
+---DIRECT---
+
+$global_magic_direct_fly_ilizard {
+ fx(mdf1,sfx_ilizarddirect1,pos_head,1);
+}
+
+$global_magic_direct_exp_ilizard {
+ vibration(2,3,0);
+ enemyfx(0,fx_ilizarddirectexp1,pos_spinecenter);
+ enemyfx(0,fx_ilizarddirectexp2,pos_hand_l,1);
+ enemyfx(0,fx_ilizarddirectexp2,pos_hand_r,1);
+ wait(0.1);
+ enemyfx(mde1,fx_startsmoke1,bottom); enemyfxpos(mde1,0,0,0,1); enemyfxrot(mde1,0,180,0,1);
+}
+
+$global_magic_direct_expsmall_ilizard {
+ enemyfx(mdes1,fx_ilizarddirectexpsmall1,bottom); enemyfxpos(mdes1,0,1.3,0,1);
+}
+
+---AOE---
+
+$global_magic_aoe_ilizard_prestart {
+ fx(0,fx_ilizardaoestart1,pos_head,1);
+}
+
+$global_magic_aoe_ilizard_start {
+ fx(0,fx_ilizardbaf1,bottom);
+}
+
+$global_magic_aoe_ilizard_prewave {
+ fx(0,fx_ilizardaoestart2,bottom);
+}
+
+$global_magic_aoe_wave_ilizard {
+ vibration(5,5,-1);
+ fx(0,sfx_ilizardaoe1,bottom);
+}
+
+$global_magic_aoe_exp_ilizard {
+ vibration(2,3,0);
+ enemyfx(0,fx_ilizarddirectexp2,pos_toe_l,1);
+ enemyfx(0,fx_ilizarddirectexp2,pos_toe_r,1);
+ wait(0.1);
+ enemyfx(mae1,fx_startsmoke1,bottom); enemyfxpos(mae1,0,0,0,1); enemyfxrot(mae1,0,180,0,1);
+}
+
+---BAF---
+
+$global_magic_baf_ilizard_start {
+ fx(0,fx_ilizardbafstart1,pos_head,1);
+}
+
+$global_magic_baf_ilizard {
+ fx(0,fx_ilizardbafstart2,pos_head,1);
+ wait(0.45);
+ fx(0,fx_ilizardbaf1,pos_hand_r);
+ wait(0.45);
+ fx(0,fx_ilizardbaf1,pos_hand_l);
+ wait(0.45);
+ fx(0,fx_ilizardbaf1,pos_hand_r);
+}
+
+//-----TIGER-----//
+
+---DIRECT---
+
+$global_magic_direct_tiger_start {
+ fx(0,fx_tigerdirectstart1,pos_head,1);
+}
+
+$global_magic_direct_fly_tiger {
+ fx(mdf1,sfx_tigerdirect1,pos_head); fxpos(mdf1,0,-0.5,0,1); fxrot(mdf1,0,90,0,1);
+}
+
+$global_magic_direct_exp_tiger {
+ vibration(2,3,0);
+ enemyfx(0,fx_tigerdirectexp1,pos_spinecenter);
+ enemyfx(0,fx_tigerdirectexp2,pos_hand_l,1);
+ enemyfx(0,fx_tigerdirectexp2,pos_hand_r,1);
+ wait(0.1);
+ enemyfx(mde1,fx_startsmoke1,bottom); enemyfxpos(mde1,0,0,0,1); enemyfxrot(mde1,0,180,0,1);
+}
+
+$global_magic_direct_expsmall_tiger {
+ enemyfx(mdes1,fx_tigerdirectexpsmall1,bottom); enemyfxpos(mdes1,0,1.3,0,1);
+}
+
+---AOE---
+
+$global_magic_aoe_wave_tiger {
+ vibration(5,5,-1);
+ fx(0,sfx_tigeraoe1,bottom);
+}
+
+---BAF---
+
+$global_magic_baf_tiger_start {
+ fx(0,fx_tigerbafstart2,pos_hand_r,1);
+}
+
+$global_magic_baf_tiger {
+ fx(0,fx_tigerbafstart1,pos_hand_r,1);
+}
+
+//-----ELEMENTAL LAVA-----//
+
+---DIRECT---
+
+$global_magic_direct_felem_start {
+ fx(0,fx_felemdirectstart1,pos_hand_r,1);
+}
+
+$global_magic_direct_fly_felem {
+ fx(0,fx_felemdirect1,pos_hand_r,1);
+ fx(0,fx_felemdirect1,pos_hand_l,1);
+}
+
+$global_magic_direct_exp_felem {
+ vibration(2,3,0);
+ enemyfx(0,fx_felemdirectexp1,pos_spinecenter);
+ enemyfx(0,fx_felemdirectexp2,pos_hand_l,1);
+ enemyfx(0,fx_felemdirectexp2,pos_hand_r,1);
+ wait(0.1);
+ enemyfx(mde1,fx_startsmoke1,bottom); enemyfxpos(mde1,0,0,0,1); enemyfxrot(mde1,0,180,0,1);
+ enemyfx(0,fx_felembafstart2,bottom);
+}
+
+$global_magic_direct_expsmall_felem {
+ enemyfx(mdes1,fx_felemdirectexpsmall1,bottom); enemyfxpos(mdes1,0,1.3,0,1);
+}
+
+---AOE---
+
+$global_magic_aoe_wave_felem {
+ vibration(5,5,-1);
+ fx(0,sfx_felemaoe1,bottom);
+}
+
+$global_magic_aoe_exp_felem {
+ vibration(2,3,0);
+ enemyfx(0,fx_felemdirectexp2,pos_toe_l,1);
+ enemyfx(0,fx_felemdirectexp2,pos_toe_r,1);
+ wait(0.1);
+ enemyfx(mae1,fx_startsmoke1,bottom); enemyfxpos(mae1,0,0,0,1); enemyfxrot(mae1,0,180,0,1);
+}
+
+---BAF---
+
+$global_magic_baf_felem_start {
+ fx(0,fx_felembafstart1,pos_hand_r,1);
+ fx(0,fx_felembafstart1,pos_hand_l,1);
+}
+
+$global_magic_baf_felem {
+ fx(0,fx_felembaf1,pos_head,1);
+ wait(0.5);
+ fx(0,fx_felembafstart2,bottom);
+}
+
+//-----ELEMENTAL SAND-----//
+
+---DIRECT---
+
+$global_magic_direct_selem_start {
+ fx(0,fx_selemdirectstart1,pos_hand_r,1);
+}
+
+$global_magic_direct_fly_selem {
+ fx(0,fx_selemdirect1,pos_hand_r,1);
+ fx(0,fx_selemdirect1,pos_hand_l,1);
+}
+
+$global_magic_direct_exp_selem {
+ vibration(2,3,0);
+ enemyfx(0,fx_selemdirectexp1,pos_spinecenter);
+ enemyfx(0,fx_selemdirectexp2,pos_hand_l,1);
+ enemyfx(0,fx_selemdirectexp2,pos_hand_r,1);
+ wait(0.1);
+ enemyfx(mde1,fx_startsmoke1,bottom); enemyfxpos(mde1,0,0,0,1); enemyfxrot(mde1,0,180,0,1);
+ enemyfx(0,fx_selembafstart2,bottom);
+}
+
+$global_magic_direct_expsmall_selem {
+ enemyfx(mdes1,fx_selemdirectexpsmall1,bottom); enemyfxpos(mdes1,0,1.3,0,1);
+}
+
+---AOE---
+
+$global_magic_aoe_wave_selem {
+ vibration(5,5,-1);
+ fx(0,sfx_selemaoe1,bottom);
+}
+
+$global_magic_aoe_exp_selem {
+ vibration(2,3,0);
+ enemyfx(0,fx_selemdirectexp2,pos_toe_l,1);
+ enemyfx(0,fx_selemdirectexp2,pos_toe_r,1);
+ wait(0.1);
+ enemyfx(mae1,fx_startsmoke1,bottom); enemyfxpos(mae1,0,0,0,1); enemyfxrot(mae1,0,180,0,1);
+}
+
+---BAF---
+
+$global_magic_baf_selem_start {
+ fx(0,fx_selembafstart1,pos_hand_r,1);
+ fx(0,fx_selembafstart1,pos_hand_l,1);
+}
+
+$global_magic_baf_selem {
+ fx(0,fx_selembaf1,pos_head,1);
+}
+
+//-----DEMON GIRL-----//
+
+---DIRECT---
+
+$global_magic_direct_demongirl_prestart {
+ fx(mddp1,fx_demongirldirectprestart1,pos_toe_r); fxpos(mddp1,0,0,0,1); fxrot(mddp1,0,90,0,1);
+ fx(mddp2,fx_demongirldirectprestart1,pos_toe_r); fxpos(mddp2,0,0,0,1); fxrot(mddp2,0,90,0,1);
+}
+
+$global_magic_direct_demongirl_start {
+ fx(0,fx_demongirldirectstart1,pos_spinecenter,1);
+}
+
+$global_magic_direct_fly_demongirl {
+ fx(mdf1,sfx_demongirldirect1,pos_head); fxpos(mdf1,0,-0.5,0,1); fxrot(mdf1,0,90,0,1);
+}
+
+$global_magic_direct_exp_tiger {
+ vibration(2,3,0);
+ enemyfx(0,fx_tigerdirectexp1,pos_spinecenter);
+ enemyfx(0,fx_tigerdirectexp2,pos_hand_l,1);
+ enemyfx(0,fx_tigerdirectexp2,pos_hand_r,1);
+ wait(0.1);
+ enemyfx(mde1,fx_startsmoke1,bottom); enemyfxpos(mde1,0,0,0,1); enemyfxrot(mde1,0,180,0,1);
+}
+
+$global_magic_direct_expsmall_tiger {
+ enemyfx(mdes1,fx_tigerdirectexpsmall1,bottom); enemyfxpos(mdes1,0,1.3,0,1);
+}
+
+---AOE---
+
+$global_magic_aoe_demongirl_start {
+ fx(0,fx_demongirlaoestart1,pos_weapon);
+}
+
+$global_magic_aoe_wave_demongirl {
+ vibration(5,5,-1);
+ fx(0,sfx_demongirlaoe1,bottom);
+}
+
+$global_magic_aoe_exp_demongirl {
+ vibration(2,3,0);
+ enemyfx(0,fx_tigerdirectexp2,pos_toe_l,1);
+ enemyfx(0,fx_tigerdirectexp2,pos_toe_r,1);
+ wait(0.1);
+ enemyfx(mde1,fx_startsmoke1,bottom); enemyfxpos(mde1,0,0,0,1); enemyfxrot(mde1,0,180,0,1);
+}
+
+---BAF---
+
+$global_magic_baf_demongirl_prestart {
+ fx(0,fx_demongirlbafstart1,pos_hand_r);
+ fx(0,fx_demongirlbafstart1,pos_hand_l);
+}
+
+$global_magic_baf_demongirl_start {
+ fx(0,fx_demongirlbafstart2,pos_hand_r,1);
+ fx(0,fx_demongirlbafstart2,pos_hand_l,1);
+}
+
+$global_magic_baf_demongirl {
+ fx(0,fx_demongirlbaf1,bottom);
+}
+
+//-----CYCLOPARIKI-----//
+
+---DIRECT---
+
+$global_magic_direct_fly_cyclopariki {
+ fx(mdf1,fx_cycloparikdirect1,bottom); fxpos(mdf1,0,0,0,1); fxrot(mdf1,0,90,0,1);
+}
+
+---BAF---
+
+$global_magic_baf_cyclopariki_prestart {
+ fx(0,fx_tigerdirectexp2,pos_head,1);
+ fx(0,fx_tigerdirectexp2,pos_toe_r,1);
+ fx(0,fx_tigerdirectexp2,pos_toe_l,1);
+}
+
+//-----SCOLOPENDRA-----//
+
+---DIRECT---
+
+$global_magic_direct_fly_scolop {
+ fx(mdfb1,fx_jivoglotdirect1,pos_head); fxpos(mdfb1,0,0,0,1); fxrot(mdfb1,0,90,0,1);
+ fx(mdfb2,fx_startsmoke1,bottom); fxpos(mdfb2,0,0,0,1); fxrot(mdfb2,0,180,0,1);
+}
+
+$global_magic_direct_exp_scolop {
+ vibration(2,3,0);
+ enemyfx(0,fx_scolopdirectexp1,pos_spinecenter);
+ enemyfx(0,fx_scolopdirectexp2,pos_hand_l,1);
+ enemyfx(0,fx_scolopdirectexp2,pos_hand_r,1);
+ wait(0.1);
+ enemyfx(mde1,fx_startsmoke1,bottom); enemyfxpos(mde1,0,0,0,1); enemyfxrot(mde1,0,180,0,1);
+}
+
+$global_magic_direct_expsmall_scolop {
+ enemyfx(mdes1,fx_scolopdirectexp1,bottom); enemyfxpos(mdes1,0,1.3,0,1);
+}
+
+---AOE---
+
+$global_magic_aoe_wave_scolop {
+ vibration(5,5,-1);
+ fx(0,sfx_scolopaoe1,bottom);
+}
+
+$global_magic_aoe_exp_scolop {
+ vibration(2,3,0);
+ enemyfx(0,fx_scolopdirectexp2,pos_toe_l,1);
+ enemyfx(0,fx_scolopdirectexp2,pos_toe_r,1);
+ wait(0.1);
+ enemyfx(mae1,fx_startsmoke1,bottom); enemyfxpos(mae1,0,0,0,1); enemyfxrot(mae1,0,180,0,1);
+}
+
+---BAF---
+
+$global_magic_baf_scolop_start {
+ fx(0,fx_scolopbafstart1,pos_head,1);
+}
+
+$global_magic_baf_scolop {
+ fx(0,fx_scolopbaf1,pos_head,1);
+ fx(0,fx_scolopbaf1,pos_hand_r,1);
+ fx(0,fx_scolopbaf1,pos_hand_l,1);
+ fx(0,fx_scolopbafstart2,bottom);
+}
+
+//-----JIVOGLOT-----//
+
+---DIRECT---
+
+$global_magic_direct_fly_jivoglot {
+ fx(mdfb1,fx_jivoglotdirect1,pos_head); fxpos(mdfb1,0,0,0,1); fxrot(mdfb1,0,90,0,1);
+ fx(mdfb2,fx_startsmoke1,bottom); fxpos(mdfb2,0,0,0,1); fxrot(mdfb2,0,180,0,1);
+}
+
+//-----ZVERG-----//
+
+---DIRECT---
+
+$global_magic_direct_fly_zverg {
+ fx(mdfb1,sfx_zvergdirect1,pos_hand_l); fxpos(mdfb1,0,0,0,1); fxrot(mdfb1,0,90,0,1);
+ fx(mdfb2,fx_startsmoke1,bottom); fxpos(mdfb2,0,0,0,1); fxrot(mdfb2,0,180,0,1);
+}
+
+$global_magic_direct_exp_zverg {
+ vibration(2,3,0);
+ enemyfx(0,fx_zvergdirectexp1,pos_spinecenter);
+ enemyfx(0,fx_zvergdirectexp2,pos_hand_l,1);
+ enemyfx(0,fx_zvergdirectexp2,pos_hand_r,1);
+ wait(0.1);
+ enemyfx(mdeb1,fx_startsmoke1,bottom); enemyfxpos(mdeb1,0,0,0,1); enemyfxrot(mdeb1,0,180,0,1);
+}
+
+$global_magic_direct_expsmall_zverg {
+ enemyfx(mdeb1,fx_zvergdirectexpsmall1,bottom); enemyfxpos(mdeb1,0,1.3,0,1);
+}
+
+---AOE---
+
+$global_magic_aoe_wave_zverg {
+ vibration(5,5,-1);
+ fx(0,sfx_zvergaoe1,bottom);
+}
+
+$global_magic_aoe_exp_zverg {
+ vibration(2,3,0);
+ enemyfx(0,fx_zvergdirectexp2,pos_toe_l,1);
+ enemyfx(0,fx_zvergdirectexp2,pos_toe_r,1);
+ wait(0.1);
+ enemyfx(mae1,fx_startsmoke1,bottom); enemyfxpos(mae1,0,0,0,1); enemyfxrot(mae1,0,180,0,1);
+}
+
+---BAF---
+
+$global_magic_baf_zverg_start {
+ fx(0,fx_zvergbafstart1,pos_hand_r,1);
+ fx(0,fx_zvergbafstart1,pos_hand_l,1);
+}
+
+$global_magic_baf_zverg {
+ fx(0,fx_zvergbaf1,pos_hand_r);
+ fx(0,fx_zvergbaf1,pos_hand_l);
+ fx(0,fx_zvergbafstart2,bottom);
+}
+
+//-----KABANISHE-----//
+
+---DIRECT---
+
+$global_magic_direct_prestart_kabanishe {
+ fx(0,fx_boarmagstart2,pos_head);
+}
+
+$global_magic_direct_start_kabanishe {
+ fx(0,fx_boarmagstart3,pos_hand_r);
+ fx(0,fx_boarmagstart3,pos_hand_l);
+}
+
+$global_magic_direct_fly_kabanishe {
+ fx(mdfb1,sfx_kabanishemagball1,pos_head);           fxpos(mdfb1,0,0.25,0,1);        fxrot(mdfb1,0,90,0,1);
+ fx(mdfb2,fx_startsmoke1,bottom);               fxpos(mdfb2,0,0,0,1);           fxrot(mdfb2,0,180,0,1);
+}
+
+$global_magic_direct_exp_kabanishe {
+ vibration(2,3,0);
+ enemyfx(0,fx_boarmagexp1,pos_spinecenter);
+ enemyfx(0,fx_boarmagexp2,pos_hand_l,1);
+ enemyfx(0,fx_boarmagexp2,pos_hand_r,1);
+ wait(0.1);
+ enemyfx(mdeb1,fx_startsmoke1,bottom);          enemyfxpos(mdeb1,0,0,0,1);      enemyfxrot(mdeb1,0,180,0,1);
+}
+
+$global_magic_direct_expsmall_kabanishe {
+ enemyfx(mdesb1,fx_boarmagexpsmall1,bottom);    enemyfxpos(mdesb1,0,1.3,0,1);
+}
+
+---AOE---
+
+$global_magic_aoe_prestart_kabanishe {
+ fx(mapb1,fx_boaraoestart1,pos_head);           fxpos(mapb1,0,0,0,1);
+}
+
+$global_magic_aoe_wave_kabanishe {
+ vibration(5,5,-1);
+ fx(mawb1,sfx_boaraoewave1,bottom);             fxpos(mawb1,0,0,0,1);
+}
+
+---BAF---
+
+$global_magic_baf_kabanishe_start {
+ fx(0,fx_boarmagstart1,pos_hand_r,1);
+ fx(0,fx_boarmagstart1,pos_hand_l,1);
+ fx(0,fx_boarleg1,pos_hand_r,1,3);
+ fx(0,fx_boarleg1,pos_hand_l,1,3);
+}
+
+$global_magic_baf_kabanishe {
+ fx(0,fx_boarbafstart1,bottom);
+}
+
+//-----FLAGELLANT-----//
+
+---ATTACK---
+
+$global_flag_shoot_attack {
+ fx(0,fx_flagattack1,pos_weapon,1);
+}
+
+$global_flag_shoot_smoke {
+ fx(0,fx_flagattack2,pos_weapon,1);
+}
+
+$global_flag_shoot_smoke2 {
+ fx(0,fx_flagattack3,pos_weapon,1);
+}
+
+---DIRECT---
+
+$global_magic_direct_fly_flag {
+ fx(0,fx_flagdirect1,pos_weapon,1);
+ fx(0,fx_flagdirectsmoke1,pos_weapon,1);
+}
+
+$global_magic_direct_fly_flag_b {
+ fx(0,fx_flagdirect1_b,pos_spinecenter,1);
+}
+
+$global_magic_direct_fly_flag_r {
+ fx(0,fx_flagdirect1_r,pos_spinecenter,1);
+}
+
+$global_magic_direct_exp_flag {
+ vibration(2,3,0);
+ enemyfx(0,fx_flagaoeexp2,pos_hand_l,1);
+ enemyfx(0,fx_flagaoeexp2,pos_hand_r,1);
+ wait(0.1);
+ enemyfx(mdeb1,fx_startsmoke1,bottom); enemyfxpos(mdeb1,0,0,0,1); enemyfxrot(mdeb1,0,180,0,1);
+}
+
+$global_magic_direct_exp_flag_b {
+ vibration(2,3,0);
+ enemyfx(0,fx_flagdirectexp1_b,pos_spinecenter);
+ enemyfx(0,fx_flagdirectexp2_b,pos_hand_l,1);
+ enemyfx(0,fx_flagdirectexp2_b,pos_hand_r,1);
+ wait(0.1);
+ enemyfx(mdeb1,fx_startsmoke1,bottom); enemyfxpos(mdeb1,0,0,0,1); enemyfxrot(mdeb1,0,180,0,1);
+}
+
+$global_magic_direct_exp_flag_r {
+ vibration(2,3,0);
+ enemyfx(0,fx_flagdirectexp1_r,pos_spinecenter);
+ enemyfx(0,fx_flagdirectexp2_r,pos_hand_l,1);
+ enemyfx(0,fx_flagdirectexp2_r,pos_hand_r,1);
+ wait(0.1);
+ enemyfx(mdeb1,fx_startsmoke1,bottom); enemyfxpos(mdeb1,0,0,0,1); enemyfxrot(mdeb1,0,180,0,1);
+}
+
+$global_magic_direct_expsmall_flag {
+ enemyfx(mdeb1,fx_flagdirectexpsmall1,bottom); enemyfxpos(mdeb1,0,1.3,0,1);
+}
+
+$global_magic_direct_expsmall_flag_b {
+ enemyfx(mdeb1,fx_flagdirectexpsmall1_b,bottom); enemyfxpos(mdeb1,0,1.3,0,1);
+}
+
+$global_magic_direct_expsmall_flag_r {
+ enemyfx(mdeb1,fx_flagdirectexpsmall1_r,bottom); enemyfxpos(mdeb1,0,1.3,0,1);
+}
+
+---AOE---
+
+$global_magic_aoe_start_flag {
+ fx(0,fx_flagaoestart1,bottom);
+}
+
+$global_magic_aoe_wave_flag {
+ vibration(5,5,-1);
+ fx(0,sfx_flagaoe1,bottom);
+}
+
+$global_magic_aoe_exp_flag {
+ vibration(2,3,0);
+ enemyfx(0,fx_flagaoeexp2,pos_toe_l,1);
+ enemyfx(0,fx_flagaoeexp2,pos_toe_r,1);
+ wait(0.1);
+ enemyfx(mdeb1,fx_startsmoke1,bottom); enemyfxpos(mdeb1,0,0,0,1); enemyfxrot(mdeb1,0,180,0,1);
+}
+
+---BAF---
+
+$global_magic_baf_flag_start {
+ fx(0,fx_flagbafstart1,pos_spinecenter,1);
+ fx(0,fx_flagbafstart1,pos_hand_r,1);
+ fx(0,fx_flagbafstart1,pos_hand_l,1);
+ wait(0.75);
+ fx(0,fx_flagbafstart2,bottom);
+}
+
+$global_magic_baf_flag {
+ fx(0,fx_flagbaf1,pos_spinecenter);
+}
+
+$global_magic_baf_flag_b {
+ fx(0,fx_flagbaf1_b,pos_spinecenter);
+}
+
+$global_magic_baf_flag_r {
+ fx(0,fx_flagbaf1_r,pos_spinecenter);
+}
+
+//-----POJIRATEL-----//
+
+---DIRECT---
+
+$global_magic_direct_poj_start {
+ fx(0,fx_pojbafstart2,pos_head,1);
+}
+
+$global_magic_direct_poj3_start {
+ fx(0,fx_pojbafstart2,pos_hand_l,1);
+}
+
+$global_magic_direct_fly_poj1 {
+ fx(mdf1,fx_poj1direct1,pos_head); fxpos(mdf1,0,0,0,1); fxrot(mdf1,0,90,0,1);
+}
+
+$global_magic_direct_fly_poj2 {
+ fx(mdf1,fx_poj2direct1,pos_head); fxpos(mdf1,0,-0.5,0,1); fxrot(mdf1,0,90,0,1);
+}
+
+$global_magic_direct_fly_poj3 {
+ fx(mdf1,fx_poj1direct1,pos_hand_l); fxpos(mdf1,0,0,0,1); fxrot(mdf1,0,90,0,1);
+}
+
+$global_magic_direct_exp_poj {
+ vibration(2,3,0);
+ enemyfx(0,fx_pojdirectexp1,pos_spinecenter);
+ enemyfx(0,fx_pojdirectexp2,pos_hand_l,1);
+ enemyfx(0,fx_pojdirectexp2,pos_hand_r,1);
+ wait(0.1);
+ enemyfx(mde1,fx_startsmoke1,bottom); enemyfxpos(mde1,0,0,0,1); enemyfxrot(mde1,0,180,0,1);
+}
+
+$global_magic_direct_expsmall_poj {
+ enemyfx(mdes1,fx_pojdirectexpsmall1,bottom); enemyfxpos(mdes1,0,1.3,0,1);
+}
+
+---AOE---
+
+$global_magic_aoe_start_1_poj {
+ fx(0,fx_pojbafstart2,pos_hand_r,1);
+ fx(0,fx_pojbafstart2,pos_hand_l,1);
+ fx(0,fx_pojbafstart2,pos_toe_r,1);
+ fx(0,fx_pojbafstart2,pos_toe_,1);
+}
+
+$global_magic_aoe_start_2_poj {
+ fx(0,fx_pojaoestart1,bottom);
+}
+
+$global_magic_aoe_wave_poj {
+ vibration(5,5,-1);
+ fx(0,sfx_pojaoe1,bottom);
+}
+
+---BAF---
+
+$global_magic_baf_start_poj {
+ fx(0,fx_pojbafstart2,pos_toe_l,1);
+ wait(0.7);
+ fx(0,fx_pojbafstart2,pos_toe_r,1);
+}
+
+$global_magic_baf_poj {
+ fx(0,fx_pojbafstart1,pos_head,1);
+}
+
+//-----NIGHT ELF-----//
+
+---DIRECT---
+
+$global_magic_direct_fly_nelf {
+ fx(mdfb1,sfx_nelfdirect1,pos_hand_r); fxpos(mdfb1,0,-0.2,0,1); fxrot(mdfb1,0,90,0,1);
+ fx(mdfb2,fx_startsmoke1,bottom); fxpos(mdfb2,0,0,0,1); fxrot(mdfb2,0,180,0,1);
+}
+
+$global_magic_direct_exp_nelf {
+ vibration(2,3,0);
+ enemyfx(0,fx_nelfdirectexp1,pos_spinecenter);
+ enemyfx(0,fx_nelfdirectexp2,pos_hand_l,1);
+ enemyfx(0,fx_nelfdirectexp2,pos_hand_r,1);
+ wait(0.1);
+ enemyfx(mdeb1,fx_startsmoke1,bottom); enemyfxpos(mdeb1,0,0,0,1); enemyfxrot(mdeb1,0,180,0,1);
+}
+
+$global_magic_direct_expsmall_nelf {
+ enemyfx(mdeb1,fx_nelfdirectexpsmall1,bottom); enemyfxpos(mdeb1,0,1.3,0,1);
+}
+
+---AOE---
+
+$global_magic_aoe_wave_nelf {
+ vibration(5,5,-1);
+ fx(0,sfx_nelfaoe1,bottom);
+}
+
+$global_magic_aoe_exp_nelf {
+ vibration(2,3,0);
+ enemyfx(0,fx_nelfdirectexp2,pos_toe_l,1);
+ enemyfx(0,fx_nelfdirectexp2,pos_toe_r,1);
+ wait(0.1);
+ enemyfx(mdeb1,fx_startsmoke1,bottom); enemyfxpos(mdeb1,0,0,0,1); enemyfxrot(mdeb1,0,180,0,1);
+}
+
+---BAF---
+
+$global_magic_baf_nelf_start {
+ fx(0,fx_nelfbafstart1,pos_hand_r,1);
+ fx(0,fx_nelfbafstart1,pos_hand_l,1);
+}
+
+$global_magic_baf_nelf {
+ fx(0,fx_nelfbaf1,bottom);
+}
+
+//-----DRAGON-----//
+
+---DIRECT---
+
+$global_magic_direct_dragon_start {
+ fx(0,fx_dragonbafstart1,pos_head,1);
+}
+
+$global_magic_direct_fly_dragon {
+ fx(mdf1,sfx_dragondirect1,pos_head,1);
+}
+
+$global_magic_direct_exp_lizard {
+ vibration(2,3,0);
+ enemyfx(0,fx_lizarddirectexp1,pos_spinecenter);
+ enemyfx(0,fx_lizarddirectexp2,pos_hand_l,1);
+ enemyfx(0,fx_lizarddirectexp2,pos_hand_r,1);
+ wait(0.1);
+ enemyfx(mde1,fx_startsmoke1,bottom); enemyfxpos(mde1,0,0,0,1); enemyfxrot(mde1,0,180,0,1);
+}
+
+$global_magic_direct_expsmall_lizard {
+ enemyfx(mdes1,fx_lizarddirectexpsmall1,bottom); enemyfxpos(mdes1,0,1.3,0,1);
+}
+
+---AOE---
+
+$global_magic_aoe_dragon_prestart {
+ fx(0,fx_dragonaoestart1,pos_head,1);
+}
+
+$global_magic_aoe_dragon_start {
+ fx(0,fx_dragonbaf1,bottom);
+}
+
+$global_magic_aoe_dragon_prewave {
+ fx(0,fx_dragonaoestart2,bottom);
+}
+
+$global_magic_aoe_wave_dragon {
+ vibration(5,5,-1);
+ fx(0,sfx_dragonaoe1,bottom);
+}
+
+$global_magic_aoe_exp_lizard {
+ vibration(2,3,0);
+ enemyfx(0,fx_lizarddirectexp2,pos_toe_l,1);
+ enemyfx(0,fx_lizarddirectexp2,pos_toe_r,1);
+ wait(0.1);
+ enemyfx(mae1,fx_startsmoke1,bottom); enemyfxpos(mae1,0,0,0,1); enemyfxrot(mae1,0,180,0,1);
+}
+
+---BAF---
+
+$global_magic_baf_dragon_start {
+ fx(0,fx_dragonbafstart1,pos_hand_l,1);
+}
+
+$global_magic_baf_dragon {
+ wait(0.35);
+ fx(0,fx_dragonbaf1,pos_spinecenter);
+ wait(0.55);
+ fx(0,fx_dragonbaf1,pos_spinecenter);
+ wait(0.55);
+ fx(0,fx_dragonbaf1,pos_spinecenter);
+}
+
+//-----ZVERO MATKA-----//
+
+---ATTACK---
+
+$global_attack_exp_matka {
+ vibration(2,3,0);
+ enemyfx(0,fx_matkadirectexp1,pos_spinecenter);
+ enemyfx(0,fx_matkadirectexp2,pos_spinecenter,1);
+}
+
+---DIRECT---
+
+$global_magic_direct_fly_matka {
+ fx(mdf1,sfx_matkadirect1,pos_head,1);
+}
+
+$global_magic_direct_exp_matka {
+ vibration(2,3,0);
+ enemyfx(0,fx_matkadirectexp1,pos_spinecenter);
+ enemyfx(0,fx_matkadirectexp2,pos_hand_l,1);
+ enemyfx(0,fx_matkadirectexp2,pos_hand_r,1);
+ wait(0.1);
+ enemyfx(mde1,fx_startsmoke1,bottom); enemyfxpos(mde1,0,0,0,1); enemyfxrot(mde1,0,180,0,1);
+}
+
+$global_magic_direct_expsmall_matka {
+ enemyfx(mdes1,fx_matkadirectexpsmall1,bottom); enemyfxpos(mdes1,0,1.3,0,1);
+}
+
+---AOE---
+
+$global_magic_aoe_wave_matka {
+ vibration(5,5,-1);
+ fx(0,sfx_matkaaoe1,bottom);
+}
+
+$global_magic_aoe_exp_matka {
+ vibration(2,3,0);
+ enemyfx(0,fx_matkadirectexp2,pos_toe_l,1);
+ enemyfx(0,fx_matkadirectexp2,pos_toe_r,1);
+ wait(0.1);
+ enemyfx(mae1,fx_startsmoke1,bottom); enemyfxpos(mae1,0,0,0,1); enemyfxrot(mae1,0,180,0,1);
+}
+
+---BAF---
+
+$global_magic_baf_matka {
+ wait(0.35);
+ fx(0,fx_matkabaf1,pos_head,1);
+}
+
+//-----DEATH SPIRIT-----//
+
+---DEATH---
+
+$global_magic_death_dspirit {
+ fx(0,fx_flylizdeath1,pos_spinecenter);
+}
+
+---ATTACK---
+
+$global_magic_attack_dspirit {
+ fx(0,sfx_attack1_dspirit,pos_weapon,1);
+}
+
+---DIRECT---
+
+$global_magic_direct_fly_dspirit {
+ fx(0,sfx_dspiritdirect1,pos_head,1);
+}
+
+$global_magic_direct_exp_dspirit {
+ vibration(2,3,0);
+ enemyfx(0,fx_flylizdirectexp1,pos_spinecenter);
+ enemyfx(0,fx_flylizdirectexp2,pos_hand_l,1);
+ enemyfx(0,fx_flylizdirectexp2,pos_hand_r,1);
+ wait(0.1);
+ enemyfx(mdef1,fx_startsmoke1,bottom); enemyfxpos(mdef1,0,0,0,1); enemyfxrot(mdef1,0,180,0,1);
+}
+
+$global_magic_direct_expsmall_dspirit {
+ enemyfx(mdesf1,fx_flylizdirectexpsmall1,bottom); enemyfxpos(mdesf1,0,1.3,0,1);
+}
+
+---AOE---
+
+$global_magic_aoe_dspirit_start {
+ fx(0,sfx_dspiritaoestart1,pos_head,1);
+}
+
+$global_magic_aoe_wave_dspirit {
+ vibration(5,5,-1);
+ fx(0,sfx_dspiritaoe1,bottom);
+}
+
+$global_magic_aoe_exp_dspirit {
+ vibration(2,3,0);
+ enemyfx(0,fx_flylizdirectexp2,pos_toe_l,1);
+ enemyfx(0,fx_flylizdirectexp2,pos_toe_r,1);
+ wait(0.1);
+ enemyfx(mdef1,fx_startsmoke1,bottom); enemyfxpos(mdef1,0,0,0,1); enemyfxrot(mdef1,0,180,0,1);
+}
+
+---BAF---
+
+$global_magic_baf_dspirit_start {
+ fx(0,fx_flylizbafstart1,pos_hand_r,1);
+ fx(0,fx_flylizbafstart1,pos_hand_l,1);
+ fx(0,fx_flylizbafstart1,pos_toe_r,1);
+ fx(0,fx_flylizbafstart1,pos_toe_l,1);
+}
+
+$global_magic_baf_dspirit {
+ fx(0,fx_flylizbaf1,pos_spinecenter);
+}
+
+//-----SCORPION PET-----//
+
+$global_magic_baf_scorpion_pet_start {
+ fx(0,fx_scorpionbafpart1,pos_hand_r,1);
+ fx(0,fx_scorpionbafpart1,pos_hand_l,1);
+}
+
+$global_magic_baf_scorpion_pet {
+ fx(0,fx_scorpionbafstart1,bottom);
+ vibration(5,5,-1);
+}
+
+//-----FLOWER PET-----//
+
+$global_magic_baf_flower_pet_start {
+ fx(0,fx_flowerbafpart1,pos_hand_r,1);
+ fx(0,fx_flowerbafpart1,pos_hand_l,1);
+}
+
+$global_magic_baf_flower_pet {
+ fx(0,fx_flowerbafstart1,bottom);
+ vibration(5,5,-1);
+}
+
+////////////////////////////////////////////////////////////////////
+// PLAYER MAGIC
+////////////////////////////////////////////////////////////////////
+
+//-----MAGIC DEATH-----//
+
+$global_react_death32 {
+ wait(0.5);
+ reactfx();
+ fx(0,fx_firedeathmain1,pos_spinecenter,1);
+ fx(0,fx_firedeathpart1,pos_hand_r,1);
+ fx(0,fx_firedeathpart1,pos_hand_l,1);
+ fx(0,fx_firedeathpart1,pos_toe_r,1);
+ fx(0,fx_firedeathpart1,pos_toe_l,1);
+ playpart(damage,1,5,25);
+ playpart(damage,1,5,25);
+ playpart(damage,1,5,25);
+ playpart(damage,1,5,25);
+ wait(0.1);
+ fx(0,fx_firedeathpart2,pos_spinecenter);
+ hide();
+}
+
+$global_react_death16 {
+ wait(0.5);
+ reactfx();
+ fx(0,fx_icedeathmain1,bottom);
+ wait(1.4);
+ fx(0,fx_icedeathpart1,bottom);
+ scenario(ifx_blood_splash);
+ hide();
+ wait(0.1);
+}
+
+$global_react_death8 {
+ wait(0.5);
+ reactfx();
+ fx(0,fx_lightdeathpart1,pos_spinecenter,1);
+ playpart(damage,1,5,25);
+ fx(0,fx_lightdeathpart1,pos_spinecenter,1);
+ playpart(damage,1,5,25);
+ fx(0,fx_lightdeathpart1,pos_spinecenter,1);
+ playpart(damage,1,5,25);
+ fx(0,fx_lightdeathpart1,pos_spinecenter,1);
+ playpart(damage,1,5,25);
+ fx(0,fx_lightdeathpart2,pos_spinecenter);
+ scenario(ifx_blood_splash);
+ hide();
+ wait(0.1);
+}
+
+$global_react_death4 {
+ wait(0.5);
+ reactfx();
+ fx(0,fx_darkdeathpart1,pos_spinecenter,1);
+ playpart(damage,1,5,25);
+ fx(0,fx_darkdeathpart1,pos_spinecenter,1);
+ playpart(damage,1,5,25);
+ fx(0,fx_darkdeathpart1,pos_spinecenter,1);
+ playpart(damage,1,5,25);
+ fx(0,fx_darkdeathpart1,pos_spinecenter,1);
+ playpart(damage,1,5,25);
+ fx(0,fx_darkdeathpart2,pos_spinecenter);
+ scenario(ifx_blood_splash);
+ hide();
+ wait(0.1);
+}
+
+$global_react_death128 {
+ wait(0.5);
+ reactfx();
+ fx(0,fx_electrodeathpart0,pos_spinecenter,1);
+ fx(0,fx_electrodeathpart1,pos_hand_r,1);
+ fx(0,fx_electrodeathpart1,pos_hand_l,1);
+ fx(0,fx_electrodeathpart1,pos_toe_r,1);
+ fx(0,fx_electrodeathpart1,pos_toe_l,1);
+ fx(0,fx_electrodeathmain1,bottom);
+ playpart(damage,1,5,25);
+ playpart(damage,1,5,25);
+ playpart(damage,1,5,25);
+ playpart(damage,1,5,25);
+ fx(0,fx_electrodeathpart2,pos_spinecenter);
+ scenario(ifx_blood_splash);
+ hide();
+ wait(0.1);
+}
+
+$global_react_death64 {
+ wait(0.5);
+ reactfx();
+ fx(0,fx_aciddeathmain1,bottom);
+ fx(0,fx_aciddeathpart1,bottom);
+ fx(0,fx_aciddeathpart2,pos_hand_r,1);
+ fx(0,fx_aciddeathpart2,pos_hand_l,1);
+ scenario(global_acid_screen);
+ size(0.5,2);
+ moveto(0,-1.3,0,2);
+ playpart(damage,1,5,25);
+ playpart(damage,1,5,25);
+ playpart(damage,1,5,25);
+ playpart(damage,1,5,25);
+ hide();
+ moveto(0,1.3,0,1);
+}
+
+$global_acid_screen {
+ #random(25); fx(0,fx_bloodekran_Gr_L);  random#;
+ #random(25); fx(0,fx_bloodekran_Gr_R);  random#;
+ #random(50); fx(0,fx_bloodekran_Gr_RD); random#;
+ #random(50); wait(0.05);                random#;
+ #random(50); fx(0,fx_bloodekran_Gr_LD); random#;
+ #random(50); wait(0.1);                 random#;
+ #random(50); fx(0,fx_bloodekran_Gr_RU); random#;
+ #random(50); wait(0.1);                 random#;
+ #random(50); fx(0,fx_bloodekran_Gr_LU); random#;
+}
+
+$global_react_death256 {
+ wait(0.5);
+ reactfx();
+ play(death);
+}
+
+//-----ABSORB-----//
+
+$global_magic_absorb_fire {
+fx(maf1,fx_fireabsorb1,pos_spinecenter);         fxpos(maf1,0,0.2,0,1);      fxrot(maf1,0,0,0,1);
+}
+
+$global_magic_absorb_ice {
+fx(mai1,fx_iceabsorb1,pos_spinecenter);         fxpos(mai1,0,0.2,0,1);      fxrot(mai1,0,0,0,1);
+}
+
+$global_magic_absorb_light {
+fx(mal1,fx_lightabsorb1,pos_spinecenter);         fxpos(mal1,0,0.2,0,1);      fxrot(mal1,0,0,0,1);
+}
+
+$global_magic_absorb_dark {
+fx(mad1,fx_darkabsorb1,pos_spinecenter);         fxpos(mad1,0,0.2,0,1);      fxrot(mad1,0,0,0,1);
+}
+
+$global_magic_absorb_electro {
+fx(mae1,fx_electroabsorb1,pos_spinecenter);         fxpos(mae1,0,0.2,0,1);      fxrot(mae1,0,0,0,1);
+}
+
+$global_magic_absorb_acid {
+fx(maa1,fx_acidabsorb1,pos_spinecenter);         fxpos(maa1,0,0.2,0,1);      fxrot(maa1,0,0,0,1);
+}
+
+//-----PLAYER MAGIC BAF-----//
+
+//-----FIRE-----//
+
+$global_magic_baf_fire {
+ fx(fxfb1,fx_fbafstart1,bottom);
+}
+
+$global_magic_baf_fire_hand_1 {
+ fx(0,fx_fbafhand1,pos_hand_l,1);
+}
+
+$global_magic_baf_fire_hand_2 {
+ fx(0,fx_fbafhand2,pos_hand_l);
+}
+
+$global_magic_baf_fire_buff {
+ light(0,1.5);
+ scenario(global_magic_baf_fire);
+ light(1,1,0.3);
+}
+
+//-----ICE-----//
+
+$global_magic_baf_ice {
+ fx(fxib1,fx_ibafstart1,bottom);
+}
+
+$global_magic_baf_ice_hand_1 {
+ fx(0,fx_ibafhand1,pos_hand_l,1);
+}
+
+$global_magic_baf_ice_hand_2 {
+ fx(0,fx_ibafhand2,pos_hand_l);
+}
+
+$global_magic_baf_ice_buff {
+ light(0,1.5);
+ scenario(global_magic_baf_ice);
+ light(1,1,0.3);
+}
+
+//-----LIGHT-----//
+
+$global_magic_baf_light {
+ fx(fxlb1,fx_lbafstart1,bottom);
+}
+
+$global_magic_baf_light_hand_1 {
+ fx(0,fx_lbafhand1,pos_hand_l,1);
+}
+
+$global_magic_baf_light_hand_2 {
+ fx(0,fx_lbafhand2,pos_hand_l);
+}
+
+$global_magic_baf_light_buff {
+ light(0,1.5);
+ scenario(global_magic_baf_light);
+ light(1,1,0.3);
+}
+
+//-----DARK-----//
+
+$global_magic_baf_dark {
+ fx(fxdb1,fx_dbafstart1,bottom);
+ wait(0.5);
+ fx(0,fx_dmagstart0_1,bottom);
+}
+
+$global_magic_baf_dark_hand_1 {
+ fx(0,fx_dbafhand1,pos_hand_l,1);
+}
+
+$global_magic_baf_dark_hand_2 {
+ fx(0,fx_dbafhand2,pos_hand_l);
+}
+
+$global_magic_baf_dark_buff {
+ light(0,1.5);
+ scenario(global_magic_baf_dark);
+ light(1,1,0.3);
+}
+
+//-----ELECTRO-----//
+
+$global_magic_baf_electro {
+ fx(fxeb1,fx_ebafstart1,bottom);
+ #random(75, fr1); wait(0.1); fx(mbe1,fx_ebafstart1_2,bottom); fxpos(mbe1,0.5,0,0.5,1); random#;
+ #random(50, fr2); wait(0.15); fx(mbe2,fx_ebafstart1_2,bottom); fxpos(mbe2,-0.5,0,-0.5,1); random#;
+ #random(75, fr3); wait(0.05); fx(mbe3,fx_ebafstart1_2,bottom); fxpos(mbe3,-0.5,0,0.5,1); random#;
+ #random(50, fr4); wait(0.2); fx(mbe4,fx_ebafstart1_2,bottom); fxpos(mbe4,0.5,0,-0.5,1); random#;
+ #random(75, fr5); wait(0.15); fx(mbe5,fx_ebafstart1_2,bottom); fxpos(mbe5,0.5,0,0.5,1); random#;
+ #random(50, fr6); wait(0.2); fx(mbe6,fx_ebafstart1_2,bottom); fxpos(mbe6,-0.75,0,-0.75,1); random#;
+ #random(75, fr7); wait(0.05); fx(mbe7,fx_ebafstart1_2,bottom); fxpos(mbe7,-0.75,0,0.75,1); random#;
+ #random(50, fr8); wait(0.1); fx(mbe8,fx_ebafstart1_2,bottom); fxpos(mbe8,0.75,0,-0.75,1); random#;
+}
+
+$global_magic_baf_electro_hand_1 {
+ fx(0,fx_ebafhand1,pos_hand_l,1);
+}
+
+$global_magic_baf_electro_hand_2 {
+ fx(0,fx_ebafhand2,pos_hand_l);
+}
+
+$global_magic_baf_electro_buff {
+ light(0,1.5);
+ scenario(global_magic_baf_electro);
+ light(1,1,0.3);
+}
+
+//-----ACID-----//
+
+$global_magic_baf_acid {
+ fx(fxab1,fx_abafstart1,bottom);
+ wait(0.5);
+ fx(mae2,fx_amagexp1_2,bottom); fxpos(mae2,0,0.05,0,1);
+}
+
+$global_magic_baf_acid_hand_1 {
+ fx(0,fx_abafhand1,pos_hand_l,1);
+}
+
+$global_magic_baf_acid_hand_2 {
+ fx(0,fx_abafhand2,pos_hand_l);
+}
+
+$global_magic_baf_acid_buff {
+ light(0,1.5);
+ scenario(global_magic_baf_acid);
+ light(1,1,0.3);
+}
+
+//-----BLOCK BAF-----//
+
+$global_magic_baf_block {
+ scenario(global_snd_baf_block);
+ fx(0,fx_blockbafhand1_rd,pos_hand_l,1);
+}
+
+$global_magic_baf_block_buff {
+ light(0,1.5);
+ fx(0,fx_blockbuf1_rd,bottom);
+ light(1,1,0.3);
+}
+
+//-----STUN BAF-----//
+
+$global_magic_baf_stun {
+ fx(0,fx_stunbaf1,pos_hand_l,1);
+}
+
+$global_magic_baf_stun_buff {
+ light(0,1.5);
+ fx(0,fx_stun1,bottom);
+ wait(0.3);
+ fx(0,fx_stunexp1,bottom);
+ reactfx();
+ play(damage);
+ light(1,1,0.3);
+}
+
+$global_magic_baf_stun_post {
+ fx(0,fx_stunpost1,pos_head,1);
+}
+
+//-----PLAYER NECROBALL-----//
+
+---WHITE---
+
+$global_magic_nb01_prestart {
+ fx(mdp1,fx_necrostart_01,pos_hand_l,1);
+}
+
+$global_magic_nb01_fly {
+ fx(mdf1,sfx_necroball_01,pos_hand_l); fxpos(mdf1,0,0,0,1); fxrot(mdf1,0,90,0,1);
+ fx(mdf2,fx_startsmoke1,bottom); fxpos(mdf2,0,0,0,1); fxrot(mdf2,0,180,0,1);
+}
+
+$global_magic_nb01_exp {
+ vibration(2,3,0);
+ enemyfx(0,fx_necroexp1_01,pos_spinecenter);
+ enemyfx(0,fx_necroexp2_01,pos_hand_l,1);
+ enemyfx(0,fx_necroexp2_01,pos_hand_r,1);
+ wait(0.1);
+ enemyfx(mde1,fx_startsmoke1,bottom); enemyfxpos(mde1,0,0,0,1); enemyfxrot(mde1,0,180,0,1);
+}
+
+$global_magic_nb01_expsmall {
+ enemyfx(mdes1,fx_necroexpsmall_01,bottom); enemyfxpos(mdes1,0,1.3,0,1);
+}
+
+---GREEN---
+
+$global_magic_nb02_prestart {
+ fx(mdp1,fx_necrostart_02,pos_hand_l,1);
+}
+
+$global_magic_nb02_fly {
+ fx(mdf1,sfx_necroball_02,pos_hand_l); fxpos(mdf1,0,0,0,1); fxrot(mdf1,0,90,0,1);
+ fx(mdf2,fx_startsmoke1,bottom); fxpos(mdf2,0,0,0,1); fxrot(mdf2,0,180,0,1);
+}
+
+$global_magic_nb02_exp {
+ vibration(2,3,0);
+ enemyfx(0,fx_necroexp1_02,pos_spinecenter);
+ enemyfx(0,fx_necroexp2_02,pos_hand_l,1);
+ enemyfx(0,fx_necroexp2_02,pos_hand_r,1);
+ wait(0.1);
+ enemyfx(mde1,fx_startsmoke1,bottom); enemyfxpos(mde1,0,0,0,1); enemyfxrot(mde1,0,180,0,1);
+}
+
+$global_magic_nb02_expsmall {
+ enemyfx(mdes1,fx_necroexpsmall_02,bottom); enemyfxpos(mdes1,0,1.3,0,1);
+}
+
+---BLUE---
+
+$global_magic_nb03_prestart {
+ fx(mdp1,fx_necrostart_03,pos_hand_l,1);
+}
+
+$global_magic_nb03_fly {
+ fx(mdf1,sfx_necroball_03,pos_hand_l); fxpos(mdf1,0,0,0,1); fxrot(mdf1,0,90,0,1);
+ fx(mdf2,fx_startsmoke1,bottom); fxpos(mdf2,0,0,0,1); fxrot(mdf2,0,180,0,1);
+}
+
+$global_magic_nb03_exp {
+ vibration(2,3,0);
+ enemyfx(0,fx_necroexp1_03,pos_spinecenter);
+ enemyfx(0,fx_necroexp2_03,pos_hand_l,1);
+ enemyfx(0,fx_necroexp2_03,pos_hand_r,1);
+ wait(0.1);
+ enemyfx(mde1,fx_startsmoke1,bottom); enemyfxpos(mde1,0,0,0,1); enemyfxrot(mde1,0,180,0,1);
+}
+
+$global_magic_nb03_expsmall {
+ enemyfx(mdes1,fx_necroexpsmall_03,bottom); enemyfxpos(mdes1,0,1.3,0,1);
+}
+
+---PURPLE---
+
+$global_magic_nb04_prestart {
+ fx(mdp1,fx_necrostart_04,pos_hand_l,1);
+}
+
+$global_magic_nb04_fly {
+ fx(mdf1,sfx_necroball_04,pos_hand_l); fxpos(mdf1,0,0,0,1); fxrot(mdf1,0,90,0,1);
+ fx(mdf2,fx_startsmoke1,bottom); fxpos(mdf2,0,0,0,1); fxrot(mdf2,0,180,0,1);
+}
+
+$global_magic_nb04_exp {
+ vibration(2,3,0);
+ enemyfx(0,fx_necroexp1_04,pos_spinecenter);
+ enemyfx(0,fx_necroexp2_04,pos_hand_l,1);
+ enemyfx(0,fx_necroexp2_04,pos_hand_r,1);
+ wait(0.1);
+ enemyfx(mde1,fx_startsmoke1,bottom); enemyfxpos(mde1,0,0,0,1); enemyfxrot(mde1,0,180,0,1);
+}
+
+$global_magic_nb04_expsmall {
+ enemyfx(mdes1,fx_necroexpsmall_04,bottom); enemyfxpos(mdes1,0,1.3,0,1);
+}
+
+---RED---
+
+$global_magic_nb05_prestart {
+ fx(mdp1,fx_necrostart_05,pos_hand_l,1);
+}
+
+$global_magic_nb05_fly {
+ fx(mdf1,sfx_necroball_05,pos_hand_l); fxpos(mdf1,0,0,0,1); fxrot(mdf1,0,90,0,1);
+ fx(mdf2,fx_startsmoke1,bottom); fxpos(mdf2,0,0,0,1); fxrot(mdf2,0,180,0,1);
+}
+
+$global_magic_nb05_exp {
+ vibration(2,3,0);
+ enemyfx(0,fx_necroexp1_05,pos_spinecenter);
+ enemyfx(0,fx_necroexp2_05,pos_hand_l,1);
+ enemyfx(0,fx_necroexp2_05,pos_hand_r,1);
+ wait(0.1);
+ enemyfx(mde1,fx_startsmoke1,bottom); enemyfxpos(mde1,0,0,0,1); enemyfxrot(mde1,0,180,0,1);
+}
+
+$global_magic_nb05_expsmall {
+ enemyfx(mdes1,fx_necroexpsmall_05,bottom); enemyfxpos(mdes1,0,1.3,0,1);
+}
+
+//-----PLAYER MAGIC DIRECT-----//
+
+//-----FIREBALL-----//
+
+global_magic_fireball_prestart {
+ fx(mfp1,fx_fmagstart1,pos_hand_l); fxpos(mfp1,0,0,0,1);
+}
+
+$global_magic_fireball_start {
+ fx(mfs1,fx_fmagstart2,pos_hand_l); fxpos(mfs1,0,0,0,1);
+}
+
+$global_magic_fireball_fly {
+ fx(mff1,sfx_fmagball1,pos_hand_l); fxpos(mff1,0,0,0,1); fxrot(mff1,0,90,0,1);
+ scenario(global_smoke_magic);
+}
+
+$global_magic_fireball_exp {
+ vibration(2,3,0);
+ enemyfx(0,fx_fmagexp1,pos_spinecenter);
+ enemyfx(0,fx_fmagexp2,pos_hand_l,1);
+ enemyfx(0,fx_fmagexp2,pos_hand_r,1);
+ enemyfx(0,fx_expsmoke1,bottom);
+ wait(0.1);
+ enemyscenario(global_smoke_magic);
+}
+
+$global_magic_fireball_expsmall {
+ enemyfx(mfes1,fx_fmagexpsmall1,bottom); enemyfxpos(mfes1,0,1.3,0,1);
+}
+
+//-----ICEBALL-----//
+
+global_magic_iceball_prestart {
+ fx(mip1,fx_imagstart1,pos_hand_l); fxpos(mip1,0,0,0,1);
+}
+
+$global_magic_iceball_start {
+ fx(mis1,fx_imagstart2,pos_hand_l); fxpos(mis1,0,0,0,1);
+}
+
+$global_magic_iceball_fly {
+ fx(mif1,sfx_imagball1,pos_hand_l); fxpos(mif1,0,0,0,1); fxrot(mif1,0,90,0,1);
+ scenario(global_smoke_magic);
+}
+
+$global_magic_iceball_exp {
+ vibration(2,3,0);
+ enemyfx(0,fx_imagexp1,pos_spinecenter);
+ enemyfx(0,fx_imagexp2,pos_hand_l,1);
+ enemyfx(0,fx_imagexp2,pos_hand_r,1);
+ enemyfx(0,fx_expsmoke1,bottom);
+ wait(0.1);
+ enemyscenario(global_smoke_magic);
+}
+
+$global_magic_iceball_expsmall {
+ enemyfx(mies1,fx_imagexpsmall1,bottom); enemyfxpos(mies1,0,1.3,0,1);
+}
+
+//-----LIGHTBALL-----//
+
+global_magic_lightball_prestart {
+ fx(mlp1,fx_lmagstart1,pos_hand_l); fxpos(mip1,0,0,0,1);
+}
+
+$global_magic_lightball_start {
+ fx(mls1,fx_lmagstart2,pos_hand_l); fxpos(mls1,0,0,0,1); fxrot(mls1,0,90,0,1);
+}
+
+$global_magic_lightball_fly {
+ fx(mlf1,sfx_lmagball1,pos_hand_l); fxpos(mlf1,0,0,0,1); fxrot(mlf1,0,90,0,1);
+ scenario(global_smoke_magic);
+}
+
+$global_magic_lightball_exp {
+ vibration(2,3,0);
+ enemyfx(0,fx_lmagexp1,pos_spinecenter);
+ enemyfx(0,fx_lmagexp2,pos_hand_l,1);
+ enemyfx(0,fx_lmagexp2,pos_hand_r,1);
+ enemyfx(0,fx_expsmoke1,bottom);
+ wait(0.1);
+ enemyscenario(global_smoke_magic);
+}
+
+$global_magic_lightball_expsmall {
+ enemyfx(mle1,fx_lmagexpsmall1,bottom); enemyfxpos(mle1,0,1.3,0,1);
+}
+
+//-----DARKBALL-----//
+
+$global_magic_darkball_begin {
+ fx(0,fx_dmagstart0,pos_hand_l,1);
+ wait(0.2);
+ fx(0,fx_dmagstart0_1,bottom);
+}
+
+global_magic_darkball_prestart {
+ fx(mdp1,fx_dmagstart1,pos_hand_l); fxpos(mdp1,0,0,0,1);
+}
+
+$global_magic_darkball_start {
+ fx(mds1,fx_dmagstart2,pos_hand_l); fxpos(mds1,0,0,0,1);
+}
+
+$global_magic_darkball_fly {
+ fx(mdf1,sfx_dmagball1,pos_hand_l); fxpos(mdf1,0,0,0,1); fxrot(mdf1,0,90,0,1);
+ scenario(global_smoke_magic);
+}
+
+$global_magic_darkball_exp {
+ vibration(2,3,0);
+ enemyfx(0,fx_dmagexp1,pos_spinecenter);
+ enemyfx(0,fx_dmagexp2,pos_hand_l,1);
+ enemyfx(0,fx_dmagexp2,pos_hand_r,1);
+ enemyfx(0,fx_expsmoke1,bottom);
+ wait(0.1);
+ enemyscenario(global_smoke_magic);
+ enemyfx(0,fx_dmagstart0_1,bottom);
+}
+
+$global_magic_darkball_expsmall {
+ enemyfx(mdes1,fx_dmagexpsmall1,bottom); enemyfxpos(mdes1,0,1.3,0,1);
+}
+
+//-----ELECTROBALL-----//
+
+global_magic_electroball_prestart {
+ fx(mep1,fx_emagstart1,pos_hand_l); fxpos(mep1,0,0,0,1);
+}
+
+$global_magic_electroball_start {
+ fx(mes1,fx_emagstart2,pos_hand_l); fxpos(mes1,0,0,0,1);
+}
+
+$global_magic_electroball_fly {
+ #ifweapon(1,1,1,1);
+  fx(mef1,fx_emagball1,pos_hand_l); fxpos(mef1,0,0.1,0,1); fxrot(mef1,0,90,0,1);
+ ifweapon#;
+ #ifweapon(0,0,0,0,1);
+  fx(mef3,fx_emagball1,pos_hand_l); fxpos(mef3,0,-0.1,0,1); fxrot(mef3,0,90,0,1);
+ ifweapon#;
+ wait(0.3);
+ scenario(global_smoke_magic);
+}
+
+$global_magic_electroball_exp {
+ vibration(2,3,0);
+ enemyfx(0,fx_emagexp1,pos_spinecenter);
+ enemyfx(0,fx_emagexp2,pos_hand_l,1);
+ enemyfx(0,fx_emagexp2,pos_hand_r,1);
+ enemyfx(0,fx_expsmoke1,bottom);
+ wait(0.1);
+ enemyscenario(global_smoke_magic);
+}
+
+$global_magic_electroball_expsmall {
+ enemyfx(mees1,fx_emagexpsmall1,bottom); enemyfxpos(mees1,0,1.3,0,1);
+}
+
+//-----ACIDBALL-----//
+
+global_magic_acidball_prestart {
+ fx(map1,fx_amagstart1,pos_hand_l); fxpos(map1,0,0,0,1);
+}
+
+$global_magic_acidball_start {
+ fx(mas1,fx_amagstart2,pos_hand_l); fxpos(mas1,0,0,0,1);
+}
+
+$global_magic_acidball_fly {
+ fx(maf1,sfx_amagball1,pos_hand_l); fxpos(maf1,0,0,0,1); fxrot(maf1,0,90,0,1);
+ scenario(global_smoke_magic);
+}
+
+$global_magic_acidball_exp {
+ vibration(2,3,0);
+ enemyfx(0,fx_amagexp1,pos_spinecenter);
+ enemyfx(mae2,fx_amagexp1_2,bottom); enemyfxpos(mae2,0,0.05,0,1);
+ enemyfx(0,fx_amagexp2,pos_hand_l,1);
+ enemyfx(0,fx_amagexp2,pos_hand_r,1);
+ enemyfx(0,fx_expsmoke1,bottom);
+ wait(0.1);
+ enemyscenario(global_smoke_magic);
+}
+
+$global_magic_acidball_expsmall {
+ enemyfx(maes1,fx_amagexpsmall1,bottom); enemyfxpos(maes1,0,1.3,0,1);
+}
+
+//-----PLAYER MAGIC AOE-----//
+
+//-----FIREAOE-----//
+
+$global_magic_fireaoe_prestart {
+ fx(mfp1,fx_fmagstart0,pos_hand_l,1); fxpos(mfp1,0,0,0,1);
+}
+
+global_magic_fireaoe_start {
+ fx(mfs1,fx_faoestart2,pos_hand_l);         fxpos(mfs1,0,0,0,1);
+}
+
+$global_magic_fireaoe_wave {
+ vibration(5,5,-1);
+ fx(mfw1,sfx_faoewave1,bottom);             fxpos(mfw1,0,0,0,1);
+ fx(mfw2,fx_ringaoesmoke1,bottom);          fxpos(mfw2,0,-2.2,0,1);
+}
+
+$global_magic_fireaoe_exp {
+ enemyfx(mfe1,fx_faoeexp1,bottom);          enemyfxpos(mfe1,0,0,0,1);
+ enemyfx(0,fx_fmagexp2,pos_toe_l,1);
+ enemyfx(0,fx_fmagexp2,pos_toe_r,1);
+}
+
+$global_magic_fireaoe_buff {
+ reactfx();
+ enemyplay(damage);
+ enemyfx(mfe1,fx_faoeexp1,bottom);          enemyfxpos(mfe1,0,0,0,1);
+ enemyfx(0,fx_fmagexp2,pos_toe_l,1);
+ enemyfx(0,fx_fmagexp2,pos_toe_r,1);
+}
+
+//-----ICEAOE-----//
+
+$global_magic_iceaoe_prestart {
+ fx(mip1,fx_imagstart0,pos_hand_l,1); fxpos(mip1,0,0,0,1);
+}
+
+global_magic_iceaoe_start {
+ fx(mis1,fx_iaoestart2,pos_hand_l);         fxpos(mis1,0,0,0,1);
+}
+
+$global_magic_iceaoe_wave {
+ vibration(5,5,-1);
+ fx(miw1,sfx_iaoewave1,bottom);             fxpos(miw1,0,0,0,1);
+ fx(miw2,fx_ringaoesmoke1,bottom);          fxpos(miw2,0,-2.2,0,1);
+}
+
+$global_magic_iceaoe_exp {
+ enemyfx(mie1,fx_iaoeexp1,bottom);          enemyfxpos(mie1,0,0,0,1);
+ enemyfx(0,fx_imagexp2,pos_toe_l,1);
+ enemyfx(0,fx_imagexp2,pos_toe_r,1);
+}
+
+$global_magic_iceaoe_buff {
+ reactfx();
+ enemyplay(damage);
+ enemyfx(mie1,fx_iaoeexp1,bottom);          enemyfxpos(mie1,0,0,0,1);
+ enemyfx(0,fx_imagexp2,pos_toe_l,1);
+ enemyfx(0,fx_imagexp2,pos_toe_r,1);
+}
+
+//-----LIGHTAOE-----//
+
+$global_magic_lightaoe_prestart {
+ fx(mlp1,fx_lmagstart0,pos_hand_l,1); fxpos(mlp1,0,0,0,1);
+}
+
+global_magic_lightaoe_start {
+ fx(mls1,fx_laoestart2,pos_hand_l);         fxpos(mls1,0,0,0,1);
+}
+
+$global_magic_lightaoe_wave {
+ vibration(5,5,-1);
+ fx(mlw1,sfx_laoewave1,bottom);             fxpos(mlw1,0,0,0,1);
+ fx(mlw2,fx_ringaoesmoke1,bottom);          fxpos(mlw2,0,-2.2,0,1);
+}
+
+$global_magic_lightaoe_exp {
+ enemyfx(mle1,fx_laoeexp1,bottom);          enemyfxpos(mle1,0,0,0,1);
+ enemyfx(0,fx_lmagexp2,pos_toe_l,1);
+ enemyfx(0,fx_lmagexp2,pos_toe_r,1);
+}
+
+$global_magic_lightaoe_buff {
+ reactfx();
+ enemyplay(damage);
+ enemyfx(mle1,fx_laoeexp1,bottom);          enemyfxpos(mle1,0,0,0,1);
+ enemyfx(0,fx_lmagexp2,pos_toe_l,1);
+ enemyfx(0,fx_lmagexp2,pos_toe_r,1);
+}
+
+//-----DARKAOE-----//
+
+$global_magic_darkaoe_prestart {
+ fx(mdp1,fx_dmagstart0,pos_hand_l,1); fxpos(mdp1,0,0,0,1);
+}
+
+global_magic_darkaoe_start {
+ fx(mds1,fx_daoestart2,pos_hand_l);         fxpos(mds1,0,0,0,1);
+}
+
+$global_magic_darkaoe_wave {
+ vibration(5,5,-1);
+ fx(mdw1,sfx_daoewave1,bottom);             fxpos(mdw1,0,0,0,1);
+ fx(mdw2,fx_ringaoesmoke2,bottom);          fxpos(mdw2,0,-2.2,0,1);
+}
+
+$global_magic_darkaoe_exp {
+ enemyfx(mde1,fx_daoeexp1,bottom);          enemyfxpos(mde1,0,0,0,1);
+ enemyfx(0,fx_dmagexp2,pos_toe_l,1);
+ enemyfx(0,fx_dmagexp2,pos_toe_r,1);
+}
+
+$global_magic_darkaoe_buff {
+ reactfx();
+ enemyplay(damage);
+ enemyfx(mde1,fx_daoeexp1,bottom);          enemyfxpos(mde1,0,0,0,1);
+ enemyfx(0,fx_dmagexp2,pos_toe_l,1);
+ enemyfx(0,fx_dmagexp2,pos_toe_r,1);
+}
+
+//-----ELECTROAOE-----//
+
+$global_magic_electroaoe_prestart {
+ fx(mep1,fx_emagstart0,pos_hand_l,1); fxpos(mep1,0,0,0,1);
+}
+
+global_magic_electroaoe_start {
+ fx(mes1,fx_eaoestart2,pos_hand_l);         fxpos(mes1,0,0,0,1);
+}
+
+$global_magic_electroaoe_wave {
+ vibration(5,5,-1);
+ fx(mew1,sfx_eaoewave1,bottom);             fxpos(mew1,0,0,0,1);
+ fx(mew2,fx_ringaoesmoke1,bottom);          fxpos(mew2,0,-2.2,0,1);
+}
+
+$global_magic_electroaoe_exp {
+ enemyfx(mee1,fx_eaoeexp1,bottom);          enemyfxpos(mee1,0,0,0,1);
+ enemyfx(0,fx_emagexp2,pos_spinecenter,1);
+ enemyfx(0,fx_emagexp2,pos_toe_l,1);
+ enemyfx(0,fx_emagexp2,pos_toe_r,1);
+}
+
+$global_magic_electroaoe_buff {
+ reactfx();
+ enemyplay(damage);
+ enemyfx(mee1,fx_eaoeexp1,bottom);          enemyfxpos(mee1,0,0,0,1);
+ enemyfx(0,fx_emagexp2,pos_toe_l,1);
+ enemyfx(0,fx_emagexp2,pos_toe_r,1);
+}
+
+//-----ACIDAOE-----//
+
+$global_magic_acidaoe_prestart {
+ fx(map1,fx_amagstart0,pos_hand_l,1); fxpos(map1,0,0,0,1);
+}
+
+global_magic_acidaoe_start {
+ fx(mas1,fx_aaoestart2,pos_hand_l);         fxpos(mas1,0,0,0,1);
+}
+
+$global_magic_acidaoe_wave {
+ vibration(5,5,-1);
+ fx(maw1,sfx_aaoewave1,bottom);             fxpos(maw1,0,0,0,1);
+ fx(maw2,fx_ringaoesmoke3,bottom);          fxpos(maw2,0,-2.2,0,1);
+}
+
+$global_magic_acidaoe_exp {
+ enemyfx(mae1,fx_aaoeexp1,bottom);          enemyfxpos(mae1,0,0,0,1);
+ enemyfx(0,fx_amagexp2,pos_toe_l,1);
+ enemyfx(0,fx_amagexp2,pos_toe_r,1);
+}
+
+$global_magic_acidaoe_buff {
+ reactfx();
+ enemyplay(damage);
+ enemyfx(mae1,fx_aaoeexp1,bottom);          enemyfxpos(mae1,0,0,0,1);
+ enemyfx(0,fx_amagexp2,pos_toe_l,1);
+ enemyfx(0,fx_amagexp2,pos_toe_r,1);
+}
+
+//-----AOEBUFF-----//
+
+$global_magic_aoe_fire_buff {
+ //reactfx();
+ fx(0,fx_faoeexp2,bottom);
+ //play(damage);
+}
+
+$global_magic_aoe_ice_buff {
+ //reactfx();
+ fx(0,fx_iaoeexp2,bottom);
+ //play(damage);
+}
+
+$global_magic_aoe_light_buff {
+ //reactfx();
+ fx(0,fx_laoeexp2,bottom);
+ //play(damage);
+}
+
+$global_magic_aoe_dark_buff {
+ //reactfx();
+ fx(0,fx_daoeexp2,bottom);
+ //play(damage);
+}
+
+$global_magic_aoe_electro_buff {
+ //reactfx();
+ fx(0,fx_eaoeexp2,bottom);
+ //play(damage);
+}
+
+$global_magic_aoe_acid_buff {
+ //reactfx();
+ fx(0,fx_aaoeexp2,bottom);
+}
+
+//-----DOT-----//
+
+$global_magic_dot_fire_cast {
+ scenario(global_magic_fireaoe_prestart);
+ wait(0.5);
+ scenario(global_magic_fireaoe_start);
+ wait(0.35);
+ light(1,0.5,0);
+}
+
+$global_magic_dot_fire_buff {
+ wait(0.5);
+ scenario(global_magic_aoe_fire_buff);
+ wait(0.2);
+ scenario(global_magic_firedot_exp);
+}
+
+$global_magic_dot_fire_start {
+ fx(0,fx_fdotstart1,bottom);
+}
+
+$global_magic_firedot_exp {
+ fx(mfe1,fx_faoeexp1,bottom); fxpos(mfe1,0,0,0,1);
+ fx(0,fx_fmagexp2,pos_toe_l,1);
+ fx(0,fx_fmagexp2,pos_toe_r,1);
+}
+
+$global_magic_dot_ice_cast {
+ scenario(global_magic_iceaoe_prestart);
+ wait(0.5);
+ scenario(global_magic_iceaoe_start);
+ wait(0.35);
+ light(1,0.5,0);
+}
+
+$global_magic_dot_ice_buff {
+ wait(0.5);
+ scenario(global_magic_aoe_ice_buff);
+ wait(0.2);
+ scenario(global_magic_icedot_exp);
+}
+
+$global_magic_dot_ice_start {
+ fx(0,fx_idotstart1,bottom);
+}
+
+$global_magic_icedot_exp {
+ fx(mie1,fx_iaoeexp1,bottom); fxpos(mie1,0,0,0,1);
+ fx(0,fx_imagexp2,pos_toe_l,1);
+ fx(0,fx_imagexp2,pos_toe_r,1);
+}
+
+$global_magic_dot_light_cast {
+ scenario(global_magic_lightaoe_prestart);
+ wait(0.5);
+ scenario(global_magic_lightaoe_start);
+ wait(0.35);
+ light(1,0.5,0);
+}
+
+$global_magic_dot_light_buff {
+ wait(0.5);
+ scenario(global_magic_aoe_light_buff);
+ wait(0.2);
+ scenario(global_magic_lightdot_exp);
+}
+
+$global_magic_lightdot_exp {
+ fx(mle1,fx_laoeexp1,bottom); fxpos(mle1,0,0,0,1);
+ fx(0,fx_lmagexp2,pos_toe_l,1);
+ fx(0,fx_lmagexp2,pos_toe_r,1);
+}
+
+$global_magic_dot_dark_cast {
+ scenario(global_magic_darkaoe_prestart);
+ wait(0.5);
+ scenario(global_magic_darkaoe_start);
+ wait(0.35);
+ light(1,0.5,0);
+}
+
+$global_magic_dot_dark_buff {
+ wait(0.5);
+ scenario(global_magic_aoe_dark_buff);
+ wait(0.2);
+ scenario(global_magic_darkdot_exp);
+}
+
+$global_magic_dot_dark_start {
+ fx(0,fx_ddotstart1,bottom);
+}
+
+$global_magic_darkdot_exp {
+ fx(mde1,fx_daoeexp1,bottom); fxpos(mde1,0,0,0,1);
+ fx(0,fx_dmagexp2,pos_toe_l,1);
+ fx(0,fx_dmagexp2,pos_toe_r,1);
+}
+
+$global_magic_dot_electro_cast {
+ cenario(global_magic_electroaoe_prestart);
+ wait(0.5);
+ scenario(global_magic_electroaoe_start);
+ wait(0.35);
+ light(1,0.5,0);
+}
+
+$global_magic_dot_electro_buff {
+ wait(0.5);
+ scenario(global_magic_aoe_electro_buff);
+ wait(0.2);
+ scenario(global_magic_electrodot_exp);
+}
+
+$global_magic_dot_electro_start {
+ fx(0,fx_edotstart1,bottom);
+}
+
+$global_magic_electrodot_exp {
+ fx(mee1,fx_eaoeexp1,bottom); fxpos(mee1,0,0,0,1);
+ fx(0,fx_emagexp2,pos_toe_l,1);
+ fx(0,fx_emagexp2,pos_toe_r,1);
+}
+
+$global_magic_dot_acid_cast {
+ scenario(global_magic_acidaoe_prestart);
+ wait(0.5);
+ scenario(global_magic_acidaoe_start);
+ wait(0.35);
+ light(1,0.5,0);
+}
+
+$global_magic_dot_acid_buff {
+ wait(0.5);
+ scenario(global_magic_aoe_acid_buff);
+ wait(0.2);
+ scenario(global_magic_aciddot_exp);
+}
+
+$global_magic_aciddot_exp {
+ fx(mae1,fx_aaoeexp1,bottom); fxpos(mae1,0,0,0,1);
+ fx(0,fx_amagexp2,pos_toe_l,1);
+ fx(0,fx_amagexp2,pos_toe_r,1);
+}
+
+---REACT AOE DAMAGE---
+
+$global_react_dmg_fire {
+ wait(0.5);
+ reactfx();
+ play(damage);
+ enemyscenario(global_magic_fireaoe_exp);
+}
+
+$global_react_dmg_ice {
+ wait(0.5);
+ reactfx();
+ play(damage);
+ enemyscenario(global_magic_iceaoe_exp);
+}
+
+$global_react_dmg_light {
+ wait(0.5);
+ reactfx();
+ play(damage);
+ enemyscenario(global_magic_lightaoe_exp);
+}
+
+$global_react_dmg_dark {
+ wait(0.5);
+ reactfx();
+ play(damage);
+ enemyscenario(global_magic_darkaoe_exp);
+}
+
+$global_react_dmg_electro {
+ wait(0.5);
+ reactfx();
+ play(damage);
+ enemyscenario(global_magic_electroaoe_exp);
+}
+
+$global_react_dmg_acid {
+ wait(0.5);
+ reactfx();
+ play(damage);
+ enemyscenario(global_magic_acidaoe_exp);
+}
+
+---REACT BAF---
+
+$global_react_baf_fire {
+ wait(0.5);
+ reactfx();
+ scenario(global_magic_baf_fire);
+}
+
+$global_react_baf_ice {
+ wait(0.5);
+ reactfx();
+ scenario(global_magic_baf_ice);
+}
+
+$global_react_baf_light {
+ wait(0.5);
+ reactfx();
+ scenario(global_magic_baf_light);
+}
+
+$global_react_baf_dark {
+ wait(0.5);
+ reactfx();
+ scenario(global_magic_baf_dark);
+}
+
+$global_react_baf_electro {
+ wait(0.5);
+ reactfx();
+ scenario(global_magic_baf_electro);
+}
+
+$global_react_baf_acid {
+ wait(0.5);
+ reactfx();
+ scenario(global_magic_baf_acid);
+}
+
+---REACT BAF DAMAGE---
+
+$global_react_baf_dmg_fire {
+ wait(0.5);
+ reactfx();
+ play(damage);
+ scenario(global_magic_baf_fire);
+}
+
+$global_react_baf_dmg_ice {
+ wait(0.5);
+ reactfx();
+ play(damage);
+ scenario(global_magic_baf_ice);
+}
+
+$global_react_baf_dmg_light {
+ wait(0.5);
+ reactfx();
+ play(damage);
+ scenario(global_magic_baf_light);
+}
+
+$global_react_baf_dmg_dark {
+ wait(0.5);
+ reactfx();
+ play(damage);
+ scenario(global_magic_baf_dark);
+}
+
+$global_react_baf_dmg_electro {
+ wait(0.5);
+ reactfx();
+ play(damage);
+ scenario(global_magic_baf_electro);
+}
+
+$global_react_baf_dmg_acid {
+ wait(0.5);
+ reactfx();
+ play(damage);
+ scenario(global_magic_baf_acid);
+}
+
+////////////////////////////////////////////////////////////////////
+// BOTTLES
+////////////////////////////////////////////////////////////////////
+
+//-----DRAGON-----//
+
+$global_dragon_grey {
+ fx(0,fx_dragon_01,bottom);
+ reactfx();
+}
+
+$global_dragon_green {
+ fx(0,fx_dragon_02,bottom);
+ reactfx();
+}
+
+$global_dragon_blue {
+ fx(0,fx_dragon_03,bottom);
+ reactfx();
+}
+
+$global_dragon_purple {
+ fx(0,fx_dragon_04,bottom);
+ reactfx();
+}
+
+$global_dragon_red {
+ fx(0,fx_dragon_05,bottom);
+ reactfx();
+}
+
+//-----14 FEB MAGIC-----//
+
+$global_14feb_point_white {
+ fx(0,fx_point_white1,pos_spinecenter,1,-1);
+}
+
+$global_14feb_point_blue {
+ fx(0,fx_point_blue1,pos_spinecenter,1,-1);
+}
+
+$global_14feb_point_pink {
+ fx(0,fx_point_pink1,pos_spinecenter,1,-1);
+}
+
+$global_14feb_point_red {
+ fx(0,fx_point_red1,pos_spinecenter,1,-1);
+}
+
+$global_14feb_snow_white {
+ fx(0,fx_snow_white1,pos_spinecenter,1,-1);
+}
+
+$global_14feb_snow_blue {
+ fx(0,fx_snow_blue1,pos_spinecenter,1,-1);
+}
+
+$global_14feb_snow_pink {
+ fx(0,fx_snow_pink1,pos_spinecenter,1,-1);
+}
+
+$global_14feb_snow_red {
+ fx(0,fx_snow_red1,pos_spinecenter,1,-1);
+}
+
+$global_14feb_fire_white {
+ fx(0,fx_fire_white1,pos_spinecenter,1,-1);
+}
+
+$global_14feb_fire_blue {
+ fx(0,fx_fire_blue1,pos_spinecenter,1,-1);
+}
+
+$global_14feb_fire_pink {
+ fx(0,fx_fire_pink1,pos_spinecenter,1,-1);
+}
+
+$global_14feb_fire_red {
+ fx(0,fx_fire_red1,pos_spinecenter,1,-1);
+}
+
+$global_14feb_heart_white {
+ fx(0,fx_heart_white1,pos_spinecenter,1,-1);
+}
+
+$global_14feb_heart_blue {
+ fx(0,fx_heart_blue1,pos_spinecenter,1,-1);
+}
+
+$global_14feb_heart_pink {
+ fx(0,fx_heart_pink1,pos_spinecenter,1,-1);
+}
+
+$global_14feb_heart_red {
+ fx(0,fx_heart_red1,pos_spinecenter,1,-1);
+}
+
+//-----MAGIC POWER-----//
+
+$global_magic_power_white {
+ fx(0,fx_magpower1,pos_spinecenter,1,-1);
+ fx(0,fx_magpower1,pos_hand_r,1,-1);
+ fx(0,fx_magpower1,pos_hand_l,1,-1);
+ fx(0,fx_magpower1,pos_toe_r,1,-1);
+ fx(0,fx_magpower1,pos_toe_l,1,-1);
+}
+
+$global_magic_power_ring_white_1 {
+ fx(0,fx_ring1_1,pos_spinecenter,1,-1);
+}
+
+$global_magic_power_ring_white_2 {
+ fx(0,fx_ring1_2,pos_spinecenter,1,-1);
+}
+
+$global_magic_power_ring_white_3 {
+ fx(0,fx_ring1_3,pos_spinecenter,1,-1);
+}
+
+$global_magic_power_ring_white_4 {
+ fx(0,fx_ring1_4,pos_spinecenter,1,-1);
+}
+
+$global_magic_power_ring_white_5 {
+ fx(0,fx_ring1_5,pos_spinecenter,1,-1);
+}
+
+$global_magic_power_green {
+ fx(0,fx_magpower2,pos_spinecenter,1,-1);
+ fx(0,fx_magpower2,pos_hand_r,1,-1);
+ fx(0,fx_magpower2,pos_hand_l,1,-1);
+ fx(0,fx_magpower2,pos_toe_r,1,-1);
+ fx(0,fx_magpower2,pos_toe_l,1,-1);
+}
+
+$global_magic_power_ring_green_1 {
+ fx(0,fx_ring2_1,pos_spinecenter,1,-1);
+}
+
+$global_magic_power_ring_green_2 {
+ fx(0,fx_ring2_2,pos_spinecenter,1,-1);
+}
+
+$global_magic_power_ring_green_3 {
+ fx(0,fx_ring2_3,pos_spinecenter,1,-1);
+}
+
+$global_magic_power_ring_green_4 {
+ fx(0,fx_ring2_4,pos_spinecenter,1,-1);
+}
+
+$global_magic_power_ring_green_5 {
+ fx(0,fx_ring2_5,pos_spinecenter,1,-1);
+}
+
+$global_magic_power_blue {
+ fx(0,fx_magpower3,pos_spinecenter,1,-1);
+ fx(0,fx_magpower3,pos_hand_r,1,-1);
+ fx(0,fx_magpower3,pos_hand_l,1,-1);
+ fx(0,fx_magpower3,pos_toe_r,1,-1);
+ fx(0,fx_magpower3,pos_toe_l,1,-1);
+}
+
+$global_magic_power_ring_blue_1 {
+ fx(0,fx_ring3_1,pos_spinecenter,1,-1);
+}
+
+$global_magic_power_ring_blue_2 {
+ fx(0,fx_ring3_2,pos_spinecenter,1,-1);
+}
+
+$global_magic_power_ring_blue_3 {
+ fx(0,fx_ring3_3,pos_spinecenter,1,-1);
+}
+
+$global_magic_power_ring_blue_4 {
+ fx(0,fx_ring3_4,pos_spinecenter,1,-1);
+}
+
+$global_magic_power_ring_blue_5 {
+ fx(0,fx_ring3_5,pos_spinecenter,1,-1);
+}
+
+$global_magic_power_purple {
+ fx(0,fx_magpower4,pos_spinecenter,1,-1);
+ fx(0,fx_magpower4,pos_hand_r,1,-1);
+ fx(0,fx_magpower4,pos_hand_l,1,-1);
+ fx(0,fx_magpower4,pos_toe_r,1,-1);
+ fx(0,fx_magpower4,pos_toe_l,1,-1);
+}
+
+$global_magic_power_ring_purple_1 {
+ fx(0,fx_ring4_1,pos_spinecenter,1,-1);
+}
+
+$global_magic_power_ring_purple_2 {
+ fx(0,fx_ring4_2,pos_spinecenter,1,-1);
+}
+
+$global_magic_power_ring_purple_3 {
+ fx(0,fx_ring4_3,pos_spinecenter,1,-1);
+}
+
+$global_magic_power_ring_purple_4 {
+ fx(0,fx_ring4_4,pos_spinecenter,1,-1);
+}
+
+$global_magic_power_ring_purple_5 {
+ fx(0,fx_ring4_5,pos_spinecenter,1,-1);
+}
+
+$global_magic_power_red {
+ fx(0,fx_magpower5,pos_spinecenter,1,-1);
+ fx(0,fx_magpower5,pos_hand_r,1,-1);
+ fx(0,fx_magpower5,pos_hand_l,1,-1);
+ fx(0,fx_magpower5,pos_toe_r,1,-1);
+ fx(0,fx_magpower5,pos_toe_l,1,-1);
+}
+
+$global_magic_power_ring_red_1 {
+ fx(0,fx_ring5_1,pos_spinecenter,1,-1);
+}
+
+$global_magic_power_ring_red_2 {
+ fx(0,fx_ring5_2,pos_spinecenter,1,-1);
+}
+
+
+$global_magic_power_ring_red_3 {
+ fx(0,fx_ring5_3,pos_spinecenter,1,-1);
+}
+
+
+$global_magic_power_ring_red_4 {
+ fx(0,fx_ring5_4,pos_spinecenter,1,-1);
+}
+
+
+$global_magic_power_ring_red_5 {
+ fx(0,fx_ring5_5,pos_spinecenter,1,-1);
+}
+
+//-----BACKSTAB MAGIC-----//
+
+$global_dist_magic_prestart {
+ fx(0,fx_distmagicstart_00,pos_hand_l,1);
+}
+
+$global_dist_magic_start {
+ fx(0,fx_distmagicstart_01,pos_hand_l);
+}
+
+$global_dist_magic_damage_start {
+ fx(0,fx_distmagic_02,bottom);
+}
+
+$global_dist_magic_damage {
+ fx(0,fx_distmagic_01,bottom);
+}
+
+$global_magic_backstab_buff {
+ scenario(global_dist_magic_damage_start);
+ wait(0.2);
+ reactfx();
+ scenario(global_dist_magic_damage);
+}
+
+//-----BERSERK-----//
+
+$global_berserk {
+ fx(0,fx_bers_01,bottom);
+}
+
+//-----FURY-----//
+
+$global_fury {
+ play(idle3,10.0);
+ scenario(global_snd_magic_baf_crit);
+ fx(0,fx_fury_iOS,pos_hand_l,1);
+ fx(0,fx_fury_iOS,pos_hand_r,1);
+ fx(0,fx_fury_iOS,pos_toe_l,1);
+ fx(0,fx_fury_iOS,pos_toe_r,1);
+ fx(0,fx_powerlight1,pos_spinecenter,1);
+}
+
+//-----REDIRECT-----//
+
+$global_bottle_char_redirect {
+ scenario(global_snd_botles_redirect);
+ fx(0,fx_redirecthandfx1,pos_hand_l);
+}
+
+$global_bottle_char_redirect_fx {
+ fx(0,sfx_redirectbaf1,bottom);
+}
+
+$global_botles_redirect_buff {
+ scenario(global_bottle_char_redirect_fx);
+}
+
+$global_botles_redirect_friend_buff {
+ scenario(global_bottle_char_redirect_fx);
+}
+
+//-----DEBUFF-----//
+
+$global_bottle_char_debuff_fire_fx {
+ fx(0,fx_dicohand_fire1,pos_hand_l);
+}
+
+$global_botles_debuff_fire_buff {
+ fx(0,sfx_debuffbaf_fr,pos_spinecenter);
+ wait(0.4);
+ fx(0,fx_debuffbaf_fr,pos_spinecenter);
+}
+
+$global_bottle_char_debuff_ice_fx {
+ fx(0,fx_dicohand_ice1,pos_hand_l);
+}
+
+$global_botles_debuff_ice_buff {
+ fx(0,sfx_debuffbaf_ic,pos_spinecenter);
+ wait(0.4);
+ fx(0,fx_debuffbaf_ic,pos_spinecenter);
+}
+
+$global_bottle_char_debuff_light_fx {
+ fx(0,fx_dicohand_light1,pos_hand_l);
+}
+
+$global_botles_debuff_light_buff {
+ fx(0,sfx_debuffbaf_lt,pos_spinecenter);
+ wait(0.4);
+ fx(0,fx_debuffbaf_lt,pos_spinecenter);
+}
+
+$global_bottle_char_debuff_dark_fx {
+ fx(0,fx_dicohand_dark1,pos_hand_l);
+}
+
+$global_botles_debuff_dark_buff {
+ fx(0,sfx_debuffbaf_dk,pos_spinecenter);
+ wait(0.4);
+ fx(0,fx_debuffbaf_dk,pos_spinecenter);
+}
+
+$global_bottle_char_debuff_electro_fx {
+ fx(0,fx_dicohand_electro1,pos_hand_l);
+}
+
+$global_botles_debuff_electro_buff {
+ fx(0,sfx_debuffbaf_el,pos_spinecenter);
+ wait(0.4);
+ fx(0,fx_debuffbaf_el,pos_spinecenter);
+}
+
+$global_bottle_char_debuff_acid_fx {
+ fx(0,fx_dicohand_acid1,pos_hand_l);
+}
+
+$global_botles_debuff_acid_buff {
+ fx(0,sfx_debuffbaf_ac,pos_spinecenter);
+ wait(0.4);
+ fx(0,fx_debuffbaf_ac,pos_spinecenter);
+}
+
+//-----DISPELL-----//
+
+$global_bottle_icon_dispell {
+ fx(bid1,fx_dicostart1,pos_spinecenter);        fxpos(bid1,0,1,0,0);
+ wait(1);
+ fx(bid2,fx_dicostart2,pos_spinecenter);        fxpos(bid2,0,1.1,0,0);
+}
+
+$global_bottle_char_dispell {
+ scenario(global_snd_botles_dispell);
+ fx(0,fx_dicofx1,pos_spinecenter);
+}
+
+$global_bottle_char_dis_fx {
+ fx(0,fx_dicohandfx1,pos_hand_l);
+}
+
+$global_botles_dispell_buff {
+ scenario(global_bottle_icon_dispell);
+ wait(0.7);
+ scenario(global_bottle_char_dispell);
+}
+
+$global_bottle_char_dis_fire_fx {
+ fx(0,fx_dicohand_fire1,pos_hand_l);
+}
+
+$global_botles_dispell_fire_buff {
+ scenario(global_bottle_icon_dispell);
+ wait(0.7);
+ scenario(global_snd_botles_dispell);
+ fx(0,fx_dicofx_fire1,pos_spinecenter);
+}
+
+$global_bottle_char_dis_ice_fx {
+ fx(0,fx_dicohand_ice1,pos_hand_l);
+}
+
+$global_botles_dispell_ice_buff {
+ scenario(global_bottle_icon_dispell);
+ wait(0.7);
+ scenario(global_snd_botles_dispell);
+ fx(0,fx_dicofx_ice1,pos_spinecenter);
+}
+
+$global_bottle_char_dis_light_fx {
+ fx(0,fx_dicohand_light1,pos_hand_l);
+}
+
+$global_botles_dispell_light_buff {
+ scenario(global_bottle_icon_dispell);
+ wait(0.7);
+ scenario(global_snd_botles_dispell);
+ fx(0,fx_dicofx_light1,pos_spinecenter);
+}
+
+$global_bottle_char_dis_dark_fx {
+ fx(0,fx_dicohand_dark1,pos_hand_l);
+}
+
+$global_botles_dispell_dark_buff {
+ scenario(global_bottle_icon_dispell);
+ wait(0.7);
+ scenario(global_snd_botles_dispell);
+ fx(0,fx_dicofx_dark1,pos_spinecenter);
+}
+
+$global_bottle_char_dis_electro_fx {
+ fx(0,fx_dicohand_electro1,pos_hand_l);
+}
+
+$global_botles_dispell_electro_buff {
+ scenario(global_bottle_icon_dispell);
+ wait(0.7);
+ scenario(global_snd_botles_dispell);
+ fx(0,fx_dicofx_electro1,pos_spinecenter);
+}
+
+$global_bottle_char_dis_acid_fx {
+ fx(0,fx_dicohand_acid1,pos_hand_l);
+}
+
+$global_botles_dispell_acid_buff {
+ scenario(global_bottle_icon_dispell);
+ wait(0.7);
+ scenario(global_snd_botles_dispell);
+ fx(0,fx_dicofx_acid1,pos_spinecenter);
+}
+
+$global_botles_dispell_friend_buff {
+ scenario(global_bottle_icon_dispell);
+ wait(0.7);
+ scenario(global_snd_botles_dispell);
+ scenario(global_bottle_char_dispell);
+}
+
+$global_botles_dispell_fire_friend_buff {
+ scenario(global_bottle_icon_dispell);
+ wait(0.7);
+ scenario(global_snd_botles_dispell);
+ fx(0,fx_dicofx_fire1,pos_spinecenter);
+}
+
+$global_botles_dispell_ice_friend_buff {
+ scenario(global_bottle_icon_dispell);
+ wait(0.7);
+ scenario(global_snd_botles_dispell);
+ fx(0,fx_dicofx_ice1,pos_spinecenter);
+}
+
+$global_botles_dispell_light_friend_buff {
+ scenario(global_bottle_icon_dispell);
+ wait(0.7);
+ scenario(global_snd_botles_dispell);
+ fx(0,fx_dicofx_light1,pos_spinecenter);
+}
+
+$global_botles_dispell_dark_friend_buff {
+ scenario(global_bottle_icon_dispell);
+ wait(0.7);
+ scenario(global_snd_botles_dispell);
+ fx(0,fx_dicofx_dark1,pos_spinecenter);
+}
+
+$global_botles_dispell_electro_friend_buff {
+ scenario(global_bottle_icon_dispell);
+ wait(0.7);
+ scenario(global_snd_botles_dispell);
+ fx(0,fx_dicofx_electro1,pos_spinecenter);
+}
+
+$global_botles_dispell_acid_friend_buff {
+ scenario(global_bottle_icon_dispell);
+ wait(0.7);
+ scenario(global_snd_botles_dispell);
+ fx(0,fx_dicofx_acid1,pos_spinecenter);
+}
+
+//-----HEALSELF-----//
+
+$global_bottle_icon_healself {
+ fx(bihs1,fx_hsicostart1,pos_spinecenter);      fxpos(bihs1,0,1,0,0);
+ wait(1);
+ fx(bihs2,fx_hsicostart2,pos_spinecenter);      fxpos(bihs2,0,1.1,0,0);
+}
+
+$global_bottle_char_healself_1 {
+ scenario(global_snd_botles_healself);
+ fx(0,fx_hsicofxpart_1,pos_spinecenter);
+ fx(0,fx_hsicofxpart_1,pos_hand_r);
+ fx(0,fx_hsicofxpart_1,pos_hand_l);
+ fx(0,fx_hsicofxpart_1,pos_toe_r);
+ fx(0,fx_hsicofxpart_1,pos_toe_l);
+ fx(bchs1,fx_hsicofxwave_1,bottom);             fxpos(bchs1,0,0.05,0,0);
+}
+
+$global_bottle_char_healself_2 {
+ scenario(global_snd_botles_healself);
+ fx(0,fx_hsicofxpart_2,pos_spinecenter);
+ fx(0,fx_hsicofxpart_2,pos_hand_r);
+ fx(0,fx_hsicofxpart_2,pos_hand_l);
+ fx(0,fx_hsicofxpart_2,pos_toe_r);
+ fx(0,fx_hsicofxpart_2,pos_toe_l);
+ fx(bchs1,fx_hsicofxwave_2,bottom);             fxpos(bchs1,0,0.05,0,0);
+}
+
+$global_bottle_char_healself_3 {
+ scenario(global_snd_botles_healself);
+ fx(0,fx_hsicofxpart_3,pos_spinecenter);
+ fx(0,fx_hsicofxpart_3,pos_hand_r);
+ fx(0,fx_hsicofxpart_3,pos_hand_l);
+ fx(0,fx_hsicofxpart_3,pos_toe_r);
+ fx(0,fx_hsicofxpart_3,pos_toe_l);
+ fx(bchs1,fx_hsicofxwave_3,bottom);             fxpos(bchs1,0,0.05,0,0);
+}
+
+$global_bottle_char_healself_4 {
+ scenario(global_snd_botles_healself);
+ fx(0,fx_hsicofxpart_4,pos_spinecenter);
+ fx(0,fx_hsicofxpart_4,pos_hand_r);
+ fx(0,fx_hsicofxpart_4,pos_hand_l);
+ fx(0,fx_hsicofxpart_4,pos_toe_r);
+ fx(0,fx_hsicofxpart_4,pos_toe_l);
+ fx(bchs1,fx_hsicofxwave_4,bottom);             fxpos(bchs1,0,0.05,0,0);
+}
+
+$global_bottle_char_healself_5 {
+ scenario(global_snd_botles_healself);
+ fx(0,fx_hsicofxpart_5,pos_spinecenter);
+ fx(0,fx_hsicofxpart_5,pos_hand_r);
+ fx(0,fx_hsicofxpart_5,pos_hand_l);
+ fx(0,fx_hsicofxpart_5,pos_toe_r);
+ fx(0,fx_hsicofxpart_5,pos_toe_l);
+ fx(0,fx_hsicofxwave_5,bottom);                 fxpos(bchs1,0,0.05,0,0);
+}
+
+//-----HEALFRIEND-----//
+
+//---REACTS---//
+
+$global_react_healfriend_1 {
+ scenario(global_bottle_char_healfriend_1);
+ scenario(global_bottle_icon_healfriend);
+ reactfx();
+}
+
+$global_react_poison {
+ scenario(global_bottle_char_poison);
+ scenario(global_bottle_icon_poison);
+ reactfx();
+}
+
+//---SCENARIOS---//
+
+$global_bottle_char_healfriend_0 {
+ scenario(global_snd_botles_healself);
+ fx(0,fx_hsicofxpart_1,pos_spinecenter);
+ fx(0,fx_hsicofxpart_1,pos_hand_r);
+ fx(0,fx_hsicofxpart_1,pos_hand_l);
+ fx(0,fx_hsicofxpart_1,pos_toe_r);
+ fx(0,fx_hsicofxpart_1,pos_toe_l);
+ fx(bchf1,fx_hsicofxwave_1,bottom);             fxpos(bchf1,0,0.05,0,0);
+}
+
+$global_bottle_icon_healfriend {
+ fx(bihf1,fx_hficostart1,pos_spinecenter);      fxpos(bihf1,0,1,0,0);
+ wait(1);
+ fx(bihf2,fx_hficostart2,pos_spinecenter);      fxpos(bihf2,0,1.1,0,0);
+}
+
+$global_bottle_char_healfriend_1 {
+ scenario(global_snd_botles_healself);
+ fx(0,fx_hsicofxpart_1,pos_spinecenter);
+ fx(0,fx_hsicofxpart_1,pos_hand_r);
+ fx(0,fx_hsicofxpart_1,pos_hand_l);
+ fx(0,fx_hsicofxpart_1,pos_toe_r);
+ fx(0,fx_hsicofxpart_1,pos_toe_l);
+ fx(bchf1,fx_hsicofxwave_1,bottom);             fxpos(bchf1,0,0.05,0,0);
+}
+
+$global_bottle_char_healfriend_baf_1 {
+ fx(bchfb1,fx_hsicofxpart_1,pos_hand_l);        fxpos(bchfb1,0,0.5,0,0);
+ fx(bchfb2,fx_hsicofxpart_1,pos_hand_l);        fxpos(bchfb2,0,0.5,0,0);
+ fx(bchfb3,fx_hsicofxpart_1,pos_hand_l);        fxpos(bchfb3,0,0.5,0,0);
+}
+
+$global_botles_healfriend_grey_buff {
+ scenario(global_bottle_icon_healfriend);
+ wait(0.7);
+ scenario(global_bottle_char_healfriend_1);
+ wait(0.3);
+ reactfx();
+}
+
+$global_bottle_char_healfriend_2 {
+ scenario(global_snd_botles_healself);
+ fx(0,fx_hsicofxpart_2,pos_spinecenter);
+ fx(0,fx_hsicofxpart_2,pos_hand_r);
+ fx(0,fx_hsicofxpart_2,pos_hand_l);
+ fx(0,fx_hsicofxpart_2,pos_toe_r);
+ fx(0,fx_hsicofxpart_2,pos_toe_l);
+ fx(bchf1,fx_hsicofxwave_1,bottom);             fxpos(bchf1,0,0.05,0,0);
+}
+
+$global_bottle_char_healfriend_baf_2 {
+ fx(bchfb1,fx_hsicofxpart_2,pos_hand_l);        fxpos(bchfb1,0,0.5,0,0);
+ fx(bchfb2,fx_hsicofxpart_2,pos_hand_l);        fxpos(bchfb2,0,0.5,0,0);
+ fx(bchfb3,fx_hsicofxpart_2,pos_hand_l);        fxpos(bchfb3,0,0.5,0,0);
+}
+
+$global_botles_healfriend_green_buff {
+ scenario(global_bottle_icon_healfriend);
+ wait(0.7);
+ scenario(global_bottle_char_healfriend_2);
+ wait(0.3);
+ reactfx();
+}
+
+$global_bottle_char_healfriend_3 {
+ scenario(global_snd_botles_healself);
+ fx(0,fx_hsicofxpart_3,pos_spinecenter);
+ fx(0,fx_hsicofxpart_3,pos_hand_r);
+ fx(0,fx_hsicofxpart_3,pos_hand_l);
+ fx(0,fx_hsicofxpart_3,pos_toe_r);
+ fx(0,fx_hsicofxpart_3,pos_toe_l);
+ fx(bchf1,fx_hsicofxwave_1,bottom);             fxpos(bchf1,0,0.05,0,0);
+}
+
+$global_bottle_char_healfriend_baf_3 {
+ fx(bchfb1,fx_hsicofxpart_3,pos_hand_l);        fxpos(bchfb1,0,0.5,0,0);
+ fx(bchfb2,fx_hsicofxpart_3,pos_hand_l);        fxpos(bchfb2,0,0.5,0,0);
+ fx(bchfb3,fx_hsicofxpart_3,pos_hand_l);        fxpos(bchfb3,0,0.5,0,0);
+}
+
+$global_botles_healfriend_blue_buff {
+ scenario(global_bottle_icon_healfriend);
+ wait(0.7);
+ scenario(global_bottle_char_healfriend_3);
+ wait(0.3);
+ reactfx();
+}
+
+$global_bottle_char_healfriend_4 {
+ scenario(global_snd_botles_healself);
+ fx(0,fx_hsicofxpart_4,pos_spinecenter);
+ fx(0,fx_hsicofxpart_4,pos_hand_r);
+ fx(0,fx_hsicofxpart_4,pos_hand_l);
+ fx(0,fx_hsicofxpart_4,pos_toe_r);
+ fx(0,fx_hsicofxpart_4,pos_toe_l);
+ fx(bchf1,fx_hsicofxwave_1,bottom);             fxpos(bchf1,0,0.05,0,0);
+}
+
+$global_bottle_char_healfriend_baf_4 {
+ fx(bchfb1,fx_hsicofxpart_4,pos_hand_l);        fxpos(bchfb1,0,0.5,0,0);
+ fx(bchfb2,fx_hsicofxpart_4,pos_hand_l);        fxpos(bchfb2,0,0.5,0,0);
+ fx(bchfb3,fx_hsicofxpart_4,pos_hand_l);        fxpos(bchfb3,0,0.5,0,0);
+}
+
+$global_botles_healfriend_purple_buff {
+ scenario(global_bottle_icon_healfriend);
+ wait(0.7);
+ scenario(global_bottle_char_healfriend_4);
+ wait(0.3);
+ reactfx();
+}
+
+$global_bottle_char_healfriend_5 {
+ scenario(global_snd_botles_healself);
+ fx(0,fx_hsicofxpart_5,pos_spinecenter);
+ fx(0,fx_hsicofxpart_5,pos_hand_r);
+ fx(0,fx_hsicofxpart_5,pos_hand_l);
+ fx(0,fx_hsicofxpart_5,pos_toe_r);
+ fx(0,fx_hsicofxpart_5,pos_toe_l);
+ fx(bchf1,fx_hsicofxwave_1,bottom);             fxpos(bchf1,0,0.05,0,0);
+}
+
+$global_bottle_char_healfriend_baf_5 {
+ fx(bchfb1,fx_hsicofxpart_5,pos_hand_l);        fxpos(bchfb1,0,0.5,0,0);
+ fx(bchfb2,fx_hsicofxpart_5,pos_hand_l);        fxpos(bchfb2,0,0.5,0,0);
+ fx(bchfb3,fx_hsicofxpart_5,pos_hand_l);        fxpos(bchfb3,0,0.5,0,0);
+}
+
+$global_botles_healfriend_red_buff {
+ scenario(global_bottle_icon_healfriend);
+ wait(0.7);
+ scenario(global_bottle_char_healfriend_5);
+ wait(0.3);
+ reactfx();
+}
+
+//-----HEALTHUP-----//
+
+$global_bottle_icon_healthup {
+ fx(bihu1,fx_huicostart1,pos_spinecenter);      fxpos(bihu1,0,1,0,0);
+ wait(1);
+ fx(bihu2,fx_huicostart2,pos_spinecenter);      fxpos(bihu2,0,1.1,0,0);
+}
+
+$global_bottle_char_healthup {
+ fx(0,fx_hsicofx1,pos_spinecenter);
+ fx(0,fx_hsicofx1,pos_hand_r);
+ fx(0,fx_hsicofx1,pos_hand_l);
+ fx(0,fx_hsicofx1,pos_toe_r);
+ fx(0,fx_hsicofx1,pos_toe_l);
+ fx(bchu1,fx_hsicofx2,bottom);                  fxpos(bchu1,0,0.05,0,0);
+ fx(bchu2,fx_huicofx3,bottom);                  fxpos(bchu2,0,0.5,-0.2,0);
+}
+
+//-----POISON-----//
+
+$global_bottle_icon_poison {
+ fx(bip1,fx_picostart1,pos_spinecenter);        fxpos(bip1,0,1,0,0);
+ wait(1);
+ fx(bip2,fx_picostart2,pos_spinecenter);        fxpos(bip2,0,1.1,0,0);
+}
+
+$global_bottle_char_poison {
+ fx(0,fx_picofx1,pos_spinecenter);
+ wait(0.3);
+ fx(0,fx_picofx2,bottom);
+}
+
+$global_bottle_hand_poison {
+ fx(0,fx_picohand1,pos_hand_l,1);
+}
+
+$global_botles_poison_buff {
+ scenario(global_bottle_icon_poison);
+ wait(0.7);
+ scenario(global_bottle_char_poison);
+ wait(0.3);
+ reactfx();
+}
+
+//-----RESSURECT-----//
+
+$global_bottle_icon_res {
+ fx(bir1,fx_ricostart1,pos_spinecenter);        fxpos(bir1,0,1,0,0);
+ wait(1);
+ fx(bir2,fx_ricostart2,pos_spinecenter);        fxpos(bir2,0,1.1,0,0);
+}
+
+$global_bottle_char_res {
+ fx(0,fx_ricofx1,pos_spinecenter);
+}
+
+$global_bottle_char_res_fx {
+ fx(0,fx_ricohandfx1,pos_hand_l);
+}
+
+$botles_ressurect_buff {
+ scenario(global_bottle_icon_res);
+ wait(0.7);
+ scenario(global_bottle_char_res);
+ reactfx();
+}
+
+//-----CRITICAL-----//
+
+$global_bottle_char_crit_1 {
+ scenario(global_snd_botles_crit);
+ fx(0,fx_crit1,pos_hand_r);
+ fx(0,fx_crit1,pos_hand_l);
+}
+
+$global_bottle_char_crit_2 {
+ scenario(global_snd_botles_crit);
+ fx(0,fx_crit2,pos_hand_r);
+ fx(0,fx_crit2,pos_hand_l);
+}
+
+$global_bottle_char_crit_3 {
+ scenario(global_snd_botles_crit);
+ fx(0,fx_crit3,pos_hand_r);
+ fx(0,fx_crit3,pos_hand_l);
+}
+
+$global_bottle_char_crit_4 {
+ scenario(global_snd_botles_crit);
+ fx(0,fx_crit4,pos_hand_r);
+ fx(0,fx_crit4,pos_hand_l);
+}
+
+$global_bottle_char_crit_5 {
+ scenario(global_snd_botles_crit);
+ fx(0,fx_crit5,pos_hand_r);
+ fx(0,fx_crit5,pos_hand_l);
+}
+
+//-----POWER-----//
+
+$global_bottle_char_power_1 {
+ scenario(global_snd_botles_power);
+ fx(0,fx_pwrflame1,pos_hand_r);
+ fx(0,fx_pwrflame1,pos_hand_l);
+}
+
+$global_bottle_char_power_2 {
+ scenario(global_snd_botles_power);
+ fx(0,fx_pwrflame2,pos_hand_r);
+ fx(0,fx_pwrflame2,pos_hand_l);
+}
+
+$global_bottle_char_power_3 {
+ scenario(global_snd_botles_power);
+ fx(0,fx_pwrflame3,pos_hand_r);
+ fx(0,fx_pwrflame3,pos_hand_l);
+}
+
+$global_bottle_char_power_4 {
+ scenario(global_snd_botles_power);
+ fx(0,fx_pwrflame4,pos_hand_r);
+ fx(0,fx_pwrflame4,pos_hand_l);
+}
+
+$global_bottle_char_power_5 {
+ scenario(global_snd_botles_power);
+ fx(0,fx_pwrflame5,pos_hand_r);
+ fx(0,fx_pwrflame5,pos_hand_l);
+}
+
+//-----STRENGHT-----//
+
+$global_bottle_icon_strenght_0 {
+ fx(bis1,fx_sicostart1,pos_spinecenter);        fxpos(bis1,0,1,0,0);
+ wait(1);
+ fx(bis2,fx_sicostart2,pos_spinecenter);        fxpos(bis2,0,1.1,0,0);
+}
+
+$global_bottle_icon_strenght_1 {
+ sound(botles_healself);
+ fx(bis1,fx_sicostart01_1,pos_spinecenter);     fxpos(bis1,0,1,0,0);
+ wait(1);
+ fx(bis2,fx_sicostart01_2,pos_spinecenter);     fxpos(bis2,0,1.1,0,0);
+}
+
+$global_bottle_icon_strenght_2 {
+ sound(botles_healself);
+ fx(bis1,fx_sicostart02_1,pos_spinecenter);     fxpos(bis1,0,1,0,0);
+ wait(1);
+ fx(bis2,fx_sicostart02_2,pos_spinecenter);     fxpos(bis2,0,1.1,0,0);
+}
+
+$global_bottle_icon_strenght_3 {
+ sound(botles_healself);
+ fx(bis1,fx_sicostart03_1,pos_spinecenter);     fxpos(bis1,0,1,0,0);
+ wait(1);
+ fx(bis2,fx_sicostart03_2,pos_spinecenter);     fxpos(bis2,0,1.1,0,0);
+}
+
+$global_bottle_icon_strenght_4 {
+ sound(botles_healself);
+ fx(bis1,fx_sicostart04_1,pos_spinecenter);     fxpos(bis1,0,1,0,0);
+ wait(1);
+ fx(bis2,fx_sicostart04_2,pos_spinecenter);     fxpos(bis2,0,1.1,0,0);
+}
+
+$global_bottle_icon_strenght_5 {
+ sound(botles_healself);
+ fx(bis1,fx_sicostart05_1,pos_spinecenter);     fxpos(bis1,0,1,0,0);
+ wait(1);
+ fx(bis2,fx_sicostart05_2,pos_spinecenter);     fxpos(bis2,0,1.1,0,0);
+}
+
+$global_bottle_char_strenght1 {
+fx(0,fx_sicofx1,bottom);
+}
+
+$global_bottle_char_strenght2 {
+ fx(0,fx_sicofx2,bottom);
+}
+
+$global_bottle_char_strenght3 {
+ fx(0,fx_sicofx3,bottom);
+}
+
+$global_bottle_char_strenght4 {
+ fx(0,fx_sicofx4,bottom);
+}
+
+$global_bottle_char_strenght5 {
+ fx(0,fx_sicofx5,bottom);
+}
+
+$global_bottle_char_strenght_01 {
+ scenario(global_snd_botles_strenght);
+ fx(0,fx_strbuf01,pos_hand_r);
+ fx(0,fx_strbuf01,pos_hand_l);
+}
+
+$global_bottle_char_strenght_02 {
+ scenario(global_snd_botles_strenght);
+ fx(0,fx_strbuf02,pos_hand_r);
+ fx(0,fx_strbuf02,pos_hand_l);
+}
+
+$global_bottle_char_strenght_03 {
+ scenario(global_snd_botles_strenght);
+ fx(0,fx_strbuf03,pos_hand_r);
+ fx(0,fx_strbuf03,pos_hand_l);
+}
+
+$global_bottle_char_strenght_04 {
+ scenario(global_snd_botles_strenght);
+ fx(0,fx_strbuf04,pos_hand_r);
+ fx(0,fx_strbuf04,pos_hand_l);
+}
+
+$global_bottle_char_strenght_05 {
+ scenario(global_snd_botles_strenght);
+ fx(0,fx_strbuf05,pos_hand_r);
+ fx(0,fx_strbuf05,pos_hand_l);
+}
+
+//-----VAMPIR-----//
+
+$global_bottle_icon_vampir {
+ fx(biv1,fx_vicostart1,pos_spinecenter);        fxpos(biv1,0,1,0,0);
+ wait(1);
+ fx(biv2,fx_vicostart2,pos_spinecenter);        fxpos(biv2,0,1.1,0,0);
+}
+
+$global_bottle_char_vampir {
+ fx(0,fx_vicofx1,pos_spinecenter);
+ fx(0,fx_vicofx2,bottom);
+}
+
+$global_bottle_char_vampir_01 {
+ scenario(global_snd_botles_vampir);
+ fx(0,fx_vmpbuf01,pos_hand_r);
+ fx(0,fx_vmpbuf01,pos_hand_l);
+}
+
+$global_bottle_char_vampir_02 {
+ scenario(global_snd_botles_vampir);
+ fx(0,fx_vmpbuf02,pos_hand_r);
+ fx(0,fx_vmpbuf02,pos_hand_l);
+}
+
+$global_bottle_char_vampir_03 {
+ scenario(global_snd_botles_vampir);
+ fx(0,fx_vmpbuf03,pos_hand_r);
+ fx(0,fx_vmpbuf03,pos_hand_l);
+}
+
+$global_bottle_char_vampir_04 {
+ scenario(global_snd_botles_vampir);
+ fx(0,fx_vmpbuf04,pos_hand_r);
+ fx(0,fx_vmpbuf04,pos_hand_l);
+}
+
+$global_bottle_char_vampir_05 {
+ scenario(global_snd_botles_vampir);
+ fx(0,fx_vmpbuf05,pos_hand_r);
+ fx(0,fx_vmpbuf05,pos_hand_l);
+}
+
+////////////////////////////////////////////////////////////////////
+// REACTIONS
+////////////////////////////////////////////////////////////////////
+
+$global_react_death {
+ fx(rd1,fx_dethfast1,pos_spinecenter);          fxpos(rd1,0,-0.3,0,0);
+}
+
+$global_react_blood {
+ fx(rb1,fx_bldsplash1,bottom,1);                fxpos(rb1,0,1.25,0,0);
+ wait(0.2);
+// fx(0,fx_bldsplat2,bottom);
+}
+
+$global_react_blood_dog {
+ fx(rbd1,fx_bldsplash1,bottom,1);               fxpos(rbd1,0,0.75,0,0);
+ wait(0.2);
+// fx(0,fx_bldsplat2,bottom);
+}
+
+$global_react_blood_beatle {
+ fx(rbd1,fx_bldfltsplash1,bottom,1);               fxpos(rbd1,0,0.75,0,0);
+ wait(0.2);
+// fx(0,fx_bldfltsplat2,bottom);
+}
+
+$global_react_blood_green {
+ fx(rbg1,fx_bldgrensplash1,bottom,1);           fxpos(rbg1,0,1.25,0,0);
+ wait(0.3);
+// fx(0,fx_bldgrensplat2,bottom);
+}
+
+$global_react_blood_fiolet {
+ fx(rbf1,fx_bldfltsplash1,bottom,1);            fxpos(rbf1,0,1.25,0,0);
+ wait(0.3);
+// fx(0,fx_bldfltsplat2,bottom);
+}
+
+$global_react_blood_small {
+ fx(0,fx_bldsplash2,pos_head,1);
+}
+
+$global_react_blood_small_green {
+ fx(0,fx_bldgrensplash2,pos_head,1);
+}
+
+$global_react_blood_small_fiolet {
+ fx(0,fx_bldfltsplash2,pos_head,1);
+}
+
+$global_react_block {
+ fx(rb1,sfx_block1,bottom,1);                   fxpos(rb1,0,1,0,0);     fxrot(rb1,0,90,0,0);
+ scenario(global_block_smoke);
+}
+
+$global_react_block_sov {
+ fx(rb1,sfx_block1,pos_hand_l,1);                   fxpos(rb1,0,1,0,0);     fxrot(rb1,0,90,0,0);
+ scenario(global_block_smoke);
+}
+
+$global_react_block_cactus {
+ fx(rb1,sfx_block1,pos_head,1);                   fxpos(rb1,0,1,0,0);     fxrot(rb1,0,90,0,0);
+ scenario(global_block_smoke);
+}
+
+$global_react_block_demongirl {
+ fx(rb1,sfx_block1,pos_hand_l);                   fxpos(rb1,0,0,0,0);     fxrot(rb1,0,90,0,0);
+ scenario(global_block_smoke);
+}
+
+$global_react_block_dethspirit {
+ fx(rb1,sfx_block1,bottom,1);                   fxpos(rb1,0,2.3,0,0);     fxrot(rb1,0,90,0,0);
+ scenario(global_block_smoke);
+}
+
+////////////////////////////////////////////////////////////////////
+// TRIGGERS
+////////////////////////////////////////////////////////////////////
+
+//-----SPAWN-----//
+
+$global_onshow {
+ fx(os1,fx_spawn1,bottom);      fxpos(os1,0,0.05,0,0);
+}
+
+$global_onhide {
+ fx(0,fx_hidesmoke1,pos_spinecenter);
+}
+
+$global_onresurect {
+ scenario(global_bottle_icon_res);
+ wait(0.7);
+ scenario(global_bottle_char_res);
+}

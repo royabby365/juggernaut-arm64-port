@@ -1,0 +1,1467 @@
+{
+	"phrases": {
+		"AchievDataHeader": {
+			"id": 937,
+			"code": "AchievDataHeader",
+			"text": "Helal olsun, çok iyi dövüştün! ^^ Aşağıdaki başarılara da erişebilirsin:"
+		},
+		"AchievHeader": {
+			"id": 936,
+			"code": "AchievHeader",
+			"text": "Bir başarıya eriştin:"
+		},
+		"AchievSocialLabel": {
+			"id": 938,
+			"code": "AchievSocialLabel",
+			"text": "Paylaş:"
+		},
+		"AchievementsAll": {
+			"id": 943,
+			"code": "AchievementsAll",
+			"text": "Hepsi"
+		},
+		"AchievementsLocked": {
+			"id": 944,
+			"code": "AchievementsLocked",
+			"text": "Kilitli"
+		},
+		"AchievementsProgress": {
+			"id": 942,
+			"code": "AchievementsProgress",
+			"text": "Genel Başarı Gelişimi"
+		},
+		"AchievementsRating": {
+			"id": 946,
+			"code": "AchievementsRating",
+			"text": "Şöhret"
+		},
+		"AchievementsUnlocked": {
+			"id": 945,
+			"code": "AchievementsUnlocked",
+			"text": "Açık"
+		},
+		"AchivsAll": {
+			"id": 918,
+			"code": "AchivsAll",
+			"text": "Hepsi"
+		},
+		"AchivsDone": {
+			"id": 919,
+			"code": "AchivsDone",
+			"text": "Elde edildi"
+		},
+		"AchivsRating": {
+			"id": 921,
+			"code": "AchivsRating",
+			"text": "Şöhret"
+		},
+		"AchivsTotalProgress": {
+			"id": 917,
+			"code": "AchivsTotalProgress",
+			"text": "GENEL BAŞARI GELİŞİMİ"
+		},
+		"AchivsUndone": {
+			"id": 920,
+			"code": "AchivsUndone",
+			"text": "Toplanmamış"
+		},
+		"AddFriendsMessage": {
+			"id": 1108,
+			"code": "AddFriendsMessage",
+			"text": "Arkadaşlarını Game Center'a davet ederek puanlarını karşılaştır."
+		},
+		"AlertNoInternet": {
+			"id": 1115,
+			"code": "AlertNoInternet",
+			"text": "Bu seçenek şu an etkin değil. İnternet bağlantısı yok."
+		},
+		"AvailableForMining": {
+			"id": 1951,
+			"code": "AvailableForMining",
+			"text": "Maden için_^^_uygun:"
+		},
+		"BagBag": {
+			"id": 247,
+			"code": "BagBag",
+			"text": "Çanta"
+		},
+		"BagDark": {
+			"id": 259,
+			"code": "BagDark",
+			"text": "Gölge +%{0}"
+		},
+		"BagElixirs": {
+			"id": 254,
+			"code": "BagElixirs",
+			"text": "Dövüş iksiri"
+		},
+		"BagEquipment": {
+			"id": 246,
+			"code": "BagEquipment",
+			"text": "Ekipman"
+		},
+		"BagFire": {
+			"id": 257,
+			"code": "BagFire",
+			"text": "Ateş +%{0}"
+		},
+		"BagIce": {
+			"id": 256,
+			"code": "BagIce",
+			"text": "Buz +%{0}"
+		},
+		"BagLighting": {
+			"id": 258,
+			"code": "BagLighting",
+			"text": "Şimşek +%{0}"
+		},
+		"BagParams": {
+			"id": 248,
+			"code": "BagParams",
+			"text": "Özellikler"
+		},
+		"BagPoints": {
+			"id": 255,
+			"code": "BagPoints",
+			"text": "Dağıtılmamış puanlar: {0}"
+		},
+		"BagResources": {
+			"id": 253,
+			"code": "BagResources",
+			"text": "Kaynaklar"
+		},
+		"BagSwitchItems": {
+			"id": 842,
+			"code": "BagSwitchItems",
+			"text": "Çanta"
+		},
+		"BagSwitchParameters": {
+			"id": 841,
+			"code": "BagSwitchParameters",
+			"text": "Parametreler"
+		},
+		"Bank": {
+			"id": 809,
+			"code": "Bank",
+			"text": "Banka"
+		},
+		"BankBonus": {
+			"id": 807,
+			"code": "BankBonus",
+			"text": "hediye"
+		},
+		"BankBuyDoneFail": {
+			"id": 993,
+			"code": "BankBuyDoneFail",
+			"text": "Satın alma başarısız"
+		},
+		"BankBuyDoneSuccessfull": {
+			"id": 992,
+			"code": "BankBuyDoneSuccessfull",
+			"text": "Satın alma başarılı"
+		},
+		"BankBuyError": {
+			"id": 959,
+			"code": "BankBuyError",
+			"text": "Satın almada hata oluştu. Sonra tekrar dene."
+		},
+		"BankCost": {
+			"id": 808,
+			"code": "BankCost",
+			"text": "fiyat"
+		},
+		"BankCount": {
+			"id": 806,
+			"code": "BankCount",
+			"text": "adet"
+		},
+		"BankTimeout": {
+			"id": 994,
+			"code": "BankTimeout",
+			"text": "Sipariş işleniyor. Lütfen bekle..."
+		},
+		"BankWaitMessage": {
+			"id": 991,
+			"code": "BankWaitMessage",
+			"text": "Sipariş işleniyor..."
+		},
+		"BattleAttack": {
+			"id": 264,
+			"code": "BattleAttack",
+			"text": "Saldır"
+		},
+		"BattleLostStartOver": {
+			"id": 913,
+			"code": "BattleLostStartOver",
+			"text": "Tekrar başla"
+		},
+		"BattleResultEtalon": {
+			"id": 1137,
+			"code": "BattleResultEtalon",
+			"text": "Kritik vuruşlar:"
+		},
+		"BattleResultRating": {
+			"id": 1138,
+			"code": "BattleResultRating",
+			"text": "Dövüş klasmanı:"
+		},
+		"BattleResultRatingName0": {
+			"id": 1139,
+			"code": "BattleResultRatingName0",
+			"text": "Çocuk kavgası"
+		},
+		"BattleResultRatingName1": {
+			"id": 1140,
+			"code": "BattleResultRatingName1",
+			"text": "Ciddi Dövüş"
+		},
+		"BattleResultRatingName2": {
+			"id": 1141,
+			"code": "BattleResultRatingName2",
+			"text": "Kanlı Dövüş"
+		},
+		"BattleResultRatingName3": {
+			"id": 1142,
+			"code": "BattleResultRatingName3",
+			"text": "Vahşi Mezbaha"
+		},
+		"BattleResultRatingName4": {
+			"id": 1143,
+			"code": "BattleResultRatingName4",
+			"text": "Katliam!"
+		},
+		"BattleResultReal": {
+			"id": 1136,
+			"code": "BattleResultReal",
+			"text": "Dövüş sonucu:"
+		},
+		"BattleResultTurnsCount": {
+			"id": 1144,
+			"code": "BattleResultTurnsCount",
+			"text": "{0} vuruş"
+		},
+		"Bonuses": {
+			"id": 840,
+			"code": "Bonuses",
+			"text": "Hediyeler:"
+		},
+		"ButtonAddFriends": {
+			"id": 1107,
+			"code": "ButtonAddFriends",
+			"text": "Arkadaş ekle"
+		},
+		"ButtonBuy": {
+			"id": 459,
+			"code": "ButtonBuy",
+			"text": "Satın al"
+		},
+		"ButtonBuyAndPuton": {
+			"id": 460,
+			"code": "ButtonBuyAndPuton",
+			"text": "Satın al ve giy"
+		},
+		"ButtonCancel": {
+			"id": 458,
+			"code": "ButtonCancel",
+			"text": "İptal"
+		},
+		"ButtonClose": {
+			"id": 729,
+			"code": "ButtonClose",
+			"text": "Kapat"
+		},
+		"ButtonContinue": {
+			"id": 464,
+			"code": "ButtonContinue",
+			"text": "Devam"
+		},
+		"ButtonFight": {
+			"id": 462,
+			"code": "ButtonFight",
+			"text": "Saldır"
+		},
+		"ButtonFullRating": {
+			"id": 1106,
+			"code": "ButtonFullRating",
+			"text": "Şöhret tablosu"
+		},
+		"ButtonGoToBag": {
+			"id": 511,
+			"code": "ButtonGoToBag",
+			"text": "Çantaya"
+		},
+		"ButtonGoToShop": {
+			"id": 764,
+			"code": "ButtonGoToShop",
+			"text": "Dükkan'a"
+		},
+		"ButtonImprove": {
+			"id": 474,
+			"code": "ButtonImprove",
+			"text": "Geliştir"
+		},
+		"ButtonMax": {
+			"id": 514,
+			"code": "ButtonMax",
+			"text": "Maksimum"
+		},
+		"ButtonNo": {
+			"id": 466,
+			"code": "ButtonNo",
+			"text": "Hayır"
+		},
+		"ButtonOk": {
+			"id": 457,
+			"code": "ButtonOk",
+			"text": "Uygula"
+		},
+		"ButtonPutoff": {
+			"id": 1193,
+			"code": "ButtonPutoff",
+			"text": "Çıkar"
+		},
+		"ButtonPuton": {
+			"id": 501,
+			"code": "ButtonPuton",
+			"text": "Giy"
+		},
+		"ButtonSell": {
+			"id": 461,
+			"code": "ButtonSell",
+			"text": "Sat"
+		},
+		"ButtonYes": {
+			"id": 465,
+			"code": "ButtonYes",
+			"text": "Evet"
+		},
+		"BuyFor": {
+			"id": 1952,
+			"code": "BuyFor",
+			"text": "Gelişim:"
+		},
+		"CastGestureHelp": {
+			"id": 450,
+			"code": "CastGestureHelp",
+			"text": "Büyüyü yapmak için o büyüye özel işareti çiz"
+		},
+		"ChooseCharBeginGame": {
+			"id": 839,
+			"code": "ChooseCharBeginGame",
+			"text": "Oyuna başla"
+		},
+		"ChooseCharFeature": {
+			"id": 939,
+			"code": "ChooseCharFeature",
+			"text": "Özellikleri:"
+		},
+		"ChooseCharPreferences": {
+			"id": 838,
+			"code": "ChooseCharPreferences",
+			"text": "Büyü:"
+		},
+		"ChoosePrize": {
+			"id": 509,
+			"code": "ChoosePrize",
+			"text": "Ödülünü seç:"
+		},
+		"ChoosePrizeExecution": {
+			"id": 950,
+			"code": "ChoosePrizeExecution",
+			"text": "İdam için bir ödül daha seç:"
+		},
+		"CompareChosen": {
+			"id": 471,
+			"code": "CompareChosen",
+			"text": "Seçilen"
+		},
+		"ComparePuton": {
+			"id": 472,
+			"code": "ComparePuton",
+			"text": "Giyili"
+		},
+		"CompareSellItem": {
+			"id": 949,
+			"code": "CompareSellItem",
+			"text": "Nesneyi {0} karşılığında satmak istiyor musun?"
+		},
+		"ConditionBlocks": {
+			"id": 743,
+			"code": "ConditionBlocks",
+			"text": "Dövüşte {1} darbeyi bloke et ve dövüşü kazan"
+		},
+		"ConditionCritsInRow": {
+			"id": 746,
+			"code": "ConditionCritsInRow",
+			"text": "Dövüşte {1} kez kritik darbe yaparak dövüşü kazan"
+		},
+		"ConditionFatalities": {
+			"id": 745,
+			"code": "ConditionFatalities",
+			"text": "{0} kez idam gerçekleştir"
+		},
+		"ConditionKills": {
+			"id": 747,
+			"code": "ConditionKills",
+			"text": "{1} ya da daha yaşamı kalınca düşmanı tek vuruşta öldür"
+		},
+		"ConditionMagicCast": {
+			"id": 1927,
+			"code": "ConditionMagicCast",
+			"text": "Bir dövüşte {1} ya da daha fazla kez büyü kullan"
+		},
+		"ConditionNoMisses": {
+			"id": 742,
+			"code": "ConditionNoMisses",
+			"text": "Dövüşte bütün darbelerin yerini bulacak şekilde dövüş ^^ (düşman hiçbir darbenden kaçamasın)"
+		},
+		"ConditionWinWithHP": {
+			"id": 744,
+			"code": "ConditionWinWithHP",
+			"text": "Dövüşü %{1} yaşam seviyesinden yüksek halde kazan"
+		},
+		"DarkElfName": {
+			"id": 1067,
+			"code": "DarkElfName",
+			"text": "Kara Elf"
+		},
+		"DealOfTheDay": {
+			"id": 1962,
+			"code": "DealOfTheDay",
+			"text": "GÜNÜN ^^ FIRSATI"
+		},
+		"DefeatGoodsHeader": {
+			"id": 988,
+			"code": "DefeatGoodsHeader",
+			"text": "Kazanmak için silahlarını geliştirmeyi unutma:"
+		},
+		"ElfPhrase1": {
+			"id": 1064,
+			"code": "ElfPhrase1",
+			"text": "Sefil insan! Kara Elflere ait gizli bir yuva buldun. Buradaki hazineleri ben korurum ve kimsenin onlara dokunmasına izin vermem. Defol yoksa seni paramparça ederim!"
+		},
+		"ElfPhrase2": {
+			"id": 1071,
+			"code": "ElfPhrase2",
+			"text": "Eğer sana yuvalardan birini daha açacağımı düşünüyorsan çok yanılıyorsun! Kılıcımın dokunuşu ile ölürsün. Defol git!"
+		},
+		"EpicItemInfo": {
+			"id": 1267,
+			"code": "EpicItemInfo",
+			"text": "Bu zırh, geliştirilerek bir efsanevi nesneye dönüştürülebilir. Bunun için dövüş klasmanına göre topladığın efsanevi puanları kullan."
+		},
+		"ExCongratText1": {
+			"id": 793,
+			"code": "ExCongratText1",
+			"text": "Ek bir bölüm açtın!"
+		},
+		"ExCongratText2": {
+			"id": 794,
+			"code": "ExCongratText2",
+			"text": "Oraya gitmek için haritayı kullan."
+		},
+		"ExLootLabel": {
+			"id": 728,
+			"code": "ExLootLabel",
+			"text": "Bölümü geçme ödülü:"
+		},
+		"ExOpenButton": {
+			"id": 727,
+			"code": "ExOpenButton",
+			"text": "{0} karşılığında aç"
+		},
+		"ExOpenConditionLabel": {
+			"id": 726,
+			"code": "ExOpenConditionLabel",
+			"text": "Bir bölüm açmak için bir hüner göster:"
+		},
+		"ExecutionHelp": {
+			"id": 448,
+			"code": "ExecutionHelp",
+			"text": "İdam etmek için rakibi parmağınla hızlıca doğra."
+		},
+		"ExecutionLabel": {
+			"id": 508,
+			"code": "ExecutionLabel",
+			"text": "İdam"
+		},
+		"FightResultsAddAnger": {
+			"id": 454,
+			"code": "FightResultsAddAnger",
+			"text": "+%{0} sinir"
+		},
+		"FightResultsAddExp": {
+			"id": 455,
+			"code": "FightResultsAddExp",
+			"text": "+{0} tecrübe"
+		},
+		"FightResultsBlock": {
+			"id": 657,
+			"code": "FightResultsBlock",
+			"text": "Bloke"
+		},
+		"FightResultsDamage": {
+			"id": 510,
+			"code": "FightResultsDamage",
+			"text": "Zarar"
+		},
+		"FightResultsDodge": {
+			"id": 658,
+			"code": "FightResultsDodge",
+			"text": "Korunma"
+		},
+		"FightResultsFatality": {
+			"id": 701,
+			"code": "FightResultsFatality",
+			"text": "İdam"
+		},
+		"FightResultsImmunity": {
+			"id": 676,
+			"code": "FightResultsImmunity",
+			"text": "Direnç"
+		},
+		"FightResultsLabel": {
+			"id": 507,
+			"code": "FightResultsLabel",
+			"text": "Dövüş sonucu"
+		},
+		"FightResultsTurns": {
+			"id": 453,
+			"code": "FightResultsTurns",
+			"text": "{0} el"
+		},
+		"FightResultsTurnsLabel": {
+			"id": 512,
+			"code": "FightResultsTurnsLabel",
+			"text": "Dövüş süresi"
+		},
+		"FinalText": {
+			"id": 1020,
+			"code": "FinalText",
+			"text": "Saklamayacağım. Yenildik ve üzgünüz. Diriltmek için tonla çaba harcadığımız, tek umudumuz olan iblisi yendin. Aptalca bir insan sevgisi, büyüklüğünü o küçük aklının hiçbir zaman kavrayamayacağı bir planın önüne geçmeni sağladı. Yıllar süren tasarı ve büyük bir bilgi birikimi yaptığın hatayı fark etmeni sağlayabilir. Ancak bu ikisi de sende yok. Ancak biz de hatalıyız. Bir ölümlünün bir iblise kafa tutabileceğini hiç düşünmedik. Fakat bir daha aynı hataları tekrarlamayacağız ve o zaman yeniden doğuşun önüne hiçbir şey geçemeyecek. ^^ Her işte bir hayır vardır. Sayende uzun zamandan sonra tekrar şaşırma duygusunu tattık. Bunun için sana adımızı söyleyeceğiz. Bize Maskeler derler. Bizi unutma çünkü biz seni unutmayacağız:"
+		},
+		"GotLevel": {
+			"id": 451,
+			"code": "GotLevel",
+			"text": "{0}. seviyeye ulaştın!"
+		},
+		"GotSkillPoints": {
+			"id": 452,
+			"code": "GotSkillPoints",
+			"text": "Beceri puanları: {0}"
+		},
+		"InBattleBerserk": {
+			"id": 615,
+			"code": "InBattleBerserk",
+			"text": "Yaşam enerjin dövüşün geri kalanı için %50 artar."
+		},
+		"InBattleChapter": {
+			"id": 620,
+			"code": "InBattleChapter",
+			"text": "Bölüm"
+		},
+		"InBattleFightWith": {
+			"id": 619,
+			"code": "InBattleFightWith",
+			"text": "Rakip:"
+		},
+		"InBattleNextBlock": {
+			"id": 613,
+			"code": "InBattleNextBlock",
+			"text": "Rakibin sonraki vuruşunu bloke edeceksin."
+		},
+		"InBattleNextCrit": {
+			"id": 614,
+			"code": "InBattleNextCrit",
+			"text": "Sonraki vuruş, yüksek mana kaybıyla kritik olacak."
+		},
+		"InsufficientFunds": {
+			"id": 771,
+			"code": "InsufficientFunds",
+			"text": "Yeterli paran yok. ^^ Banka'da hesabına para yatırabilirsin."
+		},
+		"Intro01Text": {
+			"id": 553,
+			"code": "Intro01Text"
+		},
+		"Intro02Center": {
+			"id": 554,
+			"code": "Intro02Center"
+		},
+		"Intro03Text": {
+			"id": 557,
+			"code": "Intro03Text"
+		},
+		"Intro04Center": {
+			"id": 558,
+			"code": "Intro04Center"
+		},
+		"Intro05Text": {
+			"id": 561,
+			"code": "Intro05Text"
+		},
+		"IntroPlace01": {
+			"id": 551,
+			"code": "IntroPlace01"
+		},
+		"IntroPlace03": {
+			"id": 555,
+			"code": "IntroPlace03"
+		},
+		"IntroPlace05": {
+			"id": 559,
+			"code": "IntroPlace05"
+		},
+		"IntroTitle01": {
+			"id": 552,
+			"code": "IntroTitle01"
+		},
+		"IntroTitle03": {
+			"id": 556,
+			"code": "IntroTitle03"
+		},
+		"IntroTitle05": {
+			"id": 560,
+			"code": "IntroTitle05"
+		},
+		"IntroductionText": {
+			"id": 456,
+			"code": "IntroductionText",
+			"text": "\n"
+		},
+		"ItemQuantity": {
+			"id": 941,
+			"code": "ItemQuantity",
+			"text": "adet"
+		},
+		"LabelImmunity": {
+			"id": 499,
+			"code": "LabelImmunity",
+			"text": "Direnç"
+		},
+		"LabelPersMagicPreferenses": {
+			"id": 500,
+			"code": "LabelPersMagicPreferenses",
+			"text": "Tercih"
+		},
+		"LocationChestCountLabel": {
+			"id": 940,
+			"code": "LocationChestCountLabel",
+			"text": "Saklı hazine:"
+		},
+		"LocationPopulationAtacked": {
+			"id": 810,
+			"code": "LocationPopulationAtacked",
+			"text": "Yerli halk saldırıya uğradı!"
+		},
+		"LocationPopulationMax": {
+			"id": 846,
+			"code": "LocationPopulationMax",
+			"text": "Yerli halk, destek olmak adına senin için para topluyor."
+		},
+		"LocationPopulationPeace": {
+			"id": 811,
+			"code": "LocationPopulationPeace",
+			"text": "Yerli nüfus artıyor. İnsanlar destek olmak adına senin için para topluyorlar."
+		},
+		"LockpickingButtonShowCells": {
+			"id": 935,
+			"code": "LockpickingButtonShowCells",
+			"text": "Gözetle"
+		},
+		"LockpickingDifficultyHigh": {
+			"id": 592,
+			"code": "LockpickingDifficultyHigh",
+			"text": "Kilit açma; Zor"
+		},
+		"LockpickingDifficultyLow": {
+			"id": 590,
+			"code": "LockpickingDifficultyLow",
+			"text": "Kilit açma; Kolay"
+		},
+		"LockpickingDifficultyMedium": {
+			"id": 591,
+			"code": "LockpickingDifficultyMedium",
+			"text": "Kilit açma; Orta"
+		},
+		"LockpickingFindAMatch": {
+			"id": 586,
+			"code": "LockpickingFindAMatch",
+			"text": "Seçilen elementin eşini bul."
+		},
+		"LockpickingHelpBottom": {
+			"id": 583,
+			"code": "LockpickingHelpBottom",
+			"text": "Kilit düzeneğine {0} saniye bakabilirsin. Gereken maymuncuk sayısı: {1}."
+		},
+		"LockpickingHelpTop": {
+			"id": 582,
+			"code": "LockpickingHelpTop",
+			"text": "Sandığı açmak için maymuncuğu kullanarak aynı element çiftlerini dokunarak aç. ^^^ \nBaşarısız bir deneme maymuncuğu kırar."
+		},
+		"LockpickingMatchFound": {
+			"id": 588,
+			"code": "LockpickingMatchFound",
+			"text": "Tebrikler! ^^ Bir çift buldun."
+		},
+		"LockpickingNoMoreLockpicks": {
+			"id": 589,
+			"code": "LockpickingNoMoreLockpicks",
+			"text": "Elindeki maymuncuklar bitti. ^^ Onlar olmadan açamazsın."
+		},
+		"LockpickingPrize": {
+			"id": 596,
+			"code": "LockpickingPrize",
+			"text": "Sandığı açıp içinde şunları buldun:"
+		},
+		"LockpickingSecBeforeGame": {
+			"id": 598,
+			"code": "LockpickingSecBeforeGame",
+			"text": "Bakmak için kalan süre: {0} sn."
+		},
+		"LockpickingWrongMatch": {
+			"id": 587,
+			"code": "LockpickingWrongMatch",
+			"text": "Yanlış yaptın. ^^ Maymuncuk kırıldı."
+		},
+		"MBookNeedMoreSkill": {
+			"id": 719,
+			"code": "MBookNeedMoreSkill",
+			"text": "Büyüyü geliştirmek için yeterli beceri yok. ^^ Becerini büyüyü dövüşte kullanarak arttırabilirsin."
+		},
+		"MBookNeedMoreSkulls": {
+			"id": 718,
+			"code": "MBookNeedMoreSkulls",
+			"text": "Büyüyü geliştirmek için yeterli kafatası yok. ^^ Kafatasları hazine sandıklarından çıkabilir, dövüşte elde edilebilir ya da dükkanda satın alınabilir."
+		},
+		"MBookPower": {
+			"id": 715,
+			"code": "MBookPower",
+			"text": "Güç {0}"
+		},
+		"MBookSkill": {
+			"id": 716,
+			"code": "MBookSkill",
+			"text": "Beceri {0}/{1}"
+		},
+		"MagicBookHelp": {
+			"id": 479,
+			"code": "MagicBookHelp",
+			"text": "Büyülü Kafataslarını kullanarak bildiğin büyüleri geliştirebilir ve yenilerini öğrenebilirsin."
+		},
+		"MagicDark": {
+			"id": 713,
+			"code": "MagicDark",
+			"text": "gölge"
+		},
+		"MagicFire": {
+			"id": 711,
+			"code": "MagicFire",
+			"text": "ateş"
+		},
+		"MagicIce": {
+			"id": 710,
+			"code": "MagicIce",
+			"text": "buz"
+		},
+		"MagicLighting": {
+			"id": 712,
+			"code": "MagicLighting",
+			"text": "şimşek"
+		},
+		"MagicProtectionHelp": {
+			"id": 449,
+			"code": "MagicProtectionHelp",
+			"text": "Büyüden korunmak için ayak izlerinin sırası tekrarla."
+		},
+		"MainMenuLoadGame": {
+			"id": 1054,
+			"code": "MainMenuLoadGame",
+			"text": "Oyunu yükle"
+		},
+		"MainMenuNewGame": {
+			"id": 1056,
+			"code": "MainMenuNewGame",
+			"text": "Yeni oyun"
+		},
+		"MainMenuNewGameAlert": {
+			"id": 1058,
+			"code": "MainMenuNewGameAlert",
+			"text": "Yeni bir oyuna başlarsan o ana kadar olan ilerleme kaybolur. ^^^ Yeni bir oyuna başlamak istediğinden emin misin?"
+		},
+		"MainMenuSave": {
+			"id": 1055,
+			"code": "MainMenuSave",
+			"text": "Kaydet"
+		},
+		"Match3BlockerText": {
+			"id": 1919,
+			"code": "Match3BlockerText",
+			"text": "Oyunu tamamladın, yeniden başlayabilirsin."
+		},
+		"Match3ButtonStart": {
+			"id": 1920,
+			"code": "Match3ButtonStart",
+			"text": "Madene in"
+		},
+		"Match3ButtonUseKeys": {
+			"id": 1917,
+			"code": "Match3ButtonUseKeys",
+			"text": "Doldur"
+		},
+		"Match3DifficultyEasy": {
+			"id": 1924,
+			"code": "Match3DifficultyEasy",
+			"text": "Kolay"
+		},
+		"Match3DifficultyNormal": {
+			"id": 1923,
+			"code": "Match3DifficultyNormal",
+			"text": "Zor"
+		},
+		"Match3HelpBottom": {
+			"id": 1916,
+			"code": "Match3HelpBottom",
+			"text": "Ya da zamanı {0} maymuncuk ile doldurarak devam edebilirsin."
+		},
+		"Match3LootHeader": {
+			"id": 1921,
+			"code": "Match3LootHeader",
+			"text": "Erişilebilir:"
+		},
+		"Match3Mined": {
+			"id": 1925,
+			"code": "Match3Mined",
+			"text": "Madende toplananlar"
+		},
+		"Match3Mines": {
+			"id": 1950,
+			"code": "Match3Mines",
+			"text": "Madenler"
+		},
+		"Match3Rating": {
+			"id": 1926,
+			"code": "Match3Rating",
+			"text": "Madenci şöhreti"
+		},
+		"Match3Title": {
+			"id": 1915,
+			"code": "Match3Title",
+			"text": "TOPLANDI:"
+		},
+		"Match3Tutorial": {
+			"id": 1929,
+			"code": "Match3Tutorial",
+			"text": "Madenlerden birisine ulaştın. Aynı türden blokları parçalayarak ödülünü aşağı doğru indirebilirsin. Her oyunda zamanın sınırlı. İstediğin zaman maymuncuk kullanarak zamanı doldurabilirsin."
+		},
+		"MentorManName": {
+			"id": 1065,
+			"code": "MentorManName",
+			"text": "Eğitmen Velih Yul"
+		},
+		"MentorWomanName": {
+			"id": 1066,
+			"code": "MentorWomanName",
+			"text": "Eğitmen İza"
+		},
+		"MessageNoItems": {
+			"id": 502,
+			"code": "MessageNoItems",
+			"text": "Sende seçilen tür nesne yok."
+		},
+		"MsgGetRatingError": {
+			"id": 1104,
+			"code": "MsgGetRatingError",
+			"text": "Game Center ile bağlantı kurulamadığından şöhrete erişilemiyor. İnternet bağlantısında sorun olabilir."
+		},
+		"MsgRatingTimeout": {
+			"id": 1105,
+			"code": "MsgRatingTimeout",
+			"text": "Game Center bağlantısı zaman aşımına uğradı. İnternet bağlantını kontrol et."
+		},
+		"NeedMoreStars": {
+			"id": 1196,
+			"code": "NeedMoreStars",
+			"text": "Efsanevi puanlar, epik nesneleri geliştirmek için gereklidir. Bunları dövüş klasmanın karşılığında ya da dükkandan alabilirsin."
+		},
+		"NewExecutionLabel": {
+			"id": 762,
+			"code": "NewExecutionLabel",
+			"text": "Yeni idam:"
+		},
+		"NoEpicItems": {
+			"id": 1194,
+			"code": "NoEpicItems",
+			"text": "Buradaki puanları, epik nesneleri efsanevi hale dönüştürmek için kullanabilirsin. Şu an üzerinde epik nesne yok. İstersen dükkandan satın alabilirsin."
+		},
+		"OpsFaqPage": {
+			"id": 1273,
+			"code": "OpsFaqPage",
+			"text": "Acemi kılavuzu"
+		},
+		"OpsMusicVolume": {
+			"id": 721,
+			"code": "OpsMusicVolume",
+			"text": "Arka plan müziği"
+		},
+		"OpsRestartButton": {
+			"id": 723,
+			"code": "OpsRestartButton",
+			"text": "Menü"
+		},
+		"OpsRestartLabel": {
+			"id": 722,
+			"code": "OpsRestartLabel",
+			"text": "Ana menü"
+		},
+		"OpsSoundsVolume": {
+			"id": 720,
+			"code": "OpsSoundsVolume",
+			"text": "Ses efektleri"
+		},
+		"OpsTeaserButton": {
+			"id": 725,
+			"code": "OpsTeaserButton",
+			"text": "Git"
+		},
+		"OpsTeaserLabel": {
+			"id": 724,
+			"code": "OpsTeaserLabel",
+			"text": "Oyun sayfası"
+		},
+		"OpsTutorialToggle": {
+			"id": 912,
+			"code": "OpsTutorialToggle",
+			"text": "İpuçlarını göster"
+		},
+		"PauseButtonExit": {
+			"id": 911,
+			"code": "PauseButtonExit",
+			"text": "Terk et"
+		},
+		"PauseButtonRestart": {
+			"id": 910,
+			"code": "PauseButtonRestart",
+			"text": "Baştan başla"
+		},
+		"PauseButtonResume": {
+			"id": 909,
+			"code": "PauseButtonResume",
+			"text": "Geri dön"
+		},
+		"PersClassAssassin": {
+			"id": 118,
+			"code": "PersClassAssassin",
+			"text": "Suikastçi"
+		},
+		"PersClassDefender": {
+			"id": 120,
+			"code": "PersClassDefender",
+			"text": "Savunucu"
+		},
+		"PersClassDestroyer": {
+			"id": 119,
+			"code": "PersClassDestroyer",
+			"text": "Yok Edici"
+		},
+		"PlayerAnger": {
+			"id": 245,
+			"code": "PlayerAnger",
+			"text": "Sinir %{0}"
+		},
+		"PlayerExperience": {
+			"id": 244,
+			"code": "PlayerExperience",
+			"text": "Tecrübe %{0}"
+		},
+		"PlayerHealth": {
+			"id": 250,
+			"code": "PlayerHealth",
+			"text": "Hayat"
+		},
+		"PlayerMagic": {
+			"id": 251,
+			"code": "PlayerMagic",
+			"text": "Büyü"
+		},
+		"PlayerRage": {
+			"id": 249,
+			"code": "PlayerRage",
+			"text": "Cesaret"
+		},
+		"PlayerStrength": {
+			"id": 252,
+			"code": "PlayerStrength",
+			"text": "Güç"
+		},
+		"PostScreenshotToFacebook": {
+			"id": 1167,
+			"code": "PostScreenshotToFacebook",
+			"text": "Ekran resmi kısa bir süre sonra Facebook'ta yayınlanacak."
+		},
+		"RatingSocialMessageFacebook": {
+			"id": 1133,
+			"code": "RatingSocialMessageFacebook",
+			"text": "\"Juggernaut: Sovering'in İntikamı\" oyununda {0} puanım var.  İblisin yaratıkları tir tir titriyor! Senin puanın kaç?"
+		},
+		"RatingSocialMessageFacebook341Error": {
+			"id": 1135,
+			"code": "RatingSocialMessageFacebook341Error",
+			"text": "Facebook'ta sınıra ulaştın, daha sonra yeniden dene."
+		},
+		"RatingSocialMessageFacebookNotPosted": {
+			"id": 1134,
+			"code": "RatingSocialMessageFacebookNotPosted",
+			"text": "Mesaj gönderilemedi."
+		},
+		"RatingSocialMessageTwitter": {
+			"id": 1132,
+			"code": "RatingSocialMessageTwitter",
+			"text": "\"Juggernaut: Sovering'in İntikamı\" oyununda {0} puanım var. Senin puanın kaç?"
+		},
+		"ScarabDig": {
+			"id": 833,
+			"code": "ScarabDig",
+			"text": "Kaz"
+		},
+		"ScarabFind": {
+			"id": 832,
+			"code": "ScarabFind",
+			"text": "Hazine ara"
+		},
+		"ScarabInsufficient": {
+			"id": 845,
+			"code": "ScarabInsufficient",
+			"text": "Hazine arayamazsın çünkü Tarla Böceği'n yok. Bunu dükkandaki \"Çeşitli\" bölümünden satın alabilirsin."
+		},
+		"Shop": {
+			"id": 260,
+			"code": "Shop",
+			"text": "Dükkan"
+		},
+		"ShopAlreadyPurchased": {
+			"id": 792,
+			"code": "ShopAlreadyPurchased",
+			"text": "satın alındı"
+		},
+		"ShopAlreadyPuton": {
+			"id": 830,
+			"code": "ShopAlreadyPuton",
+			"text": "giyili"
+		},
+		"ShopBuy": {
+			"id": 261,
+			"code": "ShopBuy",
+			"text": "Satın al"
+		},
+		"ShopDivision01": {
+			"id": 765,
+			"code": "ShopDivision01",
+			"text": "Önerilen"
+		},
+		"ShopDivision02": {
+			"id": 766,
+			"code": "ShopDivision02",
+			"text": "Zırhlar"
+		},
+		"ShopDivision03": {
+			"id": 767,
+			"code": "ShopDivision03",
+			"text": "Çeşitli"
+		},
+		"ShopDivision04": {
+			"id": 768,
+			"code": "ShopDivision04",
+			"text": "Premium"
+		},
+		"ShopDivision05": {
+			"id": 790,
+			"code": "ShopDivision05",
+			"text": "Özel"
+		},
+		"ShopItemsCount": {
+			"id": 355,
+			"code": "ShopItemsCount",
+			"text": "Adet"
+		},
+		"ShopItemsUnlocked": {
+			"id": 741,
+			"code": "ShopItemsUnlocked",
+			"text": "Yeni nesneler erişime açıldı:"
+		},
+		"ShopLevelTooLow": {
+			"id": 791,
+			"code": "ShopLevelTooLow",
+			"text": "{0}. seviye"
+		},
+		"ShopResetButton": {
+			"id": 262,
+			"code": "ShopResetButton",
+			"text": "Sıfırla"
+		},
+		"ShopResetTime": {
+			"id": 263,
+			"code": "ShopResetTime",
+			"text": "Updating range in"
+		},
+		"ShowTutorial": {
+			"id": 826,
+			"code": "ShowTutorial",
+			"text": "İpuçlarını göster?"
+		},
+		"SkillComboDesc": {
+			"id": 971,
+			"code": "SkillComboDesc",
+			"text": "Kombine vuruş özelliği sayesinde olağanüstü güçte darbeler savurabilirsin. Düşman bunlardan korunamaz."
+		},
+		"SkillComboName": {
+			"id": 970,
+			"code": "SkillComboName",
+			"text": "Kombine"
+		},
+		"SkillHeader": {
+			"id": 967,
+			"code": "SkillHeader",
+			"text": "Yeni bir yetenek kazandın:"
+		},
+		"SkillMagicDesc": {
+			"id": 973,
+			"code": "SkillMagicDesc",
+			"text": "Artık dövüşte mana toplayarak büyü yapabilirsin. Bir büyüyü zaten biliyorsun. Büyü Kitabı'nı kullanarak yeni büyüler öğrenebilirsin."
+		},
+		"SkillMagicName": {
+			"id": 972,
+			"code": "SkillMagicName",
+			"text": "Büyü"
+		},
+		"SkillRageDesc": {
+			"id": 975,
+			"code": "SkillRageDesc",
+			"text": "Bu yetenek, öfkeni kontrol altına alarak özel dövüş taktiklerine dönüştürmeni sağlar. Öfkeni kullanarak rakibin vuruşlarını bloke edebilir, ondan mana emebilir ve onu iskelete çevirebilirsin."
+		},
+		"SkillRageName": {
+			"id": 974,
+			"code": "SkillRageName",
+			"text": "Öfke"
+		},
+		"SocialAchivMessage": {
+			"id": 952,
+			"code": "SocialAchivMessage",
+			"text": "\"{0}\" testini geçtim."
+		},
+		"SocialAchivMessageFacebook": {
+			"id": 1131,
+			"code": "SocialAchivMessageFacebook",
+			"text": "\"{0}\" sınavını geçtim ve artık iblisin inine bir adım daha yakınım! Sovernig'i öldürebilir misin?!"
+		},
+		"SocialAchivMessageFacebook1": {
+			"id": 968,
+			"code": "SocialAchivMessageFacebook1",
+			"text": "Juggernaut: Sovering'in İntikamı"
+		},
+		"SocialAchivMessageFacebook2": {
+			"id": 969,
+			"code": "SocialAchivMessageFacebook2"
+		},
+		"SocialAchivMessageTwitter": {
+			"id": 1130,
+			"code": "SocialAchivMessageTwitter",
+			"text": "\"{0}\" testini geçtim."
+		},
+		"SovHeader": {
+			"id": 730,
+			"code": "SovHeader",
+			"text": "Sovernig İblisi"
+		},
+		"SovText": {
+			"id": 731,
+			"code": "SovText",
+			"text": "Eskiden Haradan halkı arasında terör estiren, korkunç bir iblis. Mağlup edilmesi\nsayısız hayata mal olmuş. Bugün birilerinin şeytani deneyleri\nSovernig'i uyandırdı ve yeniden güç toplamasını sağladı.\nSana düşen görev, bu lanetli karanlığı bütün Radvaya ve Doreyma\ntopraklarını kabus dolu bir krallığa çevirmeden durdurmak."
+		},
+		"StarUpgradeHelp": {
+			"id": 1195,
+			"code": "StarUpgradeHelp",
+			"text": "Efsanevi hale dönüştürmek istediğin nesneyi seç"
+		},
+		"Tut1_1": {
+			"id": 812,
+			"code": "Tut1_1",
+			"text": "Bir canavara saldırmak için yeşil olan bölgelerden birine dokunarak yön seç. ^^ \nKırmızı bölgeler, canavarın tetikte olduğu bölgelerdir. Düşman, buradan yapılacak bir darbeyi bloke eder ya da ondan korunur."
+		},
+		"Tut1_2": {
+			"id": 824,
+			"code": "Tut1_2",
+			"text": "Canavara saldırmak için yeşil alana dokun"
+		},
+		"Tut2_1": {
+			"id": 814,
+			"code": "Tut2_1",
+			"text": "Kombine vuruş düğmesi sağda. Gösterilen yönlerde vuruş yaparak sonunda bir süper vuruş savurabilirsin."
+		},
+		"Tut2_2": {
+			"id": 825,
+			"code": "Tut2_2",
+			"text": "Düşmanın saldırı yönüne bakmadığı anı bekleyerek kombine vuruş tuşuna dokun"
+		},
+		"Tut4_1": {
+			"id": 815,
+			"code": "Tut4_1",
+			"text": "Dövüş esnasında düşmandan mavi mana pıhtılarını toplayabilirsin. Bunları kullanarak büyü yapabilirsin."
+		},
+		"Tut4_1_1": {
+			"id": 827,
+			"code": "Tut4_1_1",
+			"text": "Mavi pıhtıya dokunarak manayı topla"
+		},
+		"Tut4_2": {
+			"id": 816,
+			"code": "Tut4_2",
+			"text": "Ekranın solunda büyü paneli var. Mana seviyen dolduğu zaman buraya dokunarak büyü yapabilirsin."
+		},
+		"Tut4_2_2": {
+			"id": 828,
+			"code": "Tut4_2_2",
+			"text": "Büyü tuşuna dokun"
+		},
+		"Tut6_1": {
+			"id": 817,
+			"code": "Tut6_1",
+			"text": "Düşman saldırıları sırasında kırmızı öfke pıhtıları gözükebilir. Bunları toplayarak öfkeni arttır."
+		},
+		"Tut6_1_2": {
+			"id": 829,
+			"code": "Tut6_1_2",
+			"text": "Kırmızı pıhtıya dokunarak öfke biriktir"
+		},
+		"TutAchievmentButton": {
+			"id": 1033,
+			"code": "TutAchievmentButton",
+			"text": "Oyundaki başarılardan birine eriştin. Buraya dokunarak mevcut başarılarına göz atabilir, kendini diğer oyuncularla kıyaslayabilirsin."
+		},
+		"TutBagExp": {
+			"id": 927,
+			"code": "TutBagExp",
+			"text": "Ek \"Tecrübe\" veren bir nesne aldın. Bu hediye sayesinde, her zaferden sonra ek tecrübe kazanabilirsin."
+		},
+		"TutBagMagic": {
+			"id": 929,
+			"code": "TutBagMagic",
+			"text": "Büyü çeşitlerinden birinin gücünü arttıran bir nesne kazandın. Bu nesne, belli bir büyünün yıkım gücü yüzdesini arttırır."
+		},
+		"TutBagMana": {
+			"id": 926,
+			"code": "TutBagMana",
+			"text": "Ek \"Mana\" veren bir nesne aldın. Bu hediye sayesinde ek mana pıhtıları toplayabilirsin. Eğer hediye değeri 2 ise, büyük ihtimalle 1-2 adet arası ek mana pıhtısı kazanırsın."
+		},
+		"TutBagMoney": {
+			"id": 928,
+			"code": "TutBagMoney",
+			"text": "Ek \"Para\" veren bir nesne aldın. Bu hediye sayesinde, her zaferden sonra ek altın kazanabilirsin."
+		},
+		"TutBagRage": {
+			"id": 925,
+			"code": "TutBagRage",
+			"text": "Ek \"Sinir\" veren bir nesne aldın. Bu hediye sayesinde dövüşte ek öfke pıhtıları toplayabilirsin. Eğer hediye değeri 1 ise, büyük ihtimalle 1 adet ek öfke pıhtısı kazanırsın."
+		},
+		"TutBattleTurn": {
+			"id": 915,
+			"code": "TutBattleTurn",
+			"text": "Oyunda vuruşlar sırayla yapılır. Sen vurduktan sonra düşman cevap verir. Vuruş için birkaç saniyen var. Bu süreyi, yukarıdaki kırmızı göstergeden takip edebilirsin."
+		},
+		"TutEndChests": {
+			"id": 916,
+			"code": "TutEndChests",
+			"text": "Burada gizli olan tüm hazineleri kazdın. Diğer özgürleştirilmiş bölgelerde daha fazla hazine bulabilirsin."
+		},
+		"TutEpicItemPuton": {
+			"id": 1201,
+			"code": "TutEpicItemPuton",
+			"text": "Efsanevi hale dönüştürebileceğin epik bir nesne kazandın. Bunun için gerekli miktarda efsanevi puanı nesneye uygula."
+		},
+		"TutEye": {
+			"id": 818,
+			"code": "TutEye",
+			"text": "Öfken arttıkça öfke ile beslenen Kaos Gözü'nün dikkatini daha çok çekersin. Ne kadar çok öfke toplarsan onu o kadar sık görürsün. Bütün öfkeni sömürmeden Kaos Gözü'nü yok etmelisin."
+		},
+		"TutEye_2": {
+			"id": 823,
+			"code": "TutEye_2",
+			"text": "Kaos Gözü'nü yok etmek için patlayınca kadar üzerine dokun."
+		},
+		"TutFallingStarPhrase1": {
+			"id": 1244,
+			"code": "TutFallingStarPhrase1",
+			"text": "Dövüşte bazen kayan bir yıldız görebilirsin. Bunu yakalayabilirsen dövüşün sonunda ek efsanevi puan kazanırsın."
+		},
+		"TutFallingStarPhrase2": {
+			"id": 1245,
+			"code": "TutFallingStarPhrase2",
+			"text": "Dövüşün sonunda puanı almak için yıldıza dokun"
+		},
+		"TutFirstMagicBook": {
+			"id": 948,
+			"code": "TutFirstMagicBook",
+			"text": "Büyü Kitabı'nı kullanarak bildiğin büyüleri geliştirebilir ve yeni büyüler öğrenebilirsin. Bunun için Büyülü Kafataslarına ve belli bir büyü becerisine ihtiyacın var. Becerini, dövüşte büyü yaparak arttırabilirsin."
+		},
+		"TutFirstMobAttack": {
+			"id": 947,
+			"code": "TutFirstMobAttack",
+			"text": "Bu bölgeye asabi bir canavar saldırdı. Onu bir an önce yok etmelisin. Aksi halde yerli halkın hayatı tehlikeye girer."
+		},
+		"TutFirstMoneyPile": {
+			"id": 922,
+			"code": "TutFirstMoneyPile",
+			"text": "Özgürleştirilmiş bölgelerde yaşayanlar, senin için para toplarlar. Nüfus ne kadar fazlaysa o kadar çok para alırsın. Nüfus, zamanla kendi kendine artar. Özgür bölgelere düzenli aralıklarla uğrayarak senin için toplanan altınları tahsil et."
+		},
+		"TutGotLevel": {
+			"id": 934,
+			"code": "TutGotLevel",
+			"text": "Seviyen yükseldi. Artık üç yeni nesneye erişimin var. Dükkana gidip bir kemer, kolluk ve göğüslük al. Bunlar seni daha güçlü yapacak. İleride Lider ile yapacağın dövüşte bunlara ihtiyacın olacak."
+		},
+		"TutImmBattle": {
+			"id": 907,
+			"code": "TutImmBattle",
+			"text": "Düşmanın dirençli olduğu bir büyü kullandın. Başka bir büyü kullan. Düşmanın dirençli olduğu büyüyü, isminin yanında görebilirsin."
+		},
+		"TutImmZ": {
+			"id": 908,
+			"code": "TutImmZ",
+			"text": "Belli bir büyünün işlemediği bir düşmanla karşılaştın. Bu büyü, canavarın isminin yanında, parantez içinde gösterilir. O yüzden dövüşürken başka bir çeşit büyü kullanmayı dene. Büyü Kitabı'nı kullanarak yeni büyüler öğrenebilirsin."
+		},
+		"TutLocationScarab": {
+			"id": 924,
+			"code": "TutLocationScarab",
+			"text": "Bir bölgeyi canavarlardan temizledikten sonra gizli hazine sandıkları arayabilirsin. Bu sandıkların içinde büyülü madalyonlar, yüzükler, küpeler ve başka yararlı nesneler bulabilirsin."
+		},
+		"TutMagicBookButton": {
+			"id": 990,
+			"code": "TutMagicBookButton",
+			"text": "\"Büyü\" becerisini elde ederek aynı zamanda Büyü Kitabı'na da erişim kazandın."
+		},
+		"TutPlayerDefeat": {
+			"id": 923,
+			"code": "TutPlayerDefeat",
+			"text": "Bir dövüşü kaybedersen tekrar deneyebilirsin. Eğer düşmanı yenemiyorsan dövüşü sonlandırıp dükkana git. Buradan zırh ve mühimmat alarak kendini güçlendir."
+		},
+		"TutResurrection": {
+			"id": 834,
+			"code": "TutResurrection",
+			"text": "Kombine vuruşlarla düşmanın ruhunu ele geçirebilirsin. Bu, Ank denen özel bir maddede gizlidir. Ank, zaferden sonra düşmanı diriltir ve ona \nkanlı bir idama\n yaşatır."
+		},
+		"TutSearchTreasure": {
+			"id": 837,
+			"code": "TutSearchTreasure",
+			"text": "Tarla Böceklerini kullanarak hazine arayabilirsin. Bunun için böceği bölgede gezdirerek yaydığı ışığı gözle. Hazineye yaklaştıkça daha çok ışık yayar. Hazinenin üzerindeyken kanatlarını çırpmaya başlar. Burayı kazabilirsin."
+		},
+		"TutShop": {
+			"id": 914,
+			"code": "TutShop",
+			"text": "Dükkanda, biriktirdiğin altınları harcayabilirsin. \"Önerilen\" bölümünde seviyene uygun, üzerindekilerden daha iyi zırhlar bulabilirsin. Burada aynı zamanda dövüşlerde çok işine yarayacak her tür mühimmat da satın alabilirsin."
+		},
+		"TutShopFilter2": {
+			"id": 930,
+			"code": "TutShopFilter2",
+			"text": "Burada oyundaki bütün zırhlar bulunur."
+		},
+		"TutShopFilter3": {
+			"id": 931,
+			"code": "TutShopFilter3",
+			"text": "Burada her zaman hazine aramak için Tarla Böceği, büyü yeteneklerini geliştirmek için Büyülü Kurukafa, hazine sandıklarını açmak için Maymuncuk bulabilirsin."
+		},
+		"TutShopFilter4": {
+			"id": 932,
+			"code": "TutShopFilter4",
+			"text": "\"Premium\"  bölümünde indirimde olan setleri ve özel bazı nesneleri bulabilirsin."
+		},
+		"TutShopFilter5": {
+			"id": 933,
+			"code": "TutShopFilter5",
+			"text": "\"Özel\" bölümünde satın alınamayan, sadece özel hizmetler karşılığında elde edilebilen nesneler bulunur."
+		},
+		"TutSliceAttack1": {
+			"id": 995,
+			"code": "TutSliceAttack1",
+			"text": "Düşmana sadece alana dokunarak değil, gösterilen yönde onu çizerek de saldırabilirsin."
+		},
+		"TutSliceAttack2": {
+			"id": 996,
+			"code": "TutSliceAttack2",
+			"text": "Düşmana sol taraftan saldırmak için parmağını soldan sağa doğru sürükle."
+		},
+		"TutSliceAttack3": {
+			"id": 997,
+			"code": "TutSliceAttack3",
+			"text": "Durumunu güçlendirmek için düşmanı doğru yerden vur"
+		},
+		"TutStrongMagic": {
+			"id": 819,
+			"code": "TutStrongMagic",
+			"text": "Düşmanın büyü saldırısından korunmak için ayak izlerini tekrarla"
+		},
+		"WeakMagicMessage": {
+			"id": 585,
+			"code": "WeakMagicMessage",
+			"text": "Canavarın kara manalarının hepsini toplayarak büyüsünden korun."
+		},
+		"supportXCodeAlertClose": {
+			"id": 985,
+			"code": "supportXCodeAlertClose",
+			"text": "Kapat"
+		},
+		"supportXCodeClose": {
+			"id": 980,
+			"code": "supportXCodeClose",
+			"text": "Kapat"
+		},
+		"supportXCodeEMail": {
+			"id": 977,
+			"code": "supportXCodeEMail",
+			"text": "E-posta"
+		},
+		"supportXCodeEnterDesc": {
+			"id": 984,
+			"code": "supportXCodeEnterDesc",
+			"text": "Sorunu tarif et"
+		},
+		"supportXCodeEnterEmail": {
+			"id": 982,
+			"code": "supportXCodeEnterEmail",
+			"text": "E-posta adresini gir"
+		},
+		"supportXCodeEnterSubject": {
+			"id": 983,
+			"code": "supportXCodeEnterSubject",
+			"text": "Konu gir"
+		},
+		"supportXCodeError": {
+			"id": 981,
+			"code": "supportXCodeError",
+			"text": "Hata"
+		},
+		"supportXCodeInvEmail": {
+			"id": 986,
+			"code": "supportXCodeInvEmail",
+			"text": "E-posta adresi geçerli değil, lütfen kontrol et"
+		},
+		"supportXCodePosted": {
+			"id": 987,
+			"code": "supportXCodePosted",
+			"text": "Mesaj gönderildi"
+		},
+		"supportXCodeSend": {
+			"id": 979,
+			"code": "supportXCodeSend",
+			"text": "Gönder"
+		},
+		"supportXCodeText": {
+			"id": 976,
+			"code": "supportXCodeText",
+			"text": "Eğer kendi başına çözemediğin bir sorun varsa ya da bir hata bulduysan teknik ekiple iletişime geç."
+		},
+		"supportXCodeTheme": {
+			"id": 978,
+			"code": "supportXCodeTheme",
+			"text": "Konu"
+		}
+	}
+}

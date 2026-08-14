@@ -1,0 +1,249 @@
+{
+	"hints": {
+		"achivmentprogressbar": {
+			"id": 1129,
+			"code": "achivmentprogressbar",
+			"title": "Barre de progression des accomplissements",
+			"description": "Représente l'avancée dans les accomplissements du jeu. Tu peux la comparer avec celle de tes amis dans l'onglet Classement."
+		},
+		"bonusarhifury": {
+			"id": 1069,
+			"code": "bonusarhifury",
+			"title": "Fureur maligne",
+			"description": "Te confère le maximum de fureur avant un combat."
+		},
+		"bonusarhimagia": {
+			"id": 1068,
+			"code": "bonusarhimagia",
+			"title": "Bonus Archimage",
+			"description": "Te donne le maximum de mana avant un combat."
+		},
+		"bonusdark": {
+			"id": 389,
+			"code": "bonusdark",
+			"title": "Force des ténèbres",
+			"description": "Ce bonus détermine le pourcentage d'augmentation de la force destructrice de tes sortilèges des ténèbres."
+		},
+		"bonusexp": {
+			"id": 392,
+			"code": "bonusexp",
+			"title": "Bonus d'expérience",
+			"description": "Ce bonus contrôle le pourcentage d'expérience que tu reçois en gagnant un combat."
+		},
+		"bonusfire": {
+			"id": 387,
+			"code": "bonusfire",
+			"title": "Force du feu",
+			"description": "Ce bonus détermine le pourcentage d'augmentation de la force destructrice de tes sortilèges de feu."
+		},
+		"bonusice": {
+			"id": 388,
+			"code": "bonusice",
+			"title": "Force de glace",
+			"description": "Ce bonus détermine le pourcentage d'augmentation de la force destructrice de tes sortilèges de feu."
+		},
+		"bonuslightning": {
+			"id": 390,
+			"code": "bonuslightning",
+			"title": "Force de l'éclair",
+			"description": "Ce bonus détermine le pourcentage d'augmentation de la force destructrice de tes sortilèges de l'éclair."
+		},
+		"bonusmana": {
+			"id": 961,
+			"code": "bonusmana",
+			"title": "Bonus Mana",
+			"description": "Ce bonus détermine le nombre de caillots de mana supplémentaires que tu peux recevoir. Si le bonus est de 2, tu as de grandes chances de recevoir d'un à deux caillots de mana supplémentaires."
+		},
+		"bonusmoney": {
+			"id": 960,
+			"code": "bonusmoney",
+			"title": "Argent bonus",
+			"description": "Ce bonus détermine la quantité d'or supplémentaire que tu peux recevoir après une victoire au combat."
+		},
+		"bonusrage": {
+			"id": 962,
+			"code": "bonusrage",
+			"title": "Bonus Fureur",
+			"description": "Ce bonus détermine le nombre de caillots de fureur supplémentaires que tu peux recevoir. Si le bonus est de 2, tu as de grandes chances de recevoir d'un à deux caillots de fureur supplémentaires."
+		},
+		"cristals": {
+			"id": 377,
+			"code": "cristals",
+			"title": "Cristaux",
+			"description": "Cristaux. Servent à acheter des objets spéciaux dans l'échoppe. S'obtiennent au combat, à l'achèvement de chapitres additionnels ou s'achètent à la banque."
+		},
+		"damagepotion": {
+			"id": 382,
+			"code": "damagepotion",
+			"title": "Poison",
+			"description": "Cette munition empoisonne ton ennemi en provoquant une longue agonie. Il se trouve dans les coffres ou s'achète dans la section « Recommandés » de l'échoppe."
+		},
+		"expa": {
+			"id": 391,
+			"code": "expa",
+			"title": "Expérience",
+			"description": "Il s'agit de ton expérience. Tu en as besoin pour passer aux niveaux supérieurs. L'expérience augmente avec des victoires. Elle peut aussi augmenter avec un objet spécial contenant un bonus d'expérience."
+		},
+		"healpotion": {
+			"id": 380,
+			"code": "healpotion",
+			"title": "Potion de guérison",
+			"description": "Cette munition rétablit tes points de vie au combat. Il se trouve dans les coffres ou s'achètent dans la section « Recommandés » de l'échoppe."
+		},
+		"image_alert": {
+			"id": 1116,
+			"code": "image_alert",
+			"title": "Attention",
+			"description": "Attention !"
+		},
+		"image_completed_text": {
+			"id": 1117,
+			"code": "image_completed_text",
+			"title": "Terminé",
+			"description": "Terminé !"
+		},
+		"image_congrats": {
+			"id": 1118,
+			"code": "image_congrats",
+			"title": "Félicitations",
+			"description": "Félicitations !"
+		},
+		"image_fight_button": {
+			"id": 1120,
+			"code": "image_fight_button",
+			"title": "Attaquer",
+			"description": "ATTAQUE !"
+		},
+		"image_fight_dodge": {
+			"id": 1121,
+			"code": "image_fight_dodge",
+			"title": "Éviter",
+			"description": "Évité"
+		},
+		"image_fight_execution": {
+			"id": 1122,
+			"code": "image_fight_execution",
+			"title": "Exécution",
+			"description": "Exécution"
+		},
+		"image_fight_immunity": {
+			"id": 1123,
+			"code": "image_fight_immunity",
+			"title": "Immunité",
+			"description": "Immunité"
+		},
+		"image_fights_block": {
+			"id": 1119,
+			"code": "image_fights_block",
+			"title": "Bloquer",
+			"description": "Bloqué"
+		},
+		"image_game_logo": {
+			"id": 1124,
+			"code": "image_game_logo",
+			"title": "Juggernaut",
+			"description": "Juggernaut"
+		},
+		"image_main_map_banner": {
+			"id": 1125,
+			"code": "image_main_map_banner",
+			"title": "Île de Radway",
+			"description": "Île de Radway"
+		},
+		"image_news": {
+			"id": 1274,
+			"code": "image_news",
+			"title": "Actualités"
+		},
+		"image_support_banner_text": {
+			"id": 1126,
+			"code": "image_support_banner_text",
+			"title": "Support",
+			"description": "Contacte le support techn.\n si tu as besoin d'aide !"
+		},
+		"image_you_lose": {
+			"id": 1127,
+			"code": "image_you_lose",
+			"title": "Tu as perdu.",
+			"description": "Tu as perdu !"
+		},
+		"image_you_win": {
+			"id": 1128,
+			"code": "image_you_win",
+			"title": "Victoire",
+			"description": "Victoire !"
+		},
+		"legendarypoints": {
+			"id": 1202,
+			"code": "legendarypoints",
+			"title": "Points du statut \" légendaire \" du combat",
+			"description": "En fonction de la qualification d'un combat, tu recevras des points du statut \" légendaire \". Ces points sont nécessaires pour améliorer tes articles du héros. Réfère-toi à la fenêtre d'inventaire."
+		},
+		"map": {
+			"id": 998,
+			"code": "map",
+			"title": "Carte principale",
+			"description": "Tes progrès dans le jeu sont donnés ici. Ils augmenteront à chaque chapitre achevé."
+		},
+		"money": {
+			"id": 376,
+			"code": "money",
+			"title": "Monnaie",
+			"description": "Pièce d'or. Peut être utilisée à l'échoppe pour acheter des équipements. Elle est obtenue au combat et dans les territoires libérés. Tu peux aussi les acheter à la banque."
+		},
+		"powerpotion": {
+			"id": 381,
+			"code": "powerpotion",
+			"title": "Remontant",
+			"description": "Utiliser cette munition te permet d'augmenter la puissance du prochain coup physique porté à l'ennemi. Il se trouve dans les coffres, ou s'achète dans la section « Recommandés » de l'échoppe."
+		},
+		"scarab": {
+			"id": 963,
+			"code": "scarab",
+			"title": "Scarabée",
+			"description": "Les scarabées sont nécessaires à la recherche de trésors enfouis dans les territoires libérés. Ils s'obtiennent au combat et après certains chapitres. Ils peuvent aussi être achetés à l'échoppe."
+		},
+		"sculls": {
+			"id": 378,
+			"code": "sculls",
+			"title": "Crânes",
+			"description": "Crânes magiques. Nécessaires à l'étude et à l'amélioration des sorts du Livre de magie. Se gagnent au combat, en ouvrant des coffres ou s'achètent à l'échoppe."
+		},
+		"socialbutton": {
+			"id": 1114,
+			"code": "socialbutton",
+			"title": "Boutons sociaux",
+			"description": "Tu peux publier tes réalisations toutes les 40 minutes passées dans le jeu."
+		},
+		"statfury": {
+			"id": 384,
+			"code": "statfury",
+			"title": "Vaillance",
+			"description": "La vaillance augmente la probabilité de coups critiques, inflige des dommages accrus garantissant de saisir des sphères de mana de ton adversaire. Elle te protège aussi d'attaques critiques."
+		},
+		"stathp": {
+			"id": 383,
+			"code": "stathp",
+			"title": "Vie",
+			"description": "Ce paramètre détermine les chances de survie de ton personnage au combat."
+		},
+		"statmagic": {
+			"id": 386,
+			"code": "statmagic",
+			"title": "Magie",
+			"description": "Ce paramètre détermine la puissance des dommages magiques. Plus sa valeur est élevée, plus tes sortilèges sont puissants."
+		},
+		"statstrength": {
+			"id": 385,
+			"code": "statstrength",
+			"title": "Pouvoir",
+			"description": "Le pouvoir détermine les dommages que tu causes. Plus il est élevé, plus tes coups sont puissants. Il a une légère influence sur les dommages magiques."
+		},
+		"vzlom": {
+			"id": 379,
+			"code": "vzlom",
+			"title": "Passe-partout",
+			"description": "Passe-partout. Utilisés pour ouvrir les coffres, ils te seront utiles dans les mines. Ils sont gagnés au combat ou s'achètent dans les mines."
+		}
+	}
+}

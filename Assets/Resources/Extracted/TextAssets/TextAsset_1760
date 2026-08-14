@@ -1,0 +1,29 @@
+{
+	"gameSettings": {
+		"243": {
+			"id": 243,
+			"berserkLength": 15,
+			"berserkDamage": 50,
+			"angerDownSpeed": 20,
+			"angerPerBattle": 10,
+			"angerPerFatality": 100,
+			"slicesForFatality": 5,
+			"fatalityTime": 5,
+			"turnTime": 6,
+			"sellPrice": 90,
+			"spell1K": 1,
+			"spell2K": 2.2,
+			"spell3K": 3.5,
+			"needMana1": 25,
+			"needMana2": 50,
+			"needMana3": 75,
+			"comboK": 200,
+			"criticalK": 200,
+			"shopUP": 0,
+			"mgBM1": 0,
+			"mgBM2": 0,
+			"mgBM3": 0,
+			"timeTickMagicProtection": 1
+		}
+	}
+}

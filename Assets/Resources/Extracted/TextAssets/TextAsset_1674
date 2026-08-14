@@ -1,0 +1,24 @@
+{
+	"sets": {
+		"1": {
+			"id": 147,
+			"title": "Ölüm Avcısı",
+			"setId": 1
+		},
+		"2": {
+			"id": 160,
+			"title": "Silahşör",
+			"setId": 2
+		},
+		"3": {
+			"id": 168,
+			"title": "Yok Edici",
+			"setId": 3
+		},
+		"4": {
+			"id": 169,
+			"title": "Zalim",
+			"setId": 4
+		}
+	}
+}

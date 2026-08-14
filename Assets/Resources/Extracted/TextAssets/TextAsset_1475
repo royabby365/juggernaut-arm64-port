@@ -1,0 +1,124 @@
+{
+	"loadingTips": {
+		"677": {
+			"id": 677,
+			"description": "Toplanan paraları almak ve hazine sandıklarını açmak için ele geçirilmiş bölgeye dön."
+		},
+		"678": {
+			"id": 678,
+			"description": "Nüfusun düşmemesi için ele geçirilmiş bölgeyi canavarlara karşı koru."
+		},
+		"679": {
+			"id": 679,
+			"description": "Ek bölümleri açmak için özel görevleri tamamla."
+		},
+		"681": {
+			"id": 681,
+			"description": "Sandığı açmak için her başarısız deneme sonrası bir maymuncuk kullanılmış olur."
+		},
+		"682": {
+			"id": 682,
+			"description": "Kilit düzeneği ne kadar karmaşıksa sandıktan çıkan ödül o kadar kıymetli olur."
+		},
+		"683": {
+			"id": 683,
+			"description": "Kırmızı gösterge, canavarın bakış yönünü gösterir. Canavar, bu yönden yapılacak bir saldırıdan mutlaka korunur ya da onu bloke eder."
+		},
+		"684": {
+			"id": 684,
+			"description": "Kritik vuruş, sana 2 birim manayı garanti eder"
+		},
+		"686": {
+			"id": 686,
+			"description": "Öfken ne kadar artarsa Kaos Gözü seni o kadar sık gözetler"
+		},
+		"687": {
+			"id": 687,
+			"description": "Öfke Küresi'ni kullandığında canavarın bir sonraki vuruşundan korunursun"
+		},
+		"688": {
+			"id": 688,
+			"description": "Dört Öfke Küresi kullanırsan bir sonraki vuruşun kritik olur ve mana kaybı artar"
+		},
+		"689": {
+			"id": 689,
+			"description": "On Öfke Küresi kullanırsan dövüş bitimine kadar takviye alırsın"
+		},
+		"690": {
+			"id": 690,
+			"description": "Liderler ve canavarların geniş bir görüş açısı vardır. Bunu hızlıca ve sıkça değiştirebilirler."
+		},
+		"691": {
+			"id": 691,
+			"description": "Büyü gücünü arttırmak için büyülü kurukafaları kullan"
+		},
+		"692": {
+			"id": 692,
+			"description": "Bazı canavarlar, bazı büyü çeşitlerden etkilenmezler"
+		},
+		"693": {
+			"id": 693,
+			"description": "İdam, ödül getiren ek bir sandık açmanı sağlar"
+		},
+		"694": {
+			"id": 694,
+			"description": "İdam gerçekleştirmek için canavarı kombine vuruşlarla öldürerek bir Diriliş Taşı al"
+		},
+		"695": {
+			"id": 695,
+			"description": "\"Güç\" göstergesi, saldırının gücünü belirler"
+		},
+		"696": {
+			"id": 696,
+			"description": "\"Cesaret\" göstergesi, kritik vuruş yapma ve düşmandan gelen kritik vuruşlardan korunma olasılığını belirler"
+		},
+		"697": {
+			"id": 697,
+			"description": "\"Büyü\" göstergesi, büyü saldırısının gücünü ve dövüşteki başlangıç mana miktarını belirler"
+		},
+		"699": {
+			"id": 699,
+			"description": "Gömülü sandıklarda küpeler, yüzükler, nesneler, büyülü madalyonlar ve kurukafalar bulabilirsin"
+		},
+		"702": {
+			"id": 702,
+			"description": "Her madalyon, sadece bir çeşit büyü oluşturur"
+		},
+		"703": {
+			"id": 703,
+			"description": "Dövüşten sonra ek tecrübe almak için tecrübe nesneleri topla"
+		},
+		"704": {
+			"id": 704,
+			"description": "Dövüşte ek Öfke Küreleri almak için öfke nesneleri topla"
+		},
+		"705": {
+			"id": 705,
+			"description": "Dövüşte ek Mana Küreleri almak için mana nesneleri topla"
+		},
+		"706": {
+			"id": 706,
+			"description": "Dövüşten sonra ek para kazanmak için para nesneleri topla"
+		},
+		"707": {
+			"id": 707,
+			"description": "Her silahın kendine has bir idam şekli vardır. Örneğin epik bir silah, dev zincirlerle düşmanı dilimlere ayırır."
+		},
+		"1246": {
+			"id": 1246,
+			"description": "Epik bir nesneyi efsanevi puanlarla birleştirdiğinde nesnen efsanevi hale gelir."
+		},
+		"1247": {
+			"id": 1247,
+			"description": "Dövüşte ne kadar kritik vuruş yaparsan dövüş klasmanın o kadar yükselir ve o kadar çok efsanevi puan alırsın."
+		},
+		"1248": {
+			"id": 1248,
+			"description": "En yüksek dövüş klasmanına ulaşmak için cesaret biriktir, büyü, kombine vuruş ve ikinci öfke yeteneğini kullan."
+		},
+		"1249": {
+			"id": 1249,
+			"description": "Dövüşte en yüksek klasmanı elde etmek için vuruşların %70'i kritik olmalı"
+		}
+	}
+}

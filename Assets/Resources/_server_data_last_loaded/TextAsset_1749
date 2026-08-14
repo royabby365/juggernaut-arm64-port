@@ -1,0 +1,1462 @@
+{
+	"phrases": {
+		"AchievDataHeader": {
+			"id": 937,
+			"code": "AchievDataHeader",
+			"text": "お見事だった！^^これらのアチーブメントを忘れずに："
+		},
+		"AchievHeader": {
+			"id": 936,
+			"code": "AchievHeader",
+			"text": "アチーブメント記録："
+		},
+		"AchievSocialLabel": {
+			"id": 938,
+			"code": "AchievSocialLabel",
+			"text": "友人とシェア："
+		},
+		"AchievementsAll": {
+			"id": 943,
+			"code": "AchievementsAll",
+			"text": "すべて"
+		},
+		"AchievementsLocked": {
+			"id": 944,
+			"code": "AchievementsLocked",
+			"text": "ロックされている"
+		},
+		"AchievementsProgress": {
+			"id": 942,
+			"code": "AchievementsProgress",
+			"text": "アチーブメント進行状況"
+		},
+		"AchievementsRating": {
+			"id": 946,
+			"code": "AchievementsRating",
+			"text": "レーティング"
+		},
+		"AchievementsUnlocked": {
+			"id": 945,
+			"code": "AchievementsUnlocked",
+			"text": "アンロック済み"
+		},
+		"AchivsAll": {
+			"id": 918,
+			"code": "AchivsAll",
+			"text": "すべて"
+		},
+		"AchivsDone": {
+			"id": 919,
+			"code": "AchivsDone",
+			"text": "受け取る"
+		},
+		"AchivsRating": {
+			"id": 921,
+			"code": "AchivsRating",
+			"text": "レーティング"
+		},
+		"AchivsTotalProgress": {
+			"id": 917,
+			"code": "AchivsTotalProgress",
+			"text": "アチーブメント進行状況"
+		},
+		"AchivsUndone": {
+			"id": 920,
+			"code": "AchivsUndone",
+			"text": "未収集"
+		},
+		"AddFriendsMessage": {
+			"id": 1108,
+			"code": "AddFriendsMessage",
+			"text": "友人をゲームセンターへ招待して、ポイントを比較する。"
+		},
+		"AlertNoInternet": {
+			"id": 1115,
+			"code": "AlertNoInternet",
+			"text": "このオプションを利用するには、インターネットに接続する必要があります。"
+		},
+		"AvailableForMining": {
+			"id": 1951,
+			"code": "AvailableForMining"
+		},
+		"BagBag": {
+			"id": 247,
+			"code": "BagBag",
+			"text": "バックパック"
+		},
+		"BagDark": {
+			"id": 259,
+			"code": "BagDark",
+			"text": "暗黒 +{0}%"
+		},
+		"BagElixirs": {
+			"id": 254,
+			"code": "BagElixirs",
+			"text": "戦闘エリキシル"
+		},
+		"BagEquipment": {
+			"id": 246,
+			"code": "BagEquipment",
+			"text": "装備"
+		},
+		"BagFire": {
+			"id": 257,
+			"code": "BagFire",
+			"text": "炎 +{0}%"
+		},
+		"BagIce": {
+			"id": 256,
+			"code": "BagIce",
+			"text": "氷 +{0}%"
+		},
+		"BagLighting": {
+			"id": 258,
+			"code": "BagLighting",
+			"text": "稲妻 +{0}%"
+		},
+		"BagParams": {
+			"id": 248,
+			"code": "BagParams",
+			"text": "属性"
+		},
+		"BagPoints": {
+			"id": 255,
+			"code": "BagPoints",
+			"text": "配布のフリーポイント： {0}"
+		},
+		"BagResources": {
+			"id": 253,
+			"code": "BagResources",
+			"text": "リソース"
+		},
+		"BagSwitchItems": {
+			"id": 842,
+			"code": "BagSwitchItems",
+			"text": "バックパック"
+		},
+		"BagSwitchParameters": {
+			"id": 841,
+			"code": "BagSwitchParameters",
+			"text": "パラメーター"
+		},
+		"Bank": {
+			"id": 809,
+			"code": "Bank",
+			"text": "銀行"
+		},
+		"BankBonus": {
+			"id": 807,
+			"code": "BankBonus",
+			"text": "ボーナス"
+		},
+		"BankBuyDoneFail": {
+			"id": 993,
+			"code": "BankBuyDoneFail",
+			"text": "購入できませんでした"
+		},
+		"BankBuyDoneSuccessfull": {
+			"id": 992,
+			"code": "BankBuyDoneSuccessfull",
+			"text": "購入完了"
+		},
+		"BankBuyError": {
+			"id": 959,
+			"code": "BankBuyError",
+			"text": "購入中にエラーが発生しました。あとで再試行してください。"
+		},
+		"BankCost": {
+			"id": 808,
+			"code": "BankCost",
+			"text": "金額"
+		},
+		"BankCount": {
+			"id": 806,
+			"code": "BankCount",
+			"text": "数量"
+		},
+		"BankTimeout": {
+			"id": 994,
+			"code": "BankTimeout",
+			"text": "ご購入を処理しています。少々お待ちください。"
+		},
+		"BankWaitMessage": {
+			"id": 991,
+			"code": "BankWaitMessage",
+			"text": "要求を処理しています…"
+		},
+		"BattleAttack": {
+			"id": 264,
+			"code": "BattleAttack",
+			"text": "攻撃"
+		},
+		"BattleLostStartOver": {
+			"id": 913,
+			"code": "BattleLostStartOver",
+			"text": "やり直し"
+		},
+		"BattleResultEtalon": {
+			"id": 1137,
+			"code": "BattleResultEtalon",
+			"text": "どちらの決定的打撃："
+		},
+		"BattleResultRating": {
+			"id": 1138,
+			"code": "BattleResultRating",
+			"text": "戦闘レーティング："
+		},
+		"BattleResultRatingName0": {
+			"id": 1139,
+			"code": "BattleResultRatingName0",
+			"text": "子どもっぽい戦い"
+		},
+		"BattleResultRatingName1": {
+			"id": 1140,
+			"code": "BattleResultRatingName1",
+			"text": "激しい戦い"
+		},
+		"BattleResultRatingName2": {
+			"id": 1141,
+			"code": "BattleResultRatingName2",
+			"text": "屠殺場"
+		},
+		"BattleResultRatingName3": {
+			"id": 1142,
+			"code": "BattleResultRatingName3",
+			"text": "野蛮な食肉処理場"
+		},
+		"BattleResultRatingName4": {
+			"id": 1143,
+			"code": "BattleResultRatingName4",
+			"text": "狂人が逃亡中！"
+		},
+		"BattleResultReal": {
+			"id": 1136,
+			"code": "BattleResultReal",
+			"text": "戦闘結果："
+		},
+		"BattleResultTurnsCount": {
+			"id": 1144,
+			"code": "BattleResultTurnsCount",
+			"text": "{0} 打撃"
+		},
+		"Bonuses": {
+			"id": 840,
+			"code": "Bonuses",
+			"text": "ボーナス："
+		},
+		"ButtonAddFriends": {
+			"id": 1107,
+			"code": "ButtonAddFriends",
+			"text": "友人を追加"
+		},
+		"ButtonBuy": {
+			"id": 459,
+			"code": "ButtonBuy",
+			"text": "購入する"
+		},
+		"ButtonBuyAndPuton": {
+			"id": 460,
+			"code": "ButtonBuyAndPuton",
+			"text": "買って装着する"
+		},
+		"ButtonCancel": {
+			"id": 458,
+			"code": "ButtonCancel",
+			"text": "キャンセル"
+		},
+		"ButtonClose": {
+			"id": 729,
+			"code": "ButtonClose",
+			"text": "閉じる"
+		},
+		"ButtonContinue": {
+			"id": 464,
+			"code": "ButtonContinue",
+			"text": "続行する"
+		},
+		"ButtonFight": {
+			"id": 462,
+			"code": "ButtonFight",
+			"text": "攻撃する"
+		},
+		"ButtonFullRating": {
+			"id": 1106,
+			"code": "ButtonFullRating",
+			"text": "総レーティング"
+		},
+		"ButtonGoToBag": {
+			"id": 511,
+			"code": "ButtonGoToBag",
+			"text": "バックパックへ"
+		},
+		"ButtonGoToShop": {
+			"id": 764,
+			"code": "ButtonGoToShop",
+			"text": "店へ"
+		},
+		"ButtonImprove": {
+			"id": 474,
+			"code": "ButtonImprove",
+			"text": "アップグレード"
+		},
+		"ButtonMax": {
+			"id": 514,
+			"code": "ButtonMax",
+			"text": "最大"
+		},
+		"ButtonNo": {
+			"id": 466,
+			"code": "ButtonNo",
+			"text": "いいえ"
+		},
+		"ButtonOk": {
+			"id": 457,
+			"code": "ButtonOk",
+			"text": "申し込む"
+		},
+		"ButtonPutoff": {
+			"id": 1193,
+			"code": "ButtonPutoff",
+			"text": "破棄する"
+		},
+		"ButtonPuton": {
+			"id": 501,
+			"code": "ButtonPuton",
+			"text": "装着"
+		},
+		"ButtonSell": {
+			"id": 461,
+			"code": "ButtonSell",
+			"text": "販売する"
+		},
+		"ButtonYes": {
+			"id": 465,
+			"code": "ButtonYes",
+			"text": "はい"
+		},
+		"BuyFor": {
+			"id": 1952,
+			"code": "BuyFor"
+		},
+		"CastGestureHelp": {
+			"id": 450,
+			"code": "CastGestureHelp",
+			"text": "呪文を作成するには、一致する魔法の種類のシンボルを描く。"
+		},
+		"ChooseCharBeginGame": {
+			"id": 839,
+			"code": "ChooseCharBeginGame",
+			"text": "ゲーム開始"
+		},
+		"ChooseCharFeature": {
+			"id": 939,
+			"code": "ChooseCharFeature",
+			"text": "機能："
+		},
+		"ChooseCharPreferences": {
+			"id": 838,
+			"code": "ChooseCharPreferences",
+			"text": "魔法："
+		},
+		"ChoosePrize": {
+			"id": 509,
+			"code": "ChoosePrize",
+			"text": "報酬の選択："
+		},
+		"ChoosePrizeExecution": {
+			"id": 950,
+			"code": "ChoosePrizeExecution",
+			"text": "処刑の追加報酬を選択："
+		},
+		"CompareChosen": {
+			"id": 471,
+			"code": "CompareChosen",
+			"text": "選択済み"
+		},
+		"ComparePuton": {
+			"id": 472,
+			"code": "ComparePuton",
+			"text": "装着済み"
+		},
+		"CompareSellItem": {
+			"id": 949,
+			"code": "CompareSellItem",
+			"text": "本当にこのアイテムを {0} で売りますか？"
+		},
+		"ConditionBlocks": {
+			"id": 743,
+			"code": "ConditionBlocks",
+			"text": "戦闘の間 {1} 回、打撃をブロックし勝利する。"
+		},
+		"ConditionCritsInRow": {
+			"id": 746,
+			"code": "ConditionCritsInRow",
+			"text": "決定的打撃を連続 {1} 回繰り出し勝利する。"
+		},
+		"ConditionFatalities": {
+			"id": 745,
+			"code": "ConditionFatalities",
+			"text": "{0} 回処刑を執行する"
+		},
+		"ConditionKills": {
+			"id": 747,
+			"code": "ConditionKills",
+			"text": "敵の生命が {1} またはそれ以下の場合は始末する。"
+		},
+		"ConditionMagicCast": {
+			"id": 1927,
+			"code": "ConditionMagicCast",
+			"text": "ひとつの戦闘で、魔法を{0}回またはそれ以上使用する"
+		},
+		"ConditionNoMisses": {
+			"id": 742,
+			"code": "ConditionNoMisses",
+			"text": "繰り出すすべての攻撃が目標に命中し戦いに勝利する。^^(敵は打撃をブロックおよびよけることはしない)"
+		},
+		"ConditionWinWithHP": {
+			"id": 744,
+			"code": "ConditionWinWithHP",
+			"text": "> {1} % の生命レベルで戦闘に勝利する。"
+		},
+		"DarkElfName": {
+			"id": 1067,
+			"code": "DarkElfName",
+			"text": "ダークエルフ"
+		},
+		"DealOfTheDay": {
+			"id": 1962,
+			"code": "DealOfTheDay"
+		},
+		"DefeatGoodsHeader": {
+			"id": 988,
+			"code": "DefeatGoodsHeader",
+			"text": "勝利のために武器のアップグレードを忘れずに："
+		},
+		"ElfPhrase1": {
+			"id": 1064,
+			"code": "ElfPhrase1",
+			"text": "あわれな人間よ！おまえはダークエルフの所有する、隠し箱の上でつまづいた。この宝物を誰にも触らせないよう、おれが守っているのだ。出て行かないと、ずたずたに引き裂きさくぞ！"
+		},
+		"ElfPhrase2": {
+			"id": 1071,
+			"code": "ElfPhrase2",
+			"text": "もっと隠し箱を開けられるなどと思っているのなら、それは大間違いだ。この剣をひと振りするだけで、おまえなど殺せる！さあ、行け！"
+		},
+		"EpicItemInfo": {
+			"id": 1267,
+			"code": "EpicItemInfo",
+			"text": "このアーマーは伝説アイテムへのアップグレードおよび変換が可能。アップグレードを行うには、各戦闘のレーティングによって獲得できる伝説ステータスポイントを使用すること。"
+		},
+		"ExCongratText1": {
+			"id": 793,
+			"code": "ExCongratText1",
+			"text": "追加チャプターが開かれた。"
+		},
+		"ExCongratText2": {
+			"id": 794,
+			"code": "ExCongratText2",
+			"text": "そこへ行くのに地図を使用する。"
+		},
+		"ExLootLabel": {
+			"id": 728,
+			"code": "ExLootLabel",
+			"text": "チャプターの完了報酬"
+		},
+		"ExOpenButton": {
+			"id": 727,
+			"code": "ExOpenButton",
+			"text": "{0} を開く"
+		},
+		"ExOpenConditionLabel": {
+			"id": 726,
+			"code": "ExOpenConditionLabel",
+			"text": "チャプターを開いて功績を残す："
+		},
+		"ExecutionHelp": {
+			"id": 448,
+			"code": "ExecutionHelp",
+			"text": "処刑を実行する際、指を使って相手をスライスすると素早く切れる。 "
+		},
+		"ExecutionLabel": {
+			"id": 508,
+			"code": "ExecutionLabel",
+			"text": "処刑"
+		},
+		"FightResultsAddAnger": {
+			"id": 454,
+			"code": "FightResultsAddAnger",
+			"text": "+{0}% の憤怒値"
+		},
+		"FightResultsAddExp": {
+			"id": 455,
+			"code": "FightResultsAddExp",
+			"text": "+{0}% の経験値"
+		},
+		"FightResultsBlock": {
+			"id": 657,
+			"code": "FightResultsBlock",
+			"text": "ブロック"
+		},
+		"FightResultsDamage": {
+			"id": 510,
+			"code": "FightResultsDamage",
+			"text": "ダメージ"
+		},
+		"FightResultsDodge": {
+			"id": 658,
+			"code": "FightResultsDodge",
+			"text": "よける"
+		},
+		"FightResultsFatality": {
+			"id": 701,
+			"code": "FightResultsFatality",
+			"text": "処刑"
+		},
+		"FightResultsImmunity": {
+			"id": 676,
+			"code": "FightResultsImmunity",
+			"text": "免疫力"
+		},
+		"FightResultsLabel": {
+			"id": 507,
+			"code": "FightResultsLabel",
+			"text": "戦闘結果"
+		},
+		"FightResultsTurns": {
+			"id": 453,
+			"code": "FightResultsTurns",
+			"text": "{0} 動作"
+		},
+		"FightResultsTurnsLabel": {
+			"id": 512,
+			"code": "FightResultsTurnsLabel",
+			"text": "戦闘時間"
+		},
+		"FinalText": {
+			"id": 1020,
+			"code": "FinalText",
+			"text": "そうとも - われわれは敗れ、意気消沈している。おまえはわれわれが多大な努力を費やし、すべての希望を託して復活させたデーモンを破滅した。愚かな慈善が発端となり、その貧弱な心では到底理解できないこの雄大な偉大な計画を、おまえは妨害した。長きに渡る瞑想、そして今のおまえには得ることのできない膨大な量の知識をもって、これが間違いだと悟れるだろう。とは言え、その責任はわれわれにもある。この高尚なデーモンに抵抗することが可能な人間が現れるなどと思いもしなかった。心配は無用だ。次回はこの様な間違いはない。復活の邪魔は決して誰にもさせない。^^暗雲のあとには晴れ間が来るもの - おまえのおかげで、長い間忘れていたこの驚きの感情を経験することができた。これに対する報酬として、われわれの名を教えてやろう： われわれがマスクだ。われわれを覚えておけ。おまえのことも忘れないぞ。"
+		},
+		"GotLevel": {
+			"id": 451,
+			"code": "GotLevel",
+			"text": "レベル{0}に達成！"
+		},
+		"GotSkillPoints": {
+			"id": 452,
+			"code": "GotSkillPoints",
+			"text": "利用可能スキルポイント - {0}"
+		},
+		"InBattleBerserk": {
+			"id": 615,
+			"code": "InBattleBerserk",
+			"text": "今後の戦闘での生命エネルギーが50％アップする。"
+		},
+		"InBattleChapter": {
+			"id": 620,
+			"code": "InBattleChapter",
+			"text": "チャプター"
+		},
+		"InBattleFightWith": {
+			"id": 619,
+			"code": "InBattleFightWith",
+			"text": "戦闘相手 "
+		},
+		"InBattleNextBlock": {
+			"id": 613,
+			"code": "InBattleNextBlock",
+			"text": "相手の次の攻撃をブロックする。"
+		},
+		"InBattleNextCrit": {
+			"id": 614,
+			"code": "InBattleNextCrit",
+			"text": "次の攻撃はマナドロップ増加によって決定的な打撃となる。"
+		},
+		"InsufficientFunds": {
+			"id": 771,
+			"code": "InsufficientFunds",
+			"text": "マネーが不足しています。^^銀行で口座に補充してください。"
+		},
+		"Intro01Text": {
+			"id": 553,
+			"code": "Intro01Text"
+		},
+		"Intro02Center": {
+			"id": 554,
+			"code": "Intro02Center"
+		},
+		"Intro03Text": {
+			"id": 557,
+			"code": "Intro03Text"
+		},
+		"Intro04Center": {
+			"id": 558,
+			"code": "Intro04Center"
+		},
+		"Intro05Text": {
+			"id": 561,
+			"code": "Intro05Text"
+		},
+		"IntroPlace01": {
+			"id": 551,
+			"code": "IntroPlace01"
+		},
+		"IntroPlace03": {
+			"id": 555,
+			"code": "IntroPlace03"
+		},
+		"IntroPlace05": {
+			"id": 559,
+			"code": "IntroPlace05"
+		},
+		"IntroTitle01": {
+			"id": 552,
+			"code": "IntroTitle01"
+		},
+		"IntroTitle03": {
+			"id": 556,
+			"code": "IntroTitle03"
+		},
+		"IntroTitle05": {
+			"id": 560,
+			"code": "IntroTitle05"
+		},
+		"IntroductionText": {
+			"id": 456,
+			"code": "IntroductionText",
+			"text": "\n"
+		},
+		"ItemQuantity": {
+			"id": 941,
+			"code": "ItemQuantity",
+			"text": "PCS"
+		},
+		"LabelImmunity": {
+			"id": 499,
+			"code": "LabelImmunity",
+			"text": "免疫力"
+		},
+		"LabelPersMagicPreferenses": {
+			"id": 500,
+			"code": "LabelPersMagicPreferenses",
+			"text": "選択"
+		},
+		"LocationChestCountLabel": {
+			"id": 940,
+			"code": "LocationChestCountLabel",
+			"text": "隠された宝物："
+		},
+		"LocationPopulationAtacked": {
+			"id": 810,
+			"code": "LocationPopulationAtacked",
+			"text": "地元住民が攻撃を受けている！"
+		},
+		"LocationPopulationMax": {
+			"id": 846,
+			"code": "LocationPopulationMax",
+			"text": "地元住民が感謝の贈り物を用意している。"
+		},
+		"LocationPopulationPeace": {
+			"id": 811,
+			"code": "LocationPopulationPeace",
+			"text": "地元住民の人口が増加している。地元住民が感謝の贈り物を集めている。"
+		},
+		"LockpickingButtonShowCells": {
+			"id": 935,
+			"code": "LockpickingButtonShowCells",
+			"text": "見てみる"
+		},
+		"LockpickingDifficultyHigh": {
+			"id": 592,
+			"code": "LockpickingDifficultyHigh",
+			"text": "鍵を開ける - 難易度高"
+		},
+		"LockpickingDifficultyLow": {
+			"id": 590,
+			"code": "LockpickingDifficultyLow",
+			"text": "鍵を開ける - 難易度低"
+		},
+		"LockpickingDifficultyMedium": {
+			"id": 591,
+			"code": "LockpickingDifficultyMedium",
+			"text": "鍵を開ける - 難易度中"
+		},
+		"LockpickingFindAMatch": {
+			"id": 586,
+			"code": "LockpickingFindAMatch",
+			"text": "選択された要素と同一のもう片方を探す。"
+		},
+		"LockpickingHelpBottom": {
+			"id": 583,
+			"code": "LockpickingHelpBottom",
+			"text": "ロック装置の解禁まであと {0} 秒。必要なピックロック：{1}。"
+		},
+		"LockpickingHelpTop": {
+			"id": 582,
+			"code": "LockpickingHelpTop",
+			"text": "宝箱をこじ開けるには、ピックロックを使って、鍵の同一の要素を一組ずつ開けていく。^^^\n成功しなかった場合、ピックロックは壊れてしまう。"
+		},
+		"LockpickingMatchFound": {
+			"id": 588,
+			"code": "LockpickingMatchFound",
+			"text": "おめでとう！^^見事、もう片方を見つけ出した。"
+		},
+		"LockpickingNoMoreLockpicks": {
+			"id": 589,
+			"code": "LockpickingNoMoreLockpicks",
+			"text": "ピックロックがもうない。^^ピックロックなしでは開けることは不可能だ。"
+		},
+		"LockpickingPrize": {
+			"id": 596,
+			"code": "LockpickingPrize",
+			"text": "宝箱の中で見つけたもの："
+		},
+		"LockpickingSecBeforeGame": {
+			"id": 598,
+			"code": "LockpickingSecBeforeGame",
+			"text": "ゲーム開始まで - {0} 秒"
+		},
+		"LockpickingWrongMatch": {
+			"id": 587,
+			"code": "LockpickingWrongMatch",
+			"text": "間違ったようだ。^^ ピックロックは壊れてしまった。"
+		},
+		"MBookNeedMoreSkill": {
+			"id": 719,
+			"code": "MBookNeedMoreSkill",
+			"text": "この呪文の魔力を改善するには、スキルが足りない。^^戦闘でこの呪文を使うことで、スキルをアップすることができる。"
+		},
+		"MBookNeedMoreSkulls": {
+			"id": 718,
+			"code": "MBookNeedMoreSkulls",
+			"text": "この呪文の魔力を改善するには、マジカルスカルが足りない。^^マジカルスカルは戦闘時に宝箱の中で見つけて獲得するか、店で購入することも可能。"
+		},
+		"MBookPower": {
+			"id": 715,
+			"code": "MBookPower",
+			"text": "パワー {0}"
+		},
+		"MBookSkill": {
+			"id": 716,
+			"code": "MBookSkill",
+			"text": "スキル {0}/{1}"
+		},
+		"MagicBookHelp": {
+			"id": 479,
+			"code": "MagicBookHelp",
+			"text": "魅惑のスカルを使うことで、すでに知っている魔法の術策を改善でき、新しい方法を学ぶこともできる。"
+		},
+		"MagicDark": {
+			"id": 713,
+			"code": "MagicDark",
+			"text": "暗黒"
+		},
+		"MagicFire": {
+			"id": 711,
+			"code": "MagicFire",
+			"text": "炎"
+		},
+		"MagicIce": {
+			"id": 710,
+			"code": "MagicIce",
+			"text": "氷"
+		},
+		"MagicLighting": {
+			"id": 712,
+			"code": "MagicLighting",
+			"text": "稲妻"
+		},
+		"MagicProtectionHelp": {
+			"id": 449,
+			"code": "MagicProtectionHelp",
+			"text": "魔法攻撃を避けるには、ステップの順番を覚えて実行する。"
+		},
+		"MainMenuLoadGame": {
+			"id": 1054,
+			"code": "MainMenuLoadGame",
+			"text": "ゲームをロードする"
+		},
+		"MainMenuNewGame": {
+			"id": 1056,
+			"code": "MainMenuNewGame",
+			"text": "新規ゲーム"
+		},
+		"MainMenuNewGameAlert": {
+			"id": 1058,
+			"code": "MainMenuNewGameAlert",
+			"text": "新しいゲームを開始すると、今現在の進行状況が失われます。^^^ 本当に新しいゲームを開始しますか？"
+		},
+		"MainMenuSave": {
+			"id": 1055,
+			"code": "MainMenuSave",
+			"text": "保存"
+		},
+		"Match3BlockerText": {
+			"id": 1919,
+			"code": "Match3BlockerText",
+			"text": "あなたはゲームを完了しました。また開始できます。"
+		},
+		"Match3ButtonStart": {
+			"id": 1920,
+			"code": "Match3ButtonStart",
+			"text": "鉱山の下へ降りる"
+		},
+		"Match3ButtonUseKeys": {
+			"id": 1917,
+			"code": "Match3ButtonUseKeys",
+			"text": "補充"
+		},
+		"Match3DifficultyEasy": {
+			"id": 1924,
+			"code": "Match3DifficultyEasy",
+			"text": "難易度低"
+		},
+		"Match3DifficultyNormal": {
+			"id": 1923,
+			"code": "Match3DifficultyNormal",
+			"text": "難易度高"
+		},
+		"Match3HelpBottom": {
+			"id": 1916,
+			"code": "Match3HelpBottom",
+			"text": "またはこのまま継続し、{0}個のピックロックでタイムスケールを補充する。"
+		},
+		"Match3LootHeader": {
+			"id": 1921,
+			"code": "Match3LootHeader",
+			"text": "利用可能："
+		},
+		"Match3Mined": {
+			"id": 1925,
+			"code": "Match3Mined",
+			"text": "鉱山で獲得"
+		},
+		"Match3Mines": {
+			"id": 1950,
+			"code": "Match3Mines"
+		},
+		"Match3Rating": {
+			"id": 1926,
+			"code": "Match3Rating",
+			"text": "鉱山員レーティング"
+		},
+		"Match3Title": {
+			"id": 1915,
+			"code": "Match3Title",
+			"text": "収集品："
+		},
+		"Match3Tutorial": {
+			"id": 1929,
+			"code": "Match3Tutorial",
+			"text": "鉱山の1つに到着。ここで資源を生産するには、同一のブロックのラインを破壊して賞品を下方へ移動すること。各ゲームには時間制限がある。ピックロックを用いれば、いつでも時間を補充することが可能。"
+		},
+		"MentorManName": {
+			"id": 1065,
+			"code": "MentorManName",
+			"text": "インストラクターべロスジュル"
+		},
+		"MentorWomanName": {
+			"id": 1066,
+			"code": "MentorWomanName",
+			"text": "インストラクターイサ"
+		},
+		"MessageNoItems": {
+			"id": 502,
+			"code": "MessageNoItems",
+			"text": "選択したタイプのアイテムはありません。"
+		},
+		"MsgGetRatingError": {
+			"id": 1104,
+			"code": "MsgGetRatingError",
+			"text": "ゲームセンターに接続しない限り、レーティングの利用は不可能です。インターネット接続がダウンしている可能性があります。"
+		},
+		"MsgRatingTimeout": {
+			"id": 1105,
+			"code": "MsgRatingTimeout",
+			"text": "ゲームセンターとの接続はタイムアウトしました。インターネット接続をご確認ください。"
+		},
+		"NeedMoreStars": {
+			"id": 1196,
+			"code": "NeedMoreStars",
+			"text": "英雄アイテムのアップグレードには、伝説ステータスポイントが必要。戦闘レーティングからの獲得、または店で購入が可能。"
+		},
+		"NewExecutionLabel": {
+			"id": 762,
+			"code": "NewExecutionLabel",
+			"text": "新規処刑："
+		},
+		"NoEpicItems": {
+			"id": 1194,
+			"code": "NoEpicItems",
+			"text": "このポイントを使えば、英雄アイテムを伝説レベルにアップグレードできる。ただし、英雄アイテムを着用している必要がある。これらは店で購入が可能。"
+		},
+		"OpsFaqPage": {
+			"id": 1273,
+			"code": "OpsFaqPage",
+			"text": "ビギナー用チュートリアルのページへ進む"
+		},
+		"OpsMusicVolume": {
+			"id": 721,
+			"code": "OpsMusicVolume",
+			"text": "音楽ボリューム"
+		},
+		"OpsRestartButton": {
+			"id": 723,
+			"code": "OpsRestartButton",
+			"text": "メニュー"
+		},
+		"OpsRestartLabel": {
+			"id": 722,
+			"code": "OpsRestartLabel",
+			"text": "メインメニューへ"
+		},
+		"OpsSoundsVolume": {
+			"id": 720,
+			"code": "OpsSoundsVolume",
+			"text": "音響効果のボリューム"
+		},
+		"OpsTeaserButton": {
+			"id": 725,
+			"code": "OpsTeaserButton",
+			"text": "進む"
+		},
+		"OpsTeaserLabel": {
+			"id": 724,
+			"code": "OpsTeaserLabel",
+			"text": "ゲームのウェブサイト"
+		},
+		"OpsTutorialToggle": {
+			"id": 912,
+			"code": "OpsTutorialToggle",
+			"text": "ヒントをオンにする"
+		},
+		"PauseButtonExit": {
+			"id": 911,
+			"code": "PauseButtonExit",
+			"text": "戦いから離れる"
+		},
+		"PauseButtonRestart": {
+			"id": 910,
+			"code": "PauseButtonRestart",
+			"text": "再開する"
+		},
+		"PauseButtonResume": {
+			"id": 909,
+			"code": "PauseButtonResume",
+			"text": "戦闘に戻る"
+		},
+		"PersClassAssassin": {
+			"id": 118,
+			"code": "PersClassAssassin",
+			"text": "アサシン"
+		},
+		"PersClassDefender": {
+			"id": 120,
+			"code": "PersClassDefender",
+			"text": "ディフェンダー"
+		},
+		"PersClassDestroyer": {
+			"id": 119,
+			"code": "PersClassDestroyer",
+			"text": "デストロイヤー"
+		},
+		"PlayerAnger": {
+			"id": 245,
+			"code": "PlayerAnger",
+			"text": "フューリー値 {0}%"
+		},
+		"PlayerExperience": {
+			"id": 244,
+			"code": "PlayerExperience",
+			"text": "経験値 {0}%"
+		},
+		"PlayerHealth": {
+			"id": 250,
+			"code": "PlayerHealth",
+			"text": "生命"
+		},
+		"PlayerMagic": {
+			"id": 251,
+			"code": "PlayerMagic",
+			"text": "魔法"
+		},
+		"PlayerRage": {
+			"id": 249,
+			"code": "PlayerRage",
+			"text": "勇気"
+		},
+		"PlayerStrength": {
+			"id": 252,
+			"code": "PlayerStrength",
+			"text": "パワー"
+		},
+		"PostScreenshotToFacebook": {
+			"id": 1167,
+			"code": "PostScreenshotToFacebook",
+			"text": "このスクリーンショットはしばらくするとFacebookに掲載されます。"
+		},
+		"RatingSocialMessageFacebook": {
+			"id": 1133,
+			"code": "RatingSocialMessageFacebook",
+			"text": "このゲーム「ジャガーノート：ソブリングの復讐」で、{0} ポイント持っている。デーモンの手下どもは恐怖で震えてるだろう！あなたのスコアは？"
+		},
+		"RatingSocialMessageFacebook341Error": {
+			"id": 1135,
+			"code": "RatingSocialMessageFacebook341Error",
+			"text": "Facebookの最大投稿可能数に達したため、またあとで試してください。"
+		},
+		"RatingSocialMessageFacebookNotPosted": {
+			"id": 1134,
+			"code": "RatingSocialMessageFacebookNotPosted",
+			"text": "メッセージの送信に失敗"
+		},
+		"RatingSocialMessageTwitter": {
+			"id": 1132,
+			"code": "RatingSocialMessageTwitter",
+			"text": "このゲーム「ジャガーノート：ソブリングの復讐」で、{0} ポイント持っている。どのぐらい持ってる？"
+		},
+		"ScarabDig": {
+			"id": 833,
+			"code": "ScarabDig",
+			"text": "掘る"
+		},
+		"ScarabFind": {
+			"id": 832,
+			"code": "ScarabFind",
+			"text": "宝物を検索する"
+		},
+		"ScarabInsufficient": {
+			"id": 845,
+			"code": "ScarabInsufficient",
+			"text": "スカラブスから出ているため、宝探しは不可能。常に店内の「雑貨」セクションの中から、蓄えを補充することができる。"
+		},
+		"Shop": {
+			"id": 260,
+			"code": "Shop",
+			"text": "店"
+		},
+		"ShopAlreadyPurchased": {
+			"id": 792,
+			"code": "ShopAlreadyPurchased",
+			"text": "購入済み"
+		},
+		"ShopAlreadyPuton": {
+			"id": 830,
+			"code": "ShopAlreadyPuton",
+			"text": "装着済み"
+		},
+		"ShopBuy": {
+			"id": 261,
+			"code": "ShopBuy",
+			"text": "購入"
+		},
+		"ShopDivision01": {
+			"id": 765,
+			"code": "ShopDivision01",
+			"text": "おすすめ"
+		},
+		"ShopDivision02": {
+			"id": 766,
+			"code": "ShopDivision02",
+			"text": "アーマー"
+		},
+		"ShopDivision03": {
+			"id": 767,
+			"code": "ShopDivision03",
+			"text": "雑貨"
+		},
+		"ShopDivision04": {
+			"id": 768,
+			"code": "ShopDivision04",
+			"text": "プレミアム"
+		},
+		"ShopDivision05": {
+			"id": 790,
+			"code": "ShopDivision05",
+			"text": "記念品"
+		},
+		"ShopItemsCount": {
+			"id": 355,
+			"code": "ShopItemsCount",
+			"text": "数量"
+		},
+		"ShopItemsUnlocked": {
+			"id": 741,
+			"code": "ShopItemsUnlocked",
+			"text": "アクセス可能な店内の新アイテム："
+		},
+		"ShopLevelTooLow": {
+			"id": 791,
+			"code": "ShopLevelTooLow",
+			"text": "レベル {0} "
+		},
+		"ShopResetButton": {
+			"id": 262,
+			"code": "ShopResetButton",
+			"text": "リセット"
+		},
+		"ShopResetTime": {
+			"id": 263,
+			"code": "ShopResetTime",
+			"text": "アップデートまで"
+		},
+		"ShowTutorial": {
+			"id": 826,
+			"code": "ShowTutorial",
+			"text": "ヒントをオンにしますか？"
+		},
+		"SkillComboDesc": {
+			"id": 971,
+			"code": "SkillComboDesc",
+			"text": "一度コンボ打撃の能力が備わると、強大な力の打撃を与えることが可能となる。敵はこれらを、よけることもブロックすることも不可能。"
+		},
+		"SkillComboName": {
+			"id": 970,
+			"code": "SkillComboName",
+			"text": "コンボ"
+		},
+		"SkillHeader": {
+			"id": 967,
+			"code": "SkillHeader",
+			"text": "新たな能力を獲得："
+		},
+		"SkillMagicDesc": {
+			"id": 973,
+			"code": "SkillMagicDesc",
+			"text": "戦闘中にマナを収拾し、魔法テクニックを使用することが可能となった。あなたの英雄は、すでに戦闘呪文をひとつ知っている。魔術書から他の呪文について学ぶことが可能だ。"
+		},
+		"SkillMagicName": {
+			"id": 972,
+			"code": "SkillMagicName",
+			"text": "魔術"
+		},
+		"SkillRageDesc": {
+			"id": 975,
+			"code": "SkillRageDesc",
+			"text": "この能力によって、怒りをコントロールし特別な戦闘テクニックに変換することができる。フューリーを使用することで相手の打撃のブロックや、マナの取得、バーサーカーへの変身が可能となる。"
+		},
+		"SkillRageName": {
+			"id": 974,
+			"code": "SkillRageName",
+			"text": "フューリー"
+		},
+		"SocialAchivMessage": {
+			"id": 952,
+			"code": "SocialAchivMessage",
+			"text": "\"{0}\" のテストに合格"
+		},
+		"SocialAchivMessageFacebook": {
+			"id": 1131,
+			"code": "SocialAchivMessageFacebook",
+			"text": "厳しい試練 \"{0}\" を完了し、デーモンの隠れ家に1歩近づいた！  まずソブリングを殺せる？"
+		},
+		"SocialAchivMessageFacebook1": {
+			"id": 968,
+			"code": "SocialAchivMessageFacebook1",
+			"text": "ジャガーノート：ソブリングの復讐"
+		},
+		"SocialAchivMessageFacebook2": {
+			"id": 969,
+			"code": "SocialAchivMessageFacebook2"
+		},
+		"SocialAchivMessageTwitter": {
+			"id": 1130,
+			"code": "SocialAchivMessageTwitter",
+			"text": "\"{0}\" のテストに合格"
+		},
+		"SovHeader": {
+			"id": 730,
+			"code": "SovHeader",
+			"text": "悲嘆のソブリングデーモン"
+		},
+		"SovText": {
+			"id": 731,
+			"code": "SovText",
+			"text": "酷いデーモンはハラダンの住民を長い間脅かし、\n無数の命を犠牲にしたのちに敗れた。そして今、誰かの邪悪な意図によってソブリングは目覚め、再び勢力を集めている。ラドウェイとドーヘイムが悪夢のような王国になってしまう前に、暗黒の種が増えるのをなんとしても食い止めるのが、おまえの使命だ。"
+		},
+		"StarUpgradeHelp": {
+			"id": 1195,
+			"code": "StarUpgradeHelp",
+			"text": "伝説レベルにアップグレードしたい英雄アイテムを指定しよう。"
+		},
+		"Tut1_1": {
+			"id": 812,
+			"code": "Tut1_1",
+			"text": "モンスターを攻撃するには、モンスターの下にあるグリーンセクターをタップして方向を選択する。^^ \nレッドセクターは、モンスターの注視方向を表示している。その方向への攻撃はブロックされるか、またはよけられてしまう。"
+		},
+		"Tut1_2": {
+			"id": 824,
+			"code": "Tut1_2",
+			"text": "モンスターを攻撃するには、グリーンセクターをタップする。"
+		},
+		"Tut2_1": {
+			"id": 814,
+			"code": "Tut2_1",
+			"text": "右側にコンボ打撃ボタンがある。表示された方向に一貫した打撃を繰り出すことによって、スーパー打撃を行うことが可能となる。"
+		},
+		"Tut2_2": {
+			"id": 825,
+			"code": "Tut2_2",
+			"text": "攻撃する方向を敵が見なくなるまで待ち、コンボ打撃ボタンをタップする。"
+		},
+		"Tut4_1": {
+			"id": 815,
+			"code": "Tut4_1",
+			"text": "戦いの間に、敵から来るマナの青いかたまりを狙うチャンスがある。魔法の呪文を唱えるためにこれらを収集する。"
+		},
+		"Tut4_1_1": {
+			"id": 827,
+			"code": "Tut4_1_1",
+			"text": "マナを獲得するには、ブルーのかたまりをタップする。"
+		},
+		"Tut4_2": {
+			"id": 816,
+			"code": "Tut4_2",
+			"text": "スクリーンの左側に、呪文パネルがある。ブルーのマナが十分たまった時点で、呪文を唱えることが可能となる。"
+		},
+		"Tut4_2_2": {
+			"id": 828,
+			"code": "Tut4_2_2",
+			"text": "魔法ボタンをタップする。"
+		},
+		"Tut6_1": {
+			"id": 817,
+			"code": "Tut6_1",
+			"text": "敵の攻撃の間、フューリーのレッドのかたまりがすぐそばに出現する可能性がある。これらは特定の能力を使用するために必要となるので、収集すること。"
+		},
+		"Tut6_1_2": {
+			"id": 829,
+			"code": "Tut6_1_2",
+			"text": "フューリーを獲得するには、レッドのかたまりをタップする。"
+		},
+		"TutAchievmentButton": {
+			"id": 1033,
+			"code": "TutAchievmentButton",
+			"text": "ゲームアチーブメントの1つを獲得。ここをタップすることで、現在のアチーブメント記録をすべて確認できる。他のプレイヤーの功績と比較することも可能。"
+		},
+		"TutBagExp": {
+			"id": 927,
+			"code": "TutBagExp",
+			"text": "「経験」ボーナスを獲得できる道具を受け取った。このボーナスによって、戦闘で勝利したあとさらにいくつの経験値を獲得できるかが決定される。"
+		},
+		"TutBagMagic": {
+			"id": 929,
+			"code": "TutBagMagic",
+			"text": "1つの魔法タイプへのボーナスを獲得できる道具を受け取った。このボーナスによって、この魔法タイプの呪文の破壊力アップ率が決定される。"
+		},
+		"TutBagMana": {
+			"id": 926,
+			"code": "TutBagMana",
+			"text": "「マナ」ボーナスを獲得できる道具を受け取った。このボーナスによって、さらにいくつのマナのかたまりを獲得できるかが決定される。このボーナスが2と等しい場合 - さらにマナのかたまりを1つまたは2つ受け取れる確率が高い。"
+		},
+		"TutBagMoney": {
+			"id": 928,
+			"code": "TutBagMoney",
+			"text": "「マネー」ボーナスを獲得できる道具を受け取った。このボーナスによって、戦闘で勝利したあとさらにいくつのゴールドを獲得できるかが決定される。"
+		},
+		"TutBagRage": {
+			"id": 925,
+			"code": "TutBagRage",
+			"text": "「憤怒」ボーナスを獲得できる道具を受け取った。このボーナスによって、戦闘中さらにフューリーのかたまりをいくつ獲得できるかが決定される。このボーナスが1と等しい場合 - フューリーのかたまりをもう1つ受け取れる確率が非常に高い。"
+		},
+		"TutBattleTurn": {
+			"id": 915,
+			"code": "TutBattleTurn",
+			"text": "このゲームの戦闘では、基本的に順番を待つ。初めに攻撃したら、次は敵が反撃をする。各動作の時間は数秒。スクリーンの上部に、次の動作までの残り時間を示す赤い線が表示される。"
+		},
+		"TutEndChests": {
+			"id": 916,
+			"code": "TutEndChests",
+			"text": "ここに隠されていた宝物はすべて堀りおこした。別の解放地域で新しい宝物を発見することができる。"
+		},
+		"TutEpicItemPuton": {
+			"id": 1201,
+			"code": "TutEpicItemPuton",
+			"text": "伝説レベルにアップグレードが可能な英雄アイテムを獲得した。アップグレードを行うには、一定数の伝説ステータスポイントが必要となる。"
+		},
+		"TutEye": {
+			"id": 818,
+			"code": "TutEye",
+			"text": "集まったフューリーは、それを食べるカオスの眼を引き付ける。より多くのフューリーが蓄積されるほど、出現頻度はより高くなる。フューリーを食べられてしまう前に、カオスの眼を破壊すること。"
+		},
+		"TutEye_2": {
+			"id": 823,
+			"code": "TutEye_2",
+			"text": "カオスの眼を破壊するには、それが爆破するまでタップし続けること。"
+		},
+		"TutFallingStarPhrase1": {
+			"id": 1244,
+			"code": "TutFallingStarPhrase1",
+			"text": "時々戦闘中に流れ星を見つけるだろう。流れ星を捕まえることで、戦闘終了時にボーナス伝説ステータスポイントを獲得できる。"
+		},
+		"TutFallingStarPhrase2": {
+			"id": 1245,
+			"code": "TutFallingStarPhrase2",
+			"text": "戦闘終了時に星をタップして、ボーナスを受け取ろう。"
+		},
+		"TutFirstMagicBook": {
+			"id": 948,
+			"code": "TutFirstMagicBook",
+			"text": "この魔術書があれば、新しい呪文を学べ、すでに知っている呪文の向上も可能となる。ただしそれには、マジカルスカルと一定の魔法スキルが必要とされる。戦闘中に魔法を使用することで、そのスキルをアップできる。"
+		},
+		"TutFirstMobAttack": {
+			"id": 947,
+			"code": "TutFirstMobAttack",
+			"text": "この領域は攻撃的なモンスターによって攻撃されている。できるだけすぐ、そのモンスターを破壊しなければ。地元住民が殺される前に。"
+		},
+		"TutFirstMoneyPile": {
+			"id": 922,
+			"code": "TutFirstMoneyPile",
+			"text": "解放地域で地元住民が金を収集してくれる。より人口が多いほど、より多くのマネーをもらえる。人口は時間の経過とともに、自発的に増加する。自分のために収集されたゴールドを受け取るために、周期的に解放地域に戻ろう。"
+		},
+		"TutGotLevel": {
+			"id": 934,
+			"code": "TutGotLevel",
+			"text": "レベルがアップしたことによって、3つの新しいアイテムが獲得可能となった。店に立ち寄り、ベルト、ブレイサー、胴アーマーを購入することでより強くなれる。これからボスと対戦するにあたり、役立つであろうアイテムを紹介しよう。"
+		},
+		"TutImmBattle": {
+			"id": 907,
+			"code": "TutImmBattle",
+			"text": "その敵は、今使用した魔法に免疫がある。代わりの呪文を使用しよう。敵の魔法への免疫力は、戦闘前に名前とともに表示される。"
+		},
+		"TutImmZ": {
+			"id": 908,
+			"code": "TutImmZ",
+			"text": "ある特定の魔法に免疫がある敵に遭遇した。モンスターの名前の右側に、その魔法のサインが表示される。戦闘では、違う魔法を使用しよう。他の魔法をまだ学んでいない場合、魔術書の中の魔法を試すことができる。"
+		},
+		"TutLocationScarab": {
+			"id": 924,
+			"code": "TutLocationScarab",
+			"text": "モンスターたちの領域を解放した後に、隠された宝箱の探索ができる。宝箱の中からは、魔法の魔除け、リング、イヤリングなどの、とても役に立つアイテムを見つけることができる。宝物を探すためにタップする。"
+		},
+		"TutMagicBookButton": {
+			"id": 990,
+			"code": "TutMagicBookButton",
+			"text": "「魔術」スキルを獲得することで、魔術書へのアクセスが可能となる。"
+		},
+		"TutPlayerDefeat": {
+			"id": 923,
+			"code": "TutPlayerDefeat",
+			"text": "戦いに負けたとしても、簡単に再挑戦できる。どうしてもその敵に勝てない場合は、戦いを終了して店を訪れてみよう。自分のキャラクターを強化できるアーマーや弾薬を購入することができる。"
+		},
+		"TutResurrection": {
+			"id": 834,
+			"code": "TutResurrection",
+			"text": "コンボ打撃によって、敵の魂を取得できる可能性がある。これは特別なアイテム - アンクの中に含まれている。勝利の後、敵を復活させ、彼らを\n血も凍る処刑\nに服従させるために自動的に使用される。"
+		},
+		"TutSearchTreasure": {
+			"id": 837,
+			"code": "TutSearchTreasure",
+			"text": "スカラブを使用して宝物を検索する：スカラブを位置にセットし、発光を確認することで検索できる。宝物に近くなるほど、光が強く発される。宝物の上に到達したとき、翼がはためく。その位置を掘ること。"
+		},
+		"TutShop": {
+			"id": 914,
+			"code": "TutShop",
+			"text": "集めたゴールドを店で使用できる現在着用中のアーマーより優れた着用可能アーマーは、メインセクションにある「おすすめ」で見つけられる。かなりタフな戦闘でも勝利を収めることができる弾薬を買うことも可能。"
+		},
+		"TutShopFilter2": {
+			"id": 930,
+			"code": "TutShopFilter2",
+			"text": "このセクションには入手可能なすべてのアーマーがある。"
+		},
+		"TutShopFilter3": {
+			"id": 931,
+			"code": "TutShopFilter3"
+		},
+		"TutShopFilter4": {
+			"id": 932,
+			"code": "TutShopFilter4",
+			"text": "「プレミアム」セクションでは、割引セットや特別な道具を見つけられる。"
+		},
+		"TutShopFilter5": {
+			"id": 933,
+			"code": "TutShopFilter5",
+			"text": "「記念品」セクションでは、購入できない非売品アイテムが確認でき、サービスか他の代償で獲得できる。"
+		},
+		"TutSliceAttack1": {
+			"id": 995,
+			"code": "TutSliceAttack1",
+			"text": "敵を攻撃するにはセクターをタップするか、または必要な方向へスライスする。"
+		},
+		"TutSliceAttack2": {
+			"id": 996,
+			"code": "TutSliceAttack2",
+			"text": "敵の左側ゾーン内で攻撃するときは、指を左から右へスライドさせる。"
+		},
+		"TutSliceAttack3": {
+			"id": 997,
+			"code": "TutSliceAttack3",
+			"text": "ポジションを強化するには、正しいゾーンで敵に命中させる。"
+		},
+		"TutStrongMagic": {
+			"id": 819,
+			"code": "TutStrongMagic",
+			"text": "魔法攻撃を避けるには、連続ステップを実行する。"
+		},
+		"WeakMagicMessage": {
+			"id": 585,
+			"code": "WeakMagicMessage",
+			"text": "モンスターのブラックマナをすべて集めることで、魔法攻撃を回避できる。"
+		},
+		"supportXCodeAlertClose": {
+			"id": 985,
+			"code": "supportXCodeAlertClose",
+			"text": "閉じる"
+		},
+		"supportXCodeClose": {
+			"id": 980,
+			"code": "supportXCodeClose",
+			"text": "閉じる"
+		},
+		"supportXCodeEMail": {
+			"id": 977,
+			"code": "supportXCodeEMail",
+			"text": "E-mail"
+		},
+		"supportXCodeEnterDesc": {
+			"id": 984,
+			"code": "supportXCodeEnterDesc",
+			"text": "問題の説明を入力する"
+		},
+		"supportXCodeEnterEmail": {
+			"id": 982,
+			"code": "supportXCodeEnterEmail",
+			"text": "あなたのE-mailアドレスをご記入ください"
+		},
+		"supportXCodeEnterSubject": {
+			"id": 983,
+			"code": "supportXCodeEnterSubject",
+			"text": "件名を入力する"
+		},
+		"supportXCodeError": {
+			"id": 981,
+			"code": "supportXCodeError",
+			"text": "エラー"
+		},
+		"supportXCodeInvEmail": {
+			"id": 986,
+			"code": "supportXCodeInvEmail",
+			"text": "E-mailアドレスが間違っています。ご確認の上、再試行してください。"
+		},
+		"supportXCodePosted": {
+			"id": 987,
+			"code": "supportXCodePosted",
+			"text": "メッセージを送信しました。"
+		},
+		"supportXCodeSend": {
+			"id": 979,
+			"code": "supportXCodeSend",
+			"text": "送信"
+		},
+		"supportXCodeText": {
+			"id": 976,
+			"code": "supportXCodeText",
+			"text": "ご自身で解決できない問題がある場合や、または誤りを見つけた場合は、サポートサービスまでご連絡ください。"
+		},
+		"supportXCodeTheme": {
+			"id": 978,
+			"code": "supportXCodeTheme",
+			"text": "件名"
+		}
+	}
+}

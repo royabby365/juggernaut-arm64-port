@@ -1,0 +1,124 @@
+{
+	"loadingTips": {
+		"677": {
+			"id": 677,
+			"description": "Wracaj na podbite terytoria, żeby zebrać daninę i otworzyć skrzynie ze skarbami."
+		},
+		"678": {
+			"id": 678,
+			"description": "Broń podbitych terytoriów przed potworami, żeby zachować liczebność ludności"
+		},
+		"679": {
+			"id": 679,
+			"description": "Dostęp do dodatkowych rozdziałów zdobędziesz, wykonując specjalne zadania."
+		},
+		"681": {
+			"id": 681,
+			"description": "Każda nieudana próba otwarcia skrzyni kończy się utratą wytrycha."
+		},
+		"682": {
+			"id": 682,
+			"description": "Im bardziej skomplikowany zamek, tym cenniejsza zawartość skrzyni."
+		},
+		"683": {
+			"id": 683,
+			"description": "Przy pomocy czerwonej strzałki można określić, w którym kierunku patrzy potwór. Bez wątpienia zrobi unik w tym kierunku lub zablokuje go."
+		},
+		"684": {
+			"id": 684,
+			"description": "Krytyczny cios przynosi Ci zawsze 2 punkty many."
+		},
+		"686": {
+			"id": 686,
+			"description": "Im silniejsza jest Twoja wściekłość, tym częściej odwiedza Cię Oko Chaosu."
+		},
+		"687": {
+			"id": 687,
+			"description": "Użyj jednej Sfery Wściekłości, a zablokowany zostanie kolejny atak potwora"
+		},
+		"688": {
+			"id": 688,
+			"description": "Użyj czterech Sfer Wściekłości, a Twój kolejny atak będzie krytyczny i ze zwiększonym dropem many"
+		},
+		"689": {
+			"id": 689,
+			"description": "Użyj dziesięciu Sfer Wściekłości, żeby uzyskać wzmocnienie do końca walki"
+		},
+		"690": {
+			"id": 690,
+			"description": "Bossy i niektóre potwory mają zwiększony kąt widzenia i mogą zmieniać kierunek spojrzenia"
+		},
+		"691": {
+			"id": 691,
+			"description": "Użyj magicznych czaszek, żeby zwiększyć siłę swoich zaklęć"
+		},
+		"692": {
+			"id": 692,
+			"description": "Niektóre potwory mają immunitet na określone rodzaje magii"
+		},
+		"693": {
+			"id": 693,
+			"description": "Egzekucja umożliwia Ci otwarcie dodatkowej skrzyni z nagrodą"
+		},
+		"694": {
+			"id": 694,
+			"description": "W celu dokonania egzekucji zdobądź Runę Wskrzeszenia, zabijając potwora kombo-ciosami."
+		},
+		"695": {
+			"id": 695,
+			"description": "Wskaźnik siły\" wpływa na siłę ataku\""
+		},
+		"696": {
+			"id": 696,
+			"description": "Wskaźnik odwagi\" zwiększa szansę na krytyczny cios i tłumi krytyczne  ataki wroga\""
+		},
+		"697": {
+			"id": 697,
+			"description": "Wskaźnik magii\" wpływa na siłę magicznego ataku oraz na początkową ilość many w walce\""
+		},
+		"699": {
+			"id": 699,
+			"description": "W zamkniętych skrzyniach można znaleźć kolczyki, pierścienie, artefakty, magiczne amulety i czaszki"
+		},
+		"702": {
+			"id": 702,
+			"description": "Każdy amulet wpływa szczególnie efektywnie tylko na jeden rodzaj magii"
+		},
+		"703": {
+			"id": 703,
+			"description": "Zbieraj artefakty doświadczenia, żeby zdobywać bonusowe doświadczenie po każdej walce"
+		},
+		"704": {
+			"id": 704,
+			"description": "Zbieraj artefakty wściekłości, żeby zdobywać dodatkowe Sfery Wściekłości w walce"
+		},
+		"705": {
+			"id": 705,
+			"description": "Zbieraj artefakty many, żeby zdobywać dodatkowe Sfery Many w walce"
+		},
+		"706": {
+			"id": 706,
+			"description": "Zbieraj pieniężne artefakty, żeby zdobywać premiowe pieniądze po każdej walce"
+		},
+		"707": {
+			"id": 707,
+			"description": "Z każdą bronią związana jest jakaś unikalna śmierć. Epicka broń na przykład rozrywa wroga na kawałki przy pomocy gigantycznych cepów"
+		},
+		"1246": {
+			"id": 1246,
+			"description": "Jeśli połączysz epicką rzecz z punktami legendarności, otrzymasz legendarny przedmiot"
+		},
+		"1247": {
+			"id": 1247,
+			"description": "Im więcej zadajesz w walce krytycznych ciosów, tym wyższy jest ranking walki i tym więcej punktów legendarności zdobywasz."
+		},
+		"1248": {
+			"id": 1248,
+			"description": "Aby zdobywać maksymalny ranking w walkach, rozwijaj odwagę i stosuj w walkach magię, ciosy kombo i drugą umiejętność wściekłości"
+		},
+		"1249": {
+			"id": 1249,
+			"description": "Aby zdobyć maksymalny ranking w walce, koniecznych jest 70% krytycznych ciosów"
+		}
+	}
+}
