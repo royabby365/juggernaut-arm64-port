@@ -1,3 +1,5 @@
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/royabby)
+
 # Juggernaut: Revenge of Sovering — 64-bit (arm64) Unity Port
 
 Decompiled (2026-07-17) and lifted into a **Unity 2021.3.45f1** project targeting
@@ -51,5 +53,3 @@ must be supplied manually. Optional `ANDROID_KEYSTORE_*` secrets sign the APK.
 - ⚠️ First compile may surface a few decompile-artifact issues (type-name casing,
   any `WWW` usage). Normal — quick to clear in the Editor log.
 - ⚠️ Proprietary title — do not redistribute.
-
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/royabby)
