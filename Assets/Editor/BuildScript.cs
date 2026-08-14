@@ -53,6 +53,22 @@ public static class BuildScript
             text.text = "Juggernaut\narm64 port build\n(boot scene - game content TBD)";
             text.fontSize = 48;
             text.characterSize = 0.08f;
+            // CRITICAL: a TextMesh with font == null serializes no font reference,
+            // and at runtime every glyph becomes an untextured quad -> the text
+            // renders as solid white blocks. Assign a real font explicitly:
+            //  1. builtin Arial (2021.x) / LegacyRuntime (2022+), then
+            //  2. the bundled DejaVu copy at Assets/Fonts/BootFont.ttf as fallback.
+            var font = Resources.GetBuiltinResource<Font>("Arial.ttf");
+            if (font == null) font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
+            if (font == null) font = AssetDatabase.LoadAssetAtPath<Font>("Assets/Fonts/BootFont.ttf");
+            if (font != null)
+            {
+                text.font = font;
+            }
+            else
+            {
+                Debug.LogWarning("[BuildScript] No font available for boot splash text; glyphs may render as blocks");
+            }
             var mr = splashGo.GetComponent<MeshRenderer>();
             if (mr != null) mr.sharedMaterial = new Material(Shader.Find("GUI/Text Shader"));
 
