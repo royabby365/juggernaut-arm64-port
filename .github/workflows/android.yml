@@ -60,6 +60,8 @@ jobs:
               fi
               # Pre-create editor license cache dir (Unity licensing client needs this)
               mkdir -p /root/.cache/unity3d
+              # Create BlankProject for activation (must exist at /BlankProject)
+              mkdir -p /BlankProject/Assets
               echo "[container] === activation ==="
               unity-editor -logFile /dev/stdout -quit -serial "$UNITY_SERIAL" \
                 -username "$UNITY_EMAIL" -password "$UNITY_PASSWORD" \
