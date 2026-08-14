@@ -1,0 +1,325 @@
+////////////////////////////////////////////////////////////////////
+// ATTACKS
+////////////////////////////////////////////////////////////////////
+
+//-----MAIN ATTACKS-----//
+
+$step_l {
+ scenario(ifx_step_l);
+ wait(0.7);
+ enemyscenario(ifx_step_l);
+}
+
+$step_r {
+ scenario(ifx_step_r);
+ wait(0.7);
+ enemyscenario(ifx_step_r);
+}
+
+$attack {
+ scenario(global_snd_mob2_attack);
+ play(attack,30);
+ react(f,1);
+ scenario(template_attack_splash_med);
+ scenario(global_smoke_small_legs);
+ wait(0.7);
+ scenario(global_smoke_small_legs);
+}
+
+$attack_left {
+ sound(local_attack_left,0.3);
+ play(attack_left,30);
+ react(r,1);
+ scenario(template_attack_splash_big);
+ scenario(global_smoke_small_legs);
+}
+
+$attack_right {
+ sound(local_attack_right,0.2);
+ play(attack_right,20);
+ react(l,1);
+ scenario(template_attack_splash_big);
+ scenario(global_smoke_small_legs);
+}
+
+$attack_uppercot {
+ sound(local_attack_uppercut,0.4);
+ play(attack_uppercot,30);
+ react(l,1);
+ scenario(template_attack_splash_big);
+ scenario(global_smoke_small_legs);
+}
+
+//-----TEMPLATES-----//
+
+$template_attack_splash_small {
+ #ifnotreact(1,1); 
+	 enemyscenario(global_attack_splash_small);
+  	 #ifnotweapon(1);enemyscenario(ifx_blood);ifnotweapon#;
+	 #ifweapon(1);enemyscenario(ifx_blood_small);ifweapon#;
+	 #random(0); wait(0.3); pause(8,0.2); random#;
+ ifnotreact#;
+}
+
+$template_attack_splash_med {
+ #ifnotreact(1,1); 
+	 enemyscenario(global_attack_splash_med);
+	 #ifnotweapon(1);enemyscenario(ifx_blood);ifnotweapon#;
+	 #ifweapon(1);enemyscenario(ifx_blood_small);ifweapon#;
+	 #random(0); wait(0.3); pause(8,0.2); random#;
+ ifnotreact#;
+}
+
+$template_attack_splash_big {
+ #ifnotreact(1,1); 
+	 enemyscenario(global_attack_splash_big);
+	 #ifnotweapon(1);enemyscenario(ifx_blood);ifnotweapon#;
+	 #ifweapon(1);enemyscenario(ifx_blood_small);ifweapon#;
+	 #random(0); wait(0.3); pause(8,0.2); random#;
+ ifnotreact#;
+}
+
+////////////////////////////////////////////////////////////////////
+// MAGIC
+////////////////////////////////////////////////////////////////////
+
+$magic_direct {
+ light(0,1.5);
+ scenario(global_snd_mob2_direct);
+ scenario(global_magic_baf_zverg_start);
+ play(magic,20);
+ wait(0.1);
+ react(f,0);
+ wait(0.4);
+ scenario(global_magic_direct_fly_zverg);
+ wait(0.22);
+ #ifreact(0,1);
+  scenario(global_magic_direct_expsmall_zverg);
+ ifreact#; 
+ #ifnotreact(0,1);
+  scenario(global_magic_direct_exp_zverg);
+ ifnotreact#;
+ light(1,1,0.3);
+}
+
+$magic_aoe {
+ light(0,2);
+ scenario(global_snd_mob2_aoe);
+ scenario(global_magic_baf_zverg_start);
+ play(magic_aoe,30);
+ wait(0.35);
+ react(f,0);
+ wait(0.35);
+ scenario(global_magic_aoe_wave_zverg);
+ wait(0.2);
+ scenario(global_magic_aoe_exp_zverg);
+ light(1,0.5,0);
+}
+
+$magic_baf {
+ light(0,1.5);
+ scenario(global_snd_mob2_baf);
+ scenario(global_magic_baf_zverg_start);
+ play(magic_baf,60);
+ scenario(global_magic_baf_zverg);
+ light(1,0.5,0);
+}
+
+////////////////////////////////////////////////////////////////////
+// REACTIONS
+////////////////////////////////////////////////////////////////////
+
+$react_block {
+ wait(0.1);
+ reactfx();
+ scenario(global_snd_mob2_block);
+ play(block,25);
+ vibration(1,2,0);
+ scenario(global_react_block);
+}
+
+$react_dodge {
+ reactfx();
+ scenario(global_snd_mob2_dodge);
+ scenario(global_dodge_trail);
+ play(dodge,10);
+ scenario(global_smoke_small_legs);
+}
+
+$react_dmg  {
+ wait(0.5);
+ reactfx();
+ scenario(global_snd_mob2_damage);
+ play(damage);
+}
+
+$react_dmgf {
+ wait(0.4);
+ reactfx();
+ scenario(global_snd_mob2_damage_force);
+ play(damage_force);
+ scenario(global_smoke_fly);
+ wait(0.55);
+ vibration(1,2,0);
+ scenario(global_smoke_big_torso);
+}
+
+$react_dmgl {
+ wait(0.4);
+ reactfx();
+ scenario(global_snd_mob2_damage_force);
+ play(damage_force);
+ scenario(global_smoke_fly);
+ step(0,-1,0,3);
+ wait(0.55);
+ vibration(1,2,0);
+ scenario(global_smoke_big_torso);
+ wait(1);
+ enemyscenario(ifx_step_r);
+}
+
+$react_dmgr {
+ wait(0.4);
+ reactfx();
+ scenario(global_snd_mob2_damage_force);
+ play(damage_force);
+ scenario(global_smoke_fly);
+ step(0,1,0,3);
+ wait(0.55);
+ vibration(1,2,0);
+ scenario(global_smoke_big_torso);
+ wait(1);
+ enemyscenario(ifx_step_l);
+}
+
+$react_dmgu {scenario(react_dmgf);}
+
+$react_death  { 
+ wait(0.5);
+ reactfx();
+ scenario(global_snd_mob2_death);
+ play(death);
+ wait(0.5);
+ scenario(global_smoke_big_torso);
+ wait(0.5);
+ scenario(global_react_death);
+ fx(dfp1,fx_dethfastpatno1,pos_spinecenter); fxpos(dfp1,0,0.01,0,0);
+}
+
+$react_deathf {
+ wait(0.5);
+ reactfx();
+ scenario(global_snd_mob2_death_force);
+ play(death_force);
+ scenario(global_smoke_fly);
+ wait(0.6);
+ vibration(1,2,0);
+ scenario(global_smoke_big_torso);
+ wait(0.2);
+ scenario(global_react_death);
+ fx(dfp1,fx_dethfastpatno1,pos_spinecenter); fxpos(dfp1,0,-0.2,0,0);
+}
+
+$react_deathl {scenario(react_deathf);}
+$react_deathr {scenario(react_deathf);}
+$react_deathu {scenario(react_deathf);}
+
+////////////////////////////////////////////////////////////////////
+// INDIVIDUAL EFFECTS
+////////////////////////////////////////////////////////////////////
+
+$ifx_step_r {
+  step(-1,-1,1);
+}
+
+$ifx_step_l {
+  step(1,1,1);
+}
+
+$ifx_blood {
+ scenario(global_react_blood);
+}
+
+$ifx_blood_small {
+ scenario(global_react_blood_small);
+}
+
+$ifx_blood_down_splash {
+ fx(0,fx_blooddownsplat_Rd,pos_toe_r);
+ wait(0.1);
+ fx(0,fx_blooddownsplat_Rd,pos_toe_l);
+}
+
+$ifx_fatality_blood_splash {
+ fx(0,fx_bloodsplat_Rd,pos_spinecenter);
+ fx(fbs1,sfx_flesh_Rd,bottom);           fxpos(fbs1,0,1.55,0,1);
+ wait(0.5);
+ fx(0,fx_bloodsplat_Rd_2,bottom);
+}
+
+$ifx_blood_splash {
+ fx(0,fx_bloodsplat_Rd,pos_spinecenter);
+ wait(0.5);
+ fx(0,fx_bloodsplat_Rd_2,bottom);
+}
+
+$ifx_blood_fontan {
+ fx(0,fx_sizeblood_rd1,pos_head,1);
+ fx(0,fx_sizeblood_rd1,pos_spinecenter,1);
+ fx(0,fx_sizeblood_rd1,pos_hand_r,1);
+ fx(0,fx_sizeblood_rd1,pos_hand_l,1);
+ fx(0,fx_sizeblood_rd1,pos_toe_r,1);
+ fx(0,fx_sizeblood_rd1,pos_toe_l,1);
+}
+
+$ifx_blood_screen {
+ #random(25); fx(0,fx_bloodekran_Rd_L);  random#;
+ #random(25); fx(0,fx_bloodekran_Rd_R);  random#;
+ #random(50); fx(0,fx_bloodekran_Rd_RD); random#;
+ #random(50); wait(0.05);                random#;
+ #random(50); fx(0,fx_bloodekran_Rd_LD); random#;
+ #random(50); wait(0.1);                 random#;
+ #random(50); fx(0,fx_bloodekran_Rd_RU); random#;
+ #random(50); wait(0.1);                 random#;
+ #random(50); fx(0,fx_bloodekran_Rd_LU); random#;
+ #random(50); fx(0,fx_bloodekran_Rd_LU); random#;
+}
+
+$ifx_fatality_damage {
+ playpart(damage,0.65,10,30);
+ playpart(damage,0.65,10,30);
+}
+
+$ifx_fatality_fly {
+ moveto(0,3,0,1);
+ playpart(damage,0.65,20,40);
+ playpart(damage,0.65,20,40);
+ moveto(0,-3,0,0.1); 
+ playpart(death,1,30,100);
+}
+
+$ifx_fatality_down_blood {
+ playpart(damage,0.75,20,40);
+ scenario(ifx_blood_down_splash);
+ playpart(damage,0.75,20,40);
+ scenario(ifx_blood_down_splash);
+ playpart(damage,0.75,20,40);
+ scenario(ifx_blood_down_splash);
+}
+
+//////////////////////////////
+// TRIGGERS AND OTHER
+//////////////////////////////
+
+$onshow {
+ scenario(global_onshow);
+}
+
+$onidle {
+ wait(0.2);
+ scenario(global_snd_mob2_idle);
+}
+
+$onhide {
+ scenario(global_onhide);
+}

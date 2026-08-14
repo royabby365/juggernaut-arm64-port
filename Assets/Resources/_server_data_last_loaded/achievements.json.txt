@@ -1,0 +1,1165 @@
+{
+	"achievements": {
+		"847": {
+			"id": 847,
+			"order": 0,
+			"title": "Po kolana w bagnie",
+			"info": "Zakończ rozdział Niegościnne bagno\"",
+			"image": "",
+			"condition": {
+				"location": 236,
+				"choice": "test1"
+			},
+			"points": 2
+		},
+		"850": {
+			"id": 850,
+			"order": 0,
+			"title": "Jaskiniowy człowiek",
+			"info": "Zakończ rozdział Niebezpieczna droga przez jaskinie\"",
+			"image": "",
+			"condition": {
+				"location": 276,
+				"choice": "test1"
+			},
+			"points": 4
+		},
+		"851": {
+			"id": 851,
+			"order": 0,
+			"title": "Oblężenie miasta",
+			"info": "Zakończ rozdział Pod murami Brangardu\"",
+			"image": "",
+			"condition": {
+				"location": 277,
+				"choice": "test1"
+			},
+			"points": 7
+		},
+		"852": {
+			"id": 852,
+			"order": 0,
+			"title": "50/50",
+			"info": "Zakończ rozdział W drodze do celu\"",
+			"image": "",
+			"condition": {
+				"location": 278,
+				"choice": "test1"
+			},
+			"points": 9
+		},
+		"853": {
+			"id": 853,
+			"order": 0,
+			"title": "Burza piaskowa",
+			"info": "Zakończ rozdział Po kolana w piachu\"",
+			"image": "",
+			"condition": {
+				"location": 280,
+				"choice": "test1"
+			},
+			"points": 12
+		},
+		"854": {
+			"id": 854,
+			"order": 0,
+			"title": "Dzikie plemiona",
+			"info": "Zakończ rozdział Wioska zwiergów\"",
+			"image": "",
+			"condition": {
+				"location": 282,
+				"choice": "test1"
+			},
+			"points": 14
+		},
+		"855": {
+			"id": 855,
+			"order": 0,
+			"title": "Tropikalny raj",
+			"info": "Zakończ rozdział Przeprawa przez dżungle\"",
+			"image": "",
+			"condition": {
+				"location": 284,
+				"choice": "test1"
+			},
+			"points": 15
+		},
+		"856": {
+			"id": 856,
+			"order": 0,
+			"title": "Ani żywy, ani martwy",
+			"info": "Zakończ rozdział O krok od celu\"",
+			"image": "",
+			"condition": {
+				"location": 285,
+				"choice": "test1"
+			},
+			"points": 18
+		},
+		"857": {
+			"id": 857,
+			"order": 0,
+			"title": "Juggernaut",
+			"info": "Zakończ rozdział Zemsta Seweringa\"",
+			"image": "",
+			"condition": {
+				"location": 286,
+				"choice": "test1"
+			},
+			"points": 20
+		},
+		"858": {
+			"id": 858,
+			"order": 0,
+			"title": "Wanted!",
+			"info": "Zdobądź dostęp do dodatkowego rozdziału Stara kopalnia\"",
+			"image": "",
+			"condition": {
+				"location": 275,
+				"choice": "test2"
+			},
+			"points": 2,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"859": {
+			"id": 859,
+			"order": 0,
+			"title": "Bounty Hunter",
+			"info": "Zakończ dodatkowy rozdział Stara kopalnia\"",
+			"image": "",
+			"condition": {
+				"location": 275,
+				"choice": "test1"
+			},
+			"points": 4,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"860": {
+			"id": 860,
+			"order": 0,
+			"title": "Płazy",
+			"info": "Zdobądź dostęp do dodatkowego rozdziału Tragedia Sylwiusza\"",
+			"image": "",
+			"condition": {
+				"location": 287,
+				"choice": "test2"
+			},
+			"points": 8
+		},
+		"861": {
+			"id": 861,
+			"order": 0,
+			"title": "Dragon Slayer",
+			"info": "Zakończ dodatkowy rozdział Tragedia Sylwiusza\"",
+			"image": "",
+			"condition": {
+				"location": 287,
+				"choice": "test1"
+			},
+			"points": 18
+		},
+		"862": {
+			"id": 862,
+			"order": 0,
+			"title": "Rzeźnia",
+			"info": "Zdobądź dostęp do dodatkowego rozdziału W cieniu demonicznego dębu\".\"",
+			"image": "",
+			"condition": {
+				"location": 279,
+				"choice": "test2"
+			},
+			"points": 8
+		},
+		"863": {
+			"id": 863,
+			"order": 0,
+			"title": "Rzeźnik",
+			"info": "Zakończ dodatkowy rozdział W cieniu demonicznego dębu\"",
+			"image": "",
+			"condition": {
+				"location": 279,
+				"choice": "test1"
+			},
+			"points": 10
+		},
+		"864": {
+			"id": 864,
+			"order": 0,
+			"title": "Czy to fatamorgana?",
+			"info": "Zdobądź dostęp do dodatkowego rozdziału Krzepiące źródło\"",
+			"image": "",
+			"condition": {
+				"location": 281,
+				"choice": "test2"
+			},
+			"points": 10
+		},
+		"865": {
+			"id": 865,
+			"order": 0,
+			"title": "Demon piasków",
+			"info": "Zakończ dodatkowy rozdział Krzepiące źródło\"",
+			"image": "",
+			"condition": {
+				"location": 281,
+				"choice": "test1"
+			},
+			"points": 14
+		},
+		"866": {
+			"id": 866,
+			"order": 0,
+			"title": "Starożytne ruiny",
+			"info": "Zdobądź dostęp do dodatkowego rozdziału Sekretna świątynia\"",
+			"image": "",
+			"condition": {
+				"location": 283,
+				"choice": "test2"
+			},
+			"points": 15
+		},
+		"867": {
+			"id": 867,
+			"order": 0,
+			"title": "Zwiergomatka",
+			"info": "Zakończ dodatkowy rozdział Sekretna świątynia\"",
+			"image": "",
+			"condition": {
+				"location": 283,
+				"choice": "test1"
+			},
+			"points": 18
+		},
+		"868": {
+			"id": 868,
+			"order": 0,
+			"title": "Uczeń",
+			"info": "Osiągnij 5. poziom",
+			"image": "",
+			"condition": {
+				"level": 5,
+				"choice": "test3"
+			},
+			"points": 3
+		},
+		"869": {
+			"id": 869,
+			"order": 0,
+			"title": "Mistrz",
+			"info": "Osiągnij 10. poziom",
+			"image": "",
+			"condition": {
+				"level": 10,
+				"choice": "test3"
+			},
+			"points": 5
+		},
+		"870": {
+			"id": 870,
+			"order": 0,
+			"title": "Wielki mistrz",
+			"info": "Osiągnij 15. poziom",
+			"image": "",
+			"condition": {
+				"level": 15,
+				"choice": "test3"
+			},
+			"points": 9
+		},
+		"871": {
+			"id": 871,
+			"order": 0,
+			"title": "Wielki wojownik",
+			"info": "Osiągnij 20. poziom",
+			"image": "",
+			"condition": {
+				"level": 20,
+				"choice": "test3"
+			},
+			"points": 15
+		},
+		"872": {
+			"id": 872,
+			"order": 0,
+			"title": "Nieprześcigniony wojownik",
+			"info": "Osiągnij 25. poziom",
+			"image": "",
+			"condition": {
+				"level": 25,
+				"choice": "test3"
+			},
+			"points": 18
+		},
+		"873": {
+			"id": 873,
+			"order": 0,
+			"title": "Legendarny wojownik",
+			"info": "Osiągnij 30. poziom",
+			"image": "",
+			"condition": {
+				"level": 30,
+				"choice": "test3"
+			},
+			"points": 20
+		},
+		"874": {
+			"id": 874,
+			"order": 0,
+			"title": "Akolit ",
+			"info": "Poznaj nową szkołę magii",
+			"image": "",
+			"condition": {
+				"number": 2,
+				"choice": "test4"
+			},
+			"points": 15
+		},
+		"875": {
+			"id": 875,
+			"order": 0,
+			"title": "Władca żywiołów",
+			"info": "Naucz się po jednym zaklęciu każdej szkoły magii",
+			"image": "",
+			"condition": {
+				"choice": "test5"
+			},
+			"points": 17
+		},
+		"876": {
+			"id": 876,
+			"order": 0,
+			"title": "Czarodziej",
+			"info": "Rozwiń dowolne zaklęcie do maksymalnego poziomu",
+			"image": "",
+			"condition": {
+				"choice": "test6"
+			},
+			"points": 15
+		},
+		"877": {
+			"id": 877,
+			"order": 0,
+			"title": "Kat",
+			"info": "Dokonaj egzekucji",
+			"image": "",
+			"condition": {
+				"number": 1,
+				"choice": "test24"
+			},
+			"points": 3
+		},
+		"878": {
+			"id": 878,
+			"order": 0,
+			"title": "Seryjny morderca",
+			"info": "Dokonaj 10 egzekucji",
+			"image": "",
+			"condition": {
+				"number": 10,
+				"choice": "test24"
+			},
+			"points": 10
+		},
+		"879": {
+			"id": 879,
+			"order": 0,
+			"title": "Magiczna emanacja",
+			"info": "Zbierz 300 grudek many",
+			"image": "",
+			"condition": {
+				"number": 300,
+				"choice": "test7"
+			},
+			"points": 4
+		},
+		"880": {
+			"id": 880,
+			"order": 0,
+			"title": "Berserk",
+			"info": "Zbierz 100 grudek wściekłości",
+			"image": "",
+			"condition": {
+				"number": 100,
+				"choice": "test8"
+			},
+			"points": 5
+		},
+		"881": {
+			"id": 881,
+			"order": 0,
+			"title": "Nie patrz na mnie!",
+			"info": "Przegoń Oko Chaosu 50 razy",
+			"image": "",
+			"condition": {
+				"count": 50,
+				"choice": "test9"
+			},
+			"points": 7
+		},
+		"882": {
+			"id": 882,
+			"order": 0,
+			"title": "Włamywacz",
+			"info": "Otwórz 6 średnich zamków",
+			"image": "",
+			"condition": {
+				"type": "normal",
+				"number": 6,
+				"choice": "test10"
+			},
+			"points": 14
+		},
+		"883": {
+			"id": 883,
+			"order": 0,
+			"title": "Niedźwiedziarz",
+			"info": "Otwórz 6 skomplikowanych zamków",
+			"image": "",
+			"condition": {
+				"type": "hard",
+				"number": 6,
+				"choice": "test10"
+			},
+			"points": 17
+		},
+		"884": {
+			"id": 884,
+			"order": 0,
+			"title": "Tego mi nie trzeba",
+			"info": "Otwórz prosty zamek bez pomocy wytrychu",
+			"image": "",
+			"condition": {
+				"type": "easy",
+				"count": 1,
+				"choice": "test11"
+			},
+			"points": 5
+		},
+		"885": {
+			"id": 885,
+			"order": 0,
+			"title": "Mogę to robić z zamkniętymi oczami",
+			"info": "Otwórz średni zamek bez pomocy wytrychu",
+			"image": "",
+			"condition": {
+				"type": "normal",
+				"count": 1,
+				"choice": "test11"
+			},
+			"points": 13
+		},
+		"886": {
+			"id": 886,
+			"order": 0,
+			"title": "Tropiciel",
+			"info": "Uchyl się od 10 magicznych ataków Powtórz kolejność kroków\"",
+			"image": "",
+			"condition": {
+				"type": "strong",
+				"count": 10,
+				"choice": "test12"
+			},
+			"points": 4
+		},
+		"887": {
+			"id": 887,
+			"order": 0,
+			"title": "Czarna magia",
+			"info": "Uchyl się od 10 magicznych ataków Zbierz czarną manę\"",
+			"image": "",
+			"condition": {
+				"type": "weak",
+				"count": 10,
+				"choice": "test12"
+			},
+			"points": 4
+		},
+		"888": {
+			"id": 888,
+			"order": 0,
+			"title": "Lód i Płomień",
+			"info": "Podczas jednej walki atakuj wroga na dwa różne magiczne sposoby",
+			"image": "",
+			"condition": {
+				"count": 1,
+				"choice": "test13"
+			},
+			"points": 11
+		},
+		"889": {
+			"id": 889,
+			"order": 0,
+			"title": "Mistrz ataku",
+			"info": "Wykonaj 10 razy krytyczny cios\"",
+			"image": "",
+			"condition": {
+				"type": "crit",
+				"count": 10,
+				"choice": "test14"
+			},
+			"points": 9
+		},
+		"890": {
+			"id": 890,
+			"order": 0,
+			"title": "Mistrz obrony",
+			"info": "Wykonaj 20 razy blok\"",
+			"image": "",
+			"condition": {
+				"type": "block",
+				"count": 20,
+				"choice": "test14"
+			},
+			"points": 3
+		},
+		"891": {
+			"id": 891,
+			"order": 0,
+			"title": "Siłacz",
+			"info": "Zrealizuj 5 razy umiejętność wzmocnienie\"",
+			"image": "",
+			"condition": {
+				"type": "strong",
+				"count": 5,
+				"choice": "test14"
+			},
+			"points": 15
+		},
+		"892": {
+			"id": 892,
+			"order": 0,
+			"title": "Śmiercionośny Eliksir",
+			"info": "Otruj wroga 5 razy podczas walki",
+			"image": "",
+			"condition": {
+				"count": 5,
+				"choice": "test15"
+			},
+			"points": 12
+		},
+		"893": {
+			"id": 893,
+			"order": 0,
+			"title": "Resztkami tchu",
+			"info": "Wygraj walkę z PŻ < 5 %",
+			"image": "",
+			"condition": {
+				"percent": 5,
+				"choice": "test17"
+			},
+			"points": 9
+		},
+		"894": {
+			"id": 894,
+			"order": 0,
+			"title": "Ani jednego draśnięcia",
+			"info": "Wygraj walkę z PŻ > 95%",
+			"image": "",
+			"condition": {
+				"percent": 95,
+				"choice": "test16"
+			},
+			"points": 12
+		},
+		"895": {
+			"id": 895,
+			"order": 0,
+			"title": "Bogacz",
+			"info": "Zarób 5000 złotych",
+			"image": "",
+			"condition": {
+				"amount": 5000,
+				"choice": "test18"
+			},
+			"points": 10
+		},
+		"896": {
+			"id": 896,
+			"order": 0,
+			"title": "Obrońca słabych",
+			"info": "Zabij 5 dzikich po potworów, które zaatakowały podbitą lokację",
+			"image": "",
+			"condition": {
+				"number": 5,
+				"choice": "test19"
+			},
+			"points": 5
+		},
+		"897": {
+			"id": 897,
+			"order": 0,
+			"title": "Przydatne narzędzia",
+			"info": "Kup w sklepie wytrychy",
+			"image": "",
+			"condition": {
+				"item": 626,
+				"choice": "test20"
+			},
+			"points": 8
+		},
+		"898": {
+			"id": 898,
+			"order": 0,
+			"title": "Głód wiedzy",
+			"info": "Kup w sklepie magiczne czaszki",
+			"image": "",
+			"condition": {
+				"item": 714,
+				"choice": "test20"
+			},
+			"points": 12
+		},
+		"899": {
+			"id": 899,
+			"order": 0,
+			"title": "Nowy poszukiwacz skarbów",
+			"info": "Wykop skrzynię",
+			"image": "",
+			"condition": {
+				"number": 1,
+				"choice": "test21"
+			},
+			"points": 3
+		},
+		"900": {
+			"id": 900,
+			"order": 0,
+			"title": "Ile ich tutaj?",
+			"info": "Wykop 5 skrzyni",
+			"image": "",
+			"condition": {
+				"number": 5,
+				"choice": "test21"
+			},
+			"points": 8
+		},
+		"901": {
+			"id": 901,
+			"order": 0,
+			"title": "Poszukiwacz skarbów-amator",
+			"info": "Wykop 20 skrzyni",
+			"image": "",
+			"condition": {
+				"number": 20,
+				"choice": "test21"
+			},
+			"points": 14
+		},
+		"902": {
+			"id": 902,
+			"order": 0,
+			"title": "Zawodowy poszukiwacz skarbów",
+			"info": "Wykop 50 skrzyni",
+			"image": "",
+			"condition": {
+				"number": 50,
+				"choice": "test21"
+			},
+			"points": 16
+		},
+		"903": {
+			"id": 903,
+			"order": 0,
+			"title": "Chciwy owad",
+			"info": "Kup skarabeusza w sklepie",
+			"image": "",
+			"condition": {
+				"item": 822,
+				"choice": "test20"
+			},
+			"points": 8
+		},
+		"904": {
+			"id": 904,
+			"order": 0,
+			"title": "Jak on tutaj przypełzał?",
+			"info": "Poszukaj skarabeusza w dropie",
+			"image": "",
+			"condition": {
+				"item": 822,
+				"count": 1,
+				"choice": "test22"
+			},
+			"points": 3
+		},
+		"905": {
+			"id": 905,
+			"order": 0,
+			"title": "Ot, kto je zakopuje!",
+			"info": "Pokonaj nocną elfkę",
+			"image": "",
+			"condition": {
+				"count": 1,
+				"choice": "test23"
+			},
+			"points": 5
+		},
+		"906": {
+			"id": 906,
+			"order": 0,
+			"title": "Postrach spiczastouchych",
+			"info": "Pokonaj 5 nocnych elfek",
+			"image": "",
+			"condition": {
+				"count": 5,
+				"choice": "test23"
+			},
+			"points": 15
+		},
+		"999": {
+			"id": 999,
+			"order": 0,
+			"title": "Jesteś pijany?",
+			"info": "Spudłuj celując we wroga, 10 razy podczas jednej walki",
+			"image": "",
+			"condition": {
+				"count": 10,
+				"choice": "test25"
+			},
+			"points": 5
+		},
+		"1000": {
+			"id": 1000,
+			"order": 0,
+			"title": "Cudowne uzdrowienie",
+			"info": "Użyj 3 Eliksirów Zdrowia podczas jednej walki",
+			"image": "",
+			"condition": {
+				"number": 3,
+				"choice": "test26"
+			},
+			"points": 7
+		},
+		"1001": {
+			"id": 1001,
+			"order": 0,
+			"title": "Szkwał",
+			"info": "Użyj 3 Wzmacniających Kul podczas jednej walki",
+			"image": "",
+			"condition": {
+				"number": 3,
+				"choice": "test27"
+			},
+			"points": 4
+		},
+		"1002": {
+			"id": 1002,
+			"order": 0,
+			"title": "Jadowity bluszcz",
+			"info": "Użyj 3 trującej amunicji podczas jednej walki",
+			"image": "",
+			"condition": {
+				"count": 3,
+				"choice": "test44"
+			},
+			"points": 10
+		},
+		"1003": {
+			"id": 1003,
+			"order": 0,
+			"title": "Wielki kombinator",
+			"info": "Wykonaj 3 ciosy kombo podczas jednej walki",
+			"image": "",
+			"condition": {
+				"count": 3,
+				"choice": "test28"
+			},
+			"points": 15
+		},
+		"1004": {
+			"id": 1004,
+			"order": 0,
+			"title": "Mańkut",
+			"info": "Pokonaj wroga, zadając mu tylko ciosy z lewa",
+			"image": "",
+			"condition": {
+				"choice": "test29"
+			},
+			"points": 5
+		},
+		"1005": {
+			"id": 1005,
+			"order": 0,
+			"title": "Obłok many",
+			"info": "Podczas walki wybij 10 grudek many, ale żadnej nie zbieraj",
+			"image": "",
+			"condition": {
+				"number": 10,
+				"choice": "test30"
+			},
+			"points": 3
+		},
+		"1006": {
+			"id": 1006,
+			"order": 0,
+			"title": "Niereformowalny",
+			"info": "Zastosuj blok 10 razy podczas jednej walki",
+			"image": "",
+			"condition": {
+				"count": 10,
+				"choice": "test43"
+			},
+			"points": 8
+		},
+		"1007": {
+			"id": 1007,
+			"order": 0,
+			"title": "Okulista",
+			"info": "Zniszcz Oko Chaosu 5 razy podczas jednej walki",
+			"image": "",
+			"condition": {
+				"count": 5,
+				"choice": "test42"
+			},
+			"points": 4
+		},
+		"1008": {
+			"id": 1008,
+			"order": 0,
+			"title": "Opanowanie",
+			"info": "Podczas walki wybij 5 grudek wściekłości, ale nie żadnej nie zbieraj",
+			"image": "",
+			"condition": {
+				"number": 5,
+				"choice": "test31"
+			},
+			"points": 4,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1009": {
+			"id": 1009,
+			"order": 0,
+			"title": "Wielka pokusa",
+			"info": "Zacznij walkę z pełnymi skalami magii i wściekłości i wygraj walkę bez użycia magii i wściekłości",
+			"image": "",
+			"condition": {
+				"choice": "test32"
+			},
+			"points": 15
+		},
+		"1010": {
+			"id": 1010,
+			"order": 0,
+			"title": "Przesyt",
+			"info": "Z pełną skalą many zbierz 5 grudek many podczas jednej walki",
+			"image": "",
+			"condition": {
+				"number": 5,
+				"choice": "test33"
+			},
+			"points": 4
+		},
+		"1011": {
+			"id": 1011,
+			"order": 0,
+			"title": "Mój gniew nie zna granic",
+			"info": "Z pełną skalą many zbierz 3 grudki many podczas jednej walki",
+			"image": "",
+			"condition": {
+				"number": 3,
+				"choice": "test34"
+			},
+			"points": 4,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1012": {
+			"id": 1012,
+			"order": 0,
+			"title": "Niekontrolowana agresja",
+			"info": "Użyj wszystkich 3 umiejętności na panelu wściekłości podczas jednej walki",
+			"image": "",
+			"condition": {
+				"choice": "test35"
+			},
+			"points": 14
+		},
+		"1013": {
+			"id": 1013,
+			"order": 0,
+			"title": "Ostatnia kropla",
+			"info": "Zrób tak, żeby śmiertelnie otruć wroga jadem",
+			"image": "",
+			"condition": {
+				"choice": "test36"
+			},
+			"points": 10
+		},
+		"1014": {
+			"id": 1014,
+			"order": 0,
+			"title": "Armia zombie",
+			"info": "Wskrześ wroga 7 razy przy pomocy Ankha, ale nie zabieraj się do wykonania egzekucji",
+			"image": "",
+			"condition": {
+				"count": 7,
+				"choice": "test37"
+			},
+			"points": 16
+		},
+		"1015": {
+			"id": 1015,
+			"order": 0,
+			"title": "Uśmierzenie",
+			"info": "Pozwól, żeby Oko Chaosu przechwyciło 10 punktów Twojej wściekłości podczas jednej walki",
+			"image": "",
+			"condition": {
+				"number": 10,
+				"choice": "test38"
+			},
+			"points": 3
+		},
+		"1016": {
+			"id": 1016,
+			"order": 0,
+			"title": "Zabłąkany",
+			"info": "Wróg powinien pokonać Cię magicznym atakiem, w którym należy powtórzyć kolejność kroków",
+			"image": "",
+			"condition": {
+				"choice": "test39"
+			},
+			"points": 6
+		},
+		"1017": {
+			"id": 1017,
+			"order": 0,
+			"title": "Pogrążenie we mgle",
+			"info": "Wróg powinien pokonać Cię magicznym atakiem przy użyciu czarnych grudek magii",
+			"image": "",
+			"condition": {
+				"choice": "test40"
+			},
+			"points": 6
+		},
+		"1018": {
+			"id": 1018,
+			"order": 0,
+			"title": "Filantropia",
+			"info": "Wykop 10 skrzynek i porozstawiaj je w lokacjach",
+			"image": "",
+			"condition": {
+				"number": 10,
+				"choice": "test41"
+			},
+			"points": 15
+		},
+		"1019": {
+			"id": 1019,
+			"order": 0,
+			"title": "Trofeum Elfów",
+			"info": "Zdobądź relikwię elfów - Graal Nieśmiertelnych",
+			"image": "",
+			"condition": {
+				"item": 304,
+				"count": 1,
+				"choice": "test22"
+			},
+			"points": 13
+		},
+		"1109": {
+			"id": 1109,
+			"order": 0,
+			"title": "I nie ma im końca",
+			"info": "Pokonaj 50 wrogów",
+			"image": "",
+			"condition": {
+				"count": 50,
+				"choice": "test45"
+			},
+			"points": 8
+		},
+		"1110": {
+			"id": 1110,
+			"order": 0,
+			"title": "Bohater ze mnie!",
+			"info": "Pokonaj 100 wrogów",
+			"image": "",
+			"condition": {
+				"count": 100,
+				"choice": "test45"
+			},
+			"points": 14
+		},
+		"1111": {
+			"id": 1111,
+			"order": 0,
+			"title": "Bojowy mag",
+			"info": "Użyj w walce magii 77 razy",
+			"image": "",
+			"condition": {
+				"count": 77,
+				"choice": "test46"
+			},
+			"points": 12
+		},
+		"1112": {
+			"id": 1112,
+			"order": 0,
+			"title": "Kolekcjoner czaszek",
+			"info": "Poszukaj w dropie 30 magicznych czaszek",
+			"image": "",
+			"condition": {
+				"item": 714,
+				"count": 30,
+				"choice": "test22"
+			},
+			"points": 15
+		},
+		"1239": {
+			"id": 1239,
+			"order": 0,
+			"title": "Legendarny kowal",
+			"info": "Utwórz jedną legendarną rzecz.",
+			"image": "",
+			"condition": {
+				"choice": "test47"
+			},
+			"points": 15,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1240": {
+			"id": 1240,
+			"order": 0,
+			"title": "Masakra",
+			"info": "Zdobądź ranking walki na 3 gwiazdy.",
+			"image": "",
+			"condition": {
+				"number": 3,
+				"choice": "test48"
+			},
+			"points": 4,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1241": {
+			"id": 1241,
+			"order": 0,
+			"title": "Dzika rzeź",
+			"info": "Zdobądź ranking walki na 4 gwiazdy.",
+			"image": "",
+			"condition": {
+				"number": 4,
+				"choice": "test48"
+			},
+			"points": 6,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1242": {
+			"id": 1242,
+			"order": 0,
+			"title": "Maniak na wolności",
+			"info": "Zdobądź maksymalny ranking walki.",
+			"image": "",
+			"condition": {
+				"number": 5,
+				"choice": "test48"
+			},
+			"points": 10,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1265": {
+			"id": 1265,
+			"order": 0,
+			"title": "Dziecięcy egzorcysta",
+			"info": "Zakończ rozdział Próba nie dla dzieci\"",
+			"image": "",
+			"condition": {
+				"location": 1182,
+				"choice": "test1"
+			},
+			"points": 20,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1266": {
+			"id": 1266,
+			"order": 0,
+			"title": "Nekromanta",
+			"info": "Zakończ rozdział Opuszczony cmentarz\"",
+			"image": "",
+			"condition": {
+				"location": 1181,
+				"choice": "test1"
+			},
+			"points": 5,
+			"minVersion": null,
+			"maxVersion": null
+		},
+		"1935": {
+			"id": 1935,
+			"order": 0,
+			"title": "Znajomość z toprami",
+			"info": "Zakończ rozdział Nora Toprów\"",
+			"image": "",
+			"condition": {
+				"location": 1862,
+				"choice": "test1"
+			},
+			"points": 6,
+			"minVersion": "2.1",
+			"maxVersion": null
+		},
+		"1936": {
+			"id": 1936,
+			"order": 0,
+			"title": "Legenda o górniku",
+			"info": "Zbierz 30000 punktów w jednej grze w kopalni",
+			"image": "",
+			"condition": {
+				"amount": 30000,
+				"choice": "test50"
+			},
+			"points": 14,
+			"minVersion": "2.1",
+			"maxVersion": null
+		},
+		"1937": {
+			"id": 1937,
+			"order": 0,
+			"title": "Obiecujący piroman",
+			"info": "W trójkolorowej kopalni zburz za jednym zamachem 10 bloków",
+			"image": "",
+			"condition": {
+				"number": 10,
+				"choice": "test49"
+			},
+			"points": 5,
+			"minVersion": "2.1",
+			"maxVersion": null
+		},
+		"1938": {
+			"id": 1938,
+			"order": 0,
+			"title": "Utalentowany piroman",
+			"info": "W trójkolorowej kopalni zburz za jednym zamachem 15 bloków",
+			"image": "",
+			"condition": {
+				"number": 15,
+				"choice": "test49"
+			},
+			"points": 8,
+			"minVersion": "2.1",
+			"maxVersion": null
+		},
+		"1939": {
+			"id": 1939,
+			"order": 0,
+			"title": "Powrót bombermana",
+			"info": "W trójkolorowej kopalni zburz za jednym zamachem 20 bloków",
+			"image": "",
+			"condition": {
+				"number": 20,
+				"choice": "test49"
+			},
+			"points": 13,
+			"minVersion": "2.1",
+			"maxVersion": null
+		}
+	}
+}

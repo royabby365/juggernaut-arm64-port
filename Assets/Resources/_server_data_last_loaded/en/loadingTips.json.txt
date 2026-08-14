@@ -1,0 +1,124 @@
+{
+	"loadingTips": {
+		"677": {
+			"id": 677,
+			"description": "Ritorna al territorio catturato per ricevere il tuo tributo e aprire le casse del tesoro"
+		},
+		"678": {
+			"id": 678,
+			"description": "Difendi il territorio catturato dai mostri per mantenere i livelli di popolazione"
+		},
+		"679": {
+			"id": 679,
+			"description": "Per avere accesso ai capitoli aggiuntivi, devi svolgere delle missioni speciali"
+		},
+		"681": {
+			"id": 681,
+			"description": "Un grimaldello si consuma per ogni tentativo fallito nell'aprire una cassa."
+		},
+		"682": {
+			"id": 682,
+			"description": "Quanto più complicato è il meccanismo della serratura, tanto più prezioso è il contenuto della cassa."
+		},
+		"683": {
+			"id": 683,
+			"description": "Usando l'indicatore rosso puoi determinare la direzione dello sguardo di un mostro. Schiverà sicuramente un attacco da questa direzione o lo bloccherà."
+		},
+		"684": {
+			"id": 684,
+			"description": "Un colpo critico è garantito per darti 2 punti mana"
+		},
+		"686": {
+			"id": 686,
+			"description": "Quanto maggiore è la furia, tanto più spesso ti farà visita l'Occhio del Caos"
+		},
+		"687": {
+			"id": 687,
+			"description": "Usa una Sfera della Furia e il prossimo attacco del mostro sarà bloccato"
+		},
+		"688": {
+			"id": 688,
+			"description": "Usa quattro Sfere della Furia e il tuo prossimo attacco sarà critico con un drop mana aumentato"
+		},
+		"689": {
+			"id": 689,
+			"description": "Usa dieci Sfere della Furia per ricevere rinforzi fino alla fine del combattimento"
+		},
+		"690": {
+			"id": 690,
+			"description": "I boss e alcuni mostri hanno un angolo visivo superiore e possono cambiare la direzione del proprio sguardo"
+		},
+		"691": {
+			"id": 691,
+			"description": "Usa i teschi incantati per aumentare il potere dei tuoi incantesimi"
+		},
+		"692": {
+			"id": 692,
+			"description": "Alcuni mostri sono immuni a determinati tipi di magia"
+		},
+		"693": {
+			"id": 693,
+			"description": "L'esecuzione permette di aprire una cassa aggiuntiva con una ricompensa"
+		},
+		"694": {
+			"id": 694,
+			"description": "Per avere l'opportunità di effettuare un'esecuzione, ottieni una runa della resurrezione uccidendo un mostro con combinazioni di colpi."
+		},
+		"695": {
+			"id": 695,
+			"description": "L'indicatore \"Potenza\" determina la potenza di un attacco"
+		},
+		"696": {
+			"id": 696,
+			"description": "L'indicatore \"Coraggio\" determina la tua probabilità di sferrare un colpo critico e annulla gli attacchi critici del nemico"
+		},
+		"697": {
+			"id": 697,
+			"description": "L'indicatore \"Magia\" determina la potenza di un attacco magico e la quantità di mana iniziale in combattimento"
+		},
+		"699": {
+			"id": 699,
+			"description": "Nelle casse sotterrate puoi trovare orecchini, anelli, artefatti, amuleti e teschi magici."
+		},
+		"702": {
+			"id": 702,
+			"description": "Ogni amuleto influenza efficacemente soltanto un tipo di magia"
+		},
+		"703": {
+			"id": 703,
+			"description": "Colleziona gli artefatti esperienza per ricevere un bonus esperienza dopo ogni combattimento"
+		},
+		"704": {
+			"id": 704,
+			"description": "Colleziona gli artefatti furia per ricevere ulteriori Sfere della Furia in combattimento"
+		},
+		"705": {
+			"id": 705,
+			"description": "Colleziona gli artefatti mana per ricevere ulteriori Sfere Mana in combattimento"
+		},
+		"706": {
+			"id": 706,
+			"description": "Colleziona gli artefatti soldi per ricevere un bonus soldi dopo ogni combattimento"
+		},
+		"707": {
+			"id": 707,
+			"description": "Ogni arma ha i suoi modi unici di esecuzione. Un'arma epica, per esempio, fa a pezzi il nemico usando delle catene gigantesche."
+		},
+		"1246": {
+			"id": 1246,
+			"description": "Dopo aver combinato un oggetto epico con punti status leggendari riceverai un oggetto leggendario"
+		},
+		"1247": {
+			"id": 1247,
+			"description": "Più colpi critici assesti in combattimento, più alta sarà la valutazione del combattimento e più punti status leggendari riceverai."
+		},
+		"1248": {
+			"id": 1248,
+			"description": "Per ricevere la valutazione massima in combattimento, aumenta il tuo Coraggio e usa la magia, le combinazioni di colpi e la tua seconda abilità Furia."
+		},
+		"1249": {
+			"id": 1249,
+			"description": "Per ricevere il punteggio massimo nel combattimento, il 70% dei colpi devono essere critici"
+		}
+	}
+}

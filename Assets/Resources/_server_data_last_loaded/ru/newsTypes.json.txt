@@ -1,0 +1,9 @@
+{
+	"newsTypes": {
+		"8": {
+			"id": 8,
+			"title": "Admin News",
+			"ord": 1
+		}
+	}
+}
