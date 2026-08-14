@@ -25,7 +25,7 @@ public static class BuildScript
         EditorUserBuildSettings.SwitchActiveBuildTarget(UnityEditor.Build.NamedBuildTarget.Android, BuildTarget.Android);
         PlayerSettings.SetScriptingBackend(UnityEditor.Build.NamedBuildTarget.Android, ScriptingImplementation.IL2CPP);
         PlayerSettings.Android.targetArchitectures = AndroidArchitecture.ARM64;
-        PlayerSettings.Android.targetSdkVersion = AndroidSdkVersions.AndroidApiLevel31;
+        PlayerSettings.Android.targetSdkVersion = AndroidSdkVersions.AndroidApiLevel30;
         PlayerSettings.Android.minSdkVersion = AndroidSdkVersions.AndroidApiLevel22;
         PlayerSettings.Android.forceInternetPermission = true;
         PlayerSettings.bundleVersion = "2.4.3";
