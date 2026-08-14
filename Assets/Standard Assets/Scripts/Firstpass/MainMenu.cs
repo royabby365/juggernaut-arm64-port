@@ -57,7 +57,7 @@ public class MainMenu : MonoBehaviour
 
 	public Material MaterialBlood;
 
-	public Battle Battle;
+	internal Battle Battle;
 
 	public GameObject PrefabGuiBattleHud;
 
@@ -125,9 +125,9 @@ public class MainMenu : MonoBehaviour
 
 	internal SocialAspect Social { get; private set; }
 
-	public static GameEvents GameEvents => _gameEvents;
+	internal static GameEvents GameEvents => _gameEvents;
 
-	public static Tutorials Tutorials => _tutorials;
+	internal static Tutorials Tutorials => _tutorials;
 
 	private bool IsInFight
 	{
