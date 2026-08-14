@@ -29,6 +29,7 @@ public static class BuildScript
         PlayerSettings.Android.minSdkVersion = AndroidSdkVersions.AndroidApiLevel22;
         PlayerSettings.Android.forceInternetPermission = true;
         PlayerSettings.bundleVersion = "2.4.3";
+        PlayerSettings.productName = "Juggernaut";
         PlayerSettings.Android.bundleVersionCode = 1;
 
         // ---- 2. Guarantee a scene to pack (Unity requires >= 1 scene)
