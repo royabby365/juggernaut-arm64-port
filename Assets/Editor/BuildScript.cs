@@ -48,9 +48,21 @@ public static class BuildScript
             camGo.AddComponent<AudioListener>();
 
             var splashGo = new GameObject("BootSplashText");
-            // Canvas + UI Text added at runtime by BootTextInitializer
-            // (avoids needing UnityEngine.UI referenced in the Editor assembly).
-            splashGo.AddComponent<BootTextInitializer>();
+            splashGo.transform.position = new Vector3(0f, 0f, 5f);
+            var text = splashGo.AddComponent<TextMesh>();
+            text.text = "Juggernaut\narm64 port build\n(boot scene - game content TBD)";
+            text.fontSize = 48;
+            text.characterSize = 0.08f;
+            // CRITICAL: assign a font explicitly. TextMesh with font == null
+            // serializes no font reference, so the runtime generates zero glyphs
+            // (every character quad is untextured -> white blocks from far away).
+            var font = Resources.GetBuiltinResource<Font>("Arial.ttf");
+            if (font == null) font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
+            if (font == null) font = AssetDatabase.LoadAssetAtPath<Font>("Assets/Fonts/BootFont.ttf");
+            if (font != null) text.font = font;
+            else Debug.LogWarning("[BuildScript] No font found – boot text renders as blocks");
+            var mr = splashGo.GetComponent<MeshRenderer>();
+            if (mr != null) mr.sharedMaterial = new Material(Shader.Find("GUI/Text Shader"));
 
             EditorSceneManager.SaveScene(scene, sceneDir + "/BootSplash.unity");
             EditorBuildSettings.scenes = new[] { new EditorBuildSettingsScene(sceneDir + "/BootSplash.unity", true) };
