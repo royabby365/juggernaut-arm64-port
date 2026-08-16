@@ -21,5 +21,7 @@ public class AppLoader : MonoBehaviour
 
         var mainMenuGo = new GameObject("MainMenuHost");
         mainMenuGo.AddComponent<MainMenu>();
+        // Add SaveLoadProtobuf component required by CreateServerData for protobuf path
+        mainMenuGo.AddComponent<SaveLoadProtobuf>();
     }
 }
