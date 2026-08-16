@@ -9,8 +9,10 @@ public class AppLoader : MonoBehaviour
         // Ensure AtlasManager does not hang looking for non-existent bundles if unconfigured
         Globals.DebugDoNotLoadAtlases = true;
         Globals.DebugStartMenuSimple = true;
-        // Our local Resources are unencrypted JSON, not the encrypted/compressed admin format
-        Globals.UseJsonAdmin = false;
+        // Our local Resources are plaintext JSON (not encrypted admin format)
+        // UseJsonAdmin=true chooses JSON path over protobuf
+        // UseEncryptedJsonAdmin=false chooses plaintext over encrypted/compressed
+        Globals.UseJsonAdmin = true;
         Globals.UseEncryptedJsonAdmin = false;
         Debug.Log($"[AppLoader] EarlyBootstrap: UseJsonAdmin={Globals.UseJsonAdmin}, UseEncryptedJsonAdmin={Globals.UseEncryptedJsonAdmin}");
     }
