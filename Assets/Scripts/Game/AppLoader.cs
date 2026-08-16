@@ -10,8 +10,9 @@ public class AppLoader : MonoBehaviour
         Globals.DebugDoNotLoadAtlases = true;
         Globals.DebugStartMenuSimple = true;
         // Our local Resources are unencrypted JSON, not the encrypted/compressed admin format
+        Globals.UseJsonAdmin = false;
         Globals.UseEncryptedJsonAdmin = false;
-        Debug.Log($"[AppLoader] EarlyBootstrap: UseEncryptedJsonAdmin={Globals.UseEncryptedJsonAdmin}");
+        Debug.Log($"[AppLoader] EarlyBootstrap: UseJsonAdmin={Globals.UseJsonAdmin}, UseEncryptedJsonAdmin={Globals.UseEncryptedJsonAdmin}");
     }
 
     private void Start()
