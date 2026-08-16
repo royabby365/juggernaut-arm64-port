@@ -5,11 +5,13 @@ public class AppLoader : MonoBehaviour
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
     private static void EarlyBootstrap()
     {
+        Debug.Log("[AppLoader] EarlyBootstrap: Setting debug flags BEFORE scene load");
         // Ensure AtlasManager does not hang looking for non-existent bundles if unconfigured
         Globals.DebugDoNotLoadAtlases = true;
         Globals.DebugStartMenuSimple = true;
         // Our local Resources are unencrypted JSON, not the encrypted/compressed admin format
         Globals.UseEncryptedJsonAdmin = false;
+        Debug.Log($"[AppLoader] EarlyBootstrap: UseEncryptedJsonAdmin={Globals.UseEncryptedJsonAdmin}");
     }
 
     private void Start()
