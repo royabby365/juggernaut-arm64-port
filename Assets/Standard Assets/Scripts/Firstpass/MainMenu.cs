@@ -127,7 +127,7 @@ public class MainMenu : MonoBehaviour
 
 	public static GameEvents GameEvents => _gameEvents;
 
-	public static Tutorials Tutorials => _tutorials;
+	internal static Tutorials Tutorials => _tutorials;
 
 	private bool IsInFight
 	{
