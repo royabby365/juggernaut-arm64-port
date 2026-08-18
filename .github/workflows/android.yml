@@ -21,11 +21,16 @@ jobs:
 
       - name: Download game assets (StreamingAssets bundles + atlas textures)
         run: |
-          ASSET_URL="https://github.com/${{ github.repository }}/releases/download/game-assets-v1/juggernaut-game-assets.tar.gz"
-          echo "[assets] downloading from ${ASSET_URL}"
+          # Private repo: browser-style /releases/download/ URL returns 404 even
+          # with a token; the API asset endpoint with Accept: octet-stream works.
+          ASSET_ID=$(curl -s -H "Authorization: Bearer ${{ github.token }}" \
+            "https://api.github.com/repos/${{ github.repository }}/releases/tags/game-assets-v1" \
+            | python3 -c "import sys,json; d=json.load(sys.stdin); print([a['id'] for a in d['assets'] if a['name']=='juggernaut-game-assets.tar.gz'][0])")
+          echo "[assets] asset_id=$ASSET_ID"
           curl -fL --retry 3 -o /tmp/juggernaut-game-assets.tar.gz \
             -H "Authorization: Bearer ${{ github.token }}" \
-            "$ASSET_URL"
+            -H "Accept: application/octet-stream" \
+            "https://api.github.com/repos/${{ github.repository }}/releases/assets/$ASSET_ID"
           ls -la /tmp/juggernaut-game-assets.tar.gz
           echo "[assets] extracting..."
           tar xzf /tmp/juggernaut-game-assets.tar.gz -C "${{ github.workspace }}"
