@@ -92,9 +92,9 @@ docker run --rm \
       -executeMethod BuildScript.BuildPlayer \
       -buildVersion '"$VERSION"' -androidVersionCode '"$VERSION_CODE"' \
       -androidExportType androidPackage -androidSymbolType none \
-      2>&1 | grep -vE "Player connection|Desktop is|Initialize udev|memorysetup|Licensing" | tail -120
+      2>&1 | tail -200
   '; echo "[container] done"
 RC=$?
 echo "[local_build] container exit=$RC"
-ls -la "$REPO/build/Android/" 2>/dev/null | grep -E "apk|aab" && echo "[local_build] APK produced" || echo "[local_build] no APK yet"
+ls -la "$REPO/build/"*.apk 2>/dev/null && echo "[local_build] APK produced (build/juggernaut-arm64.apk)" || echo "[local_build] no APK yet"
 exit $RC

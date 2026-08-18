@@ -70,6 +70,11 @@ public static class BuildScript
             var appLoaderGo = new GameObject("AppLoaderHost");
             appLoaderGo.AddComponent<AppLoader>();
 
+            // Force Standard shader inclusion (MeshRenderer default material uses it)
+            var dummyRef = new GameObject("StandardShaderRef");
+            dummyRef.transform.position = Vector3.zero;
+            dummyRef.AddComponent<MeshRenderer>();
+
             EditorSceneManager.SaveScene(scene, sceneDir + "/BootSplash.unity");
             EditorBuildSettings.scenes = new[] { new EditorBuildSettingsScene(sceneDir + "/BootSplash.unity", true) };
         }

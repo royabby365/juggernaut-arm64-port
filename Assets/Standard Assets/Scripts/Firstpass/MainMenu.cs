@@ -1535,9 +1535,19 @@ public class MainMenu : MonoBehaviour
 
 	private Camera CreateBattleCamera()
 	{
+		Debug.Log("[MainMenu] CreateBattleCamera called");
 		GameObject gameObject = SingletonT<ResourcesManager>.I.CreateSceneObject("__battle_camera");
+		Debug.Log($"[MainMenu] CreateBattleCamera got GO: {gameObject?.name ?? "NULL"}");
+		if (gameObject == null)
+		{
+			Debug.LogWarning("[MainMenu] CreateBattleCamera: __battle_camera returned null!");
+			return null;
+		}
 		gameObject.name = Globals.LocationGameObjectBattleCamera;
-		return gameObject.transform.FindChildByName("camera_upper").GetComponent<Camera>();
+		var camChild = gameObject.transform.FindChildByName("camera_upper");
+		Debug.Log($"[MainMenu] camera_upper found: {camChild != null}");
+		if (camChild == null) return null;
+		return camChild.GetComponent<Camera>();
 	}
 
 	private void GoToBattleFromLocation(ServerData.BotInfo bot)
