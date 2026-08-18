@@ -19,6 +19,19 @@ jobs:
           docker system prune -af --volumes
           df -h / | tail -1
 
+      - name: Download game assets (StreamingAssets bundles + atlas textures)
+        run: |
+          ASSET_URL="https://github.com/${{ github.repository }}/releases/download/game-assets-v1/juggernaut-game-assets.tar.gz"
+          echo "[assets] downloading from ${ASSET_URL}"
+          curl -fL --retry 3 -o /tmp/juggernaut-game-assets.tar.gz \
+            -H "Authorization: Bearer ${{ github.token }}" \
+            "$ASSET_URL"
+          ls -la /tmp/juggernaut-game-assets.tar.gz
+          echo "[assets] extracting..."
+          tar xzf /tmp/juggernaut-game-assets.tar.gz -C "${{ github.workspace }}"
+          echo "[assets] extracted:"
+          du -sh Assets/StreamingAssets Assets/Resources/__atlases Assets/Resources/__textures
+
       - name: Extract serial from .ulf for Personal license
         id: extract-serial
         run: |
