@@ -6,7 +6,7 @@ using UnityEngine;
 using Yarx;
 using Yarx.Collections;
 
-internal class MainMenu : MonoBehaviour
+public class MainMenu : MonoBehaviour
 {
 	internal enum EventTypeE
 	{
