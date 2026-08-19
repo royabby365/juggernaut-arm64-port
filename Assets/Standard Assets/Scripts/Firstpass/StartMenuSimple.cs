@@ -40,7 +40,7 @@ internal class StartMenuSimple : MonoBehaviour
 
 		// Title
 		GUI.Label(new Rect(blockX, blockY, menuW, 70f), "JUGGERNAUT", _titleStyle);
-		GUI.Label(new Rect(blockX, blockY + 70f, menuW, 30f), "arm64 port - local build", _hintStyle);
+		GUI.Label(new Rect(blockX, blockY + 70f, menuW, 30f), "Android port", _hintStyle);
 
 		float btnY = blockY + 130f;
 		float btnH = 70f;
