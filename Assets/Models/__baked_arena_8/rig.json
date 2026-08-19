@@ -1,0 +1,233 @@
+[
+ {
+  "part": "Plane003",
+  "obj": "Plane003.obj",
+  "texture": "arena_08_floor_decals",
+  "mesh": "Plane003",
+  "verts": 4
+ },
+ {
+  "part": "Plane003",
+  "obj": "Plane003_164.obj",
+  "texture": "",
+  "mesh": "Plane003",
+  "verts": 4
+ },
+ {
+  "part": "Plane003",
+  "obj": "Plane003_165.obj",
+  "texture": "arena_08_floor_decals",
+  "mesh": "Plane003",
+  "verts": 4
+ },
+ {
+  "part": "center",
+  "obj": "center.obj",
+  "texture": "",
+  "mesh": "center",
+  "verts": 54
+ },
+ {
+  "part": "tree001",
+  "obj": "tree001.obj",
+  "texture": "08_02",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "Plane002",
+  "obj": "Plane002.obj",
+  "texture": "",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "Plane003",
+  "obj": "Plane003_169.obj",
+  "texture": "arena_08_floor_decals",
+  "mesh": "Plane003",
+  "verts": 4
+ },
+ {
+  "part": "Plane001",
+  "obj": "Plane001.obj",
+  "texture": "",
+  "mesh": "Plane001",
+  "verts": 4
+ },
+ {
+  "part": "ruins02",
+  "obj": "ruins02.obj",
+  "texture": "08_04",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "background",
+  "obj": "background.obj",
+  "texture": "",
+  "mesh": "background",
+  "verts": 60
+ },
+ {
+  "part": "Plane003",
+  "obj": "Plane003_173.obj",
+  "texture": "arena_08_floor_decals",
+  "mesh": "Plane003",
+  "verts": 4
+ },
+ {
+  "part": "Plane003",
+  "obj": "Plane003_174.obj",
+  "texture": "arena_08_floor_decals",
+  "mesh": "Plane003",
+  "verts": 4
+ },
+ {
+  "part": "ruins02",
+  "obj": "ruins02_175.obj",
+  "texture": "08_04",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "ruins02",
+  "obj": "ruins02_176.obj",
+  "texture": "08_04",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "ruins01",
+  "obj": "ruins01.obj",
+  "texture": "08_03",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "ruins01",
+  "obj": "ruins01_178.obj",
+  "texture": "08_03",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "ruins01",
+  "obj": "ruins01_179.obj",
+  "texture": "08_03",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "tree001",
+  "obj": "tree001_180.obj",
+  "texture": "08_02",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "tree001",
+  "obj": "tree001_181.obj",
+  "texture": "08_01",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "background",
+  "obj": "background_182.obj",
+  "texture": "arena_08_bg_01",
+  "mesh": "background",
+  "verts": 60
+ },
+ {
+  "part": "tree001",
+  "obj": "tree001_183.obj",
+  "texture": "08_01",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "tree001",
+  "obj": "tree001_184.obj",
+  "texture": "08_02",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "tree001",
+  "obj": "tree001_185.obj",
+  "texture": "08_01",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "ruins02",
+  "obj": "ruins02_186.obj",
+  "texture": "08_04",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "Plane003",
+  "obj": "Plane003_187.obj",
+  "texture": "arena_08_floor_decals",
+  "mesh": "Plane003",
+  "verts": 4
+ },
+ {
+  "part": "Plane003",
+  "obj": "Plane003_188.obj",
+  "texture": "arena_08_floor_decals",
+  "mesh": "Plane003",
+  "verts": 4
+ },
+ {
+  "part": "Plane003",
+  "obj": "Plane003_189.obj",
+  "texture": "arena_08_floor_decals",
+  "mesh": "Plane003",
+  "verts": 4
+ },
+ {
+  "part": "Plane003",
+  "obj": "Plane003_190.obj",
+  "texture": "arena_08_floor_decals",
+  "mesh": "Plane003",
+  "verts": 4
+ },
+ {
+  "part": "Plane003",
+  "obj": "Plane003_191.obj",
+  "texture": "arena_08_floor_decals",
+  "mesh": "Plane003",
+  "verts": 4
+ },
+ {
+  "part": "Plane003",
+  "obj": "Plane003_192.obj",
+  "texture": "arena_08_floor_decals",
+  "mesh": "Plane003",
+  "verts": 4
+ },
+ {
+  "part": "floor",
+  "obj": "floor.obj",
+  "texture": "ground_01",
+  "mesh": "Plane001",
+  "verts": 4
+ },
+ {
+  "part": "tree001",
+  "obj": "tree001_194.obj",
+  "texture": "08_01",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "center",
+  "obj": "center_195.obj",
+  "texture": "ground_01",
+  "mesh": "center",
+  "verts": 54
+ }
+]

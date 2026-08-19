@@ -1,0 +1,7 @@
+newmtl Plane003_139
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd ../../Resources/__textures/arena_04_floor_decals.png

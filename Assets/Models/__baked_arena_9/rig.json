@@ -1,0 +1,331 @@
+[
+ {
+  "part": "Plane003",
+  "obj": "Plane003.obj",
+  "texture": "ground_d",
+  "mesh": "Plane003",
+  "verts": 4
+ },
+ {
+  "part": "Plane003",
+  "obj": "Plane003_149.obj",
+  "texture": "",
+  "mesh": "Plane003",
+  "verts": 4
+ },
+ {
+  "part": "Plane003",
+  "obj": "Plane003_150.obj",
+  "texture": "ground_d",
+  "mesh": "Plane003",
+  "verts": 4
+ },
+ {
+  "part": "center",
+  "obj": "center.obj",
+  "texture": "",
+  "mesh": "center",
+  "verts": 54
+ },
+ {
+  "part": "tree001",
+  "obj": "tree001.obj",
+  "texture": "09_1",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "Plane002",
+  "obj": "Plane002.obj",
+  "texture": "",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "Plane003",
+  "obj": "Plane003_154.obj",
+  "texture": "ground_d",
+  "mesh": "Plane003",
+  "verts": 4
+ },
+ {
+  "part": "Plane001",
+  "obj": "Plane001.obj",
+  "texture": "",
+  "mesh": "Plane001",
+  "verts": 4
+ },
+ {
+  "part": "tree001",
+  "obj": "tree001_156.obj",
+  "texture": "09_2",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "background",
+  "obj": "background.obj",
+  "texture": "",
+  "mesh": "background",
+  "verts": 60
+ },
+ {
+  "part": "Plane003",
+  "obj": "Plane003_158.obj",
+  "texture": "ground_d",
+  "mesh": "Plane003",
+  "verts": 4
+ },
+ {
+  "part": "Plane003",
+  "obj": "Plane003_159.obj",
+  "texture": "ground_d",
+  "mesh": "Plane003",
+  "verts": 4
+ },
+ {
+  "part": "tree001",
+  "obj": "tree001_160.obj",
+  "texture": "09_2",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "tree001",
+  "obj": "tree001_161.obj",
+  "texture": "09_2",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "tree001",
+  "obj": "tree001_162.obj",
+  "texture": "09_1",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "tree001",
+  "obj": "tree001_163.obj",
+  "texture": "09_1",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "tree001",
+  "obj": "tree001_164.obj",
+  "texture": "09_1",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "tree001",
+  "obj": "tree001_165.obj",
+  "texture": "09_1",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "tree001",
+  "obj": "tree001_166.obj",
+  "texture": "09_1",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "tree001",
+  "obj": "tree001_167.obj",
+  "texture": "09_1",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "tree001",
+  "obj": "tree001_168.obj",
+  "texture": "09_2",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "tree001",
+  "obj": "tree001_169.obj",
+  "texture": "09_2",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "tree001",
+  "obj": "tree001_170.obj",
+  "texture": "09_2",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "tree001",
+  "obj": "tree001_171.obj",
+  "texture": "09_1",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "tree001",
+  "obj": "tree001_172.obj",
+  "texture": "09_1",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "tree001",
+  "obj": "tree001_173.obj",
+  "texture": "09_2",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "tree001",
+  "obj": "tree001_174.obj",
+  "texture": "09_2",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "tree001",
+  "obj": "tree001_175.obj",
+  "texture": "09_2",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "tree001",
+  "obj": "tree001_176.obj",
+  "texture": "09_1",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "tree001",
+  "obj": "tree001_177.obj",
+  "texture": "09_1",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "tree001",
+  "obj": "tree001_178.obj",
+  "texture": "09_1",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "tree001",
+  "obj": "tree001_179.obj",
+  "texture": "09_1",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "tree001",
+  "obj": "tree001_180.obj",
+  "texture": "09_1",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "tree001",
+  "obj": "tree001_181.obj",
+  "texture": "09_1",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "tree001",
+  "obj": "tree001_182.obj",
+  "texture": "09_2",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "tree001",
+  "obj": "tree001_183.obj",
+  "texture": "09_2",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "tree001",
+  "obj": "tree001_184.obj",
+  "texture": "09_2",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "tree001",
+  "obj": "tree001_185.obj",
+  "texture": "09_1",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "background",
+  "obj": "background_186.obj",
+  "texture": "09_bg_01",
+  "mesh": "background",
+  "verts": 60
+ },
+ {
+  "part": "Plane003",
+  "obj": "Plane003_187.obj",
+  "texture": "ground_d",
+  "mesh": "Plane003",
+  "verts": 4
+ },
+ {
+  "part": "Plane003",
+  "obj": "Plane003_188.obj",
+  "texture": "ground_d",
+  "mesh": "Plane003",
+  "verts": 4
+ },
+ {
+  "part": "Plane003",
+  "obj": "Plane003_189.obj",
+  "texture": "ground_d",
+  "mesh": "Plane003",
+  "verts": 4
+ },
+ {
+  "part": "Plane003",
+  "obj": "Plane003_190.obj",
+  "texture": "ground_d",
+  "mesh": "Plane003",
+  "verts": 4
+ },
+ {
+  "part": "Plane003",
+  "obj": "Plane003_191.obj",
+  "texture": "ground_d",
+  "mesh": "Plane003",
+  "verts": 4
+ },
+ {
+  "part": "Plane003",
+  "obj": "Plane003_192.obj",
+  "texture": "ground_d",
+  "mesh": "Plane003",
+  "verts": 4
+ },
+ {
+  "part": "floor",
+  "obj": "floor.obj",
+  "texture": "ground",
+  "mesh": "Plane001",
+  "verts": 4
+ },
+ {
+  "part": "center",
+  "obj": "center_194.obj",
+  "texture": "ground",
+  "mesh": "center",
+  "verts": 54
+ }
+]

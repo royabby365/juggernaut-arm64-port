@@ -55,35 +55,43 @@ public static class ArenaBuilder
         Texture2D bgTex1 = Resources.Load<Texture2D>($"__textures/{tex.Bg01}");
         Texture2D bgTex2 = Resources.Load<Texture2D>($"__textures/{tex.Bg02}");
 
-        // Create background — a large quad behind the arena
-        if (bgTex1 != null)
-        {
-            var bg = CreateTexturedQuad($"Background_{arenaIndex}_1", bgTex1, 12f, 9f);
-            bg.transform.SetParent(root.transform);
-            bg.transform.position = new Vector3(0, 2.5f, -12); // Behind everything
-            bg.transform.Rotate(0, 0, 0);
-            // Flip for correct orientation (the texture is a painting seen front-on)
-            bg.transform.localScale = new Vector3(12, 9, 1);
-        }
+        // Try to build the REAL baked arena geometry from Resources/__arena<N>
+        // (extracted + bind-baked from the original OBB scene bundle). Falls
+        // back to the painted quad background below if meshes are missing.
+        bool realGeometry = BuildArenaGeometry(root, arenaIndex);
 
-        if (bgTex2 != null)
+        if (!realGeometry)
         {
-            // Second background plane — often a different depth layer
-            var bg2 = CreateTexturedQuad($"Background_{arenaIndex}_2", bgTex2, 10f, 7.5f);
-            bg2.transform.SetParent(root.transform);
-            bg2.transform.position = new Vector3(0, 2.5f, -11.5f);
-            bg2.transform.localScale = new Vector3(10, 7.5f, 1);
-        }
+            // Create background — a large quad behind the arena
+            if (bgTex1 != null)
+            {
+                var bg = CreateTexturedQuad($"Background_{arenaIndex}_1", bgTex1, 12f, 9f);
+                bg.transform.SetParent(root.transform);
+                bg.transform.position = new Vector3(0, 2.5f, -12); // Behind everything
+                bg.transform.Rotate(0, 0, 0);
+                // Flip for correct orientation (the texture is a painting seen front-on)
+                bg.transform.localScale = new Vector3(12, 9, 1);
+            }
 
-        // Floor
-        Texture2D floorTex = Resources.Load<Texture2D>($"__textures/{tex.Floor}");
-        if (floorTex != null)
-        {
-            var floor = CreateTexturedQuad("Floor", floorTex, 10f, 10f);
-            floor.transform.SetParent(root.transform);
-            floor.transform.position = new Vector3(0, -0.5f, 0);
-            floor.transform.Rotate(-90, 0, 0); // Flat on ground
-            floor.transform.localScale = new Vector3(10, 10, 1);
+            if (bgTex2 != null)
+            {
+                // Second background plane — often a different depth layer
+                var bg2 = CreateTexturedQuad($"Background_{arenaIndex}_2", bgTex2, 10f, 7.5f);
+                bg2.transform.SetParent(root.transform);
+                bg2.transform.position = new Vector3(0, 2.5f, -11.5f);
+                bg2.transform.localScale = new Vector3(10, 7.5f, 1);
+            }
+
+            // Floor
+            Texture2D floorTex = Resources.Load<Texture2D>($"__textures/{tex.Floor}");
+            if (floorTex != null)
+            {
+                var floor = CreateTexturedQuad("Floor", floorTex, 10f, 10f);
+                floor.transform.SetParent(root.transform);
+                floor.transform.position = new Vector3(0, -0.5f, 0);
+                floor.transform.Rotate(-90, 0, 0); // Flat on ground
+                floor.transform.localScale = new Vector3(10, 10, 1);
+            }
         }
 
         // Directional light
@@ -94,7 +102,63 @@ public static class ArenaBuilder
         light.intensity = 0.8f;
         light.transform.rotation = Quaternion.Euler(50, -30, 0);
 
+        // Spawn the baked warrior at arena center (bind-pose meshes from __char)
+        var warrior = CharacterBuilder.Build();
+        if (warrior != null)
+        {
+            warrior.transform.SetParent(root.transform);
+            warrior.transform.position = new Vector3(0f, 0f, 0f);
+            var idle = warrior.AddComponent<CharacterIdle>();
+            idle.Enabled = true;
+        }
+
         return root;
+    }
+
+    /// <summary>
+    /// Build the arena from the baked bind-pose geometry (Resources/__arena&lt;N&gt;).
+    /// Each part OBJ was baked at its world transform from the OBB scene bundle,
+    /// so parts are simply parented at the origin. Returns false if no meshes.
+    /// </summary>
+    private static bool BuildArenaGeometry(GameObject root, int arenaIndex)
+    {
+        Shader shader = Shader.Find("Hidden/JuggernautPlaceholder");
+        if (shader == null) return false;
+
+        string folder = $"__arena{arenaIndex}";
+        Mesh[] meshes = Resources.LoadAll<Mesh>(folder);
+        if (meshes == null || meshes.Length == 0) return false;
+
+        foreach (Mesh mesh in meshes)
+        {
+            string nm = mesh.name;
+            var go = new GameObject(nm);
+            go.transform.SetParent(root.transform);
+            go.AddComponent<MeshFilter>().sharedMesh = mesh;
+            var mr = go.AddComponent<MeshRenderer>();
+            Texture2D tex = ResolveArenaTexture(nm, folder);
+            var mat = new Material(shader);
+            if (tex != null) mat.mainTexture = tex;
+            else mat.color = new Color(0.55f, 0.58f, 0.62f);
+            mr.sharedMaterial = mat;
+        }
+        Debug.Log($"[ArenaBuilder] real arena geometry loaded ({meshes.Length} parts) for index {arenaIndex}");
+        return true;
+    }
+
+    private static Texture2D ResolveArenaTexture(string partName, string folder)
+    {
+        // Material convention (see scripts/bake_arena.py fallback map).
+        // Match by role prefix because baked parts carry _NNN dedupe suffixes.
+        string texName = null;
+        if (partName.StartsWith("Plane001")) texName = "01_tile";              // base floor
+        else if (partName.StartsWith("floor")) texName = "01_tile";            // tiled floor
+        else if (partName.StartsWith("Plane002")) texName = "arena_01_bg_02";  // side wall
+        else if (partName.StartsWith("Plane003")) texName = "arena_08_floor_decals"; // floor decals
+        else if (partName.StartsWith("center")) texName = "arena_08_floor_decals";
+        else if (partName.StartsWith("background")) texName = "arena_01_bg_01";
+        if (texName == null) return null;
+        return Resources.Load<Texture2D>($"__textures/{texName}");
     }
 
     private static GameObject CreateTexturedQuad(string name, Texture2D texture, float width, float height)
