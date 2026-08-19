@@ -2,6 +2,13 @@
 
 # Juggernaut: Revenge of Sovering — 64-bit (arm64) Unity Port
 
+## Cite this work
+
+**DOI: [10.5281/zenodo.22017430](https://doi.org/10.5281/zenodo.22017430)** (Zenodo, v1.0.1) — concept DOI: 10.5281/zenodo.22017429
+
+Recommended citation:
+> Abernathy, R. U. (2026). *Reviving Abandonware with AI-Assisted Porting: The Juggernaut: Revenge of Sovering ARM64 Case Study* (v1.0.1). Zenodo. https://doi.org/10.5281/zenodo.22017430
+
 Decompiled (2026-07-17) and lifted into a **Unity 2021.3.45f1** project targeting
 **Android arm64-v8a + IL2CPP**, so it runs on 64-bit-only devices (Pixel 10 Pro,
 Android 16). Public repo — the game itself is a proprietary MY.GAMES title;
