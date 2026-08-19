@@ -1505,7 +1505,10 @@ public class MainMenu : MonoBehaviour
 		AreaData.MakeCurrent(location, zachistka: false);
 		Globals.GameScreen = Globals.GameScreenE.Location;
 		Utils.Log("**********GOTOLOCATION", location);
-		_hud.ChangeGuiTo(new HudMk1.GuiDesc(GuiRoot.GuiType.Location, Yarx.Collections.Tuple.Create(location)));
+		if (_hud != null)
+		{
+			_hud.ChangeGuiTo(new HudMk1.GuiDesc(GuiRoot.GuiType.Location, Yarx.Collections.Tuple.Create(location)));
+		}
 	}
 
 	private bool IsLocationButton(SpriteButton button, string prefix, ref ServerData.Location location)
@@ -1666,7 +1669,14 @@ public class MainMenu : MonoBehaviour
 		battle.SelectGui = battle.GetComponent<SelectGui>();
 		if (!Globals.IgnoreHud)
 		{
-			_hud.ChangeGuiTo(GuiRoot.GuiType.Fight);
+			if (_hud != null)
+			{
+				_hud.ChangeGuiTo(GuiRoot.GuiType.Fight);
+			}
+			else
+			{
+				Debug.Log("[GoToBattleFromMap] _hud is null, skipping ChangeGuiTo (placeholder mode)");
+			}
 		}
 		else
 		{
