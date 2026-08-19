@@ -1,0 +1,135 @@
+[
+ {
+  "part": "Plane003",
+  "obj": "Plane003.obj",
+  "texture": "",
+  "mesh": "Plane003",
+  "verts": 4
+ },
+ {
+  "part": "center",
+  "obj": "center.obj",
+  "texture": "",
+  "mesh": "center",
+  "verts": 54
+ },
+ {
+  "part": "Plane002",
+  "obj": "Plane002.obj",
+  "texture": "",
+  "mesh": "Plane002",
+  "verts": 4
+ },
+ {
+  "part": "Plane001",
+  "obj": "Plane001.obj",
+  "texture": "",
+  "mesh": "Plane001",
+  "verts": 4
+ },
+ {
+  "part": "background",
+  "obj": "background.obj",
+  "texture": "",
+  "mesh": "background",
+  "verts": 60
+ },
+ {
+  "part": "background",
+  "obj": "background_159.obj",
+  "texture": "arena_01_bg_01",
+  "mesh": "background",
+  "verts": 60
+ },
+ {
+  "part": "Plane003",
+  "obj": "Plane003_160.obj",
+  "texture": "arena_08_floor_decals",
+  "mesh": "Plane003",
+  "verts": 4
+ },
+ {
+  "part": "Plane003",
+  "obj": "Plane003_161.obj",
+  "texture": "arena_08_floor_decals",
+  "mesh": "Plane003",
+  "verts": 4
+ },
+ {
+  "part": "Plane003",
+  "obj": "Plane003_162.obj",
+  "texture": "arena_08_floor_decals",
+  "mesh": "Plane003",
+  "verts": 4
+ },
+ {
+  "part": "Plane003",
+  "obj": "Plane003_163.obj",
+  "texture": "arena_08_floor_decals",
+  "mesh": "Plane003",
+  "verts": 4
+ },
+ {
+  "part": "Plane003",
+  "obj": "Plane003_164.obj",
+  "texture": "arena_08_floor_decals",
+  "mesh": "Plane003",
+  "verts": 4
+ },
+ {
+  "part": "Plane003",
+  "obj": "Plane003_165.obj",
+  "texture": "arena_08_floor_decals",
+  "mesh": "Plane003",
+  "verts": 4
+ },
+ {
+  "part": "Plane003",
+  "obj": "Plane003_166.obj",
+  "texture": "arena_08_floor_decals",
+  "mesh": "Plane003",
+  "verts": 4
+ },
+ {
+  "part": "Plane003",
+  "obj": "Plane003_167.obj",
+  "texture": "arena_08_floor_decals",
+  "mesh": "Plane003",
+  "verts": 4
+ },
+ {
+  "part": "Plane003",
+  "obj": "Plane003_168.obj",
+  "texture": "arena_08_floor_decals",
+  "mesh": "Plane003",
+  "verts": 4
+ },
+ {
+  "part": "Plane003",
+  "obj": "Plane003_169.obj",
+  "texture": "arena_08_floor_decals",
+  "mesh": "Plane003",
+  "verts": 4
+ },
+ {
+  "part": "Plane003",
+  "obj": "Plane003_170.obj",
+  "texture": "arena_08_floor_decals",
+  "mesh": "Plane003",
+  "verts": 4
+ },
+ {
+  "part": "floor",
+  "obj": "floor.obj",
+  "texture": "01_tile",
+  "mesh": "Plane001",
+  "verts": 4
+ },
+ {
+  "part": "center",
+  "obj": "center_172.obj",
+  "texture": "01_tile",
+  "mesh": "center",
+  "verts": 54
+ }
+]
