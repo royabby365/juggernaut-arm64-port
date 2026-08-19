@@ -57,7 +57,7 @@ public class MainMenu : MonoBehaviour
 
 	public Material MaterialBlood;
 
-	public Battle Battle;
+	internal Battle Battle;
 
 	public GameObject PrefabGuiBattleHud;
 
@@ -125,7 +125,7 @@ public class MainMenu : MonoBehaviour
 
 	internal SocialAspect Social { get; private set; }
 
-	public static GameEvents GameEvents => _gameEvents;
+	internal static GameEvents GameEvents => _gameEvents;
 
 	internal static Tutorials Tutorials => _tutorials;
 
@@ -754,6 +754,18 @@ public class MainMenu : MonoBehaviour
 
 	private void AfterPersonLoaded(Action onLoad)
 	{
+		if (Globals.DebugNoBundles)
+		{
+			Utils.Log("AfterPersonLoaded: skipping armor/animation (no-bundles fallback)");
+			if (Globals.PlayerGameObject != null)
+			{
+				Globals.PlayerGameObject.SetActiveRecursivelyMk1(setActive: false);
+			}
+			OnMsgGameScreenChanged();
+			SingletonT<SoundManager>.I.CacheGlobalSounds(this);
+			onLoad();
+			return;
+		}
 		PersonArmor personArmor = Globals.PlayerGameObject.GetComponent<PersonArmor>();
 		string modelId = ((SingletonT<ServerData>.I.PlayerServerPersData == null) ? "1" : SingletonT<ServerData>.I.PlayerServerPersData.ModelId);
 		personArmor.PutAllPlayerArmor(modelId, null, noWeapon: false, delegate
@@ -885,9 +897,16 @@ public class MainMenu : MonoBehaviour
 
 	private void Start()
 	{
-		AndroidJavaClass androidJavaClass = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
-		AndroidJavaObject androidJavaObject = androidJavaClass.GetStatic<AndroidJavaObject>("currentActivity");
-		androidJavaObject.Call("registerOrLoginUserWithId", SystemInfo.deviceUniqueIdentifier);
+		try
+		{
+			AndroidJavaClass androidJavaClass = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
+			AndroidJavaObject androidJavaObject = androidJavaClass.GetStatic<AndroidJavaObject>("currentActivity");
+			androidJavaObject.Call("registerOrLoginUserWithId", SystemInfo.deviceUniqueIdentifier);
+		}
+		catch (System.Exception ex)
+		{
+			Debug.Log("registerOrLoginUserWithId failed: " + ex.Message);
+		}
 		SingletonT<Fxs>.I.ToString();
 #if UNITY_IOS
 		iOS.DeviceGeneration generation = iOS.Device.generation;
