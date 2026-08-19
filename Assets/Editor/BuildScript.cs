@@ -24,7 +24,7 @@ public static class BuildScript
         // ---- "64-bit" switch; Mono is 32-bit only on modern Unity Android)
         EditorUserBuildSettings.SwitchActiveBuildTarget(UnityEditor.Build.NamedBuildTarget.Android, BuildTarget.Android);
         PlayerSettings.SetScriptingBackend(UnityEditor.Build.NamedBuildTarget.Android, ScriptingImplementation.IL2CPP);
-        PlayerSettings.Android.targetArchitectures = AndroidArchitecture.ARM64; // arm64 production build
+        PlayerSettings.Android.targetArchitectures = AndroidArchitecture.ARM64 | AndroidArchitecture.X86_64; // dual-arch for emulator verification
         PlayerSettings.Android.targetSdkVersion = AndroidSdkVersions.AndroidApiLevel33;
         PlayerSettings.Android.minSdkVersion = AndroidSdkVersions.AndroidApiLevel22;
         PlayerSettings.Android.forceInternetPermission = true;
@@ -59,7 +59,7 @@ public static class BuildScript
             var text = splashGo.AddComponent<TextMesh>();
             text.alignment = TextAlignment.Center;
             text.anchor = TextAnchor.MiddleCenter;
-            text.text = "Juggernaut\narm64 port build\n(boot scene - game content TBD)";
+            text.text = "Juggernaut\nLoading...";
             text.fontSize = 32;
             text.characterSize = 0.04f;
             var font = Resources.GetBuiltinResource<Font>("Arial.ttf");

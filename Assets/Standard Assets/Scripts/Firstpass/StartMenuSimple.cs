@@ -46,13 +46,20 @@ internal class StartMenuSimple : MonoBehaviour
 		float btnH = 70f;
 		float gap = 18f;
 
-		// NEW GAME
+		// NEW GAME (in DebugNoBundles mode, same as CONTINUE — skip player-select/intro which hangs on missing server data)
 		if (GUI.Button(new Rect(blockX, btnY, menuW, btnH), "NEW GAME", _buttonStyle))
 		{
 			var menu = GameObject.Find("__main_menu")?.GetComponent<MainMenu>();
 			if (menu != null)
 			{
-				menu.StartNewGame();
+				if (Globals.DebugNoBundles)
+				{
+					menu.GoToFromStartMenuToMainMap();
+				}
+				else
+				{
+					menu.StartNewGame();
+				}
 			}
 			else
 			{
