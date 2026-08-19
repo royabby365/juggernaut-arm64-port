@@ -416,9 +416,9 @@ public class UnityApi
 			{
 				_OpenFeintInit();
 			}
-			_MarketBillingInit();
-			_AdmanInit();
-			_PlayMovieInit();
+			try { _MarketBillingInit(); } catch (System.Exception ex) { Debug.Log("MarketBillingInit failed: " + ex.Message); }
+			try { _AdmanInit(); } catch (System.Exception ex) { Debug.Log("AdmanInit failed: " + ex.Message); }
+			try { _PlayMovieInit(); } catch (System.Exception ex) { Debug.Log("PlayMovieInit failed: " + ex.Message); }
 			FacebookPlugin.Init(PROD_FACEBOOK_APP_ID);
 			Initialized = true;
 		}
@@ -428,9 +428,16 @@ public class UnityApi
 	{
 		if (!PresentationInitialized)
 		{
-			AndroidJavaClass androidJavaClass = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
-			AndroidJavaObject androidJavaObject = androidJavaClass.GetStatic<AndroidJavaObject>("currentActivity");
-			androidJavaObject.Call("onPresentationInitialized");
+			try
+			{
+				AndroidJavaClass androidJavaClass = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
+				AndroidJavaObject androidJavaObject = androidJavaClass.GetStatic<AndroidJavaObject>("currentActivity");
+				androidJavaObject.Call("onPresentationInitialized");
+			}
+			catch (System.Exception ex)
+			{
+				Debug.Log("onPresentationInitialized failed: " + ex.Message);
+			}
 			PresentationInitialized = true;
 		}
 	}
@@ -535,24 +542,53 @@ public class UnityApi
 	private static string _GetLanguage()
 	{
 		JavaVM.AttachCurrentThread();
-		return GetCurrentActivity().Call<string>("getLanguage", new object[0]);
+		try
+		{
+			return GetCurrentActivity().Call<string>("getLanguage", new object[0]);
+		}
+		catch (System.Exception ex)
+		{
+			Debug.Log("_GetLanguage failed: " + ex.Message);
+		}
+		return "en";
 	}
 
 	private static void setSubtitles(string subtitles)
 	{
-		AndroidJavaClass androidJavaClass = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
-		AndroidJavaObject androidJavaObject = androidJavaClass.GetStatic<AndroidJavaObject>("currentActivity");
-		androidJavaObject.Call("setVideoSubtitles", subtitles);
+		try
+		{
+			AndroidJavaClass androidJavaClass = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
+			AndroidJavaObject androidJavaObject = androidJavaClass.GetStatic<AndroidJavaObject>("currentActivity");
+			androidJavaObject.Call("setVideoSubtitles", subtitles);
+		}
+		catch (System.Exception ex)
+		{
+			Debug.Log("setSubtitles failed: " + ex.Message);
+		}
 	}
 
 	private static void _AcquireLoadingWakeLock()
 	{
-		GetCurrentActivity().Call("acquireLoadingWakeLock");
+		try
+		{
+			GetCurrentActivity().Call("acquireLoadingWakeLock");
+		}
+		catch (System.Exception ex)
+		{
+			Debug.Log("acquireLoadingWakeLock failed: " + ex.Message);
+		}
 	}
 
 	private static void _ReleaseLoadingWakeLock()
 	{
-		GetCurrentActivity().Call("releaseLoadingWakeLock");
+		try
+		{
+			GetCurrentActivity().Call("releaseLoadingWakeLock");
+		}
+		catch (System.Exception ex)
+		{
+			Debug.Log("releaseLoadingWakeLock failed: " + ex.Message);
+		}
 	}
 
 	internal static void SetSubtitles()
@@ -635,9 +671,17 @@ public class UnityApi
 
 	public static bool UseSingleApk()
 	{
-		AndroidJavaClass androidJavaClass = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
-		AndroidJavaObject androidJavaObject = androidJavaClass.GetStatic<AndroidJavaObject>("currentActivity");
-		return androidJavaObject.Call<bool>("useSingleApk", new object[0]);
+		try
+		{
+			AndroidJavaClass androidJavaClass = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
+			AndroidJavaObject androidJavaObject = androidJavaClass.GetStatic<AndroidJavaObject>("currentActivity");
+			return androidJavaObject.Call<bool>("useSingleApk", new object[0]);
+		}
+		catch (System.Exception ex)
+		{
+			UnityEngine.Debug.Log("UseSingleApk failed: " + ex.Message);
+			return true;
+		}
 	}
 
 	public static string GetMainObbPath()

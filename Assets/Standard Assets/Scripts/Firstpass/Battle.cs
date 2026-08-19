@@ -1798,7 +1798,7 @@ public class Battle : MonoBehaviour
 
 	private void LateUpdate()
 	{
-		if (BattleGui.enabled)
+		if (BattleGui != null && BattleGui.enabled)
 		{
 			UpdateBattle(Time.deltaTime);
 		}
@@ -1845,7 +1845,7 @@ public class Battle : MonoBehaviour
 
 	private void Update()
 	{
-		if (BattleGui.enabled && _touchscreen != null)
+		if (BattleGui != null && BattleGui.enabled && _touchscreen != null)
 		{
 			_touchscreen.Update();
 		}

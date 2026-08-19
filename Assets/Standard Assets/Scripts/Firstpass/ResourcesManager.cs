@@ -363,6 +363,18 @@ internal class ResourcesManager : SingletonT<ResourcesManager>
 			}));
 		}, delegate(string path_, string error)
 		{
+			if (Globals.DebugNoBundles)
+			{
+				Utils.Log("GetPersonPrototype failed (no-bundles fallback) creating placeholder:", id, error, path_);
+				GameObject placeholder = new GameObject("PlayerPlaceholder_" + id);
+				placeholder.AddComponent<PersonData>();
+				FromAssetBundle fab = placeholder.AddComponent<FromAssetBundle>();
+				fab.Path = path_;
+				caller.StartCoroutine(WaitUpdate(delegate {
+					onLoad(id, placeholder);
+				}));
+				return;
+			}
 			Invs.Inv(false, "GetPersonPrototype failed", id, error, path_);
 		});
 	}
@@ -394,12 +406,128 @@ internal class ResourcesManager : SingletonT<ResourcesManager>
 	}
 
 	public GameObject LoadSceneObject(string name)
-	{
-		UnityEngine.Object obj = Util.Resource<UnityEngine.Object>("_scene_objects/" + name);
-		Invs.Inv(obj != null, "LoadSceneObject", name);
-		Invs.Inv(obj is GameObject, "LoadSceneObject", name);
-		return (GameObject)obj;
-	}
+	    {
+	        UnityEngine.Object obj = Util.Resource<UnityEngine.Object>("_scene_objects/" + name);
+	        if (obj == null || !(obj is GameObject))
+	        {
+	            Debug.LogWarning($"[ResourcesManager] Scene object '{name}' not found in Resources. Creating placeholder.");
+	            var fallback = new GameObject(name);
+	            if (name == "__battle")
+	            {
+	                var battle = fallback.AddComponent<Battle>();
+	                var battleGui = fallback.AddComponent<BattleGui>();
+	                battleGui.enabled = false; // disable until HudMk1 is ready
+	                var selectGui = fallback.AddComponent<SelectGui>();
+	                selectGui.enabled = false;
+	                // Wire up fields the Battle Update methods expect
+	                battle.BattleGui = battleGui;
+	                battle.SelectGui = selectGui;
+	                battle.BattleCameraController = fallback.AddComponent<BattleCameraController>();
+	                battle.StartBattleCamera = fallback.AddComponent<StartBattleCamera>();
+	                // Add some visible elements
+	                AddBattlePlaceholderElements(fallback);
+	            }
+	            if (name == "__battle_camera")
+	                        {
+	                            Debug.Log("[Placeholder] Creating __battle_camera with camera_upper child");
+	                            var battleCam = new GameObject("camera_upper");
+	                            battleCam.transform.SetParent(fallback.transform);
+	                            var cam = battleCam.AddComponent<Camera>();
+	                            cam.clearFlags = CameraClearFlags.SolidColor;
+	                            cam.backgroundColor = new Color(0.3f, 0.4f, 0.6f);
+	                            cam.nearClipPlane = 0.3f;
+	                            cam.farClipPlane = 100f;
+	                            cam.fieldOfView = 60f;
+	                            battleCam.transform.position = new Vector3(0, 2, -5);
+	                            battleCam.transform.LookAt(Vector3.zero);
+	                            battleCam.AddComponent<AudioListener>();
+	                        }
+	            return fallback;
+	        }
+	        return (GameObject)obj;
+	    }
+    
+	    private void AddBattlePlaceholderElements(GameObject battleGo)
+	        {
+	            // Build a simple visible arena using procedural meshes (CreatePrimitive/Materials
+	            // get stripped by IL2CPP; these always work)
+	            try
+	            {
+	                // Ground quad
+	                var ground = CreateQuad("Ground", new Vector3(10, 1, 10));
+	                ground.transform.SetParent(battleGo.transform);
+	                ground.transform.position = new Vector3(0, -0.5f, 0);
+	                ground.transform.Rotate(-90, 0, 0);
+            
+	                // Center marker cube
+	                var marker = CreateCube("Center", new Vector3(0.5f, 2, 0.5f));
+	                marker.transform.SetParent(battleGo.transform);
+	                marker.transform.position = new Vector3(0, 1, 0);
+            
+	                // Four pillars
+	                for (int i = -1; i <= 1; i += 2)
+	                {
+	                    for (int j = -1; j <= 1; j += 2)
+	                    {
+	                        var pillar = CreateCube("Pillar_" + i + "_" + j, new Vector3(0.3f, 1.5f, 0.3f));
+	                        pillar.transform.SetParent(battleGo.transform);
+	                        pillar.transform.position = new Vector3(i * 3, 1.5f, j * 3);
+	                    }
+	                }
+            
+	                // Light
+	                var lightGo = new GameObject("Directional Light");
+	                lightGo.transform.SetParent(battleGo.transform);
+	                var light = lightGo.AddComponent<Light>();
+	                light.type = LightType.Directional;
+	                light.intensity = 0.8f;
+	                light.transform.rotation = Quaternion.Euler(50, -30, 0);
+	            }
+	            catch (System.Exception e)
+	            {
+	                Debug.LogWarning($"[Placeholder] Arena build failed: {e.Message}");
+	            }
+	        }
+    
+	        private GameObject CreateQuad(string name, Vector3 size)
+	        {
+	            var go = new GameObject(name);
+	            var mf = go.AddComponent<MeshFilter>();
+	            var mesh = new Mesh();
+	            mesh.vertices = new[]
+	            {
+	                new Vector3(-0.5f, 0, -0.5f), new Vector3(0.5f, 0, -0.5f),
+	                new Vector3(0.5f, 0, 0.5f), new Vector3(-0.5f, 0, 0.5f)
+	            };
+	            mesh.uv = new[] { new Vector2(0, 0), new Vector2(1, 0), new Vector2(1, 1), new Vector2(0, 1) };
+	            mesh.triangles = new[] { 0, 2, 1, 0, 3, 2 };
+	            mesh.RecalculateNormals();
+	                    mf.sharedMesh = mesh;
+	                    var mr = go.AddComponent<MeshRenderer>();
+	                    mr.sharedMaterial = MakeMaterial(new Color(0.4f, 0.45f, 0.5f));
+	                    go.transform.localScale = size;
+	                    return go;
+	                }
+    
+	                private GameObject CreateCube(string name, Vector3 size)
+	                {
+	                    var go = new GameObject(name);
+	                    var mf = go.AddComponent<MeshFilter>();
+	                    mf.sharedMesh = Resources.GetBuiltinResource<Mesh>("Cube.fbx");
+	                    var mr = go.AddComponent<MeshRenderer>();
+	                    mr.sharedMaterial = MakeMaterial(new Color(0.6f, 0.6f, 0.65f));
+	                    go.transform.localScale = size;
+	                    return go;
+	                }
+    
+	                private Material MakeMaterial(Color color)
+	                    {
+	                        var mat = new Material(Shader.Find("Standard"));
+	                        if (mat == null || mat.shader == null)
+	                            return null;
+	                        mat.color = color;
+	                        return mat;
+	                    }
 
 	public T CreateSceneObject<T>(string name) where T : Component
 	{
@@ -424,6 +552,15 @@ internal class ResourcesManager : SingletonT<ResourcesManager>
 			onLoad(path, go);
 		}, delegate(string path_, string error)
 		{
+			if (Globals.DebugNoBundles)
+			{
+				Utils.Log("LoadScene failed (no-bundles fallback) creating placeholder:", index, error);
+				GameObject placeholder = new GameObject("ScenePlaceholder_" + index);
+				LastLoadedSceneIndex = index;
+				placeholder.name = Globals.LocationGameObjectSceneGeomName;
+				onLoad(path_, placeholder);
+				return;
+			}
 			Invs.Inv(false, "LoadScene failed", index, error, path_);
 		});
 	}

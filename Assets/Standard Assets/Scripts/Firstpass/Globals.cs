@@ -658,6 +658,8 @@ public static class Globals
 
 	public static readonly bool DebugDontLoadPlayer = false;
 
+	public static bool DebugNoBundles = true;
+
 	public static readonly bool DebugDontLoadEnemy = false;
 
 	public static readonly bool DebugDontGoToBag = false;

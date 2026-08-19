@@ -20,7 +20,14 @@ public class MarketBillingPlugin
 		Init();
 		if (currentActivity != null)
 		{
-			currentActivity.Call("setCallbackHandler", className, functionName);
+			try
+			{
+				currentActivity.Call("setCallbackHandler", className, functionName);
+			}
+			catch (System.Exception ex)
+			{
+				Debug.Log("MarketBillingPlugin.SetCallbackHandler failed: " + ex.Message);
+			}
 		}
 	}
 
@@ -39,7 +46,14 @@ public class MarketBillingPlugin
 		string text = dictionary[productId];
 		if (currentActivity != null)
 		{
-			currentActivity.Call("buyProduct", text);
+			try
+			{
+				currentActivity.Call("buyProduct", text);
+			}
+			catch (System.Exception ex)
+			{
+				Debug.Log("MarketBillingPlugin.RequestPurchase failed: " + ex.Message);
+			}
 		}
 	}
 
@@ -48,7 +62,14 @@ public class MarketBillingPlugin
 		Init();
 		if (currentActivity != null)
 		{
-			currentActivity.Call("closePayment", itemData);
+			try
+			{
+				currentActivity.Call("closePayment", itemData);
+			}
+			catch (System.Exception ex)
+			{
+				Debug.Log("MarketBillingPlugin.ClosePurchase failed: " + ex.Message);
+			}
 		}
 	}
 
@@ -57,7 +78,14 @@ public class MarketBillingPlugin
 		Init();
 		if (currentActivity != null)
 		{
-			currentActivity.Call("restoreTransaction");
+			try
+			{
+				currentActivity.Call("restoreTransaction");
+			}
+			catch (System.Exception ex)
+			{
+				Debug.Log("MarketBillingPlugin.RestoreTransaction failed: " + ex.Message);
+			}
 		}
 	}
 }

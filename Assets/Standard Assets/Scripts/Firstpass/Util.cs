@@ -128,10 +128,19 @@ public static class Util
 
 	public static T Resource<T>(string path) where T : UnityEngine.Object
 	{
-		UnityEngine.Object obj = Resources.Load(path);
+		string cleanPath = path;
+		if (cleanPath.EndsWith(".json") || cleanPath.EndsWith(".dat") || cleanPath.EndsWith(".txt") || cleanPath.EndsWith(".bytes"))
+		{
+			cleanPath = System.IO.Path.ChangeExtension(cleanPath, null);
+		}
+		UnityEngine.Object obj = Resources.Load(cleanPath);
+		if (obj == null)
+		{
+			obj = Resources.Load(path);
+		}
 		if (obj == null && Globals.IsDebugBuild)
 		{
-			Debug.LogError("! can not load the asset: " + path);
+			Debug.LogError("! can not load the asset: " + path + " (also tried: " + cleanPath + ")");
 		}
 		return obj as T;
 	}
