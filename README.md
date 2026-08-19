@@ -4,7 +4,10 @@
 
 Decompiled (2026-07-17) and lifted into a **Unity 2021.3.45f1** project targeting
 **Android arm64-v8a + IL2CPP**, so it runs on 64-bit-only devices (Pixel 10 Pro,
-Android 16). Private repo — proprietary MY.GAMES title, personal/archival use only.
+Android 16). Public repo — the game itself is a proprietary MY.GAMES title;
+the code here is for personal/archival/educational use. The whitepaper
+(`WHITEPAPER.md`) documents the full porting methodology and is freely citable —
+see `CITATION.cff`.
 
 ---
 
@@ -52,4 +55,6 @@ must be supplied manually. Optional `ANDROID_KEYSTORE_*` secrets sign the APK.
   See `ASSETS_SETUP.md`.
 - ⚠️ First compile may surface a few decompile-artifact issues (type-name casing,
   any `WWW` usage). Normal — quick to clear in the Editor log.
-- ⚠️ Proprietary title — do not redistribute.
+- ⚠️ Proprietary game title — the ported code/assets are archival reference only,
+  not redistributable. The whitepaper (`WHITEPAPER.md`) is the shareable,
+  citable artifact.

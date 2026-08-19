@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this whitepaper in your research, please cite it as:"
+title: "Reviving Abandonware with AI-Assisted Porting: The Juggernaut: Revenge of Sovering ARM64 Case Study"
+authors:
+  - family-names: Abernathy
+    given-names: Roy U.
+    website: https://royabernathy.info
+date-released: "2026-08-19"
+version: "1.0.0"
+keywords:
+  - abandonware
+  - game preservation
+  - reverse engineering
+  - ARM64 porting
+  - Unity
+  - AI-assisted development
+abstract: >-
+  Whitepaper documenting the full process of reviving a 32-bit Unity 4.x
+  abandonware mobile game (Juggernaut: Revenge of Sovering, 2012) and porting
+  it to modern ARM64 Android via Unity 2021 LTS with an autonomous AI coding
+  agent. Covers reverse engineering, a verified UnityPy asset-extraction
+  pipeline (772 bundles), and human-AI collaboration patterns for software
+  archaeology.
