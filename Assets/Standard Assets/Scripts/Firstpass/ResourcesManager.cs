@@ -458,31 +458,33 @@ internal class ResourcesManager : SingletonT<ResourcesManager>
 	    private void AddBattlePlaceholderElements(GameObject battleGo)
 	        {
 	            // Build a simple visible arena using procedural meshes (CreatePrimitive/Materials
-	            // get stripped by IL2CPP; these always work)
+	            // get stripped by IL2CPP; these always work).
+	            // NOTE: the real baked arena + warrior (ArenaBuilder from __arena<N>
+	            // and __char) are built AFTER this placeholder in the battle flow, so
+	            // do NOT add the Center cube / pillars here — they would sit on top
+	            // of the warrior. Only add a light (harmless either way) and, if the
+	            // arena hasn't been built yet, a ground quad so the scene isn't empty.
 	            try
 	            {
-	                // Ground quad
-	                var ground = CreateQuad("Ground", new Vector3(10, 1, 10));
-	                ground.transform.SetParent(battleGo.transform);
-	                ground.transform.position = new Vector3(0, -0.5f, 0);
-	                ground.transform.Rotate(-90, 0, 0);
-            
-	                // Center marker cube
-	                var marker = CreateCube("Center", new Vector3(0.5f, 2, 0.5f));
-	                marker.transform.SetParent(battleGo.transform);
-	                marker.transform.position = new Vector3(0, 1, 0);
-            
-	                // Four pillars
-	                for (int i = -1; i <= 1; i += 2)
+	                // Ground quad only if the arena geometry isn't already present
+	                bool arenaBuilt = false;
+	                var all = Resources.FindObjectsOfTypeAll<GameObject>();
+	                foreach (var g in all)
 	                {
-	                    for (int j = -1; j <= 1; j += 2)
+	                    if (g != null && g.name != null && g.name.StartsWith("Arena_"))
 	                    {
-	                        var pillar = CreateCube("Pillar_" + i + "_" + j, new Vector3(0.3f, 1.5f, 0.3f));
-	                        pillar.transform.SetParent(battleGo.transform);
-	                        pillar.transform.position = new Vector3(i * 3, 1.5f, j * 3);
+	                        arenaBuilt = true;
+	                        break;
 	                    }
 	                }
-            
+	                if (!arenaBuilt)
+	                {
+	                    var ground = CreateQuad("Ground", new Vector3(10, 1, 10));
+	                    ground.transform.SetParent(battleGo.transform);
+	                    ground.transform.position = new Vector3(0, -0.5f, 0);
+	                    ground.transform.Rotate(-90, 0, 0);
+	                }
+
 	                // Light
 	                var lightGo = new GameObject("Directional Light");
 	                lightGo.transform.SetParent(battleGo.transform);
@@ -494,8 +496,8 @@ internal class ResourcesManager : SingletonT<ResourcesManager>
 	            catch (System.Exception e)
 	            {
 	                Debug.LogWarning($"[Placeholder] Arena build failed: {e.Message}");
-	                }
-	                }
+	            }
+	        }
 
 	                private GameObject CreateQuad(string name, Vector3 size)
 	                	{

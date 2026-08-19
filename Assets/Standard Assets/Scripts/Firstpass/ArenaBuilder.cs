@@ -136,7 +136,7 @@ public static class ArenaBuilder
             go.transform.SetParent(root.transform);
             go.AddComponent<MeshFilter>().sharedMesh = mesh;
             var mr = go.AddComponent<MeshRenderer>();
-            Texture2D tex = ResolveArenaTexture(nm, folder);
+            Texture2D tex = ResolveArenaTexture(nm, arenaIndex);
             var mat = new Material(shader);
             if (tex != null) mat.mainTexture = tex;
             else mat.color = new Color(0.55f, 0.58f, 0.62f);
@@ -146,19 +146,93 @@ public static class ArenaBuilder
         return true;
     }
 
-    private static Texture2D ResolveArenaTexture(string partName, string folder)
+    private static Texture2D ResolveArenaTexture(string partName, int arenaIndex)
     {
         // Material convention (see scripts/bake_arena.py fallback map).
         // Match by role prefix because baked parts carry _NNN dedupe suffixes.
+        // Floor/wall/background texture names vary per arena bundle.
         string texName = null;
-        if (partName.StartsWith("Plane001")) texName = "01_tile";              // base floor
-        else if (partName.StartsWith("floor")) texName = "01_tile";            // tiled floor
-        else if (partName.StartsWith("Plane002")) texName = "arena_01_bg_02";  // side wall
-        else if (partName.StartsWith("Plane003")) texName = "arena_08_floor_decals"; // floor decals
-        else if (partName.StartsWith("center")) texName = "arena_08_floor_decals";
-        else if (partName.StartsWith("background")) texName = "arena_01_bg_01";
-        if (texName == null) return null;
+        if (partName.StartsWith("Plane001")) texName = FloorTexture(arenaIndex);          // base floor
+        else if (partName.StartsWith("floor")) texName = FloorTexture(arenaIndex);        // tiled floor
+        else if (partName.StartsWith("Plane003")) texName = FloorDecalTexture(arenaIndex); // floor decals
+        else if (partName.StartsWith("center")) texName = FloorDecalTexture(arenaIndex);
+        else if (partName.StartsWith("background")) texName = BgTexture(arenaIndex);       // back wall
+        else if (partName.StartsWith("Plane002")) texName = BgTexture2(arenaIndex);        // side wall
+        else texName = FloorTexture(arenaIndex); // generic geometry (msh01*, etc.)
         return Resources.Load<Texture2D>($"__textures/{texName}");
+    }
+
+    private static string FloorTexture(int i)
+    {
+        // Real floor material texture names per arena (from bake rig.json)
+        switch (i)
+        {
+            case 1: return "01_tile";
+            case 2: return "02_2";
+            case 3: return "02_003";
+            case 4: return "90917_3_3378_111822_texsture_04";
+            case 5: return "05_02";
+            case 6: return "06_tile";
+            case 7: return "07_2";
+            case 8: return "08_02";
+            case 9: return "09_1";
+            case 10: return "10_001";
+            default: return "01_tile";
+        }
+    }
+
+    private static string FloorDecalTexture(int i)
+    {
+        switch (i)
+        {
+            case 1: return "arena_08_floor_decals";
+            case 2: return "arena_04_floor_decals";
+            case 3: return "arena_03_floor_decals";
+            case 4: return "arena_04_floor_decals";
+            case 5: return "arena_03_floor_decals";
+            case 6: return "arena_06_floor_decals";
+            case 7: return "ground_d";
+            case 8: return "arena_08_floor_decals";
+            case 9: return "ground_d";
+            case 10: return "arena_10_floor_decals";
+            default: return "arena_08_floor_decals";
+        }
+    }
+
+    private static string BgTexture(int i)
+    {
+        switch (i)
+        {
+            case 1: return "arena_01_bg_01";
+            case 2: return "02_bg_01";
+            case 3: return "arena_03_bg_01";
+            case 4: return "03_bg_01";
+            case 5: return "05_bg_01";
+            case 6: return "arena_06_01";
+            case 7: return "07_bg_01";
+            case 8: return "arena_08_bg_01";
+            case 9: return "09_bg_01";
+            case 10: return "arena10_bg_01";
+            default: return "arena_01_bg_01";
+        }
+    }
+
+    private static string BgTexture2(int i)
+    {
+        switch (i)
+        {
+            case 1: return "arena_01_bg_02";
+            case 2: return "02_bg_02";
+            case 3: return "arena_03_bg_02";
+            case 4: return "03_bg_02";
+            case 5: return "05_bg_02";
+            case 6: return "arena_06_02";
+            case 7: return "07_bg_02";
+            case 8: return "arena_08_bg_02";
+            case 9: return "09_bg_02";
+            case 10: return "arena10_bg_02";
+            default: return "arena_01_bg_02";
+        }
     }
 
     private static GameObject CreateTexturedQuad(string name, Texture2D texture, float width, float height)
