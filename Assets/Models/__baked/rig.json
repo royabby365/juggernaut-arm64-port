@@ -1,0 +1,50 @@
+[
+ {
+  "part": "blue_war_m_pve_1_helm",
+  "obj": "blue_war_m_pve_1_helm.obj",
+  "texture": "blue_war_m_pve_1_helm_ds",
+  "verts": 307
+ },
+ {
+  "part": "blue_war_m_pve_1_hand_r",
+  "obj": "blue_war_m_pve_1_hand_r.obj",
+  "texture": "blue_war_m_pve_1_hand_r_ds",
+  "verts": 580
+ },
+ {
+  "part": "blue_war_m_pve_1_shoulderstrap",
+  "obj": "blue_war_m_pve_1_shoulderstrap.obj",
+  "texture": "blue_war_m_pve_1_shoulderstrap_ds",
+  "verts": 621
+ },
+ {
+  "part": "blue_war_m_pve_1_torso",
+  "obj": "blue_war_m_pve_1_torso.obj",
+  "texture": "blue_war_m_pve_1_torso_ds",
+  "verts": 702
+ },
+ {
+  "part": "blue_war_m_pve_1_hand_l",
+  "obj": "blue_war_m_pve_1_hand_l.obj",
+  "texture": "blue_war_m_pve_1_hand_l_ds",
+  "verts": 492
+ },
+ {
+  "part": "blue_war_m_pve_1_boots",
+  "obj": "blue_war_m_pve_1_boots.obj",
+  "texture": "blue_war_m_pve_1_boots_ds",
+  "verts": 562
+ },
+ {
+  "part": "blue_war_m_pve_1_pelvis",
+  "obj": "blue_war_m_pve_1_pelvis.obj",
+  "texture": "blue_war_m_pve_1_pelvis_ds",
+  "verts": 527
+ },
+ {
+  "part": "blue_war_m_pve_1_belt",
+  "obj": "blue_war_m_pve_1_belt.obj",
+  "texture": "blue_war_m_pve_1_belt_ds",
+  "verts": 439
+ }
+]

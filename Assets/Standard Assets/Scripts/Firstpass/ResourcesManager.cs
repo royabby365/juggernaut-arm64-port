@@ -494,11 +494,10 @@ internal class ResourcesManager : SingletonT<ResourcesManager>
 	            catch (System.Exception e)
 	            {
 	                Debug.LogWarning($"[Placeholder] Arena build failed: {e.Message}");
-	                			}
-	                		}
-	                	}
+	                }
+	                }
 
-	                	private GameObject CreateQuad(string name, Vector3 size)
+	                private GameObject CreateQuad(string name, Vector3 size)
 	                	{
 	                		var go = new GameObject(name);
 	                		var mf = go.AddComponent<MeshFilter>();
