@@ -106,7 +106,15 @@ public static class ArenaBuilder
         // positioned around the arena as opponents
         // The male warrior uses the FULL SKELETAL RIG (SkinnedRigBuilder) so it
         // animates with real bone curves from the original idle clip.
-        var skinned = SkinnedRigBuilder.Build("__anim/warrior_rig", "__anim/warrior_clips", "Warrior_Skinned");
+        GameObject skinned = null;
+        try
+        {
+            skinned = SkinnedRigBuilder.Build("__anim/warrior_rig", "__anim/warrior_clips", "Warrior_Skinned");
+        }
+        catch (System.Exception e)
+        {
+            Debug.LogWarning("[ArenaBuilder] skinned build threw: " + e.Message);
+        }
         if (skinned != null)
         {
             skinned.transform.SetParent(root.transform);

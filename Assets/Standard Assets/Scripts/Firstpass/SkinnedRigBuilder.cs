@@ -22,6 +22,19 @@ public static class SkinnedRigBuilder
 {
     public static GameObject Build(string rigJsonPath, string clipJsonPath, string rootName = "Skinned_Warrior")
     {
+        try
+        {
+            return BuildInternal(rigJsonPath, clipJsonPath, rootName);
+        }
+        catch (System.Exception e)
+        {
+            Debug.LogWarning("[SkinnedRigBuilder] Build failed: " + e);
+            return null;
+        }
+    }
+
+    private static GameObject BuildInternal(string rigJsonPath, string clipJsonPath, string rootName)
+    {
         TextAsset rigTa = Resources.Load<TextAsset>(rigJsonPath);
         if (rigTa == null)
         {
@@ -41,7 +54,10 @@ public static class SkinnedRigBuilder
         var skeleton = rig["skeleton"];
         foreach (var kv in skeleton.Keys)
         {
-            string boneName = goNames != null && goNames[kv] != null ? goNames[kv].str : ("bone_" + kv);
+            string boneName = "bone_" + kv;
+            if (goNames != null && goNames[kv] != null)
+                boneName = goNames[kv].str;
+            if (string.IsNullOrEmpty(boneName)) boneName = "bone_" + kv;
             var b = new GameObject(boneName).transform;
             bones[kv] = b;
             b.SetParent(root.transform, false);
