@@ -59,6 +59,16 @@ jobs:
           IMAGE="unityci/editor:ubuntu-2021.3.45f1-android-3"
           mkdir -p "$REPO/build"
           echo "[build] activating license + building (this takes 5-10 min, IL2CPP)..."
+          # Memory: leave 16GB headroom for host/pagecache/other containers,
+          # then allow unlimited swap fallback so Unity's transient shader-compile
+          # peaks (Standard series: 1.36M -> 49k variants) don't OOM-kill the
+          # editor before it can finish. Default --memory-swap = 2x --memory,
+          # which exceeds the host's swap and triggers the cgroup OOM-killer at
+          # the swap ceiling. --memory-swap=-1 lifts that cap; the kernel only
+          # OOMs when actual host RAM+swap are exhausted.
+          HEADROOM_MB=16384
+          CONTAINER_MEM_MB=$(free -b | awk -v h="$HEADROOM_MB" '/Mem:/{m=int($7/1024/1024 - h); if (m < 102400) m=102400; print m}')
+          echo "[build] container memory=${CONTAINER_MEM_MB}MB (host avail - ${HEADROOM_MB}MB headroom, swap=unlimited)"
           docker run --rm \
             -v "$REPO":/github/workspace \
             -w /github/workspace \
@@ -67,7 +77,8 @@ jobs:
             --env UNITY_SERIAL="$UNITY_SERIAL" \
             --env UNITY_LICENSE="$UNITY_LICENSE" \
             --cpus="$(nproc)" \
-            --memory="$(free -b | awk '/Mem:/{print $7}' | xargs -I{} echo "{} / 1024 / 1024" | bc)m" \
+            --memory="${CONTAINER_MEM_MB}m" \
+            --memory-swap="-1" \
             "$IMAGE" \
             bash -c '
               set -uo pipefail
