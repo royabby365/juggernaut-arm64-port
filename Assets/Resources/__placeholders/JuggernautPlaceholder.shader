@@ -11,9 +11,12 @@ Shader "Hidden/JuggernautPlaceholder"
         Pass
         {
             CGPROGRAM
+            #pragma target 3.0
             #pragma vertex vert
             #pragma fragment frag
             #include "UnityCG.cginc"
+
+            precision highp float;
 
             struct appdata
             {
@@ -26,6 +29,7 @@ Shader "Hidden/JuggernautPlaceholder"
                 float4 vertex : SV_POSITION;
                 float3 worldNormal : TEXCOORD0;
                 float3 worldPos : TEXCOORD1;
+                float4 screenPos : TEXCOORD2;
             };
 
             float4 _Color;
@@ -36,26 +40,33 @@ Shader "Hidden/JuggernautPlaceholder"
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 o.worldNormal = UnityObjectToWorldNormal(v.normal);
                 o.worldPos = mul(unity_ObjectToWorld, v.vertex).xyz;
+                o.screenPos = ComputeScreenPos(o.vertex);
                 return o;
             }
 
-            fixed4 frag (v2f i) : SV_Target
+            float4 frag (v2f i) : SV_Target
             {
-                // Lambertian diffuse lighting using REAL vertex normals
-                fixed3 lightDir = normalize(fixed3(0.5, 1, -0.3));
-                fixed3 normal = normalize(i.worldNormal);
-                fixed ndotl = max(0, dot(normal, lightDir));
+                // Lambertian diffuse lighting — full float precision
+                float3 lightDir = normalize(float3(0.5, 1, -0.3));
+                float3 worldN = normalize(i.worldNormal);
+                float ndotl = saturate(dot(worldN, lightDir));
 
-                // Ambient (25%) + diffuse (75%) — backfaces rendered at 25% not 0%
-                fixed3 lit = _Color.rgb * (0.25 + 0.75 * ndotl);
+                // Full dynamic range: 10% ambient + 90% diffuse
+                float3 lit = _Color.rgb * (0.10 + 0.90 * ndotl);
 
-                // Distance fog — fades toward unity_FogColor (set in Lighting window)
+                // Distance fog
                 float3 viewDir = _WorldSpaceCameraPos - i.worldPos;
                 float dist = length(viewDir);
                 float fog = saturate(dist * 0.03);
                 lit = lerp(lit, unity_FogColor.rgb, fog);
 
-                return fixed4(lit, _Color.a);
+                // Screen-space dither to break up banding on 16-bit framebuffers
+                float2 screenUV = i.screenPos.xy / i.screenPos.w;
+                float dither = frac(sin(dot(screenUV * _ScreenParams.xy, float2(12.9898, 78.233))) * 43758.5453);
+                dither = (dither - 0.5) / 255.0;
+                lit += dither;
+
+                return float4(lit, _Color.a);
             }
             ENDCG
         }
