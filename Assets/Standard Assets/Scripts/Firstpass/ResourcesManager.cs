@@ -526,12 +526,23 @@ internal class ResourcesManager : SingletonT<ResourcesManager>
     
 	                private Material MakeMaterial(Color color)
 	            {
+	                // Use our project shader (always compiled in IL2CPP builds — can't be stripped)
+	                var shader = Shader.Find("Hidden/JuggernautPlaceholder");
+	                if (shader != null)
+	                {
+	                    var mat = new Material(shader);
+	                    mat.color = color;
+	                    return mat;
+	                }
+	                // Fallback: builtin default material (requires Standard shader variants in build)
 	                var defaultMat = Resources.GetBuiltinResource<Material>("Default-Material.mat");
-	                if (defaultMat == null || defaultMat.shader == null)
-	                    return null;
-	                var mat = new Material(defaultMat);
-	                mat.color = color;
-	                return mat;
+	                if (defaultMat != null && defaultMat.shader != null)
+	                {
+	                    var mat = new Material(defaultMat);
+	                    mat.color = color;
+	                    return mat;
+	                }
+	                return null;
 	            }
 
 	public T CreateSceneObject<T>(string name) where T : Component
