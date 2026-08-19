@@ -525,13 +525,14 @@ internal class ResourcesManager : SingletonT<ResourcesManager>
 	                }
     
 	                private Material MakeMaterial(Color color)
-	                    {
-	                        var mat = new Material(Shader.Find("Standard"));
-	                        if (mat == null || mat.shader == null)
-	                            return null;
-	                        mat.color = color;
-	                        return mat;
-	                    }
+	            {
+	                var defaultMat = Resources.GetBuiltinResource<Material>("Default-Material.mat");
+	                if (defaultMat == null || defaultMat.shader == null)
+	                    return null;
+	                var mat = new Material(defaultMat);
+	                mat.color = color;
+	                return mat;
+	            }
 
 	public T CreateSceneObject<T>(string name) where T : Component
 	{
