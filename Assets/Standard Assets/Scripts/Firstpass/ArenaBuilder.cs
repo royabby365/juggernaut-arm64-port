@@ -103,13 +103,23 @@ public static class ArenaBuilder
         light.transform.rotation = Quaternion.Euler(50, -30, 0);
 
         // Spawn the baked warrior at arena center (bind-pose meshes from __char)
-        var warrior = CharacterBuilder.Build();
+        var warrior = CharacterBuilder.Build(CharacterBuilder.Variant.Male);
         if (warrior != null)
         {
             warrior.transform.SetParent(root.transform);
             warrior.transform.position = new Vector3(0f, 0f, 0f);
             var idle = warrior.AddComponent<CharacterIdle>();
             idle.Enabled = true;
+        }
+
+        // Spawn the female blue warrior as an opponent across the arena
+        var foe = CharacterBuilder.Build(CharacterBuilder.Variant.Female, "Warrior_Blue_F_Pve1");
+        if (foe != null)
+        {
+            foe.transform.SetParent(root.transform);
+            foe.transform.position = new Vector3(3.2f, 0f, 2.5f);
+            var idle2 = foe.AddComponent<CharacterIdle>();
+            idle2.Enabled = true;
         }
 
         return root;
