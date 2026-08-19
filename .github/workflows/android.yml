@@ -8,12 +8,13 @@ on:
 jobs:
   build:
     name: Unity Android Build
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, bd]
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Free disk cache (unity image is ~15GB inflated)
+      - name: Free disk cache (GH-hosted only; BigDeborah has plenty)
+        if: runner.environment == 'github-hosted'
         run: |
           sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/hostedtoolcache /opt/ghc /usr/local/.ghcup
           docker system prune -af --volumes
