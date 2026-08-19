@@ -3,6 +3,7 @@ Shader "Hidden/JuggernautPlaceholder"
     Properties
     {
         _Color ("Color", Color) = (0.5,0.5,0.5,1)
+        _MainTex ("Texture", 2D) = "white" {}
     }
     SubShader
     {
@@ -22,6 +23,7 @@ Shader "Hidden/JuggernautPlaceholder"
             {
                 float4 vertex : POSITION;
                 float3 normal : NORMAL;
+                float2 uv : TEXCOORD0;
             };
 
             struct v2f
@@ -30,9 +32,12 @@ Shader "Hidden/JuggernautPlaceholder"
                 float3 worldNormal : TEXCOORD0;
                 float3 worldPos : TEXCOORD1;
                 float4 screenPos : TEXCOORD2;
+                float2 uv : TEXCOORD3;
             };
 
             float4 _Color;
+            sampler2D _MainTex;
+            float4 _MainTex_ST;
 
             v2f vert (appdata v)
             {
@@ -41,18 +46,22 @@ Shader "Hidden/JuggernautPlaceholder"
                 o.worldNormal = UnityObjectToWorldNormal(v.normal);
                 o.worldPos = mul(unity_ObjectToWorld, v.vertex).xyz;
                 o.screenPos = ComputeScreenPos(o.vertex);
+                o.uv = TRANSFORM_TEX(v.uv, _MainTex);
                 return o;
             }
 
             float4 frag (v2f i) : SV_Target
             {
-                // Lambertian diffuse lighting — full float precision
+                // Sample texture (or fall back to white if no texture set)
+                float4 texColor = tex2D(_MainTex, i.uv);
+                
+                // Lambertian diffuse lighting
                 float3 lightDir = normalize(float3(0.5, 1, -0.3));
                 float3 worldN = normalize(i.worldNormal);
                 float ndotl = saturate(dot(worldN, lightDir));
 
                 // Full dynamic range: 10% ambient + 90% diffuse
-                float3 lit = _Color.rgb * (0.10 + 0.90 * ndotl);
+                float3 lit = _Color.rgb * texColor.rgb * (0.10 + 0.90 * ndotl);
 
                 // Distance fog
                 float3 viewDir = _WorldSpaceCameraPos - i.worldPos;
@@ -66,7 +75,7 @@ Shader "Hidden/JuggernautPlaceholder"
                 dither = (dither - 0.5) / 255.0;
                 lit += dither;
 
-                return float4(lit, _Color.a);
+                return float4(lit, _Color.a * texColor.a);
             }
             ENDCG
         }

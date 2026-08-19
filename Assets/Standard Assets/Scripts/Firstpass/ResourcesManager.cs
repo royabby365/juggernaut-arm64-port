@@ -494,60 +494,61 @@ internal class ResourcesManager : SingletonT<ResourcesManager>
 	            catch (System.Exception e)
 	            {
 	                Debug.LogWarning($"[Placeholder] Arena build failed: {e.Message}");
-	            }
-	        }
-    
-	        private GameObject CreateQuad(string name, Vector3 size)
-	        {
-	            var go = new GameObject(name);
-	            var mf = go.AddComponent<MeshFilter>();
-	            var mesh = new Mesh();
-	            mesh.vertices = new[]
-	            {
-	                new Vector3(-0.5f, 0, -0.5f), new Vector3(0.5f, 0, -0.5f),
-	                new Vector3(0.5f, 0, 0.5f), new Vector3(-0.5f, 0, 0.5f)
-	            };
-	            mesh.uv = new[] { new Vector2(0, 0), new Vector2(1, 0), new Vector2(1, 1), new Vector2(0, 1) };
-	            mesh.triangles = new[] { 0, 2, 1, 0, 3, 2 };
-	            mesh.RecalculateNormals();
-	                    mf.sharedMesh = mesh;
-	                    var mr = go.AddComponent<MeshRenderer>();
-	                    mr.sharedMaterial = MakeMaterial(new Color(0.4f, 0.45f, 0.5f));
-	                    go.transform.localScale = size;
-	                    return go;
-	                }
-    
-	                private GameObject CreateCube(string name, Vector3 size)
-	                {
-	                    var go = new GameObject(name);
-	                    var mf = go.AddComponent<MeshFilter>();
-	                    mf.sharedMesh = Resources.GetBuiltinResource<Mesh>("Cube.fbx");
-	                    var mr = go.AddComponent<MeshRenderer>();
-	                    mr.sharedMaterial = MakeMaterial(new Color(0.6f, 0.6f, 0.65f));
-	                    go.transform.localScale = size;
-	                    return go;
-	                }
-    
-	                private Material MakeMaterial(Color color)
-	            {
-	                // Use our project shader (always compiled in IL2CPP builds — can't be stripped)
-	                var shader = Shader.Find("Hidden/JuggernautPlaceholder");
-	                if (shader != null)
-	                {
-	                    var mat = new Material(shader);
-	                    mat.color = color;
-	                    return mat;
-	                }
-	                // Fallback: builtin default material (requires Standard shader variants in build)
-	                var defaultMat = Resources.GetBuiltinResource<Material>("Default-Material.mat");
-	                if (defaultMat != null && defaultMat.shader != null)
-	                {
-	                    var mat = new Material(defaultMat);
-	                    mat.color = color;
-	                    return mat;
-	                }
-	                return null;
-	            }
+	                			}
+	                		}
+	                	}
+
+	                	private GameObject CreateQuad(string name, Vector3 size)
+	                	{
+	                		var go = new GameObject(name);
+	                		var mf = go.AddComponent<MeshFilter>();
+	                		var mesh = new Mesh();
+	                		mesh.vertices = new[]
+	                		{
+	                			new Vector3(-0.5f, 0, -0.5f), new Vector3(0.5f, 0, -0.5f),
+	                			new Vector3(0.5f, 0, 0.5f), new Vector3(-0.5f, 0, 0.5f)
+	                		};
+	                		mesh.uv = new[] { new Vector2(0, 0), new Vector2(1, 0), new Vector2(1, 1), new Vector2(0, 1) };
+	                		mesh.triangles = new[] { 0, 2, 1, 0, 3, 2 };
+	                		mesh.RecalculateNormals();
+	                		mf.sharedMesh = mesh;
+	                		var mr = go.AddComponent<MeshRenderer>();
+	                		mr.sharedMaterial = MakeMaterial(new Color(0.4f, 0.45f, 0.5f));
+	                		go.transform.localScale = size;
+	                		return go;
+	                	}
+
+	                	private GameObject CreateCube(string name, Vector3 size)
+	                	{
+	                		var go = new GameObject(name);
+	                		var mf = go.AddComponent<MeshFilter>();
+	                		mf.sharedMesh = Resources.GetBuiltinResource<Mesh>("Cube.fbx");
+	                		var mr = go.AddComponent<MeshRenderer>();
+	                		mr.sharedMaterial = MakeMaterial(new Color(0.6f, 0.6f, 0.65f));
+	                		go.transform.localScale = size;
+	                		return go;
+	                	}
+
+	                	private Material MakeMaterial(Color color)
+	                	{
+	                		// Use our project shader (always compiled in IL2CPP builds — can't be stripped)
+	                		var shader = Shader.Find("Hidden/JuggernautPlaceholder");
+	                		if (shader != null)
+	                		{
+	                			var mat = new Material(shader);
+	                			mat.color = color;
+	                			return mat;
+	                		}
+	                		// Fallback: builtin default material (requires Standard shader variants in build)
+	                		var defaultMat = Resources.GetBuiltinResource<Material>("Default-Material.mat");
+	                		if (defaultMat != null && defaultMat.shader != null)
+	                		{
+	                			var mat = new Material(defaultMat);
+	                			mat.color = color;
+	                			return mat;
+	                		}
+	                		return null;
+	                	}
 
 	public T CreateSceneObject<T>(string name) where T : Component
 	{
@@ -574,8 +575,8 @@ internal class ResourcesManager : SingletonT<ResourcesManager>
 		{
 			if (Globals.DebugNoBundles)
 			{
-				Utils.Log("LoadScene failed (no-bundles fallback) creating placeholder:", index, error);
-				GameObject placeholder = new GameObject("ScenePlaceholder_" + index);
+				Utils.Log("LoadScene failed (no-bundles fallback) building arena:", index, error);
+				GameObject placeholder = ArenaBuilder.Build(index);
 				LastLoadedSceneIndex = index;
 				placeholder.name = Globals.LocationGameObjectSceneGeomName;
 				onLoad(path_, placeholder);
