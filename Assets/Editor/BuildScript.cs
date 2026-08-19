@@ -5,7 +5,7 @@
 // Unity 4.x scene lives inside Assets/GameData/mainData and cannot be read
 // directly by Unity 2021 - we generate a lightweight splash scene so the
 // pipeline produces a real, installable APK end to end).
-
+//
 using System;
 using System.IO;
 using UnityEditor;
@@ -28,9 +28,51 @@ public static class BuildScript
         PlayerSettings.Android.targetSdkVersion = AndroidSdkVersions.AndroidApiLevel33;
         PlayerSettings.Android.minSdkVersion = AndroidSdkVersions.AndroidApiLevel22;
         PlayerSettings.Android.forceInternetPermission = true;
-        PlayerSettings.bundleVersion = "2.4.3";
+        PlayerSettings.bundleVersion = "2.4.15";
         PlayerSettings.productName = "Juggernaut";
-        PlayerSettings.Android.bundleVersionCode = 1;
+        PlayerSettings.Android.bundleVersionCode = 15;
+        // ---- App icon: use the ORIGINAL Juggernaut launcher icon extracted
+        // ---- from the shipping APK (warrior on red) instead of the Unity
+        // ---- logo. Legacy slots for Android <8, adaptive for 8+.
+        try
+        {
+            var legacy = LoadIconTexture("Assets/AppIcon/juggernaut_icon.png");
+            if (legacy != null)
+            {
+                // Legacy icon (all slots: legacy, small, notification, notification small)
+                var legacyIcons = PlayerSettings.GetPlatformIcons(UnityEditor.Build.NamedBuildTarget.Android,
+                    UnityEditor.Android.AndroidPlatformIconKind.Legacy);
+                foreach (var slot in legacyIcons)
+                    slot.SetTextures(new[] { legacy });
+                PlayerSettings.SetPlatformIcons(UnityEditor.Build.NamedBuildTarget.Android,
+                    UnityEditor.Android.AndroidPlatformIconKind.Legacy, legacyIcons);
+
+                // Adaptive icon (foreground + background)
+                var fg = LoadIconTexture("Assets/AppIcon/juggernaut_adaptive_fg.png");
+                var bg = LoadIconTexture("Assets/AppIcon/juggernaut_adaptive_bg.png");
+                if (fg != null && bg != null)
+                {
+                    var adaptiveIcons = PlayerSettings.GetPlatformIcons(UnityEditor.Build.NamedBuildTarget.Android,
+                        UnityEditor.Android.AndroidPlatformIconKind.Adaptive);
+                    if (adaptiveIcons != null && adaptiveIcons.Length >= 2)
+                    {
+                        adaptiveIcons[0].SetTextures(new[] { fg }); // foreground layer
+                        adaptiveIcons[1].SetTextures(new[] { bg }); // background layer
+                        PlayerSettings.SetPlatformIcons(UnityEditor.Build.NamedBuildTarget.Android,
+                            UnityEditor.Android.AndroidPlatformIconKind.Adaptive, adaptiveIcons);
+                    }
+                }
+                Debug.Log("[BuildScript] App icon set to Juggernaut warrior icon");
+            }
+            else
+            {
+                Debug.LogWarning("[BuildScript] App icon NOT set - legacy icon missing");
+            }
+        }
+        catch (Exception ex)
+        {
+            Debug.LogWarning("[BuildScript] App icon setup failed (continuing with default): " + ex);
+        }
         PlayerSettings.defaultInterfaceOrientation = UIOrientation.LandscapeLeft;
         PlayerSettings.allowedAutorotateToLandscapeLeft = true;
         PlayerSettings.allowedAutorotateToLandscapeRight = true;
@@ -38,7 +80,7 @@ public static class BuildScript
         PlayerSettings.allowedAutorotateToPortraitUpsideDown = false;
 
         // ---- 2. Guarantee a scene to pack (unconditionally regenerate
-        // to ensure latest font / TextMesh configuration is baked in)
+        // ---- to ensure latest font / TextMesh configuration is baked in)
         {
             Debug.Log("[BuildScript] Generating clean boot splash scene.");
             string sceneDir = "Assets/Scenes";
@@ -103,5 +145,20 @@ public static class BuildScript
             throw new Exception("Build FAILED with " + summary.totalErrors + " errors");
         }
         Debug.Log("[BootScript] APK written to " + Path.GetFullPath(outputPath));
+    }
+
+    private static Texture2D LoadIconTexture(string path)
+    {
+        if (!File.Exists(path))
+        {
+            Debug.LogWarning("[BuildScript] Icon file missing: " + path);
+            return null;
+        }
+        var tex = new Texture2D(2, 2, TextureFormat.RGBA32, false);
+        if (tex.LoadImage(File.ReadAllBytes(path)))
+            return tex;
+        Debug.LogWarning("[BuildScript] Icon file unreadable: " + path);
+        UnityEngine.Object.DestroyImmediate(tex);
+        return null;
     }
 }

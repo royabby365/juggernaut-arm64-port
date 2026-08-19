@@ -175,7 +175,11 @@ internal class ResourcesManager : SingletonT<ResourcesManager>
 
 	public static string GetAssetBundlePath(string name)
 	{
-		return GetBaseAssetBundlePath() + name + ".unity3d";
+		// Unity 2021's WWW can't read the legacy jar:file:// URLs (it returns
+		// garbage bytes -> "The 'Memory' file is not a valid AssetBundle").
+		// JugBundles extracts the bundle from the APK via the Android
+		// AssetManager and returns a plain file:// URL instead.
+		return JugBundles.LocalUrl(name);
 	}
 
 	public void GetAssetBundleAsync(MonoBehaviour caller, string assetBundlePath, ActionD<string, AssetBundleData, float> onLoad, ActionD<string, string> onError)

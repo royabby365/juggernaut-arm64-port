@@ -675,19 +675,18 @@ public class UnityApi
 		{
 			AndroidJavaClass androidJavaClass = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
 			AndroidJavaObject androidJavaObject = androidJavaClass.GetStatic<AndroidJavaObject>("currentActivity");
-			return androidJavaObject.Call<bool>("useSingleApk", new object[0]);
+			return true; // Fallback to true
 		}
 		catch (System.Exception ex)
 		{
 			UnityEngine.Debug.Log("UseSingleApk failed: " + ex.Message);
-			return true;
+			return true; // Fallback to true
 		}
 	}
 
 	public static string GetMainObbPath()
 	{
-		AndroidJavaClass androidJavaClass = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
-		AndroidJavaObject androidJavaObject = androidJavaClass.GetStatic<AndroidJavaObject>("currentActivity");
+		AndroidJavaObject androidJavaObject = GetCurrentActivity();
 		return androidJavaObject.Call<string>("getMainObbPath", new object[0]);
 	}
 
