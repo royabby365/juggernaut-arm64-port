@@ -104,7 +104,19 @@ public static class ArenaBuilder
 
         // Spawn heroes (bind-pose meshes from __char): warrior center, others
         // positioned around the arena as opponents
-        SpawnHero(root, CharacterBuilder.Variant.MaleWarrior, new Vector3(0f, 0f, 0f));
+        // The male warrior uses the FULL SKELETAL RIG (SkinnedRigBuilder) so it
+        // animates with real bone curves from the original idle clip.
+        var skinned = SkinnedRigBuilder.Build("__anim/warrior_rig", "__anim/warrior_clips", "Warrior_Skinned");
+        if (skinned != null)
+        {
+            skinned.transform.SetParent(root.transform);
+            skinned.transform.position = new Vector3(0f, 0f, 0f);
+            skinned.transform.rotation = Quaternion.Euler(0f, 180f, 0f); // face camera
+        }
+        else
+        {
+            SpawnHero(root, CharacterBuilder.Variant.MaleWarrior, new Vector3(0f, 0f, 0f));
+        }
         SpawnHero(root, CharacterBuilder.Variant.FemaleWarrior, new Vector3(3.2f, 0f, 2.5f));
         SpawnHero(root, CharacterBuilder.Variant.MaleAssassin, new Vector3(-3.2f, 0f, 2.5f));
         SpawnHero(root, CharacterBuilder.Variant.MaleMage, new Vector3(2.8f, 0f, -2.6f));

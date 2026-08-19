@@ -80,7 +80,7 @@ public static class SkinnedRigBuilder
         var meshes = rig["meshes"];
         var smrs = rig["smr"];
         int built = 0;
-        foreach (var smr in smrs)
+        foreach (var smr in smrs.Nodes)
         {
             string meshKey = smr["mesh"].str;
             var md = meshes[meshKey];

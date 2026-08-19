@@ -27,9 +27,33 @@ public class JSONNode
     public int Count { get { return T == Type.Array ? Arr.Count : (T == Type.Object ? Obj.Count : 0); } }
     public IEnumerable<string> Keys { get { return Obj.Keys; } }
 
+    // Allow foreach over JSONNode (array -> items, object -> values)
+    public System.Collections.IEnumerator GetEnumerator()
+    {
+        if (T == Type.Array)
+            return Arr.GetEnumerator();
+        return Obj.Values.GetEnumerator();
+    }
+
+    // Typed array iteration so `foreach (var x in node)` yields JSONNode
+    public IEnumerable<JSONNode> Nodes
+    {
+        get
+        {
+            if (T == Type.Array)
+            {
+                foreach (var item in Arr) yield return item;
+            }
+            else if (T == Type.Object)
+            {
+                foreach (var item in Obj.Values) yield return item;
+            }
+        }
+    }
+
     // Convenience accessors
     public string str { get { return S; } }
-    public double f { get { return N; } }
+    public float f { get { return (float)N; } }
     public int i { get { return (int)N; } }
     public bool b { get { return B; } }
 }
