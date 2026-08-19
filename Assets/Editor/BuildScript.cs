@@ -56,8 +56,8 @@ public static class BuildScript
                         UnityEditor.Android.AndroidPlatformIconKind.Adaptive);
                     if (adaptiveIcons != null && adaptiveIcons.Length >= 2)
                     {
-                        adaptiveIcons[0].SetTextures(new[] { fg }); // foreground layer
-                        adaptiveIcons[1].SetTextures(new[] { bg }); // background layer
+                        adaptiveIcons[0].SetTextures(new[] { fg, fg }); // foreground layer (2-layer slot)
+                        adaptiveIcons[1].SetTextures(new[] { bg, bg }); // background layer (2-layer slot)
                         PlayerSettings.SetPlatformIcons(UnityEditor.Build.NamedBuildTarget.Android,
                             UnityEditor.Android.AndroidPlatformIconKind.Adaptive, adaptiveIcons);
                     }
@@ -149,16 +149,12 @@ public static class BuildScript
 
     private static Texture2D LoadIconTexture(string path)
     {
-        if (!File.Exists(path))
-        {
-            Debug.LogWarning("[BuildScript] Icon file missing: " + path);
-            return null;
-        }
-        var tex = new Texture2D(2, 2, TextureFormat.RGBA32, false);
-        if (tex.LoadImage(File.ReadAllBytes(path)))
+        // Must be an AssetDatabase-tracked asset - runtime-created textures
+        // don't persist to PlayerSettings.SetPlatformIcons in batchmode.
+        var tex = AssetDatabase.LoadAssetAtPath<Texture2D>(path);
+        if (tex != null)
             return tex;
-        Debug.LogWarning("[BuildScript] Icon file unreadable: " + path);
-        UnityEngine.Object.DestroyImmediate(tex);
+        Debug.LogWarning("[BuildScript] Icon asset missing: " + path);
         return null;
     }
 }

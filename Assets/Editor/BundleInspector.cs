@@ -52,4 +52,52 @@ public static class BundleInspector
         ab.Unload(false);
         Debug.Log("[BundleInspector] DONE");
     }
+
+    public static void IconTest()
+    {
+        var legacy = AssetDatabase.LoadAssetAtPath<Texture2D>("Assets/AppIcon/juggernaut_icon.png");
+        Debug.Log("[IconTest] legacy loaded: " + (legacy != null ? legacy.name + " " + legacy.width + "x" + legacy.height : "NULL"));
+        if (legacy == null) return;
+
+        var legacyIcons = PlayerSettings.GetPlatformIcons(UnityEditor.Build.NamedBuildTarget.Android,
+            UnityEditor.Android.AndroidPlatformIconKind.Legacy);
+        Debug.Log("[IconTest] legacy slots: " + (legacyIcons != null ? legacyIcons.Length : 0));
+        foreach (var slot in legacyIcons)
+            slot.SetTextures(new[] { legacy });
+        PlayerSettings.SetPlatformIcons(UnityEditor.Build.NamedBuildTarget.Android,
+            UnityEditor.Android.AndroidPlatformIconKind.Legacy, legacyIcons);
+        Debug.Log("[IconTest] legacy set OK");
+
+        var fg = AssetDatabase.LoadAssetAtPath<Texture2D>("Assets/AppIcon/juggernaut_adaptive_fg.png");
+        var bg = AssetDatabase.LoadAssetAtPath<Texture2D>("Assets/AppIcon/juggernaut_adaptive_bg.png");
+        Debug.Log("[IconTest] fg=" + (fg != null ? fg.width + "x" + fg.height : "NULL") + " bg=" + (bg != null ? bg.width + "x" + bg.height : "NULL"));
+        var adaptive = PlayerSettings.GetPlatformIcons(UnityEditor.Build.NamedBuildTarget.Android,
+            UnityEditor.Android.AndroidPlatformIconKind.Adaptive);
+        Debug.Log("[IconTest] adaptive slots: " + (adaptive != null ? adaptive.Length : 0));
+        if (adaptive != null && adaptive.Length >= 2 && fg != null && bg != null)
+        {
+            try
+            {
+                adaptive[0].SetTextures(new[] { fg, fg });
+                Debug.Log("[IconTest] adaptive fg set OK");
+            }
+            catch (Exception e)
+            {
+                Debug.LogError("[IconTest] adaptive fg FAILED: " + e);
+            }
+            try
+            {
+                adaptive[1].SetTextures(new[] { bg, bg });
+                Debug.Log("[IconTest] adaptive bg set OK");
+            }
+            catch (Exception e)
+            {
+                Debug.LogError("[IconTest] adaptive bg FAILED: " + e);
+            }
+            PlayerSettings.SetPlatformIcons(UnityEditor.Build.NamedBuildTarget.Android,
+                UnityEditor.Android.AndroidPlatformIconKind.Adaptive, adaptive);
+            Debug.Log("[IconTest] adaptive set OK (fg=" + fg.name + " bg=" + bg.name + ")");
+        }
+        Debug.Log("[IconTest] DONE");
+    }
 }

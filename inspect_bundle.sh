@@ -32,6 +32,6 @@ docker run --rm \
   "$IMAGE" bash -c '
     mkdir -p /root/.cache/unity3d
     unity-editor -logFile /dev/stdout -quit -serial "$UNITY_SERIAL" -username "$UNITY_EMAIL" -password "$UNITY_PASSWORD" -projectPath /BlankProject >/dev/null 2>&1 || true
-    unity-editor -batchmode -nographics -logFile /dev/stdout -quit -projectPath /github/workspace -executeMethod BundleInspector.DumpBundle 2>&1 | grep -E "BundleInspector|error CS" | head -80
+    unity-editor -batchmode -nographics -logFile /dev/stdout -quit -projectPath /github/workspace -executeMethod BundleInspector.IconTest 2>&1 | grep -E "BundleInspector|IconTest|error CS" | head -80
   '
 echo "[inspect] done rc=$?"
