@@ -9,6 +9,7 @@ using UnityEngine;
 ///
 /// The rig JSON contains:
 ///   skeleton : Transform hierarchy (parent + local pos/rot/scl per bone)
+///   go_names : transform pid -> original GameObject name (for clip paths)
 ///   smr      : SkinnedMeshRenderer bone order (PPtrs -> Transform pids)
 ///   meshes   : verts/uvs/tris + per-vertex skin (4 bone idx + weights) +
 ///              bindposes (bone -> mesh space)
@@ -28,7 +29,7 @@ public static class SkinnedRigBuilder
         }
         catch (System.Exception e)
         {
-            Debug.LogWarning("[SkinnedRigBuilder] Build failed: " + e);
+            Debug.LogWarning("[SkinnedRigBuilder] Build failed: " + e + "\n" + e.StackTrace);
             return null;
         }
     }
@@ -98,95 +99,14 @@ public static class SkinnedRigBuilder
         int built = 0;
         foreach (var smr in smrs.Nodes)
         {
-            string meshKey = smr["mesh"].str;
-            var md = meshes[meshKey];
-            string meshName = md["name"].str;
-            if (meshName == null) continue;
-
-            // Mesh geometry
-            var vertList = md["verts"];
-            var uvList = md["uvs"];
-            var triList = md["tris"];
-            var skinList = md["skin"];
-            var bindList = md["bindposes"];
-
-            int nv = vertList.Count;
-            var verts = new Vector3[nv];
-            var uvs = new Vector2[nv];
-            for (int i = 0; i < nv; i++)
+            try
             {
-                verts[i] = new Vector3(vertList[i][0].f, vertList[i][1].f, vertList[i][2].f);
-                if (i < uvList.Count)
-                    uvs[i] = new Vector2(uvList[i][0].f, uvList[i][1].f);
+                built += BuildMesh(smr, meshes, bones, shader, root.transform);
             }
-            var tris = new int[triList.Count];
-            for (int i = 0; i < tris.Length; i++) tris[i] = triList[i].i;
-
-            // Bone weights + bindposes
-            int nb = bindList.Count;
-            var bindposes = new Matrix4x4[nb];
-            for (int b = 0; b < nb; b++)
+            catch (System.Exception e)
             {
-                var m = bindList[b];
-                bindposes[b] = new Matrix4x4(
-                    new Vector4(m[0].f, m[4].f, m[8].f, m[12].f),
-                    new Vector4(m[1].f, m[5].f, m[9].f, m[13].f),
-                    new Vector4(m[2].f, m[6].f, m[10].f, m[14].f),
-                    new Vector4(m[3].f, m[7].f, m[11].f, m[15].f));
+                Debug.LogWarning("[SkinnedRigBuilder] mesh build failed: " + e.Message + " @ " + e.StackTrace);
             }
-
-            // Bone order from SMR (transform pids)
-            var bonePids = smr["bones"];
-            var boneTransforms = new Transform[bonePids.Count];
-            for (int b = 0; b < bonePids.Count; b++)
-            {
-                string pid = bonePids[b].str;
-                Transform t;
-                if (bones.TryGetValue(pid, out t)) boneTransforms[b] = t;
-            }
-
-            var go = new GameObject(meshName);
-            go.transform.SetParent(root.transform, false);
-            var mf = go.AddComponent<MeshFilter>();
-            var mr = go.AddComponent<MeshRenderer>();
-            var sm = go.AddComponent<SkinnedMeshRenderer>();
-
-            var mesh = new Mesh();
-            mesh.name = meshName;
-            mesh.vertices = verts;
-            mesh.uv = uvs;
-            mesh.triangles = tris;
-
-            // Bone weights (BoneWeight has up to 4 influences)
-            var weights = new BoneWeight[nv];
-            for (int i = 0; i < nv && i < skinList.Count; i++)
-            {
-                var s = skinList[i];
-                var bw = new BoneWeight();
-                bw.boneIndex0 = s[0].i; bw.weight0 = s[4].f;
-                bw.boneIndex1 = s[1].i; bw.weight1 = s[5].f;
-                bw.boneIndex2 = s[2].i; bw.weight2 = s[6].f;
-                bw.boneIndex3 = s[3].i; bw.weight3 = s[7].f;
-                weights[i] = bw;
-            }
-            mesh.boneWeights = weights;
-            mesh.bindposes = bindposes;
-            mesh.RecalculateNormals();
-            mesh.RecalculateBounds();
-
-            mf.sharedMesh = mesh;
-            sm.sharedMesh = mesh;
-            sm.bones = boneTransforms;
-            if (smr["root"].str != "0" && bones.ContainsKey(smr["root"].str))
-                sm.rootBone = bones[smr["root"].str];
-
-            // Material
-            var mat = new Material(shader != null ? shader : Shader.Find("Standard"));
-            string texName = meshName + "_ds";
-            Texture2D tex = Resources.Load<Texture2D>("__textures/" + texName);
-            if (tex != null) mat.mainTexture = tex;
-            mr.sharedMaterial = mat;
-            built++;
         }
 
         // ---- 3. Idle animation driver ----
@@ -212,5 +132,91 @@ public static class SkinnedRigBuilder
 
         Debug.Log($"[SkinnedRigBuilder] built {built} skinned meshes, {bones.Count} bones");
         return root;
+    }
+
+    private static int BuildMesh(JSONNode smr, JSONNode meshes, Dictionary<string, Transform> bones,
+                                 Shader shader, Transform parent)
+    {
+        string meshKey = smr["mesh"].str;
+        var md = meshes[meshKey];
+        string meshName = md["name"].str;
+        if (string.IsNullOrEmpty(meshName)) return 0;
+
+        var vertList = md["verts"];
+        var uvList = md["uvs"];
+        var triList = md["tris"];
+        var skinList = md["skin"];
+        var bindList = md["bindposes"];
+
+        int nv = vertList.Count;
+        var verts = new Vector3[nv];
+        var uvs = new Vector2[nv];
+        for (int i = 0; i < nv; i++)
+        {
+            verts[i] = new Vector3(vertList[i][0].f, vertList[i][1].f, vertList[i][2].f);
+            if (i < uvList.Count)
+                uvs[i] = new Vector2(uvList[i][0].f, uvList[i][1].f);
+        }
+        var tris = new int[triList.Count];
+        for (int i = 0; i < tris.Length; i++) tris[i] = triList[i].i;
+
+        int nb = bindList.Count;
+        var bindposes = new Matrix4x4[nb];
+        for (int b = 0; b < nb; b++)
+        {
+            var m = bindList[b];
+            bindposes[b] = new Matrix4x4(
+                new Vector4(m[0].f, m[4].f, m[8].f, m[12].f),
+                new Vector4(m[1].f, m[5].f, m[9].f, m[13].f),
+                new Vector4(m[2].f, m[6].f, m[10].f, m[14].f),
+                new Vector4(m[3].f, m[7].f, m[11].f, m[15].f));
+        }
+
+        var bonePids = smr["bones"];
+        var boneTransforms = new Transform[bonePids.Count];
+        for (int b = 0; b < bonePids.Count; b++)
+        {
+            string pid = bonePids[b].str;
+            Transform t;
+            if (bones.TryGetValue(pid, out t)) boneTransforms[b] = t;
+        }
+
+        var go = new GameObject(meshName);
+        go.transform.SetParent(parent, false);
+        var sm = go.AddComponent<SkinnedMeshRenderer>();
+
+        var mesh = new Mesh();
+        mesh.name = meshName;
+        mesh.vertices = verts;
+        mesh.uv = uvs;
+        mesh.triangles = tris;
+
+        var weights = new BoneWeight[nv];
+        for (int i = 0; i < nv && i < skinList.Count; i++)
+        {
+            var s = skinList[i];
+            var bw = new BoneWeight();
+            bw.boneIndex0 = s[0].i; bw.weight0 = s[4].f;
+            bw.boneIndex1 = s[1].i; bw.weight1 = s[5].f;
+            bw.boneIndex2 = s[2].i; bw.weight2 = s[6].f;
+            bw.boneIndex3 = s[3].i; bw.weight3 = s[7].f;
+            weights[i] = bw;
+        }
+        mesh.boneWeights = weights;
+        mesh.bindposes = bindposes;
+        mesh.RecalculateNormals();
+        mesh.RecalculateBounds();
+
+        sm.sharedMesh = mesh;
+        sm.bones = boneTransforms;
+        if (smr["root"].str != "0" && bones.ContainsKey(smr["root"].str))
+            sm.rootBone = bones[smr["root"].str];
+
+        var mat = new Material(shader != null ? shader : Shader.Find("Standard"));
+        string texName = meshName + "_ds";
+        Texture2D tex = Resources.Load<Texture2D>("__textures/" + texName);
+        if (tex != null) mat.mainTexture = tex;
+        sm.sharedMaterial = mat;
+        return 1;
     }
 }

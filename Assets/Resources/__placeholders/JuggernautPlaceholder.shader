@@ -17,8 +17,6 @@ Shader "Hidden/JuggernautPlaceholder"
             #pragma fragment frag
             #include "UnityCG.cginc"
 
-            precision highp float;
-
             struct appdata
             {
                 float4 vertex : POSITION;
