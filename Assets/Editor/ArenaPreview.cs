@@ -56,7 +56,7 @@ public static class ArenaPreview
 
         // ---- Arena geometry ----
         var arenaRoot = new GameObject("Arena_1_Colosseum");
-        int arenaParts = BuildParts(arenaRoot.transform, "Assets/Models/__baked_arena", "Assets/Resources/__textures", shader, skipNames: null);
+        int arenaParts = BuildParts(arenaRoot.transform, "Assets/Models/__baked_arena_1", "Assets/Resources/__textures", shader, skipNames: null);
 
         // ---- Character at arena center, facing camera (+z toward viewer) ----
         var charRoot = new GameObject("Blue_Warrior_Pve1");

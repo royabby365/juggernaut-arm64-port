@@ -72,6 +72,11 @@ public static class CharacterBuilder
         // battle camera (-z) by flipping the A-pose which faces +z.
         root.transform.rotation = Quaternion.Euler(0f, 180f, 0f);
 
+        // Attach the sword (blue_war_pve_1_sword, baked centered on grip at
+        // origin, blade along Y) at the right hand. In bind pose the right
+        // hand sits at x≈-0.53, y≈1.21, arm angled slightly out/down.
+        AttachSword(root, shader);
+
         Debug.Log($"[CharacterBuilder] assembled {loaded}/{Parts.Length} parts");
         if (loaded == 0)
         {
@@ -79,5 +84,28 @@ public static class CharacterBuilder
             return null;
         }
         return root;
+    }
+
+    private static void AttachSword(GameObject root, Shader shader)
+    {
+        Mesh mesh = Resources.Load<Mesh>("__char/blue_war_pve_1_sword");
+        if (mesh == null)
+        {
+            Debug.LogWarning("[CharacterBuilder] sword mesh missing");
+            return;
+        }
+        Texture2D tex = Resources.Load<Texture2D>("__textures/blue_war_pve_1_sword_ds");
+        var sword = new GameObject("Sword");
+        sword.transform.SetParent(root.transform);
+        sword.AddComponent<MeshFilter>().sharedMesh = mesh;
+        var mr = sword.AddComponent<MeshRenderer>();
+        var mat = new Material(shader);
+        if (tex != null) mat.mainTexture = tex;
+        mr.sharedMaterial = mat;
+
+        // Bind-pose right hand at x≈-0.53 y≈1.21; arm angles down/out slightly.
+        // Place the grip (mesh origin) at the hand, blade angling down-forward.
+        sword.transform.localPosition = new Vector3(-0.53f, 1.21f, 0.02f);
+        sword.transform.localRotation = Quaternion.Euler(0f, 0f, -15f); // tilt blade forward
     }
 }
