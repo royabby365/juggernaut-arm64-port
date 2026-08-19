@@ -115,33 +115,79 @@ public static class ArenaBuilder
         {
             Debug.LogWarning("[ArenaBuilder] skinned build threw: " + e.Message);
         }
+        GameObject player = null;
         if (skinned != null)
         {
             skinned.transform.SetParent(root.transform);
             skinned.transform.position = new Vector3(0f, 0f, 0f);
             skinned.transform.rotation = Quaternion.Euler(0f, 180f, 0f); // face camera
+            player = skinned;
         }
         else
         {
-            SpawnHero(root, CharacterBuilder.Variant.MaleWarrior, new Vector3(0f, 0f, 0f));
+            player = SpawnHero(root, CharacterBuilder.Variant.MaleWarrior, new Vector3(0f, 0f, 0f));
         }
-        SpawnHero(root, CharacterBuilder.Variant.FemaleWarrior, new Vector3(3.2f, 0f, 2.5f));
+        var foe = SpawnHero(root, CharacterBuilder.Variant.FemaleWarrior, new Vector3(3.2f, 0f, 2.5f));
         SpawnHero(root, CharacterBuilder.Variant.MaleAssassin, new Vector3(-3.2f, 0f, 2.5f));
         SpawnHero(root, CharacterBuilder.Variant.MaleMage, new Vector3(2.8f, 0f, -2.6f));
+        // foe intentionally unused beyond spawning (see NOTE below)
+
+        // ---- Register player/enemy for the camera state machine ----
+        // BattleCameraController.LateUpdate re-inits when
+        // Globals.PlayerGameObject != _player, so pointing it at our warrior
+        // makes the camera track the player's bones (InitPlayer finds 'bones').
+        if (player != null && Globals.PlayerGameObject != player)
+        {
+            player.name = Globals.PlayerName; // "__player"
+            Globals.PlayerGameObject = player;
+            Debug.Log("[ArenaBuilder] registered player for camera: " + player.name);
+        }
+        // NOTE: not registering Globals.Enemy — the Enemy component's StartImpl
+        // expects a full Person rig and can throw; BattleCameraController handles
+        // _enemy==null gracefully (UpdateBag/Fight guard on player only).
+
+        // Ensure the battle camera root exists WITH a Camera component:
+        // BattleCameraController finds GameObject.Find("camera") and calls
+        // _camera.GetComponent<Camera>() — a root without Camera NREs.
+        var camRoot = GameObject.Find(Globals.LocationGameObjectBattleCamera);
+        if (camRoot == null)
+        {
+            camRoot = new GameObject(Globals.LocationGameObjectBattleCamera);
+            camRoot.transform.position = new Vector3(4f, 2f, -5f);
+        }
+        if (camRoot.GetComponent<Camera>() == null)
+        {
+            var cam = camRoot.AddComponent<Camera>();
+            cam.clearFlags = CameraClearFlags.SolidColor;
+            cam.backgroundColor = new Color(0.3f, 0.4f, 0.6f);
+            cam.nearClipPlane = 0.3f;
+            cam.farClipPlane = 100f;
+            cam.fieldOfView = 60f;
+            if (camRoot.GetComponent<AudioListener>() == null)
+                camRoot.AddComponent<AudioListener>();
+        }
+        if (camRoot.GetComponent<StartBattleCamera>() == null && skinned != null &&
+            GameObject.Find("arena_center") != null)
+        {
+            // Replace the debug orbit with a shoulder-ish static view
+            var sbc = camRoot.AddComponent<StartBattleCamera>();
+            sbc.SetParams(3.2f, 1.9f, 0f); // speed 0 => no orbit, fixed offset
+        }
 
         return root;
     }
 
-    private static void SpawnHero(GameObject root, CharacterBuilder.Variant variant, Vector3 pos)
+    private static GameObject SpawnHero(GameObject root, CharacterBuilder.Variant variant, Vector3 pos)
     {
         var hero = CharacterBuilder.Build(variant);
-        if (hero == null) return;
+        if (hero == null) return null;
         hero.transform.SetParent(root.transform);
         hero.transform.position = pos;
         var idle = hero.AddComponent<CharacterIdle>();
         idle.Enabled = true;
         // Slight variation so the scene isn't a mirror
         idle.SwaySpeed = 0.4f + (int)variant * 0.1f;
+        return hero;
     }
 
     /// <summary>

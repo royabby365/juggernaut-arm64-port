@@ -110,6 +110,14 @@ public static class CharacterBuilder
         // battle camera (-z) by flipping the A-pose which faces +z.
         root.transform.rotation = Quaternion.Euler(0f, 180f, 0f);
 
+        // Camera-follow nodes (battle_camera / BattleCameraController look for
+        // these): a 'bones' root + 'bone_cam' at shoulder height.
+        var bonesRoot = new GameObject("bones");
+        bonesRoot.transform.SetParent(root.transform);
+        var boneCam = new GameObject("bone_cam");
+        boneCam.transform.SetParent(bonesRoot.transform);
+        boneCam.transform.localPosition = new Vector3(0f, 1.6f, 0.15f);
+
         AttachWeapon(root, shader, variant);
 
         Debug.Log($"[CharacterBuilder] assembled {loaded}/{parts.Length} parts ({variant})");

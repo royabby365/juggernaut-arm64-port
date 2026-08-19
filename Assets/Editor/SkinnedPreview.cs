@@ -29,11 +29,19 @@ public static class SkinnedPreview
         light.type = LightType.Directional; light.intensity = 1.2f;
         light.transform.rotation = Quaternion.Euler(45f, -35f, 0f);
 
-        var built = SkinnedRigBuilder.Build("__anim/warrior_rig", "__anim/warrior_clips", "Warrior_Skinned");
+        var built = SkinnedRigBuilder.Build("__anim/warrior_rig", "__anim/warrior_clips_full", "Warrior_Skinned");
         if (built != null)
         {
             built.transform.rotation = Quaternion.Euler(0f, 180f, 0f);
-            Debug.Log("[SkinnedPreview] built OK");
+            // Verify attachment nodes exist (recursive search - they're nested)
+            var bonesT = FindDeep(built.transform, "bones");
+            var camT = FindDeep(built.transform, "bone_cam");
+            var helm = FindDeep(built.transform, "Helm");
+            var sword = FindDeep(built.transform, "Sword");
+            Debug.Log($"[SkinnedPreview] bones={bonesT != null} bone_cam={camT != null} helm={helm != null} sword={sword != null}");
+            if (helm != null) Debug.Log($"[SkinnedPreview] helm parent={helm.parent.name} localPos={helm.localPosition}");
+            if (sword != null) Debug.Log($"[SkinnedPreview] sword parent={sword.parent.name} localPos={sword.localPosition}");
+            if (camT != null) Debug.Log($"[SkinnedPreview] bone_cam parent={camT.parent.name} localPos={camT.localPosition}");
         }
         else
         {
@@ -62,5 +70,16 @@ public static class SkinnedPreview
         cam.targetTexture = old;
         File.WriteAllBytes(outPath, ImageConversion.EncodeToPNG(tex));
         Debug.Log($"[SkinnedPreview] Wrote {outPath}");
+    }
+
+    private static Transform FindDeep(Transform root, string name)
+    {
+        if (root.name == name) return root;
+        for (int i = 0; i < root.childCount; i++)
+        {
+            var r = FindDeep(root.GetChild(i), name);
+            if (r != null) return r;
+        }
+        return null;
     }
 }

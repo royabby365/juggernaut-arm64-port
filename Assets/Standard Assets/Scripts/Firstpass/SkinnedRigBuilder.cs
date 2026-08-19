@@ -45,6 +45,7 @@ public static class SkinnedRigBuilder
 
         var rig = JSON.Parse(rigTa.text);
         var root = new GameObject(rootName);
+        Shader shader = Shader.Find("Hidden/JuggernautPlaceholder");
 
         // ---- 1. Build skeleton (Transform hierarchy) ----
         // Bones are named by their ORIGINAL GameObject names (from go_names) so
@@ -92,8 +93,39 @@ public static class SkinnedRigBuilder
             pathToBone["bones/" + string.Join("/", chain.ToArray())] = t;
         }
 
+        // ---- 1b. Camera + attachment nodes on the real skeleton ----
+        // battle_camera / BattleCameraController look for 'bone_cam' under the
+        // player to track the shoulder. Parent it to bone_neck so it follows.
+        Transform neckBone = null;
+        foreach (var kv in bones)
+        {
+            if (kv.Value.name == "bone_neck") { neckBone = kv.Value; break; }
+        }
+        var camBone = new GameObject("bone_cam").transform;
+        if (neckBone != null) camBone.SetParent(neckBone, false);
+        else camBone.SetParent(root.transform, false);
+        camBone.localPosition = new Vector3(0f, 0.2f, 0.1f);
+
+        // Attach static pieces (helm) to the head bone with worldPositionStays
+        // so they render correctly at bind pose and follow the animation.
+        Transform headBone = null;
+        foreach (var kv in bones)
+        {
+            if (kv.Value.name == "bone_head") { headBone = kv.Value; break; }
+        }
+        AttachStaticPart("__char/blue_war_m_pve_1_helm", "__textures/blue_war_m_pve_1_helm_ds",
+                         "Helm", headBone, shader);
+
+        // Sword goes to the right hand bone so it swings with the arm.
+        Transform handRBone = null;
+        foreach (var kv in bones)
+        {
+            if (kv.Value.name == "bone_hand_r") { handRBone = kv.Value; break; }
+        }
+        AttachStaticPart("__char/blue_war_pve_1_sword", "__textures/blue_war_pve_1_sword_ds",
+                         "Sword", handRBone, shader);
+
         // ---- 2. Build skinned meshes ----
-        Shader shader = Shader.Find("Hidden/JuggernautPlaceholder");
         var meshes = rig["meshes"];
         var smrs = rig["smr"];
         int built = 0;
@@ -224,5 +256,35 @@ public static class SkinnedRigBuilder
         if (tex != null) mat.mainTexture = tex;
         sm.sharedMaterial = mat;
         return 1;
+    }
+
+    /// <summary>
+    /// Attach a static (non-skinned) mesh to a skeleton bone. Uses
+    /// worldPositionStays=true so the part renders at its bind-pose world
+    /// position immediately, then FOLLOWS the bone as the skeleton animates.
+    /// </summary>
+    private static void AttachStaticPart(string meshPath, string texPath, string name,
+                                         Transform bone, Shader shader)
+    {
+        if (bone == null)
+        {
+            Debug.LogWarning("[SkinnedRigBuilder] attach bone missing for " + name);
+            return;
+        }
+        Mesh mesh = Resources.Load<Mesh>(meshPath);
+        if (mesh == null)
+        {
+            Debug.LogWarning("[SkinnedRigBuilder] attach mesh missing: " + meshPath);
+            return;
+        }
+        Texture2D tex = Resources.Load<Texture2D>(texPath);
+        var go = new GameObject(name);
+        go.AddComponent<MeshFilter>().sharedMesh = mesh;
+        var mr = go.AddComponent<MeshRenderer>();
+        var mat = new Material(shader != null ? shader : Shader.Find("Standard"));
+        if (tex != null) mat.mainTexture = tex;
+        mr.sharedMaterial = mat;
+        // worldPositionStays: keep the bind-pose world placement, then follow bone
+        go.transform.SetParent(bone, true);
     }
 }
