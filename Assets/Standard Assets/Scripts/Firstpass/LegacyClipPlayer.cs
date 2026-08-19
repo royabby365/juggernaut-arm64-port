@@ -6,18 +6,22 @@ using UnityEngine;
 /// Plays legacy (non-humanoid) animation clips exported from the original
 /// Unity 4.x bundles (scripts/export_clips.py) on a skeleton built by
 /// SkinnedRigBuilder. The clip JSON has per-bone-path keyframe curves:
-///   { clip, fps, curves: { "bones/bone_pelvis/...": { pos: [[t,x,y,z]...], rot: [[t,x,y,z,w]...] } } }
+///   [{ clip, fps, curves: { "bones/bone_pelvis/...": { pos: [[t,x,y,z]...], rot: [[t,x,y,z,w]...] } } }]
 ///
 /// Bone paths match the skeleton GameObject hierarchy names (bones/...).
 /// Curves are evaluated with linear interpolation + wrap.
+///
+/// Supports a list of clips; when cycleClips is on, it plays through them in
+/// order (idle, step, attacks, damage, death...) for a combat showcase.
 /// </summary>
 public class LegacyClipPlayer : MonoBehaviour
 {
-    public string rigJsonPath = "__anim/warrior_rig";
-    public string clipJsonPath = "__anim/warrior_clips";
-    public string clipName = "idle";
+    public string clipJsonPath = "__anim/warrior_clips_full";
+    public string[] clipNames = { "idle" };
     public float speed = 1f;
     public bool playOnStart = true;
+    public bool cycleClips = true;
+    public float cycleHold = 2.5f; // seconds to play each clip before switching
 
     private class Curve
     {
@@ -26,16 +30,22 @@ public class LegacyClipPlayer : MonoBehaviour
         public Quaternion[] Rots;
     }
 
-    private Dictionary<string, Curve> _curves = new Dictionary<string, Curve>();
+    private class ClipData
+    {
+        public string Name;
+        public float Length;
+        public Dictionary<string, Curve> Curves = new Dictionary<string, Curve>();
+    }
+
+    private readonly List<ClipData> _clips = new List<ClipData>();
     private Dictionary<string, Transform> _bones = new Dictionary<string, Transform>();
-    private float _clipLen;
+    private int _clipIdx = -1;
     private float _t;
+    private float _inClip;
     private bool _loaded;
 
     void Start()
     {
-        // Find the skeleton: bones were parented directly under this GO
-        // (SkinnedRigBuilder sets the skeleton root as this component's GO child).
         BuildBoneMap(transform);
 
         TextAsset clipTa = Resources.Load<TextAsset>(clipJsonPath);
@@ -45,11 +55,13 @@ public class LegacyClipPlayer : MonoBehaviour
             return;
         }
         var clips = JSON.Parse(clipTa.text);
+        var wanted = new HashSet<string>(clipNames);
         foreach (var clip in clips.Arr)
         {
-            if (clip["clip"].str != clipName) continue;
+            string nm = clip["clip"].str;
+            if (!wanted.Contains(nm)) continue;
+            var cd = new ClipData { Name = nm };
             var curves = clip["curves"];
-            _clipLen = 0f;
             foreach (var path in curves.Keys)
             {
                 var node = curves[path];
@@ -64,7 +76,7 @@ public class LegacyClipPlayer : MonoBehaviour
                         var k = node["pos"][i];
                         c.Times[i] = (float)k[0].f;
                         c.Poses[i] = new Vector3((float)k[1].f, (float)k[2].f, (float)k[3].f);
-                        if (c.Times[i] > _clipLen) _clipLen = c.Times[i];
+                        if (c.Times[i] > cd.Length) cd.Length = c.Times[i];
                     }
                 }
                 if (node["rot"] != null)
@@ -77,24 +89,29 @@ public class LegacyClipPlayer : MonoBehaviour
                         c.Rots[i] = new Quaternion((float)k[1].f, (float)k[2].f, (float)k[3].f, (float)k[4].f);
                         if (c.Times == null)
                         {
-                            // shouldn't happen (pos usually present) but guard
-                            if (c.Times == null) { c.Times = new float[n]; }
+                            c.Times = new float[n];
                             c.Times[i] = (float)k[0].f;
                         }
                     }
                 }
-                _curves[path] = c;
+                cd.Curves[path] = c;
             }
-            break;
+            _clips.Add(cd);
         }
-        _loaded = _curves.Count > 0;
+        _loaded = _clips.Count > 0;
         if (_loaded)
-            Debug.Log($"[LegacyClipPlayer] loaded '{clipName}' ({_curves.Count} bone curves, {_clipLen:F2}s)");
+        {
+            _clipIdx = 0;
+            Debug.Log($"[LegacyClipPlayer] loaded {_clips.Count} clips: {string.Join(", ", _clips.ConvertAll(c => c.Name).ToArray())}");
+        }
+        else
+        {
+            Debug.LogWarning("[LegacyClipPlayer] no matching clips found");
+        }
     }
 
     private void BuildBoneMap(Transform node)
     {
-        // Register this node by its hierarchy path
         var chain = new List<string> { node.name };
         var parent = node.parent;
         while (parent != null)
@@ -112,8 +129,28 @@ public class LegacyClipPlayer : MonoBehaviour
     {
         if (!_loaded || !playOnStart) return;
         _t += Time.deltaTime * speed;
-        float t = _t % _clipLen;
-        foreach (var kv in _curves)
+        _inClip += Time.deltaTime;
+
+        var clip = _clips[_clipIdx];
+
+        // Advance to next clip when the current one finishes (or after hold)
+        if (_inClip >= Mathf.Max(clip.Length, 0.5f) + (cycleClips ? 0f : 0f))
+        {
+            if (cycleClips)
+            {
+                _clipIdx = (_clipIdx + 1) % _clips.Count;
+                _inClip = 0f;
+                clip = _clips[_clipIdx];
+                Debug.Log($"[LegacyClipPlayer] clip: {clip.Name}");
+            }
+            else if (_inClip >= Mathf.Max(clip.Length, 0.5f) + cycleHold)
+            {
+                _inClip = 0f;
+            }
+        }
+
+        float t = _inClip % Mathf.Max(clip.Length, 0.001f);
+        foreach (var kv in clip.Curves)
         {
             Transform bone;
             if (!_bones.TryGetValue(kv.Key, out bone)) continue;
@@ -124,7 +161,7 @@ public class LegacyClipPlayer : MonoBehaviour
                 int i0 = idx, i1 = idx + 1;
                 if (i1 >= c.Times.Length) { i1 = 0; }
                 float seg = c.Times[i1] - c.Times[i0];
-                if (seg <= 0) seg = _clipLen;
+                if (seg <= 0) seg = clip.Length;
                 float f = seg > 0 ? Mathf.Clamp01((t - c.Times[i0]) / seg) : 0f;
                 bone.localPosition = Vector3.Lerp(c.Poses[i0], c.Poses[i1], f);
             }
@@ -133,20 +170,20 @@ public class LegacyClipPlayer : MonoBehaviour
                 int i0 = idx, i1 = idx + 1;
                 if (i1 >= c.Times.Length) { i1 = 0; }
                 float seg = c.Times[i1] - c.Times[i0];
-                if (seg <= 0) seg = _clipLen;
+                if (seg <= 0) seg = clip.Length;
                 float f = seg > 0 ? Mathf.Clamp01((t - c.Times[i0]) / seg) : 0f;
                 bone.localRotation = Quaternion.Slerp(c.Rots[i0], c.Rots[i1], f);
             }
         }
     }
 
-    /// <summary>Index of the last keyframe at or before t.</summary>
     private static int FindKey(float[] times, float t)
     {
+        if (times == null || times.Length == 0) return -1;
         for (int i = times.Length - 1; i >= 0; i--)
         {
             if (times[i] <= t) return i;
         }
-        return times.Length - 1; // wrap: t before first key -> last key
+        return times.Length - 1;
     }
 }

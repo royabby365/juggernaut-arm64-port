@@ -109,7 +109,7 @@ public static class SkinnedRigBuilder
             }
         }
 
-        // ---- 3. Idle animation driver ----
+        // ---- 3. Animation driver ----
         if (clipJsonPath != null)
         {
             // Attach to the 'bones' skeleton root so clip paths (bones/...)
@@ -125,9 +125,15 @@ public static class SkinnedRigBuilder
             }
             var animGo = skelRoot != null ? skelRoot.gameObject : root;
             var anim = animGo.AddComponent<LegacyClipPlayer>();
-            anim.rigJsonPath = rigJsonPath;
             anim.clipJsonPath = clipJsonPath;
-            anim.clipName = "idle";
+            // Full combat showcase: loop through the original animation set
+            anim.clipNames = new[]
+            {
+                "idle", "idle2", "step", "hand_left", "hand_right", "hand_front",
+                "magic_attack", "magic_aoe", "damage", "block", "dodge",
+                "foot_left", "foot_right", "death"
+            };
+            anim.cycleClips = true;
         }
 
         Debug.Log($"[SkinnedRigBuilder] built {built} skinned meshes, {bones.Count} bones");

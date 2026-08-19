@@ -109,7 +109,7 @@ public static class ArenaBuilder
         GameObject skinned = null;
         try
         {
-            skinned = SkinnedRigBuilder.Build("__anim/warrior_rig", "__anim/warrior_clips", "Warrior_Skinned");
+            skinned = SkinnedRigBuilder.Build("__anim/warrior_rig", "__anim/warrior_clips_full", "Warrior_Skinned");
         }
         catch (System.Exception e)
         {
