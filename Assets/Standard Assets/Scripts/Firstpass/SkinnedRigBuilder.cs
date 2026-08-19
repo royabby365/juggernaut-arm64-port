@@ -29,15 +29,20 @@ public static class SkinnedRigBuilder
             return null;
         }
 
-        var rig = new JSONObject(rigTa.text);
+        var rig = JSON.Parse(rigTa.text);
         var root = new GameObject(rootName);
 
         // ---- 1. Build skeleton (Transform hierarchy) ----
+        // Bones are named by their ORIGINAL GameObject names (from go_names) so
+        // the animation clip paths (bones/bone_pelvis/bone_spine/...) match.
         var bones = new Dictionary<string, Transform>();
+        var pathToBone = new Dictionary<string, Transform>();
+        var goNames = rig["go_names"];
         var skeleton = rig["skeleton"];
         foreach (var kv in skeleton.Keys)
         {
-            var b = new GameObject("bone_" + kv).transform;
+            string boneName = goNames != null && goNames[kv] != null ? goNames[kv].str : ("bone_" + kv);
+            var b = new GameObject(boneName).transform;
             bones[kv] = b;
             b.SetParent(root.transform, false);
         }
@@ -53,6 +58,21 @@ public static class SkinnedRigBuilder
             bones[kv].localPosition = new Vector3(p[0].f, p[1].f, p[2].f);
             bones[kv].localRotation = new Quaternion(r[0].f, r[1].f, r[2].f, r[3].f);
             bones[kv].localScale = new Vector3(s[0].f, s[1].f, s[2].f);
+        }
+        // Map clip paths (bones/bone_pelvis/bone_spine/...) -> transforms by
+        // walking each bone's parent chain.
+        foreach (var kv in bones.Keys)
+        {
+            var t = bones[kv];
+            var chain = new List<string> { t.name };
+            var parent = t.parent;
+            while (parent != null && parent != root.transform)
+            {
+                chain.Add(parent.name);
+                parent = parent.parent;
+            }
+            chain.Reverse();
+            pathToBone["bones/" + string.Join("/", chain.ToArray())] = t;
         }
 
         // ---- 2. Build skinned meshes ----
@@ -156,9 +176,22 @@ public static class SkinnedRigBuilder
         // ---- 3. Idle animation driver ----
         if (clipJsonPath != null)
         {
-            var anim = root.AddComponent<LegacyClipPlayer>();
+            // Attach to the 'bones' skeleton root so clip paths (bones/...)
+            // resolve from that node downward.
+            Transform skelRoot = null;
+            foreach (var kv in bones)
+            {
+                if (kv.Value.parent == root.transform)
+                {
+                    skelRoot = kv.Value;
+                    break;
+                }
+            }
+            var animGo = skelRoot != null ? skelRoot.gameObject : root;
+            var anim = animGo.AddComponent<LegacyClipPlayer>();
             anim.rigJsonPath = rigJsonPath;
             anim.clipJsonPath = clipJsonPath;
+            anim.clipName = "idle";
         }
 
         Debug.Log($"[SkinnedRigBuilder] built {built} skinned meshes, {bones.Count} bones");

@@ -21,7 +21,7 @@ def main():
     env = UnityPy.load(bundle)
     objs = {o.path_id: o for o in env.objects}
 
-    # --- Transform hierarchy ---
+    # --- Transform hierarchy (+ names from owning GameObject) ---
     skeleton = {}
     for pid, o in objs.items():
         if o.type.name != "Transform":
@@ -35,8 +35,9 @@ def main():
             "scl": vec3(d.m_LocalScale),
         }
 
-    # --- GameObject -> Transform (class id 4) ---
+    # --- GameObject -> Transform (class id 4) + names ---
     go_tf = {}
+    go_names = {}
     for pid, o in objs.items():
         if o.type.name != "GameObject":
             continue
@@ -45,6 +46,7 @@ def main():
             cid, pptr = c_tuple
             if cid == 4:
                 go_tf[str(pid)] = str(pptr.path_id)
+                go_names[str(pptr.path_id)] = d.m_Name or ""
 
     # --- SkinnedMeshRenderers: mesh, bones order, root ---
     smr_meshes = []
@@ -104,6 +106,7 @@ def main():
     rig = {
         "skeleton": skeleton,
         "go_tf": go_tf,
+        "go_names": go_names,
         "smr": smr_meshes,
         "meshes": meshes,
     }
