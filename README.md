@@ -31,6 +31,24 @@ see `CITATION.cff`.
 
 ---
 
+## Screenshots
+
+> Real renders from the port: character meshes and arena geometry extracted from
+> the original Unity 4.x OBB bundles (via UnityPy) and re-imported at bind pose.
+> Editor shots are 1280×720 renders; battle shots are captured live from the
+> Android emulator running the ARM64 IL2CPP build.
+
+| | |
+|---|---|
+| **Main menu** | **Battle — two warriors** |
+| ![Menu](docs/screenshots/menu.png) | ![Two warriors](docs/screenshots/battle_two_warriors.png) |
+| **Battle — ice arena (emulator)** | **Colosseum arena (editor render)** |
+| ![Ice arena](docs/screenshots/battle_arena2.png) | ![Colosseum](docs/screenshots/arena_colosseum_editor.png) |
+| **Character showcase (editor render)** | |
+| ![Character](docs/screenshots/character_editor.png) | |
+
+---
+
 ## Build it — local (recommended)
 
 GameCI's free-license activation is deprecated, so the CI route is blocked.

@@ -1,0 +1,7 @@
+newmtl glaive
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd ../../Resources/__textures/blue_asn_pve_1_glaive_ds.png
