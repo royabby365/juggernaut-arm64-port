@@ -117,11 +117,7 @@ public class BattleCameraController : MonoBehaviour
 			GameObject gameObject = GameObject.Find(Globals.LocationGameObjectBattleCamera);
 			if (gameObject != null)
 			{
-				// Our placeholder __battle_camera puts the Camera component on the
-				// "camera_upper" child (matches original scene layout). Point _camera
-				// at that child so GetComponent<Camera>() works; fall back to root.
-				Transform camChild = gameObject.transform.FindChildByName("camera_upper");
-				_camera = (camChild != null) ? camChild : gameObject.transform;
+				_camera = gameObject.transform;
 			}
 		}
 	}

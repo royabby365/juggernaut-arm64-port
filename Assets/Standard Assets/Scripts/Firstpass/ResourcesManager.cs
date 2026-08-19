@@ -424,6 +424,10 @@ internal class ResourcesManager : SingletonT<ResourcesManager>
 	                battle.SelectGui = selectGui;
 	                battle.BattleCameraController = fallback.AddComponent<BattleCameraController>();
 	                battle.StartBattleCamera = fallback.AddComponent<StartBattleCamera>();
+	                // arena_center: StartBattleCamera.Start() does GameObject.Find("arena_center")
+	                var arenaCenter = new GameObject("arena_center");
+	                arenaCenter.transform.SetParent(fallback.transform);
+	                arenaCenter.transform.position = Vector3.zero;
 	                // Add some visible elements
 	                AddBattlePlaceholderElements(fallback);
 	            }
