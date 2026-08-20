@@ -22,6 +22,10 @@ public class LegacyClipPlayer : MonoBehaviour
     public bool playOnStart = true;
     public bool cycleClips = true;
     public float cycleHold = 2.5f; // seconds to play each clip before switching
+    public string idleName = "idle";   // clip to return to after a forced play
+
+    private bool _forced;      // currently playing a forcibly-played clip
+    private int _forcedIdx = -1;
 
     private class Curve
     {
@@ -125,6 +129,60 @@ public class LegacyClipPlayer : MonoBehaviour
             BuildBoneMap(node.GetChild(i));
     }
 
+    /// <summary>
+    /// True once the clip JSON has been parsed and clips are ready.
+    /// </summary>
+    public bool IsReady { get { return _loaded; } }
+
+    /// <summary>
+    /// Whether the named clip is present in the loaded clip set.
+    /// </summary>
+    public bool HasClip(string name)
+    {
+        if (!_loaded) return false;
+        for (int i = 0; i < _clips.Count; i++)
+            if (_clips[i].Name == name) return true;
+        return false;
+    }
+
+    /// <summary>
+    /// Force-play a named clip once. When it finishes, control returns to the
+    /// idle clip (so the battle controller can trigger specific attacks / damage
+    /// reactions without the showcase cycler). Returns false if the clip is
+    /// unknown or not yet loaded.
+    /// </summary>
+    public bool Play(string name)
+    {
+        if (!_loaded) return false;
+        for (int i = 0; i < _clips.Count; i++)
+        {
+            if (_clips[i].Name == name)
+            {
+                _forcedIdx = i;
+                _forced = true;
+                _clipIdx = i;
+                _inClip = 0f;
+                cycleClips = false;          // single triggered clip
+                Debug.Log("[LegacyClipPlayer] forced play: " + name);
+                return true;
+            }
+        }
+        Debug.LogWarning("[LegacyClipPlayer] unknown clip: " + name);
+        return false;
+    }
+
+    /// <summary>
+    /// Current clip name being evaluated (for the battle controller's logic).
+    /// </summary>
+    public string CurrentClip
+    {
+        get
+        {
+            if (!_loaded || _clipIdx < 0 || _clipIdx >= _clips.Count) return "";
+            return _clips[_clipIdx].Name;
+        }
+    }
+
     void Update()
     {
         if (!_loaded || !playOnStart) return;
@@ -133,8 +191,21 @@ public class LegacyClipPlayer : MonoBehaviour
 
         var clip = _clips[_clipIdx];
 
+        // A forced (battle-triggered) clip plays once, then control returns to idle.
+        if (_forced && _inClip >= Mathf.Max(clip.Length, 0.5f))
+        {
+            int idleIdx = -1;
+            for (int i = 0; i < _clips.Count; i++)
+                if (_clips[i].Name == idleName) { idleIdx = i; break; }
+            if (idleIdx >= 0) _clipIdx = idleIdx;
+            _forced = false;
+            _forcedIdx = -1;
+            _inClip = 0f;
+            clip = _clips[_clipIdx];
+            Debug.Log("[LegacyClipPlayer] clip: " + clip.Name);
+        }
         // Advance to next clip when the current one finishes (or after hold)
-        if (_inClip >= Mathf.Max(clip.Length, 0.5f) + (cycleClips ? 0f : 0f))
+        else if (_inClip >= Mathf.Max(clip.Length, 0.5f) + (cycleClips ? 0f : 0f))
         {
             if (cycleClips)
             {

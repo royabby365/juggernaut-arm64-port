@@ -169,9 +169,19 @@ public static class ArenaBuilder
         if (camRoot.GetComponent<StartBattleCamera>() == null && skinned != null &&
             GameObject.Find("arena_center") != null)
         {
-            // Replace the debug orbit with a shoulder-ish static view
+            // Replace the debug orbit with a shoulder-ish static view.
+            // Pull back far enough (radius ~6.5, height ~3) that the PLAYER and
+            // ENEMY both fit in frame — the default 3.2/1.9 crops heads/edges.
             var sbc = camRoot.AddComponent<StartBattleCamera>();
-            sbc.SetParams(3.2f, 1.9f, 0f); // speed 0 => no orbit, fixed offset
+            sbc.SetParams(6.5f, 3.0f, 0f); // speed 0 => no orbit, fixed offset
+        }
+
+        // ---- Turn-based battle controller ----
+        // Root singleton to this arena, driving the real extracted clips via
+        // player agency (attack/magic/block/dodge) against a skinned enemy.
+        if (player != null)
+        {
+            CombatController.Instance.AttachArena(arenaIndex, root, player);
         }
 
         return root;

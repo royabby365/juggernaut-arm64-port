@@ -16,9 +16,33 @@ using UnityEngine.SceneManagement;
 
 public static class BuildScript
 {
+    /// <summary>Read a -name value from the unity command line: -name x or --name=x.</summary>
+    static string CmdArg(string name, string fallback)
+    {
+        var args = Environment.GetCommandLineArgs();
+        for (int i = 0; i < args.Length; i++)
+        {
+            if (args[i] == "-" + name && i + 1 < args.Length)
+                return args[i + 1];
+            if (args[i].StartsWith("--" + name + "="))
+                return args[i].Substring(("--" + name + "=").Length);
+            if (args[i].StartsWith("-" + name + "="))
+                return args[i].Substring((name + "=").Length);
+        }
+        return fallback;
+    }
+
     public static void BuildPlayer()
     {
         string outputPath = "build/juggernaut-arm64.apk";
+
+        // ---- Version from command line (-buildVersion, -androidVersionCode) so
+        // ---- the release badge matches the pushed tag. local_build.sh passes
+        // ---- VERSION / ANDROID_VERSION_CODE through these args.
+        string buildVersion = CmdArg("buildVersion", CmdArg("bundleVersion", "2.4.15"));
+        string codeStr = CmdArg("androidVersionCode", "15");
+        int buildCode;
+        if (!int.TryParse(codeStr, out buildCode)) buildCode = 15;
 
         // ---- Platform/backend: arm64-v8a + IL2CPP (this is the actual
         // ---- "64-bit" switch; Mono is 32-bit only on modern Unity Android)
@@ -28,9 +52,10 @@ public static class BuildScript
         PlayerSettings.Android.targetSdkVersion = AndroidSdkVersions.AndroidApiLevel33;
         PlayerSettings.Android.minSdkVersion = AndroidSdkVersions.AndroidApiLevel22;
         PlayerSettings.Android.forceInternetPermission = true;
-        PlayerSettings.bundleVersion = "2.4.15";
+        PlayerSettings.bundleVersion = buildVersion;
         PlayerSettings.productName = "Juggernaut";
-        PlayerSettings.Android.bundleVersionCode = 15;
+        PlayerSettings.Android.bundleVersionCode = buildCode;
+        Debug.Log($"[BuildScript] version={buildVersion} vcode={buildCode}");
         // ---- App icon: use the ORIGINAL Juggernaut launcher icon extracted
         // ---- from the shipping APK (warrior on red) instead of the Unity
         // ---- logo. Legacy slots for Android <8, adaptive for 8+.
