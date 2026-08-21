@@ -37,6 +37,12 @@ public class BattleUI : MonoBehaviour
         float w = Screen.width, h = Screen.height;
         float s = Mathf.Max(0.5f, Mathf.Min(w / 1920f, h / 1080f));
 
+        // DIAGNOSTIC: draw a huge red rectangle in the center to confirm
+        // GUI.DrawTexture works at all with our texture.
+        GUI.color = new Color(1f, 0f, 0f, 0.5f);
+        GUI.DrawTexture(new Rect(w/2 - 200, h/2 - 200, 400, 400), _tex);
+        GUI.color = Color.white;
+
         DrawHPBars(cc, s, w, h);
         DrawBanner(cc, s, w, h);
         DrawButtons(cc, s, w, h);
