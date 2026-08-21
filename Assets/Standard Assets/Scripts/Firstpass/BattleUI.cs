@@ -33,6 +33,13 @@ public class BattleUI : MonoBehaviour
         var cc = CombatController.Instance;
         if (cc == null) return;
 
+        // *** DIAGNOSTIC: full-screen semi-transparent red overlay ***
+        var diagStyle = new GUIStyle(GUI.skin.box);
+        diagStyle.normal.background = _tex;
+        GUI.backgroundColor = new Color(0f, 1f, 0f, 0.5f);  // bright green, 50% alpha
+        GUI.Box(new Rect(0, 0, Screen.width, Screen.height), "", diagStyle);
+        GUI.backgroundColor = Color.white;
+
         float w = Screen.width, h = Screen.height;
         float s = Mathf.Max(0.5f, Mathf.Min(w / 1920f, h / 1080f));
 
