@@ -67,7 +67,7 @@ public class BattleUI : MonoBehaviour
             if (GUI.Button(new Rect(w / 2 - 180f * s, 460f * s, 360f * s, 84f * s), cc.Victory ? "NEXT ARENA" : "RETRY", btn))
             {
                 // Show loading and let one frame render before the sync rebuild.
-                LoadingScreen.Show();
+                PortLoadingScreen.Show();
                 StartCoroutine(AdvanceNextFrame(cc));
             }
         }
@@ -97,6 +97,6 @@ public class BattleUI : MonoBehaviour
     {
         yield return null; // let the loading frame render
         if (cc != null) cc.AdvanceArena();
-        else LoadingScreen.Hide();
+        else PortLoadingScreen.Hide();
     }
 }

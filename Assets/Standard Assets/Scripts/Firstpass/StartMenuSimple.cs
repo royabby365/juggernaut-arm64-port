@@ -116,7 +116,7 @@ internal class StartMenuSimple : MonoBehaviour
 		{
 			// Show the loading overlay first and defer the heavy arena build by one
 			// frame so the LOADING frame actually renders (build is synchronous).
-			LoadingScreen.Show();
+			PortLoadingScreen.Show();
 			StartCoroutine(StartNewGameNextFrame());
 		}
 		btnY += btnH + gap;
@@ -124,7 +124,7 @@ internal class StartMenuSimple : MonoBehaviour
 		// CONTINUE
 		if (MenuButton(blockX, btnY, menuW, btnH, "CONTINUE"))
 		{
-			LoadingScreen.Show();
+			PortLoadingScreen.Show();
 			StartCoroutine(StartNewGameNextFrame());
 		}
 		btnY += btnH + gap;
@@ -167,7 +167,7 @@ internal class StartMenuSimple : MonoBehaviour
 		else
 		{
 			Debug.LogWarning("[StartMenuSimple] MainMenu not found, cannot start new game.");
-			LoadingScreen.Hide();
+			PortLoadingScreen.Hide();
 		}
 	}
 }

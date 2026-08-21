@@ -82,7 +82,7 @@ public class CombatController : MonoBehaviour
     public void AttachArena(int arenaIndex, GameObject arenaRoot, GameObject player)
     {
         // The heavy arena build is done — hide the loading overlay.
-        LoadingScreen.Hide();
+        PortLoadingScreen.Hide();
 
         if (_enemyGO != null) Destroy(_enemyGO);
 
