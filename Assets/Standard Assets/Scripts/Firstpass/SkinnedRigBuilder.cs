@@ -250,6 +250,17 @@ public static class SkinnedRigBuilder
         if (smr["root"].str != "0" && bones.ContainsKey(smr["root"].str))
             sm.rootBone = bones[smr["root"].str];
 
+        // CRITICAL: runtime SkinnedMeshRenderers start with a zero-size
+        // localBounds AABB at origin -> the camera frustum culls the whole
+        // body, leaving only the static helm/sword attachments visible
+        // ("floating armor, no character"). Force updateWhenOffscreen and a
+        // generous bounds box so the skinned mesh always renders.
+        sm.updateWhenOffscreen = true;
+        if (mesh.bounds.size.sqrMagnitude < 0.01f)
+            sm.localBounds = new Bounds(Vector3.zero, Vector3.one * 6f);
+        else
+            sm.localBounds = mesh.bounds;
+
         var mat = new Material(shader != null ? shader : Shader.Find("Standard"));
         string texName = meshName + "_ds";
         Texture2D tex = Resources.Load<Texture2D>("__textures/" + texName);

@@ -65,7 +65,11 @@ public class BattleUI : MonoBehaviour
             btn.normal.textColor = new Color(0.12f, 0.08f, 0.03f);
             GUI.backgroundColor = new Color(0.9f, 0.75f, 0.35f);
             if (GUI.Button(new Rect(w / 2 - 180f * s, 460f * s, 360f * s, 84f * s), cc.Victory ? "NEXT ARENA" : "RETRY", btn))
-                cc.AdvanceArena();
+            {
+                // Show loading and let one frame render before the sync rebuild.
+                LoadingScreen.Show();
+                StartCoroutine(AdvanceNextFrame(cc));
+            }
         }
         else if (!cc.Busy && cc.IsReady)
         {
@@ -87,5 +91,12 @@ public class BattleUI : MonoBehaviour
             if (GUI.Button(new Rect(x0 + 3f * (bw + gap), btnY, bw, bh), "DODGE", btn)) cc.PlayerDodge();
         }
         GUI.backgroundColor = Color.white;
+    }
+
+    private System.Collections.IEnumerator AdvanceNextFrame(CombatController cc)
+    {
+        yield return null; // let the loading frame render
+        if (cc != null) cc.AdvanceArena();
+        else LoadingScreen.Hide();
     }
 }

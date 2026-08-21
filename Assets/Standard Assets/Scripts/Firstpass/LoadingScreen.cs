@@ -1,157 +1,99 @@
 using System.Collections;
 using UnityEngine;
-using Yarx;
 
+/// <summary>
+/// Full-screen LOADING overlay drawn via OnGUI on its own DontDestroyOnLoad
+/// GO (same survival trick as BattleUI — OnGUI on scene GOs is unreliable in
+/// this project). Shown before heavy synchronous work (arena build, rig spawn)
+/// and hidden once the caller is done. Callers must defer the heavy work by
+/// one frame (yield return null) after Show() so the loading frame renders.
+/// </summary>
 public class LoadingScreen : MonoBehaviour
 {
-	private CompositeDisposable _subscriptions;
+    private static LoadingScreen _instance;
+    public static LoadingScreen Instance
+    {
+        get
+        {
+            if (_instance == null)
+            {
+                var go = new GameObject("__loading_screen");
+                DontDestroyOnLoad(go);
+                _instance = go.AddComponent<LoadingScreen>();
+            }
+            return _instance;
+        }
+    }
 
-	public MeshFilter background;
+    public static bool Active = false;
 
-	public int screensCount = 16;
+    private Texture2D _tex;
+    private float _t;
 
-	public SpriteText versionNumber;
+    public static void Show()
+    {
+        Active = true;
+        Instance._t = 0f;
+    }
 
-	public SpriteText loadingTips;
+    public static void Hide()
+    {
+        Active = false;
+    }
 
-	private ActionD _action;
+    private void Awake()
+    {
+        _tex = new Texture2D(2, 2, TextureFormat.RGBA32, false);
+        _tex.SetPixels(new Color[] { Color.white, Color.white, Color.white, Color.white });
+        _tex.Apply();
+        _tex.hideFlags = HideFlags.HideAndDontSave;
+    }
 
-	public bool IsVisible => GetComponent<Camera>() != null && GetComponent<Camera>().enabled;
+    private void Update()
+    {
+        if (Active) _t += Time.deltaTime;
+    }
 
-	public void ShowLoadingScreen(ActionD action)
-	{
-		if (Globals.IgnoreHud)
-		{
-			_action = action;
-			StartCoroutine("LoadScreenAnimated2");
-		}
-		else if (!GetComponent<Camera>().enabled)
-		{
-			Utils.Log("ShowLoadingScreen");
-			SpriteGui.DontReleaseButtons = true;
-			_action = action;
-			StartCoroutine("LoadScreenAnimated");
-			GetComponent<Camera>().enabled = true;
-		}
-		else
-		{
-			action?.Invoke();
-		}
-	}
+    private void OnGUI()
+    {
+        if (!Active) return;
 
-	public void RefreshLoadingScreen(ActionD action)
-	{
-		if (!GetComponent<Camera>().enabled)
-		{
-			ShowLoadingScreen(action);
-			return;
-		}
-		Utils.Log("RefreshLoadingScreen");
-		_action = action;
-		StartCoroutine("RefreshScreenAnimated");
-	}
+        float w = Screen.width, h = Screen.height;
 
-	public IEnumerator LoadScreenAnimated2()
-	{
-		while (SingletonT<ServerData>.I.PlayerServerPersData == null)
-		{
-			yield return null;
-		}
-		_action();
-	}
+        // Full-screen dark backdrop (covers the blue/grey standby).
+        GUI.color = new Color(0.04f, 0.05f, 0.08f, 1f);
+        GUI.DrawTexture(new Rect(0, 0, w, h), _tex);
+        GUI.color = Color.white;
 
-	public void HideLoadingScreen()
-	{
-		if (GetComponent<Camera>().enabled)
-		{
-			Utils.Log("HideLoadingScreen");
-			Messenger.Invoke(Globals.MsgLoadingScreenHided);
-			StopAllCoroutines();
-			GetComponent<Camera>().enabled = false;
-			SpriteGui.DontReleaseButtons = false;
-			GenerateNewTip();
-		}
-	}
+        var box = new GUIStyle(GUI.skin.box);
+        box.normal.background = _tex;
 
-	private void Awake()
-	{
-		versionNumber.Text_ = " ";
-		GenerateNewTip();
-		ServerData.OnLoadingTipsReady += GenerateTipOnReady;
-	}
+        // Title
+        var title = new GUIStyle(GUI.skin.label);
+        title.fontSize = Mathf.RoundToInt(Mathf.Min(w, h) * 0.075f);
+        title.fontStyle = FontStyle.Bold;
+        title.alignment = TextAnchor.MiddleCenter;
+        title.normal.textColor = new Color(0.95f, 0.82f, 0.42f);
+        GUI.Label(new Rect(0, h * 0.34f, w, 80f), "JUGGERNAUT", title);
 
-	private void GenerateTipOnReady(ServerData data)
-	{
-		if (loadingTips.Text_ == string.Empty)
-		{
-			GenerateNewTip(data);
-		}
-	}
+        // Spinner dots (pure IMGUI — no assets needed)
+        int dots = 3 + ((int)(_t * 2f) % 3);
+        string dotsStr = "LOADING";
+        for (int i = 0; i < dots; i++) dotsStr += ".";
+        var sub = new GUIStyle(GUI.skin.label);
+        sub.fontSize = Mathf.RoundToInt(Mathf.Min(w, h) * 0.035f);
+        sub.alignment = TextAnchor.MiddleCenter;
+        sub.normal.textColor = new Color(0.75f, 0.75f, 0.7f);
+        GUI.Label(new Rect(0, h * 0.46f, w, 50f), dotsStr, sub);
 
-	private void GenerateNewTip()
-	{
-		GenerateNewTip(SingletonT<ServerData>.I);
-	}
-
-	private void GenerateNewTip(ServerData serverData)
-	{
-		if (serverData.LoadingTips != null && serverData.LoadingTips.Count > 0)
-		{
-			string text_ = serverData.LoadingTips[Random.Range(0, serverData.LoadingTips.Count)];
-			loadingTips.Text_ = text_;
-		}
-		else
-		{
-			loadingTips.Text_ = string.Empty;
-		}
-	}
-
-	private void OnEnable()
-	{
-		_subscriptions = new CompositeDisposable();
-	}
-
-	private void OnDisable()
-	{
-		_subscriptions.Dispose();
-	}
-
-	private void Update()
-	{
-		Transform transform = background.transform;
-		float num = Camera2D.ScreenWidth;
-		float num2 = Camera2D.ScreenHeight;
-		float num3 = Mathf.Max(num / 1024f, num2 / 768f);
-		transform.localScale = new Vector3(num3, num3, 1f);
-		Vector3 localPosition = transform.localPosition;
-		localPosition.x = (0f - num) / 2f;
-		transform.localPosition = localPosition;
-	}
-
-	private IEnumerator LoadScreenAnimated()
-	{
-		int n = Random.Range(1, screensCount);
-		string screenName = $"jugger_iPad_Load_screens_{n:00}";
-		string screenPath = "load_screen/fragments/" + screenName;
-		Texture2D tex = Util.Resource<Texture2D>(screenPath);
-		background.GetComponent<Renderer>().material.mainTexture = tex;
-		yield return null;
-		if (_action != null)
-		{
-			ActionD t = _action;
-			_action = null;
-			t();
-		}
-	}
-
-	private IEnumerator RefreshScreenAnimated()
-	{
-		yield return null;
-		if (_action != null)
-		{
-			ActionD t = _action;
-			_action = null;
-			t();
-		}
-	}
+        // Gold progress bar (animated)
+        float barW = Mathf.Min(500f, w * 0.6f), barH = 14f;
+        float bx = (w - barW) / 2f, by = h * 0.55f;
+        float frac = 0.15f + 0.7f * Mathf.Abs(Mathf.Sin(_t * 0.6f));
+        GUI.color = new Color(0.1f, 0.1f, 0.12f, 1f);
+        GUI.DrawTexture(new Rect(bx, by, barW, barH), _tex);
+        GUI.color = new Color(0.85f, 0.7f, 0.35f, 1f);
+        GUI.DrawTexture(new Rect(bx, by, barW * frac, barH), _tex);
+        GUI.color = Color.white;
+    }
 }

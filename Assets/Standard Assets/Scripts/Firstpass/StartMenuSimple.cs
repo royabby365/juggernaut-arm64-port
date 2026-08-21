@@ -114,22 +114,18 @@ internal class StartMenuSimple : MonoBehaviour
 		//   screens that hang without server data)
 		if (MenuButton(blockX, btnY, menuW, btnH, "NEW GAME"))
 		{
-			var menu = GameObject.Find(Globals.LocationGameObjectMainMenu)?.GetComponent<MainMenu>();
-			if (menu != null)
-			{
-				if (Globals.DebugNoBundles) menu.GoToFromStartMenuToMainMap();
-				else menu.StartNewGame();
-			}
-			else Debug.LogWarning("[StartMenuSimple] MainMenu not found, cannot start new game.");
+			// Show the loading overlay first and defer the heavy arena build by one
+			// frame so the LOADING frame actually renders (build is synchronous).
+			LoadingScreen.Show();
+			StartCoroutine(StartNewGameNextFrame());
 		}
 		btnY += btnH + gap;
 
 		// CONTINUE
 		if (MenuButton(blockX, btnY, menuW, btnH, "CONTINUE"))
 		{
-			var menu = GameObject.Find(Globals.LocationGameObjectMainMenu)?.GetComponent<MainMenu>();
-			if (menu != null) menu.GoToFromStartMenuToMainMap();
-			else Debug.LogWarning("[StartMenuSimple] MainMenu not found, cannot continue.");
+			LoadingScreen.Show();
+			StartCoroutine(StartNewGameNextFrame());
 		}
 		btnY += btnH + gap;
 
@@ -156,5 +152,22 @@ internal class StartMenuSimple : MonoBehaviour
 		GUI.backgroundColor = push;
 		GUI.color = Color.white;
 		return clicked;
+	}
+
+	/// <summary>Waits one frame so the LOADING overlay renders, then starts.</summary>
+	private System.Collections.IEnumerator StartNewGameNextFrame()
+	{
+		yield return null; // let the LoadingScreen frame draw
+		var menu = GameObject.Find(Globals.LocationGameObjectMainMenu)?.GetComponent<MainMenu>();
+		if (menu != null)
+		{
+			if (Globals.DebugNoBundles) menu.GoToFromStartMenuToMainMap();
+			else menu.StartNewGame();
+		}
+		else
+		{
+			Debug.LogWarning("[StartMenuSimple] MainMenu not found, cannot start new game.");
+			LoadingScreen.Hide();
+		}
 	}
 }
