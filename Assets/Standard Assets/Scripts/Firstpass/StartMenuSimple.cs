@@ -49,14 +49,23 @@ internal class StartMenuSimple : MonoBehaviour
 		_subStyle.normal.textColor = new Color(0.75f, 0.72f, 0.64f, 1f);
 		_subStyle.alignment = TextAnchor.MiddleCenter;
 
-		// Buttons — dark text on solid gold fill for contrast
+		// Buttons — dark text on solid gold fill for contrast. The project's
+		// default GUI.skin.button has NO baked background, so GUI.backgroundColor
+		// tinting alone yields an invisible button. Assign the solid _scrim as the
+		// explicit background; MenuButton() tints it gold via GUI.backgroundColor.
 		_buttonStyle = new GUIStyle(GUI.skin.button);
 		_buttonStyle.fontSize = Mathf.RoundToInt(34 * s);
 		_buttonStyle.fontStyle = FontStyle.Bold;
 		_buttonStyle.alignment = TextAnchor.MiddleCenter;
-		_buttonStyle.normal.textColor = new Color(0.12f, 0.10f, 0.05f, 1f);
-		_buttonStyle.hover.textColor = new Color(0.05f, 0.05f, 0.02f, 1f);
-		_buttonStyle.active.textColor = new Color(0.02f, 0.02f, 0.01f, 1f);
+		if (_scrim != null)
+		{
+			_buttonStyle.normal.background = _scrim;
+			_buttonStyle.hover.background = _scrim;
+			_buttonStyle.active.background = _scrim;
+		}
+		_buttonStyle.normal.textColor = new Color(0.08f, 0.06f, 0.03f, 1f);
+		_buttonStyle.hover.textColor = new Color(0.02f, 0.02f, 0.01f, 1f);
+		_buttonStyle.active.textColor = new Color(0.0f, 0.0f, 0.0f, 1f);
 
 		// Footer hint
 		_footerStyle = new GUIStyle(GUI.skin.label);
