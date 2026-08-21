@@ -41,6 +41,11 @@ public class CombatController : MonoBehaviour
 
     private string _phase = "FIGHT!";
 
+    // Solid 2x2 white texture used for high-contrast UI fills. The project's
+    // default GUI.skin has no baked button/box background, so tinted fills via
+    // GUI.color are the only visible way to draw HP bars and action buttons.
+    private Texture2D _uiTex;
+
     // ---- Singleton access -----------------------------------------------------
     private static CombatController _instance;
     public static CombatController Instance
@@ -314,6 +319,14 @@ public class CombatController : MonoBehaviour
     // ---- OnGUI (landscape layout, scaled) -----------------------------------
     void OnGUI()
     {
+        // Lazily create the solid fill texture (IL2CPP-safe; no sprites).
+        if (_uiTex == null)
+        {
+            _uiTex = new Texture2D(2, 2, TextureFormat.RGBA32, false);
+            _uiTex.SetPixels(new Color[] { Color.white, Color.white, Color.white, Color.white });
+            _uiTex.Apply();
+        }
+
         float w = Screen.width, h = Screen.height;
         float s = Mathf.Max(0.5f, Mathf.Min(w / 1920f, h / 1080f));
 
@@ -323,21 +336,29 @@ public class CombatController : MonoBehaviour
         float cw = 700f * s;
         var st = new GUIStyle(GUI.skin.label);
         st.fontSize = Mathf.RoundToInt(56 * s);
+        st.fontStyle = FontStyle.Bold;
         st.alignment = TextAnchor.MiddleCenter;
+        st.normal.textColor = Color.white;   // explicit: label skin text can be dark
         GUI.color = _battleOver
-            ? (_victory ? new Color(0.2f, 0.85f, 0.35f) : new Color(0.9f, 0.25f, 0.25f))
+            ? (_victory ? new Color(0.2f, 0.95f, 0.4f) : new Color(1f, 0.35f, 0.3f))
             : Color.white;
         string banner = _battleOver ? (_victory ? "VICTORY" : "DEFEAT") : _phase;
+        // Black backing box so the banner reads over the bright arena.
+        GUI.color = new Color(0f, 0f, 0f, 0.7f);
+        GUI.DrawTexture(new Rect(w / 2 - cw / 2, bannerY - 10f * s, cw, 84f * s), _uiTex);
+        GUI.color = _battleOver
+            ? (_victory ? new Color(0.2f, 0.95f, 0.4f) : new Color(1f, 0.35f, 0.3f))
+            : Color.white;
         GUI.Label(new Rect(w / 2 - cw / 2, bannerY, cw, 70 * s), banner, st);
         GUI.color = Color.white;
 
         if (_battleOver)
         {
-            var btn = new GUIStyle(GUI.skin.button);
-            btn.fontSize = Mathf.RoundToInt(32 * s);
             float bw = 360 * s, bh = 84 * s;
-            if (GUI.Button(new Rect(w / 2 - bw / 2, 460 * s, bw, bh),
-                           _victory ? "NEXT ARENA" : "RETRY", btn))
+            if (DrawObjButton(w / 2 - bw / 2, 460 * s, bw, bh,
+                              _victory ? "NEXT ARENA" : "RETRY",
+                              new Color(0.9f, 0.75f, 0.35f),   // gold
+                              new Color(0.12f, 0.08f, 0.03f), s, 34))
                 AdvanceArena();
         }
         else if (!_busy && _playerAnim != null && _playerAnim.IsReady)
@@ -346,49 +367,104 @@ public class CombatController : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Draws a solid high-contrast button (solid bg + centered label) and
+    /// returns true when clicked this frame. Manual Event hit-testing avoids
+    /// the project's transparent GUI.skin entirely (IL2CPP-safe).
+    /// </summary>
+    private bool DrawObjButton(float x, float y, float bw, float bh,
+                               string label, Color bg, Color fg, float s,
+                               int fontSize)
+    {
+        Color push = GUI.color;
+        GUI.color = bg;
+        GUI.DrawTexture(new Rect(x, y, bw, bh), _uiTex);
+        GUI.color = push;
+
+        if (!string.IsNullOrEmpty(label))
+        {
+            var st = new GUIStyle(GUI.skin.label);
+            st.fontSize = Mathf.RoundToInt(fontSize * s);
+            st.fontStyle = FontStyle.Bold;
+            st.alignment = TextAnchor.MiddleCenter;
+            st.normal.textColor = fg;
+            GUI.Label(new Rect(x, y, bw, bh), label, st);
+        }
+
+        Event e = Event.current;
+        return e.type == EventType.MouseDown
+            && new Rect(x, y, bw, bh).Contains(e.mousePosition);
+    }
+
     private void DrawActionButtons(float s, float w, float h)
     {
         float bw = 220 * s, bh = 78 * s, gap = 26 * s;
         float y = h - bh - 48 * s;
         float total = 4 * bw + 3 * gap;
         float x0 = (w - total) / 2f;
-        var st = new GUIStyle(GUI.skin.button);
-        st.fontSize = Mathf.RoundToInt(30 * s);
-        st.alignment = TextAnchor.MiddleCenter;
 
-        if (GUI.Button(new Rect(x0, y, bw, bh), "ATTACK", st)) PlayerAttack();
-        if (GUI.Button(new Rect(x0 + bw + gap, y, bw, bh), "MAGIC", st)) PlayerMagic();
-        if (GUI.Button(new Rect(x0 + 2 * (bw + gap), y, bw, bh), "BLOCK", st)) PlayerBlock();
-        if (GUI.Button(new Rect(x0 + 3 * (bw + gap), y, bw, bh), "DODGE", st)) PlayerDodge();
+        if (DrawObjButton(x0, y, bw, bh, "ATTACK",
+                          new Color(0.85f, 0.32f, 0.26f), Color.white, s, 30)) PlayerAttack();
+        if (DrawObjButton(x0 + (bw + gap), y, bw, bh, "MAGIC",
+                          new Color(0.34f, 0.5f, 0.92f), Color.white, s, 30)) PlayerMagic();
+        if (DrawObjButton(x0 + 2 * (bw + gap), y, bw, bh, "BLOCK",
+                          new Color(0.52f, 0.54f, 0.6f), new Color(0.05f, 0.05f, 0.05f), s, 30)) PlayerBlock();
+        if (DrawObjButton(x0 + 3 * (bw + gap), y, bw, bh, "DODGE",
+                          new Color(0.3f, 0.75f, 0.4f), Color.white, s, 30)) PlayerDodge();
     }
 
     private void DrawHPBars(float s, float w, float h)
     {
         float barW = 480f * s, barH = 30f * s, y = 60f * s;
 
-        // Player (left)
-        GUI.Label(new Rect(50 * s, y - 24 * s, 300 * s, 22 * s),
+        // ---- Player (left) ----
+        GUI.Label(new Rect(50 * s, y - 28 * s, 300 * s, 22 * s),
                   "YOU  " + Mathf.CeilToInt(_playerHP) + "/" + MaxHP,
-                  new GUIStyle(GUI.skin.label) { fontSize = Mathf.RoundToInt(20 * s) });
-        GUI.backgroundColor = Color.black;
-        GUI.Box(new Rect(50 * s, y, barW, barH), "");
-        float pp = Mathf.Clamp01(_playerHP / MaxHP);
-        GUI.backgroundColor = _playerHP > 35 ? new Color(0.25f, 0.8f, 0.3f) : new Color(0.9f, 0.25f, 0.2f);
-        GUI.Box(new Rect(50 * s, y, barW * pp, barH), "");
+                  HpLabelStyle(_playerHP > 35
+                      ? new Color(0.4f, 0.95f, 0.55f)
+                      : new Color(1f, 0.4f, 0.35f), s));
+        GUI.color = new Color(0.05f, 0.05f, 0.08f, 1f);          // backing
+        GUI.DrawTexture(new Rect(50 * s, y, barW, barH), _uiTex);
+        GUI.color = _playerHP > 35
+            ? new Color(0.25f, 0.85f, 0.35f)                     // green
+            : new Color(0.95f, 0.3f, 0.2f);                      // red
+        GUI.DrawTexture(new Rect(50 * s, y, barW * Mathf.Clamp01(_playerHP / MaxHP), barH), _uiTex);
+        GUI.color = new Color(0.9f, 0.9f, 0.9f, 1f);             // border
+        DrawThinBorder(50 * s, y, barW, barH);
 
-        // Enemy (right)
+        // ---- Enemy (right) ----
         float ex = w - 50 * s - barW;
-        var es = new GUIStyle(GUI.skin.label);
-        es.fontSize = Mathf.RoundToInt(20 * s);
-        es.alignment = TextAnchor.MiddleRight;
-        GUI.Label(new Rect(ex, y - 24 * s, barW, 20 * s),
-                  "ENEMY  " + Mathf.CeilToInt(_enemyHP) + "/" + MaxHP, es);
-        GUI.backgroundColor = Color.black;
-        GUI.Box(new Rect(ex, y, barW, barH), "");
-        float ep = Mathf.Clamp01(_enemyHP / MaxHP);
-        GUI.backgroundColor = _enemyHP > 35 ? new Color(0.8f, 0.35f, 0.25f) : new Color(0.9f, 0.8f, 0.2f);
-        GUI.Box(new Rect(ex, y, barW * ep, barH), "");
+        GUI.Label(new Rect(ex, y - 28 * s, barW, 22 * s),
+                  "ENEMY  " + Mathf.CeilToInt(_enemyHP) + "/" + MaxHP,
+                  HpLabelStyle(_enemyHP > 0
+                      ? new Color(1f, 0.6f, 0.5f)
+                      : new Color(1f, 0.5f, 0.45f), s));
+        GUI.color = new Color(0.05f, 0.05f, 0.08f, 1f);
+        GUI.DrawTexture(new Rect(ex, y, barW, barH), _uiTex);
+        GUI.color = _enemyHP > 35
+            ? new Color(0.85f, 0.38f, 0.28f)                     // red
+            : new Color(0.95f, 0.85f, 0.25f);                    // yellow (low)
+        GUI.DrawTexture(new Rect(ex, y, barW * Mathf.Clamp01(_enemyHP / MaxHP), barH), _uiTex);
+        GUI.color = new Color(0.9f, 0.9f, 0.9f, 1f);
+        DrawThinBorder(ex, y, barW, barH);
+        GUI.color = Color.white;
+    }
 
-        GUI.backgroundColor = Color.white;
+    private void DrawThinBorder(float x, float y, float w, float h)
+    {
+        float t = 3f;
+        GUI.DrawTexture(new Rect(x, y, w, t), _uiTex);
+        GUI.DrawTexture(new Rect(x, y + h - t, w, t), _uiTex);
+        GUI.DrawTexture(new Rect(x, y, t, h), _uiTex);
+        GUI.DrawTexture(new Rect(x + w - t, y, t, h), _uiTex);
+    }
+
+    private GUIStyle HpLabelStyle(Color c, float s)
+    {
+        var st = new GUIStyle(GUI.skin.label);
+        st.fontSize = Mathf.RoundToInt(20 * s);
+        st.alignment = TextAnchor.MiddleLeft;
+        st.normal.textColor = c;
+        return st;
     }
 }
