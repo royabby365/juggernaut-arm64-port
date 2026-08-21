@@ -13,7 +13,7 @@ using UnityEngine;
 /// It is a DontDestroyOnLoad singleton so arena victory can rebuild the arena
 /// (ArenaBuilder.Build) and re-attach to the fresh player without losing state.
 ///
-/// Controls (OnGUI, landscape):
+/// Controls (rendered by BattleUI on the arena root):
 ///   ATTACK  — sword swing, ~10-16 dmg          (player: hand_right, enemy: damage)
 ///   MAGIC   — arcane shot,   ~16-24 dmg       (player: magic_attack, enemy: damage_force)
 ///   BLOCK   — guard; incoming enemy attack reduced 70%  (player: block)
@@ -23,7 +23,21 @@ public class CombatController : MonoBehaviour
 {
     private const float MaxHP = 100f;
 
-    // ---- Battle state ----
+    // ---- Public accessors for BattleUI ----
+    public float PlayerHP { get { return _playerHP; } }
+    public float EnemyHP { get { return _enemyHP; } }
+    public bool Busy { get { return _busy; } }
+    public bool BattleOver { get { return _battleOver; } }
+    public bool Victory { get { return _victory; } }
+    public string Phase { get { return _phase; } }
+    public bool IsReady { get { return _playerAnim != null && _playerAnim.IsReady; } }
+    public void AdvanceArena() { AdvanceArenaImpl(); }
+    public void PlayerAttack() { PlayerAttackImpl(); }
+    public void PlayerMagic() { PlayerMagicImpl(); }
+    public void PlayerBlock() { PlayerBlockImpl(); }
+    public void PlayerDodge() { PlayerDodgeImpl(); }
+
+    // ---- Internal implementation follows ----
     private GameObject _arenaRoot;      // current Arena_N root (rebuilt on victory)
     private GameObject _playerGO;      // player (for enemy LookAt + placement)
     private GameObject _enemyGO;
@@ -41,10 +55,7 @@ public class CombatController : MonoBehaviour
 
     private string _phase = "FIGHT!";
 
-    // Solid 2x2 white texture used for high-contrast UI fills. The project's
-    // default GUI.skin has no baked button/box background, so tinted fills via
-    // GUI.color are the only visible way to draw HP bars and action buttons.
-    private Texture2D _uiTex;
+    private int _arenaIndex = 1;        // which Arena_N is being played (advances on win)
 
     // ---- Singleton access -----------------------------------------------------
     private static CombatController _instance;
@@ -161,21 +172,21 @@ public class CombatController : MonoBehaviour
         Debug.Log("[Battle] enemy rig spawned");
     }
 
-    // ---- Turn actions (called by OnGUI) --------------------------------------
+    // ---- Turn actions (called by BattleUI) ------------------------------------
 
-    private void PlayerAttack()
+    private void PlayerAttackImpl()
     {
         if (_battleOver || _busy) return;
         StartCoroutine(Turn_Attack());
     }
 
-    private void PlayerMagic()
+    private void PlayerMagicImpl()
     {
         if (_battleOver || _busy) return;
         StartCoroutine(Turn_Magic());
     }
 
-    private void PlayerBlock()
+    private void PlayerBlockImpl()
     {
         if (_battleOver || _busy) return;
         _playerBlocking = true;
@@ -185,7 +196,7 @@ public class CombatController : MonoBehaviour
         StartCoroutine(WaitThenEnemyTurn(0.7f));
     }
 
-    private void PlayerDodge()
+    private void PlayerDodgeImpl()
     {
         if (_battleOver || _busy) return;
         _playerDodging = true;
@@ -290,201 +301,22 @@ public class CombatController : MonoBehaviour
         anim.Play(clip);
     }
 
-    private int _arenaIndex = 1;       // which Arena_N is being played (advances on win)
-
-    private void AdvanceArena()
+    private void AdvanceArenaImpl()
     {
         _busy = false;
         if (_arenaRoot == null) return;
         if (_enemyGO != null) Destroy(_enemyGO);
 
         int next = _victory ? (_arenaIndex + 1) : _arenaIndex;
-        if (next > 11) next = 1; // the 11 extracted arenas (Arena_1 .. Arena_11)
+        if (next > 11) next = 1;
         _arenaIndex = next;
 
-        Destroy(_arenaRoot); // tear down old arena (player & geometry)
+        Destroy(_arenaRoot);
         _arenaRoot = null;
-        // NOTE: ArenaBuilder.Build itself calls Instance.AttachArena(arenaIndex,...)
-        // which re-roots to the fresh arena, re-registers Globals.PlayerGameObject,
-        // and spawns the enemy. So do NOT call AttachArena here again (that caused
-        // a redundant double-attach / double enemy spawn).
         var fresh = ArenaBuilder.Build(_arenaIndex);
         if (fresh == null) { Debug.LogError("[Battle] arena rebuild failed"); return; }
-        // _arenaRoot/_playerAnim refreshed by the Build's internal AttachArena.
         _arenaRoot = fresh;
-        _phase = "ARENA " + _arenaIndex + " — FIGHT!";
+        _phase = "ARENA " + _arenaIndex + " \u2014 FIGHT!";
         Debug.Log("[Battle] arena advanced to " + _arenaIndex);
-    }
-
-    // ---- OnGUI (landscape layout, scaled) -----------------------------------
-    void OnGUI()
-    {
-        if (!_loggedOnGui)
-        {
-            _loggedOnGui = true;
-            Debug.Log("[Battle] OnGUI first pass: uiTex=" + (_uiTex != null)
-                      + " playerAnim=" + (_playerAnim != null)
-                      + " ready=" + (_playerAnim != null && _playerAnim.IsReady)
-                      + " busy=" + _busy + " over=" + _battleOver);
-        }
-        try
-        {
-            GUIImpl();
-        }
-        catch (System.Exception ex)
-        {
-            Debug.LogError("[Battle] OnGUI threw: " + ex);
-        }
-    }
-    private bool _loggedOnGui;
-    private void GUIImpl()
-    {
-        // Lazily create the solid fill texture (IL2CPP-safe; no sprites).
-        if (_uiTex == null)
-        {
-            _uiTex = new Texture2D(2, 2, TextureFormat.RGBA32, false);
-            _uiTex.SetPixels(new Color[] { Color.white, Color.white, Color.white, Color.white });
-            _uiTex.Apply();
-        }
-
-        float w = Screen.width, h = Screen.height;
-        float s = Mathf.Max(0.5f, Mathf.Min(w / 1920f, h / 1080f));
-
-        DrawHPBars(s, w, h);
-
-        float bannerY = 120f * s;
-        float cw = 700f * s;
-        var st = new GUIStyle(GUI.skin.label);
-        st.fontSize = Mathf.RoundToInt(56 * s);
-        st.fontStyle = FontStyle.Bold;
-        st.alignment = TextAnchor.MiddleCenter;
-        st.normal.textColor = Color.white;   // explicit: label skin text can be dark
-        GUI.color = _battleOver
-            ? (_victory ? new Color(0.2f, 0.95f, 0.4f) : new Color(1f, 0.35f, 0.3f))
-            : Color.white;
-        string banner = _battleOver ? (_victory ? "VICTORY" : "DEFEAT") : _phase;
-        // Black backing box so the banner reads over the bright arena.
-        GUI.color = new Color(0f, 0f, 0f, 0.7f);
-        GUI.DrawTexture(new Rect(w / 2 - cw / 2, bannerY - 10f * s, cw, 84f * s), _uiTex);
-        GUI.color = _battleOver
-            ? (_victory ? new Color(0.2f, 0.95f, 0.4f) : new Color(1f, 0.35f, 0.3f))
-            : Color.white;
-        GUI.Label(new Rect(w / 2 - cw / 2, bannerY, cw, 70 * s), banner, st);
-        GUI.color = Color.white;
-
-        if (_battleOver)
-        {
-            float bw = 360 * s, bh = 84 * s;
-            if (DrawObjButton(w / 2 - bw / 2, 460 * s, bw, bh,
-                              _victory ? "NEXT ARENA" : "RETRY",
-                              new Color(0.9f, 0.75f, 0.35f),   // gold
-                              new Color(0.12f, 0.08f, 0.03f), s, 34))
-                AdvanceArena();
-        }
-        else if (!_busy && _playerAnim != null && _playerAnim.IsReady)
-        {
-            DrawActionButtons(s, w, h);
-        }
-    }
-
-    /// <summary>
-    /// Draws a solid high-contrast button (solid bg + centered label) and
-    /// returns true when clicked this frame. Manual Event hit-testing avoids
-    /// the project's transparent GUI.skin entirely (IL2CPP-safe).
-    /// </summary>
-    private bool DrawObjButton(float x, float y, float bw, float bh,
-                               string label, Color bg, Color fg, float s,
-                               int fontSize)
-    {
-        Color push = GUI.color;
-        GUI.color = bg;
-        GUI.DrawTexture(new Rect(x, y, bw, bh), _uiTex);
-        GUI.color = push;
-
-        if (!string.IsNullOrEmpty(label))
-        {
-            var st = new GUIStyle(GUI.skin.label);
-            st.fontSize = Mathf.RoundToInt(fontSize * s);
-            st.fontStyle = FontStyle.Bold;
-            st.alignment = TextAnchor.MiddleCenter;
-            st.normal.textColor = fg;
-            GUI.Label(new Rect(x, y, bw, bh), label, st);
-        }
-
-        Event e = Event.current;
-        return e.type == EventType.MouseDown
-            && new Rect(x, y, bw, bh).Contains(e.mousePosition);
-    }
-
-    private void DrawActionButtons(float s, float w, float h)
-    {
-        float bw = 220 * s, bh = 78 * s, gap = 26 * s;
-        float y = h - bh - 48 * s;
-        float total = 4 * bw + 3 * gap;
-        float x0 = (w - total) / 2f;
-
-        if (DrawObjButton(x0, y, bw, bh, "ATTACK",
-                          new Color(0.85f, 0.32f, 0.26f), Color.white, s, 30)) PlayerAttack();
-        if (DrawObjButton(x0 + (bw + gap), y, bw, bh, "MAGIC",
-                          new Color(0.34f, 0.5f, 0.92f), Color.white, s, 30)) PlayerMagic();
-        if (DrawObjButton(x0 + 2 * (bw + gap), y, bw, bh, "BLOCK",
-                          new Color(0.52f, 0.54f, 0.6f), new Color(0.05f, 0.05f, 0.05f), s, 30)) PlayerBlock();
-        if (DrawObjButton(x0 + 3 * (bw + gap), y, bw, bh, "DODGE",
-                          new Color(0.3f, 0.75f, 0.4f), Color.white, s, 30)) PlayerDodge();
-    }
-
-    private void DrawHPBars(float s, float w, float h)
-    {
-        float barW = 480f * s, barH = 30f * s, y = 60f * s;
-
-        // ---- Player (left) ----
-        GUI.Label(new Rect(50 * s, y - 28 * s, 300 * s, 22 * s),
-                  "YOU  " + Mathf.CeilToInt(_playerHP) + "/" + MaxHP,
-                  HpLabelStyle(_playerHP > 35
-                      ? new Color(0.4f, 0.95f, 0.55f)
-                      : new Color(1f, 0.4f, 0.35f), s));
-        GUI.color = new Color(0.05f, 0.05f, 0.08f, 1f);          // backing
-        GUI.DrawTexture(new Rect(50 * s, y, barW, barH), _uiTex);
-        GUI.color = _playerHP > 35
-            ? new Color(0.25f, 0.85f, 0.35f)                     // green
-            : new Color(0.95f, 0.3f, 0.2f);                      // red
-        GUI.DrawTexture(new Rect(50 * s, y, barW * Mathf.Clamp01(_playerHP / MaxHP), barH), _uiTex);
-        GUI.color = new Color(0.9f, 0.9f, 0.9f, 1f);             // border
-        DrawThinBorder(50 * s, y, barW, barH);
-
-        // ---- Enemy (right) ----
-        float ex = w - 50 * s - barW;
-        GUI.Label(new Rect(ex, y - 28 * s, barW, 22 * s),
-                  "ENEMY  " + Mathf.CeilToInt(_enemyHP) + "/" + MaxHP,
-                  HpLabelStyle(_enemyHP > 0
-                      ? new Color(1f, 0.6f, 0.5f)
-                      : new Color(1f, 0.5f, 0.45f), s));
-        GUI.color = new Color(0.05f, 0.05f, 0.08f, 1f);
-        GUI.DrawTexture(new Rect(ex, y, barW, barH), _uiTex);
-        GUI.color = _enemyHP > 35
-            ? new Color(0.85f, 0.38f, 0.28f)                     // red
-            : new Color(0.95f, 0.85f, 0.25f);                    // yellow (low)
-        GUI.DrawTexture(new Rect(ex, y, barW * Mathf.Clamp01(_enemyHP / MaxHP), barH), _uiTex);
-        GUI.color = new Color(0.9f, 0.9f, 0.9f, 1f);
-        DrawThinBorder(ex, y, barW, barH);
-        GUI.color = Color.white;
-    }
-
-    private void DrawThinBorder(float x, float y, float w, float h)
-    {
-        float t = 3f;
-        GUI.DrawTexture(new Rect(x, y, w, t), _uiTex);
-        GUI.DrawTexture(new Rect(x, y + h - t, w, t), _uiTex);
-        GUI.DrawTexture(new Rect(x, y, t, h), _uiTex);
-        GUI.DrawTexture(new Rect(x + w - t, y, t, h), _uiTex);
-    }
-
-    private GUIStyle HpLabelStyle(Color c, float s)
-    {
-        var st = new GUIStyle(GUI.skin.label);
-        st.fontSize = Mathf.RoundToInt(20 * s);
-        st.alignment = TextAnchor.MiddleLeft;
-        st.normal.textColor = c;
-        return st;
     }
 }

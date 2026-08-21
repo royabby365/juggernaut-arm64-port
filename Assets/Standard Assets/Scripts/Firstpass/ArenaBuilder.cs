@@ -184,6 +184,15 @@ public static class ArenaBuilder
             CombatController.Instance.AttachArena(arenaIndex, root, player);
         }
 
+        // BattleUI draws visible HP bars + action buttons via OnGUI on this
+        // arena root (which lives in the camera-active scene), NOT on the
+        // CombatController singleton (whose DontDestroyOnLoad GO loses its
+        // OnGUI after scene transitions).
+        if (root != null && root.GetComponent<BattleUI>() == null)
+        {
+            root.AddComponent<BattleUI>();
+        }
+
         return root;
     }
 
