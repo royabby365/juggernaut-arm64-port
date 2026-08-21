@@ -185,9 +185,7 @@ public static class ArenaBuilder
         }
 
         // BattleUI draws visible HP bars + action buttons via OnGUI.
-        // Static flag ensures only one instance; Flag.dontSave prevents Unity
-        // from garbage-collecting it on scene transitions.
-        Debug.Log("[ArenaBuilder] spawning BattleUI (guard=" + !_battleUISpawned + ")");
+        // Static flag ensures only one instance.
         if (!_battleUISpawned)
         {
             _battleUISpawned = true;

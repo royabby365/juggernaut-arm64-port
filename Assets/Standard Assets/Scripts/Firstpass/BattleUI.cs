@@ -14,12 +14,6 @@ public class BattleUI : MonoBehaviour
 
     void OnGUI()
     {
-        // Marker to confirm OnGUI runs
-        var ds = new GUIStyle(GUI.skin.label) { fontSize = 40, fontStyle = FontStyle.Bold };
-        ds.normal.textColor = Color.yellow;
-        ds.alignment = TextAnchor.LowerRight;
-        GUI.Label(new Rect(0, Screen.height - 50, Screen.width - 10, 45), "BATTLE UI", ds);
-
         CombatController cc = CombatController.Instance;
         if (cc == null) return;
 
