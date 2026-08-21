@@ -157,17 +157,9 @@ internal class StartMenuSimple : MonoBehaviour
 	/// <summary>Waits one frame so the LOADING overlay renders, then starts.</summary>
 	private System.Collections.IEnumerator StartNewGameNextFrame()
 	{
-		yield return null; // let the LoadingScreen frame draw
-		var menu = GameObject.Find(Globals.LocationGameObjectMainMenu)?.GetComponent<MainMenu>();
-		if (menu != null)
-		{
-			if (Globals.DebugNoBundles) menu.GoToFromStartMenuToMainMap();
-			else menu.StartNewGame();
-		}
-		else
-		{
-			Debug.LogWarning("[StartMenuSimple] MainMenu not found, cannot start new game.");
-			PortLoadingScreen.Hide();
-		}
+		// Yield on THIS GameObject WILL be killed by DestroyAllForce when the
+		// battle loads. Delegate to PortLoadingScreen which is DontDestroyOnLoad.
+		PortLoadingScreen.ScheduleNewGame();
+		yield break;
 	}
 }

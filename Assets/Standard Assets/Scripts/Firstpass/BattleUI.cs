@@ -94,9 +94,9 @@ public class BattleUI : MonoBehaviour
     }
 
     private System.Collections.IEnumerator AdvanceNextFrame(CombatController cc)
-    {
-        yield return null; // let the loading frame render
-        if (cc != null) cc.AdvanceArena();
-        else PortLoadingScreen.Hide();
-    }
+        {
+            yield return null; // let the loading frame render
+            if (cc != null) cc.AdvanceArena();
+            else PortLoadingScreen.Hide();
+        }
 }

@@ -41,6 +41,33 @@ public class PortLoadingScreen : MonoBehaviour
         Active = false;
     }
 
+    /// <summary>
+    /// Call from StartMenuSimple (or any scene GO that will be destroyed).
+    /// Shows the loading overlay, then waits one frame on THIS DontDestroyOnLoad
+    /// GO so the overlay renders before the synchronous arena build starts.
+    /// </summary>
+    public static void ScheduleNewGame()
+    {
+        Show();
+        Instance.StartCoroutine(Instance.DeferredStart());
+    }
+
+    private System.Collections.IEnumerator DeferredStart()
+    {
+        yield return null; // let the loading frame draw
+        var menu = GameObject.Find(Globals.LocationGameObjectMainMenu)?.GetComponent<MainMenu>();
+        if (menu != null)
+        {
+            if (Globals.DebugNoBundles) menu.GoToFromStartMenuToMainMap();
+            else menu.StartNewGame();
+        }
+        else
+        {
+            Debug.LogWarning("[PortLoading] MainMenu not found, cannot start.");
+            Hide();
+        }
+    }
+
     private void Awake()
     {
         _tex = new Texture2D(2, 2, TextureFormat.RGBA32, false);

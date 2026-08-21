@@ -182,16 +182,16 @@ public static class ArenaBuilder
         // Aim the render camera at the player's chest (static view, framing both
         // fighters against the darker background, not the blue floor).
         Vector3 lookTarget = (player != null)
-            ? player.transform.position + new Vector3(0f, 1.5f, 0f)
-            : new Vector3(0f, 1.5f, 0f);
+            ? player.transform.position + new Vector3(0f, 1.1f, 0f)
+            : new Vector3(0f, 1.1f, 0f);
         if (camChild != null)
         {
-            camChild.position = new Vector3(0f, 2.5f, -7f);
+            camChild.position = new Vector3(0f, 2.2f, -5.2f);
             camChild.LookAt(lookTarget);
         }
         else
         {
-            camRoot.transform.position = new Vector3(0f, 2.5f, -7f);
+            camRoot.transform.position = new Vector3(0f, 2.2f, -5.2f);
             camRoot.transform.LookAt(lookTarget);
         }
 
