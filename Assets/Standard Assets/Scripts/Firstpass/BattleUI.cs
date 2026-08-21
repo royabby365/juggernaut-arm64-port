@@ -25,8 +25,29 @@ public class BattleUI : MonoBehaviour
 
     private void OnGUI()
     {
+        try
+        {
+            OnGUIImpl();
+        }
+        catch (System.Exception ex)
+        {
+            Debug.LogError("[BattleUI] OnGUI exception: " + ex);
+        }
+    }
+
+    private void OnGUIImpl()
+    {
+        // Confirm OnGUI fires every frame with this marker text.
+        var diag = new GUIStyle(GUI.skin.label);
+        diag.fontSize = 48;
+        diag.fontStyle = FontStyle.Bold;
+        diag.normal.textColor = Color.red;
+        diag.alignment = TextAnchor.LowerRight;
+        GUI.Label(new Rect(0, Screen.height - 50, Screen.width - 10, 40),
+                  "BATTLE", diag);
+
         var cc = CombatController.Instance;
-        if (cc == null) return;
+        if (cc == null) { Debug.LogWarning("[BattleUI] cc null"); return; }
 
         float w = Screen.width, h = Screen.height;
         float s = Mathf.Max(0.5f, Mathf.Min(w / 1920f, h / 1080f));
