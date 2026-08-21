@@ -648,7 +648,7 @@ public static class Globals
 
 	internal static readonly bool DebugUseLocalSocialPosting = BuildType != BuildTypeE.InnerRelease && false;
 
-	public static bool DebugStartMenuSimple = false;
+	public static bool DebugStartMenuSimple = true;
 
 	public static readonly bool DebugLoadSoundsABOnly = false;
 
