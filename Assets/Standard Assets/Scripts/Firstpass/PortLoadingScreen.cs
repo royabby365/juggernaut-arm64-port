@@ -55,16 +55,39 @@ public class PortLoadingScreen : MonoBehaviour
     private System.Collections.IEnumerator DeferredStart()
     {
         yield return null; // let the loading frame draw
-        var menu = GameObject.Find(Globals.LocationGameObjectMainMenu)?.GetComponent<MainMenu>();
-        if (menu != null)
+
+        if (Globals.DebugNoBundles)
         {
-            if (Globals.DebugNoBundles) menu.GoToFromStartMenuToMainMap();
-            else menu.StartNewGame();
+            // ---- DIRECT ARENA ENTRY (port mode) ----
+            // Bypass the original game's StartNewGame → GoToPlayerSelect →
+            // GoToBattleFromMap → Battle chain entirely. That path creates a
+            // conflicting Battle object and expects asset bundles / server data
+            // that don't exist in this offline port.
+            //
+            // ArenaBuilder.Build() does everything needed:
+            //   1. Creates arena geometry (baked OBJ from Resources/__arena<N>)
+            //   2. Applies extracted textures (Resources/__textures/)
+            //   3. Builds a fully skinned, animated warrior (SkinnedRigBuilder)
+            //   4. Sets up camera (renderCam on the "camera" GameObject)
+            //   5. Attaches CombatController (turn-based battle system)
+            //   6. Spawns BattleUI (OnGUI HP bars + action buttons)
+            // CombatController.AttachArena() hides this loading overlay.
+            var menuGO = GameObject.Find(Globals.LocationGameObjectMainMenu);
+            if (menuGO != null) Object.Destroy(menuGO);
+            ArenaBuilder.Build(1);
         }
         else
         {
-            Debug.LogWarning("[PortLoading] MainMenu not found, cannot start.");
-            Hide();
+            var menu = GameObject.Find(Globals.LocationGameObjectMainMenu)?.GetComponent<MainMenu>();
+            if (menu != null)
+            {
+                menu.StartNewGame();
+            }
+            else
+            {
+                Debug.LogWarning("[PortLoading] MainMenu not found, cannot start.");
+                Hide();
+            }
         }
     }
 
