@@ -96,5 +96,11 @@ docker run --rm \
   '; echo "[container] done"
 RC=$?
 echo "[local_build] container exit=$RC"
+# Fix root-owned artifacts from Docker build (Library/Bee/Android files are
+# created as root inside the unityci container). Next runner cleanup would
+# fail with EACCES trying to rmdir root-owned dirs.
+if [ -d "$REPO/Library/Bee" ]; then
+  chown -R "$(stat -c '%u:%g' "$REPO")" "$REPO/Library/Bee" 2>/dev/null || true
+fi
 ls -la "$REPO/build/"*.apk 2>/dev/null && echo "[local_build] APK produced (build/juggernaut-arm64.apk)" || echo "[local_build] no APK yet"
 exit $RC

@@ -111,6 +111,12 @@ jobs:
             '; echo "[container] done"
           RC=$?
           echo "[build] container exit=$RC"
+          # Fix root-owned artifacts from Docker build. Library/Bee/ files are
+          # created as root inside the unityci container; next runner cleanup
+          # would fail with EACCES trying to rmdir root-owned dirs.
+          if [ -d "$REPO/Library/Bee" ]; then
+            chown -R "$(stat -c '%u:%g' "$REPO")" "$REPO/Library/Bee" 2>/dev/null || true
+          fi
           ls -la "$REPO/build/Android/" 2>/dev/null | grep -E "apk|aab" && echo "[build] APK produced" || echo "[build] no APK yet"
           exit $RC
 
