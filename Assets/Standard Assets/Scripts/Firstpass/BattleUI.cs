@@ -12,10 +12,16 @@ using UnityEngine;
 public class BattleUI : MonoBehaviour
 {
     private Texture2D _tex;
+    private bool _loggedOn;
 
     private void EnsureTex()
     {
         if (_tex != null) return;
+        if (!_loggedOn)
+        {
+            _loggedOn = true;
+            Debug.Log("[BattleUI] startup on " + gameObject.name);
+        }
         _tex = new Texture2D(2, 2, TextureFormat.RGBA32, false);
         _tex.SetPixels(new Color[] { Color.white, Color.white, Color.white, Color.white });
         _tex.Apply();
