@@ -185,19 +185,21 @@ public static class ArenaBuilder
         }
 
         // BattleUI draws visible HP bars + action buttons via OnGUI.
-        // We create a dedicated GO instead of attaching to a scene object,
-        // because some scene GOs lose their OnGUI in this game's transition
-        // pipeline. The dedicated GO uses HideAndDontSave to survive rebuilds.
-        if (GameObject.Find("__battle_ui") == null)
+        // Static flag ensures only one instance; Flag.dontSave prevents Unity
+        // from garbage-collecting it on scene transitions.
+        Debug.Log("[ArenaBuilder] spawning BattleUI (guard=" + !_battleUISpawned + ")");
+        if (!_battleUISpawned)
         {
+            _battleUISpawned = true;
             var uiGO = new GameObject("__battle_ui");
-            uiGO.hideFlags = HideFlags.HideAndDontSave;
-            uiGO.AddComponent<BattleUI>();
             GameObject.DontDestroyOnLoad(uiGO);
+            uiGO.AddComponent<BattleUI>();
+            uiGO.hideFlags = HideFlags.HideAndDontSave;
         }
 
         return root;
     }
+    private static bool _battleUISpawned;
 
     private static GameObject SpawnHero(GameObject root, CharacterBuilder.Variant variant, Vector3 pos)
     {
