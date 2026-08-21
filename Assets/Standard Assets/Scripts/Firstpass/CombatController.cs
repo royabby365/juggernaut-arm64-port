@@ -113,6 +113,34 @@ public class CombatController : MonoBehaviour
 
         SpawnEnemy();
         Debug.Log("[Battle] attached. you " + _playerHP + ", enemy " + _enemyHP);
+
+        // ---- DIAGNOSTIC: ground-truth dump of rig + camera state ----
+        try
+        {
+            if (_playerGO != null)
+                Debug.Log("[Battle] player pos=" + _playerGO.transform.position
+                          + " scale=" + _playerGO.transform.lossyScale
+                          + " active=" + _playerGO.activeInHierarchy);
+            if (_enemyGO != null)
+                Debug.Log("[Battle] enemy pos=" + _enemyGO.transform.position
+                          + " scale=" + _enemyGO.transform.lossyScale
+                          + " active=" + _enemyGO.activeInHierarchy);
+            if (_playerGO != null)
+            {
+                var smrs = _playerGO.GetComponentsInChildren<SkinnedMeshRenderer>(true);
+                foreach (var smr in smrs)
+                    Debug.Log("[Battle] smr " + smr.gameObject.name + " enabled=" + smr.enabled
+                              + " bounds=" + smr.localBounds + " verts=" + (smr.sharedMesh != null ? smr.sharedMesh.vertexCount : -1));
+            }
+            int camN = 0;
+            foreach (var c in Camera.allCameras)
+                Debug.Log("[Battle] cam" + (camN++) + " " + c.gameObject.name + " enabled=" + c.enabled
+                          + " pos=" + c.transform.position + " rot=" + c.transform.rotation.eulerAngles);
+        }
+        catch (System.Exception dex)
+        {
+            Debug.Log("[Battle] diag threw: " + dex.Message);
+        }
     }
 
     private void SpawnEnemy()
