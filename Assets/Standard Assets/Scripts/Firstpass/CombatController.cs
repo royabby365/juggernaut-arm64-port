@@ -319,6 +319,26 @@ public class CombatController : MonoBehaviour
     // ---- OnGUI (landscape layout, scaled) -----------------------------------
     void OnGUI()
     {
+        if (!_loggedOnGui)
+        {
+            _loggedOnGui = true;
+            Debug.Log("[Battle] OnGUI first pass: uiTex=" + (_uiTex != null)
+                      + " playerAnim=" + (_playerAnim != null)
+                      + " ready=" + (_playerAnim != null && _playerAnim.IsReady)
+                      + " busy=" + _busy + " over=" + _battleOver);
+        }
+        try
+        {
+            GUIImpl();
+        }
+        catch (System.Exception ex)
+        {
+            Debug.LogError("[Battle] OnGUI threw: " + ex);
+        }
+    }
+    private bool _loggedOnGui;
+    private void GUIImpl()
+    {
         // Lazily create the solid fill texture (IL2CPP-safe; no sprites).
         if (_uiTex == null)
         {
