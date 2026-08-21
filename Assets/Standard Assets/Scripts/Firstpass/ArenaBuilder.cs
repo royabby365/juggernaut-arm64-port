@@ -184,13 +184,16 @@ public static class ArenaBuilder
             CombatController.Instance.AttachArena(arenaIndex, root, player);
         }
 
-        // BattleUI draws visible HP bars + action buttons via OnGUI on this
-        // arena root (which lives in the camera-active scene), NOT on the
-        // CombatController singleton (whose DontDestroyOnLoad GO loses its
-        // OnGUI after scene transitions).
-        if (root != null && root.GetComponent<BattleUI>() == null)
+        // BattleUI draws visible HP bars + action buttons via OnGUI.
+        // We create a dedicated GO instead of attaching to a scene object,
+        // because some scene GOs lose their OnGUI in this game's transition
+        // pipeline. The dedicated GO uses HideAndDontSave to survive rebuilds.
+        if (GameObject.Find("__battle_ui") == null)
         {
-            root.AddComponent<BattleUI>();
+            var uiGO = new GameObject("__battle_ui");
+            uiGO.hideFlags = HideFlags.HideAndDontSave;
+            uiGO.AddComponent<BattleUI>();
+            GameObject.DontDestroyOnLoad(uiGO);
         }
 
         return root;
