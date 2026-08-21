@@ -18,12 +18,13 @@ public class StartBattleCamera : MonoBehaviour
 	{
 		_camera = GameObject.Find(Globals.LocationGameObjectBattleCamera);
 		GameObject gameObject = GameObject.Find("arena_center");
-		_target = gameObject.transform.position;
+		_target = gameObject != null ? gameObject.transform.position : Vector3.zero;
 		_dir = ((Random.value > 0.5f) ? 1 : (-1));
 	}
 
 	private void Update()
 	{
+		if (_camera == null) return;
 		Quaternion quaternion = Quaternion.Euler(_speed * Time.time * _dir);
 		_camera.transform.rotation = quaternion;
 		_camera.transform.position = quaternion * (_target + new Vector3(0f, _height, 0f - _radius));

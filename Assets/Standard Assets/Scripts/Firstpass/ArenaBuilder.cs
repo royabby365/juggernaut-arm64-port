@@ -153,28 +153,64 @@ public static class ArenaBuilder
         if (camRoot == null)
         {
             camRoot = new GameObject(Globals.LocationGameObjectBattleCamera);
-            camRoot.transform.position = new Vector3(4f, 2f, -5f);
         }
-        if (camRoot.GetComponent<Camera>() == null)
+        camRoot.transform.position = new Vector3(0f, 2.5f, -5.2f);
+
+        // The real render camera lives on the camera_upper CHILD (CreateBattleCamera
+        // renames the placeholder root to "camera", the Camera is on the child).
+        // NEVER add a Camera to the root — it renders at origin looking +Z
+        // (inside the player) and wins the last-render slot, blanking the scene.
+        Transform camChild = camRoot.transform.FindChildByName("camera_upper");
+        Camera renderCam = camChild != null ? camChild.GetComponent<Camera>() : null;
+        if (renderCam == null) renderCam = camRoot.GetComponent<Camera>();
+        if (renderCam == null) renderCam = camRoot.AddComponent<Camera>();
+
+        renderCam.enabled = true;
+        renderCam.clearFlags = CameraClearFlags.SolidColor;
+        renderCam.backgroundColor = new Color(0.3f, 0.4f, 0.6f);
+        renderCam.nearClipPlane = 0.3f;
+        renderCam.farClipPlane = 200f;
+        renderCam.fieldOfView = 60f;
+        if (renderCam.GetComponent<AudioListener>() == null)
+            renderCam.gameObject.AddComponent<AudioListener>();
+
+        // If the root itself carries a Camera (from older placeholder paths),
+        // disable it so the child renderCam is the only one on this root.
+        var rootCam = camRoot.GetComponent<Camera>();
+        if (rootCam != null && rootCam != renderCam) rootCam.enabled = false;
+
+        // Aim the render camera at the player's chest (deterministic static view).
+        Vector3 lookTarget = (player != null)
+            ? player.transform.position + new Vector3(0f, 1.1f, 0f)
+            : Vector3.zero;
+        if (camChild != null)
         {
-            var cam = camRoot.AddComponent<Camera>();
-            cam.clearFlags = CameraClearFlags.SolidColor;
-            cam.backgroundColor = new Color(0.3f, 0.4f, 0.6f);
-            cam.nearClipPlane = 0.3f;
-            cam.farClipPlane = 100f;
-            cam.fieldOfView = 60f;
-            if (camRoot.GetComponent<AudioListener>() == null)
-                camRoot.AddComponent<AudioListener>();
+            camChild.position = new Vector3(0f, 2.2f, -5.2f);
+            camChild.LookAt(lookTarget);
         }
-        if (camRoot.GetComponent<StartBattleCamera>() == null && skinned != null &&
-            GameObject.Find("arena_center") != null)
+        else
         {
-            // Replace the debug orbit with a shoulder-ish static view.
-            // Pull back far enough (radius ~6.5, height ~3) that the PLAYER and
-            // ENEMY both fit in frame — the default 3.2/1.9 crops heads/edges.
-            var sbc = camRoot.AddComponent<StartBattleCamera>();
-            sbc.SetParams(6.5f, 3.0f, 0f); // speed 0 => no orbit, fixed offset
+            camRoot.transform.LookAt(lookTarget);
         }
+
+        // Kill StartBattleCamera components that fight the static framing
+        // (their offset math double-moves the child; the fallback one NREs on
+        // timing). We want ONE fixed camera for the port.
+        foreach (var s in camRoot.GetComponentsInChildren<StartBattleCamera>(true))
+            Object.Destroy(s);
+        var battleFallback = GameObject.Find("__battle");
+        if (battleFallback != null)
+        {
+            var sbc2 = battleFallback.GetComponent<StartBattleCamera>();
+            if (sbc2 != null) sbc2.enabled = false;
+        }
+
+        // Camera cleanup: exactly ONE enabled camera — the renderCam.
+        foreach (var c in Camera.allCameras)
+            if (c != renderCam) c.enabled = false;
+
+        Debug.Log("[ArenaBuilder] battle camera set: " + renderCam.gameObject.name
+                  + " at " + renderCam.transform.position + " looking at " + lookTarget);
 
         // ---- Turn-based battle controller ----
         // Root singleton to this arena, driving the real extracted clips via
